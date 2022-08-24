@@ -1,0 +1,438 @@
+Lichen metagenomes	Source	Produced	Run	Batch	architecture	family	order	class	photobiont
+Acarospora_spec	Resl et al. 2021	"Spribille Lab, University of Alberta"	T1882	second	crust		Acarosporales	Lecanoromycetes	trebouxioid
+Hypocenomyce_scalaris	Resl et al. 2021	"Spribille Lab, University of Alberta"	T1881	second	crust		Umbilicariales	Lecanoromycetes	trebouxioid
+Bachmanniomyces_S44760	Resl et al. 2021	"Spribille Lab, University of Alberta"	T1894	second	crust		Ostropomycetidae ins. ced.	Lecanoromycetes	?
+Lignoscripta_atroalba	Resl et al. 2021	"Spribille Lab, University of Alberta"	T1887	second	crust		Baeomycetales	Lecanoromycetes	trebouxioid
+Loxospora_cismonica	Resl et al. 2021	"Spribille Lab, University of Alberta"	X13	second	crust		Sarrameanales	Lecanoromycetes	trebouxioid
+Mycoblastus_sanguinarius	Resl et al. 2021	"Spribille Lab, University of Alberta"	T1914	second	crust	Tephromelataceae	Lecanorales	Lecanoromycetes	trebouxioid
+Ptychographa_xylographoides	Resl et al. 2021	"Spribille Lab, University of Alberta"	T1868	second	crust		Baeomycetales	Lecanoromycetes	trebouxioid
+Puttea_exsequens	Resl et al. 2021	"Spribille Lab, University of Alberta"	T1888	second	crust		Lecanorales	Lecanoromycetes	trebouxioid
+Schaereria_dolodes	Resl et al. 2021	"Spribille Lab, University of Alberta"	X15	second	crust		Schaereriales	Lecanoromycetes	trebouxioid
+Thelotrema_lepadinum	Resl et al. 2021	"Spribille Lab, University of Alberta"	T1916	second	crust		Gyalectales	Lecanoromycetes	trentepohlioid
+Toensbergia_leucococca	Resl et al. 2021	"Spribille Lab, University of Alberta"	T1904	second	crust		Rhizocarpales	Lecanoromycetes	trebouxioid
+Varicellaria_rhodocarpa	Resl et al. 2021	"Spribille Lab, University of Alberta"	T1912	second	crust		Pertusariales	Lecanoromycetes	trebouxioid
+Xylographa_carneopallida	Resl et al. 2021	"Spribille Lab, University of Alberta"	T1889	second	crust		Baeomycetales	Lecanoromycetes	trebouxioid
+Xylographa_vitiligo	Resl et al. 2021	"Spribille Lab, University of Alberta"	T1867	second	crust		Baeomycetales	Lecanoromycetes	trebouxioid
+Gomphillus americanus	Tagirdzhanova et al. 2021a	"Spribille Lab, University of Alberta"	GTX0158	second	crust		Gyalectales	Lecanoromycetes	trebouxioid
+Alectoria fallacina	Tagirdzhanova et al. 2021a	"Spribille Lab, University of Alberta"	GTX0161	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Heterodermia speciosa	Tagirdzhanova et al. 2021a	"Spribille Lab, University of Alberta"	GTX0163	second	macro	Physciaceae	Caliciales	Lecanoromycetes	trebouxioid
+Imshaugia aleurites	Tagirdzhanova et al. 2021a	"Spribille Lab, University of Alberta"	TS1974	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Xanthoparmelia neocumberlandia	Smith et al. 2020	Brigham Young University	SRR12240174	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Xanthoparmelia aff.chlorochroa	Smith et al. 2020	Brigham Young University	SRR12240180	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Physciella chloantha	Smith et al. 2020	Brigham Young University	SRR12240182	second	macro	Physciaceae	Caliciales	Lecanoromycetes	trebouxioid
+Mobergia calculiformis	Smith et al. 2020	Brigham Young University	SRR12240185	second	macro	Physciaceae	Caliciales	Lecanoromycetes	trebouxioid
+Physcia biziana	Smith et al. 2020	Brigham Young University	SRR12240183	second	macro	Physciaceae	Caliciales	Lecanoromycetes	trebouxioid
+Peltigera malacea	Cornet et al. 2021	"Sequenced in University of Iowa, Submitted by University of Liege"	SRR11456913	second	macro	Peltigeraceae	Peltigerales	Lecanoromycetes	cyano
+Peltigera extenuata	Cornet et al. 2021	"Sequenced in University of Iowa, Submitted by University of Liege"	SRR11456914	second	macro	Peltigeraceae	Peltigerales	Lecanoromycetes	cyano
+Peltigera aphthosa	Cornet et al. 2021	"Sequenced in University of Iowa, Submitted by University of Liege"	SRR11456915	second	macro	Peltigeraceae	Peltigerales	Lecanoromycetes	trebouxioid_cyano
+Peltigera phyllidiosa	Cornet et al. 2021	"Sequenced in Duke University, Submitted by University of Liege"	SRR11456917	second	macro	Peltigeraceae	Peltigerales	Lecanoromycetes	cyano
+Solorina crocea	Cornet et al. 2021	"Sequenced in Duke University, Submitted by University of Liege"	SRR11456919	second	macro	Peltigeraceae	Peltigerales	Lecanoromycetes	trebouxioid_cyano
+Peltigera evansiana	Cornet et al. 2021	"Sequenced in University of Iowa, Submitted by University of Liege"	SRR11456921	second	macro	Peltigeraceae	Peltigerales	Lecanoromycetes	trebouxioid_cyano
+Letharia lupina	Tuovinen et al. 2019	Uppsala University	SRR7232214	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Letharia columbiana	Tuovinen et al. 2019	Uppsala University	SRR7232213	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Letharia rugosa	Tuovinen et al. 2019	Uppsala University	SRR7232212	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Letharia vulpina	Tuovinen et al. 2019	Uppsala University	SRR7232211	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Evernia prunastri	Meiser et al. 2017	Senckenberg Biodiversity and Climate Research Centre	SRR5808930	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Pseudevernia furfuracea	Meiser et al. 2017	Senckenberg Biodiversity and Climate Research Centre	SRR5808932	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Arthonia susa	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR13685140	first	crust		Arthoniales	Arthoniomycetes	trentepohlioid
+Opegrapha vulgata	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR13685142	first	crust		Arthoniales	Arthoniomycetes	trentepohlioid
+Lecanora cinereofusca	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR13685153	first	crust	Lecanoraceae	Lecanorales	Lecanoromycetes	trebouxioid
+Gomphillus americanus	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR13685154	first	crust		Gyalectales	Lecanoromycetes	trebouxioid
+Phyllopsora corallina	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR13685157	first	crust	Ramalinaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Phlyctis boliviensis	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR13685158	first	crust		Gyalectales	Lecanoromycetes	trebouxioid
+Icmadophila ericetorum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR13685159	first	crust		Pertusariales	Lecanoromycetes	trebouxioid
+Heterodermia casarettiana	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR13685161	first	macro	Physciaceae	Caliciales	Lecanoromycetes	trebouxioid
+Usnea subfusca	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR13685162	first	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Menegazzia subsimilis	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR13685163	first	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Usnea ceratina	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR13685164	first	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Usnea cornuta	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR13685165	first	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Enchylium coccophorum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721921	second	macro		Peltigerales	Lecanoromycetes	cyano
+Heterodermia albicans	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721922	second	macro	Physciaceae	Caliciales	Lecanoromycetes	trebouxioid
+Acanthothecis fontana	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721923	second	crust	Graphidaceae Dumort.	Gyalectales	Lecanoromycetes	trentepohlioid
+Placidium arboreum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721924	second	crust		Verrucariales	Eurotiomycetes	trebouxioid
+Heterodermia speciosa	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721925	second	macro	Physciaceae	Caliciales	Lecanoromycetes	trebouxioid
+Buellia mamillana	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721926	second	crust		Caliciales	Lecanoromycetes	trebouxioid
+Crespoa crozalsiana	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721927	second	crust	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Leptogium hirsutum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721928	second	macro		Peltigerales	Lecanoromycetes	cyano
+Buellia stillingiana	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721929	second	crust		Caliciales	Lecanoromycetes	trebouxioid
+Leptogium corticola	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721930	second	macro		Peltigerales	Lecanoromycetes	cyano
+Phaeophyscia rubropulchra	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721931	second	macro	Physciaceae	Caliciales	Lecanoromycetes	trebouxioid
+Thelotrema subtile	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721932	second	crust		Gyalectales	Lecanoromycetes	trentepohlioid
+Bathelium carolinianum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721933	second	crust		Strigulales	Dothideomycetes	trentepohlioid
+Sporodophoron americanum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721934	second	crust		Arthoniales	Arthoniomycetes	trentepohlioid
+Parmotrema submarginale	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721935	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Cladonia peziziformis	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721936	second	macro	Cladoniaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Dermatocarpon luridum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721937	second	macro		Verrucariales	Eurotiomycetes	trebouxioid
+Anaptychia palmatula	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721938	second	macro	Physciaceae	Caliciales	Lecanoromycetes	trebouxioid
+Cladonia polycarpoides	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721939	second	macro	Cladoniaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Porpidia subsimplex	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721941	second	crust		Lecideales	Lecanoromycetes	trebouxioid
+Bulbothrix scortella	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721942	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Parmotrema neotropicum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721943	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Pyrrhospora varians	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721944	second	crust	Lecanoraceae	Lecanorales	Lecanoromycetes	trebouxioid
+Trapelia placodioides	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721945	second	crust		Baeomycetales	Lecanoromycetes	trebouxioid
+Thelotrema defectum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721946	second	crust		Gyalectales	Lecanoromycetes	trentepohlioid
+Usnea mutabilis	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721947	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Porpidia albocaerulescens	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721948	second	crust		Lecideales	Lecanoromycetes	trebouxioid
+Buellia spuria	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721949	second	crust		Caliciales	Lecanoromycetes	trebouxioid
+Pseudosagedia chlorotica	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721950	second	macro		Gyalectales	Lecanoromycetes	trentepohlioid
+Cladonia ochrochlora	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721952	second	macro	Cladoniaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Pannaria tavaresii	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721953	second	macro		Peltigerales	Lecanoromycetes	cyano
+Collema furfuraceum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721954	second	macro		Peltigerales	Lecanoromycetes	cyano
+Halecania pepegospora	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721955	second	crust		Leprocaulales	Lecanoromycetes	trebouxioid
+Parmotrema ultralucens	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721956	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Ephebe solida	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721957	second	macro		Lichinales	Lichinomycetes	cyano
+Dibaeis absoluta	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721958	second	crust		Pertusariales	Lecanoromycetes	trebouxioid
+Ionaspis lacustris	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721959	second	crust		Baeomycetales	Lecanoromycetes	trebouxioid
+Phyllopsora corallina	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721960	second	crust	Ramalinaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Dermatocarpon muhlenbergii	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721961	second	macro		Verrucariales	Eurotiomycetes	trebouxioid
+Ramalina petrina	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721962	second	macro	Ramalinaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Phyllopsora parvifolia	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721964	second	crust	Ramalinaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Cladonia petrophila	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721965	second	crust	Cladoniaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Opegrapha moroziana	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721966	second	crust		Arthoniales	Arthoniomycetes	trentepohlioid
+Phaeophyscia adiastola	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721967	second	macro	Physciaceae	Caliciales	Lecanoromycetes	trebouxioid
+Botryolepraria lesdainii	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721968	second	crust		Verrucariales	Eurotiomycetes	trebouxioid
+Chrysothrix onokoensis	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721969	second	crust		Arthoniales	Arthoniomycetes	trebouxioid
+Leucodecton sp. Tripp_6156_NY-2796959	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721970	second	crust		Gyalectales	Lecanoromycetes	trentepohlioid
+Porina heterospora	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721971	second	crust		Gyalectales	Lecanoromycetes	trentepohlioid
+Sticta carolinensis	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721972	second	macro		Peltigerales	Lecanoromycetes	cyano
+Fissurina insidiosa	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721973	second	crust		Gyalectales	Lecanoromycetes	trentepohlioid
+Hypotrachyna catawbiensis	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721974	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Leptogium cyanescens	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721975	second	macro		Peltigerales	Lecanoromycetes	cyano
+Porina scabrida	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721976	second	crust		Gyalectales	Lecanoromycetes	trentepohlioid
+Pseudosagedia cestrensis	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721977	second	crust		Gyalectales	Lecanoromycetes	trentepohlioid
+Arthonia rubella	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721978	second	crust		Arthoniales	Arthoniomycetes	trebouxioid
+Parmotrema tinctorum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721979	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Aspicilia laevata	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721980	second	crust		Pertusariales	Lecanoromycetes	trebouxioid
+Pyxine albovirens	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721981	second	macro	Caliciaceae	Caliciales	Lecanoromycetes	trebouxioid
+fungal sp. Lendemer_49042_NY-3033146	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721982	second	crust		NA	Unknown	Unknown
+Gyalecta farlowii	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721983	second	crust		Gyalectales	Lecanoromycetes	trentepohlioid
+Pertusaria plittiana	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721984	second	crust		Pertusariales	Lecanoromycetes	trebouxioid
+Imshaugia aleurites	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721985	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Dirinaria frostii	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721986	second	macro	Caliciaceae	Caliciales	Lecanoromycetes	trebouxioid
+Lecanora subimmergens	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721987	second	crust	Lecanoraceae	Lecanorales	Lecanoromycetes	trebouxioid
+Chrysothrix xanthina	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721988	second	crust		Arthoniales	Arthoniomycetes	trebouxioid
+Heterodermia granulifera	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721989	second	macro	Physciaceae	Caliciales	Lecanoromycetes	trebouxioid
+Pyxine sorediata	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721990	second	macro	Caliciaceae	Caliciales	Lecanoromycetes	trebouxioid
+Rinodina dolichospora	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721991	second	crust	Physciaceae	Caliciales	Lecanoromycetes	trebouxioid
+Flavoparmelia baltimorensis	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721992	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+fungal sp. Lendemer_48835_NY-3720155	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721993	second	crust		NA	Unknown	Unknown
+Bacidia sp. Lendemer_48883_NY-3033306	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721994	second	crust		Lecanorales	Lecanoromycetes	trebouxioid
+Lepra amara	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721995	second	crust		Pertusariales	Lecanoromycetes	trebouxioid
+Hypogymnia vittata	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721996	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Parmotrema simulans	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721997	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Lepraria normandinoides	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721998	second	crust	Stereocaulaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Ochrolechia trochophora	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14721999	second	crust		Pertusariales	Lecanoromycetes	trebouxioid
+Parmotrema mellissii	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722000	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Bacidia sorediata	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722001	second	crust	Ramalinaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Hypotrachyna lividescens	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722002	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Ramalina culbersoniorum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722003	second	macro	Ramalinaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Cetrelia chicitae	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722004	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Heterodermia neglecta	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722005	second	macro	Physciaceae	Caliciales	Lecanoromycetes	trebouxioid
+Cetrelia olivetorum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722006	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Platismatia glauca	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722007	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Sticta fragilinata	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722008	second	macro		Peltigerales	Lecanoromycetes	cyano
+Cladonia apodocarpa	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722009	second	macro	Cladoniaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Pertusaria propinqua	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722010	second	crust		Pertusariales	Lecanoromycetes	trebouxioid
+Biatora longispora	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722011	second	crust	Ramalinaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Stictis urceolatum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722012	second	crust		Ostropales	Lecanoromycetes	trebouxioid
+Biatora pontica	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722013	second	crust	Ramalinaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Hypotrachyna minarum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722014	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Leptogium corticola	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722015	second	macro		Peltigerales	Lecanoromycetes	cyano
+Umbilicaria mammulata	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722016	second	macro		Umbilicariales	Lecanoromycetes	trebouxioid
+Heterodermia squamulosa	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722017	second	macro	Physciaceae	Caliciales	Lecanoromycetes	trebouxioid
+Lepraria oxybapha	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722018	second	crust	Stereocaulaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Dendriscocaulon intricatulum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722019	second	macro		Peltigerales	Lecanoromycetes	cyano
+Parmotrema crinitum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722020	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Parmotrema perlatum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722021	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Usnea subgracilis	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722022	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Usnea ceratina	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722023	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Dermiscellum oulocheilum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722024	second	crust	Caliciaceae	Caliciales	Lecanoromycetes	trebouxioid
+Enchylium conglomeratum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722025	second	macro		Peltigerales	Lecanoromycetes	cyano
+Tuckermannopsis ciliaris	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722026	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Parmotrema reticulatum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722028	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Arthonia kermesina	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722029	second	crust		Arthoniales	Arthoniomycetes	trentepohlioid
+Parmelia squarrosa	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722030	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Ramalina americana	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722031	second	macro	Ramalinaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Platismatia tuckermanii	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722032	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Lecanora pseudistera	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722033	second	crust	Lecanoraceae	Lecanorales	Lecanoromycetes	trebouxioid
+Lepraria caesiella	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722034	second	crust	Stereocaulaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Melanohalea halei	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722035	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Phaeophyscia hispidula	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722036	second	macro	Physciaceae	Caliciales	Lecanoromycetes	trebouxioid
+Phlyctis speirea	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722037	second	crust		Gyalectales	Lecanoromycetes	trebouxioid
+Flavopunctelia flaventior	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722038	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Trapeliopsis flexuosa	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722039	second	crust		Baeomycetales	Lecanoromycetes	trebouxioid
+Arthonia kermesina	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722040	second	crust		Arthoniales	Arthoniomycetes	trentepohlioid
+Stereocaulon dactylophyllum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722041	second	macro	Stereocaulaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Scoliciosporum umbrinum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722042	second	crust	Scoliciosporaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Rinodina tephraspis	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722043	second	crust	Physciaceae	Caliciales	Lecanoromycetes	trebouxioid
+Rinodina chrysidiata	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722044	second	crust	Physciaceae	Caliciales	Lecanoromycetes	trebouxioid
+Rinodina ascociscana	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722045	second	crust	Physciaceae	Caliciales	Lecanoromycetes	trebouxioid
+Rhizocarpon geographicum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722046	second	crust		Rhizocarpales	Lecanoromycetes	trebouxioid
+Heterodermia leucomelaena	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722047	second	macro	Physciaceae	Caliciales	Lecanoromycetes	trebouxioid
+Pyrenula subelliptica	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722048	second	crust		Pyrenulales	Eurotiomycetes	trentepohlioid
+Porpidia macrocarpa	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722049	second	crust		Lecideales	Lecanoromycetes	trebouxioid
+Porpidia crustulata	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722050	second	crust		Lecideales	Lecanoromycetes	trebouxioid
+Xylographa trunciseda	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722051	second	crust		Baeomycetales	Lecanoromycetes	trebouxioid
+Physconia leucoleiptes	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722052	second	macro	Physciaceae	Caliciales	Lecanoromycetes	trebouxioid
+Phlyctis boliviensis	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722053	second	crust		Gyalectales	Lecanoromycetes	trebouxioid
+Phaeophyscia rubropulchra	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722054	second	macro	Physciaceae	Caliciales	Lecanoromycetes	trebouxioid
+Pertusaria rubefacta	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722055	second	crust		Pertusariales	Lecanoromycetes	trebouxioid
+Pertusaria plittiana	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722056	second	crust		Pertusariales	Lecanoromycetes	trebouxioid
+Cladonia squamosa	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722057	second	macro	Cladoniaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Umbilicaria mammulata	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722058	second	macro		Umbilicariales	Lecanoromycetes	trebouxioid
+Tuckermannopsis ciliaris	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722059	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Nigrovothelium tropicum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722060	second	crust		Trypetheliales	Dothideomycetes	trentepohlioid
+Pyrenula pseudobufonia	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722061	second	crust		Pyrenulales	Eurotiomycetes	trentepohlioid
+Fuscopannaria leucosticta	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722062	second	crust		Peltigerales	Lecanoromycetes	cyano
+Parmelia squarrosa	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722063	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Porpidia contraponenda	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722064	second	crust		Lecideales	Lecanoromycetes	trebouxioid
+Polysporina simplex	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722065	second	crust		Acarosporales	Lecanoromycetes	trebouxioid
+Pilophorus fibula	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722066	second	macro	Cladoniaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Pertusaria epixantha	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722067	second	crust		Pertusariales	Lecanoromycetes	trebouxioid
+Parmotrema neotropicum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722068	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Parmotrema subisidiosum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722069	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Botryolepraria lesdainii	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722070	second	crust		Verrucariales	Eurotiomycetes	trebouxioid
+Arthonia cupressina	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722071	second	crust		Arthoniales	Arthoniomycetes	trebouxioid
+Brigantiaea leucoxantha	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722072	second	crust		Teloschistales	Lecanoromycetes	trebouxioid
+Parmotrema mellissii	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722073	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Arthothelium spectabile	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722074	second	crust		Arthoniales	Arthoniomycetes	trentepohlioid
+Parmotrema margaritatum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722075	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Peltigera phyllidiosa	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722076	second	macro		Peltigerales	Lecanoromycetes	cyano
+Parmotrema reticulatum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722077	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Lecanora oreinoides	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722078	second	crust	Lecanoraceae	Lecanorales	Lecanoromycetes	trebouxioid
+Pyrrhospora varians	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722079	second	crust	Lecanoraceae	Lecanorales	Lecanoromycetes	trebouxioid
+Cladonia didyma	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722080	second	macro	Cladoniaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Heterodermia appalachiensis	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722081	second	macro	Physciaceae	Caliciales	Lecanoromycetes	trebouxioid
+Cladonia mateocyatha	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722082	second	macro	Cladoniaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Buellia spuria	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722083	second	crust		Caliciales	Lecanoromycetes	trebouxioid
+Cladonia squamosa	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722084	second	macro	Cladoniaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Pseudosagedia rhaphidosperma	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722085	second	crust		Gyalectales	Lecanoromycetes	trentepohlioid
+fungal sp. Tripp_6058_COLO-L-0051364	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722086	second	crust		NA	Unknown	Unknown
+Cladonia stipitata	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722087	second	crust	Cladoniaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Cladonia uncialis	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722088	second	macro	Cladoniaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Diploschistes scruposus	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722089	second	crust		Gyalectales	Lecanoromycetes	trebouxioid
+Acarospora sp. Tripp_6053_NY-2858381	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722090	second	crust	Acarosporaceae Zahlbr.	Acarosporales	Lecanoromycetes	trebouxioid
+Placidium arboreum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722091	second	crust		Verrucariales	Eurotiomycetes	trebouxioid
+Chrysothrix susquehannensis	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722092	second	crust		Arthoniales	Arthoniomycetes	trebouxioid
+Porina scabrida	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722093	second	crust		Gyalectales	Lecanoromycetes	trentepohlioid
+Usnea strigosa	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722094	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Umbilicaria papulosa	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722095	second	macro		Umbilicariales	Lecanoromycetes	trebouxioid
+Graphis scripta	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722096	second	crust		Gyalectales	Lecanoromycetes	trentepohlioid
+Physcia americana	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722097	second	macro	Physciaceae	Caliciales	Lecanoromycetes	trebouxioid
+Acarospora sinopica	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722098	second	crust	Acarosporaceae Zahlbr.	Acarosporales	Lecanoromycetes	trebouxioid
+Cladonia pyxidata	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722099	second	macro	Cladoniaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Anisomeridium sp. Tripp_6040_COLO-L-0051344	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722100	second	crust		Monoblastiales	Dothideomycetes	trentepohlioid
+Cladonia strepsilis	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722101	second	macro	Cladoniaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Solitaria chrysophthalma	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722102	second	crust		Teloschistales	Lecanoromycetes	trebouxioid
+Cladonia coccifera	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722103	second	macro	Cladoniaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Parmotrema hypotropum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722104	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Buellia spuria	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722105	second	crust		Caliciales	Lecanoromycetes	trebouxioid
+Flavoparmelia baltimorensis	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722106	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Alyxoria varia	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722107	second	crust		Arthoniales	Arthoniomycetes	trentepohlioid
+Parmotrema subsumptum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722108	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Pertusaria andersoniae	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722109	second	crust		Pertusariales	Lecanoromycetes	trebouxioid
+Physconia subpallida	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722110	second	macro	Physciaceae	Caliciales	Lecanoromycetes	trebouxioid
+Cystocoleus ebeneus	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722111	second	macro		Capnodiales	Dothideomycetes	trentepohlioid
+Sticta sp. Lendemer_47364_NY-2795562	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722112	second	macro		Peltigerales	Lecanoromycetes	Unknown
+Nephroma helveticum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722113	second	macro		Peltigerales	Lecanoromycetes	cyano
+Cladonia stipitata	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722114	second	crust	Cladoniaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Usnea halei	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722115	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Usnea subscabrosa	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722116	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Cladonia mateocyatha	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722117	second	macro	Cladoniaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Bryoria tenuis	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722118	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Cladonia grayi	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722119	second	macro	Cladoniaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Usnea merrillii	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722120	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Cladonia macilenta	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722121	second	macro	Cladoniaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Ochrolechia yasudae	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722122	second	macro		Pertusariales	Lecanoromycetes	trebouxioid
+Brianaria bauschiana	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722123	second	crust	Psoraceae	Lecanorales	Lecanoromycetes	trebouxioid
+Melanelia culbersonii	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722124	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Ionaspis alba	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722125	second	crust		Baeomycetales	Lecanoromycetes	trebouxioid
+Biatora chrysantha	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722126	second	crust	Ramalinaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Xanthoparmelia mexicana	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722127	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Lecidella sp. Lendemer_46226_NY-2606722	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722128	second	crust	Lecanoraceae	Lecanorales	Lecanoromycetes	trebouxioid
+Pseudevernia cladonia	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722129	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Parmotrema hypotropum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722130	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Parmotrema gardneri	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722131	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Anzia colpodes	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722132	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Heterodermia hypoleuca	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722133	second	macro	Physciaceae	Caliciales	Lecanoromycetes	trebouxioid
+Absconditella delutula	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722134	second	crust	Stictidaceae Fr.	Ostropales	Lecanoromycetes	trebouxioid
+Mycocalicium subtile	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722135	second	crust		Mycocaliciales	Eurotiomycetes	absent
+Pertusaria ostiolata	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722136	second	crust		Pertusariales	Lecanoromycetes	trebouxioid
+Leptogium hirsutum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722137	second	macro		Peltigerales	Lecanoromycetes	cyano
+Heterodermia speciosa	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722138	second	macro	Physciaceae	Caliciales	Lecanoromycetes	trebouxioid
+Parmotrema cetratum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722139	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Platismatia tuckermanii	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722140	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Phaeophyscia squarrosa	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722141	second	macro	Physciaceae	Caliciales	Lecanoromycetes	trebouxioid
+Acrocordia megalospora	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722142	second	crust	Monoblastiaceae Walt.Watson	Monoblastiales	Dothideomycetes	trentepohlioid
+Zwackhia viridis	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722143	second	crust		Arthoniales	Arthoniomycetes	trentepohlioid
+Heterodermia appalachiensis	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722144	second	macro	Physciaceae	Caliciales	Lecanoromycetes	trebouxioid
+Leptogium chloromelum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722145	second	macro		Peltigerales	Lecanoromycetes	cyano
+Phaeocalicium polyporaeum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722146	second	crust		Mycocaliciales	Eurotiomycetes	absent
+Byssoloma subdiscordans	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722147	second	crust	Pilocarpaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Peltigera neopolydactyla	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722148	second	macro		Peltigerales	Lecanoromycetes	cyano
+Peltigera sp. Lendemer_46965_NY-2794668	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722149	second	macro		Peltigerales	Lecanoromycetes	cyano
+Cladonia arbuscula	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722150	second	macro	Cladoniaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Usnocetraria oakesiana	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722151	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Micarea neostipitata	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722152	second	crust	Pilocarpaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Sarea resinae	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722153	second	crust		NA	Lecanoromycetes	absent
+Lecanora strobilina	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722154	second	crust	Lecanoraceae	Lecanorales	Lecanoromycetes	trebouxioid
+Umbilicaria pennsylvanica	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722155	second	macro		Umbilicariales	Lecanoromycetes	trebouxioid
+Melanelia stygia	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722156	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Lecidea sp. Lendemer_46382_NY-2795264	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722157	second	crust		Lecideales	Lecanoromycetes	trebouxioid
+Lecanora albella	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722158	second	crust	Lecanoraceae	Lecanorales	Lecanoromycetes	trebouxioid
+Ochrolechia arborea	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722159	second	crust		Pertusariales	Lecanoromycetes	trebouxioid
+Herteliana schuyleriana	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722160	second	crust	Ramalinaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Leptogium austroamericanum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722161	second	macro		Peltigerales	Lecanoromycetes	cyano
+Hypogymnia incurvoides	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722162	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Tephromela atra	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722163	second	crust	Tephromelataceae	Lecanorales	Lecanoromycetes	trebouxioid
+Lecidea tessellata	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722164	second	crust		Lecideales	Lecanoromycetes	trebouxioid
+Rhizocarpon subgeminatum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722165	second	crust		Rhizocarpales	Lecanoromycetes	trebouxioid
+Parmotrema xanthinum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722166	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Dimelaena oreina	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722167	second	crust	Caliciaceae	Caliciales	Lecanoromycetes	trebouxioid
+Parmotrema stuppeum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722168	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Punctelia appalachiensis	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722169	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Cladonia rangiferina	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722170	second	macro	Cladoniaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Cladonia uncialis	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722171	second	macro	Cladoniaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Chrysothrix xanthina	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722172	second	crust		Arthoniales	Arthoniomycetes	trebouxioid
+Melanohalea halei	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722173	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Parmotrema diffractaicum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722174	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Nephroma helveticum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722175	second	macro		Peltigerales	Lecanoromycetes	cyano
+Xanthocarpia feracissima	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722176	second	crust		Teloschistales	Lecanoromycetes	trebouxioid
+Biatora appalachensis	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722177	second	crust	Ramalinaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Schismatomma glaucescens	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722178	second	crust		Arthoniales	Arthoniomycetes	trentepohlioid
+Porina heterospora	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722179	second	crust		Gyalectales	Lecanoromycetes	trentepohlioid
+fungal sp. Lendemer_46730_NY-2794914	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722180	second	crust		NA	Unknown	Unknown
+Gomphillus calycioides	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722181	second	crust		Gyalectales	Lecanoromycetes	trebouxioid
+Chaenotheca balsamconensis	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722182	second	crust		Coniocybales	Coniocybomycetes	trebouxioid
+Chaenotheca furfuracea	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722183	second	crust		Coniocybales	Coniocybomycetes	trebouxioid
+Lecanora hybocarpa	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722184	second	crust	Lecanoraceae	Lecanorales	Lecanoromycetes	trebouxioid
+Mycobilimbia sp. Lendemer_46123_NY-2606825	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722185	second	crust		Lecideales	Lecanoromycetes	trebouxioid
+Lepra pustulata	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722186	second	crust		Pertusariales	Lecanoromycetes	trebouxioid
+Lepraria xanthonica	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722187	second	crust	Stereocaulaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Xylographa vitiligo	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722188	second	crust		Baeomycetales	Lecanoromycetes	trebouxioid
+Bacidia schweinitzii	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722195	second	crust	Ramalinaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Leptogium corticola	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722197	second	macro		Peltigerales	Lecanoromycetes	cyano
+Arthonia vinosa	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722200	second	crust		Arthoniales	Arthoniomycetes	trentepohlioid
+Lecidea nylanderi	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722201	second	crust	Lecanoraceae	Lecanorales	Lecanoromycetes	trebouxioid
+Hypocenomyce scalaris	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722202	second	crust		Umbilicariales	Lecanoromycetes	trebouxioid
+Ricasolia quercizans	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722208	second	macro		Peltigerales	Lecanoromycetes	trebouxioid_cyano
+Rinodina buckii	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722209	second	crust	Physciaceae	Caliciales	Lecanoromycetes	trebouxioid
+Caloplaca camptidia	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722210	second	crust		Teloschistales	Lecanoromycetes	trebouxioid
+Pseudosagedia isidiata	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722213	second	crust		Gyalectales	Lecanoromycetes	trentepohlioid
+Buellia vernicoma	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722215	second	crust		Caliciales	Lecanoromycetes	trebouxioid
+Hypotrachyna sp. JCL-2020a	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722219	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Lecania croatica	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722220	second	crust	Ramalinaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Megalospora porphyritis	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722221	second	crust		Teloschistales	Lecanoromycetes	trebouxioid
+Arthonia quintaria	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722222	second	crust		Arthoniales	Arthoniomycetes	absent
+Lopadium disciforme	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722225	second	crust		Lecideales	Lecanoromycetes	trebouxioid
+Lecidea roseotincta	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722229	second	crust		Lecideales	Lecanoromycetes	trebouxioid
+Coccocarpia palmicola	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722230	second	macro		Peltigerales	Lecanoromycetes	cyano
+Lecanora masana	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722231	second	crust	Lecanoraceae	Lecanorales	Lecanoromycetes	trebouxioid
+Lecanora rugosella	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722232	second	crust	Lecanoraceae	Lecanorales	Lecanoromycetes	trebouxioid
+Arthothelium ruanum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722233	second	crust		Arthoniales	Arthoniomycetes	trentepohlioid
+Trapelia coarctata	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722251	second	crust		Baeomycetales	Lecanoromycetes	trebouxioid
+Lepraria leprolomopsis	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722272	second	crust	Stereocaulaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Leprocaulon nicholsiae	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722274	second	crust		Leprocaulales	Lecanoromycetes	trebouxioid
+Micareopsis irriguata	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722275	second	crust	Pilocarpaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Cystocoleus ebeneus	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722276	second	macro		Capnodiales	Dothideomycetes	trentepohlioid
+Cladonia furcata	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722277	second	macro	Cladoniaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Buellia spuria	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722278	second	crust		Caliciales	Lecanoromycetes	trebouxioid
+Byssoloma meadii	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722279	second	crust	Pilocarpaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Dictyomeridium proponens	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722280	second	crust		Trypetheliales	Dothideomycetes	trentepohlioid
+Viridothelium virens	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722281	second	crust		Trypetheliales	Dothideomycetes	trentepohlioid
+Peltigera neckeri	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722282	second	macro		Peltigerales	Lecanoromycetes	cyano
+Cresponea flava	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722283	second	crust		Arthoniales	Arthoniomycetes	trentepohlioid
+Scytinium dactylinum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722285	second	macro		Peltigerales	Lecanoromycetes	cyano
+Micarea peliocarpa	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722286	second	crust	Pilocarpaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Flakea papillata	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722287	second	macro		Verrucariales	Eurotiomycetes	trebouxioid
+Dibaeis sorediata	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722288	second	crust		Pertusariales	Lecanoromycetes	trebouxioid
+Parmotrema rampoddense	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722289	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Cladonia robbinsii	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722290	second	macro	Cladoniaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Tuckermannopsis ciliaris	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722291	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Cladonia rangiferina	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722292	second	macro	Cladoniaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Cladonia subtenuis	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722293	second	macro	Cladoniaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Cladonia caroliniana	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722294	second	macro	Cladoniaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Cladonia ravenelii	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722296	second	macro	Cladoniaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Gyalideopsis bartramiorum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722297	second	crust		Gyalectales	Lecanoromycetes	trebouxioid
+Cladonia subtenuis	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722298	second	macro	Cladoniaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Cladonia squamosa	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722299	second	macro	Cladoniaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Punctelia caseana	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722300	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Cladonia leporina	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722301	second	macro	Cladoniaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Hypotrachyna osseoalba	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722302	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Rinodina brauniana	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722303	second	crust	Physciaceae	Caliciales	Lecanoromycetes	trebouxioid
+Micareopsis irriguata	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722304	second	crust	Pilocarpaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Heterodermia langdoniana	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722305	second	macro	Physciaceae	Caliciales	Lecanoromycetes	trebouxioid
+Placynthium petersii	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722307	second	macro		Peltigerales	Lecanoromycetes	cyano
+Willeya diffractella	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722308	second	crust		Verrucariales	Eurotiomycetes	trebouxioid
+Lecanora markjohnstonii	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722309	second	crust	Lecanoraceae	Lecanorales	Lecanoromycetes	trebouxioid
+Parmotrema austrosinense	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722310	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Phlyctis boliviensis	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722311	second	crust		Gyalectales	Lecanoromycetes	trebouxioid
+Protoblastenia rupestris	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722312	second	crust	Psoraceae	Lecanorales	Lecanoromycetes	trebouxioid
+Phlyctis petraea	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722313	second	crust		Gyalectales	Lecanoromycetes	trebouxioid
+Peltigera phyllidiosa	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722314	second	macro		Peltigerales	Lecanoromycetes	cyano
+Scytinium lichenoides	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722315	second	macro		Peltigerales	Lecanoromycetes	cyano
+Heterodermia echinata	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722316	second	macro	Physciaceae	Caliciales	Lecanoromycetes	trebouxioid
+Kephartia crystalligera	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722318	second	crust	Lecideaceae Chevall.	Lecideales	Lecanoromycetes	trebouxioid
+Cladonia furcata	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722319	second	macro	Cladoniaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Peltigera praetextata	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722320	second	macro		Peltigerales	Lecanoromycetes	cyano
+Bagliettoa baldensis	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722321	second	crust		Verrucariales	Eurotiomycetes	trebouxioid
+Trentepohlia sp. Tripp_6417_NY-2796640	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722322	second	Unknown		NA	Unknown	trentepohlioid
+Nadvornikia sorediata	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722323	second	crust		Gyalectales	Lecanoromycetes	trentepohlioid
+Lepraria disjuncta	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722324	second	crust	Stereocaulaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Parmotrema internexum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722325	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Parmotrema arnoldii	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722326	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Catillaria lenticularis	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722327	second	crust	Catillariaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Parmotrema cetratum	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722329	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Pertusaria obruta	Lendemer et al. 2019	"University of Colorado, Boulder"	SRR14722330	second	crust		Pertusariales	Lecanoromycetes	trebouxioid
+Peltigera dolichorhiza	Cornet et al. 2021	"Sequenced in University of Iowa, Submitted by University of Liege"	SRR11456918	third	macro	Peltigeraceae	Peltigerales	Lecanoromycetes	cyano
+Peltigera hydrothyria	Cornet et al. 2021	"Sequenced in University of Iowa, Submitted by University of Liege"	SRR11456922	third	macro	Peltigeraceae	Peltigerales	Lecanoromycetes	cyano
+Peltigera hydrothyria	Cornet et al. 2021	"Sequenced in University of Iowa, Submitted by University of Liege"	SRR11456923	third	macro	Peltigeraceae	Peltigerales	Lecanoromycetes	cyano
+Xanthoparmelia neocumberlandia	Smith et al. 2020	Brigham Young University	SRR12240175	third	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Xanthoparmelia maricopensis	Smith et al. 2020	Brigham Young University	SRR12240177	third	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Xanthoparmelia aff plittii¾	Smith et al. 2020	Brigham Young University	SRR12240178	third	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Xanthoparmelia aff mexicana	Smith et al. 2020	Brigham Young University	SRR12240179	third	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Rinodina sp	Smith et al. 2020	Brigham Young University	SRR12240181	third	crust	Physciaceae	Caliciales	Lecanoromycetes	trebouxioid
+Oxnerella safavidiorum	Smith et al. 2020	Brigham Young University	SRR12240184	third	crust	Physciaceae	Caliciales	Lecanoromycetes	trebouxioid
+Xanthoparmelia aff chlorochroa	Smith et al. 2020	Brigham Young University	SRR12240187	third	macro	Lecanoraceae	Lecanorales	Lecanoromycetes	trebouxioid
+Xanthoparmelia aff chlorochroa	Smith et al. 2020	Brigham Young University	SRR12240188	third	macro	Lecanoraceae	Lecanorales	Lecanoromycetes	trebouxioid
+Protousnea poeppiggii	This paper	"Spribille Lab, University of Alberta"	X1	third	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Usnea cavernosa	This paper	"Spribille Lab, University of Alberta"	X2	third	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Platismatia glauca	This paper	"Spribille Lab, University of Alberta"	X3	third	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Pectenia plumbea	This paper	"Spribille Lab, University of Alberta"	X4	third	macro	Pannariaceae	Peltigerales	Lecanoromycetes	cyano
+Pectenia cyanoloma	This paper	"Spribille Lab, University of Alberta"	X5	third	macro	Pannariaceae	Peltigerales	Lecanoromycetes	cyano
+Protousnea magellanica	This paper	"Spribille Lab, University of Alberta"	X7	third	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Ramalina thrausta	This paper	"Spribille Lab, University of Alberta"	X8	third	macro	Ramalinaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Evernia divaricata	This paper	"Spribille Lab, University of Alberta"	X9	third	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Sulcaria badia	This paper	"Spribille Lab, University of Alberta"	X10	third	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Ramalina menziesii	This paper	"Spribille Lab, University of Alberta"	X11	third	macro	Ramalinaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Alectoria sarmentosa	Tagirdzhanova et al. 2021b	"Spribille Lab, University of Alberta"	X12	third	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Hypogymnia physodes	This paper	"Spribille Lab, University of Alberta"	X14	third	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Umbilicaria americana	This paper	"Spribille Lab, University of Alberta"	X16	third	macro		Umbilicariales	Lecanoromycetes	trebouxioid
+Pseudophebe minuscula	This paper	"Spribille Lab, University of Alberta"	VT22	third	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Bryoria fremontii	This paper	"Spribille Lab, University of Alberta"	VT31	third	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Platismatia glauca	This paper	"Spribille Lab, University of Alberta"	VT1	third	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Gypsoplaca macrophylla	This paper	"Spribille Lab, University of Alberta"	VT34	third	crust	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Punctelia caseana	This paper	"Spribille Lab, University of Alberta"	VT16	third	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Kaernefeltia merillii	This paper	"Spribille Lab, University of Alberta"	VT12	third	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Vulpicida juniperina	This paper	"Spribille Lab, University of Alberta"	VT2	third	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Allantoparmelia sp	This paper	"Spribille Lab, University of Alberta"	VT33	third	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Flavocetraria cucullata	This paper	"Spribille Lab, University of Alberta"	VT15	third	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Cornicularia normoerica	This paper	"Spribille Lab, University of Alberta"	VT38	third	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Evernia mesomorpha	This paper	"Spribille Lab, University of Alberta"	VT26	third	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Alectoria ochroleuca	This paper	"Spribille Lab, University of Alberta"	VT19	third	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Xanthoparmelia aff chlorochroa	Grewe et al 2020	Field Museum of Natural History	SRR13167197	third	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Xanthoparmelia verrucella	Grewe et al 2020	Field Museum of Natural History	SRR13126859	third	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Xanthoparmelia tasmanica	Grewe et al 2020	Field Museum of Natural History	SRR13126828	third	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Xanthoparmelia stenophylla	Grewe et al 2020	Field Museum of Natural History	SRR13126796	third	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Xanthoparmelia barbatica	Grewe et al 2020	Field Museum of Natural History	SRR13126647	third	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Xanthoparmelia arapilensis	Grewe et al 2020	Field Museum of Natural History	SRR13125985	third	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Usnea aurantiacoatra	Grewe et al 2020	Field Museum of Natural History	SRR13125762	third	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Everniopsis trulla	Grewe et al 2020	Field Museum of Natural History	SRR13125477	third	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Lobaria pulmonaria	Wicaksono et al 2020	GRAZ UNIVERSITY OF TECHNOLOGY	ERR4179390	third	macro	Lobariaceae	Peltigerales	Lecanoromycetes	trebouxioid_cyano
+Peltigera polydactylon	Wicaksono et al 2020	GRAZ UNIVERSITY OF TECHNOLOGY	ERR4179391	third	macro	Peltigeraceae	Peltigerales	Lecanoromycetes	cyano
+Cladonia furcata	Wicaksono et al 2020	GRAZ UNIVERSITY OF TECHNOLOGY	ERR4179389	third	macro	Cladoniaceae	Lecanorales	Lecanoromycetes	trebouxioid
+Lasallia pustulata	Greshake et al 2016	Goethe University	SRR2387885	third	macro		Umbilicariales	Lecanoromycetes	trebouxioid
+Physcia stellaris	McDonald et al 2013	Duke University	SRR1532736	third	macro	Physciaceae	Caliciales	Lecanoromycetes	trebouxioid
+Peltula cylindrica	McDonald et al 2013	Duke University	SRR1531569	third	crust		Lichinales	Lichinomycetes	cyano
+Leptogium austroamericanum	McDonald et al 2013	Duke University	SRR1531545	third	macro		Peltigerales	Lecanoromycetes	cyano
+Dibaeis baeomyces	McDonald et al 2013	Duke University	SRR1531517	third	crust		Pertusariales	Lecanoromycetes	trebouxioid

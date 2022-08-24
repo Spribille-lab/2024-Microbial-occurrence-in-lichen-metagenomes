@@ -1,0 +1,15 @@
+V1	V2	V3	Lichen.metagenomes	Source	Produced	Batch	architecture	family	order	class	cyano_present
+GTX0163	metagenome	1	Heterodermia speciosa	Tagirdzhanova et al. 2021a	Spribille Lab, University of Alberta	second	macro	Physciaceae	Caliciales	Lecanoromycetes	FALSE
+SRR13685157	metagenome	1	Phyllopsora corallina	Lendemer et al. 2019	University of Colorado, Boulder	first	crust	Ramalinaceae	Lecanorales	Lecanoromycetes	FALSE
+SRR14721921	metagenome	1	Enchylium coccophorum	Lendemer et al. 2019	University of Colorado, Boulder	second	macro		Peltigerales	Lecanoromycetes	FALSE
+SRR14721930	metagenome	1	Leptogium corticola	Lendemer et al. 2019	University of Colorado, Boulder	second	macro		Peltigerales	Lecanoromycetes	FALSE
+SRR14721955	metagenome	1	Halecania pepegospora	Lendemer et al. 2019	University of Colorado, Boulder	second	crust		Leprocaulales	Lecanoromycetes	FALSE
+SRR14722094	metagenome	1	Usnea strigosa	Lendemer et al. 2019	University of Colorado, Boulder	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	FALSE
+SRR14722165	metagenome	1	Rhizocarpon subgeminatum	Lendemer et al. 2019	University of Colorado, Boulder	second	crust		Rhizocarpales	Lecanoromycetes	FALSE
+SRR14722166	metagenome	1	Parmotrema xanthinum	Lendemer et al. 2019	University of Colorado, Boulder	second	macro	Parmeliaceae	Lecanorales	Lecanoromycetes	FALSE
+SRR14722170	metagenome	1	Cladonia rangiferina	Lendemer et al. 2019	University of Colorado, Boulder	second	macro	Cladoniaceae	Lecanorales	Lecanoromycetes	FALSE
+SRR14722208	metagenome	1	Ricasolia quercizans	Lendemer et al. 2019	University of Colorado, Boulder	second	macro		Peltigerales	Lecanoromycetes	FALSE
+SRR14722280	metagenome	1	Dictyomeridium proponens	Lendemer et al. 2019	University of Colorado, Boulder	second	crust		Trypetheliales	Dothideomycetes	FALSE
+SRR14722287	metagenome	1	Flakea papillata	Lendemer et al. 2019	University of Colorado, Boulder	second	macro		Verrucariales	Eurotiomycetes	FALSE
+SRR14722315	metagenome	1	Scytinium lichenoides	Lendemer et al. 2019	University of Colorado, Boulder	second	macro		Peltigerales	Lecanoromycetes	FALSE
+T1888	metagenome	1	Puttea_exsequens	Resl et al. 2021	Spribille Lab, University of Alberta	second	crust		Lecanorales	Lecanoromycetes	FALSE

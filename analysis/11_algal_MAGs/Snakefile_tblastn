@@ -1,0 +1,52 @@
+import glob
+import os
+import pandas
+
+
+GENOMES = [line.rstrip() for line in open('good_algal_mags_list.txt')]
+GENES = ['mete','meth']
+
+
+rule all:
+        input:
+                expand("blast_outputs/tmp_{gene}_tblastn_report_{genome}.txt", gene = GENES, genome = GENOMES),
+				"tblasn_report.txt"
+
+        output: touch("touch")
+
+
+
+ 
+rule tblastn:
+        input:
+                i1="{genome}.fa",
+                i2="{gene}_genbank.fa"
+        output:
+                "blast_outputs/tmp_{gene}_tblastn_{genome}.txt"
+        shell:
+                "tblastn -query {input.i2}  -subject {input.i1} -outfmt 6 -evalue 1e-5 -out {output}"
+                
+                             
+                
+rule report_tblastn:
+        input:
+                i="blast_outputs/tmp_{gene}_tblastn_{genome}.txt"
+        output:
+                o="blast_outputs/tmp_{gene}_tblastn_report_{genome}.txt"    
+        run:
+                with open (input.i,'r') as i:
+                	ii1=i.read().strip().split('\t')
+                if len(ii1) == 1:
+                	r=str(wildcards.genome+'\t'+wildcards.gene+'\t'+'0'+'\n')
+                else:
+                	r=str(wildcards.genome+'\t'+wildcards.gene+'\t'+'1'+'\n')
+                with open (output.o,'w') as out: out.write(r)
+
+rule aggregate:
+        input:
+                expand("blast_outputs/tmp_{gene}_tblastn_report_{genome}.txt",gene = GENES, genome = GENOMES)
+        output:	"tblasn_report.txt"
+        shell:
+                "cat {input} > {output}"
+
+

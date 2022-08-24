@@ -1,0 +1,136 @@
+import glob
+import os
+import pandas
+
+#GENOMES = ['GCF_900115225.1_IMG-taxon_2617270874_annotated_assembly_genomic.fna','public_SRR14722320_metawrap_bin.4.fa']
+GENOMES, = glob_wildcards("genomes_tmp/{genome}")
+
+rule all:
+        input:
+                expand("blast_methane/tmp_tblastn_report_{genome}.txt", genome = GENOMES),
+                expand("blast_methane/tmp_xoxf_tblastn_report_{genome}.txt", genome = GENOMES),
+                expand("blast_methane/tmp_mxaf_tblastn_report_{genome}.txt", genome = GENOMES),
+                expand("blast_methane/tmp_gmas_tblastn_report_{genome}.txt", genome = GENOMES),
+                expand("blast_methane/tmp_mmox_tblastn_report_{genome}.txt", genome = GENOMES)
+        output: touch("touch")
+
+rule tblastn:
+        input:
+                "genomes_tmp/{genome}"
+        output:
+                "blast_methane/tmp_tblastn_{genome}.txt"
+        shell:
+                "tblastn -query methane_monoox1_genbank_example.fa -subject {input} -outfmt 6 -evalue 1e-50 -out {output}"
+                
+                             
+                
+rule report_tblastn:
+        input:
+                i="blast_methane/tmp_tblastn_{genome}.txt"
+        output:
+                o="blast_methane/tmp_tblastn_report_{genome}.txt"    
+        run:
+                with open (input.i,'r') as i:
+                	ii1=i.read().strip().split('\t')
+                if len(ii1) == 1:
+                	r=str(wildcards.genome+'\t'+'tblastn'+'\t'+'0'+'\n')
+                else:
+                	r=str(wildcards.genome+'\t'+'tblastn'+'\t'+'1'+'\n')
+                with open (output.o,'w') as out: out.write(r)
+
+ 
+rule tblastn_xoxf:
+        input:
+                "genomes_tmp/{genome}"
+        output:
+                "blast_methane/tmp_xoxf_tblastn_{genome}.txt"
+        shell:
+                "tblastn -query methanol_dehydro_xoxf_genbank_example.fa -subject {input} -outfmt 6 -evalue 1e-50 -out {output}"
+                
+                             
+                
+rule report_tblastn_xoxf:
+        input:
+                i="blast_methane/tmp_xoxf_tblastn_{genome}.txt"
+        output:
+                o="blast_methane/tmp_xoxf_tblastn_report_{genome}.txt"    
+        run:
+                with open (input.i,'r') as i:
+                	ii1=i.read().strip().split('\t')
+                if len(ii1) == 1:
+                	r=str(wildcards.genome+'\t'+'tblastn'+'\t'+'0'+'\n')
+                else:
+                	r=str(wildcards.genome+'\t'+'tblastn'+'\t'+'1'+'\n')
+                with open (output.o,'w') as out: out.write(r)
+
+rule tblastn_mxaf:
+        input:
+                "genomes_tmp/{genome}"
+        output:
+                "blast_methane/tmp_mxaf_tblastn_{genome}.txt"
+        shell:
+                "tblastn -query methanol_dehydro_mxaf_genbank_example.fa -subject {input} -outfmt 6 -evalue 1e-50 -out {output}"
+                
+                             
+                
+rule report_tblastn_mxaf:
+        input:
+                i="blast_methane/tmp_mxaf_tblastn_{genome}.txt"
+        output:
+                o="blast_methane/tmp_mxaf_tblastn_report_{genome}.txt"    
+        run:
+                with open (input.i,'r') as i:
+                	ii1=i.read().strip().split('\t')
+                if len(ii1) == 1:
+                	r=str(wildcards.genome+'\t'+'tblastn'+'\t'+'0'+'\n')
+                else:
+                	r=str(wildcards.genome+'\t'+'tblastn'+'\t'+'1'+'\n')
+                with open (output.o,'w') as out: out.write(r)
+
+rule tblastn_mmox:
+        input:
+                "genomes_tmp/{genome}"
+        output:
+                "blast_methane/tmp_mmox_tblastn_{genome}.txt"
+        shell:
+                "tblastn -query methane_monoox2_genbank_example.fa -subject {input} -outfmt 6 -evalue 1e-50 -out {output}"
+                
+                             
+                
+rule report_tblastn_mmox:
+        input:
+                i="blast_methane/tmp_mmox_tblastn_{genome}.txt"
+        output:
+                o="blast_methane/tmp_mmox_tblastn_report_{genome}.txt"    
+        run:
+                with open (input.i,'r') as i:
+                	ii1=i.read().strip().split('\t')
+                if len(ii1) == 1:
+                	r=str(wildcards.genome+'\t'+'tblastn'+'\t'+'0'+'\n')
+                else:
+                	r=str(wildcards.genome+'\t'+'tblastn'+'\t'+'1'+'\n')
+                with open (output.o,'w') as out: out.write(r)
+
+rule tblastn_gmas:
+        input:
+                "genomes_tmp/{genome}"
+        output:
+                "blast_methane/tmp_gmas_tblastn_{genome}.txt"
+        shell:
+                "tblastn -query glutamyl_genbank_example.fa -subject {input} -outfmt 6 -evalue 1e-50 -out {output}"
+                
+                             
+                
+rule report_tblastn_gmas:
+        input:
+                i="blast_methane/tmp_gmas_tblastn_{genome}.txt"
+        output:
+                o="blast_methane/tmp_gmas_tblastn_report_{genome}.txt"    
+        run:
+                with open (input.i,'r') as i:
+                	ii1=i.read().strip().split('\t')
+                if len(ii1) == 1:
+                	r=str(wildcards.genome+'\t'+'tblastn'+'\t'+'0'+'\n')
+                else:
+                	r=str(wildcards.genome+'\t'+'tblastn'+'\t'+'1'+'\n')
+                with open (output.o,'w') as out: out.write(r)

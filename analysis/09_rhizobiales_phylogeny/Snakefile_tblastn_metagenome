@@ -1,0 +1,63 @@
+import glob
+import os
+import pandas
+
+METAGENOMES = ['GTX0163']
+#METAGENOMES, = glob_wildcards("../05_MAGs/assemblies_paul/{metagenome}_scaffolds.fasta")
+
+rule all:
+        input:
+                expand("blast_nifh/tmp_tblastn_report_metagenome_{metagenome}.txt", metagenome = METAGENOMES),
+                expand("{metagenome}_nifh.getLCA.tsv", metagenome = METAGENOMES)
+        output: touch("touch")
+
+rule tblastn:
+        input:
+                "../05_MAGs/assemblies_paul/{metagenome}_scaffolds.fasta"
+        output:
+                "blast_nifh/tmp_tblastn_metagenome_{metagenome}.txt"
+        shell:
+                "tblastn -query nifh_genbank_example.fa -subject {input} -outfmt 6 -evalue 1e-50 -out {output}"
+                
+                             
+                
+rule report_tblastn:
+        input:
+                i="blast_nifh/tmp_tblastn_metagenome_{metagenome}.txt"
+        output:
+                o="blast_nifh/tmp_tblastn_report_metagenome_{metagenome}.txt"    
+        run:
+                with open (input.i,'r') as i:
+                	ii1=i.read().strip().split('\t')
+                if len(ii1) == 1:
+                	r=str(wildcards.metagenome+'\t'+'metagenome'+'\t'+'0'+'\n')
+                else:
+                	r=str(wildcards.metagenome+'\t'+'metagenome'+'\t'+'1'+'\n')
+                with open (output.o,'w') as out: out.write(r)
+
+ 
+ 
+rule blast_to_fasta:
+        input:
+                i1="../05_MAGs/assemblies_paul/{metagenome}_scaffolds.fasta",
+                i2="blast_nifh/tmp_tblastn_metagenome_{metagenome}.txt"
+        output:
+                "blast_nifh/{metagenome}_nifh.fa"
+        shell:
+                "bash ../../code/blastoutput2gff.sh  {input.i2};"
+                "bedtools getfasta -fi {input.i1} -fo {output} -bed  {input.i2}.gff"
+
+
+rule get_taxonomy:
+        input:	"blast_nifh/{metagenome}_nifh.fa"
+        output:	"blast_nifh/{metagenome}_nifh.taxid.blast"
+        shell:
+                "blastn -outfmt '6 qseqid sacc sseqid pident qlen length mismatch gapopen gaps evalue bitscore nident' -max_target_seqs 100 -db /data/databases/NCBI_nt/nt -query {input} -out blast_nifh/{wildcards.metagenome}_nifh.blast;"
+                "python /data/tagirdzh/bin/blast_getLCA/add_taxid2blast.py blast_nifh/{wildcards.metagenome}_nifh.blast"
+
+
+rule get_LCA:
+        input:	"blast_nifh/{metagenome}_nifh.taxid.blast"
+        output:	"{metagenome}_nifh.getLCA.tsv"
+        shell:
+                "python /data/tagirdzh/bin/blast_getLCA/blast_getLCA.py {input} -l 80 "

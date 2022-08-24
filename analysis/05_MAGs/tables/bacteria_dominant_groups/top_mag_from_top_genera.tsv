@@ -1,0 +1,13 @@
+Genome	occ_total	bac_genus2	bac_family	bac_order	bac_phylum	occ_rang	read_count_total	size.x	percentage	read_fraction_rang
+public_SRR14722130_metawrap_bin.2	52	Lichenihabitans	Beijerinckiaceae	Rhizobiales	Proteobacteria	1	6187923	5632149	1.303479259252	6
+private_T1894_metawrap_bin.12	28	LMUY01	Acetobacteraceae	Acetobacterales	Proteobacteria	2	4063921	5040762	0.856060544828797	12
+public_SRR14722108_metawrap_bin.1	18	CAHJWO01	UBA10450	Chthoniobacterales	Verrucomicrobiota	5	2098897	4118588	0.442130373439722	40
+private_T1894_metawrap_bin.9	15	RH-AL1	Beijerinckiaceae	Rhizobiales	Proteobacteria	6	1679984	3652841	0.353886804970781	59
+private_X15_metawrap_bin.2	14	CAHJXG01	Acetobacteraceae	Acetobacterales	Proteobacteria	9	7353723	5439809	1.54905376307759	3
+private_VT1_metawrap_bin.3	11	Acetobacteraceae gen. sp.	Acetobacteraceae	Acetobacterales	Proteobacteria	14	1555027	3878694	0.327564748636474	68
+private_VT12_metawrap_bin.1	10	CAIMSN01	Acetobacteraceae	Acetobacterales	Proteobacteria	16	675627	2326716	0.14232009375208	187
+public_SRR14722116_metawrap_bin.2	7	CAHJWL01	Acidobacteriaceae	Acidobacteriales	Acidobacteriota	34	918647	3416681	0.193511992808261	133
+public_SRR14722125_metawrap_bin.3	6	Terriglobus	Acidobacteriaceae	Acidobacteriales	Acidobacteriota	42	1647105	3660656	0.346960879330635	63
+public_SRR14722083_metawrap_bin.1	5	EB88	Acidobacteriaceae	Acidobacteriales	Acidobacteriota	53	286442	2611310	0.0603386961955831	420
+public_SRR11456913_metawrap_bin.16	4	Sphingomonas	Sphingomonadaceae	Sphingomonadales	Proteobacteria	77	720450	3017454	0.151762010019857	178
+private_X5_metawrap_bin.1	18	Nostoc	Nostocaceae	Cyanobacteriales	Cyanobacteria	4	NA	NA	NA	NA

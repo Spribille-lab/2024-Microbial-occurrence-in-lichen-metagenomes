@@ -1,0 +1,201 @@
+KO	gene	name	module_kegg	module_informal	type	note
+K00855	PRK	phosphoribulokinase	Reductive pentose phosphate cycle (Calvin cycle)	Calvin cycle	carbon metabolism	
+K01601	rbcL	ribulose-bisphosphate carboxylase large chain	Reductive pentose phosphate cycle (Calvin cycle)	Calvin cycle	carbon metabolism	
+K01602	rbcS	ribulose-bisphosphate carboxylase small chain	Reductive pentose phosphate cycle (Calvin cycle)	Calvin cycle	carbon metabolism	
+K08928	pufL	photosynthetic reaction center L subunit	Anoxygenic photosystem II	Anoxygenic photosystem II RC-LH1	photosynthesis	
+K08929	pufM	photosynthetic reaction center M subunit	Anoxygenic photosystem II	Anoxygenic photosystem II RC-LH1	photosynthesis	
+K13992	pufC	photosynthetic reaction center cytochrome c subunit	Anoxygenic photosystem II	Anoxygenic photosystem II RC-LH1	photosynthesis	
+K13991	puhA	photosynthetic reaction center H subunit	Anoxygenic photosystem II	Anoxygenic photosystem II RC-LH1	photosynthesis	
+K08926	pufA	light-harvesting complex 1 alpha chain	Anoxygenic photosystem II	Anoxygenic photosystem II RC-LH1	photosynthesis	
+K08927	pufB	light-harvesting complex 1 beta chain	Anoxygenic photosystem II	Anoxygenic photosystem II RC-LH1	photosynthesis	
+K04035	acsF	magnesium-protoporphyrin IX monomethyl ester (oxidative) cyclase	Porphyrin metabolism	bacteriochlorophyll synthesis	photosynthesis	
+K19073	DVR	divinyl chlorophyllide a 8-vinyl-reductase	Porphyrin metabolism	bacteriochlorophyll synthesis	photosynthesis	
+K04037	chlL	light-independent protochlorophyllide reductase subunit L	Porphyrin metabolism	bacteriochlorophyll synthesis	photosynthesis	
+K04038	chlN	light-independent protochlorophyllide reductase subunit N	Porphyrin metabolism	bacteriochlorophyll synthesis	photosynthesis	
+K04039	chlB	light-independent protochlorophyllide reductase subunit B	Porphyrin metabolism	bacteriochlorophyll synthesis	photosynthesis	
+K11336	bchF	3-vinyl bacteriochlorophyllide hydratase	Porphyrin metabolism	bacteriochlorophyll synthesis	photosynthesis	
+K11334	bchY	"3,8-divinyl chlorophyllide a/chlorophyllide a reductase subunit Y"	Porphyrin metabolism	bacteriochlorophyll synthesis	photosynthesis	
+K11335	bchZ	"3,8-divinyl chlorophyllide a/chlorophyllide a reductase subunit Z"	Porphyrin metabolism	bacteriochlorophyll synthesis	photosynthesis	
+K11333	bchX	"3,8-divinyl chlorophyllide a/chlorophyllide a reductase subunit X"	Porphyrin metabolism	bacteriochlorophyll synthesis	photosynthesis	
+K11337	bchC	bacteriochlorophyllide a dehydrogenase	Porphyrin metabolism	bacteriochlorophyll synthesis	photosynthesis	
+K04040	bchG	chlorophyll/bacteriochlorophyll a synthas	Porphyrin metabolism	bacteriochlorophyll synthesis	photosynthesis	
+K10960	bchP	geranylgeranyl diphosphate/geranylgeranyl-bacteriochlorophyllide a reductase	Porphyrin metabolism	bacteriochlorophyll synthesis	photosynthesis	
+K02291	crtB	15-cis-phytoene synthase	Carotenoid biosynthesis	Carotenoid biosynthesis 	photosynthesis	
+K10027	crtI	phytoene desaturase	Carotenoid biosynthesis	Carotenoid biosynthesis 	photosynthesis	
+K09844	crtC	"carotenoid 1,2-hydratase"	Carotenoid biosynthesis	Carotenoid biosynthesis: spirilloxanthin	photosynthesis	
+K09845Ê	crtD	"1-hydroxycarotenoid 3,4-desaturase"	Carotenoid biosynthesis	Carotenoid biosynthesis: spirilloxanthin	photosynthesis	
+K09846	crtF	demethylspheroidene O-methyltransferase	Carotenoid biosynthesis	Carotenoid biosynthesis: spirilloxanthin	photosynthesis	
+K06443	crtY	lycopene beta-cyclase	Carotenoid biosynthesis	Carotenoid biosynthesis: carotenes	photosynthesis	
+K15746Ê	crtZ	beta-carotene 3-hydroxylase	Carotenoid biosynthesis	Carotenoid biosynthesis: carotenes	photosynthesis	
+K09836Ê	crtW	beta-carotene/zeaxanthin 4-ketolase	Carotenoid biosynthesis	Carotenoid biosynthesis: carotenes	photosynthesis	
+K14596Ê	crtX	zeaxanthin glucosyltransferase	Carotenoid biosynthesis	Carotenoid biosynthesis: carotenes	photosynthesis	
+K02586	nifD	nitrogenase molybdenum-iron protein alpha chain	"Nitrogen fixation, nitrogen => ammonia"	Nitrogen fixation	nitrogen metabolism	
+K02591	nifK	nitrogenase molybdenum-iron protein beta chain	"Nitrogen fixation, nitrogen => ammonia"	Nitrogen fixation	nitrogen metabolism	
+K02588	nifH	nitrogenase iron protein NifH	"Nitrogen fixation, nitrogen => ammonia"	Nitrogen fixation	nitrogen metabolism	
+K22896	vnfD	vanadium-dependent nitrogenase alpha chain	"Nitrogen fixation, nitrogen => ammonia"	Nitrogen fixation	nitrogen metabolism	
+K22897	vnfK	vanadium-dependent nitrogenase beta chain	"Nitrogen fixation, nitrogen => ammonia"	Nitrogen fixation	nitrogen metabolism	
+K22898	vnfG	vanadium nitrogenase delta subunit	"Nitrogen fixation, nitrogen => ammonia"	Nitrogen fixation	nitrogen metabolism	
+K22899	vnfH	vanadium nitrogenase iron protein	"Nitrogen fixation, nitrogen => ammonia"	Nitrogen fixation	nitrogen metabolism	
+K00372	nasA	assimilatory nitrate reductase catalytic subunit	"Assimilatory nitrate reduction, nitrate => ammonia"	Assimilatory nitrate reduction	nitrogen metabolism	alternative to K00367
+K00366	nirA	ferredoxin-nitrite reductase	"Assimilatory nitrate reduction, nitrate => ammonia"	Assimilatory nitrate reduction	nitrogen metabolism	
+K00367	narB	ferredoxin-nitrate reductase	"Assimilatory nitrate reduction, nitrate => ammonia"	Assimilatory nitrate reduction	nitrogen metabolism	alternative to K00372
+K00798	MMAB	cob(I)alamin adenosyltransferase	"Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin"	Cobalamin biosynthesis	cofactors	
+K19221	cobA	cob(I)alamin adenosyltransferase	"Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin"	Cobalamin biosynthesis	cofactors	
+K02232	cobQ	adenosylcobyric acid synthase	"Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin"	Cobalamin biosynthesis	cofactors	
+K02225	cobC1	cobalamin biosynthesis protein CobC	"Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin"	Cobalamin biosynthesis	cofactors	
+K02227	cbiB	adenosylcobinamide-phosphate synthase	"Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin"	Cobalamin biosynthesis	cofactors	
+K02231	cobP	adenosylcobinamide kinase / adenosylcobinamide-phosphate guanylyltransferase	"Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin"	Cobalamin biosynthesis	cofactors	
+K00768	cobU-cobT	nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase	"Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin"	Cobalamin biosynthesis	cofactors	
+K02226	cobC	alpha-ribazole phosphatase	"Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin"	Cobalamin biosynthesis	cofactors	
+K02233	cobS-cobV	adenosylcobinamide-GDP ribazoletransferase	"Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin"	Cobalamin biosynthesis	cofactors	
+K00958	sat	sulfate adenylyltransferase	"Assimilatory sulfate reduction, sulfate => H2S"	Assimilatory sulfate reduction	sulfur metabolism	step 1 in assimilatory and dissimilatory
+K00955	cysNC	bifunctional enzyme CysN/CysC	"Assimilatory sulfate reduction, sulfate => H2S"	Assimilatory sulfate reduction	sulfur metabolism	step 1 and 2
+K00956	cysN	sulfate adenylyltransferase subunit 1	"Assimilatory sulfate reduction, sulfate => H2S"	Assimilatory sulfate reduction	sulfur metabolism	step 1
+K00957	cysD	sulfate adenylyltransferase subunit 2	"Assimilatory sulfate reduction, sulfate => H2S"	Assimilatory sulfate reduction	sulfur metabolism	step 1
+K00860	cysC	adenylylsulfate kinase	"Assimilatory sulfate reduction, sulfate => H2S"	Assimilatory sulfate reduction	sulfur metabolism	step 2
+K00390	cysH	phosphoadenosine phosphosulfate reductase	"Assimilatory sulfate reduction, sulfate => H2S"	Assimilatory sulfate reduction	sulfur metabolism	step 3
+K00380	cysJ	sulfite reductase (NADPH) flavoprotein alpha-component	"Assimilatory sulfate reduction, sulfate => H2S"	Assimilatory sulfate reduction	sulfur metabolism	step 4
+K00381	cysI	sulfite reductase (NADPH) hemoprotein beta-component	"Assimilatory sulfate reduction, sulfate => H2S"	Assimilatory sulfate reduction	sulfur metabolism	step 4
+K00392	sir	sulfite reductase (ferredoxin)	"Assimilatory sulfate reduction, sulfate => H2S"	Assimilatory sulfate reduction	sulfur metabolism	step 4
+K00394	aprA	"adenylylsulfate reductase, subunit A"	"Dissimilatory sulfate reduction, sulfate => H2S"	Dissimilatory sulfate reduction	sulfur metabolism	step 2
+K00395	aprB	"adenylylsulfate reductase, subunit B"	"Dissimilatory sulfate reduction, sulfate => H2S"	Dissimilatory sulfate reduction	sulfur metabolism	step 2
+K11180	dsrA	dissimilatory sulfite reductase alpha subunit	"Dissimilatory sulfate reduction, sulfate => H2S"	Dissimilatory sulfate reduction	sulfur metabolism	step 3
+K11181	dsrB	dissimilatory sulfite reductase beta subunit	"Dissimilatory sulfate reduction, sulfate => H2S"	Dissimilatory sulfate reduction	sulfur metabolism	step 3
+K10227	smoE	polyol transport system substrate-binding protein	Putative sorbitol/mannitol transporter	Putative sorbitol/mannitol transporter	transport	
+K10228	smoF	polyol transport system permease protein	Putative sorbitol/mannitol transporter	Putative sorbitol/mannitol transporter	transport	
+K10229	smoG	polyol transport system permease protein	Putative sorbitol/mannitol transporter	Putative sorbitol/mannitol transporter	transport	
+K10111	malK	multiple sugar transport system ATP-binding protein	Putative sorbitol/mannitol transporter	Putative sorbitol/mannitol transporter	transport	
+K02020	modA	molybdate transport system substrate-binding protein	Molybdate transporter	Molybdate transporter	transport	
+K02018	modB	molybdate transport system permease protein	Molybdate transporter	Molybdate transporter	transport	
+K02017	modC	molybdate transport system ATP-binding protein	Molybdate transporter	Molybdate transporter	transport	
+K02012	afuA	iron(III) transport system substrate-binding protein	Iron(III) transporter	Iron transporter	transport	
+K02011	afuB	iron(III) transport system permease protein	Iron(III) transporter	Iron transporter	transport	
+K02010	afuC	iron(III) transport system ATP-binding protein	Iron(III) transporter	Iron transporter	transport	
+K23163	sbp	sulfate/thiosulfate transport system substrate-binding protein	Sulfate/thiosulfate transporter	Sulfate/thiosulfate transporter	transport	
+K02046	cysU	sulfate/thiosulfate transport system permease protein	Sulfate/thiosulfate transporter	Sulfate/thiosulfate transporter	transport	
+K02047	cysW	sulfate/thiosulfate transport system permease protein	Sulfate/thiosulfate transporter	Sulfate/thiosulfate transporter	transport	
+K02045	cysA	sulfate/thiosulfate transport system ATP-binding protein	Sulfate/thiosulfate transporter	Sulfate/thiosulfate transporter	transport	
+K15576	nrtA	nitrate/nitrite transport system substrate-binding protein	Nitrate/nitrite transporter	Nitrate/nitrite transporter	transport	
+K15577	nrtB	nitrate/nitrite transport system permease protein	Nitrate/nitrite transporter	Nitrate/nitrite transporter	transport	
+K15578	nrtC	nitrate/nitrite transport system ATP-binding protein	Nitrate/nitrite transporter	Nitrate/nitrite transporter	transport	
+K15579	nrtD	nitrate/nitrite transport system ATP-binding protein	Nitrate/nitrite transporter	Nitrate/nitrite transporter	transport	
+K15495	wtpA	molybdate/tungstate transport system substrate-binding protein	Molybdate/tungstate transporter	Molybdate/tungstate transporter	transport	
+K15496	wtpB	molybdate/tungstate transport system permease protein	Molybdate/tungstate transporter	Molybdate/tungstate transporter	transport	
+K15497	wtpC	molybdate/tungstate transport system ATP-binding protein	Molybdate/tungstate transporter	Molybdate/tungstate transporter	transport	
+K15551	tauA	taurine transport system substrate-binding protein	Taurine transporter	Taurine transporter	transport	
+K15552	tauC	taurine transport system permease protein	Taurine transporter	Taurine transporter	transport	
+K10831	tauB	taurine transport system ATP-binding protein	Taurine transporter	Taurine transporter	transport	
+K15553	ssuA	sulfonate transport system substrate-binding protein	Sulfonate transporter	Sulfonate transporter	transport	
+K15554	ssuC	sulfonate transport system permease protein	Sulfonate transporter	Sulfonate transporter	transport	
+K15555	ssuB	sulfonate transport system ATP-binding protein	Sulfonate transporter	Sulfonate transporter	transport	
+K02040	pstS	phosphate transport system substrate-binding protein	Phosphate transporter	Phosphate transporter	transport	
+K02037	pstC	phosphate transport system permease protein	Phosphate transporter	Phosphate transporter	transport	
+K02038	pstA	phosphate transport system permease protein	Phosphate transporter	Phosphate transporter	transport	
+K02036	pstB	phosphate transport system ATP-binding protein	Phosphate transporter	Phosphate transporter	transport	
+K02044	phnD	phosphonate transport system substrate-binding protein	Phosphonate transporter	Phosphonate transporter	transport	
+K02042	phnE	phosphonate transport system permease protein	Phosphonate transporter	Phosphonate transporter	transport	
+K02041	phnC	phosphonate transport system ATP-binding protein	Phosphonate transporter	Phosphonate transporter	transport	
+K11959	urtA	urea transport system substrate-binding protein	Urea transporter	Urea transporter	transport	
+K11960	urtB	urea transport system permease protein	Urea transporter	Urea transporter	transport	
+K11961	urtC	urea transport system permease protein	Urea transporter	Urea transporter	transport	
+K11962	urtD	urea transport system ATP-binding protein	Urea transporter	Urea transporter	transport	
+K11963	urtE	urea transport system ATP-binding protein	Urea transporter	Urea transporter	transport	
+K12368	dppA	dipeptide transport system substrate-binding protein	Dipeptide transporter	Dipeptide transporter	transport	
+K12369	dppB	dipeptide transport system permease protein	Dipeptide transporter	Dipeptide transporter	transport	
+K12370	dppC	dipeptide transport system permease protein	Dipeptide transporter	Dipeptide transporter	transport	
+K12371	dppD	dipeptide transport system ATP-binding protein	Dipeptide transporter	Dipeptide transporter	transport	
+K12372	dppF	dipeptide transport system ATP-binding protein	Dipeptide transporter	Dipeptide transporter	transport	
+K10094	cbiK	nickel transport protein	Nickel transporter	Nickel transporter	transport	step 1 nickel transport
+K02009	cbiN	cobalt/nickel transport protein	cobalt/nickel transporter	cobalt/nickel transporter	transport	step 2 nickel transport / step 1 cobalt transport
+K16915	cbiL	nickel transport protein	Nickel transporter	Nickel transporter	transport	step 2 nickel transport
+K02007	cbiM	cobalt/nickel transport system permease protein	cobalt/nickel transporter	cobalt/nickel transporter	transport	step 2 nickel transport / step 1 cobalt transport
+K02008	cbiQ	cobalt/nickel transport system permease protein	cobalt/nickel transporter	cobalt/nickel transporter	transport	step 2 nickel transport / step 1 cobalt transport
+K02006	cbiO	cobalt/nickel transport system ATP-binding protein	cobalt/nickel transporter	cobalt/nickel transporter	transport	step 3 nickel transport / step 2 cobalt transport
+K11601	mntC	manganese transport system substrate-binding protein	Manganese transporter	Manganese transporter	transport	
+K11602	mntB	manganese transport system permease protein	Manganese transporter	Manganese transporter	transport	
+K19973	mntA	manganese transport system ATP-binding protein	Manganese transporter	Manganese transporter	transport	
+K09815	znuA	zinc transport system substrate-binding protein	Zinc transporter	Zinc transporter	transport	
+K09816	znuB	zinc transport system permease protein	Zinc transporter	Zinc transporter	transport	
+K09817	znuC	zinc transport system ATP-binding protein	Zinc transporter	Zinc transporter	transport	
+K02196	ccmD	heme exporter protein D	Heme transporter	Iron transporter	transport	
+K02195	ccmC	heme exporter protein C	Heme transporter	Iron transporter	transport	
+K02194	ccmB	heme exporter protein B	Heme transporter	Iron transporter	transport	
+K02193	ccmA	heme exporter protein A	Heme transporter	Iron transporter	transport	
+K17202	eryG	erythritol transport system substrate-binding protein	Erythritol transporter	Erythritol transporter	transport	
+K17203	eryF	erythritol transport system permease protein	Erythritol transporter	Erythritol transporter	transport	
+K17204	eryE	erythritol transport system ATP-binding protein	Erythritol transporter	Erythritol transporter	transport	
+K17205	xltC	putative xylitol transport system substrate-binding protein	Putative xylitol transporter	Putative xylitol transporter	transport	
+K17206	xltB	putative xylitol transport system permease protein	Putative xylitol transporter	Putative xylitol transporter	transport	
+K17207	xltA	putative xylitol transport system ATP-binding protein	Putative xylitol transporter	Putative xylitol transporter	transport	
+K17208	ibpA	inositol transport system substrate-binding protein	Inositol transporter	Inositol transporter	transport	
+K17209	iatP	inositol transport system permease protein	Inositol transporter	Inositol transporter	transport	
+K17210	iatA	inositol transport system ATP-binding protein	Inositol transporter	Inositol transporter	transport	
+K17321	glpV	glycerol transport system substrate-binding protein	Glycerol transporter	Glycerol transporter	transport	
+K17322	glpP	glycerol transport system permease protein	Glycerol transporter	Glycerol transporter	transport	
+K17323	glpQ	glycerol transport system permease protein	Glycerol transporter	Glycerol transporter	transport	
+K17324	glpS	glycerol transport system ATP-binding protein	Glycerol transporter	Glycerol transporter	transport	
+K17325	glpT	glycerol transport system ATP-binding protein	Glycerol transporter	Glycerol transporter	transport	
+K03832	tonB	periplasmic protein TonB	Electrochemical potential-driven transporters	TonB system	transport	
+K03561	exbB	biopolymer transport protein ExbB	Pores ion channels	TonB system	transport	
+K03559	exbD	biopolymer transport protein ExbD	Pores ion channels	TonB system	transport	
+K02014	fhuA	iron complex outermembrane recepter protein	Pores ion channels	Iron transporter	transport	either part of sideraphore transport or ferric hydroxamate
+K25287	desE	iron-desferrioxamine transport system substrate-binding protein	Iron-siderophore transporter	Iron transporter	transport	alternative to K25286
+K25286	fagD	iron-siderophore transport system substrate-binding protein	Iron-siderophore transporter	Iron transporter	transport	alternative to K25287
+K23186	fepD	iron-siderophore transport system permease protein	Iron-siderophore transporter	Iron transporter	transport	
+K23187	fepG	iron-siderophore transport system permease protein	Iron-siderophore transporter	Iron transporter	transport	
+K23188	fepC	iron-siderophore transport system ATP-binding protein	Iron-siderophore transporter	Iron transporter	transport	
+K07224	efeO	iron uptake system component EfeO	Electrochemical potential-driven transporters	Iron transporter	transport	"Fe3+ transporter system active in aerobic, low-pH, low-iron conditions"
+K07243	efeU	high-affinity iron transporter	Electrochemical potential-driven transporters	Iron transporter	transport	"Fe3+ transporter system active in aerobic, low-pH, low-iron conditions"
+K16301	efeB	deferrochelatase/peroxidase EfeB	Electrochemical potential-driven transporters	Iron transporter	transport	"Fe3+ transporter system active in aerobic, low-pH, low-iron conditions"
+K02035	ABC.PE.S	peptide/nickel transport system substrate-binding protein	Peptides/nickel transporter	Peptides/nickel transporter	transport	
+K02034	ABC.PE.P1	peptide/nickel transport system permease protein	Peptides/nickel transporter	Peptides/nickel transporter	transport	
+K02033	ABC.PE.P	peptide/nickel transport system permease protein	Peptides/nickel transporter	Peptides/nickel transporter	transport	
+K02031	ddpD	peptide/nickel transport system ATP-binding protein	Peptides/nickel transporter	Peptides/nickel transporter	transport	
+K02032	ddpF	peptide/nickel transport system ATP-binding protein	Peptides/nickel transporter	Peptides/nickel transporter	transport	
+K02016	ABC.FEV.S	iron complex transport system substrate-binding protein	Iron complex transporter	Iron transporter	transport	
+K08225	entS	"MFS transporter, ENTS family, enterobactin (siderophore) exporter"	Metal transporters	Siderophore export	transport	
+K08226	pucC	"MFS transporter, BCD family, chlorophyll transporter"	Putative bacteriochlorophyll delivery (BCD) family	bacteriochlorophyll transporter	transport	
+K16264	czcD	cobalt-zinc-cadmium efflux system protein	Electrochemical potential-driven transporters	Efflux system	transport	
+K13283	fieF	ferrous-iron efflux pump FieF	Electrochemical potential-driven transporters	Efflux system	transport	
+K03893	arsB	arsenical pump membrane protein	Electrochemical potential-driven transporters	Efflux system	transport	
+K08970	rcnA	nickel/cobalt transporter (NicO) family protein	Electrochemical potential-driven transporters	Efflux system	transport	
+K07156	copC	copper resistance protein C	Electrochemical potential-driven transporters	Efflux system	transport	
+K07245	pcoD	copper resistance protein D	Electrochemical potential-driven transporters	Efflux system	transport	
+K17686	copA	P-type Cu+ transporter	P-type Cu+ transporter	Efflux system	transport	
+K14696	"SLC30A9, ZNT9"	"solute carrier family 30 (zinc transporter), member 9"	Zinc efflux transporter	Efflux system	transport	
+K15726	czcA	heavy metal efflux system protein	Electrochemical potential-driven transporters	Efflux system	transport	
+K04758	feoA	ferrous iron transport protein A	Other transporters	Iron transporter	transport	
+K04759	feoB	ferrous iron transport protein B	Other transporters	Iron transporter	transport	
+K07787	"cusA, silA"	copper/silver efflux system protein	Electrochemical potential-driven transporters	Efflux system	transport	
+K25110	sirB	iron-siderophore transport system permease protein	Iron-siderophore transporter	Iron transporter	transport	
+K25111	sirC	iron-siderophore transport system permease protein	Iron-siderophore transporter	Iron transporter	transport	
+K25130	fecE	iron-siderophore transport system ATP-binding protein	Iron-siderophore transporter	Iron transporter	transport	
+K16092	btuB	vitamin B12 transporter	vitamin B12 transporter	vitamin B12 transporter	transport	
+K03711	fur	ferric uptake regulator	ferric uptake regulator	ferric uptake regulator	transport	
+K09826	irr	"Fur family transcriptional regulator, iron response regulator"	ferric uptake regulator	ferric uptake regulator	transport	specific to Rhizobiales
+K07225	hmuS	putative hemin transport protein	Others	Iron transporter	transport	
+K23548	hupU	uptake hydrogenase small subunit	hydrogenase (acceptor)	Hydrogenase	Hydrogenase	
+K23549	hupV	uptake hydrogenase large subunit	hydrogenase (acceptor)	Hydrogenase	Hydrogenase	
+K18098	bjaR1	"LuxR family transcriptional regulator, quorum-sensing system regulator BjaR1"	Quorum sensing	Quorum sensing	Quorum sensing	
+K18096	bjaI	acyl-homoserine lactone synthase	Quorum sensing	Quorum sensing	Quorum sensing	
+K07241	hoxN	nickel/cobalt transporter (NiCoT) family protein	Electrochemical potential-driven transporters	cobalt/nickel transporter	transport	
+K01428	ureC	urease subunit alpha	Arginine biosynthesis	Urea metabolism	nitrogen metabolism	
+K01429	ureB	urease subunit beta	Arginine biosynthesis	Urea metabolism	nitrogen metabolism	
+K01430	ureA	urease subunit gamma	Arginine biosynthesis	Urea metabolism	nitrogen metabolism	
+K14048	ureAB	urease subunit gamma/betaÊ	Arginine biosynthesis	Urea metabolism	nitrogen metabolism	
+K00652	bioF	8-amino-7-oxononanoate synthase	"Biotin biosynthesis, pimeloyl-ACP/CoA => biotin"	Biotin biosynthesis	cofactors	
+K00833	bioA	adenosylmethionine---8-amino-7-oxononanoate aminotransferase	"Biotin biosynthesis, pimeloyl-ACP/CoA => biotin"	Biotin biosynthesis	cofactors	
+K01935	bioD	dethiobiotin synthetase	"Biotin biosynthesis, pimeloyl-ACP/CoA => biotin"	Biotin biosynthesis	cofactors	
+K01012	bioB	biotin synthase	"Biotin biosynthesis, pimeloyl-ACP/CoA => biotin"	Biotin biosynthesis	cofactors	
+K14652	ribBA	"3,4-dihydroxy 2-butanone 4-phosphate synthase / GTP cyclohydrolase"	"Riboflavin biosynthesis, plants and bacteria, GTP => riboflavin/FMN/FAD"	Riboflavin biosynthesis	cofactors	alternative to K01497 and K02858
+K01497	ribA	GTP cyclohydrolase II	"Riboflavin biosynthesis, plants and bacteria, GTP => riboflavin/FMN/FAD"	Riboflavin biosynthesis	cofactors	alternative to K14652
+K11752	ribD	diaminohydroxyphosphoribosylaminopyrimidine deaminase / 5-amino-6-(5-phosphoribosylamino)uracil reductase	"Riboflavin biosynthesis, plants and bacteria, GTP => riboflavin/FMN/FAD"	Riboflavin biosynthesis	cofactors	
+K02858	ribB	"3,4-dihydroxy 2-butanone 4-phosphate synthase"	"Riboflavin biosynthesis, plants and bacteria, GTP => riboflavin/FMN/FAD"	Riboflavin biosynthesis	cofactors	alternative to K14652
+K00794	ribH	"6,7-dimethyl-8-ribityllumazine synthase"	"Riboflavin biosynthesis, plants and bacteria, GTP => riboflavin/FMN/FAD"	Riboflavin biosynthesis	cofactors	
+K00793	ribE	riboflavin synthase	"Riboflavin biosynthesis, plants and bacteria, GTP => riboflavin/FMN/FAD"	Riboflavin biosynthesis	cofactors	
+K11753	ribF	riboflavin kinase / FMN adenylyltransferase	"Riboflavin biosynthesis, plants and bacteria, GTP => riboflavin/FMN/FAD"	Riboflavin biosynthesis	cofactors	
+K00878	thiM	hydroxyethylthiazole kinase	"Thiamine salvage pathway, HMP/HET => TMP"	Thiamine salvage pathway	cofactors	
+K00941	thiD	hydroxymethylpyrimidine/phosphomethylpyrimidine kinase	"Thiamine salvage pathway, HMP/HET => TMP"	Thiamine salvage pathway	cofactors	
+K00788	thiE	thiamine-phosphate pyrophosphorylase	"Thiamine salvage pathway, HMP/HET => TMP"	Thiamine salvage pathway	cofactors	
+K01524	ppx-gppA	"exopolyphosphatase / guanosine-5'-triphosphate,3'-diphosphate pyrophosphatase"	Purine metabolism	Polyphosphate	phosphate metabolism	
+K00937	ppk1	polyphosphate kinase	Oxidative phosphorylation	Polyphosphate	phosphate metabolism	

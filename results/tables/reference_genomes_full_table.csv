@@ -1,0 +1,67 @@
+Species,Taxonomy,Source,ID
+Cyphobasidium from Alectoria,Basidiomycota; Pucciniomycotina; Cyphobasidiales,Tagirdzhanova et al. GBE 13 evab129 (2021),CAJHEP01
+Cystobasidium minutum,Basidiomycota; Pucciniomycotina; Cystobasidiales,Camiolo et al. Yeast 36 53-64 (2019),Rhomi1
+Letharia lupina,Ascomycota; Pezizomycotina; Lecanorales,McKenzie et al. Genomics 112 3150-3156 (2020),GCA_014066315.1
+Tremella from Alectoria,Basidiomycota; Agaricomycotina; Tremellales,Tagirdzhanova et al. GBE 13 evab129 (2021),GCA_904859935.1
+Blumeria hordei,Ascomycota; Pezizomycotina; Leotiomycetes; Erysiphales,Frantzeskakis et al. BMC Genomics 19 381 (2018),GCA_000151065.3
+Arthrobotrys oligospora,Ascomycota; Pezizomycotina; Orbiliomycetes; Orbiliales,Yang et al.  PLoS Pathog. 7 e1002179 (2011),GCF_000225545.1
+Rhytidhysteron rufulum,Ascomycota; Pezizomycotina;Dothideomycetes; Hysteriales,Ohm et al. PLoS Pathog. 8 e1003037 (2012),GCA_000467735.1
+Cladophialophora bantiana CBS 173.52,Ascomycota; Pezizomycotina; Eurotiomycetes; Chaetothyriales,Teixeira et al. Stud Mycol 86 1-28 (2017),GCF_000835475.1
+Phaeomoniella chlamydospora,Ascomycota; Pezizomycotina; Eurotiomycetes; Phaeomoniellales,Morales-Cruz et al. BMC Genomics 16 469 (2015),GCA_001006345.1
+Chlamydomonas eustigma,Chlorophyta; Chlorophyceaea,Hirooka et al. PNAS 114 E8304-E8313 (2017),GCA_002335675.1
+Picochlorum soloecismus,Chlorophyta; Trebouxiophyceaea,Gonzalez-Esquer et al. Genome Announc 25 (2018),GCA_002818215.1
+Meliniomyces variabilis,Ascomycota; Pezizomycotina; Leotiomycetes; Helotiales,Martino et al. New Phytol. 217 1213-1229 (2018),GCA_002865655.1
+Picocystis,Chlorophyta; Picocystophyceae,Sumbitted by University of Oklahoma,GCA_003665715.1
+Ascobolus immersus,Ascomycota; Pezizomycotina; Pezizomycetes; Pezizales,Murat et al. Nat Ecol Evol. 2 1956-1965 (2018),GCA_003788565.2
+Tetraselmis striata,Chlorophyta; Chlorodendrophyceae,Steadman et al. Microbiol Resour Announc 8 (2019),GCA_006384855.1
+Chloropicon primus,Chlorophyta; Chloropicophyceae,Lemieux et al. Nat Commun 10 4061 (2019),GCA_007859695.1
+Asterochloris,Chlorophyta; Trebouxiophyceaea,Submitted by New York University AbuDhabi,GCA_019693375.1
+Ulva mutabilis,Chlorophyta; Ulvaphyceaea,De Clerck et al. Curr Biol 28 2921-2933 (2018),GCA_900538255.1
+Yarrowia lipolytica,Ascomycota; Saccharomycotina; Saccharomycetales,Dujon et al. Nature 43 35-44 (2004),GCF_000002525.2
+Aspergillus niger,Ascomycota; Pezizomycotina; Eurotiales,Pel et al. Nat Biotechnol 25 221-231 (2007),GCF_000002855.3
+Schizosaccharomyces pombe,Ascomycota; Taphrinomycotina; Schizosaccharomycetales,Wood et al. Nature 415 871-880 (2002),GCF_000002945.1
+Blastomyces gilchristii,Ascomycota; Pezizomycotina; Onygenales,Direct submission from The Broad Institute,GCF_000003855.2
+Cryptococcus neoformans var. neoformans,Basidiomycota; Agaricomycotina; Tremellales,Loftus et al. Science 307 1321-1324 (2005),GCF_000091045.1
+Schizophyllum commune,Basidiomycota; Agaricomycotina; Agaricales,Ohm et al. Nat Biotechnol 28 957-963 (2010),GCF_000143185.1
+Volvox carteri,Chlorophyta; Chlorophyceaea,Prochnik et al. Science 329 223-226 (2010),GCF_000143455.1
+Laccaria bicolor,Basidiomycota; Agaricomycotina; Agaricales,Martin et al. Nature 452 88-92 (2008),GCF_000143565.1
+Saccharomyces cerevisiae,Ascomycota; Saccharomycotina; Saccharomycetales,Direct submission from Saccharomyces Genome Database,GCF_000146045.2
+Sclerotinia sclerotiorum,Ascomycota; Pezizomycotina; Helotiales,Amselem et al. PLoS Genet 7 e1002230 (2011),GCF_000146945.2
+Chlorella variabilis,Chlorophyta; Trebouxiophyceaea,Submitted by JGI,GCF_000147415.1
+Colletotrichum graminicola,Ascomycota; Pezizomycotina; Glomerellales,O'Connell et al. Nat Genet 44 1060-1065 (2012),GCF_000149035.1
+Puccinia graminis f. sp. tritici,Basidiomycota; Pucciniomycotina; Pucciniales,Duplessis et al. Proc Natl Acad Sci U S A 108 9166-9171 (2011),GCF_000149925.1
+Coccidioides posadasii,Ascomycota; Pezizomycotina; Onygenales,Sharpton et al. Genome Research 19 1722-1731 (2009),GCF_000151335.2
+Trichophyton rubrum,Ascomycota; Pezizomycotina; Onygenales,Martinez et al. mBio 3 e00259-12 (2012),GCF_000151425.1
+Tuber melanosporum,Ascomycota; Pezizomycotina; Pezizales,Martin et al. Nature 464 1033-1038 (2010),GCF_000151645.1
+Trichoderma reesei,Ascomycota; Pezizomycotina; Hypocreales,Martinez et al. Nat Biotechnol 26 553-560 (2008),GCF_000167675.1
+Neurospora crassa,Ascomycota; Pezizomycotina; Sordariales,Galagan et al. Nature 422 859-868 (2003),GCF_000182925.2
+Cryptococcus gattii,Basidiomycota; Agaricomycotina; Tremellales,D'Souza et al. mBio 2 e00342 (2011),GCF_000185945.1
+Melampsora larici-populina,Basidiomycota; Pucciniomycotina; Uredinales,Duplessis et al. Proc Natl Acad Sci U S A 108 9166-9171 (2011),GCF_000204055.1
+Cordyceps militaris,Ascomycota; Pezizomycotina; Hypocreales,Zheng et al. Genome Biol 12 R116 (2011),GCF_000225605.1
+Podospora anserina,Ascomycota; Pezizomycotina; Sordariales,,GCF_000226545.1
+Fusarium graminearum,Ascomycota; Pezizomycotina; Hypocreales,Cuomo et al. Science 317 1400-1402 (2007),GCF_000240135.3
+Coccomyxa,Chlorophyta; Trebouxiophyceaea,Blanc et al. Genome Biol 13 R39 (2012),GCF_000258705.1
+Stereum hirsutum,Basidiomycota; Agaricomycotina; Russulales,Floudas et al. Science 336 1715-1719 (2012),GCF_000264905.1
+Tremella mesenterica,Basidiomycota; Agaricomycotina; Tremellales,Floudas et al. Science 336 1715-1719 (2012),GCF_000271645.1
+Trichosporon asahii var. asahii,Basidiomycota; Agaricomycotina; Trichosporonales,Yang et al. Eukaryot Cell 1 1415-1416 (2012),GCF_000293215.1
+Agaricus bisporus var. bisporus,Basidiomycota; Agaricomycotina; Agaricales,Morin et al. Proc Natl Acad Sci U S A 109 17501-17506 (2012),GCF_000300575.1
+Rhodotorula toruloides,Basidiomycota; Pucciniomycotina; Sporidiobolales,Zhu et al. Nat Commun 3 1112 (2012),GCF_000320785.1
+Ustilago maydis,Basidiomycota; Ustilaginomycotina; Ustilaginales,Kämper et al. Nature 444 97-101 (2006),GCF_000328475.2
+Gloeophyllum trabeum,Basidiomycota; Agaricomycotina; Gloeophyllales,Floudas et al. Science 336 1715-1719 (2012),GCF_000344685.1
+Dactylellina haptotyla,Ascomycota; Pezizomycotina; Orbiliomycetes; Orbiliales,Meerupati et al. PLoS Genet. 9 e1003909 (2013),GCA_000441935.1
+Endocarpon pusillum,Ascomycota; Pezizomycotina; Eurotiomycetes; Verrucariales,Wang et al. BMC Genomics 15 34 (2014),GCF_000464535.1
+Kwoniella mangroviensis,Basidiomycota; Agaricomycotina; Tremellales,Direct submission from The Broad Institute,GCF_000507465.1
+Capronia coronata,Ascomycota; Pezizomycotina; Eurotiomycetes; Chaetothyriales,Teixeira et al. Stud Mycol 86 1-28 (2017),GCF_000585585.1
+Mixia osmundae,Basidiomycota; Pucciniomycotina; Mixiales,Toome et al. New Phytol 202 554-564 (2014),GCF_000708205.1
+Exophiala aquamarina,Ascomycota; Pezizomycotina; Eurotiomycetes; Chaetothyriales,Teixeira et al. Stud Mycol 86 1-28 (2017),GCF_000709125.1
+Aureobasidium pullulans var. melanogenum,Ascomycota; Pezizomycotina;Dothideomycetes; Botryosphaeriales,Gostinčar et al. BMC Genomics 15 549 (2014),GCF_000721775.1
+Penicillium expansum,Ascomycota; Pezizomycotina; Eurotiales,Ballester et al. Mol Plant Microbe Interact 28 232-248 (2015),GCF_000769745.1
+Malassezia pachydermatis,Basidiomycota; Ustilaginomycotina; Malasseziales,Triana et al. Genome Announc 3  e01197 (2015),GCF_001278385.1
+Paraconiothyrium sporulosum,Ascomycota; Pezizomycotina;Dothideomycetes; Pleosporales,Zeiner et al. PLoS One 11 e0157844 (2016),GCF_001642045.1
+Alternaria alternata,Ascomycota; Pezizomycotina;Dothideomycetes; Pleosporales,Zeiner et al. PLoS One 11 e0157844 (2016),GCF_001642055.1
+Kockovaella imperatae,Basidiomycota; Agaricomycotina; Tremellales,Mondo et al. Nature Genet 49 964 (2017),GCF_002102565.1
+Bathycoccus prasinos,Chlorophyta; Mamiellophyceae,Espagne et al. Genome Biol 9 R77 (2008),GCF_002220235.1
+Rhizopus microsporus,Mucoromycota; Mucoromycotina; Mucorales,Lastovetsky et al. Proc Natl Acad Sci U S A 113 15102-15107 (2016),GCF_002708625.1
+Cercospora beticola,Ascomycota; Pezizomycotina; Capnodiales,De Jonge et al. Proc Natl Acad Sci U S A 115 E5459-5466 (2018),GCF_002742065.1
+Aplosporella prunicola,Ascomycota; Pezizomycotina;Dothideomycetes; Botryosphaeriales,Haridas et al. Stud Mycol 96 141-153 (2020),GCF_010093885.1
+,,,

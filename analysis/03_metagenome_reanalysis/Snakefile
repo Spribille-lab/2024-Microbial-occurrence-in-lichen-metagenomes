@@ -1,0 +1,124 @@
+import glob
+import os
+import pandas
+
+SAMPLES, = glob_wildcards("../../data/fastq/{sample}.sra_2.fastq.gz")
+
+
+rule all:
+        input:
+                expand("assemblies/{sample}/final.contigs.fa",sample = SAMPLES),
+                expand("{sample}_reformat.sh.out",sample = SAMPLES),
+                expand("reads_{sample}.level_5.txt",sample = SAMPLES),
+                expand("assembly_{sample}.level_5.txt",sample = SAMPLES),
+                "bp_report.txt",
+                "assembly_report.txt"
+        output: touch("touch")
+
+
+                
+#part of script to detect rDNA in assemblies
+
+rule metaxa_assembly:
+        input:
+                i1="assemblies_paul/{sample}_scaffolds.fasta",
+        output:
+                o1="assembly_{sample}.taxonomy.txt",
+        resources: time_min=60, mem_mb=187000, cpus=48
+        shell:
+                "metaxa2 -i {input.i1} --mode m --plus --graphical F --split_pairs F -o assembly_{wildcards.sample} --cpu 48"
+
+
+
+
+#part of script to detect rDNA in raw read files  
+
+rule metaxa:
+        input:
+                i1=ancient("../../data/fastq/{sample}.sra_1.fastq.gz"),
+                i2=ancient("../../data/fastq/{sample}.sra_2.fastq.gz"),
+        output:
+                o1="{sample}.taxonomy.txt",
+        resources: time_min=720, mem_mb=187000, cpus=48
+        shell:
+                "metaxa2 -1 {input.i1} -2 {input.i2} -f p --mode m --plus --graphical F --split_pairs F -o {wildcards.sample} --cpu 48"
+
+
+
+
+#part of script to calculate sequencing depth (total bp)  
+rule count_bp:
+        input:
+                i1=ancient("../../data/fastq/{sample}.sra_1.fastq.gz"),
+                i2=ancient("../../data/fastq/{sample}.sra_2.fastq.gz"),
+        output:
+                o="{sample}_reformat.sh.out"
+        resources: time_min=60, mem_mb=187000, cpus=48
+        shell:	
+                "reformat.sh in={input.i1} in2={input.i2} >{output} 2>&1;"
+
+rule report_bp:
+        input:	i="{sample}_reformat.sh.out"
+        output:	o=temp("tmp_report_bp_{sample}.txt")
+        run:
+                with open (input.i,'r') as r:
+                        for ln in r.readlines():
+                                if ln.startswith('Input:'):
+                                       count=re.search('reads          \t(.*) bases',ln)
+                                       result=str(wildcards.sample+'\t'+count.group(1)+'\n')
+                with open (output.o,'w') as out: out.write(result)
+
+rule compile_bp_reports:
+        input:
+                expand("tmp_report_bp_{sample}.txt",sample = SAMPLES)
+        output:	"bp_report.txt"
+        shell:
+                "cat {input} > {output}"
+
+#part of script to extract assembly size  
+rule assembly_stats:
+        input:
+                "assemblies_paul/{sample}_scaffolds.fasta"
+        output:
+        		"assemblies_paul/{sample}_assembly_stats.txt"
+        shell:
+        		"stats.sh in={input} format=4 >{output} 2>&1"
+
+rule report_assembly:
+        input:	i="assemblies_paul/{sample}_assembly_stats.txt"
+        output:	o=temp("tmp_report_assembly_{sample}.txt")
+        run:
+                with open (input.i,'r') as r:
+		                df = pandas.read_csv(r,sep='\t',skiprows=2,header=None)
+		                length = df.iloc[0,1]
+		                result=str(wildcards.sample+'\t'+str(length)+'\n')
+                with open (output.o,'w') as out: out.write(result)
+
+rule compile_assembly_reports:
+        input:
+                expand("tmp_report_assembly_{sample}.txt",sample = SAMPLES)
+        output:	"assembly_report.txt"
+        shell:
+                "cat {input} > {output}"
+                
+                
+                
+rule metaxa_tax_profile_assembly:
+        input:
+                "assembly_{sample}.taxonomy.txt"
+        output:
+                "assembly_{sample}.level_5.txt",
+        resources: time_min=60, mem_mb=187000, cpus=48
+        shell:
+                "metaxa2_ttt -i {input} -o assembly_{wildcards.sample} -t b,e -r 80 -m 7 -n 3"
+                
+rule metaxa_tax_profile_reads:
+        input:
+                "{sample}.taxonomy.txt"
+        output:
+                "reads_{sample}.level_5.txt",
+        resources: time_min=60, mem_mb=187000, cpus=48
+        shell:
+                "metaxa2_ttt -i {input} -o reads_{wildcards.sample} -t b,e -r 80 -m 7 -n 3"
+                
+                

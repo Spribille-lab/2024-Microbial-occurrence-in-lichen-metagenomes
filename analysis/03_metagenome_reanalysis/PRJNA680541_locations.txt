@@ -1,0 +1,2 @@
+run_accession	sample_accession	location	isolate	sample_alias
+SRR13125762	SAMN16882156			Usnea aurantiacoatra EL0450

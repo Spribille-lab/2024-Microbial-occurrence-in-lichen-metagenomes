@@ -1,0 +1,4 @@
+run_accession	sample_accession	location	isolate	sample_alias
+ERR4179389	SAMEA6862453			Lichen_metagenome1
+ERR4179390	SAMEA6862454			Lichen_metagenome2
+ERR4179391	SAMEA6862455			Lichen_metagenome3

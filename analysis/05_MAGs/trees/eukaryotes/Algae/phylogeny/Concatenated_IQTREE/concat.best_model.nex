@@ -1,0 +1,2598 @@
+#nexus
+begin sets;
+  charset part1 = algn/4583at3041_aligned_trimmed.fas: *;
+  charset part2 = algn/9632at3041_aligned_trimmed.fas: *;
+  charset part3 = algn/2831at3041_aligned_trimmed.fas: *;
+  charset part4 = algn/4884at3041_aligned_trimmed.fas: *;
+  charset part5 = algn/4351at3041_aligned_trimmed.fas: *;
+  charset part6 = algn/3009at3041_aligned_trimmed.fas: *;
+  charset part7 = algn/11322at3041_aligned_trimmed.fas: *;
+  charset part8 = algn/1955at3041_aligned_trimmed.fas: *;
+  charset part9 = algn/2112at3041_aligned_trimmed.fas: *;
+  charset part10 = algn/8826at3041_aligned_trimmed.fas: *;
+  charset part11 = algn/4047at3041_aligned_trimmed.fas: *;
+  charset part12 = algn/10044at3041_aligned_trimmed.fas: *;
+  charset part13 = algn/6870at3041_aligned_trimmed.fas: *;
+  charset part14 = algn/11693at3041_aligned_trimmed.fas: *;
+  charset part15 = algn/6577at3041_aligned_trimmed.fas: *;
+  charset part16 = algn/10788at3041_aligned_trimmed.fas: *;
+  charset part17 = algn/10668at3041_aligned_trimmed.fas: *;
+  charset part18 = algn/9759at3041_aligned_trimmed.fas: *;
+  charset part19 = algn/5705at3041_aligned_trimmed.fas: *;
+  charset part20 = algn/6589at3041_aligned_trimmed.fas: *;
+  charset part21 = algn/5129at3041_aligned_trimmed.fas: *;
+  charset part22 = algn/6516at3041_aligned_trimmed.fas: *;
+  charset part23 = algn/3820at3041_aligned_trimmed.fas: *;
+  charset part24 = algn/8623at3041_aligned_trimmed.fas: *;
+  charset part25 = algn/12560at3041_aligned_trimmed.fas: *;
+  charset part26 = algn/5472at3041_aligned_trimmed.fas: *;
+  charset part27 = algn/3096at3041_aligned_trimmed.fas: *;
+  charset part28 = algn/12131at3041_aligned_trimmed.fas: *;
+  charset part29 = algn/5335at3041_aligned_trimmed.fas: *;
+  charset part30 = algn/1301at3041_aligned_trimmed.fas: *;
+  charset part31 = algn/7254at3041_aligned_trimmed.fas: *;
+  charset part32 = algn/3644at3041_aligned_trimmed.fas: *;
+  charset part33 = algn/9277at3041_aligned_trimmed.fas: *;
+  charset part34 = algn/5900at3041_aligned_trimmed.fas: *;
+  charset part35 = algn/5550at3041_aligned_trimmed.fas: *;
+  charset part36 = algn/1863at3041_aligned_trimmed.fas: *;
+  charset part37 = algn/4267at3041_aligned_trimmed.fas: *;
+  charset part38 = algn/1348at3041_aligned_trimmed.fas: *;
+  charset part39 = algn/3337at3041_aligned_trimmed.fas: *;
+  charset part40 = algn/7303at3041_aligned_trimmed.fas: *;
+  charset part41 = algn/1256at3041_aligned_trimmed.fas: *;
+  charset part42 = algn/5262at3041_aligned_trimmed.fas: *;
+  charset part43 = algn/4299at3041_aligned_trimmed.fas: *;
+  charset part44 = algn/5094at3041_aligned_trimmed.fas: *;
+  charset part45 = algn/336at3041_aligned_trimmed.fas: *;
+  charset part46 = algn/2051at3041_aligned_trimmed.fas: *;
+  charset part47 = algn/6065at3041_aligned_trimmed.fas: *;
+  charset part48 = algn/7388at3041_aligned_trimmed.fas: *;
+  charset part49 = algn/7268at3041_aligned_trimmed.fas: *;
+  charset part50 = algn/3977at3041_aligned_trimmed.fas: *;
+  charset part51 = algn/1816at3041_aligned_trimmed.fas: *;
+  charset part52 = algn/5822at3041_aligned_trimmed.fas: *;
+  charset part53 = algn/1511at3041_aligned_trimmed.fas: *;
+  charset part54 = algn/6649at3041_aligned_trimmed.fas: *;
+  charset part55 = algn/4728at3041_aligned_trimmed.fas: *;
+  charset part56 = algn/9467at3041_aligned_trimmed.fas: *;
+  charset part57 = algn/4520at3041_aligned_trimmed.fas: *;
+  charset part58 = algn/3678at3041_aligned_trimmed.fas: *;
+  charset part59 = algn/3869at3041_aligned_trimmed.fas: *;
+  charset part60 = algn/1570at3041_aligned_trimmed.fas: *;
+  charset part61 = algn/6628at3041_aligned_trimmed.fas: *;
+  charset part62 = algn/3411at3041_aligned_trimmed.fas: *;
+  charset part63 = algn/1666at3041_aligned_trimmed.fas: *;
+  charset part64 = algn/1997at3041_aligned_trimmed.fas: *;
+  charset part65 = algn/7922at3041_aligned_trimmed.fas: *;
+  charset part66 = algn/8904at3041_aligned_trimmed.fas: *;
+  charset part67 = algn/4958at3041_aligned_trimmed.fas: *;
+  charset part68 = algn/1242at3041_aligned_trimmed.fas: *;
+  charset part69 = algn/10205at3041_aligned_trimmed.fas: *;
+  charset part70 = algn/3323at3041_aligned_trimmed.fas: *;
+  charset part71 = algn/8331at3041_aligned_trimmed.fas: *;
+  charset part72 = algn/5080at3041_aligned_trimmed.fas: *;
+  charset part73 = algn/9901at3041_aligned_trimmed.fas: *;
+  charset part74 = algn/2878at3041_aligned_trimmed.fas: *;
+  charset part75 = algn/10198at3041_aligned_trimmed.fas: *;
+  charset part76 = algn/3692at3041_aligned_trimmed.fas: *;
+  charset part77 = algn/5531at3041_aligned_trimmed.fas: *;
+  charset part78 = algn/2461at3041_aligned_trimmed.fas: *;
+  charset part79 = algn/6455at3041_aligned_trimmed.fas: *;
+  charset part80 = algn/2581at3041_aligned_trimmed.fas: *;
+  charset part81 = algn/8052at3041_aligned_trimmed.fas: *;
+  charset part82 = algn/6952at3041_aligned_trimmed.fas: *;
+  charset part83 = algn/4975at3041_aligned_trimmed.fas: *;
+  charset part84 = algn/7224at3041_aligned_trimmed.fas: *;
+  charset part85 = algn/2820at3041_aligned_trimmed.fas: *;
+  charset part86 = algn/9319at3041_aligned_trimmed.fas: *;
+  charset part87 = algn/5053at3041_aligned_trimmed.fas: *;
+  charset part88 = algn/3106at3041_aligned_trimmed.fas: *;
+  charset part89 = algn/7132at3041_aligned_trimmed.fas: *;
+  charset part90 = algn/1187at3041_aligned_trimmed.fas: *;
+  charset part91 = algn/5681at3041_aligned_trimmed.fas: *;
+  charset part92 = algn/3173at3041_aligned_trimmed.fas: *;
+  charset part93 = algn/11258at3041_aligned_trimmed.fas: *;
+  charset part94 = algn/6861at3041_aligned_trimmed.fas: *;
+  charset part95 = algn/2855at3041_aligned_trimmed.fas: *;
+  charset part96 = algn/1304at3041_aligned_trimmed.fas: *;
+  charset part97 = algn/2068at3041_aligned_trimmed.fas: *;
+  charset part98 = algn/10679at3041_aligned_trimmed.fas: *;
+  charset part99 = algn/4519at3041_aligned_trimmed.fas: *;
+  charset part100 = algn/1720at3041_aligned_trimmed.fas: *;
+  charset part101 = algn/4023at3041_aligned_trimmed.fas: *;
+  charset part102 = algn/7059at3041_aligned_trimmed.fas: *;
+  charset part103 = algn/5905at3041_aligned_trimmed.fas: *;
+  charset part104 = algn/8289at3041_aligned_trimmed.fas: *;
+  charset part105 = algn/10618at3041_aligned_trimmed.fas: *;
+  charset part106 = algn/9637at3041_aligned_trimmed.fas: *;
+  charset part107 = algn/2533at3041_aligned_trimmed.fas: *;
+  charset part108 = algn/11703at3041_aligned_trimmed.fas: *;
+  charset part109 = algn/4690at3041_aligned_trimmed.fas: *;
+  charset part110 = algn/3428at3041_aligned_trimmed.fas: *;
+  charset part111 = algn/8100at3041_aligned_trimmed.fas: *;
+  charset part112 = algn/10034at3041_aligned_trimmed.fas: *;
+  charset part113 = algn/5047at3041_aligned_trimmed.fas: *;
+  charset part114 = algn/6123at3041_aligned_trimmed.fas: *;
+  charset part115 = algn/8632at3041_aligned_trimmed.fas: *;
+  charset part116 = algn/830at3041_aligned_trimmed.fas: *;
+  charset part117 = algn/9298at3041_aligned_trimmed.fas: *;
+  charset part118 = algn/4129at3041_aligned_trimmed.fas: *;
+  charset part119 = algn/3391at3041_aligned_trimmed.fas: *;
+  charset part120 = algn/11776at3041_aligned_trimmed.fas: *;
+  charset part121 = algn/7781at3041_aligned_trimmed.fas: *;
+  charset part122 = algn/7661at3041_aligned_trimmed.fas: *;
+  charset part123 = algn/7577at3041_aligned_trimmed.fas: *;
+  charset part124 = algn/6156at3041_aligned_trimmed.fas: *;
+  charset part125 = algn/9170at3041_aligned_trimmed.fas: *;
+  charset part126 = algn/5911at3041_aligned_trimmed.fas: *;
+  charset part127 = algn/3079at3041_aligned_trimmed.fas: *;
+  charset part128 = algn/8406at3041_aligned_trimmed.fas: *;
+  charset part129 = algn/5657at3041_aligned_trimmed.fas: *;
+  charset part130 = algn/6001at3041_aligned_trimmed.fas: *;
+  charset part131 = algn/9331at3041_aligned_trimmed.fas: *;
+  charset part132 = algn/4080at3041_aligned_trimmed.fas: *;
+  charset part133 = algn/11113at3041_aligned_trimmed.fas: *;
+  charset part134 = algn/4160at3041_aligned_trimmed.fas: *;
+  charset part135 = algn/5393at3041_aligned_trimmed.fas: *;
+  charset part136 = algn/4288at3041_aligned_trimmed.fas: *;
+  charset part137 = algn/4544at3041_aligned_trimmed.fas: *;
+  charset part138 = algn/9403at3041_aligned_trimmed.fas: *;
+  charset part139 = algn/6733at3041_aligned_trimmed.fas: *;
+  charset part140 = algn/6074at3041_aligned_trimmed.fas: *;
+  charset part141 = algn/4203at3041_aligned_trimmed.fas: *;
+  charset part142 = algn/6282at3041_aligned_trimmed.fas: *;
+  charset part143 = algn/3697at3041_aligned_trimmed.fas: *;
+  charset part144 = algn/10459at3041_aligned_trimmed.fas: *;
+  charset part145 = algn/4627at3041_aligned_trimmed.fas: *;
+  charset part146 = algn/9476at3041_aligned_trimmed.fas: *;
+  charset part147 = algn/3998at3041_aligned_trimmed.fas: *;
+  charset part148 = algn/11078at3041_aligned_trimmed.fas: *;
+  charset part149 = algn/4758at3041_aligned_trimmed.fas: *;
+  charset part150 = algn/7434at3041_aligned_trimmed.fas: *;
+  charset part151 = algn/5555at3041_aligned_trimmed.fas: *;
+  charset part152 = algn/4262at3041_aligned_trimmed.fas: *;
+  charset part153 = algn/12295at3041_aligned_trimmed.fas: *;
+  charset part154 = algn/5387at3041_aligned_trimmed.fas: *;
+  charset part155 = algn/5267at3041_aligned_trimmed.fas: *;
+  charset part156 = algn/12183at3041_aligned_trimmed.fas: *;
+  charset part157 = algn/4550at3041_aligned_trimmed.fas: *;
+  charset part158 = algn/9417at3041_aligned_trimmed.fas: *;
+  charset part159 = algn/2054at3041_aligned_trimmed.fas: *;
+  charset part160 = algn/2869at3041_aligned_trimmed.fas: *;
+  charset part161 = algn/4101at3041_aligned_trimmed.fas: *;
+  charset part162 = algn/4217at3041_aligned_trimmed.fas: *;
+  charset part163 = algn/3892at3041_aligned_trimmed.fas: *;
+  charset part164 = algn/1514at3041_aligned_trimmed.fas: *;
+  charset part165 = algn/5520at3041_aligned_trimmed.fas: *;
+  charset part166 = algn/346at3041_aligned_trimmed.fas: *;
+  charset part167 = algn/4633at3041_aligned_trimmed.fas: *;
+  charset part168 = algn/2470at3041_aligned_trimmed.fas: *;
+  charset part169 = algn/9158at3041_aligned_trimmed.fas: *;
+  charset part170 = algn/6268at3041_aligned_trimmed.fas: *;
+  charset part171 = algn/4822at3041_aligned_trimmed.fas: *;
+  charset part172 = algn/11724at3041_aligned_trimmed.fas: *;
+  charset part173 = algn/8231at3041_aligned_trimmed.fas: *;
+  charset part174 = algn/7101at3041_aligned_trimmed.fas: *;
+  charset part175 = algn/2338at3041_aligned_trimmed.fas: *;
+  charset part176 = algn/5060at3041_aligned_trimmed.fas: *;
+  charset part177 = algn/2130at3041_aligned_trimmed.fas: *;
+  charset part178 = algn/510at3041_aligned_trimmed.fas: *;
+  charset part179 = algn/4065at3041_aligned_trimmed.fas: *;
+  charset part180 = algn/12851at3041_aligned_trimmed.fas: *;
+  charset part181 = algn/7633at3041_aligned_trimmed.fas: *;
+  charset part182 = algn/5444at3041_aligned_trimmed.fas: *;
+  charset part183 = algn/1590at3041_aligned_trimmed.fas: *;
+  charset part184 = algn/4933at3041_aligned_trimmed.fas: *;
+  charset part185 = algn/9493at3041_aligned_trimmed.fas: *;
+  charset part186 = algn/6643at3041_aligned_trimmed.fas: *;
+  charset part187 = algn/7646at3041_aligned_trimmed.fas: *;
+  charset part188 = algn/8871at3041_aligned_trimmed.fas: *;
+  charset part189 = algn/8991at3041_aligned_trimmed.fas: *;
+  charset part190 = algn/6622at3041_aligned_trimmed.fas: *;
+  charset part191 = algn/9604at3041_aligned_trimmed.fas: *;
+  charset part192 = algn/5849at3041_aligned_trimmed.fas: *;
+  charset part193 = algn/3121at3041_aligned_trimmed.fas: *;
+  charset part194 = algn/8810at3041_aligned_trimmed.fas: *;
+  charset part195 = algn/2124at3041_aligned_trimmed.fas: *;
+  charset part196 = algn/2919at3041_aligned_trimmed.fas: *;
+  charset part197 = algn/1248at3041_aligned_trimmed.fas: *;
+  charset part198 = algn/1883at3041_aligned_trimmed.fas: *;
+  charset part199 = algn/3802at3041_aligned_trimmed.fas: *;
+  charset part200 = algn/1772at3041_aligned_trimmed.fas: *;
+  charset part201 = algn/3613at3041_aligned_trimmed.fas: *;
+  charset part202 = algn/1584at3041_aligned_trimmed.fas: *;
+  charset part203 = algn/5317at3041_aligned_trimmed.fas: *;
+  charset part204 = algn/4927at3041_aligned_trimmed.fas: *;
+  charset part205 = algn/7276at3041_aligned_trimmed.fas: *;
+  charset part206 = algn/9860at3041_aligned_trimmed.fas: *;
+  charset part207 = algn/1808at3041_aligned_trimmed.fas: *;
+  charset part208 = algn/9487at3041_aligned_trimmed.fas: *;
+  charset part209 = algn/10951at3041_aligned_trimmed.fas: *;
+  charset part210 = algn/4312at3041_aligned_trimmed.fas: *;
+  charset part211 = algn/7288at3041_aligned_trimmed.fas: *;
+  charset part212 = algn/12580at3041_aligned_trimmed.fas: *;
+  charset part213 = algn/7914at3041_aligned_trimmed.fas: *;
+  charset part214 = algn/7129at3041_aligned_trimmed.fas: *;
+  charset part215 = algn/3315at3041_aligned_trimmed.fas: *;
+  charset part216 = algn/11803at3041_aligned_trimmed.fas: *;
+  charset part217 = algn/5240at3041_aligned_trimmed.fas: *;
+  charset part218 = algn/10873at3041_aligned_trimmed.fas: *;
+  charset part219 = algn/3955at3041_aligned_trimmed.fas: *;
+  charset part220 = algn/4230at3041_aligned_trimmed.fas: *;
+  charset part221 = algn/2073at3041_aligned_trimmed.fas: *;
+  charset part222 = algn/8947at3041_aligned_trimmed.fas: *;
+  charset part223 = algn/6583at3041_aligned_trimmed.fas: *;
+  charset part224 = algn/9753at3041_aligned_trimmed.fas: *;
+  charset part225 = algn/7498at3041_aligned_trimmed.fas: *;
+  charset part226 = algn/1201at3041_aligned_trimmed.fas: *;
+  charset part227 = algn/8859at3041_aligned_trimmed.fas: *;
+  charset part228 = algn/8372at3041_aligned_trimmed.fas: *;
+  charset part229 = algn/5123at3041_aligned_trimmed.fas: *;
+  charset part230 = algn/2528at3041_aligned_trimmed.fas: *;
+  charset part231 = algn/4147at3041_aligned_trimmed.fas: *;
+  charset part232 = algn/8926at3041_aligned_trimmed.fas: *;
+  charset part233 = algn/7900at3041_aligned_trimmed.fas: *;
+  charset part234 = algn/12893at3041_aligned_trimmed.fas: *;
+  charset part235 = algn/6330at3041_aligned_trimmed.fas: *;
+  charset part236 = algn/1176at3041_aligned_trimmed.fas: *;
+  charset part237 = algn/5142at3041_aligned_trimmed.fas: *;
+  charset part238 = algn/4984at3041_aligned_trimmed.fas: *;
+  charset part239 = algn/2931at3041_aligned_trimmed.fas: *;
+  charset part240 = algn/6905at3041_aligned_trimmed.fas: *;
+  charset part241 = algn/4864at3041_aligned_trimmed.fas: *;
+  charset part242 = algn/2720at3041_aligned_trimmed.fas: *;
+  charset part243 = algn/7519at3041_aligned_trimmed.fas: *;
+  charset part244 = algn/8629at3041_aligned_trimmed.fas: *;
+  charset part245 = algn/4563at3041_aligned_trimmed.fas: *;
+  charset part246 = algn/1820at3041_aligned_trimmed.fas: *;
+  charset part247 = algn/6345at3041_aligned_trimmed.fas: *;
+  charset part248 = algn/9283at3041_aligned_trimmed.fas: *;
+  charset part249 = algn/11141at3041_aligned_trimmed.fas: *;
+  charset part250 = algn/3446at3041_aligned_trimmed.fas: *;
+  charset part251 = algn/6489at3041_aligned_trimmed.fas: *;
+  charset part252 = algn/10768at3041_aligned_trimmed.fas: *;
+  charset part253 = algn/6681at3041_aligned_trimmed.fas: *;
+  charset part254 = algn/3558at3041_aligned_trimmed.fas: *;
+  charset part255 = algn/8190at3041_aligned_trimmed.fas: *;
+  charset part256 = algn/3062at3041_aligned_trimmed.fas: *;
+  charset part257 = algn/2505at3041_aligned_trimmed.fas: *;
+  charset part258 = algn/1998at3041_aligned_trimmed.fas: *;
+  charset part259 = algn/2802at3041_aligned_trimmed.fas: *;
+  charset part260 = algn/6836at3041_aligned_trimmed.fas: *;
+  charset part261 = algn/4074at3041_aligned_trimmed.fas: *;
+  charset part262 = algn/4194at3041_aligned_trimmed.fas: *;
+  charset part263 = algn/5279at3041_aligned_trimmed.fas: *;
+  charset part264 = algn/1966at3041_aligned_trimmed.fas: *;
+  charset part265 = algn/617at3041_aligned_trimmed.fas: *;
+  charset part266 = algn/10730at3041_aligned_trimmed.fas: *;
+  charset part267 = algn/9985at3041_aligned_trimmed.fas: *;
+  charset part268 = algn/5839at3041_aligned_trimmed.fas: *;
+  charset part269 = algn/10197at3041_aligned_trimmed.fas: *;
+  charset part270 = algn/2490at3041_aligned_trimmed.fas: *;
+  charset part271 = algn/5420at3041_aligned_trimmed.fas: *;
+  charset part272 = algn/4317at3041_aligned_trimmed.fas: *;
+  charset part273 = algn/2969at3041_aligned_trimmed.fas: *;
+  charset part274 = algn/6525at3041_aligned_trimmed.fas: *;
+  charset part275 = algn/4943at3041_aligned_trimmed.fas: *;
+  charset part276 = algn/3338at3041_aligned_trimmed.fas: *;
+  charset part277 = algn/4376at3041_aligned_trimmed.fas: *;
+  charset part278 = algn/5946at3041_aligned_trimmed.fas: *;
+  charset part279 = algn/1683at3041_aligned_trimmed.fas: *;
+  charset part280 = algn/10724at3041_aligned_trimmed.fas: *;
+  charset part281 = algn/1475at3041_aligned_trimmed.fas: *;
+  charset part282 = algn/3514at3041_aligned_trimmed.fas: *;
+  charset part283 = algn/8157at3041_aligned_trimmed.fas: *;
+  charset part284 = algn/2983at3041_aligned_trimmed.fas: *;
+  charset part285 = algn/2863at3041_aligned_trimmed.fas: *;
+  charset part286 = algn/3145at3041_aligned_trimmed.fas: *;
+  charset part287 = algn/9991at3041_aligned_trimmed.fas: *;
+  charset part288 = algn/4431at3041_aligned_trimmed.fas: *;
+  charset part289 = algn/9588at3041_aligned_trimmed.fas: *;
+  charset part290 = algn/9152at3041_aligned_trimmed.fas: *;
+  charset part291 = algn/676at3041_aligned_trimmed.fas: *;
+  charset part292 = algn/8424at3041_aligned_trimmed.fas: *;
+  charset part293 = algn/5563at3041_aligned_trimmed.fas: *;
+  charset part294 = algn/8208at3041_aligned_trimmed.fas: *;
+  charset part295 = algn/11227at3041_aligned_trimmed.fas: *;
+  charset part296 = algn/9005at3041_aligned_trimmed.fas: *;
+  charset part297 = algn/3012at3041_aligned_trimmed.fas: *;
+  charset part298 = algn/1093at3041_aligned_trimmed.fas: *;
+  charset part299 = algn/1385at3041_aligned_trimmed.fas: *;
+  charset part300 = algn/8000at3041_aligned_trimmed.fas: *;
+  charset part301 = algn/3304at3041_aligned_trimmed.fas: *;
+  charset part302 = algn/9421at3041_aligned_trimmed.fas: *;
+  charset part303 = algn/4670at3041_aligned_trimmed.fas: *;
+  charset part304 = algn/4566at3041_aligned_trimmed.fas: *;
+  charset part305 = algn/6407at3041_aligned_trimmed.fas: *;
+  charset part306 = algn/11515at3041_aligned_trimmed.fas: *;
+  charset part307 = algn/3179at3041_aligned_trimmed.fas: *;
+  charset part308 = algn/2182at3041_aligned_trimmed.fas: *;
+  charset part309 = algn/8451at3041_aligned_trimmed.fas: *;
+  charset part310 = algn/4605at3041_aligned_trimmed.fas: *;
+  charset part311 = algn/3371at3041_aligned_trimmed.fas: *;
+  charset part312 = algn/5224at3041_aligned_trimmed.fas: *;
+  charset part313 = algn/2941at3041_aligned_trimmed.fas: *;
+  charset part314 = algn/3291at3041_aligned_trimmed.fas: *;
+  charset part315 = algn/10141at3041_aligned_trimmed.fas: *;
+  charset part316 = algn/7053at3041_aligned_trimmed.fas: *;
+  charset part317 = algn/7700at3041_aligned_trimmed.fas: *;
+  charset part318 = algn/8937at3041_aligned_trimmed.fas: *;
+  charset part319 = algn/4156at3041_aligned_trimmed.fas: *;
+  charset part320 = algn/5589at3041_aligned_trimmed.fas: *;
+  charset part321 = algn/4664at3041_aligned_trimmed.fas: *;
+  charset part322 = algn/3950at3041_aligned_trimmed.fas: *;
+  charset part323 = algn/9184at3041_aligned_trimmed.fas: *;
+  charset part324 = algn/10491at3041_aligned_trimmed.fas: *;
+  charset part325 = algn/5502at3041_aligned_trimmed.fas: *;
+  charset part326 = algn/10667at3041_aligned_trimmed.fas: *;
+  charset part327 = algn/4419at3041_aligned_trimmed.fas: *;
+  charset part328 = algn/10699at3041_aligned_trimmed.fas: *;
+  charset part329 = algn/1428at3041_aligned_trimmed.fas: *;
+  charset part330 = algn/5230at3041_aligned_trimmed.fas: *;
+  charset part331 = algn/8061at3041_aligned_trimmed.fas: *;
+  charset part332 = algn/4800at3041_aligned_trimmed.fas: *;
+  charset part333 = algn/2088at3041_aligned_trimmed.fas: *;
+  charset part334 = algn/7047at3041_aligned_trimmed.fas: *;
+  charset part335 = algn/8377at3041_aligned_trimmed.fas: *;
+  charset part336 = algn/7087at3041_aligned_trimmed.fas: *;
+  charset part337 = algn/1032at3041_aligned_trimmed.fas: *;
+  charset part338 = algn/3153at3041_aligned_trimmed.fas: *;
+  charset part339 = algn/7167at3041_aligned_trimmed.fas: *;
+  charset part340 = algn/4427at3041_aligned_trimmed.fas: *;
+  charset part341 = algn/2664at3041_aligned_trimmed.fas: *;
+  charset part342 = algn/8793at3041_aligned_trimmed.fas: *;
+  charset part343 = algn/5422at3041_aligned_trimmed.fas: *;
+  charset part344 = algn/1700at3041_aligned_trimmed.fas: *;
+  charset part345 = algn/3870at3041_aligned_trimmed.fas: *;
+  charset part346 = algn/7844at3041_aligned_trimmed.fas: *;
+  charset part347 = algn/8862at3041_aligned_trimmed.fas: *;
+  charset part348 = algn/6625at3041_aligned_trimmed.fas: *;
+  charset part349 = algn/7428at3041_aligned_trimmed.fas: *;
+  charset part350 = algn/8718at3041_aligned_trimmed.fas: *;
+  charset part351 = algn/5073at3041_aligned_trimmed.fas: *;
+  charset part352 = algn/1047at3041_aligned_trimmed.fas: *;
+  charset part353 = algn/9812at3041_aligned_trimmed.fas: *;
+  charset part354 = algn/6009at3041_aligned_trimmed.fas: *;
+  charset part355 = algn/4088at3041_aligned_trimmed.fas: *;
+  charset part356 = algn/8134at3041_aligned_trimmed.fas: *;
+  charset part357 = algn/5285at3041_aligned_trimmed.fas: *;
+  charset part358 = algn/5950at3041_aligned_trimmed.fas: *;
+  charset part359 = algn/3614at3041_aligned_trimmed.fas: *;
+  charset part360 = algn/5304at3041_aligned_trimmed.fas: *;
+  charset part361 = algn/4109at3041_aligned_trimmed.fas: *;
+  charset part362 = algn/7265at3041_aligned_trimmed.fas: *;
+  charset part363 = algn/10061at3041_aligned_trimmed.fas: *;
+  charset part364 = algn/10181at3041_aligned_trimmed.fas: *;
+  charset part365 = algn/5528at3041_aligned_trimmed.fas: *;
+  charset part366 = algn/2670at3041_aligned_trimmed.fas: *;
+  charset part367 = algn/8787at3041_aligned_trimmed.fas: *;
+  charset part368 = algn/3483at3041_aligned_trimmed.fas: *;
+  charset part369 = algn/2598at3041_aligned_trimmed.fas: *;
+  charset part370 = algn/3864at3041_aligned_trimmed.fas: *;
+  charset part371 = algn/3408at3041_aligned_trimmed.fas: *;
+  charset part372 = algn/1569at3041_aligned_trimmed.fas: *;
+  charset part373 = algn/4446at3041_aligned_trimmed.fas: *;
+  charset part374 = algn/2137at3041_aligned_trimmed.fas: *;
+  charset part375 = algn/5179at3041_aligned_trimmed.fas: *;
+  charset part376 = algn/4294at3041_aligned_trimmed.fas: *;
+  charset part377 = algn/4374at3041_aligned_trimmed.fas: *;
+  charset part378 = algn/1761at3041_aligned_trimmed.fas: *;
+  charset part379 = algn/4558at3041_aligned_trimmed.fas: *;
+  charset part380 = algn/1597at3041_aligned_trimmed.fas: *;
+  charset part381 = algn/1477at3041_aligned_trimmed.fas: *;
+  charset part382 = algn/3946at3041_aligned_trimmed.fas: *;
+  charset part383 = algn/5338at3041_aligned_trimmed.fas: *;
+  charset part384 = algn/440at3041_aligned_trimmed.fas: *;
+  charset part385 = algn/6989at3041_aligned_trimmed.fas: *;
+  charset part386 = algn/7763at3041_aligned_trimmed.fas: *;
+  charset part387 = algn/8453at3041_aligned_trimmed.fas: *;
+  charset part388 = algn/11482at3041_aligned_trimmed.fas: *;
+  charset part389 = algn/4511at3041_aligned_trimmed.fas: *;
+  charset part390 = algn/1728at3041_aligned_trimmed.fas: *;
+  charset part391 = algn/3373at3041_aligned_trimmed.fas: *;
+  charset part392 = algn/6897at3041_aligned_trimmed.fas: *;
+  charset part393 = algn/7051at3041_aligned_trimmed.fas: *;
+  charset part394 = algn/5130at3041_aligned_trimmed.fas: *;
+  charset part395 = algn/1643at3041_aligned_trimmed.fas: *;
+  charset part396 = algn/5677at3041_aligned_trimmed.fas: *;
+  charset part397 = algn/12685at3041_aligned_trimmed.fas: *;
+  charset part398 = algn/7716at3041_aligned_trimmed.fas: *;
+  charset part399 = algn/3434at3041_aligned_trimmed.fas: *;
+  charset part400 = algn/5561at3041_aligned_trimmed.fas: *;
+  charset part401 = algn/2639at3041_aligned_trimmed.fas: *;
+  charset part402 = algn/4140at3041_aligned_trimmed.fas: *;
+  charset part403 = algn/13052at3041_aligned_trimmed.fas: *;
+  charset part404 = algn/1379at3041_aligned_trimmed.fas: *;
+  charset part405 = algn/5145at3041_aligned_trimmed.fas: *;
+  charset part406 = algn/4348at3041_aligned_trimmed.fas: *;
+  charset part407 = algn/3306at3041_aligned_trimmed.fas: *;
+  charset part408 = algn/2936at3041_aligned_trimmed.fas: *;
+  charset part409 = algn/9423at3041_aligned_trimmed.fas: *;
+  charset part410 = algn/2282at3041_aligned_trimmed.fas: *;
+  charset part411 = algn/7461at3041_aligned_trimmed.fas: *;
+  charset part412 = algn/7789at3041_aligned_trimmed.fas: *;
+  charset part413 = algn/11780at3041_aligned_trimmed.fas: *;
+  charset part414 = algn/7353at3041_aligned_trimmed.fas: *;
+  charset part415 = algn/7998at3041_aligned_trimmed.fas: *;
+  charset part416 = algn/10157at3041_aligned_trimmed.fas: *;
+  charset part417 = algn/4778at3041_aligned_trimmed.fas: *;
+  charset part418 = algn/4242at3041_aligned_trimmed.fas: *;
+  charset part419 = algn/2317at3041_aligned_trimmed.fas: *;
+  charset part420 = algn/10122at3041_aligned_trimmed.fas: *;
+  charset part421 = algn/7030at3041_aligned_trimmed.fas: *;
+  charset part422 = algn/4997at3041_aligned_trimmed.fas: *;
+  charset part423 = algn/3312at3041_aligned_trimmed.fas: *;
+  charset part424 = algn/10418at3041_aligned_trimmed.fas: *;
+  charset part425 = algn/6850at3041_aligned_trimmed.fas: *;
+  charset part426 = algn/5301at3041_aligned_trimmed.fas: *;
+  charset part427 = algn/2984at3041_aligned_trimmed.fas: *;
+  charset part428 = algn/3254at3041_aligned_trimmed.fas: *;
+  charset part429 = algn/10184at3041_aligned_trimmed.fas: *;
+  charset part430 = algn/11445at3041_aligned_trimmed.fas: *;
+  charset part431 = algn/12521at3041_aligned_trimmed.fas: *;
+  charset part432 = algn/8662at3041_aligned_trimmed.fas: *;
+  charset part433 = algn/8574at3041_aligned_trimmed.fas: *;
+  charset part434 = algn/8494at3041_aligned_trimmed.fas: *;
+  charset part435 = algn/2251at3041_aligned_trimmed.fas: *;
+  charset part436 = algn/5934at3041_aligned_trimmed.fas: *;
+  charset part437 = algn/4012at3041_aligned_trimmed.fas: *;
+  charset part438 = algn/1056at3041_aligned_trimmed.fas: *;
+  charset part439 = algn/3137at3041_aligned_trimmed.fas: *;
+  charset part440 = algn/6018at3041_aligned_trimmed.fas: *;
+  charset part441 = algn/11829at3041_aligned_trimmed.fas: *;
+  charset part442 = algn/1148at3041_aligned_trimmed.fas: *;
+  charset part443 = algn/3029at3041_aligned_trimmed.fas: *;
+  charset part444 = algn/7631at3041_aligned_trimmed.fas: *;
+  charset part445 = algn/1684at3041_aligned_trimmed.fas: *;
+  charset part446 = algn/3240at3041_aligned_trimmed.fas: *;
+  charset part447 = algn/7274at3041_aligned_trimmed.fas: *;
+  charset part448 = algn/2990at3041_aligned_trimmed.fas: *;
+  charset part449 = algn/9982at3041_aligned_trimmed.fas: *;
+  charset part450 = algn/2497at3041_aligned_trimmed.fas: *;
+  charset part451 = algn/4734at3041_aligned_trimmed.fas: *;
+  charset part452 = algn/11659at3041_aligned_trimmed.fas: *;
+  charset part453 = algn/12535at3041_aligned_trimmed.fas: *;
+  charset part454 = algn/4310at3041_aligned_trimmed.fas: *;
+  charset part455 = algn/8987at3041_aligned_trimmed.fas: *;
+  charset part456 = algn/3123at3041_aligned_trimmed.fas: *;
+  charset part457 = algn/5076at3041_aligned_trimmed.fas: *;
+  charset part458 = algn/5280at3041_aligned_trimmed.fas: *;
+  charset part459 = algn/9134at3041_aligned_trimmed.fas: *;
+  charset part460 = algn/5744at3041_aligned_trimmed.fas: *;
+  charset part461 = algn/5802at3041_aligned_trimmed.fas: *;
+  charset part462 = algn/2367at3041_aligned_trimmed.fas: *;
+  charset part463 = algn/7963at3041_aligned_trimmed.fas: *;
+  charset part464 = algn/7248at3041_aligned_trimmed.fas: *;
+  charset part465 = algn/8754at3041_aligned_trimmed.fas: *;
+  charset part466 = algn/4708at3041_aligned_trimmed.fas: *;
+  charset part467 = algn/2743at3041_aligned_trimmed.fas: *;
+  charset part468 = algn/7040at3041_aligned_trimmed.fas: *;
+  charset part469 = algn/3733at3041_aligned_trimmed.fas: *;
+  charset part470 = algn/5786at3041_aligned_trimmed.fas: *;
+  charset part471 = algn/10039at3041_aligned_trimmed.fas: *;
+  charset part472 = algn/1080at3041_aligned_trimmed.fas: *;
+  charset part473 = algn/4872at3041_aligned_trimmed.fas: *;
+  charset part474 = algn/7977at3041_aligned_trimmed.fas: *;
+  charset part475 = algn/9197at3041_aligned_trimmed.fas: *;
+  charset part476 = algn/6347at3041_aligned_trimmed.fas: *;
+  charset part477 = algn/9077at3041_aligned_trimmed.fas: *;
+  charset part478 = algn/9281at3041_aligned_trimmed.fas: *;
+  charset part479 = algn/10482at3041_aligned_trimmed.fas: *;
+  charset part480 = algn/7470at3041_aligned_trimmed.fas: *;
+  charset part481 = algn/7686at3041_aligned_trimmed.fas: *;
+  charset part482 = algn/7678at3041_aligned_trimmed.fas: *;
+  charset part483 = algn/4514at3041_aligned_trimmed.fas: *;
+  charset part484 = algn/6972at3041_aligned_trimmed.fas: *;
+  charset part485 = algn/4813at3041_aligned_trimmed.fas: *;
+  charset part486 = algn/8364at3041_aligned_trimmed.fas: *;
+  charset part487 = algn/9169at3041_aligned_trimmed.fas: *;
+  charset part488 = algn/10517at3041_aligned_trimmed.fas: *;
+  charset part489 = algn/7902at3041_aligned_trimmed.fas: *;
+  charset part490 = algn/4253at3041_aligned_trimmed.fas: *;
+  charset part491 = algn/7021at3041_aligned_trimmed.fas: *;
+  charset part492 = algn/1094at3041_aligned_trimmed.fas: *;
+  charset part493 = algn/10409at3041_aligned_trimmed.fas: *;
+  charset part494 = algn/4797at3041_aligned_trimmed.fas: *;
+  charset part495 = algn/9426at3041_aligned_trimmed.fas: *;
+  charset part496 = algn/2722at3041_aligned_trimmed.fas: *;
+  charset part497 = algn/6348at3041_aligned_trimmed.fas: *;
+  charset part498 = algn/8395at3041_aligned_trimmed.fas: *;
+  charset part499 = algn/8275at3041_aligned_trimmed.fas: *;
+  charset part500 = algn/7769at3041_aligned_trimmed.fas: *;
+  charset part501 = algn/4405at3041_aligned_trimmed.fas: *;
+  charset part502 = algn/1722at3041_aligned_trimmed.fas: *;
+  charset part503 = algn/1434at3041_aligned_trimmed.fas: *;
+  charset part504 = algn/11052at3041_aligned_trimmed.fas: *;
+  charset part505 = algn/10334at3041_aligned_trimmed.fas: *;
+  charset part506 = algn/2101at3041_aligned_trimmed.fas: *;
+  charset part507 = algn/2843at3041_aligned_trimmed.fas: *;
+  charset part508 = algn/6490at3041_aligned_trimmed.fas: *;
+  charset part509 = algn/2544at3041_aligned_trimmed.fas: *;
+  charset part510 = algn/6570at3041_aligned_trimmed.fas: *;
+  charset part511 = algn/1628at3041_aligned_trimmed.fas: *;
+  charset part512 = algn/5702at3041_aligned_trimmed.fas: *;
+  charset part513 = algn/4619at3041_aligned_trimmed.fas: *;
+  charset part514 = algn/8645at3041_aligned_trimmed.fas: *;
+  charset part515 = algn/8069at3041_aligned_trimmed.fas: *;
+  charset part516 = algn/4808at3041_aligned_trimmed.fas: *;
+  charset part517 = algn/10960at3041_aligned_trimmed.fas: *;
+  charset part518 = algn/1927at3041_aligned_trimmed.fas: *;
+  charset part519 = algn/6505at3041_aligned_trimmed.fas: *;
+  charset part520 = algn/2531at3041_aligned_trimmed.fas: *;
+  charset part521 = algn/11417at3041_aligned_trimmed.fas: *;
+  charset part522 = algn/8438at3041_aligned_trimmed.fas: *;
+  charset part523 = algn/6802at3041_aligned_trimmed.fas: *;
+  charset part524 = algn/1952at3041_aligned_trimmed.fas: *;
+  charset part525 = algn/10128at3041_aligned_trimmed.fas: *;
+  charset part526 = algn/5886at3041_aligned_trimmed.fas: *;
+  charset part527 = algn/9211at3041_aligned_trimmed.fas: *;
+  charset part528 = algn/10412at3041_aligned_trimmed.fas: *;
+  charset part529 = algn/832at3041_aligned_trimmed.fas: *;
+  charset part530 = algn/8526at3041_aligned_trimmed.fas: *;
+  charset part531 = algn/2042at3041_aligned_trimmed.fas: *;
+  charset part532 = algn/11392at3041_aligned_trimmed.fas: *;
+  charset part533 = algn/1805at3041_aligned_trimmed.fas: *;
+  charset part534 = algn/3583at3041_aligned_trimmed.fas: *;
+  charset part535 = algn/10545at3041_aligned_trimmed.fas: *;
+  charset part536 = algn/8868at3041_aligned_trimmed.fas: *;
+  charset part537 = algn/5543at3041_aligned_trimmed.fas: *;
+  charset part538 = algn/4458at3041_aligned_trimmed.fas: *;
+  charset part539 = algn/10837at3041_aligned_trimmed.fas: *;
+  charset part540 = algn/1990at3041_aligned_trimmed.fas: *;
+  charset part541 = algn/7118at3041_aligned_trimmed.fas: *;
+  charset part542 = algn/3911at3041_aligned_trimmed.fas: *;
+  charset part543 = algn/6003at3041_aligned_trimmed.fas: *;
+  charset part544 = algn/10929at3041_aligned_trimmed.fas: *;
+  charset part545 = algn/9401at3041_aligned_trimmed.fas: *;
+  charset part546 = algn/5825at3041_aligned_trimmed.fas: *;
+  charset part547 = algn/9999at3041_aligned_trimmed.fas: *;
+  charset part548 = algn/5634at3041_aligned_trimmed.fas: *;
+  charset part549 = algn/9668at3041_aligned_trimmed.fas: *;
+  charset part550 = algn/9788at3041_aligned_trimmed.fas: *;
+  charset part551 = algn/4439at3041_aligned_trimmed.fas: *;
+  charset part552 = algn/8465at3041_aligned_trimmed.fas: *;
+  charset part553 = algn/9580at3041_aligned_trimmed.fas: *;
+  charset part554 = algn/11378at3041_aligned_trimmed.fas: *;
+  charset part555 = algn/7067at3041_aligned_trimmed.fas: *;
+  charset part556 = algn/10175at3041_aligned_trimmed.fas: *;
+  charset part557 = algn/10948at3041_aligned_trimmed.fas: *;
+  charset part558 = algn/6017at3041_aligned_trimmed.fas: *;
+  charset part559 = algn/4188at3041_aligned_trimmed.fas: *;
+  charset part560 = algn/4855at3041_aligned_trimmed.fas: *;
+  charset part561 = algn/10100at3041_aligned_trimmed.fas: *;
+  charset part562 = algn/9415at3041_aligned_trimmed.fas: *;
+  charset part563 = algn/8618at3041_aligned_trimmed.fas: *;
+  charset part564 = algn/5035at3041_aligned_trimmed.fas: *;
+  charset part565 = algn/8384at3041_aligned_trimmed.fas: *;
+  charset part566 = algn/3080at3041_aligned_trimmed.fas: *;
+  charset part567 = algn/3396at3041_aligned_trimmed.fas: *;
+  charset part568 = algn/8448at3041_aligned_trimmed.fas: *;
+  charset part569 = algn/2749at3041_aligned_trimmed.fas: *;
+  charset part570 = algn/7570at3041_aligned_trimmed.fas: *;
+  charset part571 = algn/9261at3041_aligned_trimmed.fas: *;
+  charset part572 = algn/10965at3041_aligned_trimmed.fas: *;
+  charset part573 = algn/1922at3041_aligned_trimmed.fas: *;
+  charset part574 = algn/4697at3041_aligned_trimmed.fas: *;
+  charset part575 = algn/7237at3041_aligned_trimmed.fas: *;
+  charset part576 = algn/1282at3041_aligned_trimmed.fas: *;
+  charset part577 = algn/2318at3041_aligned_trimmed.fas: *;
+  charset part578 = algn/1194at3041_aligned_trimmed.fas: *;
+  charset part579 = algn/10033at3041_aligned_trimmed.fas: *;
+  charset part580 = algn/5963at3041_aligned_trimmed.fas: *;
+  charset part581 = algn/7802at3041_aligned_trimmed.fas: *;
+  charset part582 = algn/2110at3041_aligned_trimmed.fas: *;
+  charset part583 = algn/11894at3041_aligned_trimmed.fas: *;
+  charset part584 = algn/6986at3041_aligned_trimmed.fas: *;
+  charset part585 = algn/1303at3041_aligned_trimmed.fas: *;
+  charset part586 = algn/9651at3041_aligned_trimmed.fas: *;
+  charset part587 = algn/6561at3041_aligned_trimmed.fas: *;
+  charset part588 = algn/3758at3041_aligned_trimmed.fas: *;
+  charset part589 = algn/7672at3041_aligned_trimmed.fas: *;
+  charset part590 = algn/3646at3041_aligned_trimmed.fas: *;
+  charset part591 = algn/8542at3041_aligned_trimmed.fas: *;
+  charset part592 = algn/4608at3041_aligned_trimmed.fas: *;
+  charset part593 = algn/6689at3041_aligned_trimmed.fas: *;
+  charset part594 = algn/6145at3041_aligned_trimmed.fas: *;
+  charset part595 = algn/2267at3041_aligned_trimmed.fas: *;
+  charset part596 = algn/9624at3041_aligned_trimmed.fas: *;
+  charset part597 = algn/6602at3041_aligned_trimmed.fas: *;
+  charset part598 = algn/4763at3041_aligned_trimmed.fas: *;
+  charset part599 = algn/6813at3041_aligned_trimmed.fas: *;
+  charset part600 = algn/4972at3041_aligned_trimmed.fas: *;
+  charset part601 = algn/3217at3041_aligned_trimmed.fas: *;
+  charset part602 = algn/4259at3041_aligned_trimmed.fas: *;
+  charset part603 = algn/11022at3041_aligned_trimmed.fas: *;
+  charset part604 = algn/2104at3041_aligned_trimmed.fas: *;
+  charset part605 = algn/524at3041_aligned_trimmed.fas: *;
+  charset part606 = algn/2728at3041_aligned_trimmed.fas: *;
+  charset part607 = algn/5590at3041_aligned_trimmed.fas: *;
+  charset part608 = algn/5766at3041_aligned_trimmed.fas: *;
+  charset part609 = algn/11518at3041_aligned_trimmed.fas: *;
+  charset part610 = algn/6187at3041_aligned_trimmed.fas: *;
+  charset part611 = algn/1029at3041_aligned_trimmed.fas: *;
+  charset part612 = algn/3895at3041_aligned_trimmed.fas: *;
+  charset part613 = algn/10642at3041_aligned_trimmed.fas: *;
+  charset part614 = algn/9693at3041_aligned_trimmed.fas: *;
+  charset part615 = algn/5103at3041_aligned_trimmed.fas: *;
+  charset part616 = algn/7062at3041_aligned_trimmed.fas: *;
+  charset part617 = algn/4825at3041_aligned_trimmed.fas: *;
+  charset part618 = algn/7294at3041_aligned_trimmed.fas: *;
+  charset part619 = algn/3407at3041_aligned_trimmed.fas: *;
+  charset part620 = algn/3711at3041_aligned_trimmed.fas: *;
+  charset part621 = algn/8415at3041_aligned_trimmed.fas: *;
+  charset part622 = algn/1670at3041_aligned_trimmed.fas: *;
+  charset part623 = algn/5644at3041_aligned_trimmed.fas: *;
+  charset part624 = algn/5188at3041_aligned_trimmed.fas: *;
+  charset part625 = algn/9034at3041_aligned_trimmed.fas: *;
+  charset part626 = algn/8327at3041_aligned_trimmed.fas: *;
+  charset part627 = algn/11308at3041_aligned_trimmed.fas: *;
+  charset part628 = algn/11632at3041_aligned_trimmed.fas: *;
+  charset part629 = algn/7955at3041_aligned_trimmed.fas: *;
+  charset part630 = algn/4204at3041_aligned_trimmed.fas: *;
+  charset part631 = algn/7168at3041_aligned_trimmed.fas: *;
+  charset part632 = algn/1800at3041_aligned_trimmed.fas: *;
+  charset part633 = algn/7744at3041_aligned_trimmed.fas: *;
+  charset part634 = algn/5533at3041_aligned_trimmed.fas: *;
+  charset part635 = algn/2583at3041_aligned_trimmed.fas: *;
+  charset part636 = algn/9687at3041_aligned_trimmed.fas: *;
+  charset part637 = algn/11545at3041_aligned_trimmed.fas: *;
+  charset part638 = algn/2463at3041_aligned_trimmed.fas: *;
+  charset part639 = algn/2159at3041_aligned_trimmed.fas: *;
+  charset part640 = algn/12313at3041_aligned_trimmed.fas: *;
+  charset part641 = algn/11842at3041_aligned_trimmed.fas: *;
+  charset part642 = algn/3914at3041_aligned_trimmed.fas: *;
+  charset part643 = algn/10319at3041_aligned_trimmed.fas: *;
+  charset part644 = algn/4087at3041_aligned_trimmed.fas: *;
+  charset part645 = algn/11837at3041_aligned_trimmed.fas: *;
+  charset part646 = algn/9903at3041_aligned_trimmed.fas: *;
+  charset part647 = algn/10111at3041_aligned_trimmed.fas: *;
+  charset part648 = algn/6422at3041_aligned_trimmed.fas: *;
+  charset part649 = algn/7539at3041_aligned_trimmed.fas: *;
+  charset part650 = algn/5458at3041_aligned_trimmed.fas: *;
+  charset part651 = algn/6734at3041_aligned_trimmed.fas: *;
+  charset part652 = algn/8173at3041_aligned_trimmed.fas: *;
+  charset part653 = algn/3277at3041_aligned_trimmed.fas: *;
+  charset part654 = algn/1316at3041_aligned_trimmed.fas: *;
+  charset part655 = algn/8449at3041_aligned_trimmed.fas: *;
+  charset part656 = algn/4703at3041_aligned_trimmed.fas: *;
+  charset part657 = algn/11770at3041_aligned_trimmed.fas: *;
+  charset part658 = algn/8641at3041_aligned_trimmed.fas: *;
+  charset part659 = algn/5706at3041_aligned_trimmed.fas: *;
+  charset part660 = algn/652at3041_aligned_trimmed.fas: *;
+  charset part661 = algn/4327at3041_aligned_trimmed.fas: *;
+  charset part662 = algn/2959at3041_aligned_trimmed.fas: *;
+  charset part663 = algn/928at3041_aligned_trimmed.fas: *;
+  charset part664 = algn/4580at3041_aligned_trimmed.fas: *;
+  charset part665 = algn/9631at3041_aligned_trimmed.fas: *;
+  charset part666 = algn/1195at3041_aligned_trimmed.fas: *;
+  charset part667 = algn/3202at3041_aligned_trimmed.fas: *;
+  charset part668 = algn/8106at3041_aligned_trimmed.fas: *;
+  charset part669 = algn/4879at3041_aligned_trimmed.fas: *;
+  charset part670 = algn/5962at3041_aligned_trimmed.fas: *;
+  charset part671 = algn/6987at3041_aligned_trimmed.fas: *;
+  charset part672 = algn/2298at3041_aligned_trimmed.fas: *;
+  charset part673 = algn/5020at3041_aligned_trimmed.fas: *;
+  charset part674 = algn/4609at3041_aligned_trimmed.fas: *;
+  charset part675 = algn/1937at3041_aligned_trimmed.fas: *;
+  charset part676 = algn/6144at3041_aligned_trimmed.fas: *;
+  charset part677 = algn/8844at3041_aligned_trimmed.fas: *;
+  charset part678 = algn/5988at3041_aligned_trimmed.fas: *;
+  charset part679 = algn/3216at3041_aligned_trimmed.fas: *;
+  charset part680 = algn/5343at3041_aligned_trimmed.fas: *;
+  charset part681 = algn/4050at3041_aligned_trimmed.fas: *;
+  charset part682 = algn/11023at3041_aligned_trimmed.fas: *;
+  charset part683 = algn/8620at3041_aligned_trimmed.fas: *;
+  charset part684 = algn/6290at3041_aligned_trimmed.fas: *;
+  charset part685 = algn/3974at3041_aligned_trimmed.fas: *;
+  charset part686 = algn/1815at3041_aligned_trimmed.fas: *;
+  charset part687 = algn/1512at3041_aligned_trimmed.fas: *;
+  charset part688 = algn/2971at3041_aligned_trimmed.fas: *;
+  charset part689 = algn/4824at3041_aligned_trimmed.fas: *;
+  charset part690 = algn/7063at3041_aligned_trimmed.fas: *;
+  charset part691 = algn/5102at3041_aligned_trimmed.fas: *;
+  charset part692 = algn/5645at3041_aligned_trimmed.fas: *;
+  charset part693 = algn/6013at3041_aligned_trimmed.fas: *;
+  charset part694 = algn/1143at3041_aligned_trimmed.fas: *;
+  charset part695 = algn/3022at3041_aligned_trimmed.fas: *;
+  charset part696 = algn/7300at3041_aligned_trimmed.fas: *;
+  charset part697 = algn/6930at3041_aligned_trimmed.fas: *;
+  charset part698 = algn/2139at3041_aligned_trimmed.fas: *;
+  charset part699 = algn/6721at3041_aligned_trimmed.fas: *;
+  charset part700 = algn/1479at3041_aligned_trimmed.fas: *;
+  charset part701 = algn/2403at3041_aligned_trimmed.fas: *;
+  charset part702 = algn/7089at3041_aligned_trimmed.fas: *;
+  charset part703 = algn/5835at3041_aligned_trimmed.fas: *;
+  charset part704 = algn/8259at3041_aligned_trimmed.fas: *;
+  charset part705 = algn/6192at3041_aligned_trimmed.fas: *;
+  charset part706 = algn/6072at3041_aligned_trimmed.fas: *;
+  charset part707 = algn/3587at3041_aligned_trimmed.fas: *;
+  charset part708 = algn/1610at3041_aligned_trimmed.fas: *;
+  charset part709 = algn/8595at3041_aligned_trimmed.fas: *;
+  charset part710 = algn/2694at3041_aligned_trimmed.fas: *;
+  charset part711 = algn/3499at3041_aligned_trimmed.fas: *;
+  charset part712 = algn/1418at3041_aligned_trimmed.fas: *;
+  charset part713 = algn/9470at3041_aligned_trimmed.fas: *;
+  charset part714 = algn/10273at3041_aligned_trimmed.fas: *;
+  charset part715 = algn/5547at3041_aligned_trimmed.fas: *;
+  charset part716 = algn/12455at3041_aligned_trimmed.fas: *;
+  charset part717 = algn/11739at3041_aligned_trimmed.fas: *;
+  charset part718 = algn/4086at3041_aligned_trimmed.fas: *;
+  charset part719 = algn/9021at3041_aligned_trimmed.fas: *;
+  charset part720 = algn/5163at3041_aligned_trimmed.fas: *;
+  charset part721 = algn/11836at3041_aligned_trimmed.fas: *;
+  charset part722 = algn/9229at3041_aligned_trimmed.fas: *;
+  charset part723 = algn/6423at3041_aligned_trimmed.fas: *;
+  charset part724 = algn/10056at3041_aligned_trimmed.fas: *;
+  charset part725 = algn/8274at3041_aligned_trimmed.fas: *;
+  charset part726 = algn/5818at3041_aligned_trimmed.fas: *;
+  charset part727 = algn/6565at3041_aligned_trimmed.fas: *;
+  charset part728 = algn/6673at3041_aligned_trimmed.fas: *;
+  charset part729 = algn/12513at3041_aligned_trimmed.fas: *;
+  charset part730 = algn/3554at3041_aligned_trimmed.fas: *;
+  charset part731 = algn/10684at3041_aligned_trimmed.fas: *;
+  charset part732 = algn/5906at3041_aligned_trimmed.fas: *;
+  charset part733 = algn/11053at3041_aligned_trimmed.fas: *;
+  charset part734 = algn/8117at3041_aligned_trimmed.fas: *;
+  charset part735 = algn/6909at3041_aligned_trimmed.fas: *;
+  charset part736 = algn/5594at3041_aligned_trimmed.fas: *;
+  charset part737 = algn/5474at3041_aligned_trimmed.fas: *;
+  charset part738 = algn/6718at3041_aligned_trimmed.fas: *;
+  charset part739 = algn/5327at3041_aligned_trimmed.fas: *;
+  charset part740 = algn/1005at3041_aligned_trimmed.fas: *;
+  charset part741 = algn/8260at3041_aligned_trimmed.fas: *;
+  charset part742 = algn/6571at3041_aligned_trimmed.fas: *;
+  charset part743 = algn/4410at3041_aligned_trimmed.fas: *;
+  charset part744 = algn/6491at3041_aligned_trimmed.fas: *;
+  charset part745 = algn/3540at3041_aligned_trimmed.fas: *;
+  charset part746 = algn/8644at3041_aligned_trimmed.fas: *;
+  charset part747 = algn/5415at3041_aligned_trimmed.fas: *;
+  charset part748 = algn/7494at3041_aligned_trimmed.fas: *;
+  charset part749 = algn/5703at3041_aligned_trimmed.fas: *;
+  charset part750 = algn/1737at3041_aligned_trimmed.fas: *;
+  charset part751 = algn/7993at3041_aligned_trimmed.fas: *;
+  charset part752 = algn/2397at3041_aligned_trimmed.fas: *;
+  charset part753 = algn/4322at3041_aligned_trimmed.fas: *;
+  charset part754 = algn/4693at3041_aligned_trimmed.fas: *;
+  charset part755 = algn/5788at3041_aligned_trimmed.fas: *;
+  charset part756 = algn/6504at3041_aligned_trimmed.fas: *;
+  charset part757 = algn/10037at3041_aligned_trimmed.fas: *;
+  charset part758 = algn/5044at3041_aligned_trimmed.fas: *;
+  charset part759 = algn/2837at3041_aligned_trimmed.fas: *;
+  charset part760 = algn/4962at3041_aligned_trimmed.fas: *;
+  charset part761 = algn/1278at3041_aligned_trimmed.fas: *;
+  charset part762 = algn/9210at3041_aligned_trimmed.fas: *;
+  charset part763 = algn/1742at3041_aligned_trimmed.fas: *;
+  charset part764 = algn/1804at3041_aligned_trimmed.fas: *;
+  charset part765 = algn/3885at3041_aligned_trimmed.fas: *;
+  charset part766 = algn/9051at3041_aligned_trimmed.fas: *;
+  charset part767 = algn/4200at3041_aligned_trimmed.fas: *;
+  charset part768 = algn/8977at3041_aligned_trimmed.fas: *;
+  charset part769 = algn/9347at3041_aligned_trimmed.fas: *;
+  charset part770 = algn/2043at3041_aligned_trimmed.fas: *;
+  charset part771 = algn/1503at3041_aligned_trimmed.fas: *;
+  charset part772 = algn/2499at3041_aligned_trimmed.fas: *;
+  charset part773 = algn/6453at3041_aligned_trimmed.fas: *;
+  charset part774 = algn/4624at3041_aligned_trimmed.fas: *;
+  charset part775 = algn/7548at3041_aligned_trimmed.fas: *;
+  charset part776 = algn/5429at3041_aligned_trimmed.fas: *;
+  charset part777 = algn/4835at3041_aligned_trimmed.fas: *;
+  charset part778 = algn/3350at3041_aligned_trimmed.fas: *;
+  charset part779 = algn/8869at3041_aligned_trimmed.fas: *;
+  charset part780 = algn/2960at3041_aligned_trimmed.fas: *;
+  charset part781 = algn/8989at3041_aligned_trimmed.fas: *;
+  charset part782 = algn/7072at3041_aligned_trimmed.fas: *;
+  charset part783 = algn/12450at3041_aligned_trimmed.fas: *;
+  charset part784 = algn/1576at3041_aligned_trimmed.fas: *;
+  charset part785 = algn/7423at3041_aligned_trimmed.fas: *;
+  charset part786 = algn/6002at3041_aligned_trimmed.fas: *;
+  charset part787 = algn/4083at3041_aligned_trimmed.fas: *;
+  charset part788 = algn/416at3041_aligned_trimmed.fas: *;
+  charset part789 = algn/8229at3041_aligned_trimmed.fas: *;
+  charset part790 = algn/5845at3041_aligned_trimmed.fas: *;
+  charset part791 = algn/7007at3041_aligned_trimmed.fas: *;
+  charset part792 = algn/5270at3041_aligned_trimmed.fas: *;
+  charset part793 = algn/8021at3041_aligned_trimmed.fas: *;
+  charset part794 = algn/4840at3041_aligned_trimmed.fas: *;
+  charset part795 = algn/11622at3041_aligned_trimmed.fas: *;
+  charset part796 = algn/3509at3041_aligned_trimmed.fas: *;
+  charset part797 = algn/10857at3041_aligned_trimmed.fas: *;
+  charset part798 = algn/8248at3041_aligned_trimmed.fas: *;
+  charset part799 = algn/6375at3041_aligned_trimmed.fas: *;
+  charset part800 = algn/11171at3041_aligned_trimmed.fas: *;
+  charset part801 = algn/4102at3041_aligned_trimmed.fas: *;
+  charset part802 = algn/6183at3041_aligned_trimmed.fas: *;
+  charset part803 = algn/3760at3041_aligned_trimmed.fas: *;
+  charset part804 = algn/890at3041_aligned_trimmed.fas: *;
+  charset part805 = algn/1601at3041_aligned_trimmed.fas: *;
+  charset part806 = algn/5635at3041_aligned_trimmed.fas: *;
+  charset part807 = algn/4630at3041_aligned_trimmed.fas: *;
+  charset part808 = algn/6940at3041_aligned_trimmed.fas: *;
+  charset part809 = algn/1133at3041_aligned_trimmed.fas: *;
+  charset part810 = algn/5107at3041_aligned_trimmed.fas: *;
+  charset part811 = algn/11939at3041_aligned_trimmed.fas: *;
+  charset part812 = algn/4381at3041_aligned_trimmed.fas: *;
+  charset part813 = algn/1985at3041_aligned_trimmed.fas: *;
+  charset part814 = algn/7013at3041_aligned_trimmed.fas: *;
+  charset part815 = algn/8619at3041_aligned_trimmed.fas: *;
+  charset part816 = algn/4553at3041_aligned_trimmed.fas: *;
+  charset part817 = algn/10065at3041_aligned_trimmed.fas: *;
+  charset part818 = algn/8151at3041_aligned_trimmed.fas: *;
+  charset part819 = algn/10373at3041_aligned_trimmed.fas: *;
+  charset part820 = algn/6851at3041_aligned_trimmed.fas: *;
+  charset part821 = algn/10293at3041_aligned_trimmed.fas: *;
+  charset part822 = algn/6448at3041_aligned_trimmed.fas: *;
+  charset part823 = algn/5108at3041_aligned_trimmed.fas: *;
+  charset part824 = algn/7189at3041_aligned_trimmed.fas: *;
+  charset part825 = algn/11296at3041_aligned_trimmed.fas: *;
+  charset part826 = algn/10946at3041_aligned_trimmed.fas: *;
+  charset part827 = algn/9613at3041_aligned_trimmed.fas: *;
+  charset part828 = algn/4754at3041_aligned_trimmed.fas: *;
+  charset part829 = algn/1341at3041_aligned_trimmed.fas: *;
+  charset part830 = algn/4945at3041_aligned_trimmed.fas: *;
+  charset part831 = algn/1057at3041_aligned_trimmed.fas: *;
+  charset part832 = algn/3028at3041_aligned_trimmed.fas: *;
+  charset part833 = algn/1974at3041_aligned_trimmed.fas: *;
+  charset part834 = algn/1149at3041_aligned_trimmed.fas: *;
+  charset part835 = algn/9237at3041_aligned_trimmed.fas: *;
+  charset part836 = algn/12555at3041_aligned_trimmed.fas: *;
+  charset part837 = algn/1593at3041_aligned_trimmed.fas: *;
+  charset part838 = algn/8500at3041_aligned_trimmed.fas: *;
+  charset part839 = algn/11957at3041_aligned_trimmed.fas: *;
+  charset part840 = algn/1320at3041_aligned_trimmed.fas: *;
+  charset part841 = algn/2871at3041_aligned_trimmed.fas: *;
+  charset part842 = algn/8898at3041_aligned_trimmed.fas: *;
+  charset part843 = algn/4924at3041_aligned_trimmed.fas: *;
+  charset part844 = algn/6198at3041_aligned_trimmed.fas: *;
+  charset part845 = algn/8145at3041_aligned_trimmed.fas: *;
+  charset part846 = algn/2496at3041_aligned_trimmed.fas: *;
+  charset part847 = algn/4423at3041_aligned_trimmed.fas: *;
+  charset part848 = algn/2576at3041_aligned_trimmed.fas: *;
+  charset part849 = algn/3493at3041_aligned_trimmed.fas: *;
+  charset part850 = algn/5426at3041_aligned_trimmed.fas: *;
+  charset part851 = algn/2152at3041_aligned_trimmed.fas: *;
+  charset part852 = algn/6086at3041_aligned_trimmed.fas: *;
+  charset part853 = algn/784at3041_aligned_trimmed.fas: *;
+  charset part854 = algn/6621at3041_aligned_trimmed.fas: *;
+  charset part855 = algn/8130at3041_aligned_trimmed.fas: *;
+  charset part856 = algn/4951at3041_aligned_trimmed.fas: *;
+  charset part857 = algn/11317at3041_aligned_trimmed.fas: *;
+  charset part858 = algn/9135at3041_aligned_trimmed.fas: *;
+  charset part859 = algn/2231at3041_aligned_trimmed.fas: *;
+  charset part860 = algn/1880at3041_aligned_trimmed.fas: *;
+  charset part861 = algn/4072at3041_aligned_trimmed.fas: *;
+  charset part862 = algn/6113at3041_aligned_trimmed.fas: *;
+  charset part863 = algn/1691at3041_aligned_trimmed.fas: *;
+  charset part864 = algn/2366at3041_aligned_trimmed.fas: *;
+  charset part865 = algn/1738at3041_aligned_trimmed.fas: *;
+  charset part866 = algn/11048at3041_aligned_trimmed.fas: *;
+  charset part867 = algn/5236at3041_aligned_trimmed.fas: *;
+  charset part868 = algn/7357at3041_aligned_trimmed.fas: *;
+  charset part869 = algn/8720at3041_aligned_trimmed.fas: *;
+  charset part870 = algn/3208at3041_aligned_trimmed.fas: *;
+  charset part871 = algn/4873at3041_aligned_trimmed.fas: *;
+  charset part872 = algn/4993at3041_aligned_trimmed.fas: *;
+  charset part873 = algn/9109at3041_aligned_trimmed.fas: *;
+  charset part874 = algn/5779at3041_aligned_trimmed.fas: *;
+  charset part875 = algn/6682at3041_aligned_trimmed.fas: *;
+  charset part876 = algn/9452at3041_aligned_trimmed.fas: *;
+  charset part877 = algn/3181at3041_aligned_trimmed.fas: *;
+  charset part878 = algn/9168at3041_aligned_trimmed.fas: *;
+  charset part879 = algn/9088at3041_aligned_trimmed.fas: *;
+  charset part880 = algn/7868at3041_aligned_trimmed.fas: *;
+  charset part881 = algn/3061at3041_aligned_trimmed.fas: *;
+  charset part882 = algn/7055at3041_aligned_trimmed.fas: *;
+  charset part883 = algn/8073at3041_aligned_trimmed.fas: *;
+  charset part884 = algn/3297at3041_aligned_trimmed.fas: *;
+  charset part885 = algn/5982at3041_aligned_trimmed.fas: *;
+  charset part886 = algn/7903at3041_aligned_trimmed.fas: *;
+  charset part887 = algn/11221at3041_aligned_trimmed.fas: *;
+  charset part888 = algn/4899at3041_aligned_trimmed.fas: *;
+  charset part889 = algn/8925at3041_aligned_trimmed.fas: *;
+  charset part890 = algn/2932at3041_aligned_trimmed.fas: *;
+  charset part891 = algn/7020at3041_aligned_trimmed.fas: *;
+  charset part892 = algn/8310at3041_aligned_trimmed.fas: *;
+  charset part893 = algn/6717at3041_aligned_trimmed.fas: *;
+  charset part894 = algn/3152at3041_aligned_trimmed.fas: *;
+  charset part895 = algn/3588at3041_aligned_trimmed.fas: *;
+  charset part896 = algn/6651at3041_aligned_trimmed.fas: *;
+  charset part897 = algn/5735at3041_aligned_trimmed.fas: *;
+  charset part898 = algn/5423at3041_aligned_trimmed.fas: *;
+  charset part899 = algn/11071at3041_aligned_trimmed.fas: *;
+  charset part900 = algn/8863at3041_aligned_trimmed.fas: *;
+  charset part901 = algn/11191at3041_aligned_trimmed.fas: *;
+  charset part902 = algn/8348at3041_aligned_trimmed.fas: *;
+  charset part903 = algn/126at3041_aligned_trimmed.fas: *;
+  charset part904 = algn/7205at3041_aligned_trimmed.fas: *;
+  charset part905 = algn/5364at3041_aligned_trimmed.fas: *;
+  charset part906 = algn/1462at3041_aligned_trimmed.fas: *;
+  charset part907 = algn/5305at3041_aligned_trimmed.fas: *;
+  charset part908 = algn/7448at3041_aligned_trimmed.fas: *;
+  charset part909 = algn/8778at3041_aligned_trimmed.fas: *;
+  charset part910 = algn/2671at3041_aligned_trimmed.fas: *;
+  charset part911 = algn/1715at3041_aligned_trimmed.fas: *;
+  charset part912 = algn/3562at3041_aligned_trimmed.fas: *;
+  charset part913 = algn/4016at3041_aligned_trimmed.fas: *;
+  charset part914 = algn/6097at3041_aligned_trimmed.fas: *;
+  charset part915 = algn/10388at3041_aligned_trimmed.fas: *;
+  charset part916 = algn/8997at3041_aligned_trimmed.fas: *;
+  charset part917 = algn/1139at3041_aligned_trimmed.fas: *;
+  charset part918 = algn/6261at3041_aligned_trimmed.fas: *;
+  charset part919 = algn/6381at3041_aligned_trimmed.fas: *;
+  charset part920 = algn/4300at3041_aligned_trimmed.fas: *;
+  charset part921 = algn/4751at3041_aligned_trimmed.fas: *;
+  charset part922 = algn/11933at3041_aligned_trimmed.fas: *;
+  charset part923 = algn/2815at3041_aligned_trimmed.fas: *;
+  charset part924 = algn/3133at3041_aligned_trimmed.fas: *;
+  charset part925 = algn/7107at3041_aligned_trimmed.fas: *;
+  charset part926 = algn/1891at3041_aligned_trimmed.fas: *;
+  charset part927 = algn/4295at3041_aligned_trimmed.fas: *;
+  charset part928 = algn/4063at3041_aligned_trimmed.fas: *;
+  charset part929 = algn/1476at3041_aligned_trimmed.fas: *;
+  charset part930 = algn/1596at3041_aligned_trimmed.fas: *;
+  charset part931 = algn/2181at3041_aligned_trimmed.fas: *;
+  charset part932 = algn/4134at3041_aligned_trimmed.fas: *;
+  charset part933 = algn/1826at3041_aligned_trimmed.fas: *;
+  charset part934 = algn/9073at3041_aligned_trimmed.fas: *;
+  charset part935 = algn/10790at3041_aligned_trimmed.fas: *;
+  charset part936 = algn/6799at3041_aligned_trimmed.fas: *;
+  charset part937 = algn/10566at3041_aligned_trimmed.fas: *;
+  charset part938 = algn/4606at3041_aligned_trimmed.fas: *;
+  charset part939 = algn/11795at3041_aligned_trimmed.fas: *;
+  charset part940 = algn/2269at3041_aligned_trimmed.fas: *;
+  charset part941 = algn/6896at3041_aligned_trimmed.fas: *;
+  charset part942 = algn/5796at3041_aligned_trimmed.fas: *;
+  charset part943 = algn/4257at3041_aligned_trimmed.fas: *;
+  charset part944 = algn/2014at3041_aligned_trimmed.fas: *;
+  charset part945 = algn/8920at3041_aligned_trimmed.fas: *;
+  charset part946 = algn/7025at3041_aligned_trimmed.fas: *;
+  charset part947 = algn/1090at3041_aligned_trimmed.fas: *;
+  charset part948 = algn/1170at3041_aligned_trimmed.fas: *;
+  charset part949 = algn/8539at3041_aligned_trimmed.fas: *;
+  charset part950 = algn/3398at3041_aligned_trimmed.fas: *;
+  charset part951 = algn/6357at3041_aligned_trimmed.fas: *;
+  charset part952 = algn/7776at3041_aligned_trimmed.fas: *;
+  charset part953 = algn/1535at3041_aligned_trimmed.fas: *;
+  charset part954 = algn/3454at3041_aligned_trimmed.fas: *;
+  charset part955 = algn/6773at3041_aligned_trimmed.fas: *;
+  charset part956 = algn/8558at3041_aligned_trimmed.fas: *;
+  charset part957 = algn/7879at3041_aligned_trimmed.fas: *;
+  charset part958 = algn/10156at3041_aligned_trimmed.fas: *;
+  charset part959 = algn/7999at3041_aligned_trimmed.fas: *;
+  charset part960 = algn/6962at3041_aligned_trimmed.fas: *;
+  charset part961 = algn/11870at3041_aligned_trimmed.fas: *;
+  charset part962 = algn/5662at3041_aligned_trimmed.fas: *;
+  charset part963 = algn/4155at3041_aligned_trimmed.fas: *;
+  charset part964 = algn/11038at3041_aligned_trimmed.fas: *;
+  charset part965 = algn/1959at3041_aligned_trimmed.fas: *;
+  charset part966 = algn/8301at3041_aligned_trimmed.fas: *;
+  charset part967 = algn/1084at3041_aligned_trimmed.fas: *;
+  charset part968 = algn/3005at3041_aligned_trimmed.fas: *;
+  charset part969 = algn/11502at3041_aligned_trimmed.fas: *;
+  charset part970 = algn/3629at3041_aligned_trimmed.fas: *;
+  charset part971 = algn/4667at3041_aligned_trimmed.fas: *;
+  charset part972 = algn/3709at3041_aligned_trimmed.fas: *;
+  charset part973 = algn/9600at3041_aligned_trimmed.fas: *;
+  charset part974 = algn/9516at3041_aligned_trimmed.fas: *;
+  charset part975 = algn/10539at3041_aligned_trimmed.fas: *;
+  charset part976 = algn/5366at3041_aligned_trimmed.fas: *;
+  charset part977 = algn/6837at3041_aligned_trimmed.fas: *;
+  charset part978 = algn/4956at3041_aligned_trimmed.fas: *;
+  charset part979 = algn/3806at3041_aligned_trimmed.fas: *;
+  charset part980 = algn/1967at3041_aligned_trimmed.fas: *;
+  charset part981 = algn/5278at3041_aligned_trimmed.fas: *;
+  charset part982 = algn/5398at3041_aligned_trimmed.fas: *;
+  charset part983 = algn/7319at3041_aligned_trimmed.fas: *;
+  charset part984 = algn/6738at3041_aligned_trimmed.fas: *;
+  charset part985 = algn/5005at3041_aligned_trimmed.fas: *;
+  charset part986 = algn/10076at3041_aligned_trimmed.fas: *;
+  charset part987 = algn/2876at3041_aligned_trimmed.fas: *;
+  charset part988 = algn/7392at3041_aligned_trimmed.fas: *;
+  charset part989 = algn/6653at3041_aligned_trimmed.fas: *;
+  charset part990 = algn/11457at3041_aligned_trimmed.fas: *;
+  charset part991 = algn/7748at3041_aligned_trimmed.fas: *;
+  charset part992 = algn/5737at3041_aligned_trimmed.fas: *;
+  charset part993 = algn/992at3041_aligned_trimmed.fas: *;
+  charset part994 = algn/10744at3041_aligned_trimmed.fas: *;
+  charset part995 = algn/2699at3041_aligned_trimmed.fas: *;
+  charset part996 = algn/11073at3041_aligned_trimmed.fas: *;
+  charset part997 = algn/6397at3041_aligned_trimmed.fas: *;
+  charset part998 = algn/226at3041_aligned_trimmed.fas: *;
+  charset part999 = algn/5292at3041_aligned_trimmed.fas: *;
+  charset part1000 = algn/10301at3041_aligned_trimmed.fas: *;
+  charset part1001 = algn/12380at3041_aligned_trimmed.fas: *;
+  charset part1002 = algn/5064at3041_aligned_trimmed.fas: *;
+  charset part1003 = algn/7826at3041_aligned_trimmed.fas: *;
+  charset part1004 = algn/10934at3041_aligned_trimmed.fas: *;
+  charset part1005 = algn/2909at3041_aligned_trimmed.fas: *;
+  charset part1006 = algn/2134at3041_aligned_trimmed.fas: *;
+  charset part1007 = algn/1594at3041_aligned_trimmed.fas: *;
+  charset part1008 = algn/3144at3041_aligned_trimmed.fas: *;
+  charset part1009 = algn/12103at3041_aligned_trimmed.fas: *;
+  charset part1010 = algn/10182at3041_aligned_trimmed.fas: *;
+  charset part1011 = algn/7266at3041_aligned_trimmed.fas: *;
+  charset part1012 = algn/4937at3041_aligned_trimmed.fas: *;
+  charset part1013 = algn/7642at3041_aligned_trimmed.fas: *;
+  charset part1014 = algn/8492at3041_aligned_trimmed.fas: *;
+  charset part1015 = algn/7378at3041_aligned_trimmed.fas: *;
+  charset part1016 = algn/7853at3041_aligned_trimmed.fas: *;
+  charset part1017 = algn/4302at3041_aligned_trimmed.fas: *;
+  charset part1018 = algn/2257at3041_aligned_trimmed.fas: *;
+  charset part1019 = algn/11371at3041_aligned_trimmed.fas: *;
+  charset part1020 = algn/4599at3041_aligned_trimmed.fas: *;
+  charset part1021 = algn/5794at3041_aligned_trimmed.fas: *;
+  charset part1022 = algn/3721at3041_aligned_trimmed.fas: *;
+  charset part1023 = algn/5058at3041_aligned_trimmed.fas: *;
+  charset part1024 = algn/6334at3041_aligned_trimmed.fas: *;
+  charset part1025 = algn/4255at3041_aligned_trimmed.fas: *;
+  charset part1026 = algn/4143at3041_aligned_trimmed.fas: *;
+  charset part1027 = algn/8001at3041_aligned_trimmed.fas: *;
+  charset part1028 = algn/7331at3041_aligned_trimmed.fas: *;
+  charset part1029 = algn/9927at3041_aligned_trimmed.fas: *;
+  charset part1030 = algn/4567at3041_aligned_trimmed.fas: *;
+  charset part1031 = algn/6710at3041_aligned_trimmed.fas: *;
+  charset part1032 = algn/2724at3041_aligned_trimmed.fas: *;
+  charset part1033 = algn/13024at3041_aligned_trimmed.fas: *;
+  charset part1034 = algn/3178at3041_aligned_trimmed.fas: *;
+  charset part1035 = algn/5409at3041_aligned_trimmed.fas: *;
+  charset part1036 = algn/4604at3041_aligned_trimmed.fas: *;
+  charset part1037 = algn/7568at3041_aligned_trimmed.fas: *;
+  charset part1038 = algn/11481at3041_aligned_trimmed.fas: *;
+  charset part1039 = algn/6593at3041_aligned_trimmed.fas: *;
+  charset part1040 = algn/2940at3041_aligned_trimmed.fas: *;
+  charset part1041 = algn/9279at3041_aligned_trimmed.fas: *;
+  charset part1042 = algn/1211at3041_aligned_trimmed.fas: *;
+  charset part1043 = algn/11866at3041_aligned_trimmed.fas: *;
+  charset part1044 = algn/8849at3041_aligned_trimmed.fas: *;
+  charset part1045 = algn/3370at3041_aligned_trimmed.fas: *;
+  charset part1046 = algn/8074at3041_aligned_trimmed.fas: *;
+  charset part1047 = algn/8727at3041_aligned_trimmed.fas: *;
+  charset part1048 = algn/5496at3041_aligned_trimmed.fas: *;
+  charset part1049 = algn/3119at3041_aligned_trimmed.fas: *;
+  charset part1050 = algn/4573at3041_aligned_trimmed.fas: *;
+  charset part1051 = algn/6704at3041_aligned_trimmed.fas: *;
+  charset part1052 = algn/4665at3041_aligned_trimmed.fas: *;
+  charset part1053 = algn/5588at3041_aligned_trimmed.fas: *;
+  charset part1054 = algn/4122at3041_aligned_trimmed.fas: *;
+  charset part1055 = algn/6355at3041_aligned_trimmed.fas: *;
+  charset part1056 = algn/2281at3041_aligned_trimmed.fas: *;
+  charset part1057 = algn/9185at3041_aligned_trimmed.fas: *;
+  charset part1058 = algn/7965at3041_aligned_trimmed.fas: *;
+  charset part1059 = algn/1621at3041_aligned_trimmed.fas: *;
+  charset part1060 = algn/3456at3041_aligned_trimmed.fas: *;
+  charset part1061 = algn/7462at3041_aligned_trimmed.fas: *;
+  charset part1062 = algn/1537at3041_aligned_trimmed.fas: *;
+  charset part1063 = algn/5503at3041_aligned_trimmed.fas: *;
+  charset part1064 = algn/4506at3041_aligned_trimmed.fas: *;
+  charset part1065 = algn/8296at3041_aligned_trimmed.fas: *;
+  charset part1066 = algn/9946at3041_aligned_trimmed.fas: *;
+  charset part1067 = algn/6880at3041_aligned_trimmed.fas: *;
+  charset part1068 = algn/2954at3041_aligned_trimmed.fas: *;
+  charset part1069 = algn/5231at3041_aligned_trimmed.fas: *;
+  charset part1070 = algn/6521at3041_aligned_trimmed.fas: *;
+  charset part1071 = algn/3222at3041_aligned_trimmed.fas: *;
+  charset part1072 = algn/1343at3041_aligned_trimmed.fas: *;
+  charset part1073 = algn/10012at3041_aligned_trimmed.fas: *;
+  charset part1074 = algn/4292at3041_aligned_trimmed.fas: *;
+  charset part1075 = algn/9123at3041_aligned_trimmed.fas: *;
+  charset part1076 = algn/7823at3041_aligned_trimmed.fas: *;
+  charset part1077 = algn/7308at3041_aligned_trimmed.fas: *;
+  charset part1078 = algn/8502at3041_aligned_trimmed.fas: *;
+  charset part1079 = algn/10067at3041_aligned_trimmed.fas: *;
+  charset part1080 = algn/11750at3041_aligned_trimmed.fas: *;
+  charset part1081 = algn/3673at3041_aligned_trimmed.fas: *;
+  charset part1082 = algn/8781at3041_aligned_trimmed.fas: *;
+  charset part1083 = algn/5430at3041_aligned_trimmed.fas: *;
+  charset part1084 = algn/2688at3041_aligned_trimmed.fas: *;
+  charset part1085 = algn/7856at3041_aligned_trimmed.fas: *;
+  charset part1086 = algn/8408at3041_aligned_trimmed.fas: *;
+  charset part1087 = algn/7738at3041_aligned_trimmed.fas: *;
+  charset part1088 = algn/5659at3041_aligned_trimmed.fas: *;
+  charset part1089 = algn/6623at3041_aligned_trimmed.fas: *;
+  charset part1090 = algn/7114at3041_aligned_trimmed.fas: *;
+  charset part1091 = algn/3120at3041_aligned_trimmed.fas: *;
+  charset part1092 = algn/5075at3041_aligned_trimmed.fas: *;
+  charset part1093 = algn/6319at3041_aligned_trimmed.fas: *;
+  charset part1094 = algn/10118at3041_aligned_trimmed.fas: *;
+  charset part1095 = algn/2233at3041_aligned_trimmed.fas: *;
+  charset part1096 = algn/6207at3041_aligned_trimmed.fas: *;
+  charset part1097 = algn/6111at3041_aligned_trimmed.fas: *;
+  charset part1098 = algn/8811at3041_aligned_trimmed.fas: *;
+  charset part1099 = algn/2358at3041_aligned_trimmed.fas: *;
+  charset part1100 = algn/6847at3041_aligned_trimmed.fas: *;
+  charset part1101 = algn/7397at3041_aligned_trimmed.fas: *;
+  charset part1102 = algn/2782at3041_aligned_trimmed.fas: *;
+  charset part1103 = algn/8675at3041_aligned_trimmed.fas: *;
+  charset part1104 = algn/7545at3041_aligned_trimmed.fas: *;
+  charset part1105 = algn/9478at3041_aligned_trimmed.fas: *;
+  charset part1106 = algn/1917at3041_aligned_trimmed.fas: *;
+  charset part1107 = algn/5923at3041_aligned_trimmed.fas: *;
+  charset part1108 = algn/10500at3041_aligned_trimmed.fas: *;
+  charset part1109 = algn/5785at3041_aligned_trimmed.fas: *;
+  charset part1110 = algn/8218at3041_aligned_trimmed.fas: *;
+  charset part1111 = algn/5994at3041_aligned_trimmed.fas: *;
+  charset part1112 = algn/7128at3041_aligned_trimmed.fas: *;
+  charset part1113 = algn/731at3041_aligned_trimmed.fas: *;
+  charset part1114 = algn/5874at3041_aligned_trimmed.fas: *;
+  charset part1115 = algn/4152at3041_aligned_trimmed.fas: *;
+  charset part1116 = algn/8010at3041_aligned_trimmed.fas: *;
+  charset part1117 = algn/2423at3041_aligned_trimmed.fas: *;
+  charset part1118 = algn/1459at3041_aligned_trimmed.fas: *;
+  charset part1119 = algn/4127at3041_aligned_trimmed.fas: *;
+  charset part1120 = algn/9376at3041_aligned_trimmed.fas: *;
+  charset part1121 = algn/9180at3041_aligned_trimmed.fas: *;
+  charset part1122 = algn/4231at3041_aligned_trimmed.fas: *;
+  charset part1123 = algn/3954at3041_aligned_trimmed.fas: *;
+  charset part1124 = algn/7691at3041_aligned_trimmed.fas: *;
+  charset part1125 = algn/1532at3041_aligned_trimmed.fas: *;
+  charset part1126 = algn/7579at3041_aligned_trimmed.fas: *;
+  charset part1127 = algn/6774at3041_aligned_trimmed.fas: *;
+  charset part1128 = algn/1116at3041_aligned_trimmed.fas: *;
+  charset part1129 = algn/9943at3041_aligned_trimmed.fas: *;
+  charset part1130 = algn/8373at3041_aligned_trimmed.fas: *;
+  charset part1131 = algn/6885at3041_aligned_trimmed.fas: *;
+  charset part1132 = algn/5567at3041_aligned_trimmed.fas: *;
+  charset part1133 = algn/8420at3041_aligned_trimmed.fas: *;
+  charset part1134 = algn/4146at3041_aligned_trimmed.fas: *;
+  charset part1135 = algn/433at3041_aligned_trimmed.fas: *;
+  charset part1136 = algn/8004at3041_aligned_trimmed.fas: *;
+  charset part1137 = algn/4058at3041_aligned_trimmed.fas: *;
+  charset part1138 = algn/7334at3041_aligned_trimmed.fas: *;
+  charset part1139 = algn/2930at3041_aligned_trimmed.fas: *;
+  charset part1140 = algn/6403at3041_aligned_trimmed.fas: *;
+  charset part1141 = algn/5599at3041_aligned_trimmed.fas: *;
+  charset part1142 = algn/5479at3041_aligned_trimmed.fas: *;
+  charset part1143 = algn/2721at3041_aligned_trimmed.fas: *;
+  charset part1144 = algn/2370at3041_aligned_trimmed.fas: *;
+  charset part1145 = algn/8455at3041_aligned_trimmed.fas: *;
+  charset part1146 = algn/5512at3041_aligned_trimmed.fas: *;
+  charset part1147 = algn/3559at3041_aligned_trimmed.fas: *;
+  charset part1148 = algn/6476at3041_aligned_trimmed.fas: *;
+  charset part1149 = algn/2945at3041_aligned_trimmed.fas: *;
+  charset part1150 = algn/8191at3041_aligned_trimmed.fas: *;
+  charset part1151 = algn/10253at3041_aligned_trimmed.fas: *;
+  charset part1152 = algn/3375at3041_aligned_trimmed.fas: *;
+  charset part1153 = algn/6891at3041_aligned_trimmed.fas: *;
+  charset part1154 = algn/5568at3041_aligned_trimmed.fas: *;
+  charset part1155 = algn/9622at3041_aligned_trimmed.fas: *;
+  charset part1156 = algn/4057at3041_aligned_trimmed.fas: *;
+  charset part1157 = algn/8836at3041_aligned_trimmed.fas: *;
+  charset part1158 = algn/1305at3041_aligned_trimmed.fas: *;
+  charset part1159 = algn/2069at3041_aligned_trimmed.fas: *;
+  charset part1160 = algn/9846at3041_aligned_trimmed.fas: *;
+  charset part1161 = algn/5027at3041_aligned_trimmed.fas: *;
+  charset part1162 = algn/11259at3041_aligned_trimmed.fas: *;
+  charset part1163 = algn/2553at3041_aligned_trimmed.fas: *;
+  charset part1164 = algn/1529at3041_aligned_trimmed.fas: *;
+  charset part1165 = algn/3556at3041_aligned_trimmed.fas: *;
+  charset part1166 = algn/9749at3041_aligned_trimmed.fas: *;
+  charset part1167 = algn/6479at3041_aligned_trimmed.fas: *;
+  charset part1168 = algn/7794at3041_aligned_trimmed.fas: *;
+  charset part1169 = algn/2261at3041_aligned_trimmed.fas: *;
+  charset part1170 = algn/9958at3041_aligned_trimmed.fas: *;
+  charset part1171 = algn/7058at3041_aligned_trimmed.fas: *;
+  charset part1172 = algn/8843at3041_aligned_trimmed.fas: *;
+  charset part1173 = algn/6506at3041_aligned_trimmed.fas: *;
+  charset part1174 = algn/1072at3041_aligned_trimmed.fas: *;
+  charset part1175 = algn/10808at3041_aligned_trimmed.fas: *;
+  charset part1176 = algn/11326at3041_aligned_trimmed.fas: *;
+  charset part1177 = algn/8309at3041_aligned_trimmed.fas: *;
+  charset part1178 = algn/1740at3041_aligned_trimmed.fas: *;
+  charset part1179 = algn/3621at3041_aligned_trimmed.fas: *;
+  charset part1180 = algn/3537at3041_aligned_trimmed.fas: *;
+  charset part1181 = algn/9379at3041_aligned_trimmed.fas: *;
+  charset part1182 = algn/2547at3041_aligned_trimmed.fas: *;
+  charset part1183 = algn/7588at3041_aligned_trimmed.fas: *;
+  charset part1184 = algn/6785at3041_aligned_trimmed.fas: *;
+  charset part1185 = algn/7468at3041_aligned_trimmed.fas: *;
+  charset part1186 = algn/11669at3041_aligned_trimmed.fas: *;
+  charset part1187 = algn/5701at3041_aligned_trimmed.fas: *;
+  charset part1188 = algn/2395at3041_aligned_trimmed.fas: *;
+  charset part1189 = algn/3198at3041_aligned_trimmed.fas: *;
+  charset part1190 = algn/1574at3041_aligned_trimmed.fas: *;
+  charset part1191 = algn/2618at3041_aligned_trimmed.fas: *;
+  charset part1192 = algn/3239at3041_aligned_trimmed.fas: *;
+  charset part1193 = algn/4081at3041_aligned_trimmed.fas: *;
+  charset part1194 = algn/4289at3041_aligned_trimmed.fas: *;
+  charset part1195 = algn/10201at3041_aligned_trimmed.fas: *;
+  charset part1196 = algn/4202at3041_aligned_trimmed.fas: *;
+  charset part1197 = algn/5319at3041_aligned_trimmed.fas: *;
+  charset part1198 = algn/7398at3041_aligned_trimmed.fas: *;
+  charset part1199 = algn/8895at3041_aligned_trimmed.fas: *;
+  charset part1200 = algn/7742at3041_aligned_trimmed.fas: *;
+  charset part1201 = algn/10650at3041_aligned_trimmed.fas: *;
+  charset part1202 = algn/8592at3041_aligned_trimmed.fas: *;
+  charset part1203 = algn/4530at3041_aligned_trimmed.fas: *;
+  charset part1204 = algn/1709at3041_aligned_trimmed.fas: *;
+  charset part1205 = algn/2773at3041_aligned_trimmed.fas: *;
+  charset part1206 = algn/7366at3041_aligned_trimmed.fas: *;
+  charset part1207 = algn/3352at3041_aligned_trimmed.fas: *;
+  charset part1208 = algn/7070at3041_aligned_trimmed.fas: *;
+  charset part1209 = algn/3717at3041_aligned_trimmed.fas: *;
+  charset part1210 = algn/5554at3041_aligned_trimmed.fas: *;
+  charset part1211 = algn/9508at3041_aligned_trimmed.fas: *;
+  charset part1212 = algn/4759at3041_aligned_trimmed.fas: *;
+  charset part1213 = algn/2020at3041_aligned_trimmed.fas: *;
+  charset part1214 = algn/6302at3041_aligned_trimmed.fas: *;
+  charset part1215 = algn/1899at3041_aligned_trimmed.fas: *;
+  charset part1216 = algn/7011at3041_aligned_trimmed.fas: *;
+  charset part1217 = algn/2228at3041_aligned_trimmed.fas: *;
+  charset part1218 = algn/2903at3041_aligned_trimmed.fas: *;
+  charset part1219 = algn/3333at3041_aligned_trimmed.fas: *;
+  charset part1220 = algn/2404at3041_aligned_trimmed.fas: *;
+  charset part1221 = algn/2988at3041_aligned_trimmed.fas: *;
+  charset part1222 = algn/6181at3041_aligned_trimmed.fas: *;
+  charset part1223 = algn/8690at3041_aligned_trimmed.fas: *;
+  charset part1224 = algn/6445at3041_aligned_trimmed.fas: *;
+  charset part1225 = algn/7648at3041_aligned_trimmed.fas: *;
+  charset part1226 = algn/2687at3041_aligned_trimmed.fas: *;
+  charset part1227 = algn/2896at3041_aligned_trimmed.fas: *;
+  charset part1228 = algn/5213at3041_aligned_trimmed.fas: *;
+  charset part1229 = algn/7184at3041_aligned_trimmed.fas: *;
+  charset part1230 = algn/3050at3041_aligned_trimmed.fas: *;
+  charset part1231 = algn/4308at3041_aligned_trimmed.fas: *;
+  charset part1232 = algn/8939at3041_aligned_trimmed.fas: *;
+  charset part1233 = algn/9101at3041_aligned_trimmed.fas: *;
+  charset part1234 = algn/3835at3041_aligned_trimmed.fas: *;
+  charset part1235 = algn/1089at3041_aligned_trimmed.fas: *;
+  charset part1236 = algn/3624at3041_aligned_trimmed.fas: *;
+  charset part1237 = algn/12232at3041_aligned_trimmed.fas: *;
+  charset part1238 = algn/6991at3041_aligned_trimmed.fas: *;
+  charset part1239 = algn/2654at3041_aligned_trimmed.fas: *;
+  charset part1240 = algn/7785at3041_aligned_trimmed.fas: *;
+  charset part1241 = algn/2390at3041_aligned_trimmed.fas: *;
+  charset part1242 = algn/8379at3041_aligned_trimmed.fas: *;
+  charset part1243 = algn/3438at3041_aligned_trimmed.fas: *;
+  charset part1244 = algn/2523at3041_aligned_trimmed.fas: *;
+  charset part1245 = algn/6517at3041_aligned_trimmed.fas: *;
+  charset part1246 = algn/8206at3041_aligned_trimmed.fas: *;
+  charset part1247 = algn/1183at3041_aligned_trimmed.fas: *;
+  charset part1248 = algn/5057at3041_aligned_trimmed.fas: *;
+  charset part1249 = algn/4971at3041_aligned_trimmed.fas: *;
+  charset part1250 = algn/8318at3041_aligned_trimmed.fas: *;
+  charset part1251 = algn/11337at3041_aligned_trimmed.fas: *;
+  charset part1252 = algn/6225at3041_aligned_trimmed.fas: *;
+  charset part1253 = algn/7512at3041_aligned_trimmed.fas: *;
+  charset part1254 = algn/3261at3041_aligned_trimmed.fas: *;
+  charset part1255 = algn/4904at3041_aligned_trimmed.fas: *;
+  charset part1256 = algn/7143at3041_aligned_trimmed.fas: *;
+  charset part1257 = algn/6562at3041_aligned_trimmed.fas: *;
+  charset part1258 = algn/4403at3041_aligned_trimmed.fas: *;
+  charset part1259 = algn/1108at3041_aligned_trimmed.fas: *;
+  charset part1260 = algn/3854at3041_aligned_trimmed.fas: *;
+  charset part1261 = algn/4331at3041_aligned_trimmed.fas: *;
+  charset part1262 = algn/3069at3041_aligned_trimmed.fas: *;
+  charset part1263 = algn/6146at3041_aligned_trimmed.fas: *;
+  charset part1264 = algn/5551at3041_aligned_trimmed.fas: *;
+  charset part1265 = algn/11103at3041_aligned_trimmed.fas: *;
+  charset part1266 = algn/3903at3041_aligned_trimmed.fas: *;
+  charset part1267 = algn/1862at3041_aligned_trimmed.fas: *;
+  charset part1268 = algn/5095at3041_aligned_trimmed.fas: *;
+  charset part1269 = algn/7014at3041_aligned_trimmed.fas: *;
+  charset part1270 = algn/9042at3041_aligned_trimmed.fas: *;
+  charset part1271 = algn/1817at3041_aligned_trimmed.fas: *;
+  charset part1272 = algn/7269at3041_aligned_trimmed.fas: *;
+  charset part1273 = algn/3591at3041_aligned_trimmed.fas: *;
+  charset part1274 = algn/3687at3041_aligned_trimmed.fas: *;
+  charset part1275 = algn/9586at3041_aligned_trimmed.fas: *;
+  charset part1276 = algn/8047at3041_aligned_trimmed.fas: *;
+  charset part1277 = algn/11068at3041_aligned_trimmed.fas: *;
+  charset part1278 = algn/3988at3041_aligned_trimmed.fas: *;
+  charset part1279 = algn/3706at3041_aligned_trimmed.fas: *;
+  charset part1280 = algn/8714at3041_aligned_trimmed.fas: *;
+  charset part1281 = algn/6629at3041_aligned_trimmed.fas: *;
+  charset part1282 = algn/6005at3041_aligned_trimmed.fas: *;
+  charset part1283 = algn/4084at3041_aligned_trimmed.fas: *;
+  charset part1284 = algn/2327at3041_aligned_trimmed.fas: *;
+  charset part1285 = algn/3034at3041_aligned_trimmed.fas: *;
+  charset part1286 = algn/4847at3041_aligned_trimmed.fas: *;
+  charset part1287 = algn/6926at3041_aligned_trimmed.fas: *;
+  charset part1288 = algn/3618at3041_aligned_trimmed.fas: *;
+  charset part1289 = algn/7956at3041_aligned_trimmed.fas: *;
+  charset part1290 = algn/2044at3041_aligned_trimmed.fas: *;
+  charset part1291 = algn/6190at3041_aligned_trimmed.fas: *;
+  charset part1292 = algn/1504at3041_aligned_trimmed.fas: *;
+  charset part1293 = algn/5738at3041_aligned_trimmed.fas: *;
+  charset part1294 = algn/6454at3041_aligned_trimmed.fas: *;
+  charset part1295 = algn/7848at3041_aligned_trimmed.fas: *;
+  charset part1296 = algn/10167at3041_aligned_trimmed.fas: *;
+  charset part1297 = algn/5929at3041_aligned_trimmed.fas: *;
+  charpartition mymodels =
+    LG+G4{1.30116}: part1{9.68903},
+    JTT+R4{0.687033,0.0745153,0.273535,0.530334,0.0114758,2.07809,0.0279564,27.8968}: part2{6.25002},
+    WAG+G4{1.05883}: part3{7.65533},
+    LG+G4{1.06173}: part4{8.21157},
+    LG+F+R5{0.205407,0.041705,0.299872,0.318319,0.310913,1.01239,0.16042,2.38991,0.0233886,8.45809}: part5{14.7447},
+    WAG+I{0.0964551}+G4{1.86461}: part6{7.01948},
+    LG+R4{0.234858,0.0736145,0.427785,0.436794,0.279641,1.05145,0.0577154,8.69485}: part7{20.5454},
+    LG+R4{0.101191,0.0636766,0.547253,0.462295,0.263956,1.56886,0.0875998,3.72664}: part8{8.14979},
+    LG+F+R3{0.22013,0.0242493,0.585332,0.700854,0.194538,3.00419}: part9{4.33755},
+    WAG+G4{1.32001}: part10{9.15612},
+    LG+R4{0.378089,0.0921787,0.285136,0.64044,0.311223,1.94267,0.0255521,6.96348}: part11{5.66059},
+    LG+G4{0.924857}: part12{5.53658},
+    LG+I{0.121382}+G4{1.18171}: part13{9.53106},
+    WAG+R4{0.134379,0.00389142,0.36677,0.236707,0.431304,0.893512,0.067546,7.80631}: part14{15.3294},
+    LG+I{0.117242}+G4{1.87586}: part15{6.26703},
+    LG+R2{0.186578,0.219282,0.813422,1.17908}: part16{12.4781},
+    LG+G4{0.728867}: part17{6.4196},
+    WAG+G4{1.29863}: part18{14.6067},
+    WAG+I{0.0469587}+G4{1.78879}: part19{8.4773},
+    LG+F+G4{0.834677}: part20{7.09134},
+    VT+I{0.0909374}+G4{1.32818}: part21{9.14051},
+    WAG+G4{0.996313}: part22{5.71236},
+    LG+R3{0.393112,0.255781,0.520315,1.14628,0.0865732,3.5002}: part23{7.91069},
+    LG+R4{0.272758,0.104639,0.524072,0.607562,0.170917,1.68381,0.0322532,11.3248}: part24{11.1993},
+    LG+F+I{0.086001}+G4{2.94892}: part25{7.83339},
+    LG+F+R3{0.254745,0.15982,0.434606,0.852353,0.310649,1.89554}: part26{13.9234},
+    LG+F+G4{0.671759}: part27{15.6366},
+    LG+F+G4{1.27394}: part28{5.35153},
+    LG+G4{0.468236}: part29{4.53611},
+    LG+R4{0.362698,0.0780299,0.390928,0.771373,0.219185,2.3054,0.0271888,6.06271}: part30{5.74282},
+    LG+F+I{0.0379207}+G4{1.09188}: part31{16.3607},
+    LG+G4{1.13757}: part32{13.2927},
+    LG+G4{0.869386}: part33{6.32703},
+    VT+R3{0.298345,0.161982,0.582662,1.03509,0.118994,2.9293}: part34{10.1726},
+    LG+R3{0.3765,0.160049,0.515376,1.0994,0.108124,3.45101}: part35{5.47839},
+    LG+G4{0.716873}: part36{7.82217},
+    WAG+I{0.0490283}+G4{2.13726}: part37{7.57021},
+    LG+R3{0.529464,0.165929,0.36924,1.26156,0.101295,4.40619}: part38{4.21027},
+    LG+G4{1.16473}: part39{7.82557},
+    LG+G4{0.552701}: part40{2.27645},
+    PMB+G4{0.915628}: part41{7.90052},
+    PMB+G4{0.961356}: part42{4.54155},
+    LG+R3{0.586487,0.242324,0.32795,1.37736,0.0855633,4.74708}: part43{3.53228},
+    WAG+G4{1.2475}: part44{5.1649},
+    LG+R4{0.232504,0.0551177,0.51549,0.660543,0.247262,2.19408,0.0047437,21.9596}: part45{6.77749},
+    VT+G4{0.939802}: part46{5.23928},
+    JTT+G4{0.56296}: part47{6.9905},
+    LG+I{0.02548}+G4{1.49826}: part48{17.9482},
+    VT+F+R4{0.156142,0.083353,0.320391,0.371995,0.38107,0.962215,0.142397,3.51925}: part49{25.9367},
+    LG+G4{0.972032}: part50{11.4955},
+    LG+R3{0.802415,0.459175,0.18115,2.41745,0.0164349,11.7816}: part51{2.60631},
+    VT+G4{0.548455}: part52{8.10585},
+    LG+I{0.109182}+G4{1.21439}: part53{7.26096},
+    LG+I{0.10082}+G4{1.18001}: part54{8.85054},
+    WAG+G4{0.546155}: part55{5.82421},
+    LG+R4{0.213701,0.0364903,0.500996,0.283755,0.243243,1.02196,0.0420595,14.3001}: part56{15.508},
+    LG+F+G4{1.0898}: part57{20.7006},
+    WAG+G4{0.614952}: part58{5.74909},
+    LG+F+G4{1.24729}: part59{7.74353},
+    LG+F+G4{1.59009}: part60{8.44391},
+    LG+G4{1.09371}: part61{3.96185},
+    LG+F+I{0.0120976}+G4{2.56953}: part62{11.386},
+    WAG+G4{1.11665}: part63{10.3524},
+    LG+I{0.176879}+G4{1.15195}: part64{6.32166},
+    JTT+G4{1.54915}: part65{8.9778},
+    LG+I{0.0668358}+G4{1.30185}: part66{10.8296},
+    LG+G4{1.31109}: part67{10.6369},
+    LG+R3{0.581505,0.24056,0.344907,1.50333,0.0735886,4.64207}: part68{3.00335},
+    LG+F+G4{2.61959}: part69{13.2972},
+    LG+G4{0.489684}: part70{5.64394},
+    LG+G4{1.70013}: part71{9.11847},
+    LG+G4{0.710933}: part72{7.13151},
+    WAG+I{0.10085}+G4{1.14494}: part73{13.683},
+    VT+R4{0.394232,0.0862645,0.369576,0.743371,0.196572,2.06602,0.0396193,7.19695}: part74{6.00746},
+    WAG+I{0.0928027}+G4{1.92423}: part75{7.47148},
+    LG+G4{0.69786}: part76{5.22691},
+    JTTDCMut+G4{0.540692}: part77{5.99769},
+    LG+G4{0.602123}: part78{6.04225},
+    LG+G4{0.977486}: part79{4.04268},
+    VT+F+G4{0.647185}: part80{5.90255},
+    LG+G4{0.995883}: part81{8.26386},
+    LG+R4{0.327721,0.0762003,0.352686,0.570444,0.28491,1.93084,0.0346837,6.45046}: part82{12.1034},
+    LG+G4{1.34398}: part83{14.564},
+    LG+R4{0.188695,0.187285,0.448677,0.702869,0.343329,1.59416,0.0192993,5.28408}: part84{13.8225},
+    WAG+G4{1.03861}: part85{8.89852},
+    LG+G4{1.0125}: part86{8.9708},
+    LG+G4{1.19045}: part87{5.95057},
+    LG+G4{0.679487}: part88{4.83039},
+    LG+G4{0.92473}: part89{2.68015},
+    LG+F+G4{2.02375}: part90{11.2477},
+    LG+G4{0.646358}: part91{5.93704},
+    LG+R4{0.250679,0.0576041,0.294881,0.409913,0.385808,1.35364,0.0686316,4.98953}: part92{9.15992},
+    JTTDCMut+G4{1.19758}: part93{6.18418},
+    LG+G4{0.890184}: part94{9.38478},
+    LG+R4{0.33936,0.066026,0.354849,0.582468,0.232822,1.75052,0.0729686,4.97946}: part95{11.9358},
+    VT+G4{1.13993}: part96{9.09358},
+    LG+F+G4{1.88918}: part97{10.594},
+    LG+F+G4{1.67515}: part98{10.1713},
+    LG+G4{0.601693}: part99{6.91862},
+    WAG+R3{0.577669,0.273377,0.274187,1.42783,0.148144,3.04154}: part100{4.88112},
+    WAG+I{0.087449}+G4{0.633708}: part101{22.7145},
+    LG+G4{0.493689}: part102{3.47452},
+    LG+I{0.206103}+G4{0.873548}: part103{9.58978},
+    LG+I{0.0925754}+G4{1.40649}: part104{9.98905},
+    WAG+R4{0.146695,0.125961,0.438898,0.546783,0.336137,1.29247,0.0782695,3.92354}: part105{13.429},
+    LG+G4{0.533743}: part106{4.16748},
+    LG+F+I{0.0326902}+G4{1.2996}: part107{13.2438},
+    JTTDCMut+G4{0.676373}: part108{15.1458},
+    LG+G4{0.870602}: part109{10.3399},
+    LG+G4{0.924992}: part110{5.32416},
+    LG+I{0.0954713}+G4{1.15955}: part111{11.9004},
+    WAG+R4{0.237479,0.214564,0.549491,0.838435,0.200853,2.01887,0.0121763,6.80308}: part112{12.1195},
+    LG+G4{0.649409}: part113{2.94066},
+    LG+G4{0.732163}: part114{3.94298},
+    LG+G4{1.40438}: part115{11.7534},
+    VT+G4{0.812348}: part116{4.16476},
+    LG+I{0.15095}+G4{1.1731}: part117{17.9142},
+    LG+G4{0.698242}: part118{10.0956},
+    WAG+G4{1.79429}: part119{7.77384},
+    LG+G4{0.670262}: part120{8.58801},
+    VT+G4{0.660434}: part121{9.14916},
+    WAG+G4{0.832991}: part122{4.61059},
+    WAG+G4{0.949558}: part123{9.10906},
+    VT+I{0.191989}+G4{1.35881}: part124{6.20213},
+    LG+I{0.0348357}+G4{2.4603}: part125{12.3741},
+    LG+G4{1.32923}: part126{9.51791},
+    LG+I{0.133301}+G4{1.28387}: part127{5.92961},
+    LG+G4{0.837857}: part128{4.72475},
+    LG+I{0.0607298}+G4{1.93677}: part129{8.34742},
+    LG+R4{0.261621,0.113716,0.304565,0.514565,0.368811,1.54267,0.0650029,3.76255}: part130{13.9332},
+    LG+G4{0.85388}: part131{7.67819},
+    LG+G4{0.80807}: part132{6.50416},
+    LG+R3{0.711644,0.169981,0.218843,1.84866,0.069513,6.82559}: part133{3.18693},
+    WAG+G4{1.70913}: part134{8.3148},
+    LG+R3{0.254236,0.151287,0.606028,0.957409,0.139735,2.72888}: part135{7.10177},
+    WAG+R4{0.395962,0.145209,0.417867,0.757075,0.163155,2.55965,0.0230168,9.0598}: part136{5.3435},
+    LG+G4{1.13817}: part137{11.1083},
+    LG+F+I{0.00917445}+G4{1.19439}: part138{22.1262},
+    LG+I{0.0536488}+G4{1.50944}: part139{12.0272},
+    LG+G4{0.756512}: part140{8.88142},
+    LG+R4{0.331298,0.1305,0.430506,0.656907,0.194662,2.02226,0.0435334,6.43885}: part141{8.27654},
+    VT+F+I{0.0250626}+G4{1.16837}: part142{21.7865},
+    WAG+R4{0.512034,0.157809,0.279292,0.877055,0.150728,2.42652,0.0579455,5.32391}: part143{5.65566},
+    LG+I{0.0578804}+G4{0.720498}: part144{21.3537},
+    LG+G4{0.527859}: part145{5.27555},
+    LG+I{0.0804145}+G4{1.33474}: part146{7.54152},
+    WAG+R4{0.179847,0.103215,0.377809,0.487622,0.330126,1.16669,0.112218,3.67191}: part147{15.2571},
+    LG+G4{1.48849}: part148{6.65413},
+    JTT+R6{0.302921,0.0159709,0.289686,0.187209,0.201942,0.455376,0.125764,1.05698,0.0610745,3.51337,0.0186137,26.9406}: part149{17.4197},
+    Blosum62+G4{1.0619}: part150{7.7356},
+    LG+R6{0.0890543,0.0522675,0.19469,0.176834,0.308227,0.525003,0.358772,1.17788,0.0332037,2.80993,0.0160536,17.6413}: part151{18.1395},
+    LG+G4{0.646958}: part152{4.81792},
+    LG+F+G4{0.733964}: part153{10.1223},
+    LG+G4{1.01878}: part154{4.93598},
+    WAG+I{0.0720386}+G4{0.948771}: part155{12.8625},
+    LG+F+G4{1.13027}: part156{6.36245},
+    LG+I{0.170081}+G4{0.715829}: part157{7.19271},
+    LG+G4{0.959828}: part158{14.6409},
+    LG+F+I{0.0396797}+G4{1.48759}: part159{12.6611},
+    LG+I{0.0423018}+G4{1.59889}: part160{11.5188},
+    LG+G4{2.06171}: part161{13.8262},
+    LG+G4{1.12322}: part162{9.48938},
+    JTTDCMut+I{0.161177}+G4{1.02938}: part163{7.08068},
+    LG+R2{0.753142,0.434647,0.246858,2.72484}: part164{2.6882},
+    LG+G4{1.09186}: part165{4.78675},
+    LG+F+I{0.0449663}+G4{1.59847}: part166{9.9494},
+    LG+G4{1.12562}: part167{12.0122},
+    LG+R5{0.204209,0.188474,0.167181,0.188509,0.266121,0.699696,0.236916,1.45971,0.125572,3.16921}: part168{11.274},
+    LG+G4{0.520793}: part169{3.19547},
+    VT+F+G4{0.90173}: part170{11.4834},
+    VT+R3{0.469446,0.202394,0.411091,1.08,0.119464,3.85897}: part171{7.28326},
+    LG+F+R4{0.0481987,0.153297,0.316496,0.454187,0.558523,1.14842,0.0767829,2.70167}: part172{16.2599},
+    VT+G4{1.30238}: part173{10.1888},
+    LG+G4{0.973211}: part174{4.54745},
+    LG+G4{1.2182}: part175{7.33117},
+    VT+G4{1.09919}: part176{3.96451},
+    LG+G4{0.634637}: part177{5.51665},
+    VT+G4{1.07218}: part178{5.51104},
+    LG+G4{0.850839}: part179{8.12462},
+    WAG+I{0.164886}+G4{3.57627}: part180{5.00457},
+    LG+G4{1.06792}: part181{20.6811},
+    LG+R4{0.115726,0.072277,0.481292,0.533788,0.371852,1.48149,0.0311301,5.90532}: part182{16.2246},
+    LG+G4{2.05888}: part183{7.31437},
+    LG+I{0.0348086}+G4{1.49185}: part184{11.6799},
+    LG+F+R5{0.132297,0.0206341,0.34307,0.20698,0.32623,0.664429,0.137789,1.57782,0.060613,8.11869}: part185{31.2363},
+    LG+I{0.176287}+G4{1.71845}: part186{7.50528},
+    WAG+G4{1.48192}: part187{9.64883},
+    LG+G4{2.13484}: part188{5.85718},
+    WAG+G4{1.12894}: part189{8.80452},
+    LG+I{0.0678644}+G4{1.78052}: part190{7.96586},
+    LG+G4{0.753765}: part191{10.2585},
+    WAG+G4{0.871238}: part192{9.18577},
+    LG+G4{1.02653}: part193{4.58277},
+    LG+R4{0.403923,0.111547,0.433451,0.82037,0.146683,2.0946,0.0159421,18.3232}: part194{5.34334},
+    LG+G4{1.47837}: part195{8.48159},
+    LG+G4{0.90121}: part196{13.3121},
+    WAG+I{0.159296}+G4{1.03626}: part197{4.0708},
+    LG+G4{1.42805}: part198{8.38538},
+    LG+G4{1.03704}: part199{6.02173},
+    VT+I{0.102593}+G4{1.63019}: part200{6.45755},
+    LG+G4{0.605142}: part201{5.24264},
+    LG+I{0.0281866}+G4{2.46129}: part202{8.08518},
+    LG+F+G4{0.949468}: part203{9.40953},
+    WAG+G4{1.36923}: part204{7.7618},
+    JTTDCMut+G4{1.29378}: part205{6.42667},
+    WAG+F+G4{1.57912}: part206{13.9987},
+    LG+R4{0.241853,0.0741703,0.369017,0.474041,0.330887,1.44662,0.0582427,5.63961}: part207{8.91296},
+    LG+G4{0.512472}: part208{5.45993},
+    VT+G4{0.509883}: part209{16.8709},
+    LG+G4{1.56953}: part210{10.7782},
+    LG+R3{0.381985,0.262491,0.501298,1.01747,0.116717,3.33864}: part211{7.06721},
+    WAG+I{0.0352454}+G4{1.27652}: part212{12.7986},
+    LG+G4{1.3095}: part213{6.79956},
+    LG+F+R4{0.069198,0.0596378,0.357012,0.467355,0.427087,1.18437,0.146703,2.20304}: part214{21.3992},
+    LG+F+G4{0.828937}: part215{7.86801},
+    LG+I{0.119334}+G4{2.48661}: part216{8.08864},
+    LG+I{0.0972396}+G4{1.03493}: part217{21.793},
+    LG+G4{0.964624}: part218{6.64481},
+    LG+F+G4{1.04842}: part219{9.26278},
+    LG+G4{0.65662}: part220{4.03956},
+    LG+G4{0.652279}: part221{4.98264},
+    LG+G4{0.737026}: part222{3.95651},
+    LG+G4{0.560692}: part223{7.94749},
+    VT+R4{0.171126,0.1038,0.348122,0.40411,0.395053,1.04872,0.0856995,4.98555}: part224{18.6568},
+    LG+F+I{0.127796}+G4{0.975929}: part225{9.57949},
+    LG+G4{0.956535}: part226{7.21619},
+    LG+F+G4{1.3619}: part227{14.6898},
+    LG+I{0.215651}+G4{0.272947}: part228{20.434},
+    LG+R4{0.273887,0.120325,0.442505,0.630245,0.252159,1.83121,0.0314495,7.19894}: part229{8.78987},
+    LG+F+G4{0.762885}: part230{7.43663},
+    LG+G4{1.37789}: part231{9.33357},
+    LG+G4{1.19338}: part232{14.8254},
+    LG+G4{0.772097}: part233{1.74883},
+    LG+G4{1.20248}: part234{6.23761},
+    LG+G4{1.12428}: part235{7.3704},
+    LG+I{0.186697}+G4{1.10841}: part236{5.72301},
+    LG+I{0.0767956}+G4{1.00612}: part237{11.0076},
+    LG+G4{0.60199}: part238{7.25406},
+    LG+G4{1.11597}: part239{12.7857},
+    LG+F+I{0.0662495}+G4{1.47571}: part240{8.98127},
+    LG+G4{1.57939}: part241{10.4776},
+    LG+R4{0.425388,0.0923773,0.383678,0.812738,0.169717,2.04593,0.0212173,14.217}: part242{7.81481},
+    LG+R4{0.246667,0.187274,0.535849,0.688647,0.196409,1.91264,0.0210748,9.92346}: part243{11.5862},
+    LG+G4{1.01682}: part244{8.44078},
+    LG+G4{1.11519}: part245{7.1087},
+    WAG+I{0.277914}+G4{0.849536}: part246{2.69966},
+    WAG+R4{0.363178,0.109282,0.385027,0.576907,0.21467,1.71341,0.0371246,9.97633}: part247{12.0323},
+    WAG+I{0.131916}+G4{1.10677}: part248{10.5766},
+    LG+I{0.0279315}+G4{1.85196}: part249{13.4948},
+    WAG+G4{1.21032}: part250{8.1665},
+    WAG+I{0.0826278}+G4{1.3967}: part251{10.2531},
+    LG+G4{1.09187}: part252{3.98081},
+    VT+R4{0.113066,0.166475,0.311675,0.54126,0.533492,1.27913,0.0417671,3.11425}: part253{12.5145},
+    LG+R3{0.333081,0.183546,0.543842,0.908307,0.123077,3.61473}: part254{8.08365},
+    WAG+F+R4{0.0534985,0.0848161,0.21321,0.375447,0.604452,0.950762,0.128839,2.64457}: part255{17.9397},
+    LG+G4{0.411354}: part256{2.13642},
+    LG+F+G4{0.846673}: part257{9.12071},
+    LG+R3{0.523478,0.275759,0.391762,1.34969,0.0847604,3.85664}: part258{5.02949},
+    LG+I{0.143305}+G4{0.865107}: part259{5.49533},
+    LG+G4{0.631497}: part260{7.06382},
+    LG+G4{0.987782}: part261{4.83396},
+    LG+G4{1.26272}: part262{7.82673},
+    LG+G4{1.06274}: part263{3.59923},
+    LG+G4{0.56289}: part264{8.6295},
+    LG+G4{0.626727}: part265{7.10275},
+    LG+I{0.0807663}+G4{1.47672}: part266{11.6692},
+    LG+G4{1.26264}: part267{8.08822},
+    PMB+R3{0.412704,0.135733,0.46043,0.920754,0.126866,4.09914}: part268{4.1095},
+    LG+I{0.343132}+G4{2.54988}: part269{3.90214},
+    WAG+I{0.0257175}+G4{1.71684}: part270{10.6545},
+    LG+F+G4{1.37619}: part271{13.4809},
+    WAG+I{0.193313}+G4{0.957054}: part272{6.59375},
+    LG+R3{0.423919,0.139135,0.465974,1.09708,0.110107,3.90357}: part273{4.63889},
+    LG+G4{0.961795}: part274{11.739},
+    PMB+G4{0.754391}: part275{8.8784},
+    LG+G4{0.892852}: part276{4.11957},
+    LG+G4{0.989182}: part277{8.95658},
+    LG+G4{0.749314}: part278{12.0487},
+    WAG+G4{0.821154}: part279{5.7954},
+    LG+G4{1.74017}: part280{7.83021},
+    LG+G4{1.6469}: part281{6.38017},
+    VT+R4{0.263485,0.204292,0.446484,0.668829,0.234757,1.52659,0.0552733,5.23167}: part282{15.2351},
+    LG+G4{1.32616}: part283{7.63102},
+    VT+G4{0.782476}: part284{11.4555},
+    LG+R4{0.19252,0.107213,0.343518,0.55551,0.437565,1.40043,0.0263971,6.65805}: part285{6.98658},
+    LG+R2{0.797824,0.539945,0.202176,2.81546}: part286{3.70085},
+    LG+I{0.0446617}+G4{1.17306}: part287{14.5162},
+    LG+I{0.0723453}+G4{1.4189}: part288{9.4103},
+    Blosum62+G4{0.740947}: part289{6.43383},
+    LG+I{0.0550215}+G4{2.06611}: part290{9.39208},
+    LG+I{0.0380951}+G4{1.42114}: part291{9.69343},
+    LG+G4{1.21363}: part292{12.5139},
+    LG+G4{1.75893}: part293{9.72815},
+    LG+F+R4{0.196546,0.109496,0.476145,0.638844,0.264045,1.6867,0.0632646,3.61866}: part294{12.5222},
+    Dayhoff+G4{0.491228}: part295{15.251},
+    JTT+F+G4{0.979806}: part296{17.5559},
+    LG+R4{0.206868,0.0191189,0.338616,0.373791,0.387017,1.45994,0.0674988,4.51045}: part297{6.21093},
+    LG+I{0.0805156}+G4{1.09759}: part298{9.65237},
+    WAG+G4{1.19632}: part299{7.95478},
+    Blosum62+G4{0.814035}: part300{1.12479},
+    LG+G4{1.28565}: part301{8.16496},
+    WAG+I{0.0534246}+G4{1.99087}: part302{14.207},
+    LG+R4{0.532748,0.048282,0.282594,0.440999,0.137275,2.32373,0.0473836,11.1993}: part303{7.71758},
+    LG+F+I{0.134364}+G4{1.19397}: part304{11.8976},
+    LG+R5{0.453914,0.136632,0.16061,0.591635,0.17714,1.29524,0.193039,2.50116,0.015297,8.54406}: part305{8.82146},
+    WAG+R4{0.271159,0.111108,0.472815,0.748747,0.2419,2.00255,0.0141249,9.30517}: part306{7.20418},
+    LG+R4{0.153512,0.0391187,0.499726,0.460086,0.277401,1.34539,0.0693611,5.63521}: part307{15.1349},
+    LG+R4{0.356679,0.228379,0.37212,0.811283,0.230553,1.86041,0.0406473,4.61838}: part308{6.36304},
+    Dayhoff+G4{0.40954}: part309{0.961308},
+    LG+G4{0.593686}: part310{9.01551},
+    LG+R3{0.44538,0.249523,0.460474,1.16747,0.0941458,3.73121}: part311{9.55971},
+    LG+F+R4{0.0984981,0.157617,0.339265,0.531825,0.443577,1.22015,0.11866,2.21487}: part312{21.3731},
+    LG+R4{0.306995,0.116263,0.391084,0.592113,0.258094,1.60995,0.043828,7.23793}: part313{11.7899},
+    LG+G4{0.841724}: part314{6.08054},
+    JTTDCMut+F+G4{1.09489}: part315{10.639},
+    WAG+G4{0.752838}: part316{6.09706},
+    LG+F+R3{0.327658,0.38075,0.54486,0.959667,0.127482,2.76399}: part317{11.9279},
+    LG+G4{1.07602}: part318{10.607},
+    JTTDCMut+G4{1.06201}: part319{12.6305},
+    LG+G4{2.33251}: part320{6.40991},
+    LG+G4{1.13298}: part321{13.6552},
+    LG+G4{1.42116}: part322{7.04798},
+    LG+R4{0.10855,0.0539021,0.310732,0.431341,0.488969,1.2822,0.0917497,2.54128}: part323{14.9849},
+    WAG+G4{0.76858}: part324{12.1824},
+    VT+F+G4{1.1136}: part325{8.3552},
+    JTT+F+G4{1.25255}: part326{19.8996},
+    LG+G4{0.474529}: part327{13.3808},
+    LG+G4{0.875111}: part328{5.65496},
+    LG+I{0.096098}+G4{1.11943}: part329{9.66386},
+    LG+R3{0.776233,0.393683,0.19566,2.16569,0.0281068,9.6301}: part330{2.20621},
+    LG+G4{0.838067}: part331{7.50568},
+    LG+I{0.139072}+G4{1.73972}: part332{4.17103},
+    WAG+R5{0.15608,0.0836584,0.432359,0.459636,0.317799,1.21843,0.0890202,2.89685,0.00474215,30.1803}: part333{9.69298},
+    LG+G4{0.679682}: part334{3.487},
+    LG+R5{0.268294,0.0475988,0.287648,0.322843,0.234926,0.787919,0.167789,1.59277,0.041343,10.6913}: part335{11.3767},
+    LG+R3{0.534486,0.32805,0.316163,1.1435,0.149351,3.10093}: part336{6.69963},
+    LG+G4{0.545903}: part337{3.8684},
+    LG+R4{0.338536,0.119383,0.382077,0.601417,0.222398,1.91889,0.056988,5.31758}: part338{13.536},
+    LG+G4{1.01682}: part339{15.3633},
+    LG+G4{0.85007}: part340{11.5313},
+    VT+G4{1.04215}: part341{9.52519},
+    LG+G4{0.871009}: part342{11.6274},
+    LG+G4{0.702839}: part343{10.4631},
+    VT+R3{0.472816,0.277407,0.38077,1.11575,0.146414,3.03244}: part344{6.24123},
+    LG+G4{1.50559}: part345{3.64297},
+    LG+G4{1.89069}: part346{10.2911},
+    LG+G4{0.935564}: part347{5.53351},
+    LG+G4{1.00987}: part348{14.0407},
+    LG+G4{0.506892}: part349{5.40456},
+    LG+R3{0.591227,0.297746,0.331933,1.48304,0.0768398,4.31672}: part350{4.12737},
+    LG+G4{0.448671}: part351{8.81863},
+    LG+F+G4{0.858994}: part352{7.20765},
+    JTT+F+G4{0.705754}: part353{3.719},
+    LG+F+G4{2.17858}: part354{9.68508},
+    LG+G4{0.637946}: part355{5.11089},
+    LG+F+G4{1.18349}: part356{10.7728},
+    LG+F+I{0.0755213}+G4{1.17107}: part357{12.787},
+    LG+G4{0.621537}: part358{9.19747},
+    PMB+G4{0.863896}: part359{6.40215},
+    LG+R3{0.600542,0.266738,0.361238,1.5492,0.0382197,7.33082}: part360{2.47633},
+    LG+G4{1.0108}: part361{8.00554},
+    LG+R4{0.136346,0.0169964,0.173311,0.192008,0.286679,0.495413,0.403664,2.03729}: part362{13.3354},
+    JTTDCMut+G4{1.16362}: part363{11.9778},
+    LG+G4{0.654069}: part364{6.51627},
+    LG+F+G4{0.884817}: part365{9.62106},
+    LG+R3{0.422801,0.178769,0.457345,1.0889,0.119854,3.55778}: part366{6.38239},
+    LG+G4{1.2985}: part367{6.55179},
+    WAG+G4{1.26783}: part368{9.25888},
+    PMB+I{0.126916}+G4{1.6962}: part369{8.61622},
+    LG+G4{0.91981}: part370{9.75988},
+    LG+F+R5{0.242295,0.0593065,0.325624,0.29597,0.327886,1.08239,0.0839717,2.68628,0.0202235,15.2685}: part371{12.6284},
+    VT+R2{0.762531,0.406859,0.237469,2.90462}: part372{2.45735},
+    LG+I{0.16947}+G4{0.743893}: part373{5.52404},
+    WAG+G4{1.71421}: part374{8.37611},
+    VT+F+I{0.0671416}+G4{1.91683}: part375{7.12827},
+    LG+R5{0.295947,0.0284235,0.358595,0.410711,0.242375,1.24229,0.0828621,2.6864,0.0202205,15.8557}: part376{11.5305},
+    WAG+G4{0.979096}: part377{12.7118},
+    WAG+G4{0.904256}: part378{3.93089},
+    LG+I{0.0949129}+G4{1.00488}: part379{10.5673},
+    LG+F+G4{0.732697}: part380{9.14389},
+    VT+G4{1.08311}: part381{9.71609},
+    LG+G4{0.682}: part382{3.86967},
+    WAG+I{0.0630395}+G4{1.76088}: part383{9.80698},
+    LG+F+I{0.0459854}+G4{1.67315}: part384{9.26568},
+    LG+R3{0.314361,0.169444,0.544167,0.926047,0.141472,3.13002}: part385{7.96362},
+    VT+G4{0.736706}: part386{8.76857},
+    LG+G4{1.39827}: part387{4.20803},
+    LG+F+R4{0.113389,0.120214,0.461839,0.579187,0.38069,1.47765,0.0440817,3.54683}: part388{20.9902},
+    LG+F+G4{1.37414}: part389{11.049},
+    LG+R4{0.322752,0.110213,0.428604,0.795172,0.220196,2.14634,0.0284479,5.30788}: part390{6.27003},
+    WAG+I{0.08618}+G4{1.58242}: part391{8.14312},
+    LG+G4{0.362418}: part392{3.61893},
+    WAG+R4{0.118623,0.118001,0.357112,0.489536,0.402188,1.15741,0.122076,2.83173}: part393{14.5949},
+    LG+I{0.126859}+G4{1.32556}: part394{9.43835},
+    LG+I{0.0606447}+G4{2.141}: part395{8.68048},
+    LG+I{0.0685561}+G4{2.45833}: part396{6.88517},
+    LG+G4{0.633281}: part397{3.41725},
+    LG+G4{1.91489}: part398{6.3575},
+    LG+I{0.0600999}+G4{1.66823}: part399{9.07499},
+    LG+G4{1.44367}: part400{5.17514},
+    LG+G4{0.654177}: part401{5.65802},
+    LG+G4{2.98211}: part402{7.65796},
+    JTTDCMut+F+G4{0.859007}: part403{14.5538},
+    LG+G4{0.570545}: part404{5.14267},
+    LG+G4{0.840773}: part405{3.54739},
+    LG+G4{0.805236}: part406{8.14058},
+    LG+G4{1.52518}: part407{6.70845},
+    WAG+I{0.102925}+G4{1.2418}: part408{9.77656},
+    LG+G4{1.59481}: part409{8.22462},
+    LG+G4{1.02543}: part410{8.70909},
+    LG+R3{0.504752,0.21278,0.363116,1.0855,0.132132,3.77227}: part411{7.4385},
+    LG+G4{0.993924}: part412{19.9732},
+    LG+G4{0.302854}: part413{1.74128},
+    LG+G4{2.36929}: part414{8.03819},
+    LG+F+G4{1.62058}: part415{12.2029},
+    WAG+I{0.0343327}+G4{1.58688}: part416{13.1378},
+    LG+F+R4{0.313827,0.204887,0.413465,0.699566,0.236597,1.93372,0.0361111,5.23223}: part417{8.62018},
+    LG+G4{0.592669}: part418{8.0023},
+    LG+G4{0.626476}: part419{8.3854},
+    LG+R4{0.186496,0.0517862,0.224809,0.365629,0.31966,1.015,0.269035,2.16957}: part420{13.9121},
+    PMB+G4{1.2344}: part421{4.8971},
+    LG+G4{0.91093}: part422{6.25286},
+    VT+R3{0.625725,0.22211,0.285804,1.42185,0.0884706,5.139}: part423{3.59589},
+    WAG+I{0.0657449}+G4{1.75977}: part424{13.9485},
+    WAG+R6{0.0618119,0.0122518,0.37295,0.196946,0.230787,0.717725,0.199091,0.718082,0.118119,1.75402,0.0172414,23.7802}: part425{11.8605},
+    LG+G4{1.23493}: part426{13.3142},
+    LG+G4{0.718405}: part427{4.71964},
+    LG+F+R3{0.326068,0.130655,0.497839,0.946056,0.176093,2.76225}: part428{7.38199},
+    LG+G4{0.824369}: part429{5.71039},
+    LG+G4{0.683946}: part430{17.2779},
+    LG+F+I{0.0357015}+G4{1.81818}: part431{14.4353},
+    LG+R5{0.153252,0.0500936,0.369471,0.386205,0.317225,1.00829,0.130994,2.40951,0.0290578,7.36962}: part432{14.6905},
+    PMB+G4{0.911365}: part433{11.6055},
+    WAG+G4{1.33544}: part434{11.1804},
+    LG+G4{0.712084}: part435{7.33181},
+    WAG+I{0.150543}+G4{0.917495}: part436{7.77008},
+    PMB+G4{1.53825}: part437{1.96909},
+    WAG+G4{0.625871}: part438{3.80877},
+    LG+G4{1.28478}: part439{8.40159},
+    VT+R4{0.279117,0.0772443,0.369719,0.328909,0.300756,1.08431,0.0504086,10.5284}: part440{14.9378},
+    LG+R3{0.164179,0.102749,0.61925,0.914454,0.21657,1.9248}: part441{7.90024},
+    LG+I{0.326976}+G4{0.526639}: part442{1.93799},
+    LG+G4{1.42795}: part443{12.1435},
+    WAG+G4{0.437671}: part444{14.661},
+    LG+F+I{0.0249161}+G4{1.58711}: part445{12.3407},
+    LG+G4{1.07493}: part446{9.58831},
+    LG+I{0.0609157}+G4{1.02081}: part447{16.9977},
+    LG+G4{0.593277}: part448{5.59552},
+    VT+G4{0.390668}: part449{30.6096},
+    LG+I{0.0683117}+G4{1.09348}: part450{11.1181},
+    LG+G4{1.00672}: part451{6.28816},
+    LG+F+G4{1.3011}: part452{6.38763},
+    LG+G4{0.777984}: part453{4.68478},
+    WAG+G4{1.29442}: part454{5.56599},
+    WAG+I{0.0857632}+G4{0.959879}: part455{13.2829},
+    LG+R4{0.301954,0.136528,0.459358,0.456988,0.218298,1.11606,0.0203892,24.7788}: part456{17.8028},
+    LG+F+I{0.131084}+G4{1.25043}: part457{10.4471},
+    LG+R4{0.214836,0.0693426,0.397748,0.537627,0.317717,1.44623,0.0696988,4.47312}: part458{10.6948},
+    LG+F+R4{0.128069,0.0815895,0.311676,0.399128,0.456583,1.11893,0.103672,3.4172}: part459{13.4561},
+    LG+I{0.0745135}+G4{1.05581}: part460{12.9514},
+    WAG+I{0.0302096}+G4{1.6469}: part461{16.1122},
+    LG+F+R4{0.188226,0.110516,0.398451,0.551198,0.335585,1.48607,0.0777385,3.35573}: part462{13.7792},
+    LG+R4{0.145133,0.0250144,0.444936,0.346863,0.324828,1.00446,0.0851017,6.0605}: part463{11.5448},
+    LG+I{0.106226}+G4{1.67583}: part464{8.02507},
+    LG+I{0.0834899}+G4{1.12375}: part465{16.4642},
+    LG+G4{0.547329}: part466{6.03047},
+    WAG+G4{0.869863}: part467{8.55398},
+    LG+R4{0.207639,0.0605493,0.439916,0.469141,0.270771,1.42262,0.0816733,4.84664}: part468{8.36242},
+    VT+G4{1.17599}: part469{7.55412},
+    LG+I{0.104481}+G4{1.23283}: part470{9.06938},
+    LG+R4{0.510487,0.0933581,0.284088,0.514322,0.112131,1.25268,0.0932949,7.13613}: part471{12.0891},
+    LG+G4{0.648567}: part472{3.73424},
+    LG+G4{0.972369}: part473{9.3362},
+    LG+G4{1.12307}: part474{7.79331},
+    LG+I{0.133738}+G4{1.55776}: part475{10.7229},
+    VT+F+R4{0.162513,0.113694,0.305322,0.490096,0.516062,1.30496,0.0161028,9.83948}: part476{15.3919},
+    JTT+G4{0.291403}: part477{20.0499},
+    VT+I{0.0517856}+G4{2.35514}: part478{11.702},
+    LG+I{0.122354}+G4{1.75581}: part479{14.204},
+    LG+G4{1.68777}: part480{10.8944},
+    LG+G4{0.848709}: part481{7.39906},
+    LG+G4{0.959675}: part482{12.2536},
+    PMB+G4{1.13988}: part483{8.65531},
+    LG+R3{0.361226,0.284883,0.565691,1.06148,0.0730827,4.05876}: part484{10.2106},
+    LG+G4{0.77144}: part485{8.39069},
+    LG+F+G4{1.28924}: part486{10.0149},
+    LG+F+G4{1.63774}: part487{16.5075},
+    LG+G4{0.939581}: part488{10.4447},
+    LG+F+I{0.0354197}+G4{2.35587}: part489{15.5076},
+    LG+G4{2.2845}: part490{5.47128},
+    LG+F+I{0.0940281}+G4{1.61653}: part491{11.0847},
+    LG+F+I{0.0757315}+G4{1.60231}: part492{10.1388},
+    WAG+G4{0.801558}: part493{15.7867},
+    WAG+G4{1.19811}: part494{4.57072},
+    LG+G4{1.42003}: part495{9.71326},
+    LG+G4{1.05612}: part496{10.7931},
+    LG+G4{0.570021}: part497{2.17838},
+    VT+G4{0.993441}: part498{3.69236},
+    LG+I{0.0620649}+G4{1.20861}: part499{13.3469},
+    LG+G4{0.6899}: part500{10.6158},
+    LG+G4{1.48109}: part501{6.85334},
+    LG+G4{0.939795}: part502{8.86852},
+    LG+I{0.0597289}+G4{1.20902}: part503{10.0975},
+    LG+I{0.0616811}+G4{1.04306}: part504{22.6415},
+    VT+G4{0.875182}: part505{24.7699},
+    LG+F+I{0.126723}+G4{1.24649}: part506{5.78369},
+    LG+G4{1.68275}: part507{6.94547},
+    WAG+G4{0.703435}: part508{4.37553},
+    LG+R4{0.152075,0.0242385,0.244685,0.123872,0.35473,1.01304,0.248509,2.44114}: part509{11.4884},
+    LG+G4{1.48526}: part510{4.98342},
+    LG+F+R4{0.178422,0.0565381,0.392148,0.521365,0.341828,1.44314,0.0876011,3.33506}: part511{9.94367},
+    LG+G4{1.06183}: part512{4.27037},
+    LG+F+R4{0.173104,0.0626356,0.373063,0.485352,0.368213,1.30715,0.0856199,3.81663}: part513{12.7883},
+    LG+I{0.146259}+G4{1.25375}: part514{10.4351},
+    LG+G4{0.917619}: part515{7.66205},
+    LG+R4{0.160074,0.0403559,0.522688,0.531545,0.297711,1.9826,0.0195276,6.42509}: part516{8.08274},
+    WAG+I{0.107593}+G4{2.53606}: part517{5.69426},
+    LG+G4{0.583417}: part518{7.21225},
+    LG+I{0.0651895}+G4{1.84355}: part519{9.04161},
+    VT+R4{0.24109,0.0567196,0.269334,0.474782,0.398886,1.40784,0.0906893,3.27364}: part520{14.0344},
+    LG+I{0.126638}+G4{0.776437}: part521{27.1765},
+    LG+I{0.0780528}+G4{1.50806}: part522{7.07382},
+    LG+F+G4{1.23651}: part523{10.9456},
+    LG+I{0.120456}+G4{0.904186}: part524{6.60641},
+    LG+I{0.0205728}+G4{2.68307}: part525{15.006},
+    WAG+G4{0.907134}: part526{7.29059},
+    WAG+I{0.03843}+G4{1.10873}: part527{17.8332},
+    LG+G4{0.795299}: part528{22.0357},
+    LG+R3{0.687008,0.144884,0.220244,1.60295,0.0927476,5.90229}: part529{2.01072},
+    LG+R4{0.246929,0.0566384,0.317449,0.407842,0.338004,1.22026,0.0976174,4.54932}: part530{19.7942},
+    LG+R4{0.487569,0.285427,0.37269,1.11872,0.133076,2.49585,0.00666462,16.7694}: part531{5.88984},
+    LG+R4{0.390283,0.0823483,0.297607,0.368493,0.279323,1.32495,0.0327868,14.8873}: part532{6.41047},
+    VT+R3{0.520232,0.420384,0.395036,1.34263,0.0847324,2.96127}: part533{7.66485},
+    LG+G4{0.882141}: part534{6.78224},
+    LG+G4{0.872386}: part535{8.32346},
+    LG+G4{1.32135}: part536{1.45259},
+    LG+G4{1.02657}: part537{7.80667},
+    LG+G4{0.802339}: part538{5.76551},
+    LG+G4{1.342}: part539{7.23861},
+    LG+R4{0.482252,0.115831,0.299422,0.783755,0.196834,2.59837,0.0214925,9.21351}: part540{3.8502},
+    LG+F+R5{0.166093,0.0902582,0.355784,0.475535,0.31695,1.11337,0.147741,2.36395,0.0134316,8.46386}: part541{15.837},
+    WAG+G4{2.01661}: part542{7.54105},
+    WAG+G4{1.21253}: part543{11.1228},
+    WAG+R4{0.0723559,0.220332,0.0865111,0.221558,0.432369,0.696183,0.408764,1.62412}: part544{14.6893},
+    VT+F+I{0.0435223}+G4{1.00687}: part545{32.2008},
+    LG+F+I{0.048893}+G4{1.3303}: part546{10.9084},
+    LG+G4{0.950204}: part547{8.79962},
+    LG+G4{1.5847}: part548{8.62279},
+    WAG+G4{0.696989}: part549{7.41036},
+    WAG+R3{0.396846,0.147824,0.545759,1.04548,0.0573953,6.45974}: part550{7.83464},
+    LG+G4{0.947259}: part551{2.94411},
+    LG+G4{1.47114}: part552{7.101},
+    LG+R4{0.323825,0.171472,0.380875,0.691376,0.193391,1.34515,0.101908,4.13121}: part553{14.4795},
+    LG+G4{0.572756}: part554{16.0832},
+    LG+F+G4{1.08432}: part555{12.2839},
+    WAG+G4{1.17768}: part556{15.0287},
+    LG+I{0.0696265}+G4{2.68284}: part557{7.41246},
+    LG+R3{0.602673,0.167676,0.336382,1.31611,0.0609442,7.48603}: part558{3.63783},
+    WAG+I{0.180958}+G4{1.23081}: part559{4.73948},
+    VT+I{0.350502}+G4{0.708217}: part560{1.61977},
+    JTT+F+I{0.0413473}+G4{1.59558}: part561{17.4256},
+    LG+G4{0.815537}: part562{15.1957},
+    WAG+R4{0.323575,0.0751279,0.351995,0.550236,0.301866,1.6836,0.0225645,12.1336}: part563{10.5246},
+    LG+G4{0.879208}: part564{10.2218},
+    LG+G4{1.26443}: part565{6.39113},
+    LG+G4{0.671981}: part566{5.80334},
+    LG+R4{0.366016,0.118828,0.36879,0.747629,0.244587,1.96798,0.0206063,9.67894}: part567{9.23714},
+    LG+G4{1.87238}: part568{12.2816},
+    LG+R4{0.351611,0.149216,0.47729,0.881311,0.162611,2.59173,0.00848751,12.424}: part569{6.80209},
+    LG+R3{0.65891,0.219661,0.314591,1.82837,0.0264987,10.5693}: part570{4.54715},
+    JTTDCMut+F+I{0.0595391}+G4{1.15527}: part571{12.7814},
+    LG+G4{1.35754}: part572{15.2583},
+    LG+G4{0.602689}: part573{4.08645},
+    LG+G4{0.792082}: part574{5.29465},
+    LG+I{0.143459}+G4{1.23378}: part575{14.762},
+    VT+G4{0.804761}: part576{4.09401},
+    LG+G4{0.603254}: part577{4.85635},
+    LG+R4{0.574995,0.093223,0.291333,1.07226,0.127122,3.3974,0.0065498,30.8602}: part578{3.20823},
+    VT+G4{1.69186}: part579{12.1999},
+    LG+G4{1.03137}: part580{13.3942},
+    LG+F+R4{0.250168,0.193889,0.446458,0.605761,0.254658,1.61117,0.0487167,5.55769}: part581{19.4669},
+    LG+R4{0.372571,0.0700978,0.430227,0.540239,0.169808,1.49898,0.0273936,17.7749}: part582{12.5929},
+    LG+G4{0.780567}: part583{19.3264},
+    LG+F+G4{0.867873}: part584{21.0333},
+    WAG+G4{1.03954}: part585{8.01445},
+    WAG+I{0.0493978}+G4{1.25969}: part586{18.1963},
+    LG+R4{0.172633,0.0863133,0.530508,0.587595,0.287872,1.60303,0.00898671,23.5802}: part587{13.3315},
+    LG+R3{0.734454,0.293314,0.229759,2.30779,0.0357874,7.1069}: part588{2.67519},
+    WAG+I{0.0524056}+G4{2.13641}: part589{11.1069},
+    LG+F+G4{1.29443}: part590{6.67715},
+    LG+G4{0.64454}: part591{6.73438},
+    WAG+R4{0.172878,0.0869472,0.352299,0.361863,0.401168,1.1526,0.0736551,5.3642}: part592{14.4384},
+    LG+G4{0.971059}: part593{9.58414},
+    VT+G4{0.933209}: part594{8.48267},
+    LG+G4{0.842247}: part595{4.50379},
+    LG+F+R4{0.0844554,0.102658,0.255633,0.432305,0.421844,0.95807,0.238067,2.00222}: part596{16.8021},
+    LG+G4{1.54886}: part597{12.4045},
+    LG+F+G4{1.06919}: part598{15.4952},
+    LG+R3{0.280679,0.190871,0.294969,0.83754,0.424352,1.64811}: part599{9.72769},
+    WAG+F+I{0.027958}+G4{1.80144}: part600{13.0601},
+    LG+F+R4{0.270175,0.152551,0.439018,0.608148,0.217441,1.51031,0.073366,4.95315}: part601{14.888},
+    LG+G4{1.10812}: part602{8.2559},
+    VT+F+R4{0.272628,0.240032,0.470005,0.796917,0.239599,1.75249,0.0177676,7.88573}: part603{10.1114},
+    LG+R4{0.162,0.0807318,0.299314,0.447725,0.440282,1.2067,0.098404,3.26837}: part604{10.6444},
+    LG+F+I{0.032283}+G4{2.75051}: part605{7.63732},
+    LG+G4{0.75389}: part606{9.99459},
+    LG+G4{0.974923}: part607{10.0861},
+    WAG+G4{1.6135}: part608{8.92239},
+    WAG+G4{0.718124}: part609{23.2129},
+    LG+G4{1.71721}: part610{11.4504},
+    WAG+R3{0.590294,0.238539,0.291406,1.28757,0.1183,4.09117}: part611{2.65174},
+    WAG+R4{0.243916,0.112343,0.424331,0.471733,0.268387,1.4169,0.0633648,6.18874}: part612{13.4706},
+    VT+F+I{0.0123369}+G4{2.36614}: part613{15.4743},
+    WAG+I{0.2337}+G4{1.24024}: part614{7.29893},
+    LG+G4{0.966529}: part615{7.62128},
+    WAG+G4{0.697064}: part616{9.00876},
+    PMB+R3{0.716727,0.539788,0.252293,1.71096,0.0309806,5.85713}: part617{4.05721},
+    WAG+G4{0.757378}: part618{9.86892},
+    LG+G4{0.833953}: part619{7.20702},
+    LG+G4{0.696163}: part620{6.76196},
+    WAG+G4{0.666689}: part621{9.49769},
+    WAG+I{0.224988}+G4{1.82518}: part622{4.39536},
+    LG+I{0.0635473}+G4{1.35691}: part623{16.6945},
+    WAG+G4{0.997147}: part624{9.0285},
+    LG+G4{0.432608}: part625{1.35259},
+    LG+R3{0.329855,0.116868,0.543686,1.10765,0.126459,2.84072}: part626{5.272},
+    WAG+I{0.0952702}+G4{1.04147}: part627{11.3989},
+    WAG+G4{0.554037}: part628{24.8744},
+    LG+R4{0.338773,0.0492836,0.462859,0.613934,0.175493,1.84528,0.0228758,16.4062}: part629{9.22208},
+    LG+R4{0.189725,0.129816,0.549246,0.505652,0.194589,1.56372,0.0664388,5.92063}: part630{10.8749},
+    LG+G4{1.23314}: part631{9.80027},
+    JTT+F+G4{1.54011}: part632{7.87843},
+    LG+G4{1.01879}: part633{11.1808},
+    WAG+I{0.0619658}+G4{1.32152}: part634{12.01},
+    LG+G4{1.21469}: part635{8.09707},
+    LG+G4{2.28853}: part636{3.75703},
+    LG+F+I{0.00772713}+G4{1.33757}: part637{28.3807},
+    LG+G4{0.773787}: part638{10.0959},
+    WAG+G4{0.662216}: part639{8.9568},
+    VT+G4{0.940495}: part640{16.166},
+    WAG+I{0.452633}: part641{1.94528},
+    LG+G4{1.17849}: part642{4.28055},
+    LG+R4{0.199809,0.0699342,0.455042,0.531415,0.280364,1.5553,0.0647858,4.7566}: part643{13.2556},
+    LG+G4{1.80161}: part644{7.62398},
+    JTTDCMut+F+I{0.0589017}+G4{2.07483}: part645{13.4342},
+    PMB+G4{0.632162}: part646{2.98591},
+    VT+G4{0.619358}: part647{3.13481},
+    LG+G4{1.16092}: part648{10.3109},
+    WAG+G4{1.59639}: part649{4.07676},
+    LG+F+I{0.0225192}+G4{1.85081}: part650{17.3623},
+    LG+G4{1.16525}: part651{8.89222},
+    LG+F+G4{1.70062}: part652{9.64739},
+    LG+F+I{0.0564442}+G4{1.21486}: part653{10.5246},
+    JTT+F+G4{1.43631}: part654{7.97717},
+    LG+R4{0.188019,0.13625,0.567598,0.628568,0.222048,2.15596,0.0223352,6.21808}: part655{7.40031},
+    LG+G4{0.57645}: part656{7.85611},
+    LG+F+I{0.0304522}+G4{1.83685}: part657{11.4222},
+    LG+G4{1.70646}: part658{8.86504},
+    WAG+I{0.095816}+G4{1.69241}: part659{11.0917},
+    LG+I{0.0822899}+G4{1.18054}: part660{6.53911},
+    LG+G4{1.72024}: part661{9.91707},
+    LG+F+G4{1.29812}: part662{9.67935},
+    LG+G4{0.682544}: part663{5.28093},
+    LG+G4{0.935232}: part664{9.68884},
+    LG+G4{0.403955}: part665{6.63337},
+    LG+I{0.0227052}+G4{1.58267}: part666{12.2849},
+    LG+G4{0.926713}: part667{10.6356},
+    LG+G4{0.968654}: part668{7.45219},
+    VT+F+I{0.0324133}+G4{1.96441}: part669{11.8175},
+    LG+G4{0.625871}: part670{2.70102},
+    LG+I{0.0986829}+G4{1.11424}: part671{13.9988},
+    LG+G4{0.79511}: part672{5.8787},
+    PMB+R3{0.692723,0.226316,0.239179,1.65301,0.0680976,6.57675}: part673{3.28596},
+    LG+G4{1.01658}: part674{8.94777},
+    VT+R3{0.564748,0.33903,0.391233,1.56911,0.0440194,4.42185}: part675{4.85459},
+    PMB+G4{0.893762}: part676{4.36671},
+    LG+F+I{0.065159}+G4{1.11453}: part677{15.4988},
+    VT+G4{0.83277}: part678{11.6336},
+    VT+G4{0.504758}: part679{4.18811},
+    LG+G4{0.967543}: part680{14.4208},
+    WAG+I{0.0485246}+G4{2.20616}: part681{15.3946},
+    WAG+I{0.0610779}+G4{1.23419}: part682{11.5214},
+    WAG+I{0.0498944}+G4{2.07262}: part683{10.1875},
+    LG+G4{0.832367}: part684{7.0825},
+    VT+G4{0.92137}: part685{4.81891},
+    LG+R3{0.514283,0.176773,0.381511,1.28349,0.104206,4.02493}: part686{5.53787},
+    VT+G4{0.690611}: part687{4.76301},
+    WAG+G4{0.457219}: part688{2.82682},
+    LG+I{0.0583861}+G4{1.28756}: part689{11.1043},
+    LG+G4{1.82067}: part690{15.5122},
+    LG+R4{0.0492519,0.00429172,0.188558,0.174558,0.621145,0.857564,0.141045,3.07846}: part691{15.9345},
+    LG+G4{0.744505}: part692{11.4685},
+    LG+R4{0.188721,0.186213,0.361828,0.587811,0.436014,1.53844,0.0134363,6.0574}: part693{8.49332},
+    LG+I{0.21126}+G4{0.882898}: part694{5.0139},
+    WAG+G4{1.32816}: part695{15.2826},
+    LG+F+G4{0.787241}: part696{8.07917},
+    LG+G4{0.912007}: part697{12.2168},
+    LG+R6{0.208417,0.0150182,0.329338,0.266714,0.179973,0.778561,0.154422,0.778695,0.11965,2.01917,0.00819968,49.6445}: part698{10.5262},
+    LG+G4{1.08726}: part699{4.9791},
+    VT+G4{1.03173}: part700{5.16205},
+    LG+I{0.153333}+G4{1.49177}: part701{8.51526},
+    LG+F+I{0.0381235}+G4{1.46745}: part702{12.1673},
+    LG+G4{0.951498}: part703{10.2941},
+    LG+G4{0.741912}: part704{6.42982},
+    LG+G4{0.800455}: part705{2.88277},
+    LG+G4{0.861072}: part706{5.38223},
+    WAG+G4{0.746515}: part707{7.09957},
+    VT+R3{0.682746,0.408867,0.278409,1.54367,0.0388457,7.49313}: part708{3.61032},
+    LG+G4{0.993842}: part709{8.53592},
+    LG+R3{0.487065,0.214268,0.452497,1.38778,0.060438,4.42885}: part710{3.55026},
+    LG+F+I{0.0437719}+G4{1.08573}: part711{15.456},
+    WAG+I{0.0452442}+G4{0.98138}: part712{10.602},
+    LG+G4{1.57436}: part713{7.89764},
+    VT+R4{0.261928,0.0535167,0.28362,0.533613,0.407845,1.42868,0.0466076,5.40601}: part714{12.1192},
+    LG+F+I{0.0242493}+G4{2.83896}: part715{18.4212},
+    LG+F+G4{2.46705}: part716{15.3922},
+    WAG+R4{0.196367,0.038287,0.442887,0.489506,0.275615,1.44465,0.0851309,4.43456}: part717{12.1379},
+    LG+R5{0.185637,0.0602584,0.325382,0.284653,0.413513,0.792776,0.0329076,2.02982,0.0425606,11.7849}: part718{20.3435},
+    LG+I{0.061604}+G4{1.39388}: part719{15.1914},
+    WAG+I{0.127754}+G4{1.39552}: part720{8.26255},
+    WAG+I{0.0632408}+G4{1.05154}: part721{26.9558},
+    VT+F+R5{0.157777,0.073693,0.0904264,0.382155,0.190852,0.386222,0.421358,1.09756,0.139586,2.99198}: part722{21.6404},
+    WAG+R4{0.231888,0.0672504,0.385334,0.490802,0.317985,1.28033,0.0647938,5.99065}: part723{13.4162},
+    LG+I{0.0552236}+G4{1.56155}: part724{16.1329},
+    LG+I{0.041769}+G4{1.19518}: part725{14.4688},
+    LG+I{0.0568747}+G4{1.2599}: part726{12.3172},
+    LG+G4{0.7666}: part727{10.4895},
+    LG+G4{0.7458}: part728{7.82735},
+    LG+R2{0.254328,0.169839,0.745672,1.28315}: part729{6.61678},
+    LG+G4{0.318994}: part730{2.09772},
+    LG+G4{0.692609}: part731{3.59444},
+    LG+R4{0.230855,0.0319754,0.485695,0.214577,0.213716,0.812376,0.0697334,10.2502}: part732{30.7095},
+    LG+G4{1.00468}: part733{10.361},
+    LG+I{0.156769}+G4{0.898213}: part734{13.0378},
+    WAG+R4{0.333819,0.113706,0.440925,0.59594,0.169011,1.93768,0.0562442,6.61024}: part735{11.3445},
+    LG+G4{0.799984}: part736{17.4928},
+    WAG+R3{0.342466,0.110988,0.455143,0.974036,0.202391,2.56269}: part737{7.64905},
+    LG+G4{1.1293}: part738{6.77803},
+    LG+G4{0.658272}: part739{13.3172},
+    WAG+R4{0.157965,0.119444,0.331278,0.556606,0.442469,1.31343,0.0682885,3.15706}: part740{13.8131},
+    VT+R4{0.101877,0.0251222,0.387902,0.475846,0.462809,1.21979,0.0474118,5.23775}: part741{15.8883},
+    LG+I{0.135154}+G4{1.41997}: part742{11.9987},
+    LG+G4{0.895063}: part743{10.2186},
+    LG+G4{0.71793}: part744{7.19957},
+    VT+R4{0.216099,0.076203,0.373005,0.562968,0.38538,1.69598,0.025516,4.70084}: part745{8.80068},
+    LG+G4{0.537072}: part746{6.30031},
+    LG+F+R4{0.165384,0.105788,0.580253,0.682881,0.238816,1.77884,0.0155474,10.3841}: part747{13.4465},
+    LG+R4{0.169166,0.0832739,0.42432,0.418272,0.357976,1.56494,0.0485384,5.11388}: part748{13.9975},
+    LG+F+G4{0.768655}: part749{6.66331},
+    LG+R3{0.317115,0.156164,0.475138,0.866112,0.207747,2.59428}: part750{6.14028},
+    LG+G4{1.97056}: part751{9.32342},
+    VT+G4{1.05288}: part752{6.91758},
+    LG+G4{1.21159}: part753{6.74131},
+    LG+G4{1.16816}: part754{12.5093},
+    LG+F+G4{0.94559}: part755{9.43439},
+    LG+G4{1.43471}: part756{16.1087},
+    JTT+G4{1.27623}: part757{20.5187},
+    LG+G4{1.0555}: part758{10.0749},
+    VT+F+I{0.0825625}+G4{1.46229}: part759{10.6086},
+    LG+G4{0.85167}: part760{6.95851},
+    WAG+I{0.105309}+G4{1.37428}: part761{6.68984},
+    LG+G4{1.8445}: part762{7.09047},
+    LG+G4{1.05205}: part763{4.57772},
+    WAG+I{0.205164}+G4{1.25624}: part764{3.5611},
+    LG+F+G4{1.0553}: part765{8.59099},
+    LG+G4{0.939311}: part766{10.9226},
+    LG+R3{0.458671,0.246056,0.436882,1.15929,0.104447,3.64461}: part767{8.72202},
+    LG+I{0.0551256}+G4{2.37875}: part768{9.17053},
+    LG+I{0.0723089}+G4{1.57734}: part769{10.8302},
+    Blosum62+I{0.238008}+G4{0.877915}: part770{4.82866},
+    WAG+I{0.071623}+G4{1.29675}: part771{12.7951},
+    WAG+G4{1.18379}: part772{6.71545},
+    LG+I{0.0849083}+G4{0.918385}: part773{11.263},
+    LG+F+G4{1.43258}: part774{9.38345},
+    Blosum62+G4{0.294235}: part775{1.64824},
+    WAG+I{0.225669}+G4{1.02096}: part776{4.41074},
+    LG+G4{0.455834}: part777{2.63815},
+    LG+R3{0.433254,0.151743,0.46028,1.10386,0.106467,4.00287}: part778{4.249},
+    LG+G4{0.752991}: part779{8.03494},
+    LG+F+R4{0.175234,0.0948031,0.428162,0.480483,0.32361,1.41412,0.0729945,4.38444}: part780{9.7637},
+    LG+G4{0.859579}: part781{16.3692},
+    VT+G4{1.05806}: part782{13.8299},
+    WAG+I{0.0852574}+G4{1.44319}: part783{10.1436},
+    WAG+R3{0.418313,0.153408,0.400571,0.771676,0.181116,3.4603}: part784{10.5142},
+    LG+I{0.0881017}+G4{1.81444}: part785{10.8836},
+    WAG+G4{0.809938}: part786{3.44989},
+    WAG+G4{0.651012}: part787{4.003},
+    LG+R3{0.625703,0.275781,0.328075,1.63217,0.0462223,6.31661}: part788{2.56297},
+    LG+G4{1.22216}: part789{10.9463},
+    LG+G4{0.934278}: part790{8.65449},
+    WAG+R4{0.246846,0.173951,0.499328,0.598834,0.209667,1.38229,0.0441581,8.33878}: part791{12.6913},
+    LG+G4{0.731215}: part792{6.09647},
+    WAG+I{0.0983986}+G4{1.18628}: part793{14.1549},
+    LG+G4{0.651633}: part794{3.13319},
+    LG+G4{1.01739}: part795{8.04363},
+    LG+I{0.0769634}+G4{1.04309}: part796{11.338},
+    LG+G4{1.11004}: part797{1.3855},
+    LG+G4{0.945034}: part798{8.24501},
+    WAG+R4{0.224331,0.13331,0.383267,0.532572,0.350949,1.56915,0.0414533,5.19348}: part799{11.6276},
+    PMB+G4{2.08024}: part800{10.1919},
+    LG+G4{0.883956}: part801{9.67861},
+    LG+I{0.0465642}+G4{1.59164}: part802{9.67613},
+    WAG+R5{0.0809338,0.0910592,0.270312,0.362173,0.419874,0.89903,0.21522,1.81046,0.0136607,9.34111}: part803{22.5945},
+    LG+I{0.0676531}+G4{1.24329}: part804{11.2117},
+    WAG+G4{1.402}: part805{6.86175},
+    JTT+F+I{0.0604061}+G4{1.26634}: part806{14.391},
+    LG+F+G4{0.881593}: part807{12.313},
+    LG+G4{1.21026}: part808{11.3344},
+    LG+F+R4{0.189575,0.0805402,0.327178,0.519744,0.362646,1.24301,0.120601,3.01747}: part809{9.33848},
+    LG+G4{0.967078}: part810{2.49488},
+    LG+G4{1.44891}: part811{13.7867},
+    LG+I{0.0596225}+G4{1.39873}: part812{11.4728},
+    VT+G4{1.52645}: part813{5.74116},
+    LG+G4{0.637296}: part814{5.05759},
+    LG+I{0.120583}+G4{1.21087}: part815{9.12391},
+    LG+G4{0.97955}: part816{5.92645},
+    LG+G4{1.2119}: part817{10.4161},
+    JTT+G4{0.676104}: part818{12.2112},
+    WAG+G4{1.0936}: part819{3.79363},
+    LG+G4{1.10865}: part820{7.85405},
+    LG+G4{1.19148}: part821{6.30016},
+    WAG+I{0.0653414}+G4{1.66944}: part822{12.5424},
+    LG+F+G4{1.09684}: part823{17.0041},
+    WAG+F+I{0.0745961}+G4{1.34446}: part824{9.97983},
+    LG+G4{1.47896}: part825{7.23103},
+    WAG+R4{0.422566,0.0383883,0.451729,0.279219,0.0327674,1.34837,0.0929377,8.7528}: part826{21.2137},
+    LG+G4{0.64215}: part827{8.35089},
+    LG+F+G4{0.693546}: part828{5.57101},
+    LG+R4{0.395899,0.135813,0.306047,0.69131,0.222892,1.78624,0.0751629,4.47722}: part829{8.1629},
+    LG+G4{1.21957}: part830{9.1188},
+    WAG+G4{0.700555}: part831{5.94763},
+    WAG+G4{0.719708}: part832{8.39359},
+    LG+G4{0.532478}: part833{4.28409},
+    LG+G4{0.638053}: part834{6.02371},
+    LG+I{0.115055}+G4{1.36056}: part835{10.7458},
+    LG+G4{2.21019}: part836{7.90788},
+    WAG+I{0.310439}+G4{1.11862}: part837{3.36158},
+    LG+I{0.227052}+G4{1.79206}: part838{5.91829},
+    WAG+R4{0.207564,0.155704,0.483081,0.675527,0.270799,1.49219,0.0385556,6.15379}: part839{13.7144},
+    LG+G4{0.780544}: part840{8.44769},
+    LG+G4{1.50329}: part841{6.63341},
+    WAG+R3{0.199035,0.205117,0.691844,0.887662,0.109122,3.16208}: part842{11.0483},
+    LG+G4{0.588433}: part843{6.96477},
+    VT+R3{0.267848,0.148366,0.634593,1.00248,0.0975584,3.32204}: part844{8.68547},
+    WAG+I{0.129262}+G4{1.89609}: part845{8.19212},
+    LG+G4{0.678361}: part846{11.2459},
+    LG+I{0.195035}+G4{0.824431}: part847{15.9229},
+    LG+I{0.0929206}+G4{1.45393}: part848{9.06209},
+    LG+G4{0.898002}: part849{12.0463},
+    LG+F+G4{0.989743}: part850{10.1619},
+    LG+G4{1.06611}: part851{9.83651},
+    LG+G4{0.73157}: part852{6.5646},
+    LG+R4{0.322015,0.0230174,0.386008,0.390166,0.226904,1.874,0.065073,6.40454}: part853{5.06558},
+    LG+I{0.175619}+G4{1.46024}: part854{4.22325},
+    LG+I{0.0620259}+G4{1.14408}: part855{15.8823},
+    LG+F+I{0.0246819}+G4{1.86167}: part856{12.6916},
+    WAG+G4{1.64137}: part857{15.9881},
+    WAG+R4{0.0787797,0.0309937,0.507615,0.339983,0.288314,1.08736,0.125292,4.08228}: part858{14.5637},
+    LG+G4{1.7032}: part859{7.4315},
+    LG+G4{0.649002}: part860{7.39643},
+    LG+R3{0.627583,0.438603,0.288827,1.50603,0.0835897,3.46641}: part861{4.93713},
+    LG+G4{1.01116}: part862{5.72793},
+    WAG+I{0.180775}+G4{1.53207}: part863{4.21931},
+    LG+G4{0.68685}: part864{6.5853},
+    LG+I{0.297065}+G4{0.684}: part865{2.4613},
+    LG+R4{0.395428,0.0988267,0.387239,0.661222,0.183814,1.94546,0.0335185,10.3604}: part866{7.99066},
+    LG+R3{0.350311,0.259511,0.585087,0.979974,0.0646025,5.19671}: part867{12.0281},
+    VT+R4{0.46717,0.144854,0.360842,0.725679,0.130206,2.39748,0.0417819,8.57566}: part868{8.19698},
+    LG+I{0.0516856}+G4{3.50124}: part869{8.35363},
+    LG+I{0.0887587}+G4{1.24975}: part870{8.89968},
+    LG+R4{0.438862,0.0617584,0.342134,0.688144,0.189433,2.17665,0.0295713,10.9948}: part871{7.76533},
+    LG+G4{1.92601}: part872{7.92807},
+    WAG+I{0.096142}+G4{1.04451}: part873{11.6827},
+    WAG+I{0.0650731}+G4{1.0048}: part874{18.4606},
+    LG+G4{1.05908}: part875{8.50491},
+    LG+G4{1.3011}: part876{10.0694},
+    WAG+G4{0.59949}: part877{2.58256},
+    WAG+I{0.049348}+G4{1.2828}: part878{10.5321},
+    DCMut+G4{0.403116}: part879{1.95297},
+    LG+F+R4{0.152989,0.0911222,0.416899,0.605005,0.34463,1.40096,0.0854818,2.93655}: part880{13.7977},
+    WAG+I{0.12618}+G4{1.33226}: part881{9.14707},
+    LG+F+R4{0.371397,0.131753,0.359529,0.667335,0.211265,2.03259,0.0578082,4.87343}: part882{9.52472},
+    LG+G4{1.20946}: part883{8.84081},
+    WAG+G4{1.39895}: part884{8.49308},
+    LG+R3{0.572164,0.239643,0.398055,1.71261,0.0297808,6.08356}: part885{3.75231},
+    LG+I{0.1622}+G4{0.749132}: part886{8.80311},
+    LG+G4{0.617518}: part887{4.57712},
+    VT+G4{1.0484}: part888{11.2063},
+    VT+G4{0.876648}: part889{6.0256},
+    Blosum62+R3{0.716351,0.344896,0.25413,2.11277,0.02952,7.31765}: part890{4.08524},
+    LG+G4{0.881776}: part891{10.2676},
+    LG+G4{1.01204}: part892{4.85385},
+    VT+G4{1.79717}: part893{6.83308},
+    LG+R4{0.558651,0.0940538,0.303366,1.02628,0.121113,3.4606,0.0168703,12.8627}: part894{4.80951},
+    JTTDCMut+I{0.212785}+G4{0.746327}: part895{6.40703},
+    LG+G4{0.735097}: part896{6.92172},
+    LG+F+I{0.0566845}+G4{1.03213}: part897{13.0223},
+    LG+F+R4{0.207429,0.184528,0.5134,0.661904,0.266762,1.99408,0.0124087,7.24952}: part898{10.5077},
+    LG+G4{0.58038}: part899{13.7615},
+    LG+I{0.162054}+G4{0.791485}: part900{15.7336},
+    VT+F+R4{0.104757,0.093439,0.297589,0.516876,0.383245,1.11438,0.21441,1.90903}: part901{16.504},
+    LG+G4{0.693783}: part902{15.6307},
+    LG+R4{0.404577,0.141122,0.390565,0.954419,0.186049,2.44642,0.0188093,6.1134}: part903{4.57781},
+    LG+R3{0.527174,0.228999,0.450795,1.52799,0.0220315,8.64527}: part904{6.08342},
+    LG+R4{0.305748,0.14586,0.442675,0.78164,0.229435,1.87962,0.022142,8.04541}: part905{7.83804},
+    LG+G4{0.695097}: part906{13.0592},
+    WAG+G4{1.31671}: part907{7.90002},
+    LG+R5{0.375804,0.0905811,0.332166,0.503346,0.245566,1.46119,0.0268387,3.77383,0.0196259,17.2559}: part908{8.79207},
+    LG+G4{0.809813}: part909{4.03116},
+    LG+G4{1.51451}: part910{11.7669},
+    LG+R4{0.518929,0.111517,0.38167,0.713662,0.0774902,2.74537,0.0219108,20.8577}: part911{6.36178},
+    LG+R4{0.217507,0.121027,0.33174,0.506761,0.401173,1.46595,0.049581,4.38604}: part912{8.83035},
+    LG+G4{0.99077}: part913{9.39227},
+    LG+G4{1.47383}: part914{6.57432},
+    JTTDCMut+G4{0.198788}: part915{109.36},
+    LG+G4{1.18907}: part916{12.8131},
+    LG+G4{0.679278}: part917{4.91794},
+    LG+F+I{0.103538}+G4{0.802222}: part918{8.63274},
+    WAG+R5{0.404993,0.0645271,0.221982,0.399951,0.282213,0.863757,0.056776,2.35171,0.0340359,14.9196}: part919{12.4174},
+    WAG+I{0.12669}+G4{1.61899}: part920{6.88391},
+    LG+G4{0.636561}: part921{2.92111},
+    LG+G4{1.17236}: part922{13.3785},
+    WAG+G4{1.03044}: part923{9.3372},
+    WAG+G4{1.47161}: part924{6.23269},
+    LG+I{0.102408}+G4{1.48922}: part925{14.4268},
+    LG+F+G4{0.754822}: part926{8.20369},
+    JTT+R4{0.403731,0.106531,0.484609,0.84246,0.10023,2.34883,0.01143,27.4106}: part927{6.55975},
+    VT+G4{1.33653}: part928{12.2604},
+    LG+G4{0.730941}: part929{4.41057},
+    LG+G4{0.979175}: part930{6.0168},
+    LG+G4{0.866134}: part931{11.9093},
+    LG+G4{1.28987}: part932{8.6439},
+    PMB+R4{0.244417,0.117915,0.491742,0.664788,0.205425,1.63905,0.0584163,5.26522}: part933{14.0297},
+    WAG+R4{0.319277,0.0757011,0.544049,0.52591,0.114108,1.82921,0.0225664,21.3141}: part934{17.4274},
+    LG+I{0.0911402}+G4{1.71345}: part935{12.8679},
+    LG+G4{0.821121}: part936{6.16077},
+    LG+R3{0.604682,0.200803,0.36226,1.2658,0.0330577,12.7059}: part937{2.60293},
+    LG+G4{0.924274}: part938{5.65563},
+    LG+G4{0.833943}: part939{7.3437},
+    LG+F+R5{0.0919996,0.0497732,0.296715,0.388456,0.363475,0.941114,0.21183,1.83316,0.0359801,4.16257}: part940{10.1686},
+    WAG+R4{0.256967,0.104515,0.229621,0.480184,0.439451,1.32761,0.0739607,3.77856}: part941{11.1089},
+    VT+R2{0.501426,0.113868,0.498574,1.8912}: part942{6.50774},
+    LG+F+R5{0.161889,0.0630588,0.315856,0.308229,0.297148,0.908596,0.1631,1.87391,0.0620063,5.10935}: part943{20.5975},
+    WAG+G4{1.09489}: part944{6.45259},
+    WAG+R4{0.392957,0.16235,0.377554,0.636881,0.185495,1.42437,0.0439943,9.80886}: part945{10.5877},
+    LG+F+I{0.0244824}+G4{1.28243}: part946{17.6324},
+    LG+G4{0.791272}: part947{5.87954},
+    LG+R3{0.55977,0.38425,0.35138,1.38716,0.0888501,3.34819}: part948{4.85033},
+    VT+G4{1.03038}: part949{6.88489},
+    LG+G4{1.58363}: part950{7.15845},
+    LG+G4{0.801332}: part951{13.008},
+    LG+G4{0.749064}: part952{11.3579},
+    LG+F+I{0.0882224}+G4{1.67378}: part953{10.9547},
+    LG+F+I{0.0871914}+G4{1.70501}: part954{8.27488},
+    VT+R4{0.254465,0.0854367,0.402005,0.426588,0.314063,1.45403,0.0294679,11.8812}: part955{15.8834},
+    LG+R4{0.151708,0.0666953,0.546305,0.641219,0.22313,1.56758,0.0788578,3.67506}: part956{10.4952},
+    LG+G4{0.955977}: part957{6.98784},
+    LG+G4{1.15224}: part958{4.81584},
+    LG+G4{0.886601}: part959{10.6805},
+    LG+G4{1.26824}: part960{3.17015},
+    WAG+G4{0.756079}: part961{14.0966},
+    Blosum62+G4{1.24548}: part962{2.70707},
+    VT+I{0.0434475}+G4{0.950755}: part963{21.4223},
+    Dayhoff+G4{0.964733}: part964{3.80876},
+    VT+G4{1.03406}: part965{8.56592},
+    WAG+I{0.0607504}+G4{2.25157}: part966{11.1301},
+    LG+R4{0.401671,0.163526,0.381373,0.722319,0.190951,2.24181,0.0260045,8.87411}: part967{4.91315},
+    WAG+G4{1.15363}: part968{5.52125},
+    WAG+I{0.0731186}+G4{2.50153}: part969{8.17754},
+    WAG+I{0.0278173}+G4{1.13758}: part970{26.0529},
+    VT+G4{1.27229}: part971{11.449},
+    WAG+G4{1.03694}: part972{6.75751},
+    WAG+G4{1.67981}: part973{13.4147},
+    VT+F+I{0.0695503}+G4{0.898024}: part974{17.2172},
+    LG+F+G4{1.12773}: part975{19.1987},
+    LG+R4{0.355857,0.0854871,0.333419,0.467376,0.206739,1.38662,0.103986,5.06876}: part976{12.2902},
+    WAG+G4{1.09816}: part977{5.92755},
+    LG+I{0.13254}+G4{1.20208}: part978{9.67756},
+    LG+I{0.0972999}+G4{1.18955}: part979{12.1028},
+    LG+G4{0.934405}: part980{8.93882},
+    LG+I{0.0517644}+G4{2.06042}: part981{7.42576},
+    WAG+R5{0.405881,0.0502165,0.313254,0.386485,0.184706,1.12167,0.0726356,3.15127,0.0235237,17.9597}: part982{14.6721},
+    LG+G4{0.479787}: part983{3.29109},
+    LG+G4{0.984167}: part984{13.7404},
+    LG+R5{0.246864,0.0903817,0.329782,0.488299,0.307419,1.18404,0.106807,2.45265,0.00912849,20.8905}: part985{9.83767},
+    LG+I{0.049226}+G4{2.69295}: part986{7.63549},
+    LG+G4{0.890005}: part987{20.4543},
+    VT+I{0.0825766}+G4{2.20233}: part988{8.97547},
+    LG+I{0.198405}+G4{1.01471}: part989{8.17635},
+    LG+G4{1.12994}: part990{10.2485},
+    LG+I{0.0170683}+G4{1.79097}: part991{14.8511},
+    WAG+G4{1.16941}: part992{8.20676},
+    VT+I{0.205064}+G4{2.10557}: part993{2.95525},
+    LG+I{0.0594372}+G4{1.19288}: part994{12.7993},
+    WAG+R4{0.337229,0.0294984,0.30585,0.463588,0.291805,1.72384,0.0651161,5.30188}: part995{5.04345},
+    Dayhoff+I{0.0805652}+G4{1.69257}: part996{8.66414},
+    LG+G4{0.643443}: part997{7.59491},
+    LG+F+G4{0.951295}: part998{9.19736},
+    LG+G4{1.04907}: part999{6.23265},
+    LG+G4{0.537827}: part1000{17.476},
+    WAG+I{0.0818497}+G4{1.91581}: part1001{10.9161},
+    LG+F+R4{0.142239,0.13471,0.390124,0.573325,0.41397,1.36637,0.0536663,3.56897}: part1002{12.0028},
+    LG+I{0.0791619}+G4{2.30031}: part1003{9.87956},
+    LG+G4{0.569499}: part1004{5.73838},
+    LG+F+G4{0.84769}: part1005{12.1217},
+    LG+R4{0.509223,0.411808,0.304306,0.990296,0.167309,2.27831,0.0191617,5.62384}: part1006{5.06825},
+    WAG+G4{1.18228}: part1007{6.00148},
+    LG+G4{0.718778}: part1008{13.6678},
+    LG+G4{2.02501}: part1009{8.79104},
+    WAG+G4{1.47022}: part1010{9.0511},
+    WAG+G4{0.80817}: part1011{4.53373},
+    LG+F+I{0.0192995}+G4{1.33084}: part1012{14.574},
+    WAG+I{0.108248}+G4{1.59603}: part1013{6.83781},
+    VT+G4{1.24874}: part1014{9.48711},
+    LG+R3{0.623319,0.117937,0.334459,1.5217,0.0422217,9.88923}: part1015{1.72671},
+    LG+I{0.218246}+G4{1.62902}: part1016{5.94085},
+    VT+G4{1.28687}: part1017{8.50103},
+    LG+G4{1.07887}: part1018{10.6222},
+    WAG+G4{0.563078}: part1019{6.71392},
+    LG+I{0.0657704}+G4{2.0407}: part1020{9.25905},
+    LG+G4{0.998665}: part1021{7.81003},
+    WAG+R4{0.3176,0.0874476,0.428829,0.492469,0.219186,1.42068,0.0343843,13.0771}: part1022{13.7456},
+    LG+I{0.153255}+G4{1.2321}: part1023{6.29633},
+    LG+R3{0.512622,0.243247,0.450622,1.18563,0.0367558,9.27842}: part1024{5.32353},
+    LG+G4{1.59297}: part1025{14.553},
+    LG+F+I{0.0653331}+G4{1.13922}: part1026{12.0692},
+    LG+G4{0.814465}: part1027{16.0494},
+    LG+G4{0.548708}: part1028{3.80344},
+    LG+G4{1.4666}: part1029{10.7397},
+    LG+G4{0.459494}: part1030{8.86247},
+    LG+G4{0.634417}: part1031{4.91386},
+    LG+R4{0.287951,0.114272,0.350772,0.573,0.34336,1.76794,0.0179171,8.87769}: part1032{9.28112},
+    VT+G4{0.630061}: part1033{6.37017},
+    VT+I{0.0981183}+G4{1.27227}: part1034{7.63467},
+    LG+G4{1.34393}: part1035{2.82488},
+    LG+F+R4{0.192566,0.127159,0.539416,0.708196,0.242926,1.89612,0.0250922,5.29587}: part1036{14.7528},
+    LG+I{0.177816}+G4{0.90449}: part1037{8.9412},
+    WAG+I{0.0252496}+G4{1.65631}: part1038{19.5109},
+    LG+G4{0.925137}: part1039{7.69532},
+    Blosum62+G4{0.810191}: part1040{4.58723},
+    LG+F+I{0.0123486}+G4{2.814}: part1041{16.0444},
+    LG+R3{0.731537,0.26175,0.212404,2.0474,0.056059,6.66521}: part1042{3.45818},
+    WAG+F+I{0.0337287}+G4{1.70289}: part1043{20.5296},
+    LG+F+I{0.0340398}+G4{1.637}: part1044{14.056},
+    LG+G4{0.658288}: part1045{5.65408},
+    WAG+G4{1.33085}: part1046{5.90422},
+    LG+R3{0.403115,0.148009,0.513279,0.944102,0.0836063,5.45112}: part1047{10.5697},
+    LG+G4{1.93283}: part1048{8.59577},
+    LG+F+I{0.0255424}+G4{1.55182}: part1049{19.2396},
+    WAG+R5{0.185765,0.0316245,0.298373,0.272179,0.318125,0.861586,0.171838,1.8835,0.025899,12.169}: part1050{15.2992},
+    LG+F+G4{1.52037}: part1051{10.5454},
+    WAG+G4{1.1816}: part1052{6.65351},
+    LG+G4{0.802277}: part1053{6.08635},
+    LG+G4{1.20219}: part1054{13.0781},
+    LG+G4{0.921196}: part1055{6.69526},
+    WAG+I{0.13472}+G4{1.18778}: part1056{6.13431},
+    WAG+G4{0.452648}: part1057{26.3805},
+    LG+F+G4{0.962946}: part1058{10.4223},
+    LG+I{0.0694951}+G4{1.37624}: part1059{10.0305},
+    Blosum62+G4{0.995425}: part1060{4.08443},
+    LG+G4{0.701167}: part1061{5.68564},
+    WAG+G4{0.998151}: part1062{6.08468},
+    LG+G4{0.522543}: part1063{6.98927},
+    LG+I{0.0370874}+G4{1.77424}: part1064{8.86488},
+    LG+G4{0.859971}: part1065{6.76454},
+    LG+R3{0.22243,0.0939064,0.677195,0.840272,0.100375,4.08553}: part1066{10.5156},
+    LG+G4{0.638735}: part1067{9.10633},
+    LG+G4{1.06553}: part1068{5.49478},
+    LG+G4{1.28719}: part1069{7.39095},
+    WAG+G4{0.940131}: part1070{6.87},
+    LG+G4{0.884028}: part1071{8.26054},
+    LG+F+G4{1.21388}: part1072{9.44272},
+    LG+R3{0.308522,0.137096,0.597711,0.707898,0.0937672,5.70119}: part1073{18.9778},
+    WAG+G4{0.983516}: part1074{6.22402},
+    VT+G4{1.45066}: part1075{5.3258},
+    LG+G4{1.38807}: part1076{6.93353},
+    LG+I{0.0766131}+G4{1.4621}: part1077{10.2773},
+    LG+G4{0.849585}: part1078{10.3778},
+    LG+G4{1.10614}: part1079{8.85679},
+    LG+I{0.0704016}+G4{2.24315}: part1080{11.3226},
+    LG+R4{0.219857,0.136928,0.443144,0.632351,0.266606,1.61583,0.070393,3.67766}: part1081{13.1465},
+    WAG+F+R5{0.162573,0.0476885,0.202344,0.271082,0.314263,0.800306,0.306107,1.71716,0.0147123,10.8925}: part1082{18.6267},
+    LG+G4{0.591003}: part1083{6.3889},
+    WAG+G4{0.66501}: part1084{6.26309},
+    LG+I{0.076791}+G4{1.30886}: part1085{12.9568},
+    LG+G4{0.757675}: part1086{8.90855},
+    LG+G4{1.04756}: part1087{10.4758},
+    LG+G4{0.681102}: part1088{8.54803},
+    PMB+G4{0.620111}: part1089{2.80487},
+    WAG+I{0.0644591}+G4{1.26594}: part1090{20.8797},
+    WAG+R4{0.392623,0.0476406,0.346495,0.624076,0.232234,2.10288,0.0286482,9.65848}: part1091{8.10694},
+    LG+I{0.21343}+G4{0.8832}: part1092{7.74068},
+    LG+G4{0.800034}: part1093{9.43453},
+    LG+G4{1.72975}: part1094{7.32975},
+    VT+F+G4{1.41555}: part1095{11.3073},
+    LG+G4{1.1218}: part1096{8.12701},
+    WAG+G4{1.07009}: part1097{7.42556},
+    LG+I{0.427054}+G4{1.22992}: part1098{2.95151},
+    LG+G4{0.610395}: part1099{5.73328},
+    LG+G4{1.09824}: part1100{7.87481},
+    LG+I{0.0512585}+G4{2.65522}: part1101{10.0883},
+    LG+G4{0.866472}: part1102{9.51388},
+    LG+I{0.0779236}+G4{1.56073}: part1103{10.5442},
+    LG+G4{1.23621}: part1104{7.76121},
+    LG+G4{0.867565}: part1105{9.37946},
+    LG+R3{0.518931,0.165903,0.332691,1.20857,0.148377,3.44949}: part1106{3.85787},
+    JTT+I{0.30729}+G4{0.528702}: part1107{5.3934},
+    WAG+I{0.0253877}+G4{1.16899}: part1108{19.9031},
+    LG+G4{1.55625}: part1109{7.69817},
+    LG+I{0.039821}+G4{1.61864}: part1110{13.4689},
+    LG+I{0.079448}+G4{1.21898}: part1111{8.43573},
+    LG+G4{0.582969}: part1112{3.88207},
+    WAG+I{0.0869746}+G4{1.46741}: part1113{7.83083},
+    LG+F+I{0.0456866}+G4{1.2456}: part1114{16.4985},
+    LG+F+G4{1.09193}: part1115{8.18864},
+    LG+I{0.0578809}+G4{1.76929}: part1116{12.7973},
+    LG+G4{0.733184}: part1117{6.8078},
+    LG+G4{0.746968}: part1118{7.89747},
+    LG+G4{0.617919}: part1119{5.62925},
+    LG+I{0.121181}+G4{2.16286}: part1120{9.66705},
+    LG+G4{0.519338}: part1121{4.5634},
+    WAG+R4{0.409016,0.203857,0.358351,0.677694,0.161458,2.18977,0.071175,4.49891}: part1122{6.60813},
+    LG+F+R5{0.132581,0.0757754,0.247256,0.296227,0.382759,0.73397,0.17213,1.82478,0.0652736,4.92813}: part1123{13.1515},
+    WAG+I{0.0771985}+G4{1.69404}: part1124{7.85657},
+    VT+G4{0.62569}: part1125{7.1044},
+    LG+G4{1.05235}: part1126{10.0861},
+    Dayhoff+G4{0.663488}: part1127{3.33941},
+    LG+R4{0.230303,0.0993176,0.405796,0.598325,0.333413,1.78002,0.0304881,4.61971}: part1128{10.9824},
+    LG+G4{1.21933}: part1129{9.27477},
+    WAG+G4{0.63041}: part1130{20.1594},
+    LG+I{0.0435394}+G4{1.12306}: part1131{15.2541},
+    LG+I{0.096174}+G4{1.18561}: part1132{9.72414},
+    WAG+G4{1.04697}: part1133{11.1681},
+    LG+G4{1.30441}: part1134{6.95104},
+    LG+G4{1.06397}: part1135{10.9782},
+    LG+I{0.221561}+G4{0.825605}: part1136{5.28177},
+    LG+F+G4{1.19307}: part1137{9.57989},
+    LG+I{0.1533}+G4{0.944836}: part1138{11.5204},
+    LG+F+R4{0.204641,0.24893,0.450313,0.743118,0.303874,1.51036,0.0411728,3.77589}: part1139{9.16258},
+    LG+G4{0.708446}: part1140{8.85242},
+    LG+I{0.186554}+G4{0.883252}: part1141{5.22715},
+    LG+G4{0.804201}: part1142{10.8235},
+    LG+G4{0.637571}: part1143{3.72469},
+    LG+G4{0.576052}: part1144{9.10322},
+    LG+F+I{0.0647964}+G4{1.38998}: part1145{13.2116},
+    WAG+G4{1.102}: part1146{9.44},
+    LG+G4{0.766172}: part1147{1.7832},
+    LG+I{0.040615}+G4{1.45444}: part1148{18.3016},
+    LG+G4{0.543295}: part1149{4.71112},
+    LG+F+G4{1.14572}: part1150{12.4749},
+    LG+F+I{0.0898509}+G4{1.21178}: part1151{15.1526},
+    LG+G4{0.823529}: part1152{5.2156},
+    LG+R4{0.194907,0.0633735,0.413672,0.443002,0.3234,1.391,0.0680206,5.21227}: part1153{11.513},
+    LG+R3{0.539948,0.289255,0.3806,1.37634,0.0794519,4.02738}: part1154{4.92056},
+    LG+F+G4{1.37092}: part1155{12.0141},
+    WAG+G4{1.43172}: part1156{9.93335},
+    LG+F+G4{2.23726}: part1157{9.45527},
+    LG+F+R4{0.212207,0.149345,0.361801,0.629689,0.376404,1.48153,0.0495885,3.68697}: part1158{12.0959},
+    LG+R4{0.393706,0.198851,0.423236,0.814904,0.150308,2.51298,0.0327504,6.07914}: part1159{4.61784},
+    LG+I{0.0455085}+G4{1.48811}: part1160{15.7525},
+    LG+G4{1.09626}: part1161{13.5667},
+    LG+G4{0.704948}: part1162{10.0029},
+    WAG+F+R5{0.168963,0.0428878,0.248556,0.234871,0.322216,0.57323,0.202062,1.62764,0.058203,7.22965}: part1163{25.2122},
+    WAG+G4{0.803857}: part1164{7.29388},
+    VT+G4{1.27572}: part1165{7.00351},
+    LG+G4{0.891181}: part1166{11.9586},
+    LG+F+G4{0.653927}: part1167{9.7155},
+    LG+I{0.0644289}+G4{2.06814}: part1168{11.9335},
+    WAG+I{0.165856}+G4{1.4227}: part1169{4.90871},
+    JTT+I{0.075952}+G4{1.63242}: part1170{12.4904},
+    LG+G4{0.79777}: part1171{7.96479},
+    LG+I{0.0423315}+G4{1.20564}: part1172{21.311},
+    LG+I{0.105986}+G4{1.36999}: part1173{7.74183},
+    LG+G4{1.63035}: part1174{5.27247},
+    LG+R3{0.382096,0.0847873,0.520712,0.832315,0.0971923,5.49639}: part1175{3.94734},
+    LG+I{0.195527}+G4{3.78317}: part1176{6.39398},
+    LG+G4{0.70505}: part1177{12.6987},
+    PMB+R4{0.376449,0.102235,0.229012,0.626072,0.373206,1.83654,0.0213322,6.222}: part1178{7.36017},
+    WAG+G4{0.586032}: part1179{4.7324},
+    WAG+G4{1.79467}: part1180{10.0264},
+    VT+F+R4{0.192779,0.0831321,0.399982,0.536263,0.29731,1.29644,0.109928,3.49349}: part1181{19.8707},
+    LG+G4{1.28429}: part1182{6.51596},
+    LG+G4{0.552518}: part1183{9.40685},
+    LG+F+G4{1.35727}: part1184{12.7889},
+    LG+I{0.180856}+G4{1.13822}: part1185{9.1493},
+    LG+G4{1.3713}: part1186{7.55034},
+    WAG+G4{0.954644}: part1187{6.06022},
+    LG+G4{0.701514}: part1188{1.05443},
+    LG+R4{0.174847,0.0861723,0.423141,0.448501,0.30028,1.37566,0.101733,3.75563}: part1189{6.4273},
+    WAG+R4{0.441825,0.153329,0.373625,0.948053,0.153061,2.42524,0.0314888,6.56837}: part1190{5.61072},
+    LG+G4{2.5097}: part1191{8.82505},
+    LG+R4{0.188409,0.145263,0.468481,0.705449,0.321196,1.67381,0.021914,4.76963}: part1192{11.5663},
+    LG+G4{0.918988}: part1193{6.45796},
+    WAG+R2{0.844179,0.403028,0.155821,4.23416}: part1194{1.26421},
+    WAG+G4{1.099}: part1195{10.5368},
+    VT+I{0.0416154}+G4{1.72452}: part1196{8.96047},
+    LG+G4{1.49692}: part1197{10.7551},
+    LG+I{0.0976591}+G4{1.41524}: part1198{12.2235},
+    LG+G4{0.814352}: part1199{16.963},
+    LG+G4{0.556755}: part1200{2.41115},
+    LG+F+G4{1.28881}: part1201{7.81813},
+    LG+I{0.0498516}+G4{0.88391}: part1202{20.3269},
+    LG+R3{0.422005,0.277022,0.517011,1.24329,0.0609842,3.94037}: part1203{4.65169},
+    LG+G4{0.767569}: part1204{3.99707},
+    LG+F+G4{1.5442}: part1205{10.684},
+    WAG+G4{0.945919}: part1206{9.60459},
+    LG+I{0.10213}+G4{1.31071}: part1207{7.96066},
+    LG+I{0.0952582}+G4{1.217}: part1208{13.2439},
+    LG+F+I{0.0614804}+G4{1.02323}: part1209{9.90955},
+    LG+G4{0.74579}: part1210{9.24651},
+    LG+G4{1.05242}: part1211{4.15096},
+    LG+R3{0.403295,0.126381,0.471587,1.00753,0.125118,3.78756}: part1212{5.55234},
+    LG+G4{0.758256}: part1213{7.18906},
+    LG+F+I{0.023331}+G4{1.53941}: part1214{17.8755},
+    LG+I{0.107444}+G4{1.03766}: part1215{6.66799},
+    LG+F+G4{1.92543}: part1216{11.8743},
+    LG+G4{0.684004}: part1217{7.00536},
+    LG+G4{1.42744}: part1218{10.1933},
+    LG+R5{0.175691,0.0286671,0.364605,0.3689,0.298622,1.03456,0.149788,2.77673,0.0112934,12.0067}: part1219{13.4775},
+    LG+R5{0.186798,0.116827,0.403046,0.503051,0.292697,1.40561,0.112492,2.61007,0.00496651,14.1735}: part1220{8.94987},
+    LG+R3{0.599746,0.17507,0.363032,1.66491,0.0372222,7.80683}: part1221{3.63904},
+    LG+F+G4{1.25279}: part1222{6.49992},
+    JTTDCMut+I{0.199674}+G4{4.2944}: part1223{5.3735},
+    WAG+I{0.169311}+G4{1.59235}: part1224{6.26227},
+    LG+G4{1.02557}: part1225{9.98124},
+    LG+F+R3{0.601598,0.527906,0.33101,1.42615,0.0673912,3.12121}: part1226{9.368},
+    LG+I{0.138665}+G4{0.86326}: part1227{11.5058},
+    LG+G4{1.59098}: part1228{9.84555},
+    DCMut+F+G4{1.73655}: part1229{9.14407},
+    LG+G4{1.67952}: part1230{9.94971},
+    VT+R4{0.371293,0.0646918,0.451085,0.57969,0.122891,2.64504,0.0547312,7.11547}: part1231{3.30846},
+    LG+F+R4{0.208497,0.136048,0.425676,0.623485,0.330091,1.46409,0.0357356,6.23883}: part1232{11.0836},
+    LG+I{0.0344924}+G4{2.54592}: part1233{12.7254},
+    LG+R3{0.565905,0.0613021,0.380877,1.30869,0.0532183,8.77252}: part1234{3.07201},
+    LG+I{0.11638}+G4{1.04085}: part1235{7.33927},
+    LG+G4{0.940492}: part1236{2.32452},
+    LG+I{0.0673077}+G4{1.29859}: part1237{16.4873},
+    LG+F+R4{0.281817,0.258965,0.301406,0.721444,0.359742,1.42123,0.0570347,3.47677}: part1238{12.379},
+    LG+F+R4{0.104773,0.164264,0.33274,0.537088,0.436145,1.10752,0.126342,2.54104}: part1239{13.4882},
+    LG+R3{0.481126,0.147159,0.453677,1.24953,0.0651974,5.55718}: part1240{2.86386},
+    LG+R4{0.303201,0.0933268,0.409413,0.661924,0.258547,1.97607,0.0288392,6.58122}: part1241{6.22885},
+    LG+F+I{0.038959}+G4{2.61049}: part1242{8.01127},
+    LG+G4{1.56969}: part1243{6.64983},
+    WAG+G4{0.668112}: part1244{6.07458},
+    LG+I{0.171616}+G4{0.916265}: part1245{7.34269},
+    LG+F+G4{1.20917}: part1246{5.81915},
+    LG+F+G4{1.57305}: part1247{9.11036},
+    LG+G4{0.788231}: part1248{3.35006},
+    LG+G4{1.03756}: part1249{6.07694},
+    VT+I{0.445741}+G4{0.838166}: part1250{5.92878},
+    VT+G4{2.5088}: part1251{6.96088},
+    VT+R4{0.513851,0.124615,0.280849,0.523963,0.159844,1.44589,0.0454562,12.2689}: part1252{13.4366},
+    LG+G4{0.531538}: part1253{6.04862},
+    PMB+G4{1.04324}: part1254{7.92559},
+    LG+R5{0.218525,0.055352,0.268088,0.382615,0.299536,0.99442,0.195708,2.01651,0.0181434,10.6274}: part1255{10.2371},
+    VT+I{0.0588205}+G4{1.29017}: part1256{13.5238},
+    LG+I{0.0278567}+G4{2.20872}: part1257{15.5493},
+    LG+F+G4{1.02294}: part1258{10.5251},
+    LG+R3{0.587271,0.136313,0.320421,1.39659,0.0923075,5.11821}: part1259{2.87084},
+    LG+F+G4{0.97879}: part1260{12.3925},
+    LG+G4{0.915347}: part1261{7.61344},
+    LG+R4{0.199431,0.0717756,0.479652,0.635719,0.285747,1.78427,0.0351706,4.85956}: part1262{8.99501},
+    LG+I{0.0480796}+G4{1.37534}: part1263{20.0347},
+    WAG+G4{0.710422}: part1264{7.02729},
+    LG+F+R4{0.168329,0.144966,0.411916,0.585693,0.341819,1.36364,0.0779362,3.44159}: part1265{16.4118},
+    LG+G4{0.864703}: part1266{17.3569},
+    WAG+R3{0.538387,0.146451,0.375083,1.42927,0.0865291,4.45003}: part1267{3.46259},
+    LG+G4{0.765785}: part1268{9.90532},
+    LG+I{0.0930397}+G4{0.8428}: part1269{23.1473},
+    LG+I{0.118265}+G4{1.50437}: part1270{7.38589},
+    LG+G4{0.642528}: part1271{5.07806},
+    WAG+G4{0.931256}: part1272{14.006},
+    LG+F+G4{1.97218}: part1273{12.2959},
+    LG+I{0.0957029}+G4{0.954192}: part1274{16.7335},
+    LG+G4{1.02446}: part1275{12.8828},
+    LG+I{0.100577}+G4{1.55603}: part1276{10.7071},
+    WAG+F+I{0.0359863}+G4{0.795378}: part1277{26.1744},
+    LG+R4{0.323688,0.0424521,0.313633,0.355541,0.316907,1.39399,0.0457721,9.45954}: part1278{10.9955},
+    LG+G4{1.0402}: part1279{9.4076},
+    LG+G4{0.630386}: part1280{6.2368},
+    WAG+G4{1.01547}: part1281{5.4339},
+    LG+G4{1.23919}: part1282{8.65522},
+    LG+R4{0.466938,0.131259,0.432136,0.719794,0.0712398,2.95715,0.0296858,14.0469}: part1283{5.43148},
+    JTT+F+I{0.0437741}+G4{1.78804}: part1284{14.2728},
+    LG+F+I{0.0252283}+G4{1.75959}: part1285{12.1645},
+    LG+F+I{0.108692}+G4{0.886298}: part1286{12.687},
+    LG+G4{1.10123}: part1287{1.35206},
+    PMB+G4{0.787679}: part1288{7.60258},
+    LG+R4{0.257927,0.054931,0.329714,0.583461,0.389903,1.50288,0.0224558,9.23937}: part1289{6.4162},
+    VT+G4{0.720919}: part1290{7.46436},
+    LG+I{0.0599463}+G4{1.46065}: part1291{10.4838},
+    WAG+G4{1.09113}: part1292{7.97866},
+    VT+F+I{0.0430045}+G4{1.98631}: part1293{13.1417},
+    VT+R2{0.713893,0.571052,0.286107,2.07031}: part1294{6.01376},
+    JTT+R4{0.274363,0.193843,0.437126,0.62931,0.257916,1.94812,0.0305949,5.53285}: part1295{6.97049},
+    LG+R4{0.317303,0.110573,0.407936,0.673342,0.250511,1.95997,0.0242494,8.21625}: part1296{8.32199},
+    WAG+G4{0.669456}: part1297{11.2574};
+end;

@@ -1,0 +1,2 @@
+run_accession	sample_accession	location	isolate	sample_alias
+SRR13126859	SAMN16883386		J. A. Elix 46168 (F)	Xanthoparmelia verrucella 14446

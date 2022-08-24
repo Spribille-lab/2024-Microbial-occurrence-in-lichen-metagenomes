@@ -1,0 +1,9 @@
+run_accession	sample_accession	location	isolate	sample_alias
+SRR7232211	SAMN09279528	47.3 N 114.8 W		42_Letharia vulpina
+SRR7232212	SAMN09279527	47.2 N 113.9 W		29_Letharia cf. rugosa
+SRR7232213	SAMN09279530	46.83 N 114.1 W		80_Letharia cf. columbiana
+SRR7232214	SAMN09279529	47.4 N 113.64 W		67_Letharia lupina
+SRR7232215	SAMN09279528	47.3 N 114.8 W		42_Letharia vulpina
+SRR7232216	SAMN09279527	47.2 N 113.9 W		29_Letharia cf. rugosa
+SRR7232217	SAMN09279530	46.83 N 114.1 W		80_Letharia cf. columbiana
+SRR7232218	SAMN09279529	47.4 N 113.64 W		67_Letharia lupina

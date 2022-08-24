@@ -1,0 +1,68 @@
+import glob
+import os
+import pandas as pd
+
+mag_df = pd.read_table('mag_table.txt').set_index("mag", drop=False)
+MAGS = list(mag_df['mag'])
+
+
+#SAMPLES = [line.rstrip() for line in open('mag_list.txt')]
+
+rule all:
+        input:
+                #expand("{sample}/{sample}.kegg.mapper.txt", sample = MAGS),
+                expand("{sample}_dbcan/overview.txt", sample = MAGS),
+                expand("pseudofinder/{sample}_pseudofinder_intact.faa", sample = MAGS),
+                expand("antismash/{sample}/{sample}.gbk", sample = MAGS)
+        output: touch("touch")
+
+
+
+rule get_files:        		
+        output: "{sample}.fa",
+        shell:
+                "cp ../05_MAGs/MAGs/bacs/{wildcards.sample}.fa.gz .;"
+                "gzip -d {wildcards.sample}.fa.gz"
+
+
+
+
+rule prokka:
+        input: "{sample}.fa"   
+        output: "{sample}/{sample}.faa",
+                "{sample}/{sample}.gbk"        
+        params:
+        # dynamically grab the locus tag from the "locustag" column in the samples data frame
+                locustag = lambda wildcards: mag_df.loc[wildcards.sample, "locustag"]
+        shell:
+                "prokka --compliant --centre UoN --outdir {wildcards.sample} --locustag {params.locustag} --prefix {wildcards.sample} {wildcards.sample}.fa  --force"
+
+rule kofam_scan:
+        input: "{sample}/{sample}.faa"   
+        output: 
+                o1="{sample}/{sample}.kegg.mapper.txt",
+                o2="{sample}/{sample}.ko.txt",       
+        shell:
+                "/data/tagirdzh/bin/kofam_scan/exec_annotation -o {output.o2} {input} -f  detail-tsv;"
+                "/data/tagirdzh/bin/kofam_scan/exec_annotation -o {output.o1}  {input} -f mapper;"
+
+rule dbcan:
+        input: "{sample}/{sample}.faa" 
+        output:	"{sample}_dbcan/overview.txt"
+        shell:
+                "run_dbcan {input} protein --out_dir {wildcards.sample}_dbcan --db_dir /data/tagirdzh/bin/run_dbcan/db/"
+
+
+rule pseudofinder:
+        input: "{sample}/{sample}.gbk" 
+        output:	"pseudofinder/{sample}_pseudofinder_intact.faa"
+        shell:
+                "python3 /data/tagirdzh/bin/pseudofinder/pseudofinder.py annotate --genome {input} --outprefix {wildcards.sample}_pseudofinder --database /data/databases/NCBI_nr/nr --threads 16 --diamond; "
+                "mv {wildcards.sample}_pseudofinder* pseudofinder"
+
+rule antismash:
+        input: "{sample}/{sample}.gbk"
+        output:	"antismash/{sample}/{sample}.gbk"      
+        shell:  
+                "antismash input --taxon bacteria --clusterhmmer  --cb-general --cb-subclusters   --cb-knownclusters --rre  --asf  --output-dir antismash/{wildcards.sample}"
+

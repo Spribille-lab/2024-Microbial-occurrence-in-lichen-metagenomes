@@ -1,0 +1,1422 @@
+#nexus
+begin sets;
+  charset part1 = algn/444892at4751_aligned_trimmed.fas: *;
+  charset part2 = algn/398882at4751_aligned_trimmed.fas: *;
+  charset part3 = algn/494427at4751_aligned_trimmed.fas: *;
+  charset part4 = algn/143414at4751_aligned_trimmed.fas: *;
+  charset part5 = algn/332006at4751_aligned_trimmed.fas: *;
+  charset part6 = algn/32164at4751_aligned_trimmed.fas: *;
+  charset part7 = algn/240036at4751_aligned_trimmed.fas: *;
+  charset part8 = algn/264038at4751_aligned_trimmed.fas: *;
+  charset part9 = algn/269389at4751_aligned_trimmed.fas: *;
+  charset part10 = algn/376442at4751_aligned_trimmed.fas: *;
+  charset part11 = algn/216683at4751_aligned_trimmed.fas: *;
+  charset part12 = algn/446124at4751_aligned_trimmed.fas: *;
+  charset part13 = algn/458980at4751_aligned_trimmed.fas: *;
+  charset part14 = algn/299054at4751_aligned_trimmed.fas: *;
+  charset part15 = algn/245480at4751_aligned_trimmed.fas: *;
+  charset part16 = algn/474125at4751_aligned_trimmed.fas: *;
+  charset part17 = algn/418644at4751_aligned_trimmed.fas: *;
+  charset part18 = algn/22982at4751_aligned_trimmed.fas: *;
+  charset part19 = algn/225712at4751_aligned_trimmed.fas: *;
+  charset part20 = algn/272711at4751_aligned_trimmed.fas: *;
+  charset part21 = algn/238922at4751_aligned_trimmed.fas: *;
+  charset part22 = algn/248360at4751_aligned_trimmed.fas: *;
+  charset part23 = algn/219236at4751_aligned_trimmed.fas: *;
+  charset part24 = algn/454746at4751_aligned_trimmed.fas: *;
+  charset part25 = algn/497024at4751_aligned_trimmed.fas: *;
+  charset part26 = algn/406403at4751_aligned_trimmed.fas: *;
+  charset part27 = algn/98733at4751_aligned_trimmed.fas: *;
+  charset part28 = algn/377787at4751_aligned_trimmed.fas: *;
+  charset part29 = algn/10168at4751_aligned_trimmed.fas: *;
+  charset part30 = algn/255412at4751_aligned_trimmed.fas: *;
+  charset part31 = algn/284377at4751_aligned_trimmed.fas: *;
+  charset part32 = algn/431607at4751_aligned_trimmed.fas: *;
+  charset part33 = algn/354739at4751_aligned_trimmed.fas: *;
+  charset part34 = algn/202248at4751_aligned_trimmed.fas: *;
+  charset part35 = algn/56395at4751_aligned_trimmed.fas: *;
+  charset part36 = algn/34830at4751_aligned_trimmed.fas: *;
+  charset part37 = algn/190475at4751_aligned_trimmed.fas: *;
+  charset part38 = algn/192452at4751_aligned_trimmed.fas: *;
+  charset part39 = algn/482337at4751_aligned_trimmed.fas: *;
+  charset part40 = algn/175136at4751_aligned_trimmed.fas: *;
+  charset part41 = algn/244066at4751_aligned_trimmed.fas: *;
+  charset part42 = algn/54252at4751_aligned_trimmed.fas: *;
+  charset part43 = algn/322267at4751_aligned_trimmed.fas: *;
+  charset part44 = algn/259700at4751_aligned_trimmed.fas: *;
+  charset part45 = algn/78665at4751_aligned_trimmed.fas: *;
+  charset part46 = algn/310891at4751_aligned_trimmed.fas: *;
+  charset part47 = algn/119833at4751_aligned_trimmed.fas: *;
+  charset part48 = algn/255378at4751_aligned_trimmed.fas: *;
+  charset part49 = algn/319121at4751_aligned_trimmed.fas: *;
+  charset part50 = algn/175599at4751_aligned_trimmed.fas: *;
+  charset part51 = algn/284127at4751_aligned_trimmed.fas: *;
+  charset part52 = algn/371674at4751_aligned_trimmed.fas: *;
+  charset part53 = algn/410991at4751_aligned_trimmed.fas: *;
+  charset part54 = algn/484080at4751_aligned_trimmed.fas: *;
+  charset part55 = algn/330533at4751_aligned_trimmed.fas: *;
+  charset part56 = algn/408419at4751_aligned_trimmed.fas: *;
+  charset part57 = algn/34706at4751_aligned_trimmed.fas: *;
+  charset part58 = algn/204508at4751_aligned_trimmed.fas: *;
+  charset part59 = algn/21651at4751_aligned_trimmed.fas: *;
+  charset part60 = algn/356743at4751_aligned_trimmed.fas: *;
+  charset part61 = algn/196094at4751_aligned_trimmed.fas: *;
+  charset part62 = algn/62846at4751_aligned_trimmed.fas: *;
+  charset part63 = algn/126037at4751_aligned_trimmed.fas: *;
+  charset part64 = algn/224693at4751_aligned_trimmed.fas: *;
+  charset part65 = algn/176748at4751_aligned_trimmed.fas: *;
+  charset part66 = algn/66151at4751_aligned_trimmed.fas: *;
+  charset part67 = algn/414474at4751_aligned_trimmed.fas: *;
+  charset part68 = algn/221926at4751_aligned_trimmed.fas: *;
+  charset part69 = algn/198234at4751_aligned_trimmed.fas: *;
+  charset part70 = algn/445210at4751_aligned_trimmed.fas: *;
+  charset part71 = algn/279020at4751_aligned_trimmed.fas: *;
+  charset part72 = algn/126519at4751_aligned_trimmed.fas: *;
+  charset part73 = algn/304341at4751_aligned_trimmed.fas: *;
+  charset part74 = algn/457544at4751_aligned_trimmed.fas: *;
+  charset part75 = algn/449717at4751_aligned_trimmed.fas: *;
+  charset part76 = algn/384156at4751_aligned_trimmed.fas: *;
+  charset part77 = algn/76975at4751_aligned_trimmed.fas: *;
+  charset part78 = algn/167290at4751_aligned_trimmed.fas: *;
+  charset part79 = algn/300016at4751_aligned_trimmed.fas: *;
+  charset part80 = algn/331763at4751_aligned_trimmed.fas: *;
+  charset part81 = algn/429862at4751_aligned_trimmed.fas: *;
+  charset part82 = algn/435317at4751_aligned_trimmed.fas: *;
+  charset part83 = algn/455110at4751_aligned_trimmed.fas: *;
+  charset part84 = algn/452692at4751_aligned_trimmed.fas: *;
+  charset part85 = algn/217374at4751_aligned_trimmed.fas: *;
+  charset part86 = algn/441586at4751_aligned_trimmed.fas: *;
+  charset part87 = algn/46090at4751_aligned_trimmed.fas: *;
+  charset part88 = algn/322254at4751_aligned_trimmed.fas: *;
+  charset part89 = algn/101133at4751_aligned_trimmed.fas: *;
+  charset part90 = algn/449803at4751_aligned_trimmed.fas: *;
+  charset part91 = algn/98739at4751_aligned_trimmed.fas: *;
+  charset part92 = algn/273469at4751_aligned_trimmed.fas: *;
+  charset part93 = algn/181890at4751_aligned_trimmed.fas: *;
+  charset part94 = algn/359482at4751_aligned_trimmed.fas: *;
+  charset part95 = algn/259060at4751_aligned_trimmed.fas: *;
+  charset part96 = algn/484805at4751_aligned_trimmed.fas: *;
+  charset part97 = algn/422764at4751_aligned_trimmed.fas: *;
+  charset part98 = algn/321416at4751_aligned_trimmed.fas: *;
+  charset part99 = algn/106281at4751_aligned_trimmed.fas: *;
+  charset part100 = algn/85793at4751_aligned_trimmed.fas: *;
+  charset part101 = algn/378436at4751_aligned_trimmed.fas: *;
+  charset part102 = algn/174653at4751_aligned_trimmed.fas: *;
+  charset part103 = algn/261237at4751_aligned_trimmed.fas: *;
+  charset part104 = algn/23198at4751_aligned_trimmed.fas: *;
+  charset part105 = algn/398968at4751_aligned_trimmed.fas: *;
+  charset part106 = algn/362322at4751_aligned_trimmed.fas: *;
+  charset part107 = algn/165243at4751_aligned_trimmed.fas: *;
+  charset part108 = algn/418242at4751_aligned_trimmed.fas: *;
+  charset part109 = algn/156073at4751_aligned_trimmed.fas: *;
+  charset part110 = algn/325992at4751_aligned_trimmed.fas: *;
+  charset part111 = algn/374548at4751_aligned_trimmed.fas: *;
+  charset part112 = algn/150469at4751_aligned_trimmed.fas: *;
+  charset part113 = algn/355781at4751_aligned_trimmed.fas: *;
+  charset part114 = algn/434984at4751_aligned_trimmed.fas: *;
+  charset part115 = algn/444602at4751_aligned_trimmed.fas: *;
+  charset part116 = algn/419232at4751_aligned_trimmed.fas: *;
+  charset part117 = algn/3534at4751_aligned_trimmed.fas: *;
+  charset part118 = algn/423206at4751_aligned_trimmed.fas: *;
+  charset part119 = algn/258245at4751_aligned_trimmed.fas: *;
+  charset part120 = algn/305061at4751_aligned_trimmed.fas: *;
+  charset part121 = algn/235105at4751_aligned_trimmed.fas: *;
+  charset part122 = algn/467959at4751_aligned_trimmed.fas: *;
+  charset part123 = algn/437914at4751_aligned_trimmed.fas: *;
+  charset part124 = algn/321728at4751_aligned_trimmed.fas: *;
+  charset part125 = algn/111189at4751_aligned_trimmed.fas: *;
+  charset part126 = algn/229997at4751_aligned_trimmed.fas: *;
+  charset part127 = algn/467847at4751_aligned_trimmed.fas: *;
+  charset part128 = algn/105401at4751_aligned_trimmed.fas: *;
+  charset part129 = algn/75463at4751_aligned_trimmed.fas: *;
+  charset part130 = algn/348020at4751_aligned_trimmed.fas: *;
+  charset part131 = algn/137963at4751_aligned_trimmed.fas: *;
+  charset part132 = algn/25161at4751_aligned_trimmed.fas: *;
+  charset part133 = algn/225918at4751_aligned_trimmed.fas: *;
+  charset part134 = algn/252314at4751_aligned_trimmed.fas: *;
+  charset part135 = algn/447112at4751_aligned_trimmed.fas: *;
+  charset part136 = algn/185196at4751_aligned_trimmed.fas: *;
+  charset part137 = algn/176648at4751_aligned_trimmed.fas: *;
+  charset part138 = algn/8818at4751_aligned_trimmed.fas: *;
+  charset part139 = algn/315799at4751_aligned_trimmed.fas: *;
+  charset part140 = algn/61857at4751_aligned_trimmed.fas: *;
+  charset part141 = algn/78289at4751_aligned_trimmed.fas: *;
+  charset part142 = algn/292418at4751_aligned_trimmed.fas: *;
+  charset part143 = algn/241860at4751_aligned_trimmed.fas: *;
+  charset part144 = algn/14441at4751_aligned_trimmed.fas: *;
+  charset part145 = algn/468224at4751_aligned_trimmed.fas: *;
+  charset part146 = algn/458554at4751_aligned_trimmed.fas: *;
+  charset part147 = algn/203109at4751_aligned_trimmed.fas: *;
+  charset part148 = algn/422622at4751_aligned_trimmed.fas: *;
+  charset part149 = algn/191310at4751_aligned_trimmed.fas: *;
+  charset part150 = algn/17174at4751_aligned_trimmed.fas: *;
+  charset part151 = algn/409761at4751_aligned_trimmed.fas: *;
+  charset part152 = algn/183849at4751_aligned_trimmed.fas: *;
+  charset part153 = algn/411518at4751_aligned_trimmed.fas: *;
+  charset part154 = algn/378256at4751_aligned_trimmed.fas: *;
+  charset part155 = algn/233706at4751_aligned_trimmed.fas: *;
+  charset part156 = algn/104415at4751_aligned_trimmed.fas: *;
+  charset part157 = algn/172113at4751_aligned_trimmed.fas: *;
+  charset part158 = algn/246951at4751_aligned_trimmed.fas: *;
+  charset part159 = algn/283177at4751_aligned_trimmed.fas: *;
+  charset part160 = algn/349264at4751_aligned_trimmed.fas: *;
+  charset part161 = algn/97141at4751_aligned_trimmed.fas: *;
+  charset part162 = algn/189573at4751_aligned_trimmed.fas: *;
+  charset part163 = algn/290471at4751_aligned_trimmed.fas: *;
+  charset part164 = algn/396330at4751_aligned_trimmed.fas: *;
+  charset part165 = algn/24198at4751_aligned_trimmed.fas: *;
+  charset part166 = algn/406793at4751_aligned_trimmed.fas: *;
+  charset part167 = algn/469452at4751_aligned_trimmed.fas: *;
+  charset part168 = algn/228752at4751_aligned_trimmed.fas: *;
+  charset part169 = algn/428774at4751_aligned_trimmed.fas: *;
+  charset part170 = algn/378376at4751_aligned_trimmed.fas: *;
+  charset part171 = algn/356079at4751_aligned_trimmed.fas: *;
+  charset part172 = algn/189234at4751_aligned_trimmed.fas: *;
+  charset part173 = algn/320777at4751_aligned_trimmed.fas: *;
+  charset part174 = algn/179897at4751_aligned_trimmed.fas: *;
+  charset part175 = algn/352224at4751_aligned_trimmed.fas: *;
+  charset part176 = algn/289686at4751_aligned_trimmed.fas: *;
+  charset part177 = algn/269580at4751_aligned_trimmed.fas: *;
+  charset part178 = algn/125400at4751_aligned_trimmed.fas: *;
+  charset part179 = algn/300216at4751_aligned_trimmed.fas: *;
+  charset part180 = algn/126256at4751_aligned_trimmed.fas: *;
+  charset part181 = algn/37642at4751_aligned_trimmed.fas: *;
+  charset part182 = algn/474320at4751_aligned_trimmed.fas: *;
+  charset part183 = algn/14986at4751_aligned_trimmed.fas: *;
+  charset part184 = algn/176178at4751_aligned_trimmed.fas: *;
+  charset part185 = algn/363593at4751_aligned_trimmed.fas: *;
+  charset part186 = algn/315551at4751_aligned_trimmed.fas: *;
+  charset part187 = algn/171181at4751_aligned_trimmed.fas: *;
+  charset part188 = algn/112937at4751_aligned_trimmed.fas: *;
+  charset part189 = algn/351646at4751_aligned_trimmed.fas: *;
+  charset part190 = algn/109276at4751_aligned_trimmed.fas: *;
+  charset part191 = algn/451849at4751_aligned_trimmed.fas: *;
+  charset part192 = algn/73477at4751_aligned_trimmed.fas: *;
+  charset part193 = algn/372510at4751_aligned_trimmed.fas: *;
+  charset part194 = algn/23856at4751_aligned_trimmed.fas: *;
+  charset part195 = algn/107136at4751_aligned_trimmed.fas: *;
+  charset part196 = algn/13605at4751_aligned_trimmed.fas: *;
+  charset part197 = algn/25020at4751_aligned_trimmed.fas: *;
+  charset part198 = algn/281726at4751_aligned_trimmed.fas: *;
+  charset part199 = algn/251158at4751_aligned_trimmed.fas: *;
+  charset part200 = algn/161113at4751_aligned_trimmed.fas: *;
+  charset part201 = algn/411471at4751_aligned_trimmed.fas: *;
+  charset part202 = algn/115993at4751_aligned_trimmed.fas: *;
+  charset part203 = algn/188070at4751_aligned_trimmed.fas: *;
+  charset part204 = algn/76196at4751_aligned_trimmed.fas: *;
+  charset part205 = algn/240246at4751_aligned_trimmed.fas: *;
+  charset part206 = algn/308816at4751_aligned_trimmed.fas: *;
+  charset part207 = algn/419048at4751_aligned_trimmed.fas: *;
+  charset part208 = algn/94384at4751_aligned_trimmed.fas: *;
+  charset part209 = algn/84829at4751_aligned_trimmed.fas: *;
+  charset part210 = algn/237281at4751_aligned_trimmed.fas: *;
+  charset part211 = algn/357584at4751_aligned_trimmed.fas: *;
+  charset part212 = algn/186138at4751_aligned_trimmed.fas: *;
+  charset part213 = algn/61411at4751_aligned_trimmed.fas: *;
+  charset part214 = algn/127140at4751_aligned_trimmed.fas: *;
+  charset part215 = algn/48708at4751_aligned_trimmed.fas: *;
+  charset part216 = algn/306594at4751_aligned_trimmed.fas: *;
+  charset part217 = algn/11636at4751_aligned_trimmed.fas: *;
+  charset part218 = algn/477122at4751_aligned_trimmed.fas: *;
+  charset part219 = algn/210986at4751_aligned_trimmed.fas: *;
+  charset part220 = algn/444399at4751_aligned_trimmed.fas: *;
+  charset part221 = algn/260251at4751_aligned_trimmed.fas: *;
+  charset part222 = algn/336187at4751_aligned_trimmed.fas: *;
+  charset part223 = algn/274828at4751_aligned_trimmed.fas: *;
+  charset part224 = algn/185399at4751_aligned_trimmed.fas: *;
+  charset part225 = algn/111022at4751_aligned_trimmed.fas: *;
+  charset part226 = algn/8406at4751_aligned_trimmed.fas: *;
+  charset part227 = algn/236504at4751_aligned_trimmed.fas: *;
+  charset part228 = algn/299611at4751_aligned_trimmed.fas: *;
+  charset part229 = algn/10531at4751_aligned_trimmed.fas: *;
+  charset part230 = algn/332416at4751_aligned_trimmed.fas: *;
+  charset part231 = algn/408391at4751_aligned_trimmed.fas: *;
+  charset part232 = algn/389547at4751_aligned_trimmed.fas: *;
+  charset part233 = algn/351351at4751_aligned_trimmed.fas: *;
+  charset part234 = algn/160044at4751_aligned_trimmed.fas: *;
+  charset part235 = algn/404050at4751_aligned_trimmed.fas: *;
+  charset part236 = algn/392558at4751_aligned_trimmed.fas: *;
+  charset part237 = algn/141273at4751_aligned_trimmed.fas: *;
+  charset part238 = algn/1866at4751_aligned_trimmed.fas: *;
+  charset part239 = algn/295937at4751_aligned_trimmed.fas: *;
+  charset part240 = algn/451811at4751_aligned_trimmed.fas: *;
+  charset part241 = algn/81687at4751_aligned_trimmed.fas: *;
+  charset part242 = algn/354778at4751_aligned_trimmed.fas: *;
+  charset part243 = algn/53270at4751_aligned_trimmed.fas: *;
+  charset part244 = algn/191296at4751_aligned_trimmed.fas: *;
+  charset part245 = algn/231468at4751_aligned_trimmed.fas: *;
+  charset part246 = algn/280937at4751_aligned_trimmed.fas: *;
+  charset part247 = algn/327884at4751_aligned_trimmed.fas: *;
+  charset part248 = algn/216661at4751_aligned_trimmed.fas: *;
+  charset part249 = algn/302127at4751_aligned_trimmed.fas: *;
+  charset part250 = algn/183720at4751_aligned_trimmed.fas: *;
+  charset part251 = algn/365270at4751_aligned_trimmed.fas: *;
+  charset part252 = algn/389034at4751_aligned_trimmed.fas: *;
+  charset part253 = algn/235640at4751_aligned_trimmed.fas: *;
+  charset part254 = algn/260722at4751_aligned_trimmed.fas: *;
+  charset part255 = algn/399810at4751_aligned_trimmed.fas: *;
+  charset part256 = algn/212522at4751_aligned_trimmed.fas: *;
+  charset part257 = algn/170297at4751_aligned_trimmed.fas: *;
+  charset part258 = algn/271850at4751_aligned_trimmed.fas: *;
+  charset part259 = algn/490719at4751_aligned_trimmed.fas: *;
+  charset part260 = algn/13224at4751_aligned_trimmed.fas: *;
+  charset part261 = algn/348111at4751_aligned_trimmed.fas: *;
+  charset part262 = algn/310718at4751_aligned_trimmed.fas: *;
+  charset part263 = algn/195619at4751_aligned_trimmed.fas: *;
+  charset part264 = algn/434500at4751_aligned_trimmed.fas: *;
+  charset part265 = algn/4466at4751_aligned_trimmed.fas: *;
+  charset part266 = algn/432952at4751_aligned_trimmed.fas: *;
+  charset part267 = algn/330949at4751_aligned_trimmed.fas: *;
+  charset part268 = algn/87313at4751_aligned_trimmed.fas: *;
+  charset part269 = algn/247383at4751_aligned_trimmed.fas: *;
+  charset part270 = algn/384315at4751_aligned_trimmed.fas: *;
+  charset part271 = algn/410782at4751_aligned_trimmed.fas: *;
+  charset part272 = algn/362250at4751_aligned_trimmed.fas: *;
+  charset part273 = algn/103183at4751_aligned_trimmed.fas: *;
+  charset part274 = algn/211634at4751_aligned_trimmed.fas: *;
+  charset part275 = algn/39833at4751_aligned_trimmed.fas: *;
+  charset part276 = algn/366635at4751_aligned_trimmed.fas: *;
+  charset part277 = algn/362601at4751_aligned_trimmed.fas: *;
+  charset part278 = algn/290314at4751_aligned_trimmed.fas: *;
+  charset part279 = algn/160940at4751_aligned_trimmed.fas: *;
+  charset part280 = algn/402255at4751_aligned_trimmed.fas: *;
+  charset part281 = algn/135652at4751_aligned_trimmed.fas: *;
+  charset part282 = algn/225535at4751_aligned_trimmed.fas: *;
+  charset part283 = algn/351849at4751_aligned_trimmed.fas: *;
+  charset part284 = algn/345661at4751_aligned_trimmed.fas: *;
+  charset part285 = algn/122507at4751_aligned_trimmed.fas: *;
+  charset part286 = algn/304547at4751_aligned_trimmed.fas: *;
+  charset part287 = algn/262317at4751_aligned_trimmed.fas: *;
+  charset part288 = algn/354913at4751_aligned_trimmed.fas: *;
+  charset part289 = algn/364284at4751_aligned_trimmed.fas: *;
+  charset part290 = algn/246207at4751_aligned_trimmed.fas: *;
+  charset part291 = algn/443595at4751_aligned_trimmed.fas: *;
+  charset part292 = algn/484323at4751_aligned_trimmed.fas: *;
+  charset part293 = algn/292336at4751_aligned_trimmed.fas: *;
+  charset part294 = algn/27008at4751_aligned_trimmed.fas: *;
+  charset part295 = algn/485702at4751_aligned_trimmed.fas: *;
+  charset part296 = algn/387347at4751_aligned_trimmed.fas: *;
+  charset part297 = algn/289666at4751_aligned_trimmed.fas: *;
+  charset part298 = algn/57081at4751_aligned_trimmed.fas: *;
+  charset part299 = algn/444174at4751_aligned_trimmed.fas: *;
+  charset part300 = algn/204087at4751_aligned_trimmed.fas: *;
+  charset part301 = algn/299583at4751_aligned_trimmed.fas: *;
+  charset part302 = algn/299330at4751_aligned_trimmed.fas: *;
+  charset part303 = algn/416039at4751_aligned_trimmed.fas: *;
+  charset part304 = algn/422151at4751_aligned_trimmed.fas: *;
+  charset part305 = algn/326649at4751_aligned_trimmed.fas: *;
+  charset part306 = algn/307144at4751_aligned_trimmed.fas: *;
+  charset part307 = algn/420414at4751_aligned_trimmed.fas: *;
+  charset part308 = algn/298335at4751_aligned_trimmed.fas: *;
+  charset part309 = algn/372381at4751_aligned_trimmed.fas: *;
+  charset part310 = algn/170904at4751_aligned_trimmed.fas: *;
+  charset part311 = algn/376255at4751_aligned_trimmed.fas: *;
+  charset part312 = algn/357182at4751_aligned_trimmed.fas: *;
+  charset part313 = algn/471205at4751_aligned_trimmed.fas: *;
+  charset part314 = algn/56729at4751_aligned_trimmed.fas: *;
+  charset part315 = algn/216949at4751_aligned_trimmed.fas: *;
+  charset part316 = algn/271511at4751_aligned_trimmed.fas: *;
+  charset part317 = algn/196841at4751_aligned_trimmed.fas: *;
+  charset part318 = algn/382001at4751_aligned_trimmed.fas: *;
+  charset part319 = algn/420527at4751_aligned_trimmed.fas: *;
+  charset part320 = algn/50835at4751_aligned_trimmed.fas: *;
+  charset part321 = algn/6592at4751_aligned_trimmed.fas: *;
+  charset part322 = algn/195863at4751_aligned_trimmed.fas: *;
+  charset part323 = algn/46918at4751_aligned_trimmed.fas: *;
+  charset part324 = algn/231582at4751_aligned_trimmed.fas: *;
+  charset part325 = algn/343196at4751_aligned_trimmed.fas: *;
+  charset part326 = algn/90022at4751_aligned_trimmed.fas: *;
+  charset part327 = algn/37573at4751_aligned_trimmed.fas: *;
+  charset part328 = algn/335237at4751_aligned_trimmed.fas: *;
+  charset part329 = algn/485650at4751_aligned_trimmed.fas: *;
+  charset part330 = algn/297671at4751_aligned_trimmed.fas: *;
+  charset part331 = algn/371862at4751_aligned_trimmed.fas: *;
+  charset part332 = algn/389565at4751_aligned_trimmed.fas: *;
+  charset part333 = algn/351858at4751_aligned_trimmed.fas: *;
+  charset part334 = algn/436872at4751_aligned_trimmed.fas: *;
+  charset part335 = algn/456963at4751_aligned_trimmed.fas: *;
+  charset part336 = algn/259883at4751_aligned_trimmed.fas: *;
+  charset part337 = algn/298379at4751_aligned_trimmed.fas: *;
+  charset part338 = algn/467311at4751_aligned_trimmed.fas: *;
+  charset part339 = algn/37028at4751_aligned_trimmed.fas: *;
+  charset part340 = algn/335719at4751_aligned_trimmed.fas: *;
+  charset part341 = algn/130062at4751_aligned_trimmed.fas: *;
+  charset part342 = algn/266634at4751_aligned_trimmed.fas: *;
+  charset part343 = algn/52909at4751_aligned_trimmed.fas: *;
+  charset part344 = algn/434428at4751_aligned_trimmed.fas: *;
+  charset part345 = algn/402005at4751_aligned_trimmed.fas: *;
+  charset part346 = algn/254717at4751_aligned_trimmed.fas: *;
+  charset part347 = algn/226810at4751_aligned_trimmed.fas: *;
+  charset part348 = algn/46098at4751_aligned_trimmed.fas: *;
+  charset part349 = algn/451032at4751_aligned_trimmed.fas: *;
+  charset part350 = algn/213564at4751_aligned_trimmed.fas: *;
+  charset part351 = algn/168489at4751_aligned_trimmed.fas: *;
+  charset part352 = algn/374350at4751_aligned_trimmed.fas: *;
+  charset part353 = algn/64498at4751_aligned_trimmed.fas: *;
+  charset part354 = algn/411754at4751_aligned_trimmed.fas: *;
+  charset part355 = algn/46119at4751_aligned_trimmed.fas: *;
+  charset part356 = algn/59795at4751_aligned_trimmed.fas: *;
+  charset part357 = algn/379525at4751_aligned_trimmed.fas: *;
+  charset part358 = algn/81295at4751_aligned_trimmed.fas: *;
+  charset part359 = algn/154126at4751_aligned_trimmed.fas: *;
+  charset part360 = algn/477057at4751_aligned_trimmed.fas: *;
+  charset part361 = algn/385564at4751_aligned_trimmed.fas: *;
+  charset part362 = algn/192059at4751_aligned_trimmed.fas: *;
+  charset part363 = algn/337917at4751_aligned_trimmed.fas: *;
+  charset part364 = algn/411677at4751_aligned_trimmed.fas: *;
+  charset part365 = algn/212735at4751_aligned_trimmed.fas: *;
+  charset part366 = algn/435471at4751_aligned_trimmed.fas: *;
+  charset part367 = algn/179437at4751_aligned_trimmed.fas: *;
+  charset part368 = algn/435767at4751_aligned_trimmed.fas: *;
+  charset part369 = algn/411130at4751_aligned_trimmed.fas: *;
+  charset part370 = algn/493358at4751_aligned_trimmed.fas: *;
+  charset part371 = algn/258762at4751_aligned_trimmed.fas: *;
+  charset part372 = algn/86293at4751_aligned_trimmed.fas: *;
+  charset part373 = algn/281299at4751_aligned_trimmed.fas: *;
+  charset part374 = algn/354679at4751_aligned_trimmed.fas: *;
+  charset part375 = algn/431195at4751_aligned_trimmed.fas: *;
+  charset part376 = algn/174672at4751_aligned_trimmed.fas: *;
+  charset part377 = algn/125935at4751_aligned_trimmed.fas: *;
+  charset part378 = algn/68466at4751_aligned_trimmed.fas: *;
+  charset part379 = algn/372972at4751_aligned_trimmed.fas: *;
+  charset part380 = algn/190832at4751_aligned_trimmed.fas: *;
+  charset part381 = algn/191114at4751_aligned_trimmed.fas: *;
+  charset part382 = algn/68881at4751_aligned_trimmed.fas: *;
+  charset part383 = algn/398592at4751_aligned_trimmed.fas: *;
+  charset part384 = algn/359271at4751_aligned_trimmed.fas: *;
+  charset part385 = algn/411919at4751_aligned_trimmed.fas: *;
+  charset part386 = algn/76893at4751_aligned_trimmed.fas: *;
+  charset part387 = algn/117017at4751_aligned_trimmed.fas: *;
+  charset part388 = algn/351482at4751_aligned_trimmed.fas: *;
+  charset part389 = algn/63635at4751_aligned_trimmed.fas: *;
+  charset part390 = algn/464772at4751_aligned_trimmed.fas: *;
+  charset part391 = algn/331022at4751_aligned_trimmed.fas: *;
+  charset part392 = algn/451701at4751_aligned_trimmed.fas: *;
+  charset part393 = algn/447424at4751_aligned_trimmed.fas: *;
+  charset part394 = algn/452573at4751_aligned_trimmed.fas: *;
+  charset part395 = algn/31256at4751_aligned_trimmed.fas: *;
+  charset part396 = algn/227572at4751_aligned_trimmed.fas: *;
+  charset part397 = algn/234698at4751_aligned_trimmed.fas: *;
+  charset part398 = algn/293405at4751_aligned_trimmed.fas: *;
+  charset part399 = algn/225321at4751_aligned_trimmed.fas: *;
+  charset part400 = algn/79294at4751_aligned_trimmed.fas: *;
+  charset part401 = algn/241079at4751_aligned_trimmed.fas: *;
+  charset part402 = algn/323327at4751_aligned_trimmed.fas: *;
+  charset part403 = algn/464897at4751_aligned_trimmed.fas: *;
+  charset part404 = algn/224775at4751_aligned_trimmed.fas: *;
+  charset part405 = algn/413850at4751_aligned_trimmed.fas: *;
+  charset part406 = algn/233287at4751_aligned_trimmed.fas: *;
+  charset part407 = algn/14523at4751_aligned_trimmed.fas: *;
+  charset part408 = algn/330551at4751_aligned_trimmed.fas: *;
+  charset part409 = algn/371481at4751_aligned_trimmed.fas: *;
+  charset part410 = algn/417746at4751_aligned_trimmed.fas: *;
+  charset part411 = algn/418680at4751_aligned_trimmed.fas: *;
+  charset part412 = algn/315639at4751_aligned_trimmed.fas: *;
+  charset part413 = algn/112646at4751_aligned_trimmed.fas: *;
+  charset part414 = algn/138695at4751_aligned_trimmed.fas: *;
+  charset part415 = algn/142965at4751_aligned_trimmed.fas: *;
+  charset part416 = algn/4409at4751_aligned_trimmed.fas: *;
+  charset part417 = algn/79797at4751_aligned_trimmed.fas: *;
+  charset part418 = algn/399413at4751_aligned_trimmed.fas: *;
+  charset part419 = algn/410986at4751_aligned_trimmed.fas: *;
+  charset part420 = algn/237533at4751_aligned_trimmed.fas: *;
+  charset part421 = algn/338301at4751_aligned_trimmed.fas: *;
+  charset part422 = algn/452947at4751_aligned_trimmed.fas: *;
+  charset part423 = algn/75456at4751_aligned_trimmed.fas: *;
+  charset part424 = algn/118189at4751_aligned_trimmed.fas: *;
+  charset part425 = algn/438274at4751_aligned_trimmed.fas: *;
+  charset part426 = algn/198196at4751_aligned_trimmed.fas: *;
+  charset part427 = algn/317276at4751_aligned_trimmed.fas: *;
+  charset part428 = algn/278643at4751_aligned_trimmed.fas: *;
+  charset part429 = algn/421097at4751_aligned_trimmed.fas: *;
+  charset part430 = algn/370505at4751_aligned_trimmed.fas: *;
+  charset part431 = algn/46666at4751_aligned_trimmed.fas: *;
+  charset part432 = algn/71046at4751_aligned_trimmed.fas: *;
+  charset part433 = algn/299509at4751_aligned_trimmed.fas: *;
+  charset part434 = algn/65499at4751_aligned_trimmed.fas: *;
+  charset part435 = algn/75709at4751_aligned_trimmed.fas: *;
+  charset part436 = algn/126249at4751_aligned_trimmed.fas: *;
+  charset part437 = algn/282059at4751_aligned_trimmed.fas: *;
+  charset part438 = algn/12959at4751_aligned_trimmed.fas: *;
+  charset part439 = algn/247129at4751_aligned_trimmed.fas: *;
+  charset part440 = algn/320782at4751_aligned_trimmed.fas: *;
+  charset part441 = algn/401387at4751_aligned_trimmed.fas: *;
+  charset part442 = algn/405898at4751_aligned_trimmed.fas: *;
+  charset part443 = algn/215926at4751_aligned_trimmed.fas: *;
+  charset part444 = algn/173995at4751_aligned_trimmed.fas: *;
+  charset part445 = algn/225351at4751_aligned_trimmed.fas: *;
+  charset part446 = algn/312950at4751_aligned_trimmed.fas: *;
+  charset part447 = algn/138833at4751_aligned_trimmed.fas: *;
+  charset part448 = algn/6272at4751_aligned_trimmed.fas: *;
+  charset part449 = algn/428984at4751_aligned_trimmed.fas: *;
+  charset part450 = algn/7545at4751_aligned_trimmed.fas: *;
+  charset part451 = algn/317335at4751_aligned_trimmed.fas: *;
+  charset part452 = algn/267556at4751_aligned_trimmed.fas: *;
+  charset part453 = algn/366595at4751_aligned_trimmed.fas: *;
+  charset part454 = algn/65334at4751_aligned_trimmed.fas: *;
+  charset part455 = algn/130930at4751_aligned_trimmed.fas: *;
+  charset part456 = algn/209619at4751_aligned_trimmed.fas: *;
+  charset part457 = algn/414508at4751_aligned_trimmed.fas: *;
+  charset part458 = algn/362218at4751_aligned_trimmed.fas: *;
+  charset part459 = algn/203710at4751_aligned_trimmed.fas: *;
+  charset part460 = algn/49967at4751_aligned_trimmed.fas: *;
+  charset part461 = algn/343603at4751_aligned_trimmed.fas: *;
+  charset part462 = algn/353685at4751_aligned_trimmed.fas: *;
+  charset part463 = algn/410458at4751_aligned_trimmed.fas: *;
+  charset part464 = algn/454840at4751_aligned_trimmed.fas: *;
+  charset part465 = algn/416914at4751_aligned_trimmed.fas: *;
+  charset part466 = algn/75976at4751_aligned_trimmed.fas: *;
+  charset part467 = algn/332891at4751_aligned_trimmed.fas: *;
+  charset part468 = algn/316254at4751_aligned_trimmed.fas: *;
+  charset part469 = algn/14793at4751_aligned_trimmed.fas: *;
+  charset part470 = algn/457951at4751_aligned_trimmed.fas: *;
+  charset part471 = algn/123277at4751_aligned_trimmed.fas: *;
+  charset part472 = algn/103461at4751_aligned_trimmed.fas: *;
+  charset part473 = algn/440401at4751_aligned_trimmed.fas: *;
+  charset part474 = algn/407348at4751_aligned_trimmed.fas: *;
+  charset part475 = algn/179025at4751_aligned_trimmed.fas: *;
+  charset part476 = algn/391384at4751_aligned_trimmed.fas: *;
+  charset part477 = algn/327748at4751_aligned_trimmed.fas: *;
+  charset part478 = algn/296643at4751_aligned_trimmed.fas: *;
+  charset part479 = algn/50786at4751_aligned_trimmed.fas: *;
+  charset part480 = algn/153083at4751_aligned_trimmed.fas: *;
+  charset part481 = algn/353991at4751_aligned_trimmed.fas: *;
+  charset part482 = algn/439490at4751_aligned_trimmed.fas: *;
+  charset part483 = algn/284176at4751_aligned_trimmed.fas: *;
+  charset part484 = algn/385343at4751_aligned_trimmed.fas: *;
+  charset part485 = algn/167498at4751_aligned_trimmed.fas: *;
+  charset part486 = algn/483049at4751_aligned_trimmed.fas: *;
+  charset part487 = algn/427250at4751_aligned_trimmed.fas: *;
+  charset part488 = algn/38184at4751_aligned_trimmed.fas: *;
+  charset part489 = algn/73771at4751_aligned_trimmed.fas: *;
+  charset part490 = algn/26329at4751_aligned_trimmed.fas: *;
+  charset part491 = algn/470813at4751_aligned_trimmed.fas: *;
+  charset part492 = algn/452759at4751_aligned_trimmed.fas: *;
+  charset part493 = algn/252469at4751_aligned_trimmed.fas: *;
+  charset part494 = algn/320163at4751_aligned_trimmed.fas: *;
+  charset part495 = algn/459844at4751_aligned_trimmed.fas: *;
+  charset part496 = algn/330629at4751_aligned_trimmed.fas: *;
+  charset part497 = algn/433181at4751_aligned_trimmed.fas: *;
+  charset part498 = algn/210178at4751_aligned_trimmed.fas: *;
+  charset part499 = algn/197612at4751_aligned_trimmed.fas: *;
+  charset part500 = algn/423166at4751_aligned_trimmed.fas: *;
+  charset part501 = algn/135184at4751_aligned_trimmed.fas: *;
+  charset part502 = algn/130976at4751_aligned_trimmed.fas: *;
+  charset part503 = algn/396842at4751_aligned_trimmed.fas: *;
+  charset part504 = algn/368706at4751_aligned_trimmed.fas: *;
+  charset part505 = algn/145178at4751_aligned_trimmed.fas: *;
+  charset part506 = algn/230605at4751_aligned_trimmed.fas: *;
+  charset part507 = algn/14295at4751_aligned_trimmed.fas: *;
+  charset part508 = algn/492591at4751_aligned_trimmed.fas: *;
+  charset part509 = algn/332036at4751_aligned_trimmed.fas: *;
+  charset part510 = algn/367778at4751_aligned_trimmed.fas: *;
+  charset part511 = algn/92267at4751_aligned_trimmed.fas: *;
+  charset part512 = algn/378430at4751_aligned_trimmed.fas: *;
+  charset part513 = algn/321585at4751_aligned_trimmed.fas: *;
+  charset part514 = algn/376586at4751_aligned_trimmed.fas: *;
+  charset part515 = algn/133954at4751_aligned_trimmed.fas: *;
+  charset part516 = algn/412006at4751_aligned_trimmed.fas: *;
+  charset part517 = algn/428569at4751_aligned_trimmed.fas: *;
+  charset part518 = algn/282964at4751_aligned_trimmed.fas: *;
+  charset part519 = algn/200331at4751_aligned_trimmed.fas: *;
+  charset part520 = algn/211768at4751_aligned_trimmed.fas: *;
+  charset part521 = algn/245900at4751_aligned_trimmed.fas: *;
+  charset part522 = algn/338808at4751_aligned_trimmed.fas: *;
+  charset part523 = algn/399376at4751_aligned_trimmed.fas: *;
+  charset part524 = algn/343717at4751_aligned_trimmed.fas: *;
+  charset part525 = algn/20600at4751_aligned_trimmed.fas: *;
+  charset part526 = algn/330815at4751_aligned_trimmed.fas: *;
+  charset part527 = algn/405669at4751_aligned_trimmed.fas: *;
+  charset part528 = algn/61438at4751_aligned_trimmed.fas: *;
+  charset part529 = algn/211442at4751_aligned_trimmed.fas: *;
+  charset part530 = algn/358118at4751_aligned_trimmed.fas: *;
+  charset part531 = algn/129326at4751_aligned_trimmed.fas: *;
+  charset part532 = algn/481052at4751_aligned_trimmed.fas: *;
+  charset part533 = algn/388229at4751_aligned_trimmed.fas: *;
+  charset part534 = algn/308236at4751_aligned_trimmed.fas: *;
+  charset part535 = algn/393996at4751_aligned_trimmed.fas: *;
+  charset part536 = algn/358012at4751_aligned_trimmed.fas: *;
+  charset part537 = algn/438731at4751_aligned_trimmed.fas: *;
+  charset part538 = algn/488348at4751_aligned_trimmed.fas: *;
+  charset part539 = algn/20952at4751_aligned_trimmed.fas: *;
+  charset part540 = algn/490662at4751_aligned_trimmed.fas: *;
+  charset part541 = algn/71039at4751_aligned_trimmed.fas: *;
+  charset part542 = algn/285977at4751_aligned_trimmed.fas: *;
+  charset part543 = algn/337150at4751_aligned_trimmed.fas: *;
+  charset part544 = algn/386220at4751_aligned_trimmed.fas: *;
+  charset part545 = algn/417470at4751_aligned_trimmed.fas: *;
+  charset part546 = algn/385971at4751_aligned_trimmed.fas: *;
+  charset part547 = algn/378295at4751_aligned_trimmed.fas: *;
+  charset part548 = algn/129520at4751_aligned_trimmed.fas: *;
+  charset part549 = algn/187821at4751_aligned_trimmed.fas: *;
+  charset part550 = algn/172966at4751_aligned_trimmed.fas: *;
+  charset part551 = algn/148293at4751_aligned_trimmed.fas: *;
+  charset part552 = algn/276205at4751_aligned_trimmed.fas: *;
+  charset part553 = algn/256914at4751_aligned_trimmed.fas: *;
+  charset part554 = algn/385139at4751_aligned_trimmed.fas: *;
+  charset part555 = algn/31324at4751_aligned_trimmed.fas: *;
+  charset part556 = algn/75033at4751_aligned_trimmed.fas: *;
+  charset part557 = algn/378281at4751_aligned_trimmed.fas: *;
+  charset part558 = algn/201591at4751_aligned_trimmed.fas: *;
+  charset part559 = algn/104173at4751_aligned_trimmed.fas: *;
+  charset part560 = algn/397465at4751_aligned_trimmed.fas: *;
+  charset part561 = algn/336181at4751_aligned_trimmed.fas: *;
+  charset part562 = algn/453693at4751_aligned_trimmed.fas: *;
+  charset part563 = algn/183801at4751_aligned_trimmed.fas: *;
+  charset part564 = algn/344553at4751_aligned_trimmed.fas: *;
+  charset part565 = algn/438861at4751_aligned_trimmed.fas: *;
+  charset part566 = algn/406240at4751_aligned_trimmed.fas: *;
+  charset part567 = algn/403079at4751_aligned_trimmed.fas: *;
+  charset part568 = algn/483370at4751_aligned_trimmed.fas: *;
+  charset part569 = algn/257330at4751_aligned_trimmed.fas: *;
+  charset part570 = algn/33984at4751_aligned_trimmed.fas: *;
+  charset part571 = algn/205479at4751_aligned_trimmed.fas: *;
+  charset part572 = algn/12812at4751_aligned_trimmed.fas: *;
+  charset part573 = algn/465849at4751_aligned_trimmed.fas: *;
+  charset part574 = algn/281920at4751_aligned_trimmed.fas: *;
+  charset part575 = algn/34223at4751_aligned_trimmed.fas: *;
+  charset part576 = algn/311254at4751_aligned_trimmed.fas: *;
+  charset part577 = algn/419667at4751_aligned_trimmed.fas: *;
+  charset part578 = algn/361877at4751_aligned_trimmed.fas: *;
+  charset part579 = algn/6812at4751_aligned_trimmed.fas: *;
+  charset part580 = algn/269939at4751_aligned_trimmed.fas: *;
+  charset part581 = algn/343623at4751_aligned_trimmed.fas: *;
+  charset part582 = algn/103836at4751_aligned_trimmed.fas: *;
+  charset part583 = algn/263390at4751_aligned_trimmed.fas: *;
+  charset part584 = algn/265325at4751_aligned_trimmed.fas: *;
+  charset part585 = algn/190183at4751_aligned_trimmed.fas: *;
+  charset part586 = algn/311048at4751_aligned_trimmed.fas: *;
+  charset part587 = algn/351651at4751_aligned_trimmed.fas: *;
+  charset part588 = algn/52541at4751_aligned_trimmed.fas: *;
+  charset part589 = algn/304733at4751_aligned_trimmed.fas: *;
+  charset part590 = algn/351906at4751_aligned_trimmed.fas: *;
+  charset part591 = algn/122824at4751_aligned_trimmed.fas: *;
+  charset part592 = algn/445954at4751_aligned_trimmed.fas: *;
+  charset part593 = algn/429332at4751_aligned_trimmed.fas: *;
+  charset part594 = algn/7423at4751_aligned_trimmed.fas: *;
+  charset part595 = algn/21689at4751_aligned_trimmed.fas: *;
+  charset part596 = algn/428342at4751_aligned_trimmed.fas: *;
+  charset part597 = algn/129160at4751_aligned_trimmed.fas: *;
+  charset part598 = algn/264164at4751_aligned_trimmed.fas: *;
+  charset part599 = algn/393440at4751_aligned_trimmed.fas: *;
+  charset part600 = algn/312080at4751_aligned_trimmed.fas: *;
+  charset part601 = algn/79262at4751_aligned_trimmed.fas: *;
+  charset part602 = algn/355454at4751_aligned_trimmed.fas: *;
+  charset part603 = algn/235463at4751_aligned_trimmed.fas: *;
+  charset part604 = algn/468195at4751_aligned_trimmed.fas: *;
+  charset part605 = algn/356691at4751_aligned_trimmed.fas: *;
+  charset part606 = algn/100957at4751_aligned_trimmed.fas: *;
+  charset part607 = algn/138484at4751_aligned_trimmed.fas: *;
+  charset part608 = algn/285477at4751_aligned_trimmed.fas: *;
+  charset part609 = algn/406434at4751_aligned_trimmed.fas: *;
+  charset part610 = algn/11879at4751_aligned_trimmed.fas: *;
+  charset part611 = algn/390518at4751_aligned_trimmed.fas: *;
+  charset part612 = algn/229510at4751_aligned_trimmed.fas: *;
+  charset part613 = algn/64002at4751_aligned_trimmed.fas: *;
+  charset part614 = algn/396097at4751_aligned_trimmed.fas: *;
+  charset part615 = algn/350840at4751_aligned_trimmed.fas: *;
+  charset part616 = algn/296024at4751_aligned_trimmed.fas: *;
+  charset part617 = algn/202089at4751_aligned_trimmed.fas: *;
+  charset part618 = algn/173428at4751_aligned_trimmed.fas: *;
+  charset part619 = algn/184718at4751_aligned_trimmed.fas: *;
+  charset part620 = algn/339525at4751_aligned_trimmed.fas: *;
+  charset part621 = algn/256318at4751_aligned_trimmed.fas: *;
+  charset part622 = algn/316920at4751_aligned_trimmed.fas: *;
+  charset part623 = algn/329067at4751_aligned_trimmed.fas: *;
+  charset part624 = algn/430556at4751_aligned_trimmed.fas: *;
+  charset part625 = algn/299559at4751_aligned_trimmed.fas: *;
+  charset part626 = algn/47592at4751_aligned_trimmed.fas: *;
+  charset part627 = algn/123228at4751_aligned_trimmed.fas: *;
+  charset part628 = algn/241483at4751_aligned_trimmed.fas: *;
+  charset part629 = algn/176478at4751_aligned_trimmed.fas: *;
+  charset part630 = algn/181959at4751_aligned_trimmed.fas: *;
+  charset part631 = algn/342642at4751_aligned_trimmed.fas: *;
+  charset part632 = algn/461238at4751_aligned_trimmed.fas: *;
+  charset part633 = algn/419868at4751_aligned_trimmed.fas: *;
+  charset part634 = algn/81614at4751_aligned_trimmed.fas: *;
+  charset part635 = algn/138697at4751_aligned_trimmed.fas: *;
+  charset part636 = algn/186574at4751_aligned_trimmed.fas: *;
+  charset part637 = algn/145524at4751_aligned_trimmed.fas: *;
+  charset part638 = algn/359627at4751_aligned_trimmed.fas: *;
+  charset part639 = algn/94628at4751_aligned_trimmed.fas: *;
+  charset part640 = algn/12258at4751_aligned_trimmed.fas: *;
+  charset part641 = algn/228465at4751_aligned_trimmed.fas: *;
+  charset part642 = algn/237276at4751_aligned_trimmed.fas: *;
+  charset part643 = algn/163318at4751_aligned_trimmed.fas: *;
+  charset part644 = algn/433384at4751_aligned_trimmed.fas: *;
+  charset part645 = algn/285254at4751_aligned_trimmed.fas: *;
+  charset part646 = algn/184762at4751_aligned_trimmed.fas: *;
+  charset part647 = algn/241586at4751_aligned_trimmed.fas: *;
+  charset part648 = algn/417109at4751_aligned_trimmed.fas: *;
+  charset part649 = algn/107464at4751_aligned_trimmed.fas: *;
+  charset part650 = algn/474374at4751_aligned_trimmed.fas: *;
+  charset part651 = algn/54919at4751_aligned_trimmed.fas: *;
+  charset part652 = algn/123494at4751_aligned_trimmed.fas: *;
+  charset part653 = algn/445401at4751_aligned_trimmed.fas: *;
+  charset part654 = algn/376539at4751_aligned_trimmed.fas: *;
+  charset part655 = algn/334424at4751_aligned_trimmed.fas: *;
+  charset part656 = algn/160875at4751_aligned_trimmed.fas: *;
+  charset part657 = algn/160995at4751_aligned_trimmed.fas: *;
+  charset part658 = algn/315802at4751_aligned_trimmed.fas: *;
+  charset part659 = algn/332876at4751_aligned_trimmed.fas: *;
+  charset part660 = algn/49476at4751_aligned_trimmed.fas: *;
+  charset part661 = algn/352999at4751_aligned_trimmed.fas: *;
+  charset part662 = algn/22992at4751_aligned_trimmed.fas: *;
+  charset part663 = algn/488857at4751_aligned_trimmed.fas: *;
+  charset part664 = algn/453909at4751_aligned_trimmed.fas: *;
+  charset part665 = algn/29512at4751_aligned_trimmed.fas: *;
+  charset part666 = algn/483390at4751_aligned_trimmed.fas: *;
+  charset part667 = algn/419200at4751_aligned_trimmed.fas: *;
+  charset part668 = algn/383007at4751_aligned_trimmed.fas: *;
+  charset part669 = algn/260896at4751_aligned_trimmed.fas: *;
+  charset part670 = algn/284287at4751_aligned_trimmed.fas: *;
+  charset part671 = algn/147028at4751_aligned_trimmed.fas: *;
+  charset part672 = algn/46752at4751_aligned_trimmed.fas: *;
+  charset part673 = algn/243015at4751_aligned_trimmed.fas: *;
+  charset part674 = algn/197111at4751_aligned_trimmed.fas: *;
+  charset part675 = algn/208463at4751_aligned_trimmed.fas: *;
+  charset part676 = algn/366597at4751_aligned_trimmed.fas: *;
+  charset part677 = algn/237393at4751_aligned_trimmed.fas: *;
+  charset part678 = algn/96633at4751_aligned_trimmed.fas: *;
+  charset part679 = algn/291828at4751_aligned_trimmed.fas: *;
+  charset part680 = algn/272081at4751_aligned_trimmed.fas: *;
+  charset part681 = algn/232698at4751_aligned_trimmed.fas: *;
+  charset part682 = algn/251613at4751_aligned_trimmed.fas: *;
+  charset part683 = algn/67284at4751_aligned_trimmed.fas: *;
+  charset part684 = algn/473814at4751_aligned_trimmed.fas: *;
+  charset part685 = algn/169381at4751_aligned_trimmed.fas: *;
+  charset part686 = algn/168092at4751_aligned_trimmed.fas: *;
+  charset part687 = algn/387759at4751_aligned_trimmed.fas: *;
+  charset part688 = algn/142357at4751_aligned_trimmed.fas: *;
+  charset part689 = algn/145378at4751_aligned_trimmed.fas: *;
+  charset part690 = algn/320638at4751_aligned_trimmed.fas: *;
+  charset part691 = algn/225820at4751_aligned_trimmed.fas: *;
+  charset part692 = algn/295692at4751_aligned_trimmed.fas: *;
+  charset part693 = algn/461919at4751_aligned_trimmed.fas: *;
+  charset part694 = algn/217097at4751_aligned_trimmed.fas: *;
+  charset part695 = algn/353762at4751_aligned_trimmed.fas: *;
+  charset part696 = algn/38031at4751_aligned_trimmed.fas: *;
+  charset part697 = algn/265302at4751_aligned_trimmed.fas: *;
+  charset part698 = algn/118701at4751_aligned_trimmed.fas: *;
+  charset part699 = algn/216270at4751_aligned_trimmed.fas: *;
+  charset part700 = algn/369435at4751_aligned_trimmed.fas: *;
+  charset part701 = algn/207926at4751_aligned_trimmed.fas: *;
+  charset part702 = algn/171238at4751_aligned_trimmed.fas: *;
+  charset part703 = algn/210462at4751_aligned_trimmed.fas: *;
+  charset part704 = algn/364123at4751_aligned_trimmed.fas: *;
+  charset part705 = algn/464711at4751_aligned_trimmed.fas: *;
+  charset part706 = algn/312209at4751_aligned_trimmed.fas: *;
+  charset part707 = algn/370952at4751_aligned_trimmed.fas: *;
+  charset part708 = algn/209053at4751_aligned_trimmed.fas: *;
+  charset part709 = algn/67806at4751_aligned_trimmed.fas: *;
+  charpartition mymodels =
+    JTT+R9{0.025135,0.0217204,0.0701998,0.101271,0.0535498,0.1704,0.093779,0.293706,0.13452,0.492688,0.128549,0.721822,0.202451,1.06514,0.191711,1.71031,0.100106,2.5282}: part1{129.094},
+    LG+R5{0.456181,0.0366726,0.236944,0.522589,0.151647,1.69278,0.111604,3.27101,0.0436244,5.44843}: part2{12.5884},
+    LG+R5{0.379487,0.0581797,0.211481,0.379118,0.221784,1.31005,0.137096,2.51982,0.0501526,5.21891}: part3{18.7743},
+    LG+R6{0.170014,0.119927,0.181069,0.339354,0.25869,0.694686,0.182556,1.1162,0.136255,1.9417,0.0714161,3.78236}: part4{53.2242},
+    LG+R6{0.138666,0.0316037,0.229815,0.221315,0.179539,0.56884,0.151295,1.03838,0.187647,1.59625,0.113038,3.41473}: part5{36.206},
+    LG+F+R7{0.112935,0.0370345,0.147459,0.178505,0.194028,0.426849,0.187764,0.772827,0.130007,1.27251,0.138168,1.99497,0.0896393,3.3522}: part6{32.3128},
+    JTTDCMut+R8{0.11708,0.0210582,0.182824,0.139091,0.212182,0.341292,0.105067,0.691863,0.106173,1.10449,0.102231,1.58637,0.100819,2.53884,0.0736245,3.96052}: part7{63.5262},
+    JTT+F+R9{0.0744005,0.00826956,0.074767,0.0700824,0.123815,0.197403,0.122085,0.37006,0.148717,0.669052,0.164089,1.10217,0.131588,1.66814,0.113191,2.32346,0.0473469,3.41454}: part8{55.4523},
+    LG+R6{0.245968,0.0433114,0.341156,0.378675,0.186485,1.01987,0.115113,1.98366,0.0823871,3.33946,0.0288909,5.76285}: part9{16.0477},
+    JTT+R9{0.0604017,0.0425446,0.115336,0.17604,0.150259,0.330133,0.195175,0.614311,0.187529,0.966031,0.128426,1.32,0.100011,1.98376,0.0216823,3.18319,0.0411801,4.60235}: part10{65.6352},
+    LG+R8{0.1937,0.0105208,0.125524,0.134778,0.12693,0.321556,0.109677,0.607125,0.180265,1.0221,0.134014,1.61758,0.0724102,2.78328,0.0574794,4.71605}: part11{42.0056},
+    LG+R5{0.250643,0.0747373,0.225113,0.343034,0.244726,0.962473,0.187722,1.8939,0.0917958,3.40949}: part12{27.0995},
+    LG+R7{0.0949002,0.0295474,0.169791,0.134054,0.165762,0.36494,0.187337,0.736476,0.158953,1.25326,0.150681,2.20223,0.0725756,3.3748}: part13{41.4421},
+    JTT+R8{0.137559,0.0384991,0.144004,0.182277,0.187983,0.447094,0.102616,0.744184,0.107101,0.898269,0.149215,1.44816,0.0994149,2.16675,0.0721064,3.88792}: part14{43.7629},
+    LG+R7{0.134237,0.035046,0.138605,0.249183,0.247121,0.510209,0.193689,1.03037,0.131698,1.5616,0.125392,2.46829,0.0292585,4.0993}: part15{30.1413},
+    JTT+R9{0.0690875,0.0238122,0.0918834,0.10749,0.075736,0.228396,0.0955711,0.394107,0.054019,0.51497,0.173003,0.734581,0.161722,1.11749,0.150823,1.71999,0.128155,2.64115}: part16{87.3038},
+    LG+R9{0.107803,0.0232482,0.100869,0.124002,0.100921,0.281105,0.159761,0.45855,0.127335,0.815258,0.116653,1.20669,0.122501,1.68715,0.115412,2.38044,0.0487449,3.22852}: part17{76.7512},
+    LG+R8{0.115923,0.011844,0.190212,0.118578,0.174623,0.35235,0.132908,0.683099,0.140399,1.15875,0.10965,1.90863,0.101482,2.95209,0.0348034,4.37317}: part18{35.8344},
+    LG+R9{0.0312344,0.0239493,0.0995599,0.125594,0.113106,0.258386,0.172213,0.507949,0.156571,0.808592,0.185917,1.12127,0.112614,1.65775,0.0991326,2.33488,0.0296523,3.94007}: part19{85.3526},
+    LG+R7{0.170267,0.0461543,0.141763,0.223431,0.175085,0.50764,0.188856,0.918335,0.145342,1.4083,0.120282,2.28907,0.0584038,3.73495}: part20{32.7887},
+    LG+R6{0.117894,0.0316245,0.179009,0.261949,0.284775,0.646935,0.228003,1.30205,0.132076,2.04214,0.0582437,3.40916}: part21{29.6628},
+    JTT+R10{0.0586877,0.0092617,0.0787004,0.0703461,0.0742612,0.16392,0.0888819,0.326304,0.110118,0.52089,0.0990343,0.754114,0.134711,1.01839,0.141914,1.42663,0.122214,1.96833,0.091478,2.62903}: part22{107.191},
+    LG+R5{0.407469,0.0360623,0.296242,0.447109,0.180684,1.47149,0.091905,4.16385,0.0236998,8.62033}: part23{8.68277},
+    LG+R7{0.209799,0.0640049,0.176308,0.247072,0.19361,0.579943,0.155235,1.06046,0.135196,1.71364,0.0832429,2.74786,0.0466089,4.41314}: part24{48.236},
+    LG+I{0.0506239}+G4{1.39248}: part25{50.3125},
+    LG+R7{0.163222,0.0396771,0.190376,0.258943,0.192259,0.621418,0.168692,1.05509,0.178856,1.76018,0.060709,2.49714,0.0458853,3.93047}: part26{45.3737},
+    JTTDCMut+R9{0.144872,0.00903906,0.0980187,0.054731,0.141984,0.188949,0.173309,0.441879,0.125253,0.853457,0.117326,1.29683,0.0720061,2.03424,0.0594957,3.02099,0.0677357,4.49768}: part27{51.7979},
+    LG+R5{0.580951,0.0963829,0.280538,0.91213,0.0586648,2.82655,0.0610058,5.44875,0.0188406,10.079}: part28{7.95879},
+    JTTDCMut+F+R10{0.14523,0.0170002,0.123032,0.0942717,0.126253,0.251594,0.159943,0.492449,0.117237,0.839528,0.125354,1.36531,0.105371,2.1408,0.046258,3.12067,0.0411529,4.22516,0.0101684,6.09946}: part29{46.2874},
+    JTT+R7{0.210925,0.0148032,0.219794,0.140958,0.163387,0.439518,0.144811,0.924438,0.112627,1.79557,0.095084,3.03074,0.0533717,5.05531}: part30{38.7171},
+    JTT+R9{0.0626884,0.00886773,0.100304,0.073012,0.136005,0.205831,0.13932,0.410182,0.0912497,0.666325,0.15065,1.03114,0.154026,1.56049,0.106044,2.32502,0.0597127,3.41514}: part31{51.4068},
+    LG+R6{0.230954,0.0498758,0.249234,0.35658,0.199143,0.827303,0.198369,1.69655,0.0795474,2.58001,0.0427526,4.51626}: part32{26.4443},
+    LG+R6{0.0967405,0.0793128,0.162061,0.299653,0.323151,0.648609,0.212786,1.22124,0.140186,1.83335,0.065076,3.33909}: part33{45.8991},
+    JTT+R10{0.0320862,0.0100389,0.0959811,0.0651856,0.101539,0.157091,0.12456,0.302758,0.104587,0.510298,0.0925926,0.685861,0.0878455,0.972508,0.0981281,1.29342,0.170776,1.92912,0.0919053,3.05841}: part34{109.984},
+    JTT+R10{0.0727227,0.0333766,0.137293,0.135002,0.176384,0.273871,0.0940915,0.458422,0.106434,0.648965,0.0976414,0.906316,0.122257,1.34732,0.0850103,2.04793,0.0707068,3.08541,0.0374597,4.61988}: part35{56.1765},
+    JTT+F+R9{0.05941,0.0176188,0.120793,0.112144,0.126927,0.24905,0.171366,0.46893,0.157711,0.812229,0.150647,1.29832,0.11477,1.97263,0.0795984,2.99256,0.0187775,4.53462}: part36{67.4918},
+    JTT+F+R8{0.0901019,0.0200816,0.197952,0.142337,0.148414,0.375384,0.162236,0.79634,0.121028,1.27044,0.153172,1.73278,0.0967334,2.53469,0.0303631,3.9768}: part37{46.4704},
+    LG+R10{0.0906275,0.00747713,0.0507312,0.0398853,0.0669182,0.0957533,0.122202,0.223731,0.0992911,0.386801,0.134922,0.659745,0.120324,0.997047,0.108848,1.52517,0.0904324,2.18039,0.115703,3.05067}: part38{68.3794},
+    JTTDCMut+R7{0.0762551,0.0205147,0.129579,0.193586,0.171736,0.426302,0.19107,0.812251,0.239045,1.33667,0.160213,2.03156,0.0321022,3.11308}: part39{50.4023},
+    JTT+R8{0.0395,0.0076284,0.159494,0.0826674,0.127386,0.238726,0.132182,0.423692,0.125812,0.739981,0.165952,1.22047,0.121439,1.88242,0.128234,2.93106}: part40{63.8679},
+    LG+R8{0.141725,0.018831,0.242791,0.141143,0.133931,0.405295,0.150061,0.766492,0.112629,1.28347,0.10369,2.09131,0.0818098,3.22534,0.0333623,5.0504}: part41{43.255},
+    JTT+R9{0.139143,0.0269676,0.186411,0.166028,0.202753,0.411552,0.156496,0.762533,0.128657,1.28324,0.099691,2.11538,0.0409388,3.43851,0.0342681,4.81495,0.0116422,6.93787}: part42{28.1074},
+    LG+R6{0.0621119,0.00495285,0.140099,0.135992,0.15064,0.397153,0.251499,0.743816,0.243271,1.45418,0.15238,2.49367}: part43{31.4323},
+    JTT+R7{0.138373,0.0553386,0.192885,0.220934,0.18409,0.530025,0.189983,0.959404,0.167376,1.66609,0.0788923,2.50885,0.0484014,3.98941}: part44{38.3072},
+    JTT+R7{0.138692,0.047337,0.185498,0.242644,0.205527,0.573555,0.20204,1.01269,0.135163,1.65998,0.0767875,2.49427,0.0562922,3.7313}: part45{40.0222},
+    JTT+R8{0.107519,0.019257,0.175876,0.0913652,0.17091,0.289496,0.141497,0.696902,0.144643,1.12727,0.0979251,1.7661,0.0922125,2.53746,0.0694178,3.80004}: part46{43.5416},
+    LG+R6{0.241116,0.0283319,0.250371,0.305342,0.267701,0.814144,0.129367,1.79094,0.0993588,3.86472,0.0120861,6.87486}: part47{25.8639},
+    LG+R7{0.0546193,0.0385663,0.187533,0.21081,0.260428,0.485342,0.251763,0.992328,0.130862,1.5536,0.0837341,2.82815,0.0310605,4.57212}: part48{30.2629},
+    JTTDCMut+R8{0.0530017,0.00955799,0.160375,0.0763522,0.132406,0.205757,0.11644,0.375441,0.144937,0.658002,0.091857,1.06675,0.121018,1.78377,0.179964,2.81758}: part49{75.5356},
+    JTT+R8{0.0504349,0.0319466,0.0403638,0.176042,0.0729623,0.200275,0.103466,0.364849,0.200699,0.640415,0.221891,1.03565,0.193348,1.57719,0.116835,2.35923}: part50{82.7412},
+    LG+R7{0.264675,0.0116805,0.29861,0.158379,0.150367,0.64662,0.126124,1.3651,0.0834415,2.75248,0.0368963,4.6931,0.0398859,6.95443}: part51{19.0059},
+    LG+R7{0.102194,0.0194204,0.165838,0.101241,0.15572,0.293261,0.153838,0.671762,0.129238,1.22406,0.171609,1.85648,0.121564,2.92384}: part52{50.7322},
+    LG+F+R5{0.228677,0.106744,0.222551,0.443088,0.33539,1.06706,0.164782,2.07977,0.0486003,3.62941}: part53{31.8055},
+    LG+R6{0.0735067,0.0433214,0.192354,0.214845,0.287755,0.622088,0.243184,1.22868,0.164843,2.04884,0.038357,3.64853}: part54{35.0714},
+    JTT+R8{0.0781927,0.0125019,0.144382,0.0970006,0.138633,0.264648,0.18997,0.575933,0.14237,1.00996,0.184174,1.73282,0.105047,2.71672,0.017231,5.25829}: part55{50.5914},
+    JTT+R8{0.0378331,0.0374333,0.0353069,0.14834,0.0672256,0.28036,0.101756,0.434886,0.191911,0.643534,0.292694,1.03986,0.198347,1.62663,0.0749254,2.399}: part56{81.2548},
+    JTT+R9{0.122932,0.0699071,0.156757,0.209117,0.108179,0.349006,0.136724,0.508702,0.127645,0.76932,0.133919,1.21414,0.102735,1.8952,0.0876056,3.1279,0.023504,5.18199}: part57{50.5478},
+    JTT+R7{0.0928359,0.073331,0.157547,0.243518,0.204372,0.483025,0.176368,0.809015,0.185476,1.22343,0.133786,2.03912,0.0496149,4.30725}: part58{60.9575},
+    LG+R8{0.177701,0.0130738,0.179134,0.132205,0.160138,0.442964,0.161602,0.845597,0.128492,1.38586,0.104392,2.24699,0.0593099,3.48451,0.029231,5.03246}: part59{24.2734},
+    LG+R5{0.489786,0.0964353,0.268452,0.605614,0.121862,1.74348,0.0949941,3.93694,0.0249063,8.1802}: part60{9.14233},
+    LG+R8{0.0483839,0.0202721,0.0900622,0.124929,0.155236,0.323947,0.199407,0.611722,0.23048,1.02377,0.145668,1.61599,0.0965297,2.31013,0.0342339,3.53877}: part61{43.2584},
+    JTT+R9{0.114765,0.0360679,0.124589,0.183283,0.180507,0.402396,0.15186,0.689408,0.149304,1.0045,0.126297,1.50935,0.0681447,2.23282,0.0643856,3.13906,0.020146,5.00485}: part62{55.5042},
+    JTT+F+R9{0.0763585,0.010239,0.0955156,0.0943831,0.130965,0.261485,0.112644,0.463782,0.121862,0.739792,0.138016,1.03835,0.143784,1.54131,0.109006,2.14705,0.0718498,2.98675}: part63{77.3466},
+    JTT+F+R8{0.131476,0.0200446,0.0605212,0.132706,0.123671,0.313924,0.179071,0.590555,0.1859,0.93652,0.146195,1.55337,0.126462,2.25227,0.0467033,3.39886}: part64{63.688},
+    LG+F+R9{0.0539792,0.0277823,0.108191,0.120258,0.0984988,0.242401,0.15033,0.454534,0.186236,0.797588,0.148437,1.19357,0.151591,1.83385,0.0776764,2.57388,0.0250609,3.57723}: part65{62.6583},
+    JTTDCMut+R9{0.0856712,0.032558,0.137032,0.150703,0.125062,0.341815,0.149207,0.559515,0.107216,0.87254,0.127893,1.20868,0.138446,1.78879,0.101273,2.52572,0.028201,3.50197}: part66{55.2952},
+    LG+F+R6{0.122459,0.0873823,0.233433,0.416485,0.19013,0.628646,0.180273,1.12637,0.203719,1.79167,0.069986,2.92204}: part67{32.158},
+    JTT+R10{0.0788864,0.0105507,0.0773115,0.0622693,0.0968695,0.146423,0.0901231,0.296175,0.0802082,0.454353,0.11879,0.68602,0.116634,1.05328,0.113295,1.49095,0.172849,2.17301,0.0550342,3.05585}: part68{106.139},
+    JTT+R7{0.0802565,0.125515,0.148478,0.304475,0.235783,0.538578,0.210437,0.929965,0.181586,1.46708,0.111003,2.16426,0.0324562,3.55528}: part69{35.9614},
+    JTTDCMut+G4{0.5848}: part70{27.4499},
+    LG+R8{0.110815,0.0399864,0.147631,0.150259,0.125069,0.316516,0.129545,0.53272,0.141189,0.903756,0.153404,1.45653,0.135996,2.28371,0.0563518,3.6055}: part71{70.3409},
+    LG+R8{0.268987,0.0127206,0.188822,0.146487,0.125797,0.366145,0.106549,0.694629,0.0867,1.18154,0.0667452,1.85135,0.0670285,2.80533,0.0893711,4.86512}: part72{36.6574},
+    LG+R7{0.307069,0.0308525,0.18342,0.247049,0.173803,0.653468,0.123935,1.32861,0.0971208,2.22215,0.0850284,3.49134,0.0296234,5.20859}: part73{34.1604},
+    LG+R8{0.182143,0.0281614,0.154457,0.130595,0.119088,0.364866,0.194568,0.767788,0.120172,1.26416,0.118043,1.9759,0.0773519,2.99532,0.0341768,4.82811}: part74{35.5632},
+    LG+F+G4{0.990891}: part75{116.536},
+    LG+F+R6{0.267753,0.0375827,0.265086,0.296339,0.149973,0.763191,0.133404,1.45253,0.148267,2.81135,0.0355162,5.24603}: part76{23.6548},
+    JTT+R8{0.0688382,0.070545,0.126297,0.219253,0.128816,0.394665,0.158983,0.593055,0.16247,0.921131,0.213551,1.4258,0.101475,2.24155,0.0395688,3.55654}: part77{52.6198},
+    LG+F+R7{0.0918846,0.0613605,0.131841,0.23054,0.218813,0.4523,0.196469,0.808565,0.188569,1.38556,0.123084,2.22526,0.0493391,3.46525}: part78{43.7871},
+    JTT+R10{0.36239,0.0509335,0.163572,0.211189,0.13487,0.468246,0.105186,0.755927,0.0746831,1.42281,0.0298907,2.312,0.0235677,3.27613,0.0296877,3.27724,0.0439311,4.68309,0.0322223,7.71913}: part79{16.3806},
+    LG+R5{0.503405,0.0786355,0.287471,0.748825,0.133665,2.32396,0.0429653,4.24802,0.0324931,7.75546}: part80{7.97698},
+    LG+R5{0.207413,0.156386,0.260616,0.42517,0.176534,0.814759,0.233728,1.58508,0.121709,2.81365}: part81{44.6104},
+    JTT+R8{0.0762863,0.0170768,0.0781321,0.116481,0.0832803,0.237036,0.127454,0.42443,0.17267,0.693548,0.183594,1.1547,0.175709,1.76184,0.102875,2.6677}: part82{67.3172},
+    LG+I{0.275373}+G4{0.624315}: part83{30.6229},
+    LG+F+R7{0.0540794,0.0248989,0.0743213,0.159303,0.222903,0.395079,0.278891,0.752543,0.201143,1.27309,0.122749,2.13545,0.0459124,3.71737}: part84{62.9481},
+    LG+R7{0.292418,0.0260107,0.165636,0.205019,0.212467,0.555947,0.140223,1.18451,0.0886389,2.23846,0.0832685,4.1063,0.0173487,7.717}: part85{23.8394},
+    JTT+R9{0.0355521,0.0133245,0.0284447,0.0551884,0.101709,0.147691,0.113775,0.354068,0.133539,0.564199,0.225432,0.829363,0.160543,1.29022,0.132939,1.98362,0.068066,3.078}: part86{75.8955},
+    JTTDCMut+R9{0.0630144,0.0481752,0.0921375,0.183666,0.191821,0.380508,0.174918,0.643146,0.183008,1.00219,0.113791,1.5081,0.0963429,1.92513,0.0762101,2.85933,0.00875825,4.12828}: part87{43.7551},
+    LG+R7{0.103158,0.0522568,0.136576,0.268518,0.208224,0.498157,0.155516,0.870769,0.19781,1.30272,0.148338,2.03519,0.0503776,3.16019}: part88{66.1156},
+    LG+R8{0.137827,0.0234873,0.214244,0.130046,0.202208,0.358072,0.114119,0.692722,0.107614,1.08619,0.0756293,1.80244,0.0772521,2.91086,0.0711069,4.77263}: part89{49.8964},
+    LG+F+R8{0.119609,0.0227983,0.112514,0.11383,0.111209,0.256688,0.0662921,0.3933,0.0999446,0.654816,0.169436,1.05291,0.205999,1.61832,0.114996,3.06644}: part90{56.2637},
+    LG+R8{0.157022,0.0122263,0.166299,0.116766,0.172485,0.325674,0.110763,0.630249,0.11336,1.02398,0.109397,1.60306,0.117223,2.59057,0.0534511,4.81854}: part91{58.6829},
+    LG+R6{0.0485181,0.026602,0.213485,0.263303,0.280726,0.617442,0.209581,1.09817,0.165629,1.76345,0.0820608,3.00913}: part92{39.8916},
+    JTT+F+R8{0.0226466,0.0204402,0.0542919,0.119184,0.148562,0.273097,0.215601,0.541368,0.185205,0.907458,0.185476,1.38315,0.150707,1.97927,0.0375111,3.00922}: part93{65.7717},
+    LG+R5{0.336624,0.0899925,0.291358,0.586882,0.227283,1.47927,0.133554,3.01963,0.0111807,5.29625}: part94{20.189},
+    LG+R8{0.171463,0.0381962,0.192852,0.182311,0.144893,0.450269,0.142832,0.814175,0.134099,1.30845,0.105973,1.99547,0.057622,3.00808,0.0502661,4.30711}: part95{36.53},
+    LG+R6{0.0498557,0.0321922,0.153966,0.198417,0.253215,0.563856,0.256947,0.957814,0.191314,1.67856,0.0947021,2.72254}: part96{31.6888},
+    LG+R7{0.0654696,0.0440263,0.114033,0.180756,0.252951,0.468623,0.225566,0.910104,0.166055,1.3742,0.142195,2.11856,0.0337307,3.65359}: part97{66.0108},
+    JTTDCMut+R8{0.167207,0.0484517,0.203035,0.214661,0.184089,0.49284,0.169038,0.896768,0.145204,1.61113,0.0790375,2.68653,0.0370492,4.27567,0.0153412,6.60398}: part98{30.688},
+    JTT+F+R10{0.017746,0.0244572,0.0412358,0.0893323,0.0803458,0.198752,0.114215,0.348158,0.121667,0.512443,0.171913,0.749411,0.163906,1.09885,0.124237,1.51151,0.0982361,2.04781,0.066498,2.70543}: part99{95.9211},
+    JTT+R8{0.0195687,0.0124195,0.0634645,0.11228,0.128851,0.268151,0.191803,0.56047,0.246439,0.937609,0.200494,1.43602,0.125187,2.07671,0.0241938,2.96048}: part100{61.4582},
+    JTT+F+R8{0.0141887,0.034751,0.109968,0.14045,0.135099,0.279438,0.15988,0.507472,0.140912,0.752354,0.168996,1.15242,0.168542,1.72181,0.102415,2.67742}: part101{85.1837},
+    LG+R7{0.343025,0.0141079,0.270402,0.217052,0.140987,0.747453,0.123415,1.7341,0.0654617,3.43566,0.0422852,6.0734,0.0144234,9.3844}: part102{14.2693},
+    JTTDCMut+R7{0.123453,0.0425054,0.177565,0.212166,0.25156,0.497305,0.172529,0.957849,0.125932,1.55859,0.0849857,2.52086,0.0639765,4.00472}: part103{38.8001},
+    LG+R8{0.166296,0.0171133,0.17187,0.15146,0.155838,0.379122,0.147057,0.737097,0.125044,1.25216,0.116311,2.00203,0.0909866,3.20832,0.0265975,4.59811}: part104{45.9724},
+    LG+R5{0.38033,0.11606,0.327719,0.754845,0.208481,1.74619,0.0722336,3.35732,0.011236,9.07112}: part105{17.2452},
+    LG+R8{0.0806651,0.0176384,0.11296,0.0860958,0.118803,0.212971,0.161122,0.419593,0.204423,0.848609,0.124633,1.4121,0.142488,2.2372,0.0549052,4.14716}: part106{80.8334},
+    JTT+R7{0.134879,0.0367757,0.198387,0.184746,0.153646,0.468347,0.210263,0.88672,0.114367,1.45471,0.110383,2.21621,0.0780755,3.70131}: part107{50.3978},
+    JTTDCMut+R7{0.19997,0.0353867,0.165835,0.198936,0.20897,0.502799,0.144099,0.883343,0.0791266,1.49872,0.137657,2.46246,0.0643422,4.19646}: part108{36.4931},
+    JTT+R10{0.0332123,0.00750798,0.0737818,0.0736115,0.176018,0.190693,0.113743,0.327086,0.0839585,0.484402,0.106448,0.73777,0.114293,1.03838,0.0966854,1.51214,0.124568,2.2424,0.0772913,3.36561}: part109{73.0469},
+    JTT+R8{0.0626171,0.0332687,0.140034,0.141543,0.103522,0.292984,0.186247,0.540276,0.196453,0.907893,0.132027,1.47563,0.119289,2.29344,0.0598118,3.35013}: part110{59.4976},
+    LG+R8{0.089652,0.00644251,0.119292,0.174217,0.158649,0.429349,0.215949,0.744342,0.166875,1.15821,0.138526,1.77761,0.0935381,2.58254,0.0175188,3.92131}: part111{57.0388},
+    LG+R7{0.391924,0.0457894,0.273264,0.372503,0.142838,1.03429,0.0866875,2.10653,0.0642073,3.59442,0.0255301,6.21912,0.0155494,10.3126}: part112{11.4446},
+    LG+R8{0.0914416,0.0295069,0.0620124,0.0876964,0.124069,0.240752,0.214793,0.446716,0.132031,0.686188,0.15147,1.19693,0.126735,2.01477,0.0974478,3.47676}: part113{49.6347},
+    JTTDCMut+R9{0.0929116,0.0122351,0.0636887,0.0964593,0.119105,0.258722,0.192452,0.464607,0.116181,0.737415,0.185243,1.1924,0.11365,1.78871,0.108379,2.91855,0.00838987,5.52306}: part114{89.9958},
+    JTT+R7{0.125656,0.024603,0.202052,0.186615,0.155927,0.47659,0.138898,0.906999,0.135654,1.27017,0.192414,2.01315,0.0493989,4.03344}: part115{47.1824},
+    JTT+R9{0.0357995,0.0184943,0.0402184,0.105749,0.0874525,0.203827,0.113943,0.336389,0.117676,0.527604,0.119309,0.773242,0.19698,1.10248,0.183265,1.6294,0.105357,2.55143}: part116{73.9661},
+    JTT+R9{0.136684,0.0106645,0.146217,0.106278,0.152201,0.316457,0.15963,0.64763,0.14743,1.0853,0.0939588,1.68784,0.0776907,2.42563,0.0643357,3.41455,0.0218527,4.79283}: part117{41.0604},
+    LG+R6{0.387594,0.0635825,0.185168,0.343908,0.119979,0.849789,0.169125,1.77396,0.0953638,2.93962,0.0427695,5.36277}: part118{22.5222},
+    LG+R7{0.210215,0.0334728,0.169363,0.252917,0.181653,0.587184,0.210785,1.10549,0.11118,1.83598,0.0827887,2.9375,0.034015,4.7958}: part119{31.7018},
+    JTT+R10{0.0229039,0.00798482,0.0780722,0.0626629,0.154505,0.212035,0.162223,0.421698,0.137149,0.698102,0.13123,1.04685,0.144552,1.48133,0.0861888,2.06544,0.0522053,2.70729,0.030971,4.10549}: part120{61.0789},
+    LG+F+R7{0.180311,0.0253421,0.202868,0.150811,0.178094,0.419004,0.175719,0.920109,0.120299,1.8865,0.0826778,2.7746,0.0600325,4.53408}: part121{33.5802},
+    LG+R6{0.19045,0.0259118,0.283525,0.272164,0.191469,0.696938,0.183159,1.47838,0.104603,2.8361,0.0467923,4.63777}: part122{25.9795},
+    JTTDCMut+R7{0.137648,0.0445671,0.17902,0.193292,0.236733,0.460715,0.152883,0.883977,0.109145,1.48328,0.0885472,2.25264,0.0960238,3.6834}: part123{63.6333},
+    LG+R8{0.206938,0.0113867,0.196832,0.0803161,0.148431,0.231338,0.119112,0.550206,0.0890441,1.16125,0.0728579,1.82119,0.0951378,2.91608,0.0716463,5.1425}: part124{44.6977},
+    JTT+R9{0.146645,0.0205045,0.157412,0.141668,0.121075,0.343529,0.0881392,0.551343,0.127839,0.792301,0.124365,1.21106,0.113554,1.84073,0.0763578,2.93278,0.0446125,4.47502}: part125{52.9227},
+    JTT+R8{0.0469524,0.0547194,0.143582,0.208565,0.152062,0.407051,0.202756,0.660541,0.183473,1.0001,0.104187,1.41958,0.0865432,2.04054,0.0804448,3.27767}: part126{52.9324},
+    LG+R6{0.108275,0.0119903,0.118491,0.11081,0.178491,0.354479,0.207963,0.802422,0.222803,1.44411,0.163977,2.64473}: part127{41.7968},
+    LG+R7{0.401081,0.0305893,0.218421,0.306639,0.16715,0.798942,0.10523,1.95591,0.0547525,3.41235,0.0355806,6.31612,0.0177846,9.54897}: part128{15.6457},
+    LG+R8{0.13197,0.015742,0.161465,0.12585,0.104029,0.310662,0.120829,0.55973,0.137627,0.923459,0.122416,1.37657,0.134421,2.17478,0.0872428,3.32072}: part129{50.6874},
+    WAG+F+R8{0.0445562,0.00676129,0.0615932,0.077895,0.0862735,0.190915,0.100651,0.322559,0.132265,0.531237,0.22049,0.915045,0.213695,1.54318,0.140477,2.45003}: part130{124.658},
+    LG+F+R7{0.250199,0.0436657,0.181743,0.258259,0.172434,0.655012,0.126554,1.19842,0.166778,1.96854,0.0848074,3.0934,0.0174832,4.96894}: part131{35.4541},
+    JTTDCMut+R9{0.026437,0.0276037,0.0841733,0.123334,0.130426,0.284139,0.194333,0.508405,0.192099,0.81066,0.127637,1.21726,0.143414,1.70148,0.0636408,2.46717,0.0378405,3.72373}: part132{46.9114},
+    JTT+F+R7{0.172571,0.0389413,0.167696,0.253191,0.193584,0.606231,0.164992,1.07704,0.138408,1.56205,0.116507,2.35106,0.0462428,3.58211}: part133{42.8041},
+    LG+R6{0.0962252,0.0965557,0.215032,0.349605,0.14304,0.643603,0.281718,1.01535,0.198454,1.74146,0.0655312,2.92731}: part134{36.4081},
+    JTT+R7{0.0519778,0.00711077,0.136525,0.0868126,0.187904,0.231636,0.163206,0.520223,0.144475,0.962478,0.164729,1.63996,0.151184,2.97748}: part135{67.5329},
+    JTT+R7{0.0816258,0.0807763,0.251481,0.292323,0.234318,0.600401,0.19816,1.07348,0.0998159,1.75796,0.0998558,2.48997,0.0347427,4.098}: part136{36.9806},
+    LG+R8{0.1083,0.0157115,0.149468,0.14215,0.225949,0.419606,0.267406,0.913065,0.160092,1.737,0.067037,2.73127,0.0168696,5.54857,0.00487805,17.0772}: part137{37.483},
+    LG+R6{0.28875,0.0773252,0.28799,0.430463,0.192939,1.0375,0.143426,2.03202,0.0651183,3.49642,0.0217769,6.17185}: part138{16.0374},
+    JTTDCMut+R9{0.0860418,0.0319512,0.101065,0.145965,0.145104,0.333435,0.165219,0.616063,0.18757,0.973553,0.169318,1.37766,0.0958806,1.98845,0.0272985,2.84949,0.0225038,6.57751}: part139{60.9855},
+    JTT+F+R7{0.0255303,0.0671046,0.119578,0.245606,0.212015,0.498483,0.229722,0.857388,0.205095,1.23061,0.176998,1.85822,0.0310634,2.73572}: part140{55.4911},
+    LG+R8{0.218613,0.0131686,0.207815,0.156867,0.186327,0.473142,0.164569,0.872658,0.0972823,1.71861,0.0512524,2.99039,0.059293,4.84525,0.0148487,8.4187}: part141{17.1778},
+    LG+R7{0.323196,0.037366,0.200387,0.255778,0.168214,0.725885,0.119498,1.39691,0.104771,2.48587,0.0691654,4.12126,0.0147686,6.9161}: part142{19.8018},
+    JTT+R8{0.180459,0.00951398,0.178814,0.0818865,0.147158,0.269554,0.157612,0.698528,0.139318,1.36436,0.0973663,2.31096,0.0667052,3.66116,0.0325683,5.36012}: part143{43.31},
+    JTT+F+R9{0.139037,0.00849968,0.0873236,0.0758974,0.102793,0.222818,0.132504,0.458079,0.141951,0.795997,0.138029,1.21775,0.112476,1.74885,0.0899866,2.47818,0.0558988,3.71752}: part144{53.7169},
+    JTT+R7{0.078005,0.0431845,0.0439562,0.110142,0.160323,0.272603,0.165837,0.536722,0.135112,0.858979,0.209276,1.35383,0.207491,2.2155}: part145{100.043},
+    LG+R6{0.0784254,0.047325,0.305949,0.325305,0.233239,0.748145,0.238062,1.28166,0.107062,2.26901,0.0372626,4.6756}: part146{27.6707},
+    LG+R7{0.133047,0.0692412,0.183547,0.259993,0.253256,0.579243,0.157687,0.983039,0.134663,1.48169,0.0983246,2.31584,0.0394758,5.42423}: part147{41.544},
+    LG+R6{0.180849,0.037817,0.172006,0.228625,0.228234,0.659809,0.194483,1.18789,0.182697,2.29531,0.0417322,3.66325}: part148{39.3453},
+    JTTDCMut+R7{0.144424,0.100311,0.244678,0.391953,0.203241,0.787027,0.154886,1.2093,0.148766,1.69667,0.0813217,2.5307,0.0226838,3.70941}: part149{35.8856},
+    LG+R9{0.17228,0.00941961,0.158843,0.104534,0.162505,0.31438,0.153045,0.650512,0.10091,1.16763,0.0983948,1.81117,0.0703014,2.61171,0.0629912,3.74953,0.0207301,5.56181}: part150{48.6645},
+    LG+R7{0.0263696,0.0451945,0.141131,0.173974,0.123018,0.283959,0.152635,0.495201,0.241409,0.911333,0.167278,1.54558,0.14816,2.59985}: part151{51.2585},
+    LG+F+R6{0.315149,0.017143,0.246,0.201131,0.209186,0.849492,0.118174,2.10082,0.079121,3.7908,0.0323701,6.7724}: part152{15.666},
+    JTT+R8{0.0709572,0.0184662,0.135995,0.145471,0.201512,0.379587,0.164139,0.673799,0.114789,1.02973,0.17,1.582,0.0868995,2.36474,0.0557081,3.57545}: part153{73.7973},
+    JTT+R7{0.0473742,0.0573071,0.0963236,0.166626,0.212604,0.36807,0.194686,0.674808,0.193016,1.15014,0.156738,1.83289,0.0992586,2.64288}: part154{84.2257},
+    JTTDCMut+R8{0.142621,0.0102511,0.113978,0.0887803,0.154661,0.245134,0.128018,0.552477,0.17946,1.06006,0.129515,1.83469,0.106138,2.58939,0.0456076,3.88281}: part155{58.1592},
+    LG+R7{0.0635001,0.0226784,0.166613,0.1698,0.22778,0.453714,0.250434,0.911643,0.121026,1.48345,0.134478,2.35405,0.0361696,3.94014}: part156{39.3258},
+    LG+R6{0.34015,0.0529801,0.263687,0.319896,0.182952,0.989624,0.118812,2.0815,0.0756973,4.13426,0.0187016,8.35833}: part157{12.9705},
+    LG+R8{0.16509,0.0338273,0.21247,0.250209,0.196336,0.582781,0.139863,0.999349,0.102432,1.50661,0.0877761,2.10605,0.0825193,3.25619,0.0135132,5.85915}: part158{30.5791},
+    JTTDCMut+R10{0.120582,0.00734741,0.117943,0.0795144,0.150452,0.208695,0.0864178,0.38896,0.0974117,0.586085,0.126287,0.935714,0.112539,1.50478,0.0927066,2.28548,0.0701364,3.35628,0.0255248,5.20436}: part159{56.1566},
+    LG+R6{0.383403,0.0394898,0.244249,0.353977,0.143074,0.957055,0.118646,2.1457,0.0655284,3.63375,0.0450981,5.95982}: part160{18.3966},
+    JTT+R8{0.107228,0.0466982,0.154374,0.19419,0.189719,0.404751,0.150314,0.743008,0.113504,1.1291,0.116904,1.61183,0.109302,2.32729,0.0586554,3.50482}: part161{45.1643},
+    JTT+F+R7{0.0702033,0.0227638,0.191271,0.17096,0.203198,0.448637,0.242833,0.92567,0.15603,1.66974,0.102897,2.5821,0.0335671,3.68029}: part162{31.5756},
+    JTT+R8{0.0485333,0.0301752,0.117331,0.0948189,0.125164,0.24735,0.101507,0.416202,0.189066,0.686221,0.184962,1.17155,0.139613,2.00904,0.0938232,3.06194}: part163{55.4102},
+    JTT+R9{0.0638045,0.00856345,0.130382,0.0814281,0.109979,0.239555,0.139556,0.421173,0.137382,0.677992,0.0640948,0.957987,0.143624,1.4349,0.159298,2.31525,0.0518792,3.35908}: part164{55.5621},
+    JTT+R9{0.0176996,0.0226129,0.0658828,0.104367,0.116552,0.254074,0.179542,0.452766,0.179395,0.756881,0.153159,1.09102,0.151915,1.58974,0.101662,2.26012,0.0341931,3.1488}: part165{72.2018},
+    LG+R5{0.459575,0.0859278,0.264844,0.635963,0.182572,1.98917,0.0685691,4.01679,0.0244398,6.28011}: part166{11.7565},
+    LG+R5{0.414151,0.0950561,0.299466,0.700508,0.195646,1.84459,0.0834418,3.81193,0.00729562,9.85422}: part167{9.08253},
+    LG+R6{0.170628,0.0577964,0.108829,0.254891,0.24275,0.534716,0.222414,1.06775,0.116332,1.7151,0.139046,2.84503}: part168{41.9112},
+    LG+I{0.0651139}+G4{0.904263}: part169{23.5078},
+    LG+R7{0.0901179,0.0492209,0.123818,0.208527,0.123745,0.389489,0.209076,0.720028,0.227446,1.19669,0.155542,1.88009,0.0702564,2.93771}: part170{48.3021},
+    JTT+R8{0.186486,0.0256951,0.142996,0.170709,0.111641,0.352421,0.134163,0.614969,0.115257,1.01604,0.172348,1.81506,0.0916281,2.63299,0.0454799,3.90861}: part171{58.8536},
+    LG+R9{0.0368254,0.0239234,0.126074,0.133301,0.172266,0.290369,0.151835,0.541008,0.170309,0.848639,0.112606,1.27531,0.105617,1.87678,0.0886001,2.51777,0.0358677,3.92315}: part172{60.0326},
+    JTT+R7{0.14816,0.0188388,0.170667,0.208768,0.182183,0.499407,0.211615,0.954757,0.124507,1.58729,0.107222,2.49219,0.0556464,3.66074}: part173{27.5902},
+    JTT+R8{0.071127,0.0283923,0.15703,0.153792,0.136523,0.370814,0.172369,0.612193,0.159311,1.01717,0.131909,1.42075,0.11915,2.18184,0.0525802,3.96081}: part174{53.6396},
+    LG+R6{0.149768,0.0562997,0.157875,0.28455,0.181501,0.594494,0.209158,1.01179,0.139502,1.51962,0.162195,2.55944}: part175{42.0628},
+    LG+R6{0.089695,0.035132,0.145267,0.160342,0.111428,0.426835,0.24152,0.768062,0.201059,1.28123,0.211031,2.28824}: part176{72.1854},
+    LG+F+R6{0.04362,0.0136606,0.133913,0.194799,0.336905,0.552621,0.244926,0.994118,0.140695,1.79543,0.0999402,2.91217}: part177{39.4511},
+    JTT+R8{0.0263768,0.0401251,0.0454743,0.141238,0.165324,0.280326,0.18992,0.530671,0.212788,0.867467,0.19187,1.35998,0.13172,2.08167,0.036528,3.44028}: part178{65.8601},
+    LG+R7{0.21801,0.0366587,0.155944,0.202861,0.158151,0.482955,0.204212,0.949531,0.131854,1.79306,0.0962143,2.98795,0.0356135,4.66625}: part179{51.847},
+    LG+R7{0.252256,0.0315329,0.163453,0.173861,0.184591,0.476231,0.154683,1.06053,0.129837,1.81295,0.0688373,3.10342,0.0463419,5.66775}: part180{20.8273},
+    LG+F+R10{0.0164446,0.0127666,0.0354562,0.0730787,0.0600572,0.18016,0.103687,0.343327,0.140649,0.540671,0.15559,0.763357,0.167432,1.10048,0.19256,1.47936,0.0942459,1.99627,0.0338784,2.91347}: part181{148.08},
+    LG+R5{0.303264,0.045002,0.320419,0.444229,0.184293,1.25555,0.158129,2.73524,0.0338949,5.31356}: part182{16.8721},
+    JTT+F+R10{0.0810449,0.00575547,0.0576876,0.06988,0.0563877,0.161502,0.0612149,0.267224,0.0722962,0.401722,0.103495,0.581967,0.138621,0.84484,0.160479,1.20466,0.18079,1.80122,0.0879838,2.78104}: part183{108.143},
+    LG+R8{0.0546983,0.0327147,0.264989,0.25561,0.266827,0.517877,0.135202,0.963765,0.101904,1.44257,0.0988107,2.10884,0.0606417,3.47696,0.016928,5.65702}: part184{27.5348},
+    JTTDCMut+R9{0.151548,0.0197083,0.168043,0.116716,0.150837,0.280565,0.130606,0.523618,0.0991558,0.795424,0.0934635,1.32343,0.0732662,2.02534,0.0821218,3.04591,0.0509597,5.21205}: part185{45.687},
+    LG+R7{0.229522,0.0119208,0.192861,0.183005,0.242048,0.565579,0.122404,1.19083,0.133449,2.3077,0.0732472,4.3902,0.00646875,7.69545}: part186{18.3642},
+    LG+R6{0.185198,0.0463971,0.0988149,0.274812,0.303665,0.61506,0.223218,1.24114,0.125902,2.09135,0.0632013,3.75197}: part187{37.1494},
+    JTT+R10{0.105454,0.00877879,0.0834911,0.0696688,0.0889686,0.183461,0.163184,0.361372,0.155222,0.643725,0.121039,0.977629,0.109856,1.57862,0.0655809,2.23367,0.0748068,3.06104,0.0323981,4.65525}: part188{80.8398},
+    LG+R6{0.0924053,0.0302427,0.170858,0.200548,0.271279,0.528424,0.193848,1.07441,0.132908,1.76326,0.138701,2.71783}: part189{55.1929},
+    JTT+R9{0.0851679,0.0172404,0.0991227,0.100173,0.0840152,0.207337,0.118361,0.366779,0.11396,0.583489,0.125142,0.876543,0.135831,1.3044,0.124262,1.99608,0.114138,2.85942}: part190{112.889},
+    JTTDCMut+R9{0.109908,0.0161384,0.112892,0.0827218,0.2047,0.251848,0.16837,0.562846,0.147561,0.959151,0.0818793,1.46981,0.0665759,2.03897,0.03451,3.06488,0.073603,4.60814}: part191{59.9878},
+    JTT+R10{0.270918,0.0198288,0.244885,0.109268,0.144843,0.428126,0.0906456,0.865098,0.0922874,1.54654,0.0574533,2.59503,0.034526,2.59554,0.0406958,4.26116,0.0130892,6.56046,0.0106571,17.5212}: part192{16.6041},
+    LG+F+R7{0.158798,0.0546753,0.240417,0.251649,0.195219,0.595139,0.148559,0.938783,0.116111,1.63454,0.0977712,2.77555,0.0431251,4.96261}: part193{38.9605},
+    LG+R8{0.0691335,0.0237197,0.111159,0.148026,0.172287,0.386601,0.183958,0.68836,0.177858,1.06823,0.157974,1.58099,0.0972545,2.43992,0.0303758,3.67492}: part194{43.0032},
+    LG+R8{0.0763188,0.0189154,0.176735,0.187446,0.130564,0.374427,0.170191,0.657907,0.186865,1.07468,0.140442,1.77591,0.0772571,2.53077,0.0416275,3.81525}: part195{54.5803},
+    JTT+F+R10{0.0104064,0.0119219,0.0757354,0.0995695,0.0845663,0.224764,0.158256,0.379539,0.186224,0.612149,0.155674,0.941545,0.127675,1.34316,0.098924,1.82685,0.0762687,2.61574,0.0262693,3.84424}: part196{51.5645},
+    JTT+R9{0.112308,0.0382037,0.181275,0.185354,0.214083,0.43249,0.151339,0.765712,0.131221,1.23702,0.103382,1.9699,0.0527933,2.94091,0.0440523,3.98335,0.00954702,5.96274}: part197{34.0564},
+    LG+R6{0.241093,0.020441,0.307087,0.227392,0.209586,1.05501,0.184292,2.25621,0.0391707,4.194,0.018771,6.60823}: part198{15.676},
+    LG+R7{0.391625,0.013749,0.200889,0.236922,0.130585,0.673202,0.118776,1.56833,0.0916583,2.99582,0.0488903,5.14604,0.0175766,8.34334}: part199{26.1948},
+    LG+R8{0.206269,0.0470633,0.168488,0.196954,0.163738,0.421484,0.142025,0.731173,0.101812,1.19068,0.0855257,1.81691,0.0822145,2.96044,0.0499268,5.29256}: part200{25.4674},
+    JTT+F+R7{0.135081,0.0311145,0.198176,0.237766,0.233815,0.538834,0.174665,1.00038,0.122867,1.6035,0.0921043,2.7753,0.0432929,4.5117}: part201{45.907},
+    JTT+R9{0.100651,0.0126456,0.147712,0.105427,0.150626,0.2756,0.163636,0.556561,0.11514,0.902899,0.158848,1.42523,0.100219,2.29804,0.0390186,3.79128,0.0241495,5.87912}: part202{49.7177},
+    LG+R5{0.585853,0.0505513,0.214788,0.654893,0.128007,2.27827,0.0515865,5.93727,0.0197654,11.7278}: part203{7.06138},
+    JTTDCMut+R10{0.148425,0.00820377,0.107528,0.0638941,0.0972809,0.186381,0.0639347,0.330568,0.112298,0.568235,0.106962,0.924495,0.145068,1.40734,0.090725,2.06636,0.105175,2.90385,0.0226034,4.1103}: part204{63.2728},
+    JTT+R8{0.0485102,0.0638378,0.110202,0.185003,0.144138,0.333827,0.180441,0.584339,0.197872,0.950308,0.154809,1.39316,0.105823,2.23896,0.0582058,3.13223}: part205{73.6361},
+    JTT+R8{0.100709,0.0136947,0.142182,0.124551,0.177694,0.370722,0.166746,0.735808,0.190015,1.24389,0.128655,1.94778,0.060563,2.68472,0.0334373,4.27069}: part206{38.7577},
+    LG+R6{0.171674,0.0721563,0.206013,0.324369,0.224345,0.703379,0.236864,1.30678,0.118386,2.40267,0.0427181,3.95657}: part207{27.0237},
+    JTT+R7{0.157831,0.0160712,0.195413,0.162733,0.147227,0.449852,0.150579,0.926572,0.181155,1.45782,0.101301,2.45488,0.0664937,3.71669}: part208{38.6111},
+    JTT+F+R7{0.173763,0.0220527,0.226171,0.1976,0.199768,0.56387,0.146008,0.987204,0.123043,1.67747,0.0991528,3.07745,0.0320954,5.70661}: part209{21.2262},
+    LG+R7{0.123989,0.010278,0.141982,0.0888735,0.106284,0.215951,0.239025,0.576097,0.219866,1.35352,0.0766013,2.18934,0.0922523,3.90401}: part210{36.4611},
+    LG+R8{0.153915,0.00760516,0.174611,0.129333,0.148377,0.371529,0.136469,0.762894,0.128082,1.19593,0.113194,1.88187,0.0989546,2.67626,0.0463958,4.00865}: part211{41.7256},
+    LG+R8{0.102844,0.0154099,0.191102,0.152088,0.189213,0.363931,0.154035,0.708749,0.149307,1.21251,0.112679,2.03071,0.0694873,3.2409,0.031332,4.98728}: part212{32.1422},
+    JTT+R7{0.108207,0.038113,0.257431,0.256594,0.188413,0.549717,0.188031,1.01761,0.12768,1.68789,0.0978691,2.82552,0.0323689,4.41363}: part213{36.617},
+    LG+R7{0.180462,0.0236792,0.116251,0.1408,0.161905,0.435829,0.202441,0.836545,0.144533,1.44576,0.134955,2.21502,0.059452,3.89484}: part214{31.6802},
+    LG+R8{0.208808,0.0176287,0.155886,0.162122,0.177473,0.490124,0.153679,0.936121,0.125293,1.53186,0.0877209,2.3025,0.0818575,3.53856,0.00928308,6.10087}: part215{34.1009},
+    LG+F+R8{0.0492958,0.0352889,0.0999628,0.15129,0.209102,0.368073,0.162602,0.665627,0.198007,0.994364,0.146914,1.59822,0.0742254,2.26404,0.0598893,3.30938}: part216{55.9758},
+    JTT+R9{0.0648458,0.0465531,0.10471,0.163192,0.138385,0.332657,0.145208,0.516208,0.143873,0.788888,0.146306,1.17239,0.130351,1.71614,0.0857697,2.47714,0.0405517,3.39592}: part217{75.6918},
+    LG+I{0.071004}+G4{1.16877}: part218{29.6622},
+    LG+R6{0.15285,0.0815759,0.299222,0.38565,0.179538,0.800061,0.211169,1.47241,0.125944,2.38414,0.0312765,3.75035}: part219{25.494},
+    LG+I{0.0871756}+G4{0.939111}: part220{31.3705},
+    LG+R7{0.172894,0.0152449,0.20097,0.124041,0.174894,0.393912,0.145185,0.827075,0.0954407,1.40553,0.121908,2.31106,0.0887076,4.14376}: part221{53.4012},
+    LG+R5{0.17406,0.0756256,0.233262,0.365036,0.180632,0.805651,0.277927,1.41985,0.134118,2.69574}: part222{46.3438},
+    JTT+F+R9{0.123769,0.00824464,0.0911361,0.104436,0.151848,0.270164,0.16333,0.556137,0.0842063,0.8684,0.104901,1.2139,0.101485,1.75064,0.124327,2.40204,0.054998,3.28807}: part223{75.5377},
+    LG+F+R9{0.0695958,0.0130399,0.0988229,0.113558,0.213054,0.289351,0.204494,0.540788,0.0964245,0.850527,0.110638,1.29494,0.0821653,1.97324,0.0864944,2.88403,0.0383102,4.66636}: part224{45.9306},
+    LG+R8{0.134759,0.013092,0.120336,0.111039,0.13788,0.27766,0.109095,0.537228,0.159985,0.890547,0.142079,1.48422,0.143473,2.38345,0.0523932,3.67737}: part225{50.3702},
+    JTT+F+R10{0.0529162,0.0226545,0.0440295,0.0928609,0.0875242,0.184244,0.135548,0.350358,0.166965,0.604539,0.142596,0.90094,0.152388,1.24833,0.108148,1.74072,0.0692888,2.47953,0.0405971,3.72934}: part226{80.0791},
+    LG+R5{0.466038,0.0557319,0.315531,0.610419,0.140753,2.03457,0.050459,4.61131,0.0272188,9.63919}: part227{4.41436},
+    JTT+R7{0.0833233,0.0396223,0.128649,0.203285,0.181298,0.448112,0.226225,0.775119,0.19644,1.31979,0.117966,2.09291,0.0660988,3.14379}: part228{46.5866},
+    JTT+F+R9{0.0559339,0.0348776,0.139128,0.152985,0.170951,0.341937,0.207006,0.65437,0.147606,1.01896,0.107706,1.49153,0.0875701,2.1826,0.0709485,3.10491,0.0131498,4.5918}: part229{55.1412},
+    JTTDCMut+R9{0.18231,0.0186208,0.167445,0.119115,0.143954,0.307294,0.0781687,0.487831,0.142142,0.839683,0.0854811,1.49242,0.074874,2.02615,0.0938748,3.40806,0.0317497,5.53471}: part230{41.5732},
+    LG+R6{0.176759,0.0883653,0.200141,0.334695,0.249032,0.698937,0.187114,1.33601,0.125737,2.18542,0.0612182,3.57026}: part231{34.3884},
+    LG+R6{0.27687,0.0868976,0.293956,0.451974,0.205688,1.08552,0.143974,2.03434,0.0525954,3.04992,0.0269178,6.18549}: part232{18.8796},
+    JTT+F+R8{0.0649373,0.0176878,0.0866268,0.0725744,0.11902,0.203315,0.123327,0.421536,0.142433,0.744536,0.177756,1.16406,0.206824,1.80738,0.079076,2.90361}: part233{63.3686},
+    JTT+R8{0.154816,0.0113146,0.155337,0.0999993,0.177622,0.294856,0.127131,0.592374,0.141022,1.05686,0.114019,1.85869,0.0984554,3.26912,0.0315986,5.44975}: part234{31.344},
+    LG+R7{0.139795,0.0380927,0.215299,0.281411,0.189534,0.609559,0.183219,1.0894,0.173209,1.76073,0.0830019,2.82717,0.0159418,4.97565}: part235{44.9607},
+    LG+R6{0.084427,0.0798087,0.226294,0.319983,0.205023,0.624916,0.203744,1.03367,0.199237,1.63314,0.081274,3.15898}: part236{47.2538},
+    LG+R10{0.0732922,0.00735798,0.115791,0.0660781,0.121138,0.21028,0.163011,0.419628,0.122578,0.671107,0.126263,1.01353,0.134931,1.60009,0.080875,2.55579,0.054943,3.69949,0.0071771,8.61573}: part237{69.0217},
+    LG+R7{0.288449,0.0168666,0.202679,0.1697,0.192642,0.546122,0.134727,1.24209,0.0888171,2.2381,0.0617035,4.11594,0.0309823,7.59925}: part238{15.4775},
+    LG+R6{0.274117,0.038816,0.233132,0.313808,0.16662,0.816027,0.174816,1.54674,0.100439,2.74239,0.0508764,4.60721}: part239{24.1157},
+    JTT+R7{0.109442,0.0468965,0.214979,0.259398,0.201147,0.53789,0.238025,1.0523,0.149696,1.86274,0.0650278,2.96097,0.021682,5.02922}: part240{35.1993},
+    LG+R10{0.277611,0.0262712,0.0811097,0.141804,0.0957247,0.384764,0.0951799,0.597548,0.136205,0.89164,0.108474,1.36713,0.0907422,2.00147,0.0647491,2.82347,0.0368934,4.22528,0.0133108,7.31999}: part241{34.9379},
+    LG+R8{0.181676,0.00913317,0.164054,0.0820131,0.102923,0.219033,0.169613,0.529081,0.105944,1.16333,0.115822,1.8996,0.0989064,2.74078,0.0610624,4.22945}: part242{42.6762},
+    JTT+F+R9{0.139199,0.0247421,0.10363,0.120753,0.0855009,0.269879,0.142806,0.480768,0.154273,0.846186,0.143958,1.3094,0.109299,1.92506,0.0758365,2.58569,0.0454971,3.6655}: part243{58.7882},
+    JTT+R9{0.00847052,0.00655794,0.0231707,0.0657853,0.0764884,0.185229,0.158193,0.384525,0.180786,0.633214,0.16239,0.917953,0.193989,1.34224,0.140886,1.86067,0.0556267,2.46928}: part244{87.1742},
+    LG+R7{0.0787669,0.0274474,0.185399,0.190399,0.177162,0.458663,0.21128,0.822309,0.191252,1.47739,0.109642,2.32078,0.0464973,3.66759}: part245{37.5433},
+    LG+R6{0.176801,0.0261086,0.180746,0.167688,0.203386,0.549563,0.17203,1.05876,0.145223,1.84266,0.121813,3.31298}: part246{37.0011},
+    LG+F+R7{0.184003,0.0126735,0.248863,0.144435,0.129256,0.401062,0.175679,0.880502,0.124512,1.81139,0.0834783,2.89398,0.0542095,5.3141}: part247{25.5205},
+    LG+R6{0.435461,0.030709,0.23037,0.383775,0.122916,1.02566,0.0970612,2.06347,0.0778558,3.76284,0.0363354,7.67585}: part248{20.9306},
+    LG+R8{0.113125,0.0452143,0.159807,0.161942,0.214912,0.369782,0.137224,0.750765,0.13893,1.21017,0.10087,1.82945,0.0953122,2.72786,0.0398193,4.36594}: part249{42.536},
+    JTT+R8{0.125255,0.0071699,0.155368,0.0979234,0.139872,0.279083,0.14744,0.556041,0.13256,0.925838,0.12391,1.5694,0.117417,2.64954,0.0581788,4.03197}: part250{60.126},
+    LG+R7{0.0820042,0.0561909,0.186947,0.231942,0.176115,0.438935,0.16499,0.77499,0.156245,1.1411,0.142586,1.92398,0.0911118,3.22942}: part251{62.1397},
+    LG+R6{0.32258,0.0350802,0.245124,0.29413,0.197046,0.952797,0.145442,1.9968,0.0634828,3.76528,0.0263253,7.57415}: part252{19.5947},
+    LG+R7{0.201963,0.0592728,0.22885,0.281172,0.142412,0.613067,0.193447,1.12254,0.141224,1.87589,0.0503094,3.09367,0.0417941,4.75335}: part253{22.0669},
+    LG+R7{0.337441,0.0143782,0.218404,0.22524,0.155719,0.82466,0.127593,1.5728,0.113841,3.10661,0.0383562,4.88978,0.00864608,8.74972}: part254{19.6356},
+    LG+R7{0.187957,0.0134619,0.25208,0.15746,0.17865,0.581434,0.163133,1.1351,0.107403,2.08408,0.0799747,3.41513,0.0308036,5.57639}: part255{20.8887},
+    JTT+R8{0.0335012,0.00681349,0.0585356,0.0595238,0.0942129,0.191944,0.122668,0.403413,0.227383,0.743257,0.189491,1.14064,0.19373,1.69348,0.0804772,2.67771}: part256{81.6341},
+    LG+R7{0.289903,0.0831501,0.237198,0.380987,0.213025,0.900925,0.106166,1.59419,0.0889565,2.52453,0.0566399,4.0201,0.00811009,8.88824}: part257{22.4847},
+    JTT+F+R10{0.0540845,0.00857195,0.123291,0.0685795,0.174743,0.19896,0.0882425,0.327191,0.122624,0.577234,0.144892,0.989146,0.0973578,1.57308,0.0832555,2.11922,0.0685342,2.96656,0.0429758,4.19867}: part258{51.6964},
+    LG+R7{0.102816,0.0438643,0.221551,0.209584,0.169502,0.509864,0.215437,0.962625,0.16676,1.58397,0.0852716,2.54256,0.0386619,4.50825}: part259{46.4509},
+    JTT+F+R9{0.0337794,0.0277321,0.036401,0.0874476,0.0990778,0.196118,0.137965,0.384469,0.154514,0.640255,0.177737,0.932567,0.149416,1.31654,0.147572,1.91115,0.0635379,2.83266}: part260{60.275},
+    LG+R8{0.158736,0.0121702,0.0882189,0.0999635,0.133616,0.267342,0.161674,0.507942,0.152422,0.951365,0.118265,1.60607,0.103075,2.37623,0.083992,3.47086}: part261{53.9481},
+    JTT+R8{0.0256257,0.0156779,0.13239,0.163403,0.183856,0.402262,0.239609,0.73585,0.146835,1.14613,0.160967,1.65689,0.0856687,2.43078,0.0250489,3.37154}: part262{39.6906},
+    LG+F+R8{0.106422,0.0216453,0.0978987,0.136345,0.207015,0.359854,0.23502,0.741471,0.15308,1.33968,0.134793,2.09718,0.0421009,3.08754,0.0236696,4.97862}: part263{34.3876},
+    LG+R5{0.217765,0.131944,0.242274,0.38769,0.273874,0.907107,0.182957,1.75842,0.0831297,3.69533}: part264{30.9674},
+    JTT+F+R9{0.111032,0.0235426,0.0921185,0.104171,0.112331,0.193395,0.144232,0.409842,0.161695,0.729998,0.161569,1.19998,0.1126,1.98638,0.0694461,3.01566,0.0349766,4.63006}: part265{43.9753},
+    LG+I{0.0272835}+G4{1.07812}: part266{23.1387},
+    JTT+R10{0.0657661,0.00515371,0.0645331,0.0386559,0.0551536,0.108338,0.0830818,0.195326,0.117164,0.352441,0.0945999,0.540999,0.123547,0.784312,0.125586,1.24599,0.134153,1.87997,0.136415,2.76295}: part267{130.074},
+    JTTDCMut+R8{0.498185,0.0264833,0.168109,0.29821,0.132618,0.830096,0.0881454,1.65526,0.0568948,3.20499,0.0234121,5.67399,0.0222918,8.2659,0.0103445,17.5201}: part268{16.9055},
+    JTT+R7{0.0691675,0.0487882,0.117131,0.172291,0.183694,0.338687,0.220528,0.716971,0.195195,1.23388,0.139988,1.95125,0.0742972,3.2588}: part269{64.6767},
+    LG+R6{0.383854,0.0353616,0.278377,0.393133,0.128357,1.03787,0.117312,2.17459,0.0670257,4.22722,0.0250753,8.18865}: part270{15.3099},
+    LG+R7{0.137751,0.0107185,0.171191,0.136641,0.204925,0.387876,0.167363,0.779082,0.134736,1.42247,0.11611,2.49454,0.0679246,4.18048}: part271{28.8701},
+    LG+R7{0.0850181,0.0214484,0.203986,0.185768,0.227463,0.537559,0.234244,0.997862,0.143164,1.67022,0.0805295,2.81931,0.0255953,5.39599}: part272{33.107},
+    JTT+R8{0.135583,0.0413652,0.201152,0.242712,0.221556,0.582563,0.197588,1.00018,0.11499,1.66779,0.0690249,2.46644,0.038707,3.62803,0.0213993,5.44036}: part273{33.6649},
+    LG+R7{0.342538,0.0373265,0.171237,0.268293,0.126445,0.638365,0.107552,1.07759,0.119935,1.89262,0.0896688,3.32849,0.0426247,5.14269}: part274{28.5585},
+    LG+R7{0.119887,0.0133681,0.186144,0.13912,0.160321,0.42696,0.222397,0.830164,0.144688,1.52255,0.0989043,2.37256,0.0676591,3.90892}: part275{42.6195},
+    LG+R6{0.180015,0.0168463,0.32728,0.241457,0.259211,0.890836,0.115959,1.8772,0.0895753,3.14911,0.0279595,6.69785}: part276{13.3341},
+    LG+R8{0.112435,0.0129355,0.166733,0.120843,0.142414,0.345013,0.181998,0.710284,0.166661,1.23445,0.0918702,1.88484,0.0950253,2.61024,0.0428627,4.03747}: part277{63.2236},
+    LG+R6{0.33331,0.0267367,0.238457,0.300855,0.150637,0.956526,0.143122,1.8176,0.0971798,3.24309,0.037294,5.36165}: part278{16.406},
+    LG+R7{0.144987,0.0352826,0.19765,0.244487,0.182442,0.562407,0.170245,0.901751,0.124068,1.57725,0.133088,2.40898,0.0475196,3.66466}: part279{57.9336},
+    LG+R7{0.230116,0.0231488,0.190681,0.205445,0.176705,0.594174,0.171815,1.18212,0.167307,2.13866,0.0445846,3.84384,0.018791,6.29077}: part280{23.44},
+    JTTDCMut+R8{0.141054,0.0446318,0.163546,0.200251,0.188064,0.463057,0.132069,0.81023,0.158512,1.32496,0.130654,1.98646,0.064645,3.00797,0.0214564,4.79361}: part281{39.964},
+    LG+R7{0.160537,0.0397203,0.26826,0.303159,0.209455,0.684605,0.185516,1.28268,0.0878873,2.08959,0.0506234,3.23531,0.0377216,4.86498}: part282{23.9678},
+    LG+R7{0.122494,0.0803767,0.175831,0.268894,0.185237,0.534496,0.207751,0.979954,0.140758,1.44927,0.138494,2.27865,0.0294357,4.10062}: part283{40.472},
+    LG+R5{0.320088,0.082095,0.208319,0.457986,0.27345,1.24458,0.122889,2.13966,0.0752535,3.65489}: part284{34.448},
+    JTT+R9{0.124288,0.014628,0.120697,0.0972499,0.188658,0.293532,0.168156,0.63308,0.092356,1.03018,0.120099,1.52209,0.0959438,2.23721,0.0723817,3.38869,0.0174194,4.97949}: part285{55.7137},
+    JTTDCMut+R8{0.0973365,0.0493595,0.0538914,0.147423,0.133361,0.322113,0.175949,0.614371,0.18697,0.966793,0.185335,1.40713,0.107993,2.02434,0.0591648,2.97526}: part286{76.5189},
+    LG+R7{0.109822,0.030417,0.186086,0.206681,0.167291,0.471852,0.15479,0.822522,0.182739,1.29667,0.145095,2.18714,0.0541769,3.64825}: part287{39.1803},
+    LG+F+R6{0.182466,0.0523934,0.209247,0.286843,0.195926,0.640653,0.197467,1.17228,0.181169,2.369,0.0337248,4.27642}: part288{34.4286},
+    LG+R8{0.123735,0.00976356,0.17154,0.0942195,0.158374,0.282546,0.16657,0.604782,0.112326,1.04879,0.0813936,1.60784,0.118548,2.64784,0.0675118,4.06701}: part289{59.1417},
+    LG+R7{0.199383,0.0358555,0.256846,0.282566,0.183592,0.675952,0.11676,1.08531,0.113344,1.84479,0.10929,3.18512,0.0207857,5.40074}: part290{23.0411},
+    LG+R6{0.145351,0.0896241,0.389843,0.48378,0.23326,0.966288,0.157882,1.69445,0.0581603,3.17924,0.0155046,7.77514}: part291{19.8834},
+    JTTDCMut+R7{0.0866365,0.0229461,0.267857,0.169032,0.233494,0.403024,0.163507,0.795639,0.157855,1.54632,0.0641006,3.07184,0.0265487,10.8306}: part292{42.8211},
+    JTT+R7{0.122216,0.0299962,0.120775,0.166516,0.205384,0.424858,0.19607,0.799931,0.159464,1.39113,0.111237,2.1359,0.0848539,3.21369}: part293{54.3743},
+    JTT+F+R7{0.112565,0.0464876,0.116967,0.223441,0.181936,0.484506,0.204387,0.911644,0.199742,1.38497,0.150205,2.03238,0.0341971,3.28226}: part294{43.6473},
+    LG+R7{0.0592286,0.0275934,0.152873,0.190828,0.280931,0.501112,0.221872,0.998193,0.187135,1.66163,0.0839216,2.67209,0.0140374,5.11115}: part295{38.9323},
+    LG+R7{0.0767976,0.0115981,0.141577,0.101046,0.157579,0.292813,0.193876,0.610451,0.181556,1.09885,0.143772,1.92992,0.104843,3.27482}: part296{57.2047},
+    LG+R7{0.191244,0.0109568,0.17343,0.139085,0.182388,0.355131,0.174772,0.873241,0.141945,1.68209,0.0875049,3.09817,0.0487161,5.06043}: part297{34.2343},
+    JTT+R10{0.243212,0.0354171,0.200518,0.146517,0.171968,0.366302,0.149528,0.739883,0.0564102,1.42515,0.0338361,1.43041,0.0591232,2.17174,0.0441771,3.40407,0.0300626,5.5737,0.0111649,19.0998}: part298{20.3502},
+    LG+R5{0.39938,0.193353,0.225189,0.663267,0.179512,1.23868,0.144976,2.33835,0.0509425,4.16265}: part299{13.9363},
+    LG+R9{0.166095,0.00994791,0.0913521,0.0692638,0.0940268,0.219323,0.0946872,0.386411,0.07802,0.62817,0.107475,0.995806,0.150238,1.45805,0.160409,2.23136,0.057697,3.49741}: part300{60.8959},
+    LG+R7{0.0395886,0.017073,0.0748597,0.138193,0.2627,0.349992,0.264235,0.669228,0.164434,1.16897,0.102877,1.86061,0.0913059,3.68618}: part301{43.7046},
+    LG+R6{0.0981718,0.0667404,0.197388,0.27049,0.244465,0.640235,0.257785,1.17122,0.151615,1.98074,0.0505752,3.58493}: part302{42.3077},
+    LG+F+R6{0.173169,0.0563318,0.211812,0.284687,0.164698,0.768967,0.210559,1.1601,0.185148,1.91492,0.0546145,3.74417}: part303{45.9668},
+    LG+I{0.239347}+G4{0.547752}: part304{6.30879},
+    LG+R8{0.174762,0.0169533,0.141492,0.123707,0.15959,0.397458,0.115728,0.692085,0.168343,1.22642,0.105545,1.85483,0.0898325,2.72844,0.0447077,4.22031}: part305{38.4935},
+    LG+R7{0.150325,0.0752321,0.22507,0.31317,0.191133,0.564737,0.194964,1.00982,0.126069,1.76213,0.0802398,2.93639,0.0321991,4.83315}: part306{32.0472},
+    JTT+R7{0.0625496,0.019209,0.143844,0.155273,0.190031,0.336936,0.213698,0.68269,0.209179,1.33825,0.116762,2.20199,0.0639369,3.5895}: part307{42.8427},
+    JTT+F+R9{0.124952,0.0417354,0.13391,0.172426,0.141033,0.301005,0.0973956,0.516466,0.122398,0.748411,0.098627,1.11811,0.111701,1.60967,0.109932,2.46387,0.060051,3.77017}: part308{58.1566},
+    JTT+F+R8{0.075008,0.0228171,0.098135,0.156141,0.177336,0.391429,0.209901,0.730435,0.170649,1.12701,0.174015,1.68796,0.072768,2.56951,0.0221884,3.93001}: part309{50.0182},
+    LG+R9{0.0447599,0.0127139,0.0792498,0.060824,0.0932508,0.170682,0.113525,0.358387,0.15097,0.638032,0.149616,1.01078,0.14846,1.43814,0.155542,1.90883,0.0646256,2.78598}: part310{85.7957},
+    LG+R6{0.0505407,0.0225174,0.191175,0.192646,0.213914,0.533273,0.200933,0.937037,0.205855,1.50169,0.137582,2.5479}: part311{43.2174},
+    JTTDCMut+R7{0.197843,0.0620728,0.17277,0.263,0.194427,0.616675,0.166394,1.11426,0.162794,1.80478,0.0645297,2.65765,0.0412421,4.16253}: part312{36.1865},
+    JTT+R8{0.0970575,0.020246,0.131921,0.125041,0.0999296,0.26764,0.140018,0.598218,0.161064,0.905364,0.172374,1.49119,0.147469,2.10884,0.0501664,3.13318}: part313{56.1183},
+    JTT+F+R8{0.139133,0.0515561,0.301244,0.273972,0.248525,0.732661,0.150994,1.38968,0.0989811,2.47051,0.0497074,3.85743,0.00825248,6.03746,0.00316193,10.2076}: part314{16.1376},
+    JTT+F+R9{0.0316908,0.00832304,0.0966316,0.0761326,0.167502,0.222475,0.132019,0.439725,0.173212,0.695429,0.13827,1.15104,0.109252,1.7721,0.10224,2.43357,0.0491832,3.55893}: part315{60.4457},
+    JTT+R9{0.0608531,0.0103024,0.0463299,0.079551,0.0885156,0.177236,0.119562,0.313096,0.123343,0.479702,0.130642,0.72835,0.121856,1.07336,0.170604,1.7023,0.138294,2.65398}: part316{135.948},
+    LG+R8{0.249325,0.0231616,0.217435,0.207512,0.173892,0.557648,0.100588,0.977824,0.109442,1.60993,0.0824612,2.67566,0.0431363,4.37381,0.023721,7.09394}: part317{24.7939},
+    JTT+F+R7{0.226037,0.0676541,0.241118,0.328297,0.218814,0.753639,0.152065,1.38225,0.121478,2.50466,0.0274902,4.4362,0.0129984,8.01934}: part318{34.02},
+    LG+R6{0.156704,0.0574765,0.176031,0.224577,0.253953,0.64628,0.241725,1.34242,0.133454,2.40476,0.0381328,3.72159}: part319{35.069},
+    LG+R9{0.161732,0.0101159,0.124397,0.0705482,0.124886,0.210945,0.140821,0.500755,0.0982519,0.869785,0.125804,1.31485,0.120492,2.03621,0.0703164,3.24491,0.0333,5.05522}: part320{41.1914},
+    JTTDCMut+R8{0.0667161,0.0148082,0.260973,0.178587,0.198418,0.443488,0.166791,0.858906,0.145377,1.38864,0.0932834,2.39607,0.0468529,3.72003,0.0215896,5.62621}: part321{31.0768},
+    JTT+F+R9{0.0129673,0.0167369,0.0871303,0.134994,0.167095,0.322384,0.197788,0.576056,0.142727,0.862564,0.169518,1.23633,0.137095,1.80217,0.0624667,2.52224,0.023213,3.57126}: part322{58.4494},
+    JTTDCMut+R10{0.0359647,0.00603734,0.0922864,0.0598048,0.114992,0.152393,0.139122,0.313659,0.156067,0.549527,0.128095,0.88556,0.0938593,1.34693,0.112067,1.9776,0.113649,2.87448,0.0138978,4.25806}: part323{110.134},
+    JTT+R9{0.0856371,0.0091303,0.113567,0.0597921,0.0970384,0.174968,0.104624,0.37746,0.108793,0.622988,0.135806,0.902241,0.131708,1.41611,0.135012,2.07698,0.0878138,3.174}: part324{69.8056},
+    LG+R8{0.107064,0.0544385,0.0986981,0.226219,0.191778,0.452333,0.194183,0.786153,0.212471,1.24741,0.118082,1.85668,0.0686687,2.90827,0.00905524,5.35087}: part325{39.8112},
+    JTT+F+R8{0.00903078,0.00727288,0.0643705,0.0950864,0.0924306,0.196188,0.124466,0.372438,0.212182,0.665596,0.199511,1.04692,0.171236,1.5807,0.126773,2.43389}: part326{64.5298},
+    LG+R8{0.295561,0.0163968,0.19041,0.189575,0.166744,0.579441,0.097014,1.1029,0.135032,1.9063,0.0710679,3.42485,0.0378793,5.20727,0.0062918,9.12068}: part327{17.6805},
+    LG+R7{0.260655,0.00965689,0.161486,0.17332,0.138249,0.426122,0.133204,0.864709,0.124956,1.3896,0.11642,2.39053,0.0650312,5.28142}: part328{43.0426},
+    JTTDCMut+R7{0.174327,0.0213835,0.192424,0.208873,0.110291,0.501154,0.104969,0.536043,0.17366,1.00648,0.142938,1.98245,0.101392,3.81084}: part329{45.13},
+    LG+R9{0.0574033,0.00766389,0.0785604,0.0771897,0.0851545,0.200465,0.154094,0.391343,0.186384,0.654929,0.15973,1.08237,0.13101,1.59831,0.0787473,2.20578,0.0689164,3.4545}: part330{107.917},
+    JTT+F+R10{0.206106,0.0224731,0.319483,0.078791,0.0688683,0.385835,0.0224018,0.813544,0.0371777,0.822034,0.0502432,1.18872,0.0554101,1.79528,0.0447156,1.80699,0.140986,2.89285,0.0546084,4.52282}: part331{28.4959},
+    LG+R6{0.350452,0.0472218,0.27036,0.430481,0.157822,1.08105,0.122058,2.28749,0.0678493,3.67482,0.0314585,5.33757}: part332{21.2396},
+    LG+R5{0.308965,0.0475726,0.247074,0.436656,0.23671,1.16742,0.18529,2.59384,0.0219613,5.48529}: part333{9.85575},
+    LG+R6{0.296169,0.0990937,0.255599,0.418344,0.181256,0.993818,0.144498,1.55495,0.0751493,2.93018,0.0473285,5.04347}: part334{20.9262},
+    LG+G4{1.0889}: part335{27.1673},
+    LG+R7{0.124065,0.0061273,0.134735,0.126643,0.112189,0.38638,0.295008,0.777656,0.208962,1.46682,0.0843611,2.55589,0.0406805,4.60386}: part336{46.1634},
+    LG+R7{0.210714,0.0273791,0.18062,0.179709,0.162739,0.506202,0.139738,0.952974,0.125197,1.58408,0.0962898,2.35562,0.0847032,3.79066}: part337{44.0298},
+    JTT+R8{0.112769,0.0147761,0.137589,0.12155,0.153893,0.299158,0.151963,0.603149,0.100775,0.916506,0.121358,1.35778,0.134705,2.13105,0.0869484,3.44703}: part338{88.8319},
+    LG+F+R7{0.347137,0.0343773,0.167603,0.252148,0.14523,0.669724,0.117957,1.26582,0.113503,2.1985,0.0627085,3.36425,0.0458619,5.20532}: part339{22.3275},
+    LG+R6{0.405096,0.0475659,0.225834,0.315982,0.148668,1.08752,0.10389,2.06883,0.0960382,3.86619,0.0204742,7.88608}: part340{18.2671},
+    JTT+F+R9{0.0306176,0.0419533,0.0713751,0.168846,0.0984458,0.318715,0.0831037,0.438189,0.21909,0.650959,0.171357,1.00133,0.172555,1.46159,0.106962,2.02328,0.0464937,2.9262}: part341{50.8891},
+    LG+R8{0.0817854,0.0519814,0.172522,0.261826,0.18314,0.519308,0.214969,0.883751,0.172793,1.38432,0.110148,1.9402,0.0600548,2.81368,0.00458716,9.50656}: part342{42.898},
+    LG+R7{0.194226,0.0461262,0.236526,0.287294,0.224753,0.704011,0.208285,1.40612,0.0895137,2.66265,0.0379143,4.45964,0.00878184,7.35132}: part343{20.0316},
+    LG+I{0.193542}+G4{0.723411}: part344{9.79773},
+    LG+R6{0.31244,0.0416632,0.231557,0.243489,0.162264,0.709599,0.1387,1.46668,0.104387,3.00716,0.0506527,5.88563}: part345{20.44},
+    LG+R6{0.318941,0.0266179,0.240521,0.250521,0.128729,0.702934,0.153262,1.58168,0.124409,3.14312,0.0341383,6.0731}: part346{15.1079},
+    JTT+R8{0.114686,0.0358778,0.191366,0.167156,0.200425,0.39938,0.153832,0.783091,0.0914878,1.20862,0.119044,1.89737,0.0836427,2.78567,0.045516,4.26097}: part347{51.3036},
+    LG+F+R8{0.10241,0.0120503,0.126049,0.107253,0.110217,0.279736,0.126335,0.659703,0.194068,1.0508,0.206086,1.55705,0.10466,2.27875,0.0301759,3.57126}: part348{116.696},
+    LG+R6{0.311855,0.0396456,0.159913,0.312421,0.181783,0.680608,0.130456,1.24754,0.134007,2.28539,0.0819859,4.20736}: part349{26.4747},
+    LG+R7{0.169931,0.00778403,0.0668994,0.0803451,0.140363,0.186896,0.244417,0.568839,0.146209,0.997574,0.129913,1.98626,0.102268,4.14736}: part350{52.8316},
+    LG+R8{0.0624521,0.0209877,0.18426,0.126935,0.189477,0.315289,0.197685,0.675651,0.146069,1.13919,0.109319,1.95289,0.0785678,3.19093,0.0321685,4.70646}: part351{36.1282},
+    LG+R8{0.197322,0.00935535,0.163558,0.0982987,0.170247,0.315899,0.158376,0.713114,0.105769,1.23132,0.0918155,2.03738,0.0803073,3.68872,0.0326047,6.19008}: part352{39.701},
+    LG+R6{0.346083,0.0245366,0.341258,0.375093,0.114412,1.21385,0.125128,2.47152,0.0570797,4.88927,0.0160396,8.49723}: part353{9.51779},
+    LG+R5{0.457392,0.0935015,0.375745,0.857317,0.126355,2.60523,0.0263196,5.60938,0.0141882,11.1557}: part354{10.199},
+    JTT+F+R10{0.0379156,0.0282772,0.125384,0.110447,0.103488,0.25448,0.145147,0.402597,0.145608,0.634672,0.0949428,0.891246,0.102488,1.2522,0.10212,1.76521,0.101258,2.48938,0.0416504,3.90418}: part355{71.2922},
+    JTT+F+R7{0.111381,0.0176537,0.232627,0.169442,0.165578,0.448803,0.242483,0.993707,0.137243,1.86207,0.0812475,2.97752,0.0294403,4.95497}: part356{19.6701},
+    LG+R5{0.129749,0.0614419,0.203726,0.309503,0.320913,0.710801,0.252607,1.4753,0.093005,3.52881}: part357{22.8334},
+    LG+R5{0.463859,0.0505143,0.185028,0.4057,0.164237,1.2594,0.120391,2.75652,0.0664846,5.45694}: part358{16.1781},
+    JTT+R9{0.167121,0.01678,0.0995795,0.100189,0.163758,0.231464,0.133891,0.485379,0.110836,0.808334,0.108702,1.31236,0.0856941,2.03452,0.0671773,3.06486,0.063241,4.29852}: part359{67.701},
+    LG+R7{0.0261986,0.0278624,0.0552551,0.117044,0.144314,0.282051,0.10387,0.486775,0.261682,0.807646,0.296995,1.36475,0.111685,2.55063}: part360{69.2912},
+    JTT+F+R7{0.121948,0.0185883,0.174994,0.15902,0.199018,0.44395,0.145747,0.927903,0.182527,1.5145,0.133145,2.41727,0.0426219,3.47306}: part361{36.6523},
+    JTT+R9{0.0164122,0.00559078,0.0378719,0.0429553,0.0678032,0.11271,0.0915784,0.232751,0.12943,0.423733,0.160985,0.702697,0.158781,1.04005,0.204971,1.61042,0.132169,2.31621}: part362{122.197},
+    JTTDCMut+R9{0.0269053,0.00765343,0.0682116,0.0728116,0.117933,0.171824,0.076826,0.286957,0.12893,0.530189,0.133301,0.766996,0.156262,1.17198,0.200061,1.80858,0.0915702,2.58771}: part363{99.4911},
+    LG+R5{0.148804,0.0523504,0.227474,0.277213,0.237709,0.739331,0.25473,1.55226,0.131284,2.72691}: part364{34.2677},
+    LG+R7{0.118032,0.0207195,0.171032,0.179704,0.0885017,0.348296,0.253056,0.710275,0.168819,1.34238,0.15047,2.27309,0.0500896,3.74537}: part365{55.5889},
+    LG+R7{0.189624,0.0213317,0.151704,0.18027,0.131323,0.44972,0.171055,0.791939,0.214478,1.43897,0.113379,2.94538,0.0284373,4.62465}: part366{35.6397},
+    LG+R10{0.0768781,0.00771138,0.166444,0.102914,0.121068,0.19865,0.162229,0.384049,0.0862311,0.658747,0.106847,0.943952,0.0851722,1.37666,0.0920659,2.09356,0.0666539,3.22389,0.0364103,5.86034}: part367{61.5131},
+    LG+R6{0.557675,0.140268,0.202613,0.839169,0.128305,1.82239,0.0679563,3.12851,0.0339233,5.82691,0.00952792,11.2994}: part368{12.4305},
+    LG+R5{0.123016,0.0755009,0.384483,0.382163,0.280262,1.07456,0.125098,1.97342,0.0871409,3.3939}: part369{17.601},
+    VT+R4{0.367703,0.067325,0.420939,0.700502,0.177836,2.48706,0.0335222,7.10237}: part370{6.57457},
+    JTT+R7{0.0482611,0.0364373,0.146259,0.109348,0.163077,0.310599,0.167317,0.609185,0.179554,0.959192,0.141771,1.61549,0.153761,2.78623}: part371{73.8768},
+    LG+R8{0.100657,0.0394475,0.139479,0.211288,0.217409,0.426027,0.158338,0.707193,0.107575,1.09596,0.140884,1.69689,0.0976289,2.62163,0.038029,3.91946}: part372{74.6078},
+    JTT+R9{0.0815157,0.0140348,0.133988,0.0891704,0.153218,0.239587,0.139455,0.463996,0.09055,0.746887,0.0975728,1.03726,0.0806014,1.56092,0.119323,2.23864,0.103777,3.1194}: part373{101.084},
+    JTT+R7{0.370868,0.024324,0.29053,0.267136,0.146636,0.874026,0.078569,2.0672,0.0421786,3.92209,0.0442199,5.45276,0.0269982,8.00934}: part374{14.7445},
+    LG+R6{0.241953,0.0538334,0.143983,0.218272,0.206825,0.584151,0.175566,1.30935,0.165058,2.28659,0.0666147,3.41416}: part375{30.6136},
+    LG+R8{0.0916409,0.0159348,0.123523,0.135867,0.160837,0.30805,0.189234,0.628518,0.17332,1.10715,0.157109,1.78652,0.083008,2.80893,0.0213289,5.04202}: part376{66.3057},
+    JTT+R10{0.0924045,0.00725592,0.0771477,0.0506863,0.124259,0.16421,0.113572,0.337438,0.13002,0.582337,0.114742,0.867017,0.103862,1.25944,0.13537,1.93737,0.055525,2.88909,0.053098,3.91741}: part377{75.2162},
+    LG+R7{0.0720014,0.0224819,0.184017,0.14057,0.18887,0.422669,0.213185,0.830034,0.187759,1.50923,0.109117,2.42219,0.04505,3.73051}: part378{26.5782},
+    LG+R6{0.248142,0.0248609,0.222437,0.19787,0.165601,0.65045,0.179552,1.25196,0.0945104,2.35357,0.0897581,4.39932}: part379{32.6402},
+    JTT+R7{0.0547793,0.0362446,0.100516,0.173508,0.12481,0.397669,0.194212,0.697232,0.31116,1.1382,0.130134,1.81191,0.0843886,2.43607}: part380{54.3075},
+    LG+R8{0.256602,0.0288836,0.19481,0.211123,0.129533,0.542654,0.125481,1.00055,0.137798,1.61047,0.0869953,2.64495,0.0514493,3.97782,0.0173313,5.70895}: part381{32.5009},
+    JTT+R9{0.0169843,0.025106,0.0538144,0.0902207,0.0402951,0.18848,0.103463,0.328385,0.161341,0.530415,0.200031,0.84346,0.175387,1.20479,0.181603,1.7425,0.067081,2.55073}: part382{112.858},
+    JTT+R9{0.0683035,0.00982526,0.0834958,0.079806,0.102294,0.218209,0.13141,0.38348,0.153431,0.650234,0.174745,1.02673,0.153536,1.59817,0.0919178,2.46815,0.0408667,4.12375}: part383{79.2765},
+    LG+R7{0.188307,0.0470059,0.209837,0.239411,0.226602,0.601652,0.132446,1.23436,0.136761,1.9548,0.0732356,3.09641,0.0328107,4.47968}: part384{25.5367},
+    LG+F+R8{0.0686932,0.0263813,0.0406001,0.105942,0.0762043,0.232122,0.135218,0.399666,0.221071,0.702148,0.165484,1.08393,0.206772,1.6731,0.0859567,2.8108}: part385{64.6947},
+    LG+R6{0.317382,0.0228832,0.204258,0.328057,0.213624,0.928684,0.176682,1.84735,0.0688253,3.8386,0.0192293,7.11175}: part386{16.2629},
+    LG+R7{0.250554,0.0234527,0.131081,0.21512,0.175796,0.555027,0.208253,1.10173,0.138312,2.00103,0.0700917,3.30869,0.025913,5.02598}: part387{31.426},
+    LG+F+R6{0.472088,0.0341607,0.199135,0.342854,0.126806,1.1168,0.0890602,2.272,0.062138,3.80288,0.0507725,6.60462}: part388{19.4796},
+    LG+R7{0.257196,0.0898401,0.21766,0.286149,0.160983,0.620249,0.130595,1.16591,0.133644,1.94995,0.0649896,3.26185,0.0349327,5.43653}: part389{25.4901},
+    JTTDCMut+R7{0.0826902,0.0202672,0.105466,0.117936,0.0798273,0.335597,0.303213,0.598617,0.23208,1.17174,0.122833,1.98747,0.0738913,3.5393}: part390{63.7959},
+    LG+R9{0.0593282,0.00492832,0.14449,0.100041,0.14045,0.290918,0.10895,0.513252,0.148681,0.776729,0.131892,1.12463,0.121238,1.76751,0.123226,2.63902,0.0217433,3.9172}: part391{66.2998},
+    LG+F+R7{0.0461182,0.0140123,0.126718,0.158651,0.176337,0.38432,0.154892,0.647635,0.218951,1.04878,0.164612,1.72838,0.112371,2.64324}: part392{51.9939},
+    JTT+F+R7{0.101646,0.0320976,0.258558,0.238244,0.215926,0.610258,0.138894,1.13952,0.185132,1.77949,0.0766038,2.75081,0.0232403,4.5151}: part393{26.89},
+    LG+G4{0.747775}: part394{39.898},
+    JTT+F+R9{0.01728,0.0123957,0.0826546,0.147401,0.112835,0.301945,0.133356,0.485817,0.176736,0.745973,0.155572,1.03961,0.149788,1.42741,0.128992,1.99804,0.0427868,2.88948}: part395{103.827},
+    LG+R6{0.267966,0.0319074,0.290182,0.356704,0.191354,0.913197,0.147343,1.75614,0.075534,3.63246,0.0276204,6.51937}: part396{17.5483},
+    JTT+F+R9{0.10276,0.0127032,0.0891658,0.0928779,0.167332,0.255196,0.164272,0.516121,0.134801,0.857367,0.155212,1.43275,0.103207,2.17353,0.0732335,3.35013,0.0100174,5.52102}: part397{45.7214},
+    LG+R6{0.340543,0.0111054,0.29818,0.191895,0.137864,0.844422,0.0886886,1.87702,0.0872575,3.69157,0.0474668,7.03641}: part398{18.8376},
+    LG+R5{0.472728,0.0929885,0.271454,0.688157,0.176758,2.06767,0.0603606,4.42914,0.0186988,7.29538}: part399{9.09728},
+    LG+R7{0.240781,0.0272461,0.15563,0.173096,0.197671,0.501165,0.184978,1.16498,0.111373,2.01912,0.0833646,3.38836,0.026202,5.51845}: part400{29.9538},
+    LG+F+R7{0.0643448,0.0296068,0.142493,0.191737,0.188563,0.433704,0.227608,0.814903,0.205678,1.29633,0.114574,2.10643,0.0567393,3.44639}: part401{45.4233},
+    JTT+R6{0.213626,0.131933,0.200035,0.397088,0.249537,0.795607,0.179221,1.40635,0.113955,2.3681,0.0436259,3.94135}: part402{37.2024},
+    LG+R6{0.119722,0.0263391,0.134113,0.17861,0.244417,0.579754,0.214957,1.07147,0.219363,1.80599,0.0674273,3.0359}: part403{33.4124},
+    LG+R7{0.202508,0.0310766,0.260189,0.216525,0.218415,0.634903,0.158279,1.3506,0.096922,2.42752,0.0443853,4.53087,0.0193018,7.69575}: part404{18.9024},
+    LG+R7{0.047627,0.0218984,0.0951576,0.156729,0.179935,0.356963,0.187826,0.631604,0.270463,1.08824,0.157215,1.86678,0.0617757,3.45389}: part405{74.2994},
+    LG+R7{0.192361,0.0102898,0.199893,0.149277,0.143245,0.440961,0.155596,0.809559,0.111913,1.40075,0.116477,2.38589,0.0805154,4.2773}: part406{34.162},
+    LG+R7{0.263101,0.0346594,0.228634,0.251182,0.17964,0.684079,0.129632,1.36399,0.115879,2.3402,0.0565751,3.6557,0.0265397,5.86846}: part407{17.5771},
+    JTT+R9{0.0308516,0.0137282,0.0663223,0.063972,0.101493,0.159351,0.121704,0.272238,0.110167,0.439715,0.130894,0.709732,0.137031,1.09592,0.159711,1.7383,0.141825,2.6574}: part408{127.057},
+    JTT+R6{0.218338,0.0929969,0.268596,0.344061,0.190732,0.777433,0.205755,1.58339,0.0782131,2.86817,0.0383663,4.92311}: part409{33.9395},
+    LG+R6{0.246993,0.0799817,0.261738,0.356209,0.211754,0.914891,0.152447,1.62331,0.080323,2.82722,0.046745,4.67902}: part410{34.6194},
+    LG+F+R5{0.143916,0.0835559,0.36033,0.472271,0.253309,0.983885,0.124224,1.75968,0.118221,2.96039}: part411{32.3774},
+    JTT+R10{0.0750637,0.0058745,0.0902747,0.0533296,0.0921865,0.151123,0.119965,0.304888,0.122454,0.499766,0.105596,0.779324,0.116142,1.22071,0.132982,1.80121,0.130162,2.68866,0.0151748,4.57868}: part412{95.7882},
+    JTT+F+R7{0.0535782,0.056434,0.0504374,0.168014,0.154673,0.322347,0.190375,0.540885,0.21936,0.948076,0.176441,1.5189,0.155136,2.31866}: part413{66.8449},
+    LG+R8{0.153837,0.0116211,0.217384,0.121471,0.152458,0.359936,0.168893,0.739679,0.162238,1.48533,0.0964767,2.52688,0.0348086,4.4315,0.0139051,11.0022}: part414{30.4556},
+    JTTDCMut+F+R9{0.189967,0.0368755,0.14735,0.152646,0.173124,0.378318,0.123384,0.700993,0.0719242,1.10204,0.0893229,1.53334,0.142704,2.31885,0.0459662,3.7171,0.0162569,6.18304}: part415{46.1075},
+    JTT+F+R10{0.0248237,0.0227396,0.0548206,0.10063,0.070957,0.206051,0.106288,0.32634,0.141755,0.497202,0.160588,0.723657,0.142673,1.03792,0.107566,1.46438,0.112893,2.06577,0.0776357,2.82225}: part416{100.621},
+    JTT+R9{0.0584376,0.0125618,0.102964,0.0870103,0.142774,0.227821,0.134613,0.408948,0.187,0.71666,0.150532,1.23146,0.115593,1.92614,0.0632654,2.85676,0.0448218,4.01498}: part417{60.8117},
+    LG+R7{0.170812,0.0102525,0.184967,0.171571,0.249107,0.493805,0.164431,0.977804,0.103032,1.84933,0.0960803,3.27364,0.0315714,5.62693}: part418{34.378},
+    LG+R7{0.178555,0.0236454,0.177804,0.187113,0.261591,0.517738,0.188137,1.04108,0.0955679,1.83331,0.0664624,3.618,0.0318825,6.7605}: part419{30.6695},
+    LG+R6{0.187404,0.0216023,0.239715,0.351044,0.304848,0.801885,0.17356,1.74596,0.0651554,3.07572,0.0293175,5.59121}: part420{28.5037},
+    LG+R7{0.0507153,0.00862328,0.142106,0.12044,0.151803,0.399011,0.225484,0.728181,0.156894,1.16663,0.15674,1.69992,0.116258,2.65101}: part421{72.2747},
+    JTTDCMut+R8{0.0777031,0.0141653,0.107415,0.155459,0.0935472,0.364842,0.0551255,0.365048,0.202124,0.653528,0.226982,1.11049,0.156027,1.95805,0.0810758,2.93901}: part422{53.1831},
+    JTT+R8{0.0954194,0.0482251,0.128766,0.216297,0.225527,0.456322,0.183209,0.812439,0.190595,1.31444,0.085315,2.01544,0.0775173,3.00629,0.0136516,4.41523}: part423{32.8414},
+    JTT+R9{0.10292,0.0354115,0.154496,0.138996,0.138222,0.321615,0.136199,0.53589,0.104065,0.773728,0.0569211,1.03865,0.0922412,1.38341,0.11348,2.06525,0.101455,3.50724}: part424{78.4094},
+    JTT+R7{0.115155,0.0206735,0.124787,0.146049,0.21279,0.360474,0.14488,0.701755,0.189566,1.24042,0.117679,2.05546,0.0951433,3.40532}: part425{70.3446},
+    LG+R8{0.263668,0.0275752,0.147653,0.213644,0.176425,0.51484,0.138999,0.913172,0.106129,1.46706,0.0883681,2.55739,0.0466119,3.81583,0.0321451,5.72004}: part426{33.5842},
+    JTT+R6{0.215199,0.0311302,0.234575,0.252273,0.21062,0.762359,0.159555,1.60176,0.130068,2.53296,0.0499832,3.77187}: part427{25.7034},
+    JTT+R9{0.0596972,0.034135,0.102834,0.111826,0.135799,0.217386,0.15713,0.410867,0.0939124,0.630853,0.149536,0.971368,0.100994,1.43739,0.137881,2.12531,0.0622171,4.01297}: part428{76.9714},
+    LG+R6{0.130762,0.0101312,0.130116,0.108888,0.185243,0.38713,0.250575,0.900028,0.163893,1.6564,0.13941,2.98254}: part429{33.2757},
+    LG+R7{0.177345,0.0169876,0.105622,0.0954362,0.0685497,0.228748,0.146979,0.42604,0.193637,0.923209,0.169096,1.78039,0.138772,3.08983}: part430{61.7447},
+    JTT+F+R10{0.0124526,0.00606294,0.0538604,0.0472953,0.0922408,0.137135,0.113658,0.270079,0.111517,0.455249,0.134295,0.707175,0.112327,1.03351,0.12868,1.40977,0.175177,1.9568,0.0657922,2.55359}: part431{115.038},
+    JTTDCMut+R9{0.160455,0.0277075,0.226857,0.174701,0.189612,0.43866,0.121959,0.806896,0.0983807,1.26352,0.0938808,1.72293,0.051266,2.69585,0.02464,4.70081,0.0329488,7.10949}: part432{28.4839},
+    LG+R7{0.206079,0.0290133,0.179036,0.205362,0.178212,0.43822,0.175073,0.914261,0.129904,1.71706,0.0827572,3.10362,0.0489383,4.8877}: part433{40.215},
+    LG+R6{0.333501,0.0805345,0.243522,0.437092,0.215305,1.05081,0.0893955,1.87037,0.0787523,3.27814,0.0395241,5.44204}: part434{13.7054},
+    JTT+F+R10{0.10475,0.0125021,0.148731,0.0732845,0.143492,0.182112,0.136589,0.348569,0.0993531,0.568208,0.0592262,0.890178,0.0692599,1.31062,0.056391,1.93894,0.083818,2.64343,0.0983893,3.89467}: part435{52.5893},
+    JTT+R10{0.0508678,0.011782,0.0592069,0.0548585,0.0983093,0.130022,0.116686,0.244495,0.111214,0.407021,0.127858,0.600175,0.103521,0.908298,0.0771306,1.29656,0.0985913,1.91781,0.156615,2.87154}: part436{114.376},
+    LG+R6{0.421023,0.0480098,0.237045,0.473063,0.181829,1.35663,0.070215,2.47764,0.0647269,3.90013,0.0251607,7.73285}: part437{11.3068},
+    JTT+F+R10{0.116412,0.0191136,0.182124,0.129732,0.176331,0.31303,0.136054,0.59776,0.108129,0.945322,0.0917096,1.4492,0.0748966,2.22196,0.0556882,3.02592,0.0509922,4.2932,0.00766423,6.34852}: part438{46.4191},
+    LG+R7{0.206045,0.0210001,0.33572,0.361157,0.224318,0.925348,0.108952,1.73661,0.0621181,2.81415,0.0466426,4.27513,0.0162042,6.38312}: part439{20.2979},
+    JTT+R7{0.0258683,0.0559581,0.100808,0.198747,0.127766,0.417329,0.26317,0.728734,0.225875,1.11665,0.167188,1.6206,0.0893249,2.35374}: part440{90.3163},
+    JTT+R10{0.154231,0.0070716,0.101847,0.0616954,0.127884,0.192473,0.0975616,0.410793,0.0813387,0.528259,0.0457979,0.759699,0.0878196,1.08411,0.0729573,1.63787,0.130581,2.30122,0.0999827,3.35036}: part441{76.5968},
+    JTTDCMut+R8{0.0464498,0.0101989,0.107411,0.129024,0.143659,0.335445,0.23706,0.621465,0.193049,1.0542,0.176385,1.71518,0.0842253,2.76808,0.0117604,4.33384}: part442{47.637},
+    JTTDCMut+R9{0.0954894,0.00870285,0.0827015,0.0573025,0.153997,0.189786,0.127336,0.390047,0.134765,0.660259,0.110524,1.00255,0.104632,1.49725,0.109584,2.40028,0.0809709,3.65634}: part443{80.0994},
+    LG+R8{0.0530309,0.0289701,0.140544,0.137903,0.199062,0.320118,0.221151,0.628941,0.137273,1.10153,0.109753,1.706,0.110899,2.81901,0.0282856,4.42602}: part444{78.2818},
+    LG+R8{0.109521,0.00792353,0.142464,0.0940085,0.149683,0.229039,0.103406,0.52068,0.132846,0.905733,0.114931,1.38989,0.147561,1.98979,0.0995884,3.25274}: part445{62.8464},
+    LG+R8{0.159957,0.0471734,0.175128,0.219552,0.156828,0.448989,0.0924293,0.764225,0.130959,0.936589,0.119532,1.521,0.134596,2.68898,0.0305706,4.79428}: part446{41.954},
+    LG+R7{0.274148,0.0414959,0.255309,0.312834,0.245068,0.845142,0.120434,1.94988,0.0499007,3.166,0.0485516,5.12719,0.00658806,9.09019}: part447{17.3676},
+    JTT+R8{0.123244,0.0176215,0.112973,0.133878,0.159102,0.306068,0.187716,0.601429,0.150775,1.05494,0.119268,1.64252,0.0981029,2.64773,0.0488197,4.22785}: part448{37.3258},
+    JTT+F+R9{0.0630725,0.00757293,0.0765153,0.0634571,0.0881845,0.197295,0.095998,0.38796,0.145221,0.577247,0.175951,0.909098,0.133289,1.35715,0.125943,1.93554,0.0958259,2.8341}: part449{72.0982},
+    JTT+F+R10{0.0298549,0.0271761,0.0691295,0.086874,0.101508,0.186252,0.0878318,0.318001,0.124326,0.490278,0.146147,0.733802,0.118688,1.06789,0.142822,1.52324,0.121392,2.13016,0.0583001,3.0063}: part450{102.159},
+    LG+R6{0.150783,0.0369083,0.206526,0.241908,0.22038,0.627173,0.174291,1.11676,0.146056,1.87735,0.101964,3.30919}: part451{43.2776},
+    LG+R7{0.168533,0.040663,0.193907,0.226305,0.177318,0.500575,0.134087,0.890251,0.107164,1.39641,0.118729,2.05478,0.100263,3.46616}: part452{40.811},
+    LG+R6{0.114751,0.0113491,0.260825,0.151095,0.262761,0.538819,0.142152,1.12137,0.128466,2.23763,0.0910442,4.07323}: part453{26.734},
+    LG+F+R8{0.0386343,0.034405,0.0941419,0.152422,0.152603,0.344039,0.190551,0.622452,0.236442,1.00293,0.139594,1.45453,0.107669,2.21501,0.0403654,3.33318}: part454{57.0175},
+    JTT+F+R9{0.00347212,0.00758747,0.0353589,0.100037,0.0968777,0.233126,0.162146,0.465678,0.193181,0.723938,0.238996,1.09929,0.184308,1.5975,0.0722092,2.19903,0.0134511,3.16294}: part455{79.2076},
+    LG+R7{0.216457,0.00940824,0.192903,0.176237,0.0879771,0.339239,0.163591,0.701704,0.112242,1.17275,0.114026,2.26118,0.112805,3.81069}: part456{40.38},
+    LG+R7{0.113914,0.0095143,0.209155,0.144406,0.221995,0.455593,0.128079,0.914184,0.142209,1.42652,0.131966,2.60399,0.0526818,3.87201}: part457{41.5565},
+    LG+R8{0.113513,0.0594777,0.207873,0.243225,0.256051,0.545771,0.149044,0.972591,0.11961,1.45422,0.0720186,2.23553,0.0569077,3.39519,0.0249824,5.19698}: part458{32.8722},
+    LG+R7{0.205358,0.0136275,0.130173,0.155541,0.219341,0.444575,0.162349,1.00256,0.123353,1.65177,0.0929835,2.61353,0.066443,4.06228}: part459{39.1715},
+    JTT+R9{0.177274,0.0366293,0.178237,0.145185,0.139208,0.36557,0.0645522,0.497416,0.0857881,0.786037,0.0883509,1.10987,0.101067,1.71881,0.101998,2.72827,0.0635249,4.20535}: part460{38.2223},
+    LG+F+R8{0.0772191,0.0123643,0.106447,0.0798655,0.140257,0.218597,0.170449,0.479583,0.195666,0.906619,0.119961,1.50097,0.107199,2.19911,0.0828019,3.44127}: part461{59.6854},
+    LG+R5{0.314664,0.0953538,0.309716,0.521056,0.183262,1.26438,0.141555,2.43527,0.0508042,4.5701}: part462{26.356},
+    LG+R5{0.171066,0.0676191,0.221551,0.321979,0.307263,0.803685,0.231534,1.82637,0.0685854,3.60554}: part463{22.871},
+    JTTDCMut+R8{0.120098,0.0145279,0.136449,0.108105,0.195455,0.373432,0.206293,0.811585,0.117605,1.28567,0.101736,1.90927,0.107059,2.9639,0.0153057,5.24883}: part464{47.1779},
+    JTT+F+R6{0.162379,0.0831707,0.216371,0.298923,0.169751,0.696844,0.191273,1.25702,0.181513,1.91393,0.0787127,2.74022}: part465{37.7448},
+    JTT+F+R9{0.141876,0.00888535,0.10429,0.0698482,0.128285,0.190067,0.0916364,0.38673,0.113432,0.67558,0.122177,1.08425,0.128222,1.73366,0.0889844,2.45624,0.0810972,3.47325}: part466{50.7847},
+    JTT+R8{0.11436,0.0141895,0.0952785,0.0740669,0.124143,0.226944,0.137448,0.449692,0.149571,0.796615,0.171509,1.33421,0.11892,2.16123,0.0887717,3.33827}: part467{70.7401},
+    JTT+F+R8{0.146461,0.0147955,0.136854,0.131909,0.168814,0.342642,0.202304,0.693894,0.111089,1.27333,0.103957,2.03776,0.092432,2.84533,0.0380886,4.33905}: part468{56.6339},
+    JTT+F+R9{0.0521356,0.00958119,0.0508985,0.0805404,0.0778308,0.197496,0.140385,0.423786,0.187397,0.689717,0.1963,1.06377,0.147184,1.56315,0.0976759,2.10955,0.0501935,2.91563}: part469{76.6354},
+    LG+R6{0.322659,0.0720815,0.232246,0.480146,0.200846,1.07021,0.176272,2.11216,0.0532693,3.29845,0.014708,6.95275}: part470{22.2679},
+    JTT+F+R10{0.0490797,0.0155094,0.084772,0.0978063,0.108169,0.218416,0.107785,0.357718,0.12944,0.541252,0.152837,0.836126,0.130452,1.22329,0.10226,1.76831,0.0830958,2.40437,0.0521085,3.65989}: part471{57.4402},
+    LG+R7{0.190327,0.0144592,0.173766,0.186781,0.236018,0.549194,0.166137,1.06241,0.118284,1.8801,0.0872975,3.25248,0.028171,5.408}: part472{19.2981},
+    LG+R6{0.110654,0.0319107,0.147537,0.237817,0.209924,0.54615,0.231204,0.999374,0.190277,1.58307,0.110404,2.84818}: part473{53.6},
+    JTT+F+R9{0.0251561,0.00519051,0.0419212,0.0530225,0.0777748,0.149882,0.116485,0.316303,0.133956,0.542907,0.123597,0.756865,0.159553,1.11935,0.184332,1.59162,0.137225,2.26555}: part474{151.626},
+    LG+R6{0.0288339,0.0320717,0.178966,0.238398,0.308524,0.65217,0.293438,1.10656,0.150365,2.01358,0.0398734,3.2032}: part475{34.078},
+    LG+F+R7{0.203622,0.026958,0.203412,0.206845,0.166073,0.527269,0.145301,0.915812,0.142566,1.49245,0.10348,2.93064,0.0355464,6.07003}: part476{25.5854},
+    LG+R5{0.326375,0.0747951,0.281776,0.464116,0.238271,1.43351,0.126003,2.77682,0.0275755,5.56149}: part477{19.0332},
+    LG+R7{0.0848399,0.0350042,0.176027,0.178466,0.182996,0.424321,0.227121,0.89021,0.144605,1.34841,0.124383,2.16917,0.0600273,3.6814}: part478{58.3039},
+    LG+R9{0.0593298,0.0202869,0.129004,0.117833,0.168718,0.312255,0.141582,0.555383,0.159282,0.897288,0.141916,1.22098,0.118782,1.95361,0.055391,3.05513,0.0259943,5.18576}: part479{35.3621},
+    JTTDCMut+R9{0.102068,0.0175949,0.140692,0.121985,0.155913,0.288908,0.187131,0.568409,0.131314,0.957093,0.104981,1.5107,0.0728292,2.32042,0.0699969,3.16333,0.0350756,4.41726}: part480{49.8892},
+    LG+R7{0.145983,0.0449889,0.190373,0.223405,0.158278,0.505259,0.189136,0.898586,0.196602,1.62172,0.0984573,2.8166,0.0211701,4.95163}: part481{40.2433},
+    JTT+R8{0.0960653,0.0167244,0.0815745,0.0788411,0.127797,0.165889,0.0969295,0.330529,0.12176,0.540677,0.129823,0.892185,0.178672,1.61233,0.16738,2.80194}: part482{71.3536},
+    JTT+R8{0.100269,0.00732382,0.105951,0.0733508,0.129985,0.268728,0.176906,0.537319,0.16166,0.97522,0.161383,1.49373,0.121956,2.59239,0.0418909,3.5004}: part483{73.2807},
+    JTT+R9{0.225485,0.00970515,0.163266,0.118714,0.119854,0.313214,0.123821,0.584582,0.104848,1.04749,0.109524,1.83037,0.093962,2.7633,0.031669,3.99791,0.0275707,6.2369}: part484{42.8974},
+    LG+R6{0.286647,0.0209628,0.214686,0.288916,0.238928,0.860715,0.184923,1.99842,0.0499804,3.85941,0.0248348,6.59828}: part485{11.1615},
+    JTT+R7{0.0807798,0.0247763,0.199134,0.247092,0.203128,0.561638,0.118898,0.666143,0.160928,1.08629,0.121821,1.79115,0.115312,3.14359}: part486{36.9836},
+    JTT+F+R6{0.112282,0.0525863,0.248805,0.29932,0.0806546,0.514876,0.280317,0.883527,0.154513,1.7645,0.123428,2.89877}: part487{32.8761},
+    JTT+R10{0.0489726,0.00972905,0.137989,0.0712442,0.135553,0.198708,0.11676,0.367184,0.125312,0.628787,0.120057,0.946678,0.0950017,1.42602,0.120259,2.07269,0.0897996,3.11252,0.0102966,6.13779}: part488{78.8893},
+    JTT+F+R10{0.057316,0.00880308,0.108865,0.0717582,0.159924,0.200817,0.0810613,0.369604,0.111178,0.538745,0.155939,0.856689,0.123751,1.30252,0.0956664,1.99861,0.0686223,2.98318,0.0376771,4.75138}: part489{50.4191},
+    LG+F+R8{0.100899,0.00807674,0.0614535,0.0750389,0.129819,0.306234,0.188525,0.522087,0.173724,0.857688,0.153372,1.36323,0.136357,2.15078,0.0558513,3.67112}: part490{52.6869},
+    LG+I{0.201186}+G4{0.973964}: part491{18.2487},
+    JTT+I{0.213464}+G4{1.0121}: part492{12.9378},
+    LG+R7{0.196664,0.0129453,0.233806,0.243854,0.141437,0.559646,0.189483,0.996277,0.150759,1.88431,0.0679817,3.72995,0.019869,6.7876}: part493{19.2946},
+    JTTDCMut+R9{0.089032,0.0166709,0.110391,0.124043,0.163506,0.254173,0.156658,0.479191,0.158936,0.786733,0.0955932,1.24973,0.0782415,1.85888,0.0788938,2.78127,0.0687485,3.76477}: part494{87.338},
+    LG+R6{0.161821,0.0149034,0.191809,0.177468,0.24792,0.549988,0.0773946,0.979515,0.182281,1.83353,0.138775,3.00608}: part495{42.2084},
+    LG+R7{0.195974,0.0281634,0.339577,0.304057,0.209718,0.824913,0.130156,1.77933,0.0652853,2.6214,0.0165551,4.11435,0.0427345,5.78896}: part496{19.5582},
+    LG+R5{0.153646,0.10496,0.208596,0.353046,0.350898,0.942174,0.213664,1.69137,0.0731945,2.98159}: part497{36.9607},
+    JTT+R9{0.127934,0.0102489,0.0928398,0.0830313,0.110093,0.214236,0.124337,0.432406,0.0889658,0.673577,0.120192,1.06774,0.129707,1.57687,0.145702,2.30472,0.0602295,3.0722}: part498{102.921},
+    JTT+R8{0.0606012,0.0184478,0.120614,0.0857924,0.14199,0.227651,0.146429,0.4221,0.102814,0.696107,0.116721,1.17201,0.171221,1.84851,0.139609,2.64689}: part499{101.626},
+    LG+I{0.304155}+G4{0.595423}: part500{14.3143},
+    LG+R7{0.0466725,0.0255643,0.129295,0.157351,0.291287,0.435535,0.23811,0.894636,0.178538,1.48661,0.0785329,2.39588,0.0375648,4.92491}: part501{49.1428},
+    JTT+R7{0.0673294,0.0337922,0.128353,0.240811,0.182416,0.463334,0.227671,0.823855,0.205406,1.29395,0.147513,2.02514,0.0413121,3.15186}: part502{51.3982},
+    LG+R5{0.25568,0.0320827,0.246038,0.298033,0.182443,0.814987,0.200831,1.6964,0.115008,3.73097}: part503{21.4814},
+    LG+R6{0.200764,0.0254153,0.172365,0.252702,0.271908,0.707229,0.202823,1.42258,0.0926204,2.52198,0.0595189,3.98059}: part504{28.9276},
+    JTT+R9{0.0245039,0.0246456,0.161723,0.166998,0.0931059,0.370411,0.109156,0.431197,0.206253,0.746696,0.202795,1.22747,0.102884,1.8165,0.0818372,2.77377,0.0177418,4.17172}: part505{48.7199},
+    JTT+R8{0.047104,0.101543,0.161931,0.288725,0.235917,0.586829,0.239261,0.894665,0.142288,1.3471,0.117358,1.9047,0.0425635,2.75866,0.0135779,4.6646}: part506{44.8294},
+    LG+R8{0.178059,0.0114376,0.121833,0.10626,0.118639,0.313126,0.157234,0.747507,0.168329,1.16205,0.148096,1.87996,0.0778456,2.82741,0.0299645,4.54578}: part507{40.515},
+    LG+R6{0.125245,0.0496579,0.26172,0.298682,0.205192,0.807842,0.265881,1.44008,0.0993369,2.14312,0.0426245,3.61445}: part508{23.177},
+    LG+R5{0.45077,0.0373461,0.221368,0.451115,0.196715,1.39354,0.0814402,3.27012,0.0497065,6.89755}: part509{13.5736},
+    LG+R6{0.231003,0.0216164,0.335571,0.238159,0.204987,0.844561,0.10689,1.80549,0.088997,3.70751,0.032551,6.72843}: part510{14.7577},
+    LG+R7{0.257026,0.0685576,0.234176,0.358603,0.171105,0.798159,0.153419,1.45152,0.116438,2.29214,0.0498213,3.50547,0.018014,5.41812}: part511{29.4236},
+    JTTDCMut+R10{0.0947332,0.0164733,0.129732,0.0949252,0.13826,0.250249,0.0908862,0.438955,0.130247,0.70724,0.0941506,1.01353,0.115108,1.40193,0.0902341,1.98555,0.0792649,2.86223,0.0373835,4.19112}: part512{73.7066},
+    LG+R6{0.132617,0.0955499,0.296885,0.444174,0.288475,0.933199,0.189456,1.69367,0.081825,2.58952,0.0107417,4.97975}: part513{25.4044},
+    JTTDCMut+R9{0.190966,0.0101568,0.0960582,0.0632411,0.0827405,0.209422,0.0968339,0.404008,0.186404,0.672054,0.0836892,1.08481,0.120535,1.76138,0.115304,3.00428,0.0274694,5.85248}: part514{64.8018},
+    LG+R8{0.079499,0.076177,0.162381,0.196726,0.171851,0.392435,0.181118,0.747515,0.141707,1.17173,0.136859,1.729,0.0923588,2.47667,0.0342257,3.73273}: part515{53.8367},
+    LG+R6{0.25034,0.0867576,0.300007,0.38292,0.210113,1.03722,0.147085,1.89533,0.0744833,3.34369,0.0179723,6.54591}: part516{16.17},
+    JTT+R6{0.234943,0.0782619,0.285326,0.399474,0.244115,0.848055,0.134978,1.91933,0.0685465,3.26825,0.0320914,5.53154}: part517{17.4234},
+    LG+R7{0.168075,0.0336634,0.187849,0.182176,0.207643,0.483427,0.228189,1.03839,0.0831976,1.94491,0.0770359,3.00705,0.0480102,4.77665}: part518{30.2611},
+    JTTDCMut+R6{0.128219,0.0650076,0.119704,0.271518,0.251217,0.629238,0.204736,1.06379,0.187334,1.60167,0.10879,2.6036}: part519{66.3947},
+    LG+R8{0.171068,0.0243919,0.206522,0.232925,0.226718,0.587097,0.134977,1.10025,0.120336,1.63757,0.0826009,2.60863,0.0444336,3.80415,0.0133442,6.33546}: part520{30.1403},
+    LG+F+R7{0.270692,0.0161517,0.216569,0.190132,0.189591,0.627248,0.115329,1.34502,0.111496,2.39966,0.0547548,3.62682,0.0415684,5.15475}: part521{21.5906},
+    JTT+R7{0.224696,0.0342572,0.329864,0.321366,0.173054,0.863965,0.141794,1.60411,0.073213,2.70631,0.033946,4.491,0.0234335,6.77415}: part522{14.9363},
+    LG+R8{0.107499,0.0104272,0.16886,0.0887001,0.231403,0.288833,0.153683,0.639246,0.116783,1.15712,0.0799941,1.75579,0.0723004,2.92542,0.0694775,4.77463}: part523{49.5552},
+    JTT+F+R6{0.0859406,0.0829461,0.0960026,0.276305,0.153114,0.509359,0.296851,0.905213,0.208375,1.36,0.159717,2.1053}: part524{78.7298},
+    LG+R10{0.201828,0.00887996,0.131844,0.0751447,0.107645,0.206464,0.0948759,0.391706,0.0824089,0.642767,0.110175,0.989208,0.0781875,1.52807,0.0960066,2.43272,0.082309,3.8721,0.0147206,6.46817}: part525{51.6403},
+    LG+R6{0.274772,0.0466673,0.258804,0.230668,0.260818,0.796903,0.115357,2.03216,0.043354,4.05911,0.046895,6.59411}: part526{16.5457},
+    LG+R9{0.0752326,0.00846728,0.150454,0.106566,0.135107,0.275231,0.131638,0.514548,0.17579,0.792567,0.129641,1.38404,0.125613,2.0644,0.0513079,3.14573,0.0252168,5.50983}: part527{53.3416},
+    JTT+F+R8{0.0487267,0.0286187,0.183226,0.157027,0.174498,0.431558,0.194605,0.766269,0.188671,1.2725,0.132677,1.95723,0.06485,2.88451,0.0127459,4.59639}: part528{34.9471},
+    JTTDCMut+R8{0.132652,0.018282,0.153031,0.123525,0.11379,0.33601,0.0918599,0.444006,0.11653,0.711493,0.121117,1.18245,0.166123,1.95138,0.104897,3.33046}: part529{55.036},
+    JTTDCMut+R9{0.160823,0.0296837,0.13792,0.175406,0.220064,0.394494,0.118083,0.759934,0.102404,1.01261,0.129553,1.54028,0.0536967,2.31203,0.0339291,3.30409,0.0435267,5.85818}: part530{31.0883},
+    JTT+R9{0.0458785,0.0178916,0.0676194,0.0855298,0.0863666,0.181922,0.134819,0.316207,0.150936,0.566876,0.158559,0.853724,0.129621,1.32772,0.121667,1.9802,0.104535,2.8804}: part531{83.5875},
+    LG+R7{0.166925,0.00912277,0.163152,0.124724,0.196973,0.342372,0.160014,0.768967,0.083503,1.32243,0.124341,2.2617,0.105092,3.76809}: part532{34.6441},
+    LG+R6{0.166998,0.0344324,0.203119,0.230122,0.199196,0.602659,0.216954,1.24155,0.168482,2.25768,0.0452505,3.92753}: part533{36.9259},
+    JTTDCMut+R8{0.113309,0.0500301,0.169994,0.224519,0.208176,0.46833,0.160736,0.858003,0.154011,1.30015,0.105648,1.8907,0.0668037,3.16323,0.0213229,5.13328}: part534{41.7393},
+    LG+R5{0.50797,0.0209513,0.318334,0.701646,0.121751,2.99487,0.0458099,6.27048,0.00613497,18.6017}: part535{7.12806},
+    LG+R5{0.19191,0.0640129,0.223187,0.316635,0.304841,0.844632,0.174818,1.68984,0.105245,3.46007}: part536{19.4937},
+    JTTDCMut+R6{0.202222,0.0325799,0.201256,0.214424,0.125211,0.587072,0.186469,1.11076,0.199164,1.93332,0.085678,3.3215}: part537{59.6901},
+    LG+F+R8{0.0878861,0.0120541,0.10171,0.119381,0.244243,0.366954,0.252733,0.694491,0.180248,1.31962,0.0853544,2.24664,0.0367145,3.82769,0.0111111,13.6351}: part538{26.1548},
+    LG+R9{0.160314,0.0216335,0.144767,0.128726,0.121956,0.338301,0.153787,0.601621,0.128343,1.03542,0.0922891,1.44908,0.0851502,2.1037,0.0804756,3.0653,0.0329171,4.60795}: part539{42.6686},
+    LG+R6{0.125555,0.0196909,0.168776,0.150625,0.223858,0.494984,0.181824,0.884506,0.144149,1.73117,0.155838,2.89357}: part540{59.5458},
+    JTT+F+R9{0.217279,0.0152506,0.209716,0.147389,0.143235,0.405809,0.138584,0.781705,0.0843336,1.36801,0.0838918,2.00042,0.0648879,2.97776,0.0334831,4.58272,0.0245884,6.89208}: part541{31.839},
+    JTT+R8{0.0545266,0.0249151,0.0904653,0.131349,0.102781,0.265033,0.15499,0.47155,0.151691,0.760616,0.145205,1.15197,0.160959,1.63604,0.139383,2.44253}: part542{85.6307},
+    JTT+R9{0.0514566,0.0244195,0.0966566,0.158832,0.191618,0.380763,0.184454,0.635566,0.208103,1.0166,0.157796,1.62338,0.0622089,2.44757,0.041109,3.39505,0.00659787,5.09998}: part543{33.6301},
+    LG+R5{0.373668,0.147013,0.308234,0.595066,0.205752,1.42637,0.0568283,3.01066,0.055518,5.35102}: part544{19.2928},
+    JTT+R7{0.0878968,0.0837751,0.138821,0.269435,0.208125,0.53827,0.212869,0.927048,0.212626,1.48634,0.119372,2.20602,0.0202893,3.27729}: part545{50.3963},
+    JTTDCMut+R8{0.121204,0.0092987,0.0942403,0.0688459,0.0903275,0.207257,0.157764,0.449458,0.171008,0.757652,0.116162,1.2781,0.16672,1.99442,0.0825742,3.53882}: part546{56.5244},
+    LG+R6{0.0414062,0.03636,0.128283,0.138979,0.241797,0.392522,0.235335,0.746565,0.210887,1.43767,0.142292,2.85945}: part547{47.0949},
+    LG+F+R7{0.291505,0.0147115,0.193812,0.21839,0.164697,0.618864,0.158454,1.37454,0.122774,2.52881,0.0370968,3.89836,0.0316603,5.64016}: part548{20.8655},
+    LG+R7{0.167478,0.026973,0.213366,0.153537,0.202351,0.473999,0.111732,0.917943,0.118727,1.53214,0.117071,2.48919,0.0692744,4.19962}: part549{37.7925},
+    LG+R6{0.148494,0.0145906,0.224281,0.207836,0.235785,0.535242,0.175752,1.19537,0.137013,2.20397,0.0786755,3.97781}: part550{24.13},
+    LG+R5{0.566173,0.0534349,0.243395,0.769973,0.107047,2.60822,0.0611079,4.87485,0.022277,9.21332}: part551{6.4161},
+    LG+R5{0.426081,0.0371364,0.272244,0.470642,0.196768,1.67431,0.0916012,4.20214,0.0133065,10.6472}: part552{7.45411},
+    JTT+F+R10{0.0602649,0.0174585,0.169183,0.101227,0.181342,0.231951,0.141443,0.437689,0.102522,0.652553,0.0657755,0.980284,0.0726489,1.52116,0.103265,2.35475,0.0847405,3.38664,0.0188146,5.62388}: part553{71.1754},
+    LG+R4{0.468879,0.144663,0.263559,0.789473,0.225585,2.16828,0.0419767,5.59751}: part554{9.05467},
+    JTT+F+R10{0.019117,0.0207996,0.0646116,0.079449,0.0886906,0.201271,0.113825,0.369224,0.120779,0.558446,0.146242,0.785674,0.167085,1.15501,0.131782,1.60774,0.101377,2.11835,0.0464908,2.85294}: part555{99.0508},
+    JTT+R7{0.0986648,0.0258025,0.098306,0.196484,0.168891,0.42518,0.216474,0.780566,0.233739,1.33809,0.137164,2.06288,0.0467603,3.02907}: part556{47.5064},
+    JTTDCMut+R8{0.0981092,0.0152941,0.115782,0.0892937,0.142488,0.307875,0.145996,0.526549,0.0989153,0.767214,0.186031,1.18322,0.117013,2.06135,0.0956665,3.45166}: part557{51.5127},
+    LG+F+R7{0.0544419,0.0656463,0.139966,0.219917,0.166655,0.480431,0.231049,0.780552,0.135396,1.157,0.186612,1.74252,0.0858809,2.60133}: part558{41.1782},
+    LG+R6{0.103636,0.0604281,0.255896,0.328408,0.209244,0.694181,0.19543,1.18503,0.145198,1.79232,0.090596,3.00911}: part559{33.2152},
+    JTT+R5{0.230649,0.106764,0.295518,0.512303,0.23283,1.05704,0.145127,1.86344,0.0958758,3.20661}: part560{30.2267},
+    LG+R7{0.162499,0.0352431,0.155319,0.175722,0.176064,0.457816,0.198965,0.914837,0.0847678,1.45615,0.134445,2.07455,0.0879406,3.43421}: part561{39.5378},
+    LG+I{0.0768179}+G4{0.923681}: part562{20.3255},
+    LG+R9{0.0249679,0.0208895,0.0826401,0.14827,0.0557915,0.250518,0.116348,0.375027,0.161661,0.561506,0.254902,0.939611,0.144556,1.47808,0.126342,2.13517,0.0327917,3.53459}: part563{79.5294},
+    LG+R6{0.267616,0.0842262,0.262207,0.443575,0.218461,0.920231,0.138027,1.7266,0.106311,3.37714,0.00737892,8.50711}: part564{22.504},
+    JTT+R6{0.0430332,0.0375768,0.0929671,0.138579,0.205462,0.315321,0.228851,0.667131,0.269451,1.32695,0.160236,2.5618}: part565{63.2644},
+    LG+R4{0.174574,0.129915,0.44523,0.600405,0.256151,1.39794,0.124045,2.83702}: part566{19.9377},
+    LG+R5{0.364072,0.0766949,0.384618,0.510249,0.144489,1.54365,0.0825444,4.06797,0.0242763,8.93866}: part567{10.9759},
+    LG+I{0.0708414}+G4{1.12282}: part568{31.9932},
+    JTT+R8{0.0763442,0.0245811,0.0977613,0.142,0.106098,0.309918,0.159809,0.541929,0.208461,0.877735,0.154084,1.44449,0.131986,2.07872,0.0654553,2.82399}: part569{79.5671},
+    LG+R7{0.279869,0.0323511,0.223776,0.25263,0.157398,0.689137,0.125071,1.22465,0.0901708,2.06812,0.0902335,3.29069,0.0334809,5.65581}: part570{23.9923},
+    JTTDCMut+R9{0.131892,0.0130838,0.139168,0.124366,0.146834,0.297189,0.100509,0.600098,0.0887664,0.779642,0.164805,1.19893,0.0993031,1.82787,0.0966734,2.77521,0.0320487,5.00535}: part571{41.5027},
+    JTT+F+R10{0.0155616,0.0181665,0.053215,0.089598,0.0785181,0.203354,0.116181,0.365705,0.188451,0.58484,0.198849,0.878878,0.14139,1.30377,0.0978696,1.81083,0.083981,2.41529,0.0259832,3.35263}: part572{74.8725},
+    LG+I{0.138312}+G4{0.875213}: part573{22.1189},
+    LG+R7{0.153394,0.0128885,0.132386,0.108461,0.187848,0.354081,0.139928,0.706631,0.173094,1.27067,0.148433,2.30136,0.064917,3.95476}: part574{43.4701},
+    JTT+F+R9{0.0253571,0.0584916,0.0340626,0.133852,0.0816385,0.282407,0.0947736,0.448147,0.193615,0.654054,0.18907,0.934548,0.149953,1.26074,0.147798,1.68159,0.0837327,2.23943}: part575{97.2687},
+    LG+R6{0.0741562,0.105083,0.2163,0.428573,0.25207,0.737027,0.196535,1.13637,0.19438,1.676,0.0665595,2.47311}: part576{45.0821},
+    LG+R6{0.20174,0.0188242,0.230054,0.244512,0.183301,0.597307,0.177254,1.29572,0.152686,2.41617,0.0549645,4.21869}: part577{32.2931},
+    LG+R8{0.0668997,0.0200822,0.129488,0.141988,0.179608,0.347771,0.194677,0.629833,0.177796,1.02927,0.0720159,1.52803,0.137277,2.40806,0.0422385,4.06216}: part578{59.4334},
+    JTT+R9{0.193793,0.0120493,0.129659,0.10154,0.147853,0.318358,0.144089,0.651744,0.115176,1.14609,0.0859451,1.65043,0.103543,2.41434,0.0511101,3.38972,0.0288319,5.07887}: part579{26.0722},
+    JTT+R9{0.0449354,0.0256333,0.126648,0.100362,0.142364,0.217227,0.101657,0.421767,0.157307,0.727177,0.119274,1.08089,0.0956898,1.45788,0.137751,2.18675,0.0743729,3.06956}: part580{73.4055},
+    JTT+R7{0.074581,0.0191784,0.129752,0.134577,0.197587,0.385103,0.187594,0.667585,0.157826,1.1671,0.103598,1.74306,0.149062,2.78411}: part581{83.641},
+    LG+R6{0.0487113,0.0406391,0.22888,0.207205,0.236978,0.545419,0.21811,1.00485,0.168168,1.75324,0.0991516,3.09966}: part582{31.7379},
+    LG+R8{0.0931683,0.0124994,0.157142,0.126588,0.168788,0.364478,0.172004,0.691763,0.168811,1.22772,0.116612,1.88073,0.0956795,2.7428,0.0277949,3.93735}: part583{39.02},
+    LG+F+R7{0.133321,0.084142,0.196845,0.332887,0.199678,0.62974,0.172204,1.0888,0.167939,1.57599,0.108555,2.40297,0.0214586,3.93744}: part584{44.1541},
+    LG+R8{0.176075,0.0181175,0.216445,0.181084,0.187228,0.439575,0.125191,0.915531,0.103776,1.44462,0.0967025,2.19725,0.0604939,3.48425,0.034088,5.50122}: part585{32.5742},
+    JTTDCMut+R10{0.187081,0.00728564,0.090198,0.0663473,0.122459,0.15461,0.10141,0.320887,0.101372,0.548347,0.0918732,0.882371,0.122415,1.41309,0.076908,2.13445,0.0542855,3.17336,0.0519985,5.67552}: part586{74.0618},
+    LG+R8{0.114561,0.0189376,0.130264,0.127184,0.126866,0.327874,0.114308,0.608687,0.201003,1.01116,0.108969,1.51851,0.161358,2.20759,0.0426704,3.40187}: part587{77.4577},
+    JTT+R9{0.116855,0.0100982,0.206192,0.121658,0.227396,0.371258,0.143838,0.745726,0.117431,1.21954,0.0622788,1.94523,0.065252,2.93619,0.0335495,4.51304,0.0272082,6.42045}: part588{33.251},
+    LG+R6{0.0428192,0.119176,0.209791,0.343639,0.2574,0.665583,0.233861,1.11871,0.191167,1.72756,0.0649617,2.45696}: part589{41.3968},
+    LG+R8{0.109081,0.0314191,0.0720368,0.141163,0.0948734,0.325557,0.0879311,0.346979,0.225976,0.653076,0.205132,1.19303,0.113925,2.00849,0.0910449,3.33772}: part590{58.8907},
+    LG+F+R6{0.113953,0.117834,0.246419,0.404345,0.325331,0.788681,0.179664,1.43546,0.0816277,2.26389,0.0530055,3.54029}: part591{35.2747},
+    LG+G4{0.501696}: part592{22.0917},
+    LG+R6{0.107607,0.0836953,0.252037,0.346017,0.2166,0.72005,0.215265,1.21504,0.166254,2.01354,0.0422372,3.58709}: part593{40.8204},
+    JTT+F+R10{0.039817,0.0227915,0.0612332,0.132108,0.101835,0.271708,0.109284,0.453894,0.163711,0.695374,0.198186,1.01832,0.185668,1.45909,0.0938599,1.96204,0.0391846,2.67079,0.00722108,5.31159}: part594{63.8403},
+    JTT+R9{0.078797,0.0303015,0.104015,0.154205,0.176053,0.324007,0.194903,0.59695,0.173351,0.941473,0.0966072,1.42601,0.090781,2.17185,0.0647494,3.17723,0.0207432,5.02955}: part595{64.3572},
+    LG+R5{0.437899,0.0793471,0.336053,0.585176,0.157699,1.82023,0.0489294,5.3416,0.0194192,11.339}: part596{11.695},
+    LG+R6{0.267452,0.0277519,0.340269,0.316005,0.163053,0.955146,0.139373,2.06552,0.0787066,4.34179,0.0111467,8.94499}: part597{13.1202},
+    JTT+R9{0.0564545,0.00741379,0.0777377,0.0589883,0.103742,0.183009,0.140166,0.358903,0.123431,0.588876,0.157908,0.918658,0.149525,1.33659,0.137116,2.15792,0.0539202,3.93576}: part598{69.6776},
+    JTT+R6{0.108123,0.0849011,0.156977,0.287223,0.304142,0.668938,0.270483,1.21227,0.118861,2.22079,0.0414136,3.63206}: part599{53.6619},
+    LG+R5{0.221651,0.078665,0.24256,0.378672,0.254284,0.865893,0.168244,1.73185,0.113262,3.34762}: part600{24.7699},
+    LG+R6{0.299176,0.0481999,0.169894,0.266398,0.175151,0.652822,0.176963,1.3586,0.119975,2.56133,0.0588416,4.72896}: part601{26.1782},
+    JTT+R10{0.0577876,0.00742673,0.100926,0.0438089,0.0927719,0.11696,0.148836,0.272194,0.133562,0.483837,0.145418,0.870341,0.101185,1.40272,0.131854,2.05695,0.0685767,3.37339,0.0190837,5.66536}: part602{71.6532},
+    LG+R6{0.13643,0.0199366,0.212394,0.171553,0.284073,0.590943,0.134995,1.11168,0.155996,2.20808,0.0761126,3.92116}: part603{25.0017},
+    LG+R6{0.148992,0.0392386,0.219742,0.339025,0.269447,0.716303,0.190988,1.30017,0.0906878,2.1351,0.0801428,3.55248}: part604{31.7098},
+    LG+R9{0.177833,0.00939936,0.0450643,0.0884798,0.211297,0.312796,0.151218,0.68473,0.156018,1.13131,0.127398,1.76157,0.0814774,2.60858,0.0361207,3.84071,0.0135727,5.34233}: part605{47.8809},
+    JTT+F+R7{0.0495476,0.0849112,0.162359,0.26048,0.168067,0.513292,0.263432,0.846904,0.16641,1.35948,0.113658,1.90916,0.0765267,2.62535}: part606{69.5052},
+    JTT+R9{0.0292027,0.00719203,0.0519998,0.0635551,0.127692,0.164707,0.162113,0.328585,0.142858,0.566864,0.150944,0.862881,0.117706,1.34704,0.117807,1.99596,0.0996756,3.18297}: part607{75.9348},
+    LG+I{0.112802}+G4{0.837291}: part608{25.0942},
+    JTT+R9{0.110345,0.0113852,0.185514,0.105444,0.174592,0.283648,0.122643,0.573554,0.188674,0.912642,0.0965024,1.48027,0.055815,2.28913,0.0349081,3.77133,0.0310066,9.18701}: part609{62.4688},
+    JTT+F+R9{0.0285973,0.00878412,0.0881029,0.0643383,0.149485,0.162473,0.160413,0.349572,0.151782,0.65066,0.111851,1.03367,0.114228,1.46635,0.130749,2.31967,0.0647923,3.5274}: part610{53.2082},
+    JTT+R7{0.216659,0.0281037,0.236862,0.195949,0.184463,0.476592,0.154543,0.969888,0.103439,1.9012,0.0511393,3.48674,0.0528957,6.32807}: part611{21.632},
+    LG+R8{0.114363,0.0108202,0.127944,0.091473,0.20693,0.268142,0.148208,0.597471,0.155937,1.10872,0.118419,1.83742,0.0677141,2.76617,0.0604844,4.38523}: part612{58.5068},
+    JTT+R10{0.0372201,0.0103235,0.0558045,0.0510833,0.0953295,0.158099,0.131152,0.308757,0.176851,0.546398,0.138348,0.864872,0.115458,1.25136,0.118522,1.80914,0.104975,2.58413,0.0263395,3.59703}: part613{82.4558},
+    JTT+R7{0.075409,0.0170418,0.198112,0.136075,0.187184,0.408729,0.224291,0.844533,0.158701,1.50682,0.129037,2.64923,0.0272666,4.57872}: part614{31.4648},
+    LG+R7{0.207687,0.0111658,0.203465,0.15649,0.178591,0.526572,0.128337,1.07138,0.153205,1.82794,0.0753116,3.05736,0.0534042,4.19439}: part615{36.7133},
+    JTT+R7{0.0786025,0.0585778,0.11394,0.183798,0.210479,0.385534,0.167397,0.696702,0.15747,1.17357,0.157701,1.75652,0.11441,2.75215}: part616{66.8719},
+    LG+F+R7{0.0832925,0.0622149,0.103908,0.212012,0.232839,0.46692,0.168173,0.763559,0.20349,1.24912,0.141546,2.01119,0.0667515,2.94829}: part617{42.0249},
+    LG+R10{0.10614,0.00622058,0.0807325,0.0525137,0.103415,0.185771,0.129274,0.40129,0.119797,0.650207,0.110399,0.87651,0.0880171,1.26747,0.121951,1.82391,0.107958,2.59471,0.0323155,4.18519}: part618{94.0475},
+    LG+R7{0.165123,0.0916993,0.26143,0.340365,0.211057,0.713812,0.19263,1.31261,0.0950558,2.17608,0.0511545,3.13413,0.0235494,5.31643}: part619{27.0487},
+    LG+R7{0.148544,0.00936665,0.135722,0.0971596,0.157476,0.331424,0.16068,0.689775,0.139323,1.16646,0.135013,1.92188,0.123244,3.24889}: part620{47.4424},
+    LG+R7{0.123193,0.0506411,0.160283,0.237921,0.248189,0.591663,0.222677,1.12243,0.146096,1.83563,0.0844225,2.70122,0.01514,4.1362}: part621{32.295},
+    LG+R8{0.101478,0.0313834,0.12138,0.142643,0.147789,0.320847,0.158369,0.619045,0.190762,1.023,0.150259,1.69835,0.0993632,2.59369,0.0305999,4.11724}: part622{47.6301},
+    JTT+R8{0.0679597,0.0478468,0.105578,0.184963,0.179154,0.39343,0.150987,0.67053,0.204926,1.03772,0.154634,1.57864,0.0871518,2.2408,0.0496086,3.09294}: part623{61.4202},
+    JTT+R9{0.00885116,0.00816312,0.0372397,0.0883541,0.0494164,0.161228,0.0969347,0.28269,0.127062,0.45967,0.171414,0.692898,0.19375,1.02222,0.170435,1.51134,0.144897,2.26677}: part624{93.047},
+    LG+R6{0.111029,0.0281255,0.199687,0.252427,0.218465,0.634281,0.256509,1.20751,0.134084,1.8416,0.0802259,3.13163}: part625{37.0172},
+    JTT+F+R7{0.142105,0.0583518,0.242211,0.281699,0.209709,0.632441,0.175572,1.13683,0.125358,1.89791,0.0705056,2.81162,0.0345398,4.49048}: part626{28.319},
+    JTT+R10{0.136359,0.00871597,0.139604,0.0677062,0.125559,0.193533,0.140459,0.394374,0.0913273,0.659222,0.0945485,1.02583,0.0951817,1.5451,0.0603656,2.24412,0.0819396,3.4907,0.0346568,5.30664}: part627{52.4071},
+    LG+R8{0.0719842,0.0220859,0.152378,0.147262,0.161028,0.360853,0.16882,0.561199,0.146044,0.983604,0.159849,1.46688,0.0898497,2.3988,0.050047,4.58493}: part628{45.3229},
+    JTT+R9{0.0398157,0.0134869,0.107136,0.0973617,0.133254,0.212439,0.137486,0.444544,0.133354,0.738195,0.125544,1.12296,0.146927,1.52025,0.118274,2.15417,0.0582095,3.12725}: part629{107.315},
+    JTT+R7{0.401572,0.0178898,0.226632,0.23321,0.160535,0.814035,0.0647473,1.8028,0.0806935,3.36984,0.05379,5.66893,0.0120297,9.61778}: part630{12.782},
+    LG+R8{0.103264,0.0121812,0.137886,0.0970317,0.101367,0.274092,0.0956469,0.501645,0.178114,0.806965,0.176394,1.38273,0.180911,2.30574,0.0264169,3.96823}: part631{79.7619},
+    LG+R5{0.243016,0.0587053,0.210731,0.445245,0.152562,0.864447,0.232553,1.54901,0.161138,2.48108}: part632{35.4069},
+    LG+I{0.0963659}+G4{0.741701}: part633{10.011},
+    JTT+F+R10{0.0372298,0.0252591,0.029705,0.0607784,0.0788783,0.154321,0.0976029,0.286412,0.152843,0.470956,0.190275,0.745379,0.158001,1.15257,0.114619,1.61545,0.0957282,2.29509,0.0451172,3.46528}: part634{81.2315},
+    LG+R8{0.171189,0.0191026,0.157917,0.132136,0.16565,0.36736,0.127303,0.656559,0.111396,1.13272,0.108131,1.7726,0.0865743,2.74939,0.0718399,3.8356}: part635{64.0543},
+    LG+R8{0.18642,0.0368628,0.137994,0.167183,0.121639,0.415147,0.186648,0.788725,0.16025,1.33817,0.106522,1.98821,0.0725955,2.96549,0.0279315,4.68412}: part636{55.1101},
+    JTT+F+R9{0.118359,0.00738817,0.12189,0.0631188,0.120043,0.164506,0.102411,0.319641,0.073224,0.524937,0.110871,0.855422,0.130618,1.46262,0.112083,2.27932,0.1105,3.25026}: part637{72.2104},
+    LG+F+R6{0.174749,0.0860611,0.339863,0.412648,0.159354,0.869126,0.206077,1.46386,0.0778673,2.73746,0.04209,4.54722}: part638{26.8587},
+    LG+F+R8{0.301537,0.0243095,0.210619,0.275678,0.196386,0.756058,0.106416,1.33886,0.0722552,2.13247,0.0748741,3.43382,0.0238231,5.02968,0.0140903,7.99427}: part639{16.5911},
+    LG+R9{0.125879,0.0182634,0.14223,0.097558,0.103524,0.227372,0.136057,0.447367,0.125016,0.767927,0.140855,1.22893,0.0859802,1.91819,0.0884289,2.8346,0.0520299,4.12701}: part640{58.512},
+    JTT+R9{0.0291333,0.00901829,0.0976668,0.113126,0.107231,0.274271,0.066589,0.422004,0.10386,0.515814,0.153954,0.724945,0.107344,1.06676,0.184246,1.59145,0.149976,2.38883}: part641{105.806},
+    LG+R7{0.287742,0.0534943,0.262255,0.313781,0.208709,0.79179,0.130312,1.59548,0.0214177,2.69923,0.0601458,4.13851,0.0294185,7.56081}: part642{13.6982},
+    LG+R7{0.0892702,0.0432683,0.232442,0.319892,0.230723,0.633443,0.187329,1.02157,0.109236,1.45961,0.0873787,2.2289,0.0636216,3.61609}: part643{33.6528},
+    JTT+R6{0.0346654,0.0185411,0.10764,0.129439,0.145916,0.39443,0.203674,0.704677,0.273011,1.23551,0.235093,1.90154}: part644{92.3493},
+    JTT+R8{0.124701,0.0104579,0.100549,0.10649,0.104621,0.280276,0.116614,0.517226,0.130686,0.865463,0.162366,1.28237,0.138637,1.89793,0.121826,2.5767}: part645{100.122},
+    LG+R5{0.533027,0.0619981,0.263389,0.678908,0.146804,2.51356,0.0475386,6.22978,0.00924196,13.3069}: part646{4.46609},
+    JTT+R7{0.1561,0.0335532,0.141416,0.203524,0.228701,0.494498,0.221215,1.05164,0.148011,1.78523,0.0812882,2.92509,0.0232681,5.08171}: part647{39.8666},
+    LG+R6{0.0638741,0.0707337,0.139037,0.190864,0.162631,0.464447,0.225512,0.767819,0.270171,1.32942,0.138776,2.60195}: part648{75.5542},
+    LG+R7{0.313575,0.0218621,0.179325,0.178035,0.141207,0.518913,0.13381,1.08861,0.0911323,1.95815,0.0871878,3.25405,0.0537632,5.21014}: part649{20.8534},
+    LG+R4{0.423855,0.0974893,0.29188,0.567613,0.180916,1.88207,0.103349,4.37844}: part650{11.8332},
+    LG+R8{0.082075,0.0130962,0.128592,0.0816953,0.141548,0.265222,0.129591,0.514531,0.168476,0.861582,0.128206,1.35111,0.115773,2.02093,0.105739,3.13842}: part651{75.7372},
+    LG+F+R7{0.114271,0.0540592,0.170015,0.278423,0.231123,0.595633,0.196839,1.05786,0.194619,1.66103,0.0719674,2.54853,0.0211656,4.43721}: part652{34.691},
+    LG+R7{0.382141,0.0334578,0.238134,0.272492,0.0961724,0.745494,0.120029,1.43571,0.085377,2.70862,0.0579833,4.53496,0.0201629,9.13041}: part653{26.9303},
+    JTT+R9{0.0305516,0.00576517,0.0792929,0.0701607,0.105404,0.176476,0.101389,0.331866,0.125989,0.521766,0.130616,0.803885,0.145019,1.16944,0.147465,1.77387,0.134273,2.53289}: part654{113.035},
+    JTT+R8{0.127998,0.00903659,0.161777,0.107331,0.133067,0.237588,0.204328,0.519257,0.154486,0.992183,0.0837772,1.77645,0.0781979,2.91995,0.0563685,5.55856}: part655{49.7298},
+    JTT+R10{0.0986445,0.0100538,0.117455,0.0786171,0.122309,0.229577,0.165007,0.458796,0.144276,0.764849,0.0908093,1.17282,0.0893502,1.64195,0.0691748,2.17176,0.0756418,3.10999,0.0273315,5.01082}: part656{57.3826},
+    LG+R7{0.428622,0.0450142,0.247927,0.361734,0.142439,1.09358,0.0704831,2.11059,0.0423958,3.58694,0.0520878,5.66295,0.0160448,8.69136}: part657{16.7487},
+    JTT+R8{0.0749008,0.0154229,0.145597,0.116265,0.13625,0.323052,0.165576,0.628856,0.156321,1.02075,0.131574,1.57312,0.118416,2.16457,0.071365,2.95539}: part658{91.4348},
+    JTT+R9{0.0787493,0.0181701,0.144237,0.105902,0.168827,0.277145,0.137064,0.510719,0.123457,0.802169,0.109712,1.12225,0.097347,1.66228,0.0792438,2.66631,0.061363,4.42024}: part659{51.2921},
+    JTT+F+R7{0.243343,0.0380555,0.210963,0.28354,0.184474,0.691054,0.160121,1.31359,0.101588,2.1779,0.0683401,3.3523,0.0311707,4.58002}: part660{30.3329},
+    JTT+R6{0.270651,0.021593,0.310204,0.30523,0.247553,1.23395,0.13456,2.64154,0.0269406,5.04863,0.0100908,10.1622}: part661{9.67374},
+    LG+R7{0.0722278,0.0490513,0.129056,0.190892,0.18882,0.410026,0.28533,0.818347,0.188775,1.46807,0.108723,2.50284,0.0270678,4.12487}: part662{37.2477},
+    JTTDCMut+R7{0.0786614,0.0433938,0.139513,0.218675,0.21136,0.483995,0.21074,0.890041,0.183248,1.40202,0.131241,2.14228,0.0452362,3.05374}: part663{52.5519},
+    JTT+R8{0.0885564,0.0074582,0.078727,0.102556,0.0829957,0.230924,0.112741,0.440451,0.170401,0.679293,0.128369,1.14497,0.245243,1.72033,0.0929679,2.55802}: part664{107.694},
+    JTTDCMut+R8{0.068989,0.0307085,0.131003,0.166363,0.178952,0.393012,0.198407,0.689295,0.152891,1.13598,0.148077,1.71723,0.0902677,2.53017,0.0314133,3.58576}: part665{44.2935},
+    LG+R5{0.390507,0.0577982,0.204687,0.498007,0.23136,1.20388,0.131207,2.97243,0.0422393,4.89976}: part666{17.8939},
+    LG+R5{0.249762,0.0860976,0.31064,0.457203,0.240634,1.23473,0.156814,2.20903,0.0421507,4.57752}: part667{17.4346},
+    JTT+R8{0.0299841,0.0242755,0.110097,0.211292,0.176137,0.415595,0.220788,0.681487,0.185714,1.02116,0.110971,1.47098,0.102486,2.03196,0.0638242,2.99601}: part668{71.3263},
+    JTT+R7{0.095565,0.0400835,0.144572,0.214513,0.207522,0.534813,0.22905,0.896878,0.15389,1.36747,0.110751,2.13992,0.058651,3.43223}: part669{47.7396},
+    LG+R9{0.092294,0.0129977,0.105506,0.0957464,0.11497,0.270181,0.129833,0.468421,0.136456,0.740486,0.165452,1.16099,0.118243,1.71482,0.0950206,2.50803,0.042226,3.8509}: part670{83.3532},
+    JTTDCMut+R8{0.0492094,0.0117247,0.107777,0.136569,0.158085,0.324018,0.107054,0.54258,0.190714,0.76189,0.221093,1.33461,0.105613,2.08155,0.060456,3.55932}: part671{44.1889},
+    JTT+F+R10{0.0624044,0.00749165,0.109876,0.069854,0.102303,0.186368,0.131668,0.356152,0.137302,0.609954,0.119978,0.973359,0.0856989,1.33715,0.103836,1.83648,0.0905727,2.52844,0.0563596,3.39027}: part672{67.4898},
+    JTT+R9{0.0787458,0.0123081,0.107463,0.100823,0.145207,0.241171,0.142709,0.421336,0.161915,0.74503,0.167732,1.26519,0.102037,2.1349,0.0587396,3.07702,0.0354514,4.55895}: part673{43.478},
+    LG+R7{0.326937,0.0132861,0.186021,0.185263,0.216248,0.648298,0.119644,1.53201,0.102188,2.97873,0.0395701,6.035,0.00939133,10.0632}: part674{13.3669},
+    LG+R7{0.185493,0.0472402,0.240191,0.276881,0.192734,0.643519,0.161464,1.17421,0.122898,1.90378,0.0743633,3.27847,0.022856,5.83407}: part675{23.5048},
+    LG+R7{0.020497,0.00854352,0.104547,0.13442,0.193714,0.340469,0.29022,0.712829,0.175176,1.21485,0.137494,1.89175,0.0783526,3.06339}: part676{54.2374},
+    JTT+R8{0.0869987,0.051972,0.138551,0.184378,0.143349,0.369631,0.206598,0.728733,0.155911,1.09248,0.133628,1.60275,0.094188,2.43691,0.0407765,3.73654}: part677{48.5382},
+    JTT+R9{0.0335957,0.0238858,0.127984,0.130482,0.171816,0.288794,0.169059,0.533903,0.148359,0.862837,0.114371,1.26601,0.12152,1.84634,0.0905692,2.7827,0.0227266,4.11065}: part678{60.1541},
+    LG+R6{0.28414,0.0569522,0.164096,0.326823,0.202367,0.821062,0.197778,1.44807,0.140702,2.91815,0.0109172,6.14133}: part679{38.1812},
+    JTT+R8{0.0521716,0.0238592,0.144885,0.176156,0.27035,0.398679,0.211897,0.73939,0.136467,1.12915,0.0938528,1.91671,0.0527923,3.10537,0.0375839,5.61022}: part680{49.8008},
+    JTT+R8{0.183961,0.0316304,0.189094,0.207512,0.128414,0.498612,0.163684,0.872549,0.129866,1.40427,0.0791623,2.00374,0.0730428,2.6601,0.0527772,4.0321}: part681{33.4507},
+    LG+R8{0.11242,0.0131757,0.156742,0.0996875,0.180008,0.33677,0.207733,0.708661,0.102138,1.18521,0.114994,1.78186,0.0938946,3.09297,0.0320711,4.94804}: part682{38.4488},
+    JTT+R8{0.0851769,0.0955173,0.170681,0.257242,0.180037,0.501465,0.208182,0.84584,0.164895,1.33327,0.0998446,1.86116,0.0589089,2.49604,0.0322742,3.99304}: part683{48.2082},
+    LG+R5{0.338165,0.0575823,0.273509,0.42617,0.129501,1.06025,0.152588,1.91597,0.106237,4.08809}: part684{29.6297},
+    LG+R8{0.127155,0.036229,0.185857,0.201757,0.201144,0.507723,0.196999,0.915649,0.0902079,1.34545,0.111319,2.0874,0.0716212,3.30183,0.0156962,5.42606}: part685{41.158},
+    JTT+R10{0.0880988,0.00747241,0.0968881,0.0654463,0.119704,0.188894,0.135585,0.337283,0.121846,0.571194,0.118668,0.859661,0.105115,1.2045,0.0856153,1.72814,0.0425748,2.74115,0.0859058,4.21132}: part686{72.6243},
+    LG+R6{0.170201,0.0254705,0.173038,0.225508,0.191681,0.593413,0.220646,1.11732,0.161495,1.94209,0.0829384,3.40885}: part687{48.5097},
+    JTT+F+R10{0.0786688,0.0080174,0.14201,0.0632543,0.176664,0.198437,0.155147,0.407064,0.087379,0.714293,0.103029,1.0367,0.074151,1.53302,0.0617958,2.08622,0.0848166,3.10693,0.0363389,5.96706}: part688{54.038},
+    JTT+R8{0.0710564,0.0238062,0.133489,0.103935,0.190336,0.284703,0.161973,0.581422,0.147214,1.0086,0.153725,1.67229,0.0955872,2.54189,0.0466187,4.02293}: part689{46.0538},
+    LG+F+R8{0.156491,0.0116568,0.170332,0.118303,0.134234,0.318104,0.144247,0.601709,0.116668,1.07437,0.128635,1.80733,0.0987883,2.80665,0.0506045,4.21771}: part690{46.8559},
+    JTT+R7{0.0757421,0.0121295,0.111968,0.116525,0.167354,0.278827,0.186348,0.613421,0.20447,1.16558,0.127321,1.8491,0.126796,2.77063}: part691{85.7589},
+    JTTDCMut+R7{0.0453341,0.0730504,0.0768895,0.158207,0.152098,0.390651,0.255078,0.716945,0.221388,1.17832,0.212627,1.80889,0.036586,2.64435}: part692{66.5264},
+    JTT+R8{0.0659525,0.0188659,0.0945124,0.0836915,0.135865,0.208141,0.146123,0.435971,0.137332,0.728254,0.143263,1.10012,0.182125,1.84342,0.0948262,3.22179}: part693{58.3524},
+    JTT+F+R8{0.187308,0.016618,0.103171,0.142399,0.115853,0.357691,0.138852,0.62726,0.118005,0.984111,0.157036,1.55574,0.124454,2.40853,0.0553213,3.49726}: part694{66.6546},
+    LG+F+R7{0.164318,0.0288801,0.143262,0.174976,0.246933,0.472396,0.193372,1.04528,0.1553,1.87112,0.0730611,3.13881,0.0237546,5.53575}: part695{23.9742},
+    JTT+F+R9{0.0298034,0.0305053,0.109777,0.0871649,0.171797,0.257419,0.169129,0.4548,0.134547,0.724801,0.136787,1.09958,0.112732,1.68185,0.0950679,2.57511,0.0403601,4.60954}: part696{61.4631},
+    LG+R6{0.14027,0.0562753,0.247139,0.264695,0.220377,0.603975,0.227435,1.35843,0.138881,2.65145,0.0258985,4.49436}: part697{19.5213},
+    JTT+R10{0.126648,0.0335857,0.150089,0.172078,0.198602,0.407261,0.118752,0.640695,0.138475,0.940262,0.068215,1.37104,0.104439,1.92779,0.0559387,2.93708,0.0262292,4.83457,0.012612,7.67409}: part698{34.4689},
+    LG+R6{0.225973,0.0725346,0.269077,0.337491,0.275305,0.999166,0.156443,2.10124,0.0688563,3.71469,0.00434512,7.64532}: part699{20.3377},
+    LG+F+R7{0.280358,0.0164536,0.112058,0.175865,0.156528,0.487608,0.19562,1.00698,0.155399,1.93334,0.0951792,3.78731,0.00485826,8.53344}: part700{28.4382},
+    JTT+F+R10{0.0239861,0.00736909,0.0478016,0.0482953,0.0720267,0.125518,0.0851277,0.239864,0.0956766,0.397963,0.158137,0.670933,0.140348,1.00091,0.187324,1.38566,0.148229,2.04282,0.0413441,2.92746}: part701{78.2269},
+    LG+R8{0.286605,0.0153765,0.173297,0.140147,0.17925,0.399355,0.10817,0.804242,0.0893013,1.54078,0.075642,2.61073,0.0519165,4.10633,0.0358181,7.3836}: part702{22.6473},
+    LG+R6{0.0294067,0.0708192,0.214347,0.359593,0.322078,0.687002,0.237623,1.17555,0.146601,1.84032,0.0499442,3.01217}: part703{43.7956},
+    JTT+R7{0.142755,0.0455105,0.246377,0.281533,0.225394,0.641482,0.170121,1.19623,0.0990597,1.99393,0.0745718,2.65206,0.0417219,4.33257}: part704{29.8857},
+    LG+R5{0.256121,0.0603977,0.269876,0.362164,0.216888,1.01419,0.184439,2.06004,0.0726754,3.94732}: part705{20.9498},
+    LG+R5{0.20661,0.0243489,0.287905,0.240182,0.174594,0.805123,0.198147,1.72528,0.132744,3.34018}: part706{36.7886},
+    LG+R6{0.619464,0.175298,0.192877,0.762024,0.0965352,2.02267,0.0383683,3.676,0.0296537,6.23428,0.0231017,9.66431}: part707{11.3435},
+    LG+R7{0.211872,0.0197423,0.172214,0.190547,0.164694,0.579162,0.156601,1.0513,0.129695,1.71248,0.114968,2.45436,0.0499556,3.97773}: part708{36.2308},
+    LG+R7{0.0885244,0.0308927,0.187785,0.195962,0.218943,0.495017,0.229837,0.954112,0.161633,1.69545,0.0900023,2.77677,0.0232745,4.67632}: part709{40.978};
+end;

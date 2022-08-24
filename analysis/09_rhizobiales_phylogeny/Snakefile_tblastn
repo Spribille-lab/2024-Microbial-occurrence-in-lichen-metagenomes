@@ -1,0 +1,37 @@
+import glob
+import os
+import pandas
+
+#GENOMES = ['GCF_900115225.1_IMG-taxon_2617270874_annotated_assembly_genomic.fna','public_SRR14722320_metawrap_bin.4.fa']
+GENOMES, = glob_wildcards("genomes_tmp/{genome}")
+
+rule all:
+        input:
+                expand("blast_nifh/tmp_tblastn_report_{genome}.txt", genome = GENOMES)
+        output: touch("touch")
+
+rule tblastn:
+        input:
+                "genomes_tmp/{genome}"
+        output:
+                "blast_nifh/tmp_tblastn_{genome}.txt"
+        shell:
+                "tblastn -query nifh_genbank_example.fa -subject {input} -outfmt 6 -evalue 1e-50 -out {output}"
+                
+                             
+                
+rule report_tblastn:
+        input:
+                i="blast_nifh/tmp_tblastn_{genome}.txt"
+        output:
+                o="blast_nifh/tmp_tblastn_report_{genome}.txt"    
+        run:
+                with open (input.i,'r') as i:
+                	ii1=i.read().strip().split('\t')
+                if len(ii1) == 1:
+                	r=str(wildcards.genome+'\t'+'tblastn'+'\t'+'0'+'\n')
+                else:
+                	r=str(wildcards.genome+'\t'+'tblastn'+'\t'+'1'+'\n')
+                with open (output.o,'w') as out: out.write(r)
+
+ 

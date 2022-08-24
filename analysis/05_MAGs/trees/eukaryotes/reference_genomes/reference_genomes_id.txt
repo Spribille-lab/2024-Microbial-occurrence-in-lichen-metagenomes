@@ -1,0 +1,67 @@
+NCBI ID	ENA ID	Species
+NA	CAJHEP010000000	Cyphobasidium from Alectoria
+NA	NA	Cystobasidium minutum (attached in the email)
+GCF_014066315.1	NA	Letharia lupina
+GCA_904859935.1	NA	Tremella from Alectoria
+GCA_000151065.3	NA	Blumeria hordei
+GCF_000225545.1	NA	Arthrobotrys oligospora
+GCA_000467735.1	NA	Rhytidhysteron rufulum
+GCF_000835475.1	NA	Cladophialophora bantiana CBS 173.52
+GCA_001006345.1	NA	Phaeomoniella chlamydospora
+GCA_002335675.1	NA	Chlamydomonas eustigma
+GCA_002818215.1	NA	Picochlorum soloecismus
+GCA_002865655.1	NA	Meliniomyces variabilis
+GCA_003665715.1	NA	Picocystis
+GCA_003788565.2	NA	Ascobolus immersus
+GCA_006384855.1	NA	Tetraselmis striata
+GCA_007859695.1	NA	Chloropicon primus
+GCA_019693375.1	NA	Asterochloris
+GCA_900538255.1	NA	Ulva mutabilis
+GCF_000002525.2	NA	Yarrowia lipolytica
+GCF_000002855.3	NA	Aspergillus niger
+GCF_000002945.1	NA	Schizosaccharomyces pombe
+GCF_000003855.2	NA	Blastomyces gilchristii
+GCF_000091045.1	NA	Cryptococcus neoformans var. neoformans
+GCF_000143185.1	NA	Schizophyllum commune
+GCF_000143455.1	NA	Volvox carteri
+GCF_000143565.1	NA	Laccaria bicolor
+GCF_000146045.2	NA	Saccharomyces cerevisiae
+GCF_000146945.2	NA	Sclerotinia sclerotiorum
+GCF_000147415.1	NA	Chlorella variabilis
+GCF_000149035.1	NA	Colletotrichum graminicola
+GCF_000149925.1	NA	Puccinia graminis f. sp. tritici
+GCF_000151335.2	NA	Coccidioides posadasii
+GCF_000151425.1	NA	Trichophyton rubrum
+GCF_000151645.1	NA	Tuber melanosporum
+GCF_000167675.1	NA	Trichoderma reesei
+GCF_000182925.2	NA	Neurospora crassa
+GCF_000185945.1	NA	Cryptococcus gattii
+GCF_000204055.1	NA	Melampsora larici-populina
+GCF_000225605.1	NA	Cordyceps militaris
+GCF_000226545.1	NA	Podospora anserina
+GCF_000226545.1	NA	Podospora anserina
+GCF_000240135.3	NA	Fusarium graminearum
+GCF_000258705.1	NA	Coccomyxa
+GCF_000264905.1	NA	Stereum hirsutum
+GCF_000271645.1	NA	Tremella mesenterica
+GCF_000293215.1	NA	Trichosporon asahii var. asahii
+GCF_000300575.1	NA	Agaricus bisporus var. bisporus
+GCF_000320785.1	NA	Rhodotorula toruloides
+GCF_000328475.2	NA	Ustilago maydis
+GCF_000344685.1	NA	Gloeophyllum trabeum
+GCF_000441935.1	NA	Dactylellina haptotyla
+GCF_000464535.1	NA	Endocarpon pusillum
+GCF_000507465.1	NA	Kwoniella mangroviensis
+GCF_000585585.1	NA	Capronia coronata
+GCF_000708205.1	NA	Mixia osmundae
+GCF_000709125.1	NA	Exophiala aquamarina
+GCF_000721775.1	NA	Aureobasidium pullulans var. melanogenum
+GCF_000769745.1	NA	Penicillium expansum
+GCF_001278385.1	NA	Malassezia pachydermatis
+GCF_001642045.1	NA	Paraconiothyrium sporulosum
+GCF_001642055.1	NA	Alternaria alternata
+GCF_002102565.1	NA	Kockovaella imperatae
+GCF_002220235.1	NA	Bathycoccus prasinos
+GCF_002708625.1	NA	Rhizopus microsporus
+GCF_002742065.1	NA	Cercospora beticola
+GCF_010093885.1	NA	Aplosporella prunicola

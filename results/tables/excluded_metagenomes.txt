@@ -1,0 +1,15 @@
+metagenome	Lichen.metagenomes	note
+SRR14722032	Platismatia tuckermanii	grouped with ochrolechia/pertusaria/lepra
+SRR14722092	Chrysothrix susquehannensis	grouped with trapeliopsis/gomphillus
+SRR14722327	Catillaria lenticularis	grouped with leprocaulon
+SRR14722303	Rinodina brauniana	grouped with lecanoras
+SRR14722033	Lecanora pseudistera	grouped with parmeliaceae
+SRR14722324	Lepraria disjuncta	groupes with leprocaulon
+SRR14722131	Parmotrema gardneri	grouped with thelotrema
+SRR14722208	Ricasolia quercizans	grouped with parmeliaceae
+SRR14722229	Lecidea roseotincta	grouped with lecanoras
+SRR14722034	Lepraria caesiella	grouped with parmeliaceae
+SRR14722085	Pseudosagedia rhaphidosperma	grouped with theloschistales
+SRR14722185	Mycobilimbia sp. Lendemer_46123_NY-2606825	groups with byssoloma
+SRR14722222	Arthonia quintaria	grouped with eurotios
+SRR14722160	Herteliana schuyleriana	groups with lepraria

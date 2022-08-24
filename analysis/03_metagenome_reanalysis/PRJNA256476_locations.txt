@@ -1,0 +1,2 @@
+run_accession	sample_accession	location	isolate	sample_alias
+SRR1531545	SAMN02943512	35.99 N 79.01 W	Leau_TRM1529TRM1530	Leptogium austroamericanum

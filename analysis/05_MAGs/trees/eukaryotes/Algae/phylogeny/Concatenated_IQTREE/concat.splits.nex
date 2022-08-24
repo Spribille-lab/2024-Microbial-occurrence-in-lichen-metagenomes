@@ -1,0 +1,146 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=43;
+TAXLABELS
+[1] 'private_T1894_concoct_bin_66'
+[2] 'private_X10_concoct_bin_7'
+[3] 'public_SRR7232213_concoct_bin_0'
+[4] 'GCF_000143455_1_v1_0_genomic'
+[5] 'private_T1904_concoct_bin_38'
+[6] 'public_SRR14722177_metabat2_bin_9'
+[7] 'public_SRR14722042_metabat2_bin_4'
+[8] 'public_SRR1532736_concoct_bin_20'
+[9] 'public_SRR7232214_concoct_bin_9'
+[10] 'GCF_000258705_1_Coccomyxa_subellipsoidae_v2_0_genomic'
+[11] 'public_SRR11456915_concoct_bin_5'
+[12] 'public_SRR14722135_metabat2_bin_5'
+[13] 'private_X2_concoct_bin_1'
+[14] 'GCF_002220235_1_ASM222023v1_genomic'
+[15] 'GCA_900538255_1_Ulvmu_WT_fa_genomic'
+[16] 'private_X11_concoct_bin_15'
+[17] 'private_X1_metabat2_bin_11'
+[18] 'public_SRR13125477_metabat2_bin_13'
+[19] 'public_SRR14722152_metabat2_bin_2'
+[20] 'private_T1912_concoct_bin_0'
+[21] 'private_T1889_concoct_bin_16'
+[22] 'public_SRR7232211_concoct_bin_8'
+[23] 'public_SRR5808932_metabat2_bin_2'
+[24] 'public_SRR14722120_metabat2_bin_4'
+[25] 'GCA_002335675_1_C_eustigma_genome_v1_0_genomic'
+[26] 'public_SRR2387885_metabat2_bin_2'
+[27] 'public_SRR14722116_metabat2_bin_5'
+[28] 'private_T1882_metabat2_merged_0'
+[29] 'GCA_007859695_1_ASM785969v1_genomic'
+[30] 'private_TS1974_concoct_bin_29'
+[31] 'GCF_000147415_1_v_1_0_genomic'
+[32] 'private_GTX0161_concoct_bin_0'
+[33] 'private_GTX0163_concoct_bin_46'
+[34] 'public_SRR7232212_concoct_bin_0'
+[35] 'public_SRR14722188_concoct_bin_30'
+[36] 'public_SRR11456919_concoct_bin_22'
+[37] 'public_SRR13685159_concoct_merged_0'
+[38] 'GCA_019693375_1_ASM1969337v1_genomic'
+[39] 'public_ERR4179390_concoct_bin_75'
+[40] 'GCA_003665715_1_OU_Pico_1_0_genomic'
+[41] 'GCA_002818215_1_ASM281821v1_genomic'
+[42] 'public_ERR4179390_concoct_bin_45'
+[43] 'GCA_006384855_1_TSEL_PacBio_SMRT_genomic'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=43 nsplits=88;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 2,
+	100	 20,
+	100	 2 20,
+	100	 16,
+	100	 28,
+	100	 16 28,
+	100	 2 16 20 28,
+	100	 3,
+	100	 34,
+	98	 3 34,
+	100	 9,
+	100	 3 9 34,
+	100	 5,
+	100	 17,
+	100	 5 17,
+	100	 23,
+	100	 5 17 23,
+	100	 22,
+	99	 5 17 22 23,
+	100	 26,
+	100	 5 17 22 23 26,
+	100	 30,
+	100	 32,
+	100	 30 32,
+	100	 5 17 22 23 26 30 32,
+	100	 3 5 9 17 22 23 26 30 32 34,
+	100	 24,
+	100	 27,
+	100	 24 27,
+	97	 3 5 9 17 22 23 24 26 27 30 32 34,
+	100	 2 3 5 9 16 17 20 22 23 24 26 27 28 30 32 34,
+	100	 8,
+	100	 13,
+	100	 18,
+	100	 13 18,
+	100	 8 13 18,
+	100	 33,
+	100	 8 13 18 33,
+	100	 2 3 5 8 9 13 16 17 18 20 22 23 24 26 27 28 30 32 33 34,
+	100	 38,
+	100	 2 3 5 8 9 13 16 17 18 20 22 23 24 26 27 28 30 32 33 34 38,
+	100	 4,
+	100	 25,
+	100	 4 25,
+	100	 15,
+	100	 4 15 25,
+	100	 14,
+	100	 29,
+	98	 14 29,
+	100	 40,
+	100	 14 29 40,
+	100	 43,
+	100	 14 29 40 43,
+	100	 4 14 15 25 29 40 43,
+	100	 31,
+	100	 41,
+	100	 31 41,
+	100	 4 14 15 25 29 31 40 41 43,
+	100	 1 6 7 10 11 12 19 21 35 36 37 39 42,
+	100	 6,
+	100	 42,
+	100	 6 42,
+	100	 39,
+	100	 6 39 42,
+	100	 1 7 10 11 12 19 21 35 36 37,
+	100	 10,
+	100	 36,
+	100	 37,
+	100	 36 37,
+	100	 10 36 37,
+	100	 11,
+	100	 10 11 36 37,
+	100	 1 7 12 19 21 35,
+	100	 12,
+	100	 21,
+	100	 12 21,
+	100	 19,
+	100	 12 19 21,
+	100	 1 7 35,
+	100	 35,
+	100	 1 7,
+	100	 7,
+	100	 1,
+	2	 14 40,
+	0	 3 9,
+	3	 2 3 5 9 16 17 20 22 23 26 28 30 32 34,
+	2	 9 34,
+	1	 22 26,
+;
+END; [Splits]
+
