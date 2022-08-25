@@ -30,7 +30,7 @@ write.table(itol_new2,"analysis/05_MAGs/trees/renamed/itol_gtdb-layer_renamed.tx
 
 ## make iTOL annotation for the number of occurrences per mag
 
-mags_role<-read.delim("analysis/05_MAGs/tables/MAG_confirmed_roles_bwa.txt")
+mags_role<-read.delim("results/tables/MAG_confirmed_roles_bwa.txt")
 
 occurrences<-mags_role %>% filter(breadth>=50) %>%
   group_by(Genome) %>% summarize(occurrences=n()) 

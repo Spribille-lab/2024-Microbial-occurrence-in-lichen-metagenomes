@@ -101,6 +101,7 @@ Software used:
 * GTDB-Tk v1.5.0 (Chaumeil et al. 2020)
 * IQ-TREE (Nguyen et al. 2015)
 * BAT (CAT v5.2.3, database version: 20210107; von Meijenfeldt et al. 2019)
+* iTOL (Letunic & Bork 2019)
 
 ### 3.1. Prokaryotic MAGs
 ```
@@ -108,7 +109,6 @@ XXX to be added after asking Paul for details
 GTDB-Tk
 IQTREE
 ```
-* Used `code/rename_bac_tree.R` to add taxonomy assignments to the phyologenomic tree
 * The tree is available as Supplementary data: XXX
 
 ### 3.2. Eukaryotic MAGs
@@ -122,7 +122,7 @@ Computed two phylogenomic trees: one for fungi, one for algae.
 XXX euk phylogenomic: to be added after asking David for details
 ```
 
-### 3.3. Produced figure Fig. XXX: phylogenomic trees
+### 3.3. Produced figure Fig. XXX: eukaryiotic phylogenomic trees
 
 
 ## 4. Occurrence analysis
@@ -131,6 +131,7 @@ Software used:
 * Metaxa2 (Bengtsson‐Palme et al. 2015)
 * BBTools (https://sourceforge.net/projects/bbmap/)
 * IDTAXA (Murali et al. 2018)
+* iTOL (Letunic & Bork 2019)
 * R libraries: tidyverse, ape, phytools, stringr, taxize, myTAI, igraph, qgraph, plotly, DECIPHER, R.utils, treeio, seriation, ComplexHeatmap, DECIPHER, circlize, conflicted
 
 ### 4.1. Aligned all metagenomic datasets to all MAGs
@@ -195,7 +196,12 @@ This table is one of the key tables used for producing figures and tables downst
 * Made lists of top frequency genera and families by groups of lichens: photobionts, mycobionts, and compinations.  
 	* saved them as `results/tables/bacterial_*_by_lichen_group.txt`
 	* These two tables combined are referred to in the text as **Table SXXX**
-
+* Visualized bacterial occurrences
+	* Used `code/rename_bac_tree.R`
+	* Renamed tip labels in the bacterial phylogenomic tree produced (see 3.1) to add taxonomic assignments
+	* Produced tables with annotations: phylum-level taxonomy and the number of occurrences per MAG. The tables are desinged to be compatible with iTOL
+	* Produced the figure using iTOL, the figure is reference in the table as **Fig. XXX**
+	
 ### 4.6. Co-occurrence analysis
 * Plot cooccurrence networks for selected groups:
 	* LFS + eukaryotic groups (green algae, Cystobasidiomycetes and Tremellomycetes fungi) + Cyanobacteria
