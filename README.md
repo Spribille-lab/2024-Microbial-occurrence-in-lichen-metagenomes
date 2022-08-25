@@ -43,7 +43,7 @@ cat analysis/03_metagenome_reanalysis/sra_ids_lendemer.txt analysis/03_metagenom
 ```
 * Added de novo generated metagenomic data (see Table XXX)
 
-### 1.2. Downloaded the data using sratoolkit
+### 1.2. Downloaded data using sratoolkit
 ```
 cd data/fastq
 prefetch --option-file analysis/03_metagenome_reanalysis/sra_ids_all.txt
@@ -65,19 +65,19 @@ gzip *.fastq
 for ID_SAMPLE in `cut -d ',' -f1 analysis/03_metagenome_reanalysis/similar_datasets.csv`; do rm data/fastq/"$ID_SAMPLE"*; done
 ```
 
-### 1.4. Complinig information on the used metagenomes
+### 1.4. Compled information on the metagenomes
 * Saved the table as `results/tables/all_metagenome_reanalysis.txt`
 * This table is compiled manually, using information from the NCBI metadata, and literature on lichens
 * In the text it's reffered to as **Table SXXX**
 
-### 1.5. Producing **Fig. SXXX**: map of sampling locations for all metagenomes used in the study
+### 1.5. Produced **Fig. SXXX**: the map of sampling locations for all metagenomes used in the study
 * Used `code/get_coordinates.sh` to obtain location information from ENA
 * To the samples that didn't have coordinates, I assigned coordinates based on the description of the sampling location in the original paper
 * Cleaned-up version of the output is saves as `analysis/03_metagenome_reanalysis/locations_compiled_manually.txt`
 * Used `code/map.R` to draw map of all sampling locations
 * The map is saved as `results/figures/map.pdf`, in the text it's reffered to as **Fig. SXXX**
 
-### 1.6. Producing **Fig. SXXX**: dot hitogram of metagenomes by sequencing depth
+### 1.6. Produced **Fig. SXXX**: dot hitogram of metagenomes arranged by sequencing depth
 * Used `code/metagenome_by_source_fig.R`
 * Saved the figure as `results/figures/metagenome_dothist_by_source.png`
 
@@ -122,7 +122,7 @@ Computed two phylogenomic trees: one for fungi, one for algae.
 XXX euk phylogenomic: to be added after asking David for details
 ```
 
-### 3.3. Producing figure Fig. XXX: phylogenomic trees
+### 3.3. Produced figure Fig. XXX: phylogenomic trees
 
 
 ## 4. Occurrence analysis
@@ -130,7 +130,8 @@ Software used:
 * BWA (Li & Durbin 2009)
 * Metaxa2 (Bengtsson‐Palme et al. 2015)
 * BBTools (https://sourceforge.net/projects/bbmap/)
-* R libraries: tidyverse, ape, phytools, stringr, taxize, myTAI, igraph, qgraph, plotly
+* IDTAXA (Murali et al. 2018)
+* R libraries: tidyverse, ape, phytools, stringr, taxize, myTAI, igraph, qgraph, plotly, DECIPHER, R.utils, treeio, seriation, ComplexHeatmap, DECIPHER, circlize, conflicted
 
 ### 4.1. Aligned all metagenomic datasets to all MAGs
 ```
@@ -183,13 +184,14 @@ This table is one of the key tables used for producing figures and tables downst
 	* the occurrence: breadth and depth of coverage of this MAG in this metagenome
 	
 ### 4.5. Identifying most frequent bacterial groups
-* Used `code/find_dominant_bacteria.R` to identify bacterial lineages of interest:
+* Used `code/find_dominant_bacteria.R` to identify bacterial lineages of interest
 * Ranked bacterial groups by their frequency, defined as the total number of occurrences
 	* Summarized on four levels: individual MAGs, bacterial genera, families, and orders
 	* Saved the resulting tables as `analysis/05_MAGs/tables/bacteria_dominant_groups/bacterial_*_frequency.tsv`. Here I counted total number of occurrences per bacterial group 
 * Ranked bacterial groups by their diversity, defined as the number of unique MAGs
 	* Summarized on three levels: bacterial genera, families, and orders
 	* Save the resulting tables as `analysis/05_MAGs/tables/bacteria_dominant_groups/bacterial_*_diversity.tsv`. Here is just a number of MAGs from a given group
+* Only included the metagenomes that a) yielded an LFS MAG b) wasn't removed as potential misidentification 
 * Made lists of top frequency genera and families by groups of lichens: photobionts, mycobionts, and compinations.  
 	* saved them as `results/tables/bacterial_*_by_lichen_group.txt`
 	* These two tables combined are referred to in the text as **Table SXXX**
@@ -200,7 +202,7 @@ This table is one of the key tables used for producing figures and tables downst
 	* LFS + top genus in Beijerinckiaceae (Lichenihabitans)
 	* LFS + 2 top genera in Acetobacteraceae (CAHJXG01 and LMUY01)
 	* LFS + 3 top genera in Acidobacteriaceae (Terriglobus, EB88, and CAHJWL01)
-* Only included metagenomes that contained an LFS MAG
+* Only included the metagenomes that a) yielded an LFS MAG b) wasn't removed as potential misidentification 
 * Cooccurrence is defined as two MAGs occurring together in one metagenome
 * The graphs only show LFS MAGs and MAGs from the selected groups. Each node is a MAG, edges represent cooccurrences. The thicker the edge, the more frequently the two MAGs cooccur
 * Used `code/cooc_graph_*.R`
@@ -210,11 +212,11 @@ This table is one of the key tables used for producing figures and tables downst
 ### 4.7. rDNA-based screening
 * Screened metagenomic assemblies and raw unassembled reads for the rDNA sequences
 * Made a Snakemake pipeline `analysis/03_metagenome_reanalysis/Snakefile`. This pipeline:
-	* Runs Metaxa2 on all metagenomic assemblies and raw read sets. Metaxa uses a HMM-based algorithm to detect all rDNA sequences, and then compares them to the DIAMOND database for the taxonomic assignments. Output is saved in the form `reads_{sample}.level_5.txt`
-	* Runs reformat.sh (BBTools) to calculate sequencing depth for each sample
-	* Summarizes all sequencing depths in one table (`analysis/03_metagenome_reanalysis/bp_report.txt`). This table is used in several scripts, including `code/metagenome_by_source_fig.R`
-	* Runs stats.sh (BBTools) to calculate the assembly length for each sample
-	* Summarizes all assembly lengths in one table (`analysis/03_metagenome_reanalysis/assembly_report.txt`)
+	* Ran Metaxa2 on all metagenomic assemblies and raw read sets. Metaxa uses a HMM-based algorithm to detect all rDNA sequences, and then compares them to the DIAMOND database for the taxonomic classification. Output is saved in the form `reads_{sample}.level_5.txt`
+	* Ran reformat.sh (BBTools) to calculate sequencing depth for each sample
+	* Summarized all sequencing depths in one table (`analysis/03_metagenome_reanalysis/bp_report.txt`). This table is used in several scripts, including `code/metagenome_by_source_fig.R`
+	* Ran stats.sh (BBTools) to calculate the assembly length for each sample
+	* Summarized all assembly lengths in one table (`analysis/03_metagenome_reanalysis/assembly_report.txt`)
 ```
 cd analysis/03_metagenome_reanalysis/
 snakemake --cores 10 
@@ -224,4 +226,24 @@ cd ../../
 ```
 metaxa2_dc *.level_5.txt -o metaxa_level_5_combined.txt
 ```
-* 
+* Used IDTAXA to reclassify bacterial sequences
+	* While, I kept Metaxa classifications for eukaryotes, I re-classified bacterial rDNA sequences with IDTAXA
+	* Rationale: IDTAXA uses GTDB system, and therefore IDTAXA assignments would be consistent with the system we used for MAG taxonomic assigments
+	* Used `code/idtaxa_compiling_db.R` to set up the IDTAXA database and to reclassify bacterial sequences. As input, used fasta files produced by Metaxa `analysis/03_metagenome_reanalysis/{sample}.bacteria.fasta.txt`
+	* Saved IDTAXA output as `analysis/03_metagenome_reanalysis/idtaxa_reads.txt` and `analysis/03_metagenome_reanalysis/idtaxa_assemblies.txt`
+* Visualized presence/absence of selected lineages according to the different types of screening
+	* Used `code/multi_level_screening_viz.R` to make a heatmap and a table for the presence of key lineages (4 bacterial and 3 eukaryotic) in metagenomes
+	* The heatmap shows detection of the lineages on three "levels": as MAGs, as rDNA in the assemblies, and as rDNA in the reads
+	* Only included the metagenomes that a) yielded an LFS MAG b) wasn't removed as potential misidentification 
+	* The dendrogram  shows the fungal phylogenomic tree (see 3.2). Tips that are not LFS are dropped from the tree
+	* Saved the figure as `results/figures/multilevel_screening.pdf`. The figure is referenced in the text as **Fig.XXX**
+	* Made a table with the prevalence (i.e. percentage of metagenomes that contained a group of organisms) of the selected groups, according to each "level" of detection. Save the table as `analysis/03_metagenome_reanalysis/occurrence_rDNA_stats.tsv`
+* Calculated prevalence for all bacterial families, based on the rDNA screening of assemblies and reads
+	* Only included the metagenomes that a) yielded an LFS MAG b) wasn't removed as potential misidentification 
+		* If all metagenomes are included, the ranking stays the same
+	* Saved the table as `results/tables/idtaxa_top_bac_families.tsv` 
+	* This table is referenced in the text as **Table SXXX**
+
+`
+	
+	
