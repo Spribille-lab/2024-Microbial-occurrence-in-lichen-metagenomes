@@ -1,2 +1,0 @@
-run_accession	sample_accession	location	isolate	sample_alias
-SRR1531569	SAMN02941903	35.98 N 78.39 W	Pecy	Peltula cylindrica

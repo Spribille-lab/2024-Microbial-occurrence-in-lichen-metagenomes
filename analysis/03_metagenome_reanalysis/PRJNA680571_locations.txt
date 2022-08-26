@@ -1,2 +1,0 @@
-run_accession	sample_accession	location	isolate	sample_alias
-SRR13126828	SAMN16883295		J. A. Elix 46166 (F)	Xanthoparmelia tasmanica 14437

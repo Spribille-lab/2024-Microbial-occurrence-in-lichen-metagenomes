@@ -1,2 +1,0 @@
-run_accession	sample_accession	location	isolate	sample_alias
-SRR1531517	SAMN02941898	35.08 N 80.9 W	Diba_LD	Dibaeis baeomyces lichen metagenome

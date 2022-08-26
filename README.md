@@ -25,14 +25,14 @@ project
 
 ## 1. Dataset construction
 Software used:
-* sratoolkit
+* [sratoolkit](https://github.com/ncbi/sra-tools/wiki)
 * sourmash v4.2.2 (Pierce et al., 2019)
 * R libraries: tidyverse, stringr, ggmap, rnaturalearth, sf, patchwork, scales
 
 ### 1.1. Prepared dataset:
 * Got SRA ids from Lendemer et al. 2019:
     * Downloaded SRA run info for PRJNA700635 and PRJNA731936 > `analysis/03_metagenome_reanalysis/SraRunInfo_PRJNA731936.csv analysis/03_metagenome_reanalysis/SraRunInfo_PRJNA700635.csv`
-    * Downloaded [Appendix S2](https://bsapubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Fajb2.1339&file=ajb21339-sup-0002-AppendixS2.xlsx) from Lendemer et al. 2019 with the voucehr metadata for their metagenomes
+    * Downloaded [Appendix S2](https://bsapubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Fajb2.1339&file=ajb21339-sup-0002-AppendixS2.xlsx) from Lendemer et al. 2019 with the voucher metadata for their metagenomes
     * Made finel list of SRA IDs using `code/getting_SRA_id_for_lendemer_data.R`. Only kept IDs that matched between the metadata from the NCBI and from the Appendix > `analysis/03_metagenome_reanalysis/sra_ids_lendemer.txt`
 
 * Got SRA ids from other sources
@@ -48,7 +48,7 @@ cat analysis/03_metagenome_reanalysis/sra_ids_lendemer.txt analysis/03_metagenom
 cd data/fastq
 prefetch --option-file analysis/03_metagenome_reanalysis/sra_ids_all.txt
 
-for file in /scratch/gultagr/sratoolkit-cache/sra/*sra
+for file in sratoolkit-cache/sra/*sra
 
 do
 fasterq-dump --split-files "$file"
@@ -129,9 +129,10 @@ XXX euk phylogenomic: to be added after asking David for details
 Software used:
 * BWA (Li & Durbin 2009)
 * Metaxa2 (Bengtsson‐Palme et al. 2015)
-* BBTools (https://sourceforge.net/projects/bbmap/)
+* [BBTools](https://sourceforge.net/projects/bbmap/)
 * IDTAXA (Murali et al. 2018)
 * iTOL (Letunic & Bork 2019)
+* Snakemake (Mölder et al. 2021)
 * R libraries: tidyverse, ape, phytools, stringr, taxize, myTAI, igraph, qgraph, plotly, DECIPHER, R.utils, treeio, seriation, ComplexHeatmap, DECIPHER, circlize, conflicted
 
 ### 4.1. Aligned all metagenomic datasets to all MAGs
@@ -158,31 +159,31 @@ XXX to be added after asking Paul for details
 		* Changed SRR14722135 (Mycocalicium) LFS assignemnet from public_SRR14722135_concoct_merged.1 to public_SRR14722135_metabat2_bin.8 (lower coverage but groups with the right group)
 		* Changed SRR14722098 (Acarospora sinopica) LFS from public_SRR14722098_metabat2_bin.9 to public_SRR14722090_metabat2_bin.14 (lower coverage but groups with the right group)
 	* Checked against NCBI to confirm that the organism as listed in the NCBI metadata, FEN number, and placement in the tree are consistent. Made changes:
-			* SRR14722289 changed Diploschistes (acc. to NCBI metadata)-> Parmotrema (acc. to the NCBI name, FEN number and the tree)
-			* SRR14721950 changed Myalospora (acc. to NCBI name and metadata) -> Pseudosagedia (acc. to FEN number and the tree)
+		* SRR14722289 changed Diploschistes (acc. to NCBI metadata)-> Parmotrema (acc. to the NCBI name, FEN number and the tree)
+		* SRR14721950 changed Myalospora (acc. to NCBI name and metadata) -> Pseudosagedia (acc. to FEN number and the tree)
 	* Identified problematic cases, that couldn't be resolved. All of them have "mycobiont_missassigned" in the `results/tables/MAG_confirmed_roles_bwa.tsv` table
-			* SRR14722032: Platismatia tuckermanii, the only fungal MAG groups with Ochrolehcia/Pertusaria/Lepra
-			* SRR14722092: Chrysotrix, grouped with trapeliopsis/gomphillus
-			* SRR14722327: Catillaria, grouped with Leprocaulon
-			* SRR14722303: Rinodina, groups with Lecanora
-			* SRR14722033: Lecanora, groups with Parmeliaceae
-			* SRR14722324: Lepraria,  grouped with Leprocaulon
-			* SRR14722131: Parmotrema, groups with Thelotrema
-			* SRR14722208: Ricasolia, groups with Parmeliaceae
-			* SRR14722229: Lecidea, groups with Lecanora
-			* SRR14722034: Lepraria,  grouped with Parmeliaceae
-			* SRR14722085: Psedosagedia, grouped with theloschistales
-			* SRR14722185: Mycobilimbia, groups with byssoloma
-			* SRR14722222: Arthonia, groupswith eurotios
-			* SRR14722160: Herteliana, groups with Lepraria
+		* SRR14722032: Platismatia tuckermanii, the only fungal MAG groups with Ochrolehcia/Pertusaria/Lepra
+		* SRR14722092: Chrysotrix, grouped with trapeliopsis/gomphillus
+		* SRR14722327: Catillaria, grouped with Leprocaulon
+		* SRR14722303: Rinodina, groups with Lecanora
+		* SRR14722033: Lecanora, groups with Parmeliaceae
+		* SRR14722324: Lepraria,  grouped with Leprocaulon
+		* SRR14722131: Parmotrema, groups with Thelotrema
+		* SRR14722208: Ricasolia, groups with Parmeliaceae
+		* SRR14722229: Lecidea, groups with Lecanora
+		* SRR14722034: Lepraria,  grouped with Parmeliaceae
+		* SRR14722085: Psedosagedia, grouped with theloschistales
+		* SRR14722185: Mycobilimbia, groups with byssoloma
+		* SRR14722222: Arthonia, groupswith eurotios
+		* SRR14722160: Herteliana, groups with Lepraria
 	* used `code/make_list_excluded_mtg.R` to save this list as a table in `results/tables/excluded_metagenomes.txt`
 		* This table is referred to in the text as **Table SXXX**
 	* saved the updated assignments as `results/tables/MAG_confirmed_roles_bwa.txt`
 
-This table is one of the key tables used for producing figures and tables downstream. Each line represents a MAG occurrence, i.e. each instant a MAG is present in a metagenome. It provides info on: 
-	* the MAG: size, taxonomy 
-	* the metagenome: what lichen symbiosis it's made from)
-	* the occurrence: breadth and depth of coverage of this MAG in this metagenome
+**NB:** This table is one of the key tables used for producing figures and tables downstream. Each line represents a MAG occurrence, i.e. each instant a MAG is present in a metagenome. It provides info on: 
+* the MAG: size, taxonomy 
+* the metagenome: what lichen symbiosis it's made from)
+* the occurrence: breadth and depth of coverage of this MAG in this metagenome
 	
 ### 4.5. Identifying most frequent bacterial groups
 * Used `code/find_dominant_bacteria.R` to identify bacterial lineages of interest
@@ -244,12 +245,46 @@ metaxa2_dc *.level_5.txt -o metaxa_level_5_combined.txt
 	* The dendrogram  shows the fungal phylogenomic tree (see 3.2). Tips that are not LFS are dropped from the tree
 	* Saved the figure as `results/figures/multilevel_screening.pdf`. The figure is referenced in the text as **Fig.XXX**
 	* Made a table with the prevalence (i.e. percentage of metagenomes that contained a group of organisms) of the selected groups, according to each "level" of detection. Save the table as `analysis/03_metagenome_reanalysis/occurrence_rDNA_stats.tsv`
+	* Calculated prevalence of Lichenihabitans using the same approach as above
 * Calculated prevalence for all bacterial families, based on the rDNA screening of assemblies and reads
 	* Only included the metagenomes that a) yielded an LFS MAG b) wasn't removed as potential misidentification 
 		* If all metagenomes are included, the ranking stays the same
 	* Saved the table as `results/tables/idtaxa_top_bac_families.tsv` 
 	* This table is referenced in the text as **Table SXXX**
 
-`
-	
-	
+## 5. Estimating relative abundance of symbiont groups
+Software used:
+* R libraries: tidyverse, scales
+
+**NB:** some of results in this subsection are relevant to the next section (6)
+
+### 5.1. Analyzed the number and total coverage per MAG category in each metagenome
+* MAG 'categories' correspond to the putative roles (see 4.2)
+* Used `code/summarize_mag_cov_counts.R`  
+* As a source, used `results/tables/MAG_confirmed_roles_bwa.tsv`
+* Calculated the number of MAGs per category, saved the results as `results/tables/MAG_counts_summary.tsv`. This table is referenced in the text as **Table SXXX**
+* Calculated the total coverage depth per  MAGs per category, saved results into `results/tables/MAG_coverage_summary.tsv` 
+* Saved metagenomes that had an LFS MAG, but its coverage was lower than combined coverage of bacteria in `analysis/05_MAGs/tables/MAG_coverage_high_bacteria.tsv`
+* Produced a plot showing the relationship between the number of MAGs and sequencing depth, saved as `results/figures/mags_vs_depth.png`. This figure is referenced in the text as **Fig. SXXX**
+
+### 5.2. Analyzed relative abundance for the key bacterial genera
+* Abundance inferred from the coverage depth. Relative abundance is relative to the LFS abundance
+* Relative abundance of a lineage in a sample = (coverage depth of its MAG)/(coverage depth of the LFS MAG) 
+* Only the metagenomes that yielded an LFS MAG were used
+* Used `code/relative_cov_bac.R` to plot relative abundance of the key symbiont groups: 13 top bacterial genera and the tree eukaryotic symbiont groups
+* Saved as "results/figures/relative_cov_boxplot_genus.png". This figure is referenced in the text as **Fig. SXXX**
+* Saved the table that contains median relative abundanceper bacterial genus as `results/tables/median_relative_coverage_by_genus.tsv`. This table is referenced in the text as **Table SXXX**
+
+## 6. Analyzing how sequencing depth affects MAG recovery
+Software used:
+* R libraries: tidyverse, stringr, patchwork
+
+Analyzed the recovery of the LFS and photosynthetic partner MAGs as a function of sequencing depth
+* Used `code/recovery_myco_photo_MAGs.R`
+* Used the functional assignments from `results/tables/MAG_confirmed_roles_bwa.tsv`
+* Only included MAGs extracted by binning (including those discarded during dereplication). 
+* Didn't count a MAG as present if it was only detected via BWA alignments. Rationale: a genome can be present in a metagenome but isn't recovered as MAG due to e.g. low coverage. In this context, count this genome as present does not agree with the goal of this analysis (i.e. what sequencing depth is efficient to produce an LFS/photosynthetic partner MAG?)
+* Saved the figure `results/figures/myco_photobiont_vs_depth.png`. This figure is referenced in the text as **Fig. SXXX**
+
+## 7. Functional analysis
+

@@ -1,2 +1,0 @@
-run_accession	sample_accession	location	isolate	sample_alias
-SRR13125477	SAMN16881806			Everniopsis trulla 6851

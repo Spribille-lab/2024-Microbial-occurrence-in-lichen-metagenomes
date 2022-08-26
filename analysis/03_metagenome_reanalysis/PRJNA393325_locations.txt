@@ -1,6 +1,0 @@
-run_accession	sample_accession	location	isolate	sample_alias
-SRR5808930	SAMN07327787	59.42553 N 10.60794 E		EP_metagenome
-SRR5808931	SAMN07327788	50.14868 N 8.758133 E		EP_metatranscriptome
-SRR5808932	SAMN07327789	41.141758 N 3.306956 W		PF_metagenome_olivetoric
-SRR5808933	SAMN07327790	50.23378 N 8.459419 E		PF_metatranscriptome_olivetoric
-SRR5808934	SAMN07327791	50.23378 N 8.459419 E		PF_metatranscriptome_physodic

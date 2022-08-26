@@ -1,2 +1,0 @@
-run_accession	sample_accession	location	isolate	sample_alias
-SRR13126796	SAMN16883198			Xanthoparmelia stenophylla 5040

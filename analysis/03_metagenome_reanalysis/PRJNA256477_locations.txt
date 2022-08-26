@@ -1,2 +1,0 @@
-run_accession	sample_accession	location	isolate	sample_alias
-SRR1532736	SAMN02943513	36.01 N 78.9 W	Physcia_stellaris_TRM	Physcia stellaris

@@ -1,2 +1,0 @@
-run_accession	sample_accession	location	isolate	sample_alias
-SRR13125985	SAMN16883114			Xanthoparmelia arapilensis 14442

@@ -1,2 +1,0 @@
-run_accession	sample_accession	location	isolate	sample_alias
-SRR13126647	SAMN16883140			Xanthoparmelia barbatica 14436

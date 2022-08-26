@@ -1,3 +1,0 @@
-run_accession	sample_accession	location	isolate	sample_alias
-SRR2387885	SAMN03339881	41.0461 N 9.4461 E	Sardinia_28052013	Lpus
-SRR2402951	SAMN03339881	41.0461 N 9.4461 E	Sardinia_28052013	Lpus
