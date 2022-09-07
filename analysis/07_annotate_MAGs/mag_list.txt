@@ -10,6 +10,7 @@ public_SRR14722229_metawrap_bin.6
 private_VT26_metawrap_bin.1
 public_SRR14722088_metawrap_bin.5
 public_SRR14722117_metawrap_bin.2
+private_T1894_metawrap_bin.4
 private_TS1974_metawrap_bin.5
 public_SRR11456921_metawrap_bin.3
 public_SRR14721985_metawrap_bin.2
@@ -60,6 +61,3 @@ public_SRR14722095_metawrap_bin.2
 public_SRR14722123_metawrap_bin.1
 public_SRR1531545_metawrap_bin.1
 public_SRR2387885_metawrap_bin.6
-public_SRR14722130_metawrap_bin.2
-private_T1889_metawrap_bin.7
-private_T1894_metawrap_bin.4

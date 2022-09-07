@@ -1,0 +1,140 @@
+KO	gene	name	module_kegg	module_informal	type	note
+K00855	PRK	phosphoribulokinase	Reductive pentose phosphate cycle (Calvin cycle)	Calvin cycle	carbon metabolism	
+K01601	rbcL	ribulose-bisphosphate carboxylase large chain	Reductive pentose phosphate cycle (Calvin cycle)	Calvin cycle	carbon metabolism	
+K01602	rbcS	ribulose-bisphosphate carboxylase small chain	Reductive pentose phosphate cycle (Calvin cycle)	Calvin cycle	carbon metabolism	
+K00927	PGK	phosphoglycerate kinase	Reductive pentose phosphate cycle (Calvin cycle)	Calvin cycle	carbon metabolism	
+K00134	GAPDH	glyceraldehyde 3-phosphate dehydrogenase (phosphorylating)	Reductive pentose phosphate cycle (Calvin cycle)	Calvin cycle	carbon metabolism	
+K01623	ALDO	"fructose-bisphosphate aldolase, class I"	Reductive pentose phosphate cycle (Calvin cycle)	Calvin cycle	carbon metabolism	alternative to K01624
+K01624	FBA	"fructose-bisphosphate aldolase, class II"	Reductive pentose phosphate cycle (Calvin cycle)	Calvin cycle	carbon metabolism	alternative to K01623
+K00615	tktA	transketolase	Reductive pentose phosphate cycle (Calvin cycle)	Calvin cycle	carbon metabolism	
+K03841	FBP	"fructose-1,6-bisphosphatase I"	Reductive pentose phosphate cycle (Calvin cycle)	Calvin cycle	carbon metabolism	
+K11532	glpX-SEBP	"fructose-1,6-bisphosphatase II / sedoheptulose-1,7-bisphosphatase"	Reductive pentose phosphate cycle (Calvin cycle)	Calvin cycle	carbon metabolism	
+K01807	rpiA	ribose 5-phosphate isomerase AÊ	Reductive pentose phosphate cycle (Calvin cycle)	Calvin cycle	carbon metabolism	alternative to K01808
+K01808	rpiB	ribose 5-phosphate isomerase B	Reductive pentose phosphate cycle (Calvin cycle)	Calvin cycle	carbon metabolism	alternative to K01807
+K08928	pufL	photosynthetic reaction center L subunit	Anoxygenic photosystem II	Anoxygenic photosystem II RC-LH1	photosynthesis	
+K08929	pufM	photosynthetic reaction center M subunit	Anoxygenic photosystem II	Anoxygenic photosystem II RC-LH1	photosynthesis	
+K13992	pufC	photosynthetic reaction center cytochrome c subunit	Anoxygenic photosystem II	Anoxygenic photosystem II RC-LH1	photosynthesis	
+K13991	puhA	photosynthetic reaction center H subunit	Anoxygenic photosystem II	Anoxygenic photosystem II RC-LH1	photosynthesis	
+K08926	pufA	light-harvesting complex 1 alpha chain	Anoxygenic photosystem II	Anoxygenic photosystem II RC-LH1	photosynthesis	
+K08927	pufB	light-harvesting complex 1 beta chain	Anoxygenic photosystem II	Anoxygenic photosystem II RC-LH1	photosynthesis	
+K04035	acsF	magnesium-protoporphyrin IX monomethyl ester (oxidative) cyclase	Porphyrin metabolism	bacteriochlorophyll synthesis	photosynthesis	
+K19073	DVR	divinyl chlorophyllide a 8-vinyl-reductase	Porphyrin metabolism	bacteriochlorophyll synthesis	photosynthesis	
+K04037	chlL	light-independent protochlorophyllide reductase subunit L	Porphyrin metabolism	bacteriochlorophyll synthesis	photosynthesis	
+K04038	chlN	light-independent protochlorophyllide reductase subunit N	Porphyrin metabolism	bacteriochlorophyll synthesis	photosynthesis	
+K04039	chlB	light-independent protochlorophyllide reductase subunit B	Porphyrin metabolism	bacteriochlorophyll synthesis	photosynthesis	
+K11336	bchF	3-vinyl bacteriochlorophyllide hydratase	Porphyrin metabolism	bacteriochlorophyll synthesis	photosynthesis	
+K11334	bchY	"3,8-divinyl chlorophyllide a/chlorophyllide a reductase subunit Y"	Porphyrin metabolism	bacteriochlorophyll synthesis	photosynthesis	
+K11335	bchZ	"3,8-divinyl chlorophyllide a/chlorophyllide a reductase subunit Z"	Porphyrin metabolism	bacteriochlorophyll synthesis	photosynthesis	
+K11333	bchX	"3,8-divinyl chlorophyllide a/chlorophyllide a reductase subunit X"	Porphyrin metabolism	bacteriochlorophyll synthesis	photosynthesis	
+K11337	bchC	bacteriochlorophyllide a dehydrogenase	Porphyrin metabolism	bacteriochlorophyll synthesis	photosynthesis	
+K04040	bchG	chlorophyll/bacteriochlorophyll a synthas	Porphyrin metabolism	bacteriochlorophyll synthesis	photosynthesis	
+K10960	bchP	geranylgeranyl diphosphate/geranylgeranyl-bacteriochlorophyllide a reductase	Porphyrin metabolism	bacteriochlorophyll synthesis	photosynthesis	
+K02291	crtB	15-cis-phytoene synthase	Carotenoid biosynthesis	Carotenoid biosynthesis 	photosynthesis	
+K10027	crtI	phytoene desaturase	Carotenoid biosynthesis	Carotenoid biosynthesis 	photosynthesis	
+K09844	crtC	"carotenoid 1,2-hydratase"	Carotenoid biosynthesis	Carotenoid biosynthesis: spirilloxanthin	photosynthesis	
+K09845	crtD	"1-hydroxycarotenoid 3,4-desaturase"	Carotenoid biosynthesis	Carotenoid biosynthesis: spirilloxanthin	photosynthesis	
+K09846	crtF	demethylspheroidene O-methyltransferase	Carotenoid biosynthesis	Carotenoid biosynthesis: spirilloxanthin	photosynthesis	
+K06443	crtY	lycopene beta-cyclase	Carotenoid biosynthesis	Carotenoid biosynthesis: carotenes	photosynthesis	
+K15746	crtZ	beta-carotene 3-hydroxylase	Carotenoid biosynthesis	Carotenoid biosynthesis: carotenes	photosynthesis	
+K09836	crtW	beta-carotene/zeaxanthin 4-ketolase	Carotenoid biosynthesis	Carotenoid biosynthesis: carotenes	photosynthesis	
+K14596	crtX	zeaxanthin glucosyltransferase	Carotenoid biosynthesis	Carotenoid biosynthesis: carotenes	photosynthesis	
+K02586	nifD	nitrogenase molybdenum-iron protein alpha chain	"Nitrogen fixation, nitrogen => ammonia"	Nitrogen fixation	nitrogen metabolism	
+K02591	nifK	nitrogenase molybdenum-iron protein beta chain	"Nitrogen fixation, nitrogen => ammonia"	Nitrogen fixation	nitrogen metabolism	
+K02588	nifH	nitrogenase iron protein NifH	"Nitrogen fixation, nitrogen => ammonia"	Nitrogen fixation	nitrogen metabolism	
+K22896	vnfD	vanadium-dependent nitrogenase alpha chain	"Nitrogen fixation, nitrogen => ammonia"	Nitrogen fixation	nitrogen metabolism	
+K22897	vnfK	vanadium-dependent nitrogenase beta chain	"Nitrogen fixation, nitrogen => ammonia"	Nitrogen fixation	nitrogen metabolism	
+K22898	vnfG	vanadium nitrogenase delta subunit	"Nitrogen fixation, nitrogen => ammonia"	Nitrogen fixation	nitrogen metabolism	
+K22899	vnfH	vanadium nitrogenase iron protein	"Nitrogen fixation, nitrogen => ammonia"	Nitrogen fixation	nitrogen metabolism	
+K00798	MMAB	cob(I)alamin adenosyltransferase	"Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin"	Cobalamin biosynthesis	cofactors	
+K19221	cobA	cob(I)alamin adenosyltransferase	"Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin"	Cobalamin biosynthesis	cofactors	
+K02232	cobQ	adenosylcobyric acid synthase	"Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin"	Cobalamin biosynthesis	cofactors	
+K02225	cobC1	cobalamin biosynthesis protein CobC	"Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin"	Cobalamin biosynthesis	cofactors	
+K02227	cbiB	adenosylcobinamide-phosphate synthase	"Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin"	Cobalamin biosynthesis	cofactors	
+K02231	cobP	adenosylcobinamide kinase / adenosylcobinamide-phosphate guanylyltransferase	"Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin"	Cobalamin biosynthesis	cofactors	
+K00768	cobU-cobT	nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase	"Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin"	Cobalamin biosynthesis	cofactors	
+K02226	cobC	alpha-ribazole phosphatase	"Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin"	Cobalamin biosynthesis	cofactors	
+K02233	cobS-cobV	adenosylcobinamide-GDP ribazoletransferase	"Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin"	Cobalamin biosynthesis	cofactors	
+K10227	smoE	polyol transport system substrate-binding protein	Putative sorbitol/mannitol transporter	Putative sorbitol/mannitol transporter	transport	
+K10228	smoF	polyol transport system permease protein	Putative sorbitol/mannitol transporter	Putative sorbitol/mannitol transporter	transport	
+K10229	smoG	polyol transport system permease protein	Putative sorbitol/mannitol transporter	Putative sorbitol/mannitol transporter	transport	
+K10111	malK	multiple sugar transport system ATP-binding protein	Putative sorbitol/mannitol transporter	Putative sorbitol/mannitol transporter	transport	
+K11959	urtA	urea transport system substrate-binding protein	Urea transporter	Urea transporter	transport	
+K11960	urtB	urea transport system permease protein	Urea transporter	Urea transporter	transport	
+K11961	urtC	urea transport system permease protein	Urea transporter	Urea transporter	transport	
+K11962	urtD	urea transport system ATP-binding protein	Urea transporter	Urea transporter	transport	
+K11963	urtE	urea transport system ATP-binding protein	Urea transporter	Urea transporter	transport	
+K17202	eryG	erythritol transport system substrate-binding protein	Erythritol transporter	Erythritol transporter	transport	
+K17203	eryF	erythritol transport system permease protein	Erythritol transporter	Erythritol transporter	transport	
+K17204	eryE	erythritol transport system ATP-binding protein	Erythritol transporter	Erythritol transporter	transport	
+K17205	xltC	putative xylitol transport system substrate-binding protein	Putative xylitol transporter	Putative xylitol transporter	transport	
+K17206	xltB	putative xylitol transport system permease protein	Putative xylitol transporter	Putative xylitol transporter	transport	
+K17207	xltA	putative xylitol transport system ATP-binding protein	Putative xylitol transporter	Putative xylitol transporter	transport	
+K17208	ibpA	inositol transport system substrate-binding protein	Inositol transporter	Inositol transporter	transport	
+K17209	iatP	inositol transport system permease protein	Inositol transporter	Inositol transporter	transport	
+K17210	iatA	inositol transport system ATP-binding protein	Inositol transporter	Inositol transporter	transport	
+K17321	glpV	glycerol transport system substrate-binding protein	Glycerol transporter	Glycerol transporter	transport	
+K17322	glpP	glycerol transport system permease protein	Glycerol transporter	Glycerol transporter	transport	
+K17323	glpQ	glycerol transport system permease protein	Glycerol transporter	Glycerol transporter	transport	
+K17324	glpS	glycerol transport system ATP-binding protein	Glycerol transporter	Glycerol transporter	transport	
+K17325	glpT	glycerol transport system ATP-binding protein	Glycerol transporter	Glycerol transporter	transport	
+K01428	ureC	urease subunit alpha	Arginine biosynthesis	Urea metabolism	nitrogen metabolism	
+K01429	ureB	urease subunit beta	Arginine biosynthesis	Urea metabolism	nitrogen metabolism	
+K01430	ureA	urease subunit gamma	Arginine biosynthesis	Urea metabolism	nitrogen metabolism	
+K14048	ureAB	urease subunit gamma/betaÊ	Arginine biosynthesis	Urea metabolism	nitrogen metabolism	
+K00652	bioF	8-amino-7-oxononanoate synthase	"Biotin biosynthesis, pimeloyl-ACP/CoA => biotin"	Biotin biosynthesis	cofactors	
+K00833	bioA	adenosylmethionine---8-amino-7-oxononanoate aminotransferase	"Biotin biosynthesis, pimeloyl-ACP/CoA => biotin"	Biotin biosynthesis	cofactors	
+K01935	bioD	dethiobiotin synthetase	"Biotin biosynthesis, pimeloyl-ACP/CoA => biotin"	Biotin biosynthesis	cofactors	
+K01012	bioB	biotin synthase	"Biotin biosynthesis, pimeloyl-ACP/CoA => biotin"	Biotin biosynthesis	cofactors	
+K14652	ribBA	"3,4-dihydroxy 2-butanone 4-phosphate synthase / GTP cyclohydrolase"	"Riboflavin biosynthesis, plants and bacteria, GTP => riboflavin/FMN/FAD"	Riboflavin biosynthesis	cofactors	alternative to K01497 and K02858
+K01497	ribA	GTP cyclohydrolase II	"Riboflavin biosynthesis, plants and bacteria, GTP => riboflavin/FMN/FAD"	Riboflavin biosynthesis	cofactors	alternative to K14652
+K11752	ribD	diaminohydroxyphosphoribosylaminopyrimidine deaminase / 5-amino-6-(5-phosphoribosylamino)uracil reductase	"Riboflavin biosynthesis, plants and bacteria, GTP => riboflavin/FMN/FAD"	Riboflavin biosynthesis	cofactors	
+K02858	ribB	"3,4-dihydroxy 2-butanone 4-phosphate synthase"	"Riboflavin biosynthesis, plants and bacteria, GTP => riboflavin/FMN/FAD"	Riboflavin biosynthesis	cofactors	alternative to K14652
+K00794	ribH	"6,7-dimethyl-8-ribityllumazine synthase"	"Riboflavin biosynthesis, plants and bacteria, GTP => riboflavin/FMN/FAD"	Riboflavin biosynthesis	cofactors	
+K00793	ribE	riboflavin synthase	"Riboflavin biosynthesis, plants and bacteria, GTP => riboflavin/FMN/FAD"	Riboflavin biosynthesis	cofactors	
+K11753	ribF	riboflavin kinase / FMN adenylyltransferase	"Riboflavin biosynthesis, plants and bacteria, GTP => riboflavin/FMN/FAD"	Riboflavin biosynthesis	cofactors	
+K00878	thiM	hydroxyethylthiazole kinase	"Thiamine salvage pathway, HMP/HET => TMP"	Thiamine salvage pathway	cofactors	
+K00941	thiD	hydroxymethylpyrimidine/phosphomethylpyrimidine kinase	"Thiamine salvage pathway, HMP/HET => TMP"	Thiamine salvage pathway	cofactors	
+K00788	thiE	thiamine-phosphate pyrophosphorylase	"Thiamine salvage pathway, HMP/HET => TMP"	Thiamine salvage pathway	cofactors	
+K23995	xoxF	lanthanide-dependent methanol dehydrogenase	"Methane oxidation, methanotroph, methane => formaldehyde"	Methanol Dehydrogenase	methanol metabolism	
+K02429	fucP	"MFS transporter, FHS family, L-fucose permease"	Fucose:H+ symporter	Fucose transporter	transport	
+K02440	GLPF	glycerol uptake facilitator protein	Aquaglyceroporins or glycerol-uptake facilitators	Glycerol transporter	transport	
+K02781	srlB	glucitol/sorbitol PTS system EIIA component	Transporters	Glycerol/sorbitol transporter	transport	
+K02782	srlE	glucitol/sorbitol PTS system EIIB component	Transporters	Glycerol/sorbitol transporter	transport	
+K02783	srlA	glucitol/sorbitol PTS system EIIC component	Transporters	Glycerol/sorbitol transporter	transport	
+K03320	amt	ammonium transporter	ammonium transporter	ammonium transporter	transport	
+K10439	rbsB	ribose transport system substrate-binding protein	ribose transport system	ribose/D-xylose transporter	transport	
+K10440	rbsC	ribose transport system permease protein	ribose transport system	ribose/D-xylose transporter	transport	
+K10441	rbsA	ribose transport system ATP-binding protein	ribose transport system	ribose/D-xylose transporter	transport	
+K10543	xylF	D-xylose transport system substrate-binding protein	D-xylose transport system	D-xylose transporter	transport	
+K10544	xylH	D-xylose transport system permease protein	D-xylose transport system	D-xylose transporter	transport	
+K10545	xylG	D-xylose transport system ATP-binding protein	D-xylose transport system	D-xylose transporter	transport	
+K10546	chvE	putative multiple sugar transport system substrate-binding protein	putative multiple sugar transport system	multiple sugar transporter	transport	
+K10547	gguB	putative multiple sugar transport system permease protein	putative multiple sugar transport system	multiple sugar transporter	transport	
+K10548	gguA	putative multiple sugar transport system ATP-binding protein	putative multiple sugar transport system	multiple sugar transporter	transport	
+K10552	frcB	fructose transport system substrate-binding protein	fructose transport system	fructose transporter	transport	
+K10553	frcC	fructose transport system permease protein	fructose transport system	fructose transporter	transport	
+K10554	frcA	fructose transport system ATP-binding protein	fructose transport system	fructose transporter	transport	
+K10537	araF	L-arabinose transport system substrate-binding protein	L-arabinose transport system	arabinose transporter	transport	
+K10538	araH	L-arabinose transport system permease protein	L-arabinose transport system	arabinose transporter	transport	
+K10539	araG	L-arabinose transport system ATP-binding protein	L-arabinose transport system	arabinose transporter	transport	
+K01999	livK	branched-chain amino acid transport system substrate-binding protein	branched-chain amino acid transport	branched-chain amino acid transporter	transport	
+K01997	livH	branched-chain amino acid transport system permease protein	branched-chain amino acid transport	branched-chain amino acid transporter	transport	
+K01998	livM	branched-chain amino acid transport system permease protein	branched-chain amino acid transport	branched-chain amino acid transporter	transport	
+K01995	livG	branched-chain amino acid transport system ATP-binding protein	branched-chain amino acid transport	branched-chain amino acid transporter	transport	
+K01996	livF	branched-chain amino acid transport system ATP-binding protein	branched-chain amino acid transport	branched-chain amino acid transporter	transport	
+K09969	aapJ	general L-amino acid transport system substrate-binding protein	general L-amino acid transport system	L-amino acid transporter	transport	
+K09970	aapQ	general L-amino acid transport system permease protein	general L-amino acid transport system	L-amino acid transporter	transport	
+K09971	aapM	general L-amino acid transport system permease protein	general L-amino acid transport system	L-amino acid transporter	transport	
+K09972	aapP	general L-amino acid transport system ATP-binding protein	general L-amino acid transport system	L-amino acid transporter	transport	
+K10001	gltI	glutamate/aspartate transport system substrate-binding protei	glutamate/aspartate transport system	glutamate/aspartate transporter	transport	
+K10002	gltK	glutamate/aspartate transport system permease protein	glutamate/aspartate transport system	glutamate/aspartate transporter	transport	
+K10003	gltJ	glutamate/aspartate transport system permease protein	glutamate/aspartate transport system	glutamate/aspartate transporter	transport	
+K10004	gltL	glutamate/aspartate transport system ATP-binding protein	glutamate/aspartate transport system	glutamate/aspartate transporter	transport	
+K10107	kpsE	capsular polysaccharide transport system permease protein	capsular polysaccharide transport system	capsular polysaccharide transporter	transport	
+K09688	kpsM	capsular polysaccharide transport system permease protein	capsular polysaccharide transport system	capsular polysaccharide transporter	transport	
+K09689	kpsT	capsular polysaccharide transport system ATP-binding protein	capsular polysaccharide transport system	capsular polysaccharide transporter	transport	
+K22912			"Riboflavin biosynthesis, plants and bacteria, GTP => riboflavin/FMN/FAD"	Riboflavin biosynthesis	cofactors	
+K20861			"Riboflavin biosynthesis, plants and bacteria, GTP => riboflavin/FMN/FAD"	Riboflavin biosynthesis	cofactors	
+K20862			"Riboflavin biosynthesis, plants and bacteria, GTP => riboflavin/FMN/FAD"	Riboflavin biosynthesis	cofactors	
+K21063			"Riboflavin biosynthesis, plants and bacteria, GTP => riboflavin/FMN/FAD"	Riboflavin biosynthesis	cofactors	
+K21064			"Riboflavin biosynthesis, plants and bacteria, GTP => riboflavin/FMN/FAD"	Riboflavin biosynthesis	cofactors	

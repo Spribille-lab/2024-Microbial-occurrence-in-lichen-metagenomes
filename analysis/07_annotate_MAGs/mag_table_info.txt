@@ -1,6 +1,4 @@
 Genome	bac_genus2	bac_family	bac_order	bac_phylum	compelteness	contamination
-public_SRR14722130_metawrap_bin.2	Lichenihabitans	Beijerinckiaceae	Rhizobiales	Proteobacteria	92.82	3.46
-private_T1889_metawrap_bin.7	Lichenihabitans	Beijerinckiaceae	Rhizobiales	Proteobacteria	69.19	1.1
 private_X5_metawrap_bin.1	Nostoc	Nostocaceae	Cyanobacteriales	Cyanobacteria	99.26	0.22
 private_T1894_metawrap_bin.9	RH-AL1	Beijerinckiaceae	Rhizobiales	Proteobacteria	95.65	1.88
 private_T1916_metawrap_bin.6	Lichenihabitans	Beijerinckiaceae	Rhizobiales	Proteobacteria	95.99	1.3

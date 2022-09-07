@@ -413,6 +413,7 @@ will add details after asking Ellen
 Software used:
 * GTDB-Tk v1.5.0 (Chaumeil et al. 2020)
 * IQ-TREE v2.1.2 (Nguyen et al. 2015)
+* BLAST (Altschul et al. 1990)
 * iTOL (Letunic & Bork 2019)
 * R libraries: tidyverse, ape, phytools, stringr, RColorBrewer
 
@@ -472,15 +473,16 @@ iqtree -s ../gtdbtk_align/gtdbtk.bac120.user_msa.fasta --seqtype AA -bb 50000 -p
 
 * Searched all genomes using blast, used a NifH (ABZ89802.1) as a blast query
 	* Used  `analysis/09_rhizobiales_phylogeny/Snakefile_tblastn` for searching nucleotide fastas
-	```
-	 snakemake --cores 10 -n -s Snakefile_tblastn 
-	```
+```
+cd analysis/09_rhizobiales_phylogeny/
+snakemake --cores 10 -n -s Snakefile_tblastn 
+```
 	
 	* Used  `analysis/09_rhizobiales_phylogeny/Snakefile_blastp` for searching predicted protein fastas of *only ncbi genomes* 
 	* Concatenated all into one file 
-	```
-	cat  blast_nifh/tmp_*_report* > blast_nifh/blast_nifh.txt
-	```
+```
+cat  blast_nifh/tmp_*_report* > blast_nifh/blast_nifh.txt
+```
 
 * Used `code/rhizobiales_nihf.R` to analyze the results of nitrogenase search:
 	* methods of search (grep on the ncbi annotations vs tblastn vs blastp) are almost entirely consistent. 
@@ -492,6 +494,7 @@ iqtree -s ../gtdbtk_align/gtdbtk.bac120.user_msa.fasta --seqtype AA -bb 50000 -p
 	* Searched for 4 genes: PmoC (WP_016921575.1), MmoX (ABD13903.1), XxoF (VVC56072.1), MxaF (CAD91828.2)
 ```
 snakemake --cores 10 -n -s Snakefile_tblastn_metahne 
+cd ../../
 ```
 	
 * Summarized all searches
@@ -503,3 +506,21 @@ snakemake --cores 10 -n -s Snakefile_tblastn_metahne
 		* source (NCBI or our data): `analysis/09_rhizobiales_phylogeny/iqtree/itol_source.txt`
 		* number of occurrences (for the MAGs only): `analysis/09_rhizobiales_phylogeny/iqtree/itol_occurrences.txt`
 * Visualized the tree using iTOL. This figure is referenced in the text as **Fig. SXXX**
+
+## 9. Searching for cobalamin-dependent genes in algal MAGs
+* Made a list of all algal MAGs with >90% completeness
+	* Used `get_algal_mag_list.R`
+	* Saved the list as `analysis/11_algal_MAGs/good_algal_mags_list.txt`
+* Copied them into the folder
+
+```
+cat good_algal_mags_list.txt | xargs -I {} cp ../05_MAGs/MAGs/euks/{}.fa.gz .
+gzip -d *.gz
+```
+* ran Snakemake pipeline, which executes the tblastn search
+```
+cd analysis/11_algal_MAGs/
+snakemake --cores 10 -n -s Snakefile_tblastn 
+cd ../../
+```
+

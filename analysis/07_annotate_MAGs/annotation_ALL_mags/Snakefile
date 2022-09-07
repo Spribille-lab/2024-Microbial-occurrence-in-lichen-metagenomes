@@ -1,0 +1,20 @@
+import glob
+import os
+
+#MAGS, = glob_wildcards("../../05_MAGs/MAGs/bacs/{sample}.fa.gz")
+MAGS = ["private_X9_metawrap_bin.1", "private_X5_metawrap_bin.7"]
+
+rule all:
+        input:
+                expand("{sample}.kegg.mapper.txt", sample = MAGS),
+
+        output: touch("touch")
+
+
+rule kofam_scan:
+        input: "../emeraldbgc/{sample}/{sample}.gbk.emerald/{sample}.gbk.prodigal.faa"   
+        output: 
+                o1="{sample}.kegg.mapper.txt",     
+        shell:
+                "/data/tagirdzh/bin/kofam_scan/exec_annotation -o {output.o1}  {input} -f mapper --tmp-dir tmp_{wildcards.sample};"
+
