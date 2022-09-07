@@ -49,7 +49,7 @@ analysis/09_rhizobiales_phylogeny/gtdbtk*
 analysis/09_rhizobiales_phylogeny/blast_nifh/tmp*
 analysis/09_rhizobiales_phylogeny/blast_nifh/
 analysis/09_rhizobiales_phylogeny/blast_*
-
+code_old/
 analysis/10_metaGEM/MAG_*
 results/.DS_Store
 code/.DS_Store
