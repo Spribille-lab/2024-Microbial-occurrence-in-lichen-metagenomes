@@ -320,6 +320,7 @@ Get more details from Ellen
 ```
 /bin/kofam_scan/exec_annotation -o {MAG_ID}/{MAG_ID}.kegg.mapper.txt  {MAG_ID}/{MAG_ID}.faa -f mapper --tmp-dir tmp_{MAG_ID}
 ```
+
 * Modified script from Zoccarato et al. (2022) to reconstruct KEGG modules
 	* The script is saved as `code/kegg_module_reconstruct.R`
 * The main script is `code/bacteria_functional_clustering.R`. Using this script did the following:
@@ -341,6 +342,11 @@ Get more details from Ellen
 
 ### 7.4. In-depth functional annotations
 Analyzed the 63 selected MAGs
+
+* Created a KEGG table for the selected MAGs
+	* Used `code/combine_kegg.R`
+	* Saved KEGG annotations for all selected MAGs as `analysis/07_annotate_MAGs/summarized_outputs/selected_mags_kegg_combined.txt`
+	* Saved combined KEGG annotations for each genus as `analysis/07_annotate_MAGs/summarized_outputs/{genus}.kegg.combined.txt`. Those were used for exploratory analysis only
 * Visualized key metabolic traits
 	* Screened KEGG annotations for the annotation related to the key metabolic traits
 		* Anoxygenic Photosystem II (K08928, K08929, K13991, K13992, K08926, K08927)
@@ -400,7 +406,7 @@ run_dbcan {MAG_ID}/{MAG_ID}.faa protein --out_dir {MAG_ID}_dbcan --db_dir /bin/r
 			* As a heatmap: `analysis/07_annotate_MAGs/summarized_outputs/cazy_heatmap.pdf`
 		* Table showing median # of genes from diff. CAZy classes summarized by genus + median total # of CAZymes: `results/tables/median_cazy_by_genus.txt`. This table is referenced in the text as **Table SXXX**
    		* Same by family: `analysis/07_annotate_MAGs/summarized_outputs/cazy_class_percentage_by_bac_family.txt`
-    	* Figure showing # of genes from diff. CAZy classes grouped by family: `results/figures/cazy_bac_genus.png`
+    	* Figure showing # of genes from diff. CAZy classes grouped by family: `results/figures/cazy_bac_genus.svg`
 * Annotated iron metabolism genes using FeGenie
 ```
 will add details after asking Arkadiy
