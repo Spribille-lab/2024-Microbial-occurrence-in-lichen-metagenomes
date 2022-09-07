@@ -16,7 +16,7 @@ sra_table$FEN_id<-sub("([^_]+_+[^_]+).*", "\\1",sra_table$SampleName )
 
 
 #read rable from Lendemer et al.
-table<-read.csv('analysis/03_lendemer_reanalysis/ajb21339-sup-0002-appendixs2.csv',sep='\t')
+table<-read.csv('analysis/03_metagenome_reanalysis/ajb21339-sup-0002-appendixs2.csv',sep='\t')
 table$FEN_id<-sub("([^_]+_+[^_]+).*", "\\1",table$FEN )
 
 #join tables saving only enries that exist in both tables
@@ -30,8 +30,4 @@ combined_table$Current_Determination<-as.character(combined_table$Current_Determ
 combined_table %>% filter(ScientificName!=Current_Determination)
 
 #save SRA ids
-write.table(combined_table$Run,"analysis/03_lendemer_reanalysis/sra_ids_lendemer.txt",col.names = F,row.names = F, quote = F)
-
-#save the table
-write.table(combined_table,"analysis/03_lendemer_reanalysis/lendemer_table_sra.txt",col.names = T,row.names = F, quote = F,sep="\t")
-
+write.table(combined_table$Run,"analysis/03_metagenome_reanalysis/sra_ids.txt",col.names = F,row.names = F, quote = F)

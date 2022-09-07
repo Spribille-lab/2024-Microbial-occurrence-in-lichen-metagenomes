@@ -7,7 +7,7 @@ library(tidyverse)
 # 1. load data
 
 ##mag info
-mags_role<-read.delim("analysis/05_MAGs/tables/MAG_confirmed_roles_bwa.txt")
+mags_role<-read.delim("results/tables/MAG_confirmed_roles_bwa.txt")
 mags_role$bac_order <- sapply(mags_role$bat_bacteria, gtdb_get_clade, clade="o")
 
 #rhizobialel MAGs

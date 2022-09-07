@@ -33,7 +33,7 @@ Software used:
 * Got SRA ids from Lendemer et al. 2019:
     * Downloaded SRA run info for PRJNA700635 and PRJNA731936 > `analysis/03_metagenome_reanalysis/SraRunInfo_PRJNA731936.csv analysis/03_metagenome_reanalysis/SraRunInfo_PRJNA700635.csv`
     * Downloaded [Appendix S2](https://bsapubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Fajb2.1339&file=ajb21339-sup-0002-AppendixS2.xlsx) from Lendemer et al. 2019 with the voucher metadata for their metagenomes
-    * Made finel list of SRA IDs using `code/getting_SRA_id_for_lendemer_data.R`. Only kept IDs that matched between the metadata from the NCBI and from the Appendix > `analysis/03_metagenome_reanalysis/sra_ids_lendemer.txt`
+    * Made finel list of SRA IDs using `code/getting_SRA_id.R`. Only kept IDs that matched between the metadata from the NCBI and from the Appendix > `analysis/03_metagenome_reanalysis/sra_ids_lendemer.txt`
 
 * Got SRA ids from other sources
     * See `analysis/03_metagenome_reanalysis/all_metagenome_reanalysis.csv`. Copied all SRA ids into `analysis/03_metagenome_reanalysis/sra_ids_other.txt`
@@ -444,19 +444,20 @@ Software used:
 	while read p; do wget "$p"/*_protein.faa.gz; done < ../ftp_list.txt
 	```
 	
-* Copied Rhizobiales MAGs into the same folders
+	* Added outgroup from rhodobacter
+	```
+	wget ftp://ftp.ncbi.nlm.nih.gov/genomes/refseq/bacteria/Rhodobacter_amnigenus/latest_assembly_versions/GCF_009908265.2_ASM990826v2/GCF_009908265.2_ASM990826v2_genomic.fna.gz
+	```
+* Added Rhizobiales MAGs from our data
+	* Used `list_rhizobiales_mags.R`
+	* Saved the list as `analysis/09_rhizobiales_phylogeny/list_rhizobiales_mags.txt`
+	* Copied Rhizobiales MAGs into the same folder
 ```
 cd ../genomes
 while read p; do cp ../../../"$p" . ; done < ../list_rhizobiales_mags.txt
 
 cd ../annotations
 while read p; do cp ../../../"$p" . ; done < ../list_rhizobiales_mags.txt
-```
-* Added outgroup from rhodobacter
-```
-wget ftp://ftp.ncbi.nlm.nih.gov/genomes/refseq/bacteria/Rhodobacter_amnigenus/latest_assembly_versions/GCF_009908265.2_ASM990826v2/GCF_009908265.2_ASM990826v2_genomic.fna.gz
-```
-
 * Ran GTDB-Tk to identify and align marker genes
 ```
 gtdbtk identify --genome_dir genomes --out_dir gtdbtk_identify --extension gz --cpus 10
