@@ -484,8 +484,8 @@ iqtree -s ../gtdbtk_align/gtdbtk.bac120.user_msa.fasta --seqtype AA -bb 50000 -p
 ```
 cd analysis/09_rhizobiales_phylogeny/
 snakemake --cores 10 -n -s Snakefile_tblastn 
+
 ```
-	
 	* Used  `analysis/09_rhizobiales_phylogeny/Snakefile_blastp` for searching predicted protein fastas of *only ncbi genomes* 
 	* Concatenated all into one file 
 ```
