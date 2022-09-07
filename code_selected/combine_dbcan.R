@@ -11,7 +11,7 @@ library(RColorBrewer)
 source("code/utils.R")
 
 ## 2. read data
-mags_role<-read.delim("analysis/05_MAGs/tables/MAG_confirmed_roles_bwa.txt")
+mags_role<-read.delim("results/tables/MAG_confirmed_roles_bwa.txt")
 annotated_mags<-read.delim("analysis/07_annotate_MAGs/mag_list.txt",header=F,col.names = "Genome")
 
 ## 3. get taxonomy
@@ -62,7 +62,7 @@ hr_table<-cazy_summarized %>% pivot_wider(names_from=family,values_from=n,values
 hr_table<-hr_table %>%  select(sort(current_vars())) %>% 
   relocate(Genome,bac_genus2,bac_family,bac_order) %>% group_by(bac_family) %>%
   arrange(bac_genus2, .by_group=T)
-write.table( hr_table, "analysis/07_annotate_MAGs/summarized_outputs/cazymes_summarized.txt", sep='\t',quote = F, row.names = F, col.names = T)
+write.table( hr_table, "results/tables/cazymes_summarized.txt", sep='\t',quote = F, row.names = F, col.names = T)
 
 # summarize by genus
 family_genus<-cazy_combined %>% group_by(Genome,family) %>% summarize(n=n()) %>% left_join(annotated_mags) %>%
@@ -77,7 +77,7 @@ total_cazy<-cazy_combined %>% group_by(Genome) %>%  summarize(n=n()) %>% left_jo
   group_by(bac_genus2) %>% summarize(total=median(n))
 
 class_genus_summ <- class_genus %>% pivot_wider(values_from = median,names_from=class,values_fill=0) %>% left_join(total_cazy) %>% left_join(annotated_mags %>% select(-Genome) %>% distinct())
-write.table( class_genus_summ, "analysis/07_annotate_MAGs/summarized_outputs/median_cazy_by_genus.txt", sep='\t',quote = F, row.names = F, col.names = T)
+write.table( class_genus_summ, "results/tables/median_cazy_by_genus.txt", sep='\t',quote = F, row.names = F, col.names = T)
 
 #in mags percantage of cazymes occupied by diff classes, median by family
 total_per_mag<-class %>% group_by(Genome) %>% summarize(total=sum(n))

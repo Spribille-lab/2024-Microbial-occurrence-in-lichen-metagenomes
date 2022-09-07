@@ -112,17 +112,20 @@ IQTREE
 * The tree is available as Supplementary data: XXX
 
 ### 3.2. Eukaryotic MAGs
+* Preliminary taxonomic assignments based on the database search
 ```
 XXX BAT analysis: to be added after asking Paul for details
 ```
-Computed two phylogenomic trees: one for fungi, one for algae. 
+* To refine taxonomic assignments, computed two phylogenomic trees: one for fungi, one for algae. 
 	* The list of reference genomes is in `results/tables/reference_genomes_full_table.csv`
 	* This table is compiled manually, in the text it's referred as **Table SXXX**
 ```
 XXX euk phylogenomic: to be added after asking David for details
 ```
 
-### 3.3. Produced figure Fig. XXX: eukaryiotic phylogenomic trees
+* Produced figure Fig. XXX: eukaryiotic phylogenomic trees
+	* Used iTOL
+	* Manually annotated trees taxonomically, based on the reference genomes
 
 
 ## 4. Occurrence analysis
@@ -181,22 +184,23 @@ XXX to be added after asking Paul for details
 	* saved the updated assignments as `results/tables/MAG_confirmed_roles_bwa.txt`
 
 **NB:** This table is one of the key tables used for producing figures and tables downstream. Each line represents a MAG occurrence, i.e. each instant a MAG is present in a metagenome. It provides info on: 
-* the MAG: size, taxonomy 
-* the metagenome: what lichen symbiosis it's made from)
-* the occurrence: breadth and depth of coverage of this MAG in this metagenome
+	* the MAG: size, taxonomy 
+	* the metagenome: what lichen symbiosis it's made from
+	* the occurrence: breadth and depth of coverage of this MAG in this metagenome
+
 	
 ### 4.5. Identifying most frequent bacterial groups
 * Used `code/find_dominant_bacteria.R` to identify bacterial lineages of interest
-* Ranked bacterial groups by their frequency, defined as the total number of occurrences
-	* Summarized on four levels: individual MAGs, bacterial genera, families, and orders
-	* Saved the resulting tables as `analysis/05_MAGs/tables/bacteria_dominant_groups/bacterial_*_frequency.tsv`. Here I counted total number of occurrences per bacterial group 
-* Ranked bacterial groups by their diversity, defined as the number of unique MAGs
-	* Summarized on three levels: bacterial genera, families, and orders
-	* Save the resulting tables as `analysis/05_MAGs/tables/bacteria_dominant_groups/bacterial_*_diversity.tsv`. Here is just a number of MAGs from a given group
-* Only included the metagenomes that a) yielded an LFS MAG b) wasn't removed as potential misidentification 
-* Made lists of top frequency genera and families by groups of lichens: photobionts, mycobionts, and compinations.  
-	* saved them as `results/tables/bacterial_*_by_lichen_group.txt`
-	* These two tables combined are referred to in the text as **Table SXXX**
+	* Ranked bacterial groups by their frequency, defined as the total number of occurrences
+		* Summarized on four levels: individual MAGs, bacterial genera, families, and orders
+		* Saved the resulting tables as `analysis/05_MAGs/tables/bacteria_dominant_groups/bacterial_*_frequency.tsv`. Here I counted total number of occurrences per bacterial group 
+	* Ranked bacterial groups by their diversity, defined as the number of unique MAGs
+		* Summarized on three levels: bacterial genera, families, and orders
+		* Save the resulting tables as `analysis/05_MAGs/tables/bacteria_dominant_groups/bacterial_*_diversity.tsv`. Here is just a number of MAGs from a given group
+	* Only included the metagenomes that a) yielded an LFS MAG b) wasn't removed as potential misidentification 
+	* Made lists of top frequency genera and families by groups of lichens: photobionts, mycobionts, and compinations.  
+		* saved them as `results/tables/bacterial_*_by_lichen_group.txt`
+		* These two tables combined are referred to in the text as **Table SXXX**
 * Visualized bacterial occurrences
 	* Used `code/rename_bac_tree.R`
 	* Renamed tip labels in the bacterial phylogenomic tree produced (see 3.1) to add taxonomic assignments
@@ -287,4 +291,215 @@ Analyzed the recovery of the LFS and photosynthetic partner MAGs as a function o
 * Saved the figure `results/figures/myco_photobiont_vs_depth.png`. This figure is referenced in the text as **Fig. SXXX**
 
 ## 7. Functional analysis
+Software used:
+* PROKKA v1.13 (Seemann 2014)
+* Snakemake (Mölder et al. 2021)
+* KEGG Orthology Database (Kanehisa et al. 2002)
+* KofamScan (Aramaki et al. 2020)
+* BLAST (Altschul et al. 1990)
+* [dbcan2 v3.0.2](https://github.com/linnabrown/run_dbcan)
+* FeGenie (Garber et al. 2020)
+* Emerald
+* [getLCA](https://github.com/frederikseersholm/getLCA)
+* R libraries: tidyverse, stringr, seriation, ComplexHeatmap, DECIPHER, circlize, RColorBrewer, patchwork, scales, waffle, extrafont, hrbrthemes, simplifyEnrichment, 
 
+### 7.1. General functional annotations and Protein space analysis
+* Annotated all bacterial MAGs with PROKKA
+
+```
+prokka --compliant --centre UoA --outdir {MAG_ID} --prefix {MAG_ID} {MAG_ID}.fa
+```
+
+* Compared all predicted proteins against the MGnify database
+```
+Get more details from Ellen
+```
+
+### 7.2. Functional clustering
+* Annotated predicted proteins against the KEGG Orthology Database using KofamScan
+```
+/bin/kofam_scan/exec_annotation -o {MAG_ID}/{MAG_ID}.kegg.mapper.txt  {MAG_ID}/{MAG_ID}.faa -f mapper --tmp-dir tmp_{MAG_ID}
+```
+* Modified script from Zoccarato et al. (2022) to reconstruct KEGG modules
+	* The script is saved as `code/kegg_module_reconstruct.R`
+* The main script is `code/bacteria_functional_clustering.R`. Using this script did the following:
+	* Combined all KEGG annotations in one table `analysis/07_annotate_MAGs/summarized_outputs/all_mags_kegg_combined.txt`
+	* For the MAGs with >90% completeness, reconstructed KEGG modules, saved the table as `analysis/07_annotate_MAGs/summarized_outputs/kegg_module_matrix.txt`
+	* Compared different clustering methods (kmeans, dynamicTreeCut, mclust, apcluster, hdbscan, fast_greedy, leading_eigen, louvain, walktrap, MCL, binary_cut). Saved the output figures as `analysis/07_annotate_MAGs/summarized_outputs/genomes_by_kegg_modules_clustering_comparison.pdf` and `analysis/07_annotate_MAGs/summarized_outputs/genomes_by_kegg_modules_clustering_comparison2.pdf` (referred in the text as **Fig. SXXX**)
+	* For the selected methods of clustering (kmeans, apcluster, hdbscan), saved results (i.e. cluster assignments for all used MAGs), as a table (`analysis/07_annotate_MAGs/summarized_outputs/kegg_modules_clustering.txt`) and as a figure (`analysis/07_annotate_MAGs/summarized_outputs/genomes_by_kegg_modules_clustering_results.pdf`)
+	* Calculated taxonomic coherence for the selected three methods (following the definitions from Zoccarato et al. 2022). Saved the resulting figure as `analysis/07_annotate_MAGs/summarized_outputs/genomes_by_kegg_modules_clustering_taxonomic_coherence.pdf` (referred in the text as **Fig. SXXX**)
+
+### 7.3. Selected bacterial MAGs for in depth annotation
+* Picked the 13 bacterial genera with highest numbers of occurrences, that together accounted for 53% of all bacterial occurrences
+* From them, selected all highest quality MAGs (completenes >95%, contamination <10%, according to CheckM)
+* Used `code/select_mags_for_annotaiont.R`
+* Saved the list of selected MAGs as `analysis/07_annotate_MAGs/mag_table.txt` and `analysis/07_annotate_MAGs/mag_list.txt`. In total, 63 MAGs were selected
+* Prepared the table with information on the selected MAGs, saved as `results/tables/selected_mag_info.txt`. This table is referenced in the text as Table SXXX
+* Made figures to illustrate the process of MAG selection
+	* Used `code/draw_mag_selection_fig.R`
+	* Saved the figure as `results/figures/mag_selection.svg`, it is referred in the text as **Fig. XXX**
+
+### 7.4. In-depth functional annotations
+Analyzed the 63 selected MAGs
+* Visualized key metabolic traits
+	* Screened KEGG annotations for the annotation related to the key metabolic traits
+		* Anoxygenic Photosystem II (K08928, K08929, K13991, K13992, K08926, K08927)
+		* Calvin cycle (K00855, K01601, K01602, K00927, K00134, (K01623 or K01624), K00615, K03841, (K01807 or K01808))
+		* C1 metabolism: methanol dehydrogenase (K23995) and methane monooxygenase (K10946 and K16157)
+		* Bacteriochlorophyll biosynthesis pathway (K04035, K04037, K04038, K04039, K11333, K11334, K11335, K11336, K11337, K04040, K10960)
+		* Carotenoid biosynthesis pathway (K02291, K10027, K09844, K09844, K09845, K09846)
+		* Nitrogenase (K02588)
+		* Cofactor biosynthesis pathway
+			* Cobalamin ((K00768 or K02226) or (K02232, K02231, (K02227 or K02225), (K00798 or K19221))
+			* Biotin (K00652, K00833, K01935, K01012)
+			* Riboflavin ((K00794, K00793, K11753) or((K01497 or K14652), K11752, K21064))
+			* Thiamine (K00878, K00941, K00788)
+		* Urease ((K14048 or (K01430, K01429)), K01428)
+		* Transport systems
+			* sorbitol/mannitol transporter (K10227, K10228, K10229, K10111)
+			* urea transporter (K11959, K11960, K11961, K11962, K11963)
+			* erythritol transporter (K17202, K17203, K17204)
+			* xylitol transporter (K17205, K17206, K17207)
+			* inositol  transporter (K17208, K17209, K17210)
+  			* glycerol  transporter (K17321 K17322, K17323, K17324, 17325)
+			* fucose transporter (K02429) 
+			* glycerol aquaporin transporter (K02440)
+			* glycerol/sorbitol transporter (K02781, K02782, K02783)
+			* ammonium transporter (K03320) 
+			* ribose transporter (K10439, K10440, K10441)
+			* xylose transporter (K10543, K10544, K10545)
+			* multiple sugar transporter (K10546, K10547, K10548)
+			* fructose transporter (K10552, K10553, K10554)
+			* arabinose transporter (K10537, K10538, K10539)
+			* branched-chain amino acid transporter (K01999, K01997, K01998, K01995, K01996)
+			* L-amino acid transporter (K09969, K09970, K09971, K09972)
+			* glutamate transporter (K10001, K10002, K10003, K10004)
+			* capsular transporter (K10107, K09688, K09689)
+	* Used `code/pathway_fig.R`
+	* Saved the figure as `results/figures/pathway_fig.svg`, it is referenced in the text as **Fig. XXX**
+	 
+* Screened the metagenomic assemblies for NifH, a gene involved in nitrogen fixation
+	* Made a Snakemake pipeline: `analysis/07_annotate_MAGs/Snakefile_tblastn_metagenome`
+	* Searched the metagenomic assemblies using tblastn, as a query used a sequence from NCBI (ABZ89802.1)
+	* Extracted the hits as fasta files
+	* Obtained taxonomic assignments for the hits by searching them against the NCBI_nt database and using getLCA
+* Annotated CAZymes using run_dbcan  
+ 
+```
+run_dbcan {MAG_ID}/{MAG_ID}.faa protein --out_dir {MAG_ID}_dbcan --db_dir /bin/run_dbcan/db/
+```
+* Processed the run_dbcan outputs using `code/combine_dbcan.R` to combine dbcan annotations. 
+	* Followed [Krüger et al. 2019](https://www.nature.com/articles/s41396-019-0476-y#Sec21) to filter annotations:
+		* HMMER: E.Value<1e-20,Coverage>0.3
+		* DIAMOND: E.Value<1e-20,X..Identical>30
+	* Only kept the annotations that were consistent between the two tools
+	* Saved outputs
+		* Genes annotated as CAZymes `analysis/07_annotate_MAGs/summarized_outputs/cazymes_gene_assignments.txt`
+		* Number of CAZymes assigned to different families, pee MAG
+			* As a table: `results/tables/cazymes_summarized.txt`. This table is referenced in the text as **Table SXXX**
+			* As a heatmap: `analysis/07_annotate_MAGs/summarized_outputs/cazy_heatmap.pdf`
+		* Table showing median # of genes from diff. CAZy classes summarized by genus + median total # of CAZymes: `results/tables/median_cazy_by_genus.txt`. This table is referenced in the text as **Table SXXX**
+   		* Same by family: `analysis/07_annotate_MAGs/summarized_outputs/cazy_class_percentage_by_bac_family.txt`
+    	* Figure showing # of genes from diff. CAZy classes grouped by family: `results/figures/cazy_bac_genus.png`
+* Annotated iron metabolism genes using FeGenie
+```
+will add details after asking Arkadiy
+```
+* Annotated biosynthetic gene clusters using Emerald
+```
+will add details after asking Ellen
+```
+## 8. Loss of function in Rhizobiales
+Software used:
+* GTDB-Tk v1.5.0 (Chaumeil et al. 2020)
+* IQ-TREE v2.1.2 (Nguyen et al. 2015)
+* iTOL (Letunic & Bork 2019)
+* R libraries: tidyverse, ape, phytools, stringr, RColorBrewer
+
+### 8.1. Rhizobiales phylogenomic analysis
+* Assembled dataset based on the selection from [Volpiano et al](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8026895/#FS1)
+	* `analysis/09_rhizobiales_phylogeny/Table_1.xlsx` is the supplementary from this paper. Table S1 gives the list of genomes they used
+	* Saved the list of ftp addresses into a separate file `analysis/09_rhizobiales_phylogeny/ftp_list.txt`
+	* Removed \r from the file
+	```
+	sed -i.bak 's/\r$//g' ftp_list.txt
+	```
+	* Downloaded protein and assembly fastas
+	```
+	mkdir genomes
+	cd genomes
+	while read p; do wget "$p"/*_genomic.fna.gz; done < ../ftp_list.txt
+	rm *_cds_from_genomic.fna.gz
+	rm *_rna_from_genomic.fna.gz
+	
+	mkdir ../annotations
+	cd ../annotations
+	while read p; do wget "$p"/*_protein.faa.gz; done < ../ftp_list.txt
+	```
+	
+* Copied Rhizobiales MAGs into the same folders
+```
+cd ../genomes
+while read p; do cp ../../../"$p" . ; done < ../list_rhizobiales_mags.txt
+
+cd ../annotations
+while read p; do cp ../../../"$p" . ; done < ../list_rhizobiales_mags.txt
+```
+* Added outgroup from rhodobacter
+```
+wget ftp://ftp.ncbi.nlm.nih.gov/genomes/refseq/bacteria/Rhodobacter_amnigenus/latest_assembly_versions/GCF_009908265.2_ASM990826v2/GCF_009908265.2_ASM990826v2_genomic.fna.gz
+```
+
+* Ran GTDB-Tk to identify and align marker genes
+```
+gtdbtk identify --genome_dir genomes --out_dir gtdbtk_identify --extension gz --cpus 10
+gtdbtk align --identify_dir gtdbtk_identify --out_dir gtdbtk_align --cpus 20
+gtdbtk classify --genome_dir genomes --align_dir gtdbtk_align --out_dir gtdbtk_classify -x gz --cpus 20
+
+```
+
+* Run IQTree
+```
+iqtree -s ../gtdbtk_align/gtdbtk.bac120.user_msa.fasta --seqtype AA -bb 50000 -pre rhizobiales -seed 12345 -m TEST -T 12
+```
+
+### 8.2. Screening for genes related to C1 metabolism and nitrogen fixation
+* Screened the fasta files from NCBI to check if they have nitrogenase listed 
+```
+ grep "nitrogenase iron protein" ncbi_annotations/*faa > grep_nitrogenase_iron_protein.txt
+```
+
+
+* Searched all genomes using blast, used a NifH (ABZ89802.1) as a blast query
+	* Used  `analysis/09_rhizobiales_phylogeny/Snakefile_tblastn` for searching nucleotide fastas
+	```
+	 snakemake --cores 10 -n -s Snakefile_tblastn 
+	```
+	
+	* Used  `analysis/09_rhizobiales_phylogeny/Snakefile_blastp` for searching predicted protein fastas of *only ncbi genomes* 
+	* Concatenated all into one file 
+	```
+	cat  blast_nifh/tmp_*_report* > blast_nifh/blast_nifh.txt
+	```
+
+* Used `code/rhizobiales_nihf.R` to analyze the results of nitrogenase search:
+	* methods of search (grep on the ncbi annotations vs tblastn vs blastp) are almost entirely consistent. 
+	* The only inconsistency: in GCF_002879535.1 grep doesn't show NifH but tblastn&blastp do. The protein (WP_143973967.1) is labelled as nitrogenase reductase, partial in the ncbi annotations.
+	* Decided to use tblastn search results for annotating the tree
+
+* Searched for genes related to methane and methanol metabolism 
+	* Used tblastn
+	* Searched for 4 genes: PmoC (WP_016921575.1), MmoX (ABD13903.1), XxoF (VVC56072.1), MxaF (CAD91828.2)
+```
+snakemake --cores 10 -n -s Snakefile_tblastn_metahne 
+```
+	
+* Summarized all searches
+	* Used `code/rhizobiales_nihf.R`	
+	* Used tblastn results for the five genes: NifH, PmoC, MmoX, XxoF, MxaF
+	* Prepared annotation files for iTOL, saved them as:
+		* bacterial family: `analysis/09_rhizobiales_phylogeny/iqtree/itol_fam.txt`
+		* presence/absence of the genes of interest: `analysis/09_rhizobiales_phylogeny/iqtree/itol_{gene_name}.txt`
+		* source (NCBI or our data): `analysis/09_rhizobiales_phylogeny/iqtree/itol_source.txt`
+		* number of occurrences (for the MAGs only): `analysis/09_rhizobiales_phylogeny/iqtree/itol_occurrences.txt`
+* Visualized the tree using iTOL. This figure is referenced in the text as **Fig. SXXX**

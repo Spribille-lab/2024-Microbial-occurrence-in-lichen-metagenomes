@@ -18,7 +18,7 @@ conflict_prefer("filter", "dplyr")
 # 1. Make a table for presence/absence of mags
 
 #load the mag info
-mags_role<-read.delim("analysis/05_MAGs/tables/MAG_confirmed_roles_bwa.txt")
+mags_role<-read.delim("results/tables/MAG_confirmed_roles_bwa.txt")
 
 
 #add labels

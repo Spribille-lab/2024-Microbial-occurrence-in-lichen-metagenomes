@@ -1,4 +1,4 @@
-#setwd("~/Documents/gulya/coverage")
+#setwd("~/Documents/coverage")
 library(tidyverse)
 library(ape)
 library(phytools)
@@ -65,7 +65,7 @@ blast_summary<-blast_ncbi %>% select(-file) %>%
 blast_summary %>% filter(is_consistent == F)
  ####result: is consistent! no difference between tblastn and blastp results
 
-### are blast results and grep results consistent?
+### are blast results and grep results based on the ncbi annotations consistent?
 blast_summary<-blast_summary %>% mutate(grep_results = ifelse(assembly_accession %in% list_grep_nifh,1,0)) %>%
   mutate(grep_consistent = ifelse(grep_results==tblastn,T,F)) 
 
@@ -222,7 +222,7 @@ write.table(gmas_df,"analysis/09_rhizobiales_phylogeny/iqtree/itol_gmas.txt",app
 
 ### number of metagenome occurrences, for our MAGs
 
-mags_role<-read.delim("analysis/05_MAGs/tables/MAG_confirmed_roles_bwa.txt")
+mags_role<-read.delim("results/tables/MAG_confirmed_roles_bwa.txt")
 mags_role$bac_phylum <- sapply(mags_role$bat_bacteria, gtdb_get_clade, clade="p")
 
 
@@ -236,25 +236,4 @@ occurrences_df$new_label<-str_replace_all(occurrences_df$new_label," ","_")
 cat("DATASET_SIMPLEBAR\nSEPARATOR COMMA\nDATASET_LABEL,Occurrences\nCOLOR,#ff0000\nDATA\n",file="analysis/09_rhizobiales_phylogeny/iqtree/itol_occurrences.txt")
 write.table(occurrences_df,"analysis/09_rhizobiales_phylogeny/iqtree/itol_occurrences.txt",append=TRUE,sep=",",quote = F, row.names = F, col.names=F)
 
-
-### 6. Analyze the results of a search for nifh in whole metgaenomic assemblies
-nifh_meta<-read.delim("analysis/09_rhizobiales_phylogeny/blast_nifh/blast_nifh_metagenomes.txt",header=F)
-mtg_info<-mtg_info<-read.delim("analysis/03_metagenome_reanalysis/all_metagenome_reanalysis.txt")
-
-nifh_meta<-nifh_meta %>% inner_join(mtg_info,by=c("V1"="Run")) 
-
-### make a list of metagenomes with cyanobacteria
-mtg_with_cyano<-mags_role %>% filter(bac_phylum=="Cyanobacteria") %>%
-  select(metagenome,Lichen.metagenomes) %>% distinct()
-
-###add presence of cyanobacteria as a column
-nifh_meta<-nifh_meta %>% mutate(cyano_present=ifelse(V1 %in% mtg_with_cyano$metagenome,T,F))
-
-### make a list of metganomes with NifH but without a cyano MAG
-to_check<-nifh_meta %>% filter(cyano_present==F,V3==1)
-write.table(to_check,"analysis/09_rhizobiales_phylogeny/mtg_with_nifh_no_cyano.txt",sep="\t",quote = F, row.names = F)
-
-
-###how many non-lichen genomes had nifh or methane?
-nifh_presence %>% filter(grepl("GCF",Genome)) %>% group_by(results) %>% summarize(n=n())
 

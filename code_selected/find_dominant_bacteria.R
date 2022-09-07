@@ -374,33 +374,7 @@ write.table(fam_join_table,"results/bacterial_families_by_lichen_group.txt",sep=
 
 
 
-## 8. Select high-quality MAGs from the 12 top-occurrence genera
-checkm<-read.delim("analysis/05_MAGs/tables/checkm_results.tab",header=F,col.names=c("Genome","compelteness","contamination","strain_heterog","taxonomy"))
-mag_occur <-mag_occur %>% left_join(checkm)  
 
-good_mags<-mag_occur %>% filter(bac_genus2 %in% genus_occur$bac_genus2[1:12]) %>% 
-  filter(compelteness>95,contamination<10) 
-###make locus tags
-first<-str_replace_all(good_mags$bac_genus2, "[^[:alnum:]]", "") %>% substr(1,8) %>% toupper()
-second<-gsub('[a-zA-Z]+_(.*)_.*_.*', '\\1', good_mags$Genome) 
-locustag<-paste0(first,second)
-
-### added two more MAGs for annotation: the two top-occurrence Lichinhabitans MAGs 
-mags_to_annotate<-good_mags$Genome
-
-
-###added the only good VCDI01 (=Lichenicoccus) MAG
-v<-mag_occur %>% filter(bac_genus2=="VCDI01",compelteness>95,contamination<10)
-v$Genome
-
-mags_to_annotate<-c(mags_to_annotate,v$Genome)
-mags_to_annotate_files<-paste("analysis/05_MAGs/MAGs/bacs/",mags_to_annotate,".fa.gz",sep="")
-write.table(data.frame(mags_to_annotate),"analysis/07_annotate_MAGs/mag_list.txt",sep="\t",quote = F, row.names = F,col.names = F)
-
-
-## 9.  save table with info on selected mags
-mag_info<-mag_occur  %>% select(-c(occ_total,occ_rang,strain_heterog,taxonomy)) %>% filter(Genome %in% mags_to_annotate)
-write.table(mag_info,"analysis/07_annotate_MAGs/mag_table_info.txt",sep="\t",quote = F, row.names = F)
 
 
 

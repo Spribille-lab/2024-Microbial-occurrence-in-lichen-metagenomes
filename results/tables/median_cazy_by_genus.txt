@@ -1,0 +1,14 @@
+bac_genus2	CB	CE	GH	GT	PL	AA	total	bac_family	bac_order
+Acetobacteraceae gen. sp.	1	1.5	16	31.5	0	0	51.5	Acetobacteraceae	Acetobacterales
+CAHJWL01	3.5	4	72	41.5	1	0	120.5	Acidobacteriaceae	Acidobacteriales
+CAHJWO01	1.5	2.5	30.5	42.5	0	0	76.5	UBA10450	Chthoniobacterales
+CAHJXG01	0	3	21	37	0	2	62.5	Acetobacteraceae	Acetobacterales
+CAIMSN01	1	2	27	39	0	1	70	Acetobacteraceae	Acetobacterales
+EB88	4	4	59	31.5	0	0	95	Acidobacteriaceae	Acidobacteriales
+Lichenihabitans	2	2.5	26.5	35.5	1	3	70.5	Beijerinckiaceae	Rhizobiales
+LMUY01	1	2	16.5	34.5	1	2.5	57	Acetobacteraceae	Acetobacterales
+Nostoc	1	7	35	83	0	2	130	Nostocaceae	Cyanobacteriales
+RH-AL1	0	1	27	27	0	1.5	57	Beijerinckiaceae	Rhizobiales
+Sphingomonas	1	2	20	28.5	0	1	49.5	Sphingomonadaceae	Sphingomonadales
+Terriglobus	2	4	75	36	1	1	121	Acidobacteriaceae	Acidobacteriales
+VCDI01	0	2	24	37	0	0	63	Acetobacteraceae	Acetobacterales
