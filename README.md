@@ -184,9 +184,9 @@ XXX to be added after asking Paul for details
 	* saved the updated assignments as `results/tables/MAG_confirmed_roles_bwa.txt`
 
 **NB:** This table is one of the key tables used for producing figures and tables downstream. Each line represents a MAG occurrence, i.e. each instant a MAG is present in a metagenome. It provides info on: 
-	* the MAG: size, taxonomy 
-	* the metagenome: what lichen symbiosis it's made from
-	* the occurrence: breadth and depth of coverage of this MAG in this metagenome
+* the MAG: size, taxonomy 
+* the metagenome: what lichen symbiosis it's made from
+* the occurrence: breadth and depth of coverage of this MAG in this metagenome
 
 	
 ### 4.5. Identifying most frequent bacterial groups
@@ -500,10 +500,10 @@ cat  blast_nifh/tmp_*_report* > blast_nifh/blast_nifh.txt
 * Searched for genes related to methane and methanol metabolism 
 	* Used tblastn
 	* Searched for 4 genes: PmoC (WP_016921575.1), MmoX (ABD13903.1), XxoF (VVC56072.1), MxaF (CAD91828.2)
-```
-snakemake --cores 10 -n -s Snakefile_tblastn_metahne 
-cd ../../
-```
+	```
+	snakemake --cores 10 -n -s Snakefile_tblastn_metahne 
+	cd ../../
+	```
 	
 * Summarized all searches
 	* Used `code/rhizobiales_nihf.R`	
