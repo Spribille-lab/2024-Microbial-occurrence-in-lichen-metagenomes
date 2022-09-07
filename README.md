@@ -33,13 +33,13 @@ Software used:
 * Got SRA ids from Lendemer et al. 2019:
     * Downloaded SRA run info for PRJNA700635 and PRJNA731936 > `analysis/03_metagenome_reanalysis/SraRunInfo_PRJNA731936.csv analysis/03_metagenome_reanalysis/SraRunInfo_PRJNA700635.csv`
     * Downloaded [Appendix S2](https://bsapubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Fajb2.1339&file=ajb21339-sup-0002-AppendixS2.xlsx) from Lendemer et al. 2019 with the voucher metadata for their metagenomes
-    * Made finel list of SRA IDs using `code/getting_SRA_id.R`. Only kept IDs that matched between the metadata from the NCBI and from the Appendix > `analysis/03_metagenome_reanalysis/sra_ids_lendemer.txt`
+    * Made finel list of SRA IDs using `code/getting_SRA_id.R`. Only kept IDs that matched between the metadata from the NCBI and from the Appendix > `analysis/03_metagenome_reanalysis/sra_ids.txt`
 
 * Got SRA ids from other sources
     * See `analysis/03_metagenome_reanalysis/all_metagenome_reanalysis.csv`. Copied all SRA ids into `analysis/03_metagenome_reanalysis/sra_ids_other.txt`
     * Combined the two files into the final list of SRA IDs to use:
 ```
-cat analysis/03_metagenome_reanalysis/sra_ids_lendemer.txt analysis/03_metagenome_reanalysis/sra_ids_other.txt >analysis/03_metagenome_reanalysis/sra_ids_all.txt
+cat analysis/03_metagenome_reanalysis/sra_ids.txt analysis/03_metagenome_reanalysis/sra_ids_other.txt >analysis/03_metagenome_reanalysis/sra_ids_all.txt
 ```
 * Added de novo generated metagenomic data (see Table XXX)
 
