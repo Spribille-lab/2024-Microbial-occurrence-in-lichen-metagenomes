@@ -458,6 +458,7 @@ while read p; do cp ../../../"$p" . ; done < ../list_rhizobiales_mags.txt
 
 cd ../annotations
 while read p; do cp ../../../"$p" . ; done < ../list_rhizobiales_mags.txt
+```
 * Ran GTDB-Tk to identify and align marker genes
 ```
 gtdbtk identify --genome_dir genomes --out_dir gtdbtk_identify --extension gz --cpus 10
