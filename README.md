@@ -92,7 +92,7 @@ Software used:
 * CheckM v1.1.3 (Parks et al. 2015)
 * dRep v3 (Olm et al. 2017)
 
-* Adapter trimming
+### 2.1. Adapter trimming
 ```
 fastp -w 4 \
              --detect_adapter_for_pe \
@@ -103,7 +103,7 @@ fastp -w 4 \
              --out1 "{output.fq1}" \
              --out2 "{output.fq2}"
 ```
-* Quality trimming
+### 2.2. Quality trimming
 ```
 metawrap read_qc \
           -1 $R1 \
@@ -115,7 +115,7 @@ metawrap read_qc \
           -x hg38 \
           -o .
 ```
-* Assembly
+### 2.3. Assembly
 ```
 spades.py -1 {input.fq1} \
                -2 {input.fq2} \
@@ -123,7 +123,7 @@ spades.py -1 {input.fq1} \
                -t 8 -m 300
 ```
 
-* Binning
+### 2.4.  Binning
 ```
 metawrap binning \
              -o {params.out} \
@@ -133,7 +133,7 @@ metawrap binning \
              -a {input.scaffolds} \
              --concoct --metabat2  {output.fq1} {output.fq2}
 ```
-* Dereplication
+### 2.5. Dereplication
 
 ```
 TO BE ADDED
