@@ -92,8 +92,51 @@ Software used:
 * CheckM v1.1.3 (Parks et al. 2015)
 * dRep v3 (Olm et al. 2017)
 
+### 2.1. Adapter trimming
 ```
-XXX to be added after asking Paul for details
+fastp -w 4 \
+             --detect_adapter_for_pe \
+             --in1 {input.fq1} \
+             --in2 {input.fq2} \
+             --html "{output.html}" \
+             --json "{output.json}" \
+             --out1 "{output.fq1}" \
+             --out2 "{output.fq2}"
+```
+### 2.2. Quality trimming
+```
+metawrap read_qc \
+          -1 $R1 \
+          -2 $R2 \
+          --skip-trimming \
+          --skip-pre-qc-report \
+          --skip-post-qc-report \
+          -t 6 \
+          -x hg38 \
+          -o .
+```
+### 2.3. Assembly
+```
+spades.py -1 {input.fq1} \
+               -2 {input.fq2} \
+               --meta -o {params.out} \
+               -t 8 -m 300
+```
+
+### 2.4.  Binning
+```
+metawrap binning \
+             -o {params.out} \
+             -t 8 \
+             -l 2000 \
+             -m  20000 \
+             -a {input.scaffolds} \
+             --concoct --metabat2  {output.fq1} {output.fq2}
+```
+### 2.5. Dereplication
+
+```
+TO BE ADDED
 ```
 
 ## 3. Taxonomic assignments of MAGs
@@ -105,7 +148,7 @@ Software used:
 
 ### 3.1. Prokaryotic MAGs
 ```
-XXX to be added after asking Paul for details
+TO BE ADDED:
 GTDB-Tk
 IQTREE
 ```
@@ -114,13 +157,14 @@ IQTREE
 ### 3.2. Eukaryotic MAGs
 * Preliminary taxonomic assignments based on the database search
 ```
-XXX BAT analysis: to be added after asking Paul for details
+TO BE ADDED:
+BAT analysis
 ```
 * To refine taxonomic assignments, computed two phylogenomic trees: one for fungi, one for algae. 
 	* The list of reference genomes is in `results/tables/reference_genomes_full_table.csv`
 	* This table is compiled manually, in the text it's referred as **Table SXXX**
 ```
-XXX euk phylogenomic: to be added after asking David for details
+TO BE ADDED: (will ask David for details)
 ```
 
 * Produced figure Fig. XXX: eukaryiotic phylogenomic trees
@@ -140,7 +184,8 @@ Software used:
 
 ### 4.1. Aligned all metagenomic datasets to all MAGs
 ```
-XXX to be added after asking Paul for details
+TO BE ADDED:
+BWA
 
 ```
 ### 4.2.-4.3 Assigned MAGs putative roles and removed potentially misidentified samples
