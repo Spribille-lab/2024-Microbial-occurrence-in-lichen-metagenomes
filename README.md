@@ -147,6 +147,7 @@ XXX to be added after asking Paul for details
 * Combined taxonomy for prokaryotic MAGs (i.e. outputs of GTDB-Tk) and eukaryotic MAGs (i.e. outputs of BAT) in one table
 	* Used `code/combine_mag_taxonomy_annotation.R`
 	* Saved the table as `analysis/05_MAGs/tables/MAG_taxonomy_combined.tsv`
+	* Saved a table with quality scores and taxonomic assignments as `analysis/05_MAGs/tables/MAG_suppl_table.tsv`. This table is referenced in the text as  **Table SXXX**
 * Assigned putative roles in the symbiosis based on the BAT taxonomy and coverage
 	* Used `code/assign_putative_mag_roles.R`
 	* As input used the metagenome metadata `results/all_metagenome_reanalysis.txt` and BWA alignments `analysis/05_MAGs/tables/read_mapping/`

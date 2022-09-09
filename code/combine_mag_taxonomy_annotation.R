@@ -37,7 +37,18 @@ mag_taxonomy<-left_join(mag_taxonomy,bat_bacteria)
 write.table(mag_taxonomy,"analysis/05_MAGs/tables/MAG_taxonomy_combined.tsv",sep="\t",quote = F, row.names = F)
 
 
+#prepare table to use as supplementary
+checkm<-read.delim("analysis/05_MAGs/tables/checkm_results.tab",header=F,col.names=c("Genome","completeness","contamination","strain_heterog","taxonomy"))
+mags_full_table$Genome<-str_replace(mags_full_table$fasta,".fa","")
+bac<-checkm %>% inner_join(bat_bacteria,by=c("Genome"="mag")) %>% 
+  left_join(mags_full_table) %>% mutate(classification=bat_bacteria) %>%
+  select(Genome,completeness,contamination,size,classification) 
 
+eukcc<-read.csv("analysis/05_MAGs/tables/eukcc_busco_table.csv",header=T)
+euk<-eukcc %>% left_join(size) %>% mutate(classification=BUSCO_lineage) %>%
+  select(Genome,completeness,contamination,size,classification)
+
+write.table(rbind(bac,euk),"analysis/05_MAGs/tables/MAG_suppl_table.tsv",sep="\t",quote = F, row.names = F)
 
 
 
