@@ -136,7 +136,12 @@ metawrap binning \
 ### 2.5. Dereplication
 
 ```
-TO BE ADDED
+dRep dereplicate -p 2 \
+      . -g genomes.txt \
+      -pa 0.80 -sa 0.95 -nc 0.40 \
+      -cm larger \
+      --genomeInfo quality.csv\
+      -comp 49 -con 21
 ```
 
 ## 3. Taxonomic assignments of MAGs
