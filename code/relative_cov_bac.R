@@ -1,6 +1,5 @@
 #script for calculating and plotting relative coverage of bacterial lineages
 
-
 #1. misc
 ##setwd("~/Documents/coverage")
 source("code/utils.R")
@@ -48,8 +47,8 @@ squish_trans <- function(from, to, factor) {
 
     
 # 2. Read data    
-mags_role<-read.delim("results/tables/MAG_confirmed_roles_bwa.txt")
-mtg_info<-read.delim("results/tables/all_metagenome_reanalysis.txt")
+mags_role<-read.delim("analysis/05_MAGs/tables/MAG_confirmed_roles_bwa.txt")
+mtg_info<-read.delim("analysis/03_metagenome_reanalysis/all_metagenome_reanalysis.txt")
 
 ##add labels
 mags_role$bac_family <- sapply(mags_role$bat_bacteria, gtdb_get_clade, clade="f")
@@ -158,14 +157,14 @@ ggplot(mags_role_filtered %>% filter(label_genus %in% annotated_mags$bac_genus |
   facet_grid(.~label_genus_level,space="free",scales="free")+
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1,size=18),
         strip.text.x = element_blank(),legend.title = element_blank())+
-  xlab("")+ylab("Depth of coverage relative to \n the main fungal symbiont MAG")
+  xlab("")+ylab("Depth of coverage relative to \n the Lichen Fungal Symbiont MAG")
 
-ggsave("results/figures/relative_cov_boxplot_genus.pdf",bg="white",width=18,height=9)
+ggsave("results/figures/relative_cov_boxplot_genus.svg",bg="white",width=18,height=9)
 
 #5. Make table for export
 rel_cov_df<-mags_role_filtered %>% group_by(label_genus) %>% filter(label_genus!="Mycobiont") %>%
   summarize(median_relative_cov=median(relative_cov)) %>% left_join(mag_taxonomy,by=c("label_genus"="bac_genus2"))
-write.table(rel_cov_df,"results/tables/median_relative_coverage_by_genus.tsv",sep="\t",quote = F, row.names = F)
+write.table(rel_cov_df,"analysis/05_MAGs/tables/median_relative_coverage_by_genus.tsv",sep="\t",quote = F, row.names = F)
 
 
 ##6. coverage relative to summed bacterial coverage
@@ -192,8 +191,8 @@ mags_role_filtered %>% filter(bac_family %in% c("Acetobacteraceae",
                                                 "Acidobacteriaceae",
                                                 "Beijerinckiaceae",
                                                 "Sphingomonadaceae")) %>%
-  summarize(median_cov=median(relative_cov)) 
-  
+ # group_by(bac_family) %>% 
+  summarize(median_cov=max(relative_cov)) 
 ##relative to photobiont
 ####remove metagenomes without a photobiont mag
 mags_role_filtered_photo<-mags_role_filtered %>%
@@ -209,8 +208,9 @@ mags_role_filtered_photo<-mags_role_filtered_photo %>% group_by(metagenome) %>%
 mags_role_filtered_photo %>% filter(bac_family %in% c("Acetobacteraceae",
                                                 "Acidobacteriaceae",
                                                 "Beijerinckiaceae",
-                                                "Sphingomonadaceae"))
-  summarize(median_cov=median(relative_cov_photo)) 
+                                                "Sphingomonadaceae")) %>%
+   #group_by(bac_family) %>% 
+  summarize(median_cov=max(relative_cov_photo)) 
 
 
 

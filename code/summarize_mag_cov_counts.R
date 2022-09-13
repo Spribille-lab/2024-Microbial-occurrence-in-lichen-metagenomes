@@ -2,8 +2,8 @@
 
 
 ## 1. Get the table (produced by code/assigne_putative_mag_roles.R)
-data_edited<-read.delim("results/tables/MAG_confirmed_roles_bwa.txt")
-mtg<-read.delim("results/tables/all_metagenome_reanalysis.txt") 
+data_edited<-read.delim("analysis/05_MAGs/tables/MAG_confirmed_roles_bwa.txt")
+mtg<-read.delim("analysis/03_metagenome_reanalysis/all_metagenome_reanalysis.txt") 
 
 
 ## 2. Analyze total coverage by cetagory
@@ -47,14 +47,14 @@ mag_number[is.na(mag_number)] <- 0
 ##add extra info
 mag_number <- mag_number %>% left_join(mtg,by=c("metagenome"="Run")) %>% left_join(depth,by=c("metagenome"="Run")) 
 
-write.table(mag_number,"results/tables/MAG_counts_summary.tsv",sep="\t",quote = F, row.names = F)
+write.table(mag_number,"analysis/05_MAGs/tables/MAG_counts_summary.tsv",sep="\t",quote = F, row.names = F)
 
 ### Visualize MAG numbers
 
 ggplot(mag_number,aes(x=depth,y=total))+geom_point(aes(color=architecture),alpha=0.5) + 
   theme_minimal()+ theme(aspect.ratio=1)+ geom_smooth(method='gam', formula= y~s(x,bs = "cs"))+
   ylab("Number of MAGs")+xlab("Sequencing depth")+
-  scale_x_continuous(breaks=c(0,10000000000,20000000000,30000000000),labels=c("0","10 Gbp","20 Gbp","30 Gbp"))+
+  scale_x_continuous(breaks=c(0,10000000000,20000000000,30000000000),labels=c("0","10 Gbp","20 Gbp","30 Gbp"))
 ggsave("results/figures/mags_vs_depth.png",bg="white")
 
 ggplot(mag_number)+geom_point(aes(x=depth,y=total,color=architecture),alpha=0.5) + 

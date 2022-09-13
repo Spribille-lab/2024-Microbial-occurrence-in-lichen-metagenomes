@@ -12,7 +12,7 @@ theme_set(theme_minimal(base_size = 23))
 
 
 # define colors for plotting
-node_colors = c("Main fungal symbiont" = "#FFC61E",
+node_colors = c("Lichen Fungal Symbiont" = "#FFC61E",
   "Green Algal Photobiont" = "#00CD6C", 
                 "Cyanobacteria"="#09b1db",
                 "Cyphobasidium"="#c90076",
@@ -20,14 +20,14 @@ node_colors = c("Main fungal symbiont" = "#FFC61E",
 )
 
 #load data
-
+# here we load all data
 # Manually curated table with functional assignments of the genomes (mycobiont/photobiont/etc) (produced by code/assigne_putative_mag_roles.R)
-mags_role<-read.delim("results/tables/MAG_confirmed_roles_bwa.txt")
+mags_role<-read.delim("analysis/05_MAGs/tables/MAG_confirmed_roles_bwa.txt")
 mags_role$label<-mags_role$confirmed_role
 mags_role$label[mags_role$label=="photobiont_chloro"]<-"Green Algal Photobiont"
 mags_role$label[mags_role$label=="photobiont_cyano"]<-"Cyanobacteria"
 mags_role$label[mags_role$label=="cephalodia_cyano"]<-"Cyanobacteria"
-mags_role$label[mags_role$label=="mycobiont"]<-"Main fungal symbiont"
+mags_role$label[mags_role$label=="mycobiont"]<-"Lichen Fungal Symbiont"
 mags_role$label[mags_role$label=="cypho"]<-"Cyphobasidium"
 mags_role$label[mags_role$label=="tremella"]<-"Tremella"
 
@@ -36,10 +36,10 @@ mags_role$label[mags_role$label=="tremella"]<-"Tremella"
 #remove metagenomes where mycobiont mag wasn't recovered
 mags_role_filtered<-mags_role %>% filter(!(label %in% c("fungi_other","algae_other","bacteria_other"))) %>%
   filter(!(metagenome %in% mags_role$metagenome[mags_role$label=="mycobiont_missassigned"])) %>%
-  filter(metagenome %in% mags_role$metagenome[mags_role$label=="Main fungal symbiont"])
+  filter(metagenome %in% mags_role$metagenome[mags_role$label=="Lichen Fungal Symbiont"])
 
 # clades to plot
-clades_to_plot = c("Green Algal Photobiont", "Main fungal symbiont","Cyphobasidium","Tremella", "Cyanobacteria")
+clades_to_plot = c("Green Algal Photobiont", "Lichen Fungal Symbiont","Cyphobasidium","Tremella", "Cyanobacteria")
 
 
 
@@ -67,7 +67,7 @@ species_labels = tibble(Genome = unique(c(edges$from, edges$to))) %>%
 # and nodes
 vertices = tibble(name = unique(c(edges$from, edges$to))) %>% 
   left_join(species_labels, by = c("name" = "Genome")) %>%
-  rename(group = label) %>%
+  dplyr::rename(group = label) %>%
   mutate(color = node_colors[match(group, names(node_colors))])
 
 
@@ -91,7 +91,7 @@ l = qgraph.layout.fruchtermanreingold(e,vcount=vcount(g),
                                       area=30*(vcount(g)^2),repulse.rad=(vcount(g)^3.6))
 
 
-pdf("results/figures/coocc_graph_euk.pdf")
+svg("results/figures/coocc_graph_euk.svg")
 plot<-plot(g,layout=l,vertex.size=4,vertex.label=NA, weight=E(g)$weight)
 op <- par(cex = 1.5)
 legend(-1.6,1.5,, legend=names(node_colors),box.lty=0,bg=NA,

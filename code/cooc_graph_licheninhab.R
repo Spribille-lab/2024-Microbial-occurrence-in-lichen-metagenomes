@@ -14,15 +14,18 @@ theme_set(theme_minimal(base_size = 23))
 
 
 # define colors for plotting
-node_colors = c("Main fungal symbiont" = "#FFC61E",
+node_colors = c("Lichen Fungal Symbiont" = "#FFC61E",
                 "Lichenihabitans" = "#783f04"
 )
 
 #load data
+# adjust this, the rest should be wortking then
+basepath = "~/Documents/coverage/analysis/05_MAGs/"
+# here we load all data
 # Manually curated table with functional assignments of the genomes (mycobiont/photobiont/etc) (produced by code/assigne_putative_mag_roles.R)
-mags_role<-read.delim("results/tables/MAG_confirmed_roles_bwa.txt")
+mags_role<-read.delim(paste0(basepath,"tables/MAG_confirmed_roles_bwa.txt"))
 mags_role$label<-as.character(mags_role$confirmed_role)
-mags_role$label[mags_role$label=="mycobiont"]<-"Main fungal symbiont"
+mags_role$label[mags_role$label=="mycobiont"]<-"Lichen Fungal Symbiont"
 
 #add label for licheninhabintans
 mags_role$bac_genus = as.character(sapply(mags_role$bat_bacteria, gtdb_get_clade, clade="g"))
@@ -34,10 +37,10 @@ mags_role$label[mags_role$bac_genus=="Lichenihabitans"]<-"Lichenihabitans"
 #remove metagenomes where mycobiont mag wasn't recovered
 mags_role_filtered<-mags_role %>% filter(!(label %in% c("fungi_other","algae_other","bacteria_other"))) %>%
   filter(!(metagenome %in% mags_role$metagenome[mags_role$label=="mycobiont_missassigned"])) %>%
-  filter(metagenome %in% mags_role$metagenome[mags_role$label=="Main fungal symbiont"])
+  filter(metagenome %in% mags_role$metagenome[mags_role$label=="Lichen Fungal Symbiont"])
 
 # clades to plot
-clades_to_plot = c("Lichenihabitans", "Main fungal symbiont")
+clades_to_plot = c("Lichenihabitans", "Lichen Fungal Symbiont")
 
 
 
@@ -65,7 +68,7 @@ species_labels = tibble(Genome = unique(c(edges$from, edges$to))) %>%
 # and nodes
 vertices = tibble(name = unique(c(edges$from, edges$to))) %>% 
   left_join(species_labels, by = c("name" = "Genome")) %>%
-  rename(group = label) %>%
+  dplyr::rename(group = label) %>%
   mutate(color = node_colors[match(group, names(node_colors))])
 
 
@@ -88,7 +91,7 @@ e <- get.edgelist(g, names=F)
 l = qgraph.layout.fruchtermanreingold(e,vcount=vcount(g),
                                       area=30*(vcount(g)^2),repulse.rad=(vcount(g)^3.6))
 
-pdf("results/figures/coocc_graph_lichenihab.pdf")
+svg("results/figures/coocc_graph_lichenihab.svg")
 plot<-plot(g,layout=l,vertex.size=4,vertex.label=NA, weight=E(g)$weight)
 op <- par(cex = 1.5)
 legend(-1.6,1.5,, legend=names(node_colors),box.lty=0,bg=NA,

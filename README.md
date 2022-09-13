@@ -221,13 +221,23 @@ BWA
 		* SRR14722208: Ricasolia, groups with Parmeliaceae
 		* SRR14722229: Lecidea, groups with Lecanora
 		* SRR14722034: Lepraria,  grouped with Parmeliaceae
-		* SRR14722085: Psedosagedia, grouped with theloschistales
-		* SRR14722185: Mycobilimbia, groups with byssoloma
-		* SRR14722222: Arthonia, groupswith eurotios
+		* SRR14722085: Psedosagedia, grouped with Theloschistales
+		* SRR14722185: Mycobilimbia, groups with Byssoloma
+		* SRR14722222: Arthonia, groupswith Eurotiomycetes
 		* SRR14722160: Herteliana, groups with Lepraria
-	* used `code/make_list_excluded_mtg.R` to save this list as a table in `results/tables/excluded_metagenomes.txt`
+		* SRR14722060: Nigrovothelium, groups with Pyrenula and other Eurotiomycetes
+		* SRR14722318: Kephartia, groups with Lecanorales
+		* SRR14722042: Scoliciosporum, groups with Baeomycetales
+		* SRR14722065: Polysporina simplex, groups with Lecideales
+	* saved this list as a table in `results/tables/excluded_metagenomes.txt`
+		* used `code/make_list_excluded_mtg.R` 
 		* This table is referred to in the text as **Table SXXX**
 	* saved the updated assignments as `results/tables/MAG_confirmed_roles_bwa.txt`
+	* re-labeled the fungal tree so the tip labels contain information on the role of the each MAG in the lichens, plus which metagenomes it was found in
+		* used `code/rename_euk_tree_corrections.R` to make a tree with tip lables reflecting the final assignments
+		* saved the tree as `analysis/05_MAGs/trees/david_trees_euk/Fungi/phylogeny/Concatenated_IQTREE/concat_confirmed_renamed.contree`
+		* saved the itol dataset for the lichen order as `analysis/05_MAGs/trees/david_trees_euk/Fungi/phylogeny/Concatenated_IQTREE/concat_confirmed_renamed_itol.txt`
+
 
 **NB:** This table is one of the key tables used for producing figures and tables downstream. Each line represents a MAG occurrence, i.e. each instant a MAG is present in a metagenome. It provides info on: 
 * the MAG: size, taxonomy 

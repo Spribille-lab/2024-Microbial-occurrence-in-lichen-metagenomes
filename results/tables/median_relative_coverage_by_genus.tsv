@@ -10,7 +10,7 @@ Aestuariivirga	0.566167424035212	Aestuariivirga	Rhizobiales	Proteobacteria
 Allosphingosinicella	0.380362729346881	Allosphingosinicella	Sphingomonadales	Proteobacteria
 Amnibacterium	0.133334059650849	Amnibacterium	Actinomycetales	Actinobacteriota
 Armatimonadaceae gen. sp.	0.0297471817930338	Unknown	Armatimonadales	Armatimonadota
-Aureimonas_A	0.166667042614922	Aureimonas_A	Rhizobiales	Proteobacteria
+Aureimonas_A	0.286492922197796	Aureimonas_A	Rhizobiales	Proteobacteria
 Baltobacteraceae gen. sp.	0.320316924405046	Unknown	Baltobacterales	Eremiobacterota
 Beijerinckiaceae gen. sp.	0.262221671206326	Unknown	Rhizobiales	Proteobacteria
 Bog-113	0.194827387434187	Bog-113	Bryobacterales	Acidobacteriota
@@ -27,7 +27,7 @@ CAHJWL01	0.0806927415714577	CAHJWL01	Acidobacteriales	Acidobacteriota
 CAHJWO01	0.10428645852573	CAHJWO01	Chthoniobacterales	Verrucomicrobiota
 CAHJWT01	0.141015080524841	CAHJWT01	Sphingomonadales	Proteobacteria
 CAHJXF01	0.126710835074741	CAHJXF01	Burkholderiales	Proteobacteria
-CAHJXG01	0.0908068992281001	CAHJXG01	Acetobacterales	Proteobacteria
+CAHJXG01	0.0843464446066853	CAHJXG01	Acetobacterales	Proteobacteria
 CAIMSN01	0.048982786839888	CAIMSN01	Acetobacterales	Proteobacteria
 CAIOYC01	0.20188524968481	CAIOYC01	Caulobacterales	Proteobacteria
 CAIQPK01	0.85969668836201	CAIQPK01	Acidobacteriales	Acidobacteriota
@@ -62,8 +62,8 @@ Friedmanniella	0.0492837529616914	Friedmanniella	Propionibacteriales	Actinobacte
 GCA-002050365	0.151606595301279	GCA-002050365	Pyrinomonadales	Acidobacteriota
 GCA-003244245	0.366339121639728	GCA-003244245	Mycobacteriales	Actinobacteriota
 Granulicella_B	0.28384014954194	Granulicella_B	Acidobacteriales	Acidobacteriota
-Granulicella_C	0.136708913552805	Granulicella_C	Acidobacteriales	Acidobacteriota
-Green Algal Photobiont	0.0456276394401356	NA	NA	NA
+Granulicella_C	0.113656542067773	Granulicella_C	Acidobacteriales	Acidobacteriota
+Green Algal Photobiont	0.0454192408331354	NA	NA	NA
 Hassallia	0.130586595951992	Hassallia	Cyanobacteriales	Cyanobacteria
 HMF7410	0.223654023591571	HMF7410	Sphingobacteriales	Bacteroidota
 Hydrocarboniphaga	0.092909060013736	Hydrocarboniphaga	Nevskiales	Proteobacteria
@@ -88,7 +88,7 @@ Jatrophihabitans	0.310586168859042	Jatrophihabitans	Mycobacteriales	Actinobacter
 Jatrophihabitantaceae gen. sp.	0.197231456476256	Unknown	Mycobacteriales	Actinobacteriota
 KBS-83	0.15073587142277	KBS-83	Acidobacteriales	Acidobacteriota
 KBS-96	0.281072935010653	KBS-96	Bryobacterales	Acidobacteriota
-Kineosporia	0.523572553719907	Kineosporia	Actinomycetales	Actinobacteriota
+Kineosporia	0.431709786791988	Kineosporia	Actinomycetales	Actinobacteriota
 Ktedonobacteraceae gen. sp.	0.312019690968017	Unknown	Ktedonobacterales	Chloroflexota
 LB1R16	0.0758885596135625	LB1R16	Sphingomonadales	Proteobacteria
 Leptolyngbya	0.0480818861730304	Leptolyngbya	Leptolyngbyales	Cyanobacteria
@@ -151,8 +151,8 @@ Spirosoma	0.15528311742363	Spirosoma	Cytophagales	Bacteroidota
 Spirosomaceae gen. sp.	0.140884434962461	Unknown	Cytophagales	Bacteroidota
 Steroidobacteraceae gen. sp.	1.76325515752752	Unknown	Steroidobacterales	Proteobacteria
 Tardiphaga	0.165370203328371	Tardiphaga	Rhizobiales	Proteobacteria
-Terriglobus	0.104162527228029	Terriglobus	Acidobacteriales	Acidobacteriota
-Tous-C9LFEB	0.0768174008629527	Tous-C9LFEB	Acidobacteriales	Acidobacteriota
+Terriglobus	0.101901839488884	Terriglobus	Acidobacteriales	Acidobacteriota
+Tous-C9LFEB	0.0787700492601527	Tous-C9LFEB	Acidobacteriales	Acidobacteriota
 Trebonia	0.0448191438989475	Trebonia	Streptosporangiales	Actinobacteriota
 Tremella	0.0200161893236444	NA	NA	NA
 Truepera	0.0716385109536598	Truepera	Deinococcales	Deinococcota
