@@ -153,17 +153,30 @@ Software used:
 
 ### 3.1. Prokaryotic MAGs
 ```
-TO BE ADDED:
-GTDB-Tk
-IQTREE
+gtdbtk classify_wf \
+  --cpus 8 \
+  --pplacer_cpus 2 \
+  --genome_dir MAGs \
+  --out_dir gtdb_out \
+  -x fa
+
+iqtree -nt 16 \
+  -s gtdb_out/gtdbtk.bac120.user_msa.fasta
 ```
 * The tree is available as Supplementary data: XXX
 
 ### 3.2. Eukaryotic MAGs
 * Preliminary taxonomic assignments based on the database search
 ```
-TO BE ADDED:
-BAT analysis
+CAT bins \
+  -b  binfolder \
+  -d 2021-01-07_CAT_database \
+  -t 2021-01-07_taxonomy \
+  -o euks \
+  --no_stars \
+  --force \
+  -n 32 \
+  -s .fa
 ```
 * To refine taxonomic assignments, computed two phylogenomic trees: one for fungi, one for algae. 
 	* The list of reference genomes is in `results/tables/reference_genomes_full_table.csv`
