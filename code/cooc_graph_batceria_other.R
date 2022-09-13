@@ -6,6 +6,7 @@ suppressPackageStartupMessages(require(tidyverse))
 library(igraph)
 library(qgraph)
 library(plotly)
+library(svglite)
 source("code/utils.R")
 
 # default plotting settings
@@ -103,7 +104,7 @@ e <- get.edgelist(g, names=F)
 l = qgraph.layout.fruchtermanreingold(e,vcount=vcount(g),
                                       area=30*(vcount(g)^2),repulse.rad=(vcount(g)^3.6))
 
-svg("results/figures/coocc_graph_aceto.svg")
+svglite("results/figures/coocc_graph_aceto.svg")
 plot<-plot(g,layout=l,vertex.size=4,vertex.label=NA, weight=E(g)$weight)
 op <- par(cex = 1.5)
 legend(-1.6,1.5,, legend=names(node_colors),box.lty=0,bg=NA,
@@ -169,7 +170,7 @@ e <- get.edgelist(g, names=F)
 l = qgraph.layout.fruchtermanreingold(e,vcount=vcount(g),
                                       area=30*(vcount(g)^2),repulse.rad=(vcount(g)^3.6))
 
-svg("results/figures/coocc_graph_acido.svg")
+svglite("results/figures/coocc_graph_acido.svg")
 plot<-plot(g,layout=l,vertex.size=4,vertex.label=NA, weight=E(g)$weight)
 op <- par(cex = 1.5)
 legend(-1.6,1.5,, legend=names(node_colors),box.lty=0,bg=NA,

@@ -5,7 +5,7 @@
 suppressPackageStartupMessages(require(tidyverse))
 library(igraph)
 library(qgraph)
-
+library(svglite)
 # default plotting settings
 options(repr.plot.width=10, repr.plot.height=5)
 theme_set(theme_minimal(base_size = 23))
@@ -91,7 +91,7 @@ l = qgraph.layout.fruchtermanreingold(e,vcount=vcount(g),
                                       area=30*(vcount(g)^2),repulse.rad=(vcount(g)^3.6))
 
 
-svg("results/figures/coocc_graph_euk.svg")
+svglite("results/figures/coocc_graph_euk.svg")
 plot<-plot(g,layout=l,vertex.size=4,vertex.label=NA, weight=E(g)$weight)
 op <- par(cex = 1.5)
 legend(-1.6,1.5,, legend=names(node_colors),box.lty=0,bg=NA,
