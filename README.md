@@ -201,11 +201,9 @@ Software used:
 * R libraries: tidyverse, ape, phytools, stringr, taxize, myTAI, igraph, qgraph, plotly, DECIPHER, R.utils, treeio, seriation, ComplexHeatmap, DECIPHER, circlize, conflicted
 
 ### 4.1. Aligned all metagenomic datasets to all MAGs
-```
-TO BE ADDED:
-BWA
 
-```
+Procedure outlined here: https://github.com/alexmsalmeida/metamap
+
 ### 4.2.-4.3 Assigned MAGs putative roles and removed potentially misidentified samples
 * Combined taxonomy for prokaryotic MAGs (i.e. outputs of GTDB-Tk) and eukaryotic MAGs (i.e. outputs of BAT) in one table
 	* Used `code/combine_mag_taxonomy_annotation.R`
