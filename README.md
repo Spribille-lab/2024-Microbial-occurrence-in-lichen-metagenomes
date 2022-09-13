@@ -136,7 +136,12 @@ metawrap binning \
 ### 2.5. Dereplication
 
 ```
-TO BE ADDED
+dRep dereplicate -p 2 \
+      . -g genomes.txt \
+      -pa 0.80 -sa 0.95 -nc 0.40 \
+      -cm larger \
+      --genomeInfo quality.csv\
+      -comp 49 -con 21
 ```
 
 ## 3. Taxonomic assignments of MAGs
@@ -148,17 +153,30 @@ Software used:
 
 ### 3.1. Prokaryotic MAGs
 ```
-TO BE ADDED:
-GTDB-Tk
-IQTREE
+gtdbtk classify_wf \
+  --cpus 8 \
+  --pplacer_cpus 2 \
+  --genome_dir MAGs \
+  --out_dir gtdb_out \
+  -x fa
+
+iqtree -nt 16 \
+  -s gtdb_out/gtdbtk.bac120.user_msa.fasta
 ```
 * The tree is available as Supplementary data: XXX
 
 ### 3.2. Eukaryotic MAGs
 * Preliminary taxonomic assignments based on the database search
 ```
-TO BE ADDED:
-BAT analysis
+CAT bins \
+  -b  binfolder \
+  -d 2021-01-07_CAT_database \
+  -t 2021-01-07_taxonomy \
+  -o euks \
+  --no_stars \
+  --force \
+  -n 32 \
+  -s .fa
 ```
 * To refine taxonomic assignments, computed two phylogenomic trees: one for fungi, one for algae. 
 	* The list of reference genomes is in `results/tables/reference_genomes_full_table.csv`
@@ -183,11 +201,9 @@ Software used:
 * R libraries: tidyverse, ape, phytools, stringr, taxize, myTAI, igraph, qgraph, plotly, DECIPHER, R.utils, treeio, seriation, ComplexHeatmap, DECIPHER, circlize, conflicted
 
 ### 4.1. Aligned all metagenomic datasets to all MAGs
-```
-TO BE ADDED:
-BWA
 
-```
+Procedure outlined here: https://github.com/alexmsalmeida/metamap
+
 ### 4.2.-4.3 Assigned MAGs putative roles and removed potentially misidentified samples
 * Combined taxonomy for prokaryotic MAGs (i.e. outputs of GTDB-Tk) and eukaryotic MAGs (i.e. outputs of BAT) in one table
 	* Used `code/combine_mag_taxonomy_annotation.R`
