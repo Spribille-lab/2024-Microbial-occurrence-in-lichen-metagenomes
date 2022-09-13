@@ -2,7 +2,7 @@ Lichen metagenomes	Source	Produced	Run	Batch	architecture	family	order	class	pho
 Acarospora_spec	Resl et al. 2021	"Spribille Lab, University of Alberta"	T1882	second	crust		Acarosporales	Lecanoromycetes	trebouxioid
 Hypocenomyce_scalaris	Resl et al. 2021	"Spribille Lab, University of Alberta"	T1881	second	crust		Umbilicariales	Lecanoromycetes	trebouxioid
 Bachmanniomyces_S44760	Resl et al. 2021	"Spribille Lab, University of Alberta"	T1894	second	crust		Ostropomycetidae ins. ced.	Lecanoromycetes	?
-Lignoscripta_atroalba	Resl et al. 2021	"Spribille Lab, University of Alberta"	T1887	second	crust		Baeomycetales	Lecanoromycetes	trebouxioid
+Lignoscripta_atroalba	Resl et al. 2021	"Spribille Lab, University of Alberta"	T1887	second	crust		Schaereriales	Lecanoromycetes	trebouxioid
 Loxospora_cismonica	Resl et al. 2021	"Spribille Lab, University of Alberta"	X13	second	crust		Sarrameanales	Lecanoromycetes	trebouxioid
 Mycoblastus_sanguinarius	Resl et al. 2021	"Spribille Lab, University of Alberta"	T1914	second	crust	Tephromelataceae	Lecanorales	Lecanoromycetes	trebouxioid
 Ptychographa_xylographoides	Resl et al. 2021	"Spribille Lab, University of Alberta"	T1868	second	crust		Baeomycetales	Lecanoromycetes	trebouxioid

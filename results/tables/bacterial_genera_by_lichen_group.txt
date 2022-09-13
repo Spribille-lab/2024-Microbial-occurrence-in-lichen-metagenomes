@@ -10,11 +10,11 @@ Whole dataset	CAHJWO01	UBA10450	Chthoniobacterales	Verrucomicrobiota	54
 Whole dataset	Terriglobus	Acidobacteriaceae	Acidobacteriales	Acidobacteriota	45
 Whole dataset	Nostoc	Nostocaceae	Cyanobacteriales	Cyanobacteria	43
 Acarosporales	Bryobacteraceae gen. sp.	Bryobacteraceae	Bryobacterales	Acidobacteriota	4
-Acarosporales	CAHJXG01	Acetobacteraceae	Acetobacterales	Proteobacteria	3
-Acarosporales	Tous-C9LFEB	Acidobacteriaceae	Acidobacteriales	Acidobacteriota	3
+Acarosporales	CAHJXG01	Acetobacteraceae	Acetobacterales	Proteobacteria	2
 Acarosporales	DTNP01	Ktedonobacteraceae	Ktedonobacterales	Chloroflexota	2
 Acarosporales	Ktedonobacteraceae gen. sp.	Ktedonobacteraceae	Ktedonobacterales	Chloroflexota	2
 Acarosporales	Lichenihabitans	Beijerinckiaceae	Rhizobiales	Proteobacteria	2
+Acarosporales	Tous-C9LFEB	Acidobacteriaceae	Acidobacteriales	Acidobacteriota	2
 Acarosporales	CAIVAU01	Nostocaceae	Cyanobacteriales	Cyanobacteria	1
 Acarosporales	Capsulimonadaceae gen. sp.	Capsulimonadaceae	Armatimonadales	Armatimonadota	1
 Acarosporales	Chroococcidiopsidaceae gen. sp.	Chroococcidiopsidaceae	Cyanobacteriales	Cyanobacteria	1
@@ -27,16 +27,16 @@ Arthoniomycetes	Allosphingosinicella	Sphingomonadaceae	Sphingomonadales	Proteoba
 Arthoniomycetes	Amnibacterium	Microbacteriaceae	Actinomycetales	Actinobacteriota	1
 Arthoniomycetes	CAHJWL01	Acidobacteriaceae	Acidobacteriales	Acidobacteriota	1
 Arthoniomycetes	EB88	Acidobacteriaceae	Acidobacteriales	Acidobacteriota	1
-Baeomycetales	CAHJXG01	Acetobacteraceae	Acetobacterales	Proteobacteria	13
+Baeomycetales	CAHJXG01	Acetobacteraceae	Acetobacterales	Proteobacteria	11
 Baeomycetales	LMUY01	Acetobacteraceae	Acetobacterales	Proteobacteria	11
 Baeomycetales	CAIMSN01	Acetobacteraceae	Acetobacterales	Proteobacteria	7
 Baeomycetales	VCDI01	Acetobacteraceae	Acetobacterales	Proteobacteria	7
 Baeomycetales	EB88	Acidobacteriaceae	Acidobacteriales	Acidobacteriota	5
 Baeomycetales	Lichenihabitans	Beijerinckiaceae	Rhizobiales	Proteobacteria	5
-Baeomycetales	Hymenobacter	Hymenobacteraceae	Cytophagales	Bacteroidota	3
 Baeomycetales	Terriglobus	Acidobacteriaceae	Acidobacteriales	Acidobacteriota	3
 Baeomycetales	Acetobacteraceae gen. sp.	Acetobacteraceae	Acetobacterales	Proteobacteria	2
 Baeomycetales	BOG-908	Acetobacteraceae	Acetobacterales	Proteobacteria	2
+Baeomycetales	Capsulimonadaceae gen. sp.	Capsulimonadaceae	Armatimonadales	Armatimonadota	2
 Caliciales	Lichenihabitans	Beijerinckiaceae	Rhizobiales	Proteobacteria	14
 Caliciales	CAHJXG01	Acetobacteraceae	Acetobacterales	Proteobacteria	13
 Caliciales	Sphingomonas	Sphingomonadaceae	Sphingomonadales	Proteobacteria	6
@@ -49,7 +49,6 @@ Caliciales	Terriglobus	Acidobacteriaceae	Acidobacteriales	Acidobacteriota	4
 Caliciales	Solirubrobacteraceae gen. sp.	Solirubrobacteraceae	Solirubrobacterales	Actinobacteriota	2
 Dothideomycetes	Acetobacteraceae gen. sp.	Acetobacteraceae	Acetobacterales	Proteobacteria	1
 Dothideomycetes	CAHJWO01	UBA10450	Chthoniobacterales	Verrucomicrobiota	1
-Dothideomycetes	Kineosporia	Kineosporiaceae	Actinomycetales	Actinobacteriota	1
 Dothideomycetes	Spiroplasma_C	MT37	Mycoplasmatales	Firmicutes	1
 Dothideomycetes	VCDI01	Acetobacteraceae	Acetobacterales	Proteobacteria	1
 Eurotiomycetes	Acetobacteraceae gen. sp.	Acetobacteraceae	Acetobacterales	Proteobacteria	1
@@ -76,21 +75,21 @@ Lecanorales	LMUY01	Acetobacteraceae	Acetobacterales	Proteobacteria	55
 Lecanorales	Acetobacteraceae gen. sp.	Acetobacteraceae	Acetobacterales	Proteobacteria	52
 Lecanorales	RH-AL1	Beijerinckiaceae	Rhizobiales	Proteobacteria	46
 Lecanorales	CAIMSN01	Acetobacteraceae	Acetobacterales	Proteobacteria	37
-Lecanorales	CAHJXG01	Acetobacteraceae	Acetobacterales	Proteobacteria	32
 Lecanorales	CAHJWO01	UBA10450	Chthoniobacterales	Verrucomicrobiota	31
 Lecanorales	EB88	Acidobacteriaceae	Acidobacteriales	Acidobacteriota	31
-Lecanorales	Granulicella_C	Acidobacteriaceae	Acidobacteriales	Acidobacteriota	27
+Lecanorales	CAHJXG01	Acetobacteraceae	Acetobacterales	Proteobacteria	27
 Lecanorales	CAHJWL01	Acidobacteriaceae	Acidobacteriales	Acidobacteriota	26
+Lecanorales	Granulicella_C	Acidobacteriaceae	Acidobacteriales	Acidobacteriota	26
 Lecideales	EB88	Acidobacteriaceae	Acidobacteriales	Acidobacteriota	5
 Lecideales	CAHJXG01	Acetobacteraceae	Acetobacterales	Proteobacteria	4
 Lecideales	Acetobacteraceae gen. sp.	Acetobacteraceae	Acetobacterales	Proteobacteria	3
 Lecideales	Tous-C9LFEB	Acidobacteriaceae	Acidobacteriales	Acidobacteriota	3
 Lecideales	LMUY01	Acetobacteraceae	Acetobacterales	Proteobacteria	2
 Lecideales	Terriglobus	Acidobacteriaceae	Acidobacteriales	Acidobacteriota	2
-Lecideales	Aureimonas_A	Rhizobiaceae	Rhizobiales	Proteobacteria	1
 Lecideales	Bryobacteraceae gen. sp.	Bryobacteraceae	Bryobacterales	Acidobacteriota	1
 Lecideales	CAHJWL01	Acidobacteriaceae	Acidobacteriales	Acidobacteriota	1
 Lecideales	CAHJWT01	Sphingomonadaceae	Sphingomonadales	Proteobacteria	1
+Lecideales	Lichenihabitans	Beijerinckiaceae	Rhizobiales	Proteobacteria	1
 Leprocaulales	CAHJXG01	Acetobacteraceae	Acetobacterales	Proteobacteria	2
 Leprocaulales	Bryobacteraceae gen. sp.	Bryobacteraceae	Bryobacterales	Acidobacteriota	1
 Leprocaulales	Dictyobacter	Ktedonobacteraceae	Ktedonobacterales	Chloroflexota	1
@@ -156,11 +155,16 @@ Rhizocarpales	CAHJWL01	Acidobacteriaceae	Acidobacteriales	Acidobacteriota	1
 Rhizocarpales	CAIMSN01	Acetobacteraceae	Acetobacterales	Proteobacteria	1
 Rhizocarpales	Capsulimonadaceae gen. sp.	Capsulimonadaceae	Armatimonadales	Armatimonadota	1
 Rhizocarpales	EB88	Acidobacteriaceae	Acidobacteriales	Acidobacteriota	1
+Schaereriales	CAHJXG01	Acetobacteraceae	Acetobacterales	Proteobacteria	3
+Schaereriales	Enterovirga	Beijerinckiaceae	Rhizobiales	Proteobacteria	2
+Schaereriales	Hymenobacter	Hymenobacteraceae	Cytophagales	Bacteroidota	2
+Schaereriales	Sphingomonas	Sphingomonadaceae	Sphingomonadales	Proteobacteria	2
 Schaereriales	Tous-C9LFEB	Acidobacteriaceae	Acidobacteriales	Acidobacteriota	2
-Schaereriales	CAHJXG01	Acetobacteraceae	Acetobacterales	Proteobacteria	1
+Schaereriales	CADCVW01	Sphingomonadaceae	Sphingomonadales	Proteobacteria	1
+Schaereriales	JACMOY01	Angustibacteraceae	Actinomycetales	Actinobacteriota	1
 Schaereriales	Lichenihabitans	Beijerinckiaceae	Rhizobiales	Proteobacteria	1
 Schaereriales	LMUY01	Acetobacteraceae	Acetobacterales	Proteobacteria	1
-Schaereriales	VCDI01	Acetobacteraceae	Acetobacterales	Proteobacteria	1
+Schaereriales	Methylobacterium	Beijerinckiaceae	Rhizobiales	Proteobacteria	1
 Teloschistales	Lichenihabitans	Beijerinckiaceae	Rhizobiales	Proteobacteria	4
 Teloschistales	PMMR1	Caulobacteraceae	Caulobacterales	Proteobacteria	2
 Teloschistales	SCSIO-52909	Rubrobacteraceae	Rubrobacterales	Actinobacteriota	2

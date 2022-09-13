@@ -9,10 +9,10 @@ Whole dataset	Caulobacteraceae	Caulobacterales	Proteobacteria	50
 Whole dataset	Ktedonobacteraceae	Ktedonobacterales	Chloroflexota	46
 Whole dataset	Bryobacteraceae	Bryobacterales	Acidobacteriota	36
 Whole dataset	Burkholderiaceae	Burkholderiales	Proteobacteria	26
-Acarosporales	Acetobacteraceae	Acetobacterales	Proteobacteria	4
-Acarosporales	Acidobacteriaceae	Acidobacteriales	Acidobacteriota	4
 Acarosporales	Bryobacteraceae	Bryobacterales	Acidobacteriota	4
 Acarosporales	Ktedonobacteraceae	Ktedonobacterales	Chloroflexota	4
+Acarosporales	Acetobacteraceae	Acetobacterales	Proteobacteria	3
+Acarosporales	Acidobacteriaceae	Acidobacteriales	Acidobacteriota	3
 Acarosporales	Beijerinckiaceae	Rhizobiales	Proteobacteria	2
 Acarosporales	Capsulimonadaceae	Armatimonadales	Armatimonadota	1
 Acarosporales	Chroococcidiopsidaceae	Cyanobacteriales	Cyanobacteria	1
@@ -23,16 +23,16 @@ Arthoniomycetes	UBA10450	Chthoniobacterales	Verrucomicrobiota	3
 Arthoniomycetes	Acidobacteriaceae	Acidobacteriales	Acidobacteriota	2
 Arthoniomycetes	Microbacteriaceae	Actinomycetales	Actinobacteriota	1
 Arthoniomycetes	Sphingomonadaceae	Sphingomonadales	Proteobacteria	1
-Baeomycetales	Acetobacteraceae	Acetobacterales	Proteobacteria	43
+Baeomycetales	Acetobacteraceae	Acetobacterales	Proteobacteria	40
 Baeomycetales	Acidobacteriaceae	Acidobacteriales	Acidobacteriota	15
-Baeomycetales	Beijerinckiaceae	Rhizobiales	Proteobacteria	9
-Baeomycetales	Sphingomonadaceae	Sphingomonadales	Proteobacteria	6
-Baeomycetales	Hymenobacteraceae	Cytophagales	Bacteroidota	3
+Baeomycetales	Beijerinckiaceae	Rhizobiales	Proteobacteria	6
 Baeomycetales	Capsulimonadaceae	Armatimonadales	Armatimonadota	2
 Baeomycetales	Nostocaceae	Cyanobacteriales	Cyanobacteria	2
 Baeomycetales	Rubrobacteraceae	Rubrobacterales	Actinobacteriota	2
+Baeomycetales	Sphingomonadaceae	Sphingomonadales	Proteobacteria	2
 Baeomycetales	Trueperaceae	Deinococcales	Deinococcota	2
 Baeomycetales	Abditibacteriaceae	Abditibacteriales	Armatimonadota	1
+Baeomycetales	Baltobacteraceae	Baltobacterales	Eremiobacterota	1
 Caliciales	Beijerinckiaceae	Rhizobiales	Proteobacteria	15
 Caliciales	Acetobacteraceae	Acetobacterales	Proteobacteria	13
 Caliciales	Acidobacteriaceae	Acidobacteriales	Acidobacteriota	10
@@ -44,7 +44,6 @@ Caliciales	Hymenobacteraceae	Cytophagales	Bacteroidota	4
 Caliciales	Solirubrobacteraceae	Solirubrobacterales	Actinobacteriota	3
 Caliciales	Burkholderiaceae	Burkholderiales	Proteobacteria	2
 Dothideomycetes	Acetobacteraceae	Acetobacterales	Proteobacteria	2
-Dothideomycetes	Kineosporiaceae	Actinomycetales	Actinobacteriota	1
 Dothideomycetes	MT37	Mycoplasmatales	Firmicutes	1
 Dothideomycetes	UBA10450	Chthoniobacterales	Verrucomicrobiota	1
 Eurotiomycetes	Acetobacteraceae	Acetobacterales	Proteobacteria	2
@@ -64,8 +63,8 @@ Gyalectales	Bryobacteraceae	Bryobacterales	Acidobacteriota	1
 Gyalectales	Hymenobacteraceae	Cytophagales	Bacteroidota	1
 Gyalectales	Ktedonobacteraceae	Ktedonobacterales	Chloroflexota	1
 Gyalectales	Nostocaceae	Cyanobacteriales	Cyanobacteria	1
-Lecanorales	Acetobacteraceae	Acetobacterales	Proteobacteria	225
-Lecanorales	Acidobacteriaceae	Acidobacteriales	Acidobacteriota	142
+Lecanorales	Acetobacteraceae	Acetobacterales	Proteobacteria	220
+Lecanorales	Acidobacteriaceae	Acidobacteriales	Acidobacteriota	140
 Lecanorales	Beijerinckiaceae	Rhizobiales	Proteobacteria	122
 Lecanorales	UBA10450	Chthoniobacterales	Verrucomicrobiota	31
 Lecanorales	Caulobacteraceae	Caulobacterales	Proteobacteria	28
@@ -79,7 +78,6 @@ Lecideales	Acetobacteraceae	Acetobacterales	Proteobacteria	9
 Lecideales	Sphingomonadaceae	Sphingomonadales	Proteobacteria	2
 Lecideales	Beijerinckiaceae	Rhizobiales	Proteobacteria	1
 Lecideales	Bryobacteraceae	Bryobacterales	Acidobacteriota	1
-Lecideales	Rhizobiaceae	Rhizobiales	Proteobacteria	1
 Lecideales	Streptosporangiaceae	Streptosporangiales	Actinobacteriota	1
 Leprocaulales	Acetobacteraceae	Acetobacterales	Proteobacteria	2
 Leprocaulales	Ktedonobacteraceae	Ktedonobacterales	Chloroflexota	2
@@ -133,9 +131,17 @@ Rhizocarpales	Beijerinckiaceae	Rhizobiales	Proteobacteria	5
 Rhizocarpales	Bryobacteraceae	Bryobacterales	Acidobacteriota	1
 Rhizocarpales	Capsulimonadaceae	Armatimonadales	Armatimonadota	1
 Rhizocarpales	Sphingomonadaceae	Sphingomonadales	Proteobacteria	1
-Schaereriales	Acetobacteraceae	Acetobacterales	Proteobacteria	3
+Schaereriales	Acetobacteraceae	Acetobacterales	Proteobacteria	6
+Schaereriales	Beijerinckiaceae	Rhizobiales	Proteobacteria	4
+Schaereriales	Sphingomonadaceae	Sphingomonadales	Proteobacteria	4
 Schaereriales	Acidobacteriaceae	Acidobacteriales	Acidobacteriota	2
-Schaereriales	Beijerinckiaceae	Rhizobiales	Proteobacteria	1
+Schaereriales	Hymenobacteraceae	Cytophagales	Bacteroidota	2
+Schaereriales	Angustibacteraceae	Actinomycetales	Actinobacteriota	1
+Schaereriales	Quadrisphaeraceae	Actinomycetales	Actinobacteriota	1
+Schaereriales	SCTD01	Mycobacteriales	Actinobacteriota	1
+Schaereriales	Unknown	Hat2	Chlamydiota	1
+Schaereriales	Unknown	Actinomycetales	Actinobacteriota	1
+Schaereriales	Unknown	Chthoniobacterales	Verrucomicrobiota	1
 Teloschistales	Beijerinckiaceae	Rhizobiales	Proteobacteria	4
 Teloschistales	Acetobacteraceae	Acetobacterales	Proteobacteria	3
 Teloschistales	Caulobacteraceae	Caulobacterales	Proteobacteria	3
