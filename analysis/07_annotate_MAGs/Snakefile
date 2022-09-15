@@ -6,14 +6,14 @@ mag_df = pd.read_table('mag_table.txt').set_index("mag", drop=False)
 MAGS = list(mag_df['mag'])
 
 
-#SAMPLES = [line.rstrip() for line in open('mag_list.txt')]
 
 rule all:
         input:
-                #expand("{sample}/{sample}.kegg.mapper.txt", sample = MAGS),
+                expand("{sample}/{sample}.kegg.mapper.txt", sample = MAGS),
                 expand("{sample}_dbcan/overview.txt", sample = MAGS),
-                expand("pseudofinder/{sample}_pseudofinder_intact.faa", sample = MAGS),
-                expand("antismash/{sample}/{sample}.gbk", sample = MAGS)
+                expand("antismash/{sample}/{sample}.gbk", sample = MAGS),
+                "carotenoids_report.txt"
+
         output: touch("touch")
 
 
@@ -66,3 +66,28 @@ rule antismash:
         shell:  
                 "antismash input --taxon bacteria --clusterhmmer  --cb-general --cb-subclusters   --cb-knownclusters --rre  --asf  --output-dir antismash/{wildcards.sample}"
 
+#the goal here is combine all significant hits for all BGC from a given genome
+rule antismash_report1:
+        input:	"antismash/{sample}/{sample}.gbk"  
+        output:	"antismash/{sample}/known_cluster_blast_combined.txt" 
+		shell:
+				"sed -n '/Significant hits: /,/Details:/p'  antismash/{wildcards.sample}/knownclusterblast/*.txt > {output}"
+           
+#here we screen all hits for carotenoids
+rule antismash_report2:
+        input:	i="antismash/{sample}/known_cluster_blast_combined.txt"  
+        output:	o=temp("antismash/{sample}/if_carotenoinds.txt") 
+        run:
+                with open (input.i,'r') as r:
+                    if 'carotenoid' in r.read():
+                        result=str(wildcards.sample+'\t'+'carotenoid'+'\t'+'1'+'\n')
+                    else:
+                        result=str(wildcards.sample+'\t'+'carotenoid'+'\t'+'0'+'\n')
+                with open (output.o,'w') as out: out.write(result)              
+
+rule compile_reports:
+        input:
+                expand("antismash/{sample}/if_carotenoinds.txt",sample = MAGS)
+        output:	"summarized_outputs/carotenoids_report.txt"
+        shell:
+                "cat {input} > {output}"

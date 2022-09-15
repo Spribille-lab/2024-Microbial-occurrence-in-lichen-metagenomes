@@ -357,6 +357,7 @@ Software used:
 * FeGenie (Garber et al. 2020)
 * Emerald
 * [getLCA](https://github.com/frederikseersholm/getLCA)
+* antiSMASH v6.1.0 (Blin et al. 2021)
 * R libraries: tidyverse, stringr, seriation, ComplexHeatmap, DECIPHER, circlize, RColorBrewer, patchwork, scales, waffle, extrafont, hrbrthemes, simplifyEnrichment, 
 
 ### 7.1. General functional annotations and Protein space analysis
@@ -403,6 +404,47 @@ Analyzed the 63 selected MAGs
 	* Used `code/combine_kegg.R`
 	* Saved KEGG annotations for all selected MAGs as `analysis/07_annotate_MAGs/summarized_outputs/selected_mags_kegg_combined.txt`
 	* Saved combined KEGG annotations for each genus as `analysis/07_annotate_MAGs/summarized_outputs/{genus}.kegg.combined.txt`. Those were used for exploratory analysis only
+	 
+* Ran Snakemake pipeline, which included part of the functional annotation; the Snakemake file is `analysis/07_annotate_MAGs/Snakefile`. The pipeline included:
+	* Annotated CAZymes using run_dbcan ("rule dbcan" in the Snakefile)
+```
+run_dbcan {MAG_ID}/{MAG_ID}.faa protein --out_dir {MAG_ID}_dbcan --db_dir /bin/run_dbcan/db/
+```
+	* Annotated biosynthetic gene clusters using antismash. Screened the outputs of the KnownClusterBlast module, to select predicted BGCs that had significant hits to known carotenoid BGCs (rules: antismash, antismash_report1, antismash_report2, compile_reports)
+```
+antismash input --taxon bacteria --clusterhmmer  --cb-general --cb-subclusters   --cb-knownclusters --rre  --asf  --output-dir antismash/{MAG_ID}
+```
+	* Annotated against the KEGG database (see above)
+
+* Processed the CAZyme annotations 
+	* Analyzed the run_dbcan outputs using `code/combine_dbcan.R` 
+	* Followed [Krüger et al. 2019](https://www.nature.com/articles/s41396-019-0476-y#Sec21) to filter annotations:
+		* HMMER: E.Value<1e-20,Coverage>0.3
+		* DIAMOND: E.Value<1e-20,X..Identical>30
+	* Only kept the annotations that were consistent between the two tools
+	* Saved outputs
+		* Genes annotated as CAZymes `analysis/07_annotate_MAGs/summarized_outputs/cazymes_gene_assignments.txt`
+		* Number of CAZymes assigned to different families, pee MAG
+			* As a table: `results/tables/cazymes_summarized.txt`. This table is referenced in the text as **Table SXXX**
+			* As a heatmap: `analysis/07_annotate_MAGs/summarized_outputs/cazy_heatmap.pdf`
+		* Table showing median # of genes from diff. CAZy classes summarized by genus + median total # of CAZymes: `results/tables/median_cazy_by_genus.txt`. This table is referenced in the text as **Table SXXX**
+   		* Same by family: `analysis/07_annotate_MAGs/summarized_outputs/cazy_class_percentage_by_bac_family.txt`
+    	* Figure showing # of genes from diff. CAZy classes grouped by family: `results/figures/cazy_bac_genus.svg`
+
+* Screened the metagenomic assemblies for NifH, a gene involved in nitrogen fixation
+	* Made a Snakemake pipeline: `analysis/07_annotate_MAGs/Snakefile_tblastn_metagenome`
+	* Searched the metagenomic assemblies using tblastn, as a query used a sequence from NCBI (ABZ89802.1)
+	* Extracted the hits as fasta files
+	* Obtained taxonomic assignments for the hits by searching them against the NCBI_nt database and using getLCA
+
+* Annotated biosynthetic gene clusters using Emerald
+```
+will add details after asking Ellen
+```
+* Annotated iron metabolism genes using FeGenie
+```
+will add details after asking Arkadiy
+```
 * Visualized key metabolic traits
 	* Screened KEGG annotations for the annotation related to the key metabolic traits
 		* Anoxygenic Photosystem II (K08928, K08929, K13991, K13992, K08926, K08927)
@@ -439,38 +481,7 @@ Analyzed the 63 selected MAGs
 			* capsular transporter (K10107, K09688, K09689)
 	* Used `code/pathway_fig.R`
 	* Saved the figure as `results/figures/pathway_fig.svg`, it is referenced in the text as **Fig. XXX**
-	 
-* Screened the metagenomic assemblies for NifH, a gene involved in nitrogen fixation
-	* Made a Snakemake pipeline: `analysis/07_annotate_MAGs/Snakefile_tblastn_metagenome`
-	* Searched the metagenomic assemblies using tblastn, as a query used a sequence from NCBI (ABZ89802.1)
-	* Extracted the hits as fasta files
-	* Obtained taxonomic assignments for the hits by searching them against the NCBI_nt database and using getLCA
-* Annotated CAZymes using run_dbcan  
- 
-```
-run_dbcan {MAG_ID}/{MAG_ID}.faa protein --out_dir {MAG_ID}_dbcan --db_dir /bin/run_dbcan/db/
-```
-* Processed the run_dbcan outputs using `code/combine_dbcan.R` to combine dbcan annotations. 
-	* Followed [Krüger et al. 2019](https://www.nature.com/articles/s41396-019-0476-y#Sec21) to filter annotations:
-		* HMMER: E.Value<1e-20,Coverage>0.3
-		* DIAMOND: E.Value<1e-20,X..Identical>30
-	* Only kept the annotations that were consistent between the two tools
-	* Saved outputs
-		* Genes annotated as CAZymes `analysis/07_annotate_MAGs/summarized_outputs/cazymes_gene_assignments.txt`
-		* Number of CAZymes assigned to different families, pee MAG
-			* As a table: `results/tables/cazymes_summarized.txt`. This table is referenced in the text as **Table SXXX**
-			* As a heatmap: `analysis/07_annotate_MAGs/summarized_outputs/cazy_heatmap.pdf`
-		* Table showing median # of genes from diff. CAZy classes summarized by genus + median total # of CAZymes: `results/tables/median_cazy_by_genus.txt`. This table is referenced in the text as **Table SXXX**
-   		* Same by family: `analysis/07_annotate_MAGs/summarized_outputs/cazy_class_percentage_by_bac_family.txt`
-    	* Figure showing # of genes from diff. CAZy classes grouped by family: `results/figures/cazy_bac_genus.svg`
-* Annotated iron metabolism genes using FeGenie
-```
-will add details after asking Arkadiy
-```
-* Annotated biosynthetic gene clusters using Emerald
-```
-will add details after asking Ellen
-```
+
 ## 8. Loss of function in Rhizobiales
 Software used:
 * GTDB-Tk v1.5.0 (Chaumeil et al. 2020)

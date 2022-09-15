@@ -151,8 +151,12 @@ kegg_df <- kegg_combined %>% filter(KO %in% kegg_list) %>% group_by(Genome,KO) %
   dplyr::select(-contains("K"))# %>% left_join( annotated_mags_arranged)
   
   
+ # 4. add antismash results for the presence of carotenoids
+carotenoids_df<-read.delim2("analysis/07_annotate_MAGs/summarized_outputs/carotenoids_report.txt",header=F,col.names = c("Genome","BGC_type","carotenoids"))
+kegg_df <- kegg_df %>% left_join(carotenoids_df) %>% select(-BGC_type)
+ 
 
-# 4.  viz
+# 5.  viz
 
 
 
