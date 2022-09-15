@@ -423,14 +423,14 @@ Analyzed the 63 selected MAGs
 	 
 * Ran Snakemake pipeline, which included part of the functional annotation; the Snakemake file is `analysis/07_annotate_MAGs/Snakefile`. The pipeline included:
 	* Annotated CAZymes using run_dbcan ("rule dbcan" in the Snakefile)
-```
-run_dbcan {MAG_ID}/{MAG_ID}.faa protein --out_dir {MAG_ID}_dbcan --db_dir /bin/run_dbcan/db/
-```
+	```
+	run_dbcan {MAG_ID}/{MAG_ID}.faa protein --out_dir {MAG_ID}_dbcan --db_dir /bin/run_dbcan/db/
+	```
 
 	* Annotated biosynthetic gene clusters using antismash. Screened the outputs of the KnownClusterBlast module, to select predicted BGCs that had significant hits to known carotenoid BGCs (rules: antismash, antismash_report1, antismash_report2, compile_reports)
-```
-antismash input --taxon bacteria --clusterhmmer  --cb-general --cb-subclusters   --cb-knownclusters --rre  --asf  --output-dir antismash/{MAG_ID}
-```
+	```
+	antismash input --taxon bacteria --clusterhmmer  --cb-general --cb-subclusters   --cb-knownclusters --rre  --asf  --output-dir antismash/{MAG_ID}
+	```
 
 	* Annotated against the KEGG database (see above)
 
