@@ -9,7 +9,7 @@ This repository contains scripts and intermediate results for the manuscript (Ta
 ```
 project
 ├── README.md							# this doc; description of the repo and the project log
-├── code 								# all scripts generated for the analysis, with the exception of snakemake pipelines (those can be found in exploratory/)
+├── code 								# all scripts generated for the analysis, with the exception of snakemake pipelines (those can be found in analysis/)
 ├── analysis 							# exploratory analysis, trees and tables generated for the analysis. Only folders relevant for this publications are included. Some files are designated as Supplementary data (see below)
 │   ├── 03_metagenome_reanalysis			# information related to the used metagenomes (metadata, SRA IDs, location information) and analysis on the metagenome-level (i.e. rDNA screenening) 
 │   ├── 05_MAGs 							# analysis on the level of MAGs: phylogenomic trees, tables related to MAG occurrences and coverage, and exploratory figures
@@ -426,10 +426,12 @@ Analyzed the 63 selected MAGs
 ```
 run_dbcan {MAG_ID}/{MAG_ID}.faa protein --out_dir {MAG_ID}_dbcan --db_dir /bin/run_dbcan/db/
 ```
+
 	* Annotated biosynthetic gene clusters using antismash. Screened the outputs of the KnownClusterBlast module, to select predicted BGCs that had significant hits to known carotenoid BGCs (rules: antismash, antismash_report1, antismash_report2, compile_reports)
 ```
 antismash input --taxon bacteria --clusterhmmer  --cb-general --cb-subclusters   --cb-knownclusters --rre  --asf  --output-dir antismash/{MAG_ID}
 ```
+
 	* Annotated against the KEGG database (see above)
 
 * Processed the CAZyme annotations 
