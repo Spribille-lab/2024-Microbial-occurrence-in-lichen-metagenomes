@@ -455,10 +455,14 @@ Analyzed the 63 selected MAGs
 	* Extracted the hits as fasta files
 	* Obtained taxonomic assignments for the hits by searching them against the NCBI_nt database and using getLCA
 
-* Annotated biosynthetic gene clusters using Emerald
+* Annotated biosynthetic gene clusters using emeraldBGC
 ```
 will add details after asking Ellen
 ```
+	* Summarized the emeraldBGC results
+		* Used `code/emerald_summarize.R`
+		* Analyzed the "nearest MiBGIG" assignments. Only retained hits that had Jaccard distance <0.7
+		* Saved the table with retained annotations as `results/tables/bgc_all_good_hits.txt`. In the text it's referenced as **Table SXXX**
 * Annotated iron metabolism genes using FeGenie
 ```
 will add details after asking Arkadiy
