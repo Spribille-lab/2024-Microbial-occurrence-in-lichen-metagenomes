@@ -149,6 +149,7 @@ Software used:
 * GTDB-Tk v1.5.0 (Chaumeil et al. 2020)
 * IQ-TREE (Nguyen et al. 2015)
 * BAT (CAT v5.2.3, database version: 20210107; von Meijenfeldt et al. 2019)
+* [Phylociraptor v0.9.9](https://github.com/reslp/phylociraptor)
 * iTOL (Letunic & Bork 2019)
 
 ### 3.1. Prokaryotic MAGs
@@ -181,8 +182,28 @@ CAT bins \
 * To refine taxonomic assignments, computed two phylogenomic trees: one for fungi, one for algae. 
 	* The list of reference genomes is in `results/tables/reference_genomes_full_table.csv`
 	* This table is compiled manually, in the text it's referred as **Table SXXX**
+* Used the Phylociraptor pipeline to calculate the trees
+	* config files can be found in analysis/05_MAGs/trees/eukaryotes/*/data
 ```
-TO BE ADDED: (will ask David for details)
+cd analysis/05_MAGs/trees/eukaryotes/Fungi
+./phylociraptor setup -t slurm -c data/cluster-config-SLURM.yaml
+./phylociraptor orthology -t slurm -c data/cluster-config-SLURM.yaml
+./phylociraptor filter-orthology -t slurm -c data/cluster-config-SLURM.yaml
+./phylociraptor align -t slurm -c data/cluster-config-SLURM.yaml
+./phylociraptor filter-align -t slurm -c data/cluster-config-SLURM.yaml
+./phylociraptor modeltest -t slurm -c data/cluster-config-SLURM.yaml
+./phylociraptor njtree -t slurm -c data/cluster-config-SLURM.yaml
+./phylociraptor mltree -t slurm -c data/cluster-config-SLURM.yaml
+./phylociraptor speciestree -t slurm -c data/cluster-config-SLURM.yaml
+./phylociraptor report 
+
+./phylociraptor util estimate-conflict -o test-conflict --stopby tipcoverage=200 -t 2
+./phylociraptor util plot-conflict -i T1,T2 --quartetfile test-conflict.quartets.csv -r test-conflict.treelist.tsv 
+./phylociraptor util plot-similarity -m test-conflict.similarity_matrix.csv -r test-conflict.treelist.tsv  --ndistances 100 -t 2 
+```
+* In the fungal phylogenym there were discrepancies between the coalescense tree (reconstructed from gene trees by ASTRAL) and concatenated tree (produced from concatenated alignments using IQ-Tree). The discrepancies were reconciled
+```
+will get details from David
 ```
 
 * Produced figure Fig. XXX: eukaryiotic phylogenomic trees
