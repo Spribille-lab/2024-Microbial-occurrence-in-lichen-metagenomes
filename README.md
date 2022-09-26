@@ -201,7 +201,7 @@ cd analysis/05_MAGs/trees/eukaryotes/Fungi
 ./phylociraptor util plot-conflict -i T1,T2 --quartetfile test-conflict.quartets.csv -r test-conflict.treelist.tsv 
 ./phylociraptor util plot-similarity -m test-conflict.similarity_matrix.csv -r test-conflict.treelist.tsv  --ndistances 100 -t 2 
 ```
-* In the fungal phylogenym there were discrepancies between the coalescense tree (reconstructed from gene trees by ASTRAL) and concatenated tree (produced from concatenated alignments using IQ-Tree). The discrepancies were reconciled
+* In the fungal phylogeny, there were discrepancies between the coalescense tree (reconstructed from gene trees by ASTRAL) and concatenated tree (produced from concatenated alignments using IQ-Tree). The discrepancies were reconciled
 ```
 will get details from David
 ```
@@ -387,12 +387,13 @@ Analyzed the recovery of the LFS and photosynthetic partner MAGs as a function o
 Software used:
 * PROKKA v1.13 (Seemann 2014)
 * Snakemake (Mölder et al. 2021)
+* mmseqs2 v13.45111 (Steinegger and Söding 2017)
 * KEGG Orthology Database (Kanehisa et al. 2002)
 * KofamScan (Aramaki et al. 2020)
 * BLAST (Altschul et al. 1990)
 * [dbcan2 v3.0.2](https://github.com/linnabrown/run_dbcan)
 * FeGenie (Garber et al. 2020)
-* Emerald
+* [emeraldBGC v0.2.3](https://github.com/Finn-Lab/emeraldBGC)
 * [getLCA](https://github.com/frederikseersholm/getLCA)
 * antiSMASH v6.1.0 (Blin et al. 2021)
 * R libraries: tidyverse, stringr, seriation, ComplexHeatmap, DECIPHER, circlize, RColorBrewer, patchwork, scales, waffle, extrafont, hrbrthemes, simplifyEnrichment, 
@@ -405,9 +406,9 @@ prokka --compliant --centre UoA --outdir {MAG_ID} --prefix {MAG_ID} {MAG_ID}.fa
 ```
 
 * Compared all predicted proteins against the MGnify database
-```
-Get more details from Ellen
-```
+	* Used the linclust module of mmseqs2 v13.45111
+	* Applied 0.9 AAI and 0.9 coverage thresholds
+	* Used `code/linclust.sh`
 
 ### 7.2. Functional clustering
 * Annotated predicted proteins against the KEGG Orthology Database using KofamScan
@@ -478,7 +479,8 @@ Analyzed the 63 selected MAGs
 
 * Annotated biosynthetic gene clusters using emeraldBGC
 	```
-	will add details after asking Ellen
+	emeraldbgc prokka/{MAG_ID}/{MAG_ID}.gbk --outdir /emeraldbgc/{MAG_ID}
+
 	```
 * Summarized the emeraldBGC results
 	* Used `code/emerald_summarize.R`
