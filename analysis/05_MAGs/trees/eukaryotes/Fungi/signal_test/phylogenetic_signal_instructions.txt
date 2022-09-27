@@ -1,0 +1,36 @@
+[Phylogenetic signal calculation]
+
+## Requirements:
+## perl
+## https://shenxlab.com/datasets/Phylogenetic_signal_parser_v1.1.zip
+## IQ-Tree
+
+
+## Run site likelihood calculations using the resulting topologies
+## Optionally:
+## cat Fungi/phylogeny/Coalescence_ASTRAL/species_tree.tre Fungi/phylogeny/Concatenated_IQTREE/concat.contree > Fungi/signal_test/signal_trees.tre 
+## This run relies on phylociraptor IQTREE run files rename acordingly
+
+iqtree2 -nt 12 -wsl -p concat.nex -z signal_trees.tre -pre concat --undo
+
+## -wsl for site likelihood 
+## -x to calculated in different topologies
+## -undo to force restart from checkpoint 
+
+## site.lh file includes the likelihood of each site in 361006 positions for
+## each topology
+
+## Run Phylogenetic signal parser 
+
+perl Phylogenetic_signal_parser_v1.1.pl Fungi/signal_test/concat.sitelh Fungi/signal_test/partition_scheme.txt Yes Fungi/signal_test/
+
+## arg1: site likelihood
+## arg2: partition file for gene likelihood estimation 
+## arg3: Yes, to keep site calculations
+## arg4: Output
+
+
+
+
+
+

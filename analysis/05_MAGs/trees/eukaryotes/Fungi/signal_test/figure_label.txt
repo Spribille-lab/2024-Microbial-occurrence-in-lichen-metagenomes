@@ -1,0 +1,2 @@
+Figure label:
+Genes and site phylogenetic signal ratio between coalescent and concatenated topologies. Ratio bar plot was constructed using calculated site likelihood per topology. Signal was assigned to the topology maximizing the site likelihood and combined site likelihood per gene. Concatenated topology signaling was significantly different than coalescent signaling on sites (p<0.0001) and genes (p<0.0001) base on a 1:1 ratio g-test.

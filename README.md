@@ -151,6 +151,8 @@ Software used:
 * BAT (CAT v5.2.3, database version: 20210107; von Meijenfeldt et al. 2019)
 * [Phylociraptor v0.9.9](https://github.com/reslp/phylociraptor)
 * iTOL (Letunic & Bork 2019)
+* R libraries: tidyverse, reshape2, AMR
+
 
 ### 3.1. Prokaryotic MAGs
 ```
@@ -196,15 +198,17 @@ cd analysis/05_MAGs/trees/eukaryotes/Fungi
 ./phylociraptor mltree -t slurm -c data/cluster-config-SLURM.yaml
 ./phylociraptor speciestree -t slurm -c data/cluster-config-SLURM.yaml
 ./phylociraptor report 
+```
 
-./phylociraptor util estimate-conflict -o test-conflict --stopby tipcoverage=200 -t 2
-./phylociraptor util plot-conflict -i T1,T2 --quartetfile test-conflict.quartets.csv -r test-conflict.treelist.tsv 
-./phylociraptor util plot-similarity -m test-conflict.similarity_matrix.csv -r test-conflict.treelist.tsv  --ndistances 100 -t 2 
-```
 * In the fungal phylogeny, there were discrepancies between the coalescense tree (reconstructed from gene trees by ASTRAL) and concatenated tree (produced from concatenated alignments using IQ-Tree). The discrepancies were reconciled
-```
-will get details from David
-```
+	* Used the estimate-conflict module of phylociraptor
+	```
+	./phylociraptor util estimate-conflict -o test-conflict --stopby tipcoverage=200 -t 2
+	./phylociraptor util plot-conflict -i T1,T2 --quartetfile test-conflict.quartets.csv -r test-conflict.treelist.tsv 
+	./phylociraptor util plot-similarity -m test-conflict.similarity_matrix.csv -r test-conflict.treelist.tsv  --ndistances 100 -t 2 
+	```
+	* Analyzed the results using `code/signal.R`
+	* Saved the graph showing the signal ratio between coalescent and concatenated topologies as `analysis/05_MAGs/trees/eukaryotes/Fungi/signal_test/fungi_signal.pdf`
 
 * Produced figure Fig. XXX: eukaryiotic phylogenomic trees
 	* Used iTOL
