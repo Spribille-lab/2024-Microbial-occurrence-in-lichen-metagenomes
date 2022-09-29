@@ -294,10 +294,14 @@ Procedure outlined here: https://github.com/alexmsalmeida/metamap
 	* Ranked bacterial groups by their diversity, defined as the number of unique MAGs
 		* Summarized on three levels: bacterial genera, families, and orders
 		* Save the resulting tables as `analysis/05_MAGs/tables/bacteria_dominant_groups/bacterial_*_diversity.tsv`. Here is just a number of MAGs from a given group
-	* Only included the metagenomes that a) yielded an LFS MAG b) wasn't removed as potential misidentification 
 	* Made lists of top frequency genera and families by groups of lichens: photobionts, mycobionts, and compinations.  
-		* saved them as `results/tables/bacterial_*_by_lichen_group.txt`
+		* Only included metagenomes that a) yielded an LFS MAG b) wasn't removed as potential misidentification 
+		* Saved them as `results/tables/bacterial_*_by_lichen_group.txt`
 		* These two tables combined are referred to in the text as **Table SXXX**
+* Calculated the % of occurrence and metagenomes a given group occurred in
+	* Used `calculate_prevalence_occurrence_of_genomes.R`
+	* Only analyzed the 4 bacterial families, plus fungi and photobionts
+	* When calculating the % of  metagenomes a given group occurred in, only included metagenomes that yielded at least one MAG
 * Visualized bacterial occurrences
 	* Used `code/rename_bac_tree.R`
 	* Renamed tip labels in the bacterial phylogenomic tree produced (see 3.1) to add taxonomic assignments
@@ -380,12 +384,13 @@ Software used:
 Software used:
 * R libraries: tidyverse, stringr, patchwork
 
-Analyzed the recovery of the LFS and photosynthetic partner MAGs as a function of sequencing depth
+### 6.1. Analyzed the recovery of the LFS and photosynthetic partner MAGs as a function of sequencing depth
 * Used `code/recovery_myco_photo_MAGs.R`
 * Used the functional assignments from `results/tables/MAG_confirmed_roles_bwa.tsv`
-* Only included MAGs extracted by binning (including those discarded during dereplication). 
-* Didn't count a MAG as present if it was only detected via BWA alignments. Rationale: a genome can be present in a metagenome but isn't recovered as MAG due to e.g. low coverage. In this context, count this genome as present does not agree with the goal of this analysis (i.e. what sequencing depth is efficient to produce an LFS/photosynthetic partner MAG?)
+* Used all metagenomes
 * Saved the figure `results/figures/myco_photobiont_vs_depth.png`. This figure is referenced in the text as **Fig. SXXX**
+
+
 
 ## 7. Functional analysis
 Software used:
