@@ -384,7 +384,10 @@ Software used:
 Software used:
 * R libraries: tidyverse, stringr, patchwork
 
-### 6.1. Analyzed the recovery of the LFS and photosynthetic partner MAGs as a function of sequencing depth
+### 6.1. Total number of genomes as a function of sequencing depth
+* See 5.1. `code/summarize_mag_cov_counts.R` was used both for the 5.1 and 6.1 analysis
+
+### 6.2. Analyzed the recovery of the LFS and photosynthetic partner MAGs as a function of sequencing depth
 * Used `code/recovery_myco_photo_MAGs.R`
 * Used the functional assignments from `results/tables/MAG_confirmed_roles_bwa.tsv`
 * Two versions of the analysis:
@@ -392,6 +395,12 @@ Software used:
 	2. Based on binning results. A MAG is present if it was recovered during de-novo binning of the metagenomes (including the MAGs discarded during dereplication)
 * Used all metagenomes
 * Saved the figure `results/figures/myco_photobiont_vs_depth.png` (based on the read alignments). This figure is referenced in the text as **Fig. SXXX**
+
+### 6.3. Genome completeness as a function of coverage depth
+* Used `code/completeness_breadth_vs_cov.R` to check how coverage depth affects:
+        * EukCC completeness for de novo produced MAGs
+        * breadth of coverage for the bwa alignments
+        * saved the result as `results/figures/completenes_and_breadth_vs_cov.png`
 
 
 
