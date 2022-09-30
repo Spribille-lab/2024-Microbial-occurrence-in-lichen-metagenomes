@@ -4,10 +4,72 @@ library(stringr)
 library(patchwork)
 
 # identify mycobiont and photobiont recovery as a function of depth
-###Used the functional assignments from `analysis/05_MAGs/tables/MAG_confirmed_roles_bwa.tsv`
-###But only included MAGs extracted by binning (including those pre dereplication). If a genome was present according to bwa alignments, but not recovered as MAG (perhaps due to e.g. low coverage), we didn't count it
-### Saved figures as `analysis/05_MAGs/exploratory_fig/myco_photobiont_vs_depth_denseplots.png` and `analysis/05_MAGs/exploratory_fig/myco_photobiont_vs_depth.png`
+# 1. based on the recovery of genomes from the read alignment data (i.e. aligning reads from all metagenomes to all MAGs). A MAG counts as present, if it has breadth of coverage >50%, according to BWA
+### Saved the figure as `results/figures/myco_photobiont_vs_depth.png`
 
+##load data
+mags_role<-read.delim("results/tables/MAG_confirmed_roles_bwa.txt")
+
+##select only occurrences of myco- and photobionts
+mag_recovery<-mags_role %>% filter(confirmed_role %in% c("mycobiont","mycobiont_missassigned","photobiont_chloro","photobiont_cyano")) %>%
+  select(metagenome,confirmed_role) %>% 
+  mutate(role_type=ifelse(confirmed_role %in% c("mycobiont","mycobiont_missassigned"),"mycobiont","photobiont")) %>%
+  select(-confirmed_role) %>% group_by(metagenome,role_type) %>%
+  summarize(n=n()) %>% pivot_wider(names_from = role_type,values_from = n, values_fill=0)
+
+
+##add sequencing depth information 
+depth<-read.delim("analysis/03_metagenome_reanalysis/bp_report.txt",header = F)
+colnames(depth)<-c("metagenome","depth")
+mag_recovery<-depth %>% left_join(mag_recovery)
+
+##in the metagenomes that yilded no mags, replace NAs with 0s
+mag_recovery$mycobiont[is.na(mag_recovery$mycobiont)]<-0
+mag_recovery$photobiont[is.na(mag_recovery$photobiont)]<-0
+
+##add binary variables
+mag_recovery<-mag_recovery %>% mutate(mycobiont_binary=ifelse(mycobiont>0,"detected","not detected"),
+                        photobiont_binary=ifelse(photobiont>0,"detected","not detected"),
+                        photo_and_myco=ifelse(mycobiont>0&photobiont>0,"detected","not detected"))
+
+##visualizing  recovery
+### whether myco/photobiont mag was detected vs coverage: jitter
+myco_detection<-ggplot(mag_recovery,aes(y=depth,x=mycobiont_binary))+geom_jitter(width = 0.1,alpha=0.5,col="dark red")+
+  theme_minimal()+xlab("Lichen fungal symbiont genome")+ylab("Sequencing depth")+
+  scale_y_log10(breaks=c(1000000,100000000,10000000000),labels=c("1 Mbp","100 Mbp","10 Gbp"))
+
+photo_detection<-ggplot(mag_recovery,aes(y=depth,x=photobiont_binary))+geom_jitter(width = 0.1,alpha=0.5,col="dark green")+
+  theme_minimal()+xlab("Photosynthetic symbionts genome")+ylab("Sequencing depth")+
+  scale_y_log10(breaks=c(1000000,100000000,10000000000),labels=c("1 Mbp","100 Mbp","10 Gbp"))
+
+both_detection<-ggplot(mag_recovery,aes(y=depth,x=photo_and_myco))+geom_jitter(width = 0.1,alpha=0.5,col="orange4")+
+  theme_minimal()+xlab("LFS & Photosynthetic\nsymbionts genomes")+ylab("Sequencing depth")+
+  scale_y_log10(breaks=c(1000000,100000000,10000000000),labels=c("1 Mbp","100 Mbp","10 Gbp"))
+
+myco_detection+photo_detection+both_detection
+ggsave("results/figures/myco_photobiont_vs_depth.png",bg="white",width=10,height=5)
+
+#get numbers
+## min depth to get mycbiont mag
+min(mag_recovery[mag_recovery$mycobiont>0,]$depth)
+#248125314 = 248 Mbp
+
+## min depth to get photobiont mag
+min(mag_recovery[mag_recovery$photobiont>0,]$depth)
+#168207054 = 168 Mbp
+
+## min depth to get mycbiont AND photobiont mag
+min(mag_recovery[mag_recovery$photo_and_myco=="detected",]$depth)
+
+min(mags_in_mtg[mags_in_mtg$photo_and_myco==T,]$depth)
+#1157540028 = 1.2 Gbp
+
+
+
+
+
+
+#2.Based on recovery of MAGs from de-novo binning (including those pre dereplication). If a genome was present according to bwa alignments, but not recovered as MAG (perhaps due to e.g. low coverage), we didn't count it here
 ##Load data
 ###load mag information
 mags<-read.delim("analysis/05_MAGs/tables/MAG_taxonomy_combined.tsv")

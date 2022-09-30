@@ -387,8 +387,11 @@ Software used:
 ### 6.1. Analyzed the recovery of the LFS and photosynthetic partner MAGs as a function of sequencing depth
 * Used `code/recovery_myco_photo_MAGs.R`
 * Used the functional assignments from `results/tables/MAG_confirmed_roles_bwa.tsv`
+* Two versions of the analysis:
+	1. Based on the read alignments. A MAG is present if its breadth of coverage >50% according to BWA
+	2. Based on binning results. A MAG is present if it was recovered during de-novo binning of the metagenomes (including the MAGs discarded during dereplication)
 * Used all metagenomes
-* Saved the figure `results/figures/myco_photobiont_vs_depth.png`. This figure is referenced in the text as **Fig. SXXX**
+* Saved the figure `results/figures/myco_photobiont_vs_depth.png` (based on the read alignments). This figure is referenced in the text as **Fig. SXXX**
 
 
 
