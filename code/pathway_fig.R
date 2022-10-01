@@ -290,7 +290,51 @@ ggplot(df_long,aes(x=Genome,y=pathway,size=presence_size,shape=presence_factor,c
 
 ggsave("results/figures/pathway_fig.svg",width=180,height=100,device="svg",bg="white",units="mm")
 
+#6. Caclulate occurrence stats
+###how many occurrences a given functional group accounts for / how many metagenomes it occures in 
+functional_group_summary<-function(group,df_ann,df_occ){
+  mag_list<-df_long %>% filter(pathway==group,presence>0)
+ #number of occurrences of the selected mags
+  min_occ_number<-df_occ %>% filter(Genome %in% mag_list$Genome) %>% nrow()
+  #number of occurrences of the selected genera
+  max_occ_number<-df_occ %>% filter(bac_genus2 %in% mag_list$bac_genus2) %>% nrow()
+  #number of metagenomes with the selected mags
+  min_mtg_number<-df_occ %>% filter(Genome %in% mag_list$Genome) %>%
+    select(metagenome) %>% distinct() %>% nrow()
+  #number of metagenomes with the selected genera
+  max_mtg_number<-df_occ %>% filter(bac_genus2 %in% mag_list$bac_genus2) %>%
+    select(metagenome) %>% distinct() %>% nrow()
+  df_out<-data.frame("group"=group,
+                   "min_occ_number"=min_occ_number,
+                   "max_occ_number"=max_occ_number,
+                   "min_mtg_number"=min_mtg_number,
+                   "max_mtg_number"=max_mtg_number,
+                   "number_mags"=mag_list%>%nrow())
+  return(df_out)
+}
 
 
+group_list<-df_long %>% ungroup() %>% select(pathway) %>% distinct()
+l<-apply(group_list,1,FUN=functional_group_summary,df_ann=df_long,df_occ=mags_role)
+occ_summary<-do.call(rbind,l)
+
+##separately calculate these stats for the three Acetobacteraceae with calvin cycle
+mag_list<-df_long %>% filter(pathway=="Calvin_cycle",presence>0,bac_family=="Acetobacteraceae")
+#number of occurrences of the selected mags
+min_occ_number<-mags_role%>% filter(Genome %in% mag_list$Genome) %>% nrow()
+#number of occurrences of the selected genera
+max_occ_number<-mags_role %>% filter(bac_genus2 %in% mag_list$bac_genus2) %>% nrow()
+#number of metagenomes with the selected mags
+min_mtg_number<-mags_role %>% filter(Genome %in% mag_list$Genome) %>%
+  select(metagenome) %>% distinct() %>% nrow()
+#number of metagenomes with the selected genera
+max_mtg_number<-mags_role %>% filter(bac_genus2 %in% mag_list$bac_genus2) %>%
+  select(metagenome) %>% distinct() %>% nrow()
+df_out<-data.frame("group"="Aceto_Calvin_cycle",
+                   "min_occ_number"=min_occ_number,
+                   "max_occ_number"=max_occ_number,
+                   "min_mtg_number"=min_mtg_number,
+                   "max_mtg_number"=max_mtg_number,
+                   "number_mags"=mag_list%>%nrow())
 
 
