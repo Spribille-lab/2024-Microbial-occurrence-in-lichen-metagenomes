@@ -34,14 +34,14 @@ Software used:
     * Downloaded SRA run info for PRJNA700635 and PRJNA731936 > `analysis/03_metagenome_reanalysis/SraRunInfo_PRJNA731936.csv analysis/03_metagenome_reanalysis/SraRunInfo_PRJNA700635.csv`
     * Downloaded [Appendix S2](https://bsapubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Fajb2.1339&file=ajb21339-sup-0002-AppendixS2.xlsx) from Lendemer et al. 2019 with the voucher metadata for their metagenomes
     * Made finel list of SRA IDs using `code/getting_SRA_id.R`. Only kept IDs that matched between the metadata from the NCBI and from the Appendix > `analysis/03_metagenome_reanalysis/sra_ids.txt`
-
+* Removed duplicate data: 
 * Got SRA ids from other sources
     * See `analysis/03_metagenome_reanalysis/all_metagenome_reanalysis.csv`. Copied all SRA ids into `analysis/03_metagenome_reanalysis/sra_ids_other.txt`
     * Combined the two files into the final list of SRA IDs to use:
 ```
 cat analysis/03_metagenome_reanalysis/sra_ids.txt analysis/03_metagenome_reanalysis/sra_ids_other.txt >analysis/03_metagenome_reanalysis/sra_ids_all.txt
 ```
-* Added de novo generated metagenomic data (see Table XXX)
+* Added de novo generated metagenomic data (see **Supplementary Table 14**)
 
 ### 1.2. Downloaded data using sratoolkit
 ```
@@ -64,20 +64,20 @@ gzip *.fastq
 ```
 for ID_SAMPLE in `cut -d ',' -f1 analysis/03_metagenome_reanalysis/similar_datasets.csv`; do rm data/fastq/"$ID_SAMPLE"*; done
 ```
-
+* The list of removed samples is compiled in **Supplementary Table 13**
 ### 1.4. Compled information on the metagenomes
 * Saved the table as `results/tables/all_metagenome_reanalysis.txt`
 * This table is compiled manually, using information from the NCBI metadata, and literature on lichens
-* In the text it's reffered to as **Table SXXX**
+* In the text it's reffered to as **Supplementary Table 1**
 
-### 1.5. Produced **Fig. SXXX**: the map of sampling locations for all metagenomes used in the study
+### 1.5. Produced **Extended Data Fig. 2**: the map of sampling locations for all metagenomes used in the study
 * Used `code/get_coordinates.sh` to obtain location information from ENA
 * To the samples that didn't have coordinates, I assigned coordinates based on the description of the sampling location in the original paper
 * Cleaned-up version of the output is saves as `analysis/03_metagenome_reanalysis/locations_compiled_manually.txt`
 * Used `code/map.R` to draw map of all sampling locations
 * The map is saved as `results/figures/map.pdf`, in the text it's reffered to as **Fig. SXXX**
 
-### 1.6. Produced **Fig. SXXX**: dot hitogram of metagenomes arranged by sequencing depth
+### 1.6. Produced **Extended Data Fig. 1**: dot hitogram of metagenomes arranged by sequencing depth
 * Used `code/metagenome_by_source_fig.R`
 * Saved the figure as `results/figures/metagenome_dothist_by_source.png`
 
@@ -166,7 +166,6 @@ gtdbtk classify_wf \
 iqtree -nt 16 \
   -s gtdb_out/gtdbtk.bac120.user_msa.fasta
 ```
-* The tree is available as Supplementary data: XXX
 
 ### 3.2. Eukaryotic MAGs
 * Preliminary taxonomic assignments based on the database search
@@ -183,7 +182,7 @@ CAT bins \
 ```
 * To refine taxonomic assignments, computed two phylogenomic trees: one for fungi, one for algae. 
 	* The list of reference genomes is in `results/tables/reference_genomes_full_table.csv`
-	* This table is compiled manually, in the text it's referred as **Table SXXX**
+	* This table is compiled manually, in the text it's referred as **Supplementary Table 15**
 * Used the Phylociraptor pipeline to calculate the trees
 	* config files can be found in analysis/05_MAGs/trees/eukaryotes/*/data
 ```
@@ -210,7 +209,7 @@ cd analysis/05_MAGs/trees/eukaryotes/Fungi
 	* Analyzed the results using `code/signal.R`
 	* Saved the graph showing the signal ratio between coalescent and concatenated topologies as `analysis/05_MAGs/trees/eukaryotes/Fungi/signal_test/fungi_signal.pdf`
 
-* Produced figure Fig. XXX: eukaryiotic phylogenomic trees
+* Produced figure Fig. 2B-C: eukaryotic phylogenomic trees
 	* Used iTOL
 	* Manually annotated trees taxonomically, based on the reference genomes
 
@@ -233,7 +232,7 @@ Procedure outlined here: https://github.com/alexmsalmeida/metamap
 * Combined taxonomy for prokaryotic MAGs (i.e. outputs of GTDB-Tk) and eukaryotic MAGs (i.e. outputs of BAT) in one table
 	* Used `code/combine_mag_taxonomy_annotation.R`
 	* Saved the table as `analysis/05_MAGs/tables/MAG_taxonomy_combined.tsv`
-	* Saved a table with quality scores and taxonomic assignments as `analysis/05_MAGs/tables/MAG_suppl_table.tsv`. This table is referenced in the text as  **Table SXXX**
+	* Saved a table with quality scores and taxonomic assignments as `analysis/05_MAGs/tables/MAG_suppl_table.tsv`. This table is referenced in the text as  **Supplementary Table 2**
 * Assigned putative roles in the symbiosis based on the BAT taxonomy and coverage
 	* Used `code/assign_putative_mag_roles.R`
 	* As input used the metagenome metadata `results/all_metagenome_reanalysis.txt` and BWA alignments `analysis/05_MAGs/tables/read_mapping/`
@@ -272,7 +271,7 @@ Procedure outlined here: https://github.com/alexmsalmeida/metamap
 		* SRR14722065: Polysporina simplex, groups with Lecideales
 	* saved this list as a table in `results/tables/excluded_metagenomes.txt`
 		* used `code/make_list_excluded_mtg.R` 
-		* This table is referred to in the text as **Table SXXX**
+		* This table is referred to in the text as **Supplementary Table 16**
 	* saved the updated assignments as `results/tables/MAG_confirmed_roles_bwa.txt`
 	* re-labeled the fungal tree so the tip labels contain information on the role of the each MAG in the lichens, plus which metagenomes it was found in
 		* used `code/rename_euk_tree_corrections.R` to make a tree with tip lables reflecting the final assignments
@@ -297,7 +296,7 @@ Procedure outlined here: https://github.com/alexmsalmeida/metamap
 	* Made lists of top frequency genera and families by groups of lichens: photobionts, mycobionts, and compinations.  
 		* Only included metagenomes that a) yielded an LFS MAG b) wasn't removed as potential misidentification 
 		* Saved them as `results/tables/bacterial_*_by_lichen_group.txt`
-		* These two tables combined are referred to in the text as **Table SXXX**
+		* These two tables combined are referred to in the text as **Supplementary Table 3**
 * Calculated the % of occurrence and metagenomes a given group occurred in
 	* Used `calculate_prevalence_occurrence_of_genomes.R`
 	* Only analyzed the 4 bacterial families, plus fungi and photobionts
@@ -306,7 +305,7 @@ Procedure outlined here: https://github.com/alexmsalmeida/metamap
 	* Used `code/rename_bac_tree.R`
 	* Renamed tip labels in the bacterial phylogenomic tree produced (see 3.1) to add taxonomic assignments
 	* Produced tables with annotations: phylum-level taxonomy and the number of occurrences per MAG. The tables are desinged to be compatible with iTOL
-	* Produced the figure using iTOL, the figure is reference in the table as **Fig. XXX**
+	* Produced the figure using iTOL, the figure is reference in the text as **Fig. 2A**
 	
 ### 4.6. Co-occurrence analysis
 * Plot cooccurrence networks for selected groups:
@@ -319,12 +318,12 @@ Procedure outlined here: https://github.com/alexmsalmeida/metamap
 * The graphs only show LFS MAGs and MAGs from the selected groups. Each node is a MAG, edges represent cooccurrences. The thicker the edge, the more frequently the two MAGs cooccur
 * Used `code/cooc_graph_*.R`
 * Saved the figures as `results/figures/coocc_graph_.pdf`
-* The figures are referenced in the text as **Fig. XXX**
+* The figures are referenced in the text as **Fig. 4**
 
-### 4.7. rDNA-based screening
-* Screened metagenomic assemblies and raw unassembled reads for the rDNA sequences
+### 4.7. rRNA-based screening
+* Screened metagenomic assemblies and raw unassembled reads for the rRNA gene sequences
 * Made a Snakemake pipeline `analysis/03_metagenome_reanalysis/Snakefile`. This pipeline:
-	* Ran Metaxa2 on all metagenomic assemblies and raw read sets. Metaxa uses a HMM-based algorithm to detect all rDNA sequences, and then compares them to the DIAMOND database for the taxonomic classification. Output is saved in the form `reads_{sample}.level_5.txt`
+	* Ran Metaxa2 on all metagenomic assemblies and raw read sets. Metaxa uses a HMM-based algorithm to detect all rRNA gene sequences, and then compares them to the DIAMOND database for the taxonomic classification. Output is saved in the form `reads_{sample}.level_5.txt`
 	* Ran reformat.sh (BBTools) to calculate sequencing depth for each sample
 	* Summarized all sequencing depths in one table (`analysis/03_metagenome_reanalysis/bp_report.txt`). This table is used in several scripts, including `code/metagenome_by_source_fig.R`
 	* Ran stats.sh (BBTools) to calculate the assembly length for each sample
@@ -334,30 +333,31 @@ cd analysis/03_metagenome_reanalysis/
 snakemake --cores 10 
 cd ../../
 ```
-* Compiled all Metaxa2 reports into one big rDNA-based occurrence matrix. Used the metaxa_dc module
+* Compiled all Metaxa2 reports into one big rRNA-based occurrence matrix. Used the metaxa_dc module
 ```
 metaxa2_dc *.level_5.txt -o metaxa_level_5_combined.txt
 ```
 * Used IDTAXA to reclassify bacterial sequences
-	* While, I kept Metaxa classifications for eukaryotes, I re-classified bacterial rDNA sequences with IDTAXA
+	* While, I kept Metaxa classifications for eukaryotes, I re-classified bacterial rRNA gene sequences with IDTAXA
 	* Rationale: IDTAXA uses GTDB system, and therefore IDTAXA assignments would be consistent with the system we used for MAG taxonomic assigments
 	* Used `code/idtaxa_compiling_db.R` to set up the IDTAXA database and to reclassify bacterial sequences. As input, used fasta files produced by Metaxa `analysis/03_metagenome_reanalysis/{sample}.bacteria.fasta.txt`
 	* Saved IDTAXA output as `analysis/03_metagenome_reanalysis/idtaxa_reads.txt` and `analysis/03_metagenome_reanalysis/idtaxa_assemblies.txt`
 * Visualized presence/absence of selected lineages according to the different types of screening
 	* Used `code/multi_level_screening_viz.R` to make a heatmap and a table for the presence of key lineages (4 bacterial and 3 eukaryotic) in metagenomes
-	* The heatmap shows detection of the lineages on three "levels": as MAGs, as rDNA in the assemblies, and as rDNA in the reads
+	* The heatmap shows detection of the lineages on three "levels": as MAGs, as rRNA genes in the assemblies, and as rRNA genes in the reads
 	* Only included the metagenomes that a) yielded an LFS MAG b) wasn't removed as potential misidentification 
 	* The dendrogram  shows the fungal phylogenomic tree (see 3.2). Tips that are not LFS are dropped from the tree
-	* Saved the figure as `results/figures/multilevel_screening.pdf`. The figure is referenced in the text as **Fig.XXX**
+	* Saved the figure as `results/figures/multilevel_screening.pdf`. The figure is referenced in the text as **Fig.3**
 	* Made a table with the prevalence (i.e. percentage of metagenomes that contained a group of organisms) of the selected groups, according to each "level" of detection. Save the table as `analysis/03_metagenome_reanalysis/occurrence_rDNA_stats.tsv`
 	* Calculated prevalence of Lichenihabitans using the same approach as above
-* Calculated prevalence for all bacterial families, based on the rDNA screening of assemblies and reads
-	* Only included the metagenomes that a) yielded an LFS MAG b) wasn't removed as potential misidentification 
-		* If all metagenomes are included, the ranking stays the same
+* Calculated prevalence for all bacterial families, based on the rRNA screening of assemblies and reads
+	* Included all metagenomes that yeilded at least one MAG (n=375)
 	* Saved the table as `results/tables/idtaxa_top_bac_families.tsv` 
-	* This table is referenced in the text as **Table SXXX**
+	* This table is referenced in the text as **Supplementary Table 5**
+* Calculated the prevalence of the eukaryotic symbionts
+	* Included all metagenomes that yeilded at least one MAG
 
-## 5. Estimating relative abundance of symbiont groups
+## 5. Estimating relative abundance of symbiont groups (n=375)
 Software used:
 * R libraries: tidyverse, scales
 
@@ -367,18 +367,18 @@ Software used:
 * MAG 'categories' correspond to the putative roles (see 4.2)
 * Used `code/summarize_mag_cov_counts.R`  
 * As a source, used `results/tables/MAG_confirmed_roles_bwa.tsv`
-* Calculated the number of MAGs per category, saved the results as `results/tables/MAG_counts_summary.tsv`. This table is referenced in the text as **Table SXXX**
+* Calculated the number of MAGs per category, saved the results as `results/tables/MAG_counts_summary.tsv`. This table is referenced in the text as **Supplementary Table 4**
 * Calculated the total coverage depth per  MAGs per category, saved results into `results/tables/MAG_coverage_summary.tsv` 
 * Saved metagenomes that had an LFS MAG, but its coverage was lower than combined coverage of bacteria in `analysis/05_MAGs/tables/MAG_coverage_high_bacteria.tsv`
-* Produced a plot showing the relationship between the number of MAGs and sequencing depth, saved as `results/figures/mags_vs_depth.png`. This figure is referenced in the text as **Fig. SXXX**
+* Produced a plot showing the relationship between the number of MAGs and sequencing depth, saved as `results/figures/mags_vs_depth.png`. This figure is referenced in the text as **Extended Data Fig. 3**
 
 ### 5.2. Analyzed relative abundance for the key bacterial genera
 * Abundance inferred from the coverage depth. Relative abundance is relative to the LFS abundance
 * Relative abundance of a lineage in a sample = (coverage depth of its MAG)/(coverage depth of the LFS MAG) 
 * Only the metagenomes that yielded an LFS MAG were used
 * Used `code/relative_cov_bac.R` to plot relative abundance of the key symbiont groups: 13 top bacterial genera and the tree eukaryotic symbiont groups
-* Saved as "results/figures/relative_cov_boxplot_genus.png". This figure is referenced in the text as **Fig. SXXX**
-* Saved the table that contains median relative abundanceper bacterial genus as `results/tables/median_relative_coverage_by_genus.tsv`. This table is referenced in the text as **Table SXXX**
+* Saved as "results/figures/relative_cov_boxplot_genus.png". This figure is referenced in the text as **Extended Data Fig. 5**
+* Saved the table that contains median relative abundanceper bacterial genus as `results/tables/median_relative_coverage_by_genus.tsv`. This table is referenced in the text as **Supplementary Table 6**
 
 ## 6. Analyzing how sequencing depth affects MAG recovery
 Software used:
@@ -394,13 +394,13 @@ Software used:
 	1. Based on the read alignments. A MAG is present if its breadth of coverage >50% according to BWA
 	2. Based on binning results. A MAG is present if it was recovered during de-novo binning of the metagenomes (including the MAGs discarded during dereplication)
 * Used all metagenomes
-* Saved the figure `results/figures/myco_photobiont_vs_depth.png` (based on the read alignments). This figure is referenced in the text as **Fig. SXXX**
+* Saved the figure `results/figures/myco_photobiont_vs_depth.png` (based on the read alignments). This figure is referenced in the text as **Extended Data Fig. 4**
 
 ### 6.3. Genome completeness as a function of coverage depth
 * Used `code/completeness_breadth_vs_cov.R` to check how coverage depth affects:
-        * EukCC completeness for de novo produced MAGs
-        * breadth of coverage for the bwa alignments
-        * saved the result as `results/figures/completenes_and_breadth_vs_cov.png`
+    * EukCC completeness for de novo produced MAGs
+    * Breadth of coverage for the bwa alignments
+    * Saved the result as `results/figures/completenes_and_breadth_vs_cov.png`, it is referred in the text as **Supplementary Fig. 1**
 
 
 
@@ -442,19 +442,19 @@ prokka --compliant --centre UoA --outdir {MAG_ID} --prefix {MAG_ID} {MAG_ID}.fa
 * The main script is `code/bacteria_functional_clustering.R`. Using this script did the following:
 	* Combined all KEGG annotations in one table `analysis/07_annotate_MAGs/summarized_outputs/all_mags_kegg_combined.txt`
 	* For the MAGs with >90% completeness, reconstructed KEGG modules, saved the table as `analysis/07_annotate_MAGs/summarized_outputs/kegg_module_matrix.txt`
-	* Compared different clustering methods (kmeans, dynamicTreeCut, mclust, apcluster, hdbscan, fast_greedy, leading_eigen, louvain, walktrap, MCL, binary_cut). Saved the output figures as `analysis/07_annotate_MAGs/summarized_outputs/genomes_by_kegg_modules_clustering_comparison.pdf` and `analysis/07_annotate_MAGs/summarized_outputs/genomes_by_kegg_modules_clustering_comparison2.pdf` (referred in the text as **Fig. SXXX**)
+	* Compared different clustering methods (kmeans, dynamicTreeCut, mclust, apcluster, hdbscan, fast_greedy, leading_eigen, louvain, walktrap, MCL, binary_cut). Saved the output figures as `analysis/07_annotate_MAGs/summarized_outputs/genomes_by_kegg_modules_clustering_comparison.pdf` and `analysis/07_annotate_MAGs/summarized_outputs/genomes_by_kegg_modules_clustering_comparison2.pdf` (referred in the text as **Supplementary Fig. 2**)
 	* For the selected methods of clustering (kmeans, apcluster, hdbscan), saved results (i.e. cluster assignments for all used MAGs), as a table (`analysis/07_annotate_MAGs/summarized_outputs/kegg_modules_clustering.txt`) and as a figure (`analysis/07_annotate_MAGs/summarized_outputs/genomes_by_kegg_modules_clustering_results.pdf`)
-	* Calculated taxonomic coherence for the selected three methods (following the definitions from Zoccarato et al. 2022). Saved the resulting figure as `analysis/07_annotate_MAGs/summarized_outputs/genomes_by_kegg_modules_clustering_taxonomic_coherence.pdf` (referred in the text as **Fig. SXXX**)
+	* Calculated taxonomic coherence for the selected three methods (following the definitions from Zoccarato et al. 2022). Saved the resulting figure as `analysis/07_annotate_MAGs/summarized_outputs/genomes_by_kegg_modules_clustering_taxonomic_coherence.pdf` (referred in the text as **Supplementary Fig. 3**)
 
 ### 7.3. Selected bacterial MAGs for in depth annotation
 * Picked the 13 bacterial genera with highest numbers of occurrences, that together accounted for 53% of all bacterial occurrences
 * From them, selected all highest quality MAGs (completenes >95%, contamination <10%, according to CheckM)
 * Used `code/select_mags_for_annotaiont.R`
 * Saved the list of selected MAGs as `analysis/07_annotate_MAGs/mag_table.txt` and `analysis/07_annotate_MAGs/mag_list.txt`. In total, 63 MAGs were selected
-* Prepared the table with information on the selected MAGs, saved as `results/tables/selected_mag_info.txt`. This table is referenced in the text as Table SXXX
+* Prepared the table with information on the selected MAGs, saved as `results/tables/selected_mag_info.txt`. This table is referenced in the text as **Supplementary Table 7**
 * Made figures to illustrate the process of MAG selection
 	* Used `code/draw_mag_selection_fig.R`
-	* Saved the figure as `results/figures/mag_selection.svg`, it is referred in the text as **Fig. XXX**
+	* Saved the figure as `results/figures/mag_selection.svg`, it is referred in the text as **Fig. 1**
 
 ### 7.4. In-depth functional annotations
 Analyzed the 63 selected MAGs
@@ -486,11 +486,11 @@ Analyzed the 63 selected MAGs
 	* Saved outputs
 		* Genes annotated as CAZymes `analysis/07_annotate_MAGs/summarized_outputs/cazymes_gene_assignments.txt`
 		* Number of CAZymes assigned to different families, pee MAG
-			* As a table: `results/tables/cazymes_summarized.txt`. This table is referenced in the text as **Table SXXX**
+			* As a table: `results/tables/cazymes_summarized.txt`. This table is referenced in the text as **Supplementary Table 11**
 			* As a heatmap: `analysis/07_annotate_MAGs/summarized_outputs/cazy_heatmap.pdf`
-		* Table showing median # of genes from diff. CAZy classes summarized by genus + median total # of CAZymes: `results/tables/median_cazy_by_genus.txt`. This table is referenced in the text as **Table SXXX**
+		* Supplementary Table howing median # of genes from diff. CAZy classes summarized by genus + median total # of CAZymes: `results/tables/median_cazy_by_genus.txt`. This table is referenced in the text as **Supplementary Table 10**
    		* Same by family: `analysis/07_annotate_MAGs/summarized_outputs/cazy_class_percentage_by_bac_family.txt`
-    	* Figure showing # of genes from diff. CAZy classes grouped by family: `results/figures/cazy_bac_genus.svg`
+    	* Figure showing # of genes from diff. CAZy classes grouped by family: `results/figures/cazy_bac_genus.svg`. It is referenced in the text as **Fig. 5B**
 
 * Screened the metagenomic assemblies for NifH, a gene involved in nitrogen fixation
 	* Made a Snakemake pipeline: `analysis/07_annotate_MAGs/Snakefile_tblastn_metagenome`
@@ -506,11 +506,12 @@ Analyzed the 63 selected MAGs
 * Summarized the emeraldBGC results
 	* Used `code/emerald_summarize.R`
 	* Analyzed the "nearest MiBGIG" assignments. Only retained hits that had Jaccard distance <0.7
-	* Saved the table with retained annotations as `results/tables/bgc_all_good_hits.txt`. In the text it's referenced as **Table SXXX**
+	* Saved the table with retained annotations as `results/tables/bgc_all_good_hits.txt`. In the text it's referenced as **Supplementary Table 12**
 * Annotated iron metabolism genes using FeGenie
 ```
-will add details after asking Arkadiy
+FeGenie.py -bin_dir . -bin_ext faa -t 16 --orfs --meta  --heme  --makeplots -out fegenie_all -ref nr  --all_results
 ```
+	* FeGenie output table is referenced in the text as **Supplementary Table 9**
 * Visualized key metabolic traits
 	* Screened KEGG annotations for the annotation related to the key metabolic traits
 		* Anoxygenic Photosystem II (K08928, K08929, K13991, K13992, K08926, K08927)
@@ -546,7 +547,7 @@ will add details after asking Arkadiy
 			* glutamate transporter (K10001, K10002, K10003, K10004)
 			* capsular transporter (K10107, K09688, K09689)
 	* Used `code/pathway_fig.R`
-	* Saved the figure as `results/figures/pathway_fig.svg`, it is referenced in the text as **Fig. XXX**
+	* Saved the figure as `results/figures/pathway_fig.svg`, it is referenced in the text as **Fig. 5A**
 
 ## 8. Loss of function in Rhizobiales
 Software used:
@@ -558,7 +559,7 @@ Software used:
 
 ### 8.1. Rhizobiales phylogenomic analysis
 * Assembled dataset based on the selection from [Volpiano et al](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8026895/#FS1)
-	* `analysis/09_rhizobiales_phylogeny/Table_1.xlsx` is the supplementary from this paper. Table S1 gives the list of genomes they used
+	* `analysis/09_rhizobiales_phylogeny/Table_1.xlsx` is the supplementary from this paper. Supplementary Table 1 gives the list of genomes they used
 	* Saved the list of ftp addresses into a separate file `analysis/09_rhizobiales_phylogeny/ftp_list.txt`
 	* Removed \r from the file
 	```
@@ -581,6 +582,7 @@ Software used:
 	```
 	wget ftp://ftp.ncbi.nlm.nih.gov/genomes/refseq/bacteria/Rhodobacter_amnigenus/latest_assembly_versions/GCF_009908265.2_ASM990826v2/GCF_009908265.2_ASM990826v2_genomic.fna.gz
 	```
+	* The list of reference genomes is compiled in **Supplementary Table 17**
 * Added Rhizobiales MAGs from our data
 	* Used `list_rhizobiales_mags.R`
 	* Saved the list as `analysis/09_rhizobiales_phylogeny/list_rhizobiales_mags.txt`
@@ -646,7 +648,8 @@ cat  blast_nifh/tmp_*_report* > blast_nifh/blast_nifh.txt
 		* presence/absence of the genes of interest: `analysis/09_rhizobiales_phylogeny/iqtree/itol_{gene_name}.txt`
 		* source (NCBI or our data): `analysis/09_rhizobiales_phylogeny/iqtree/itol_source.txt`
 		* number of occurrences (for the MAGs only): `analysis/09_rhizobiales_phylogeny/iqtree/itol_occurrences.txt`
-* Visualized the tree using iTOL. This figure is referenced in the text as **Fig. SXXX**
+* Visualized the tree using iTOL. This figure is referenced in the text as **Extended Data Fig. 6**
+* Sequences used as blast queries are listed in **Supplementary Table 18**
 
 ## 9. Searching for cobalamin-dependent genes in algal MAGs
 * Made a list of all algal MAGs with >90% completeness
@@ -664,4 +667,4 @@ cd analysis/11_algal_MAGs/
 snakemake --cores 10 -n -s Snakefile_tblastn 
 cd ../../
 ```
-
+* The results are summarized in **Supplementary Table 8**
