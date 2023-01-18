@@ -1,8 +1,8 @@
 # A global survey of lichen symbionts from metagenomes 
-This repository contains scripts and intermediate results for the manuscript (Tagirdzhanova et al. 2022, biorXiv)
+This repository contains scripts and intermediate results for the manuscript (Tagirdzhanova et al. 2023, biorXiv)
 
 ## Abstract
-
+Lichens are the archetypal symbiosis and the one for which the term was coined. Although application of shotgun sequencing techniques has shown that many lichen symbioses can constitutively harbour more symbionts than the canonically recognized fungus and photobiont, no census of lichen organismal composition has ever been undertaken across a broad cross-section of global lichen diversity. We assembled and binned 437 lichen metagenomes and mapped their component genomes for the first time. Four bacterial lineages — Beijerinckiaceae, Acetobacteraceae, Acidobacteriaceae and Sphingomonadaceae —  equal or exceeded the frequency of the most common photobiont lineage, Trebouxia. A single bacterial genus, Lichenihabitans, occurred in nearly one-third of all lichens sampled. High-frequency lichen bacteria are predicted to be aerobic anoxygenic photoheterotrophs, producing vitamins essential to many eukaryotes, and, contrary to long-standing hypotheses, do not fix nitrogen. Although bacteria have long been known to associate with lichens, our results suggest that just a few lineages are near-ubiquitous components of these enigmatic symbioses.
 
 ## Overview
 
@@ -401,7 +401,6 @@ Software used:
     * EukCC completeness for de novo produced MAGs
     * Breadth of coverage for the bwa alignments
     * Saved the result as `results/figures/completenes_and_breadth_vs_cov.png`, it is referred in the text as **Supplementary Fig. 1**
-
 
 
 ## 7. Functional analysis
