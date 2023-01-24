@@ -1,4 +1,4 @@
-# A global survey of lichen symbionts from metagenomes 
+# Evidence for a core set of microbial lichen symbionts from a global survey of metagenomes
 This repository contains scripts and intermediate results for the manuscript (Tagirdzhanova et al. 2023, biorXiv)
 
 ## Abstract
