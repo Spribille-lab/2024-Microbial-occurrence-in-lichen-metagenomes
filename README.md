@@ -497,12 +497,12 @@ Analyzed the 63 selected MAGs
 	* Extracted the hits as fasta files
 	* Obtained taxonomic assignments for the hits by searching them against the NCBI_nt database and using getLCA
 
-* Annotated biosynthetic gene clusters using emeraldBGC
+* Annotated biosynthetic gene clusters using SanntiS
 	```
-	emeraldbgc prokka/{MAG_ID}/{MAG_ID}.gbk --outdir /emeraldbgc/{MAG_ID}
+	SanntiSprokka/{MAG_ID}/{MAG_ID}.gbk --outdir /emeraldbgc/{MAG_ID}
 
 	```
-* Summarized the emeraldBGC results
+* Summarized the SanntiS results
 	* Used `code/emerald_summarize.R`
 	* Analyzed the "nearest MiBGIG" assignments. Only retained hits that had Jaccard distance <0.7
 	* Saved the table with retained annotations as `results/tables/bgc_all_good_hits.txt`. In the text it's referenced as **Supplementary Table 12**
