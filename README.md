@@ -9,17 +9,17 @@ Lichens are the archetypal symbiosis and the one for which the term was coined. 
 ```
 project
 ├── README.md							# this doc; description of the repo and the project log
-├── code 								# all scripts generated for the analysis, with the exception of snakemake pipelines (those can be found in analysis/)
+├── code 							# all scripts generated for the analysis, with the exception of snakemake pipelines (those can be found in analysis/)
 ├── analysis 							# exploratory analysis, trees and tables generated for the analysis. Only folders relevant for this publications are included. Some files are designated as Supplementary data (see below)
-│   ├── 03_metagenome_reanalysis			# information related to the used metagenomes (metadata, SRA IDs, location information) and analysis on the metagenome-level (i.e. rDNA screenening) 
-│   ├── 05_MAGs 							# analysis on the level of MAGs: phylogenomic trees, tables related to MAG occurrences and coverage, and exploratory figures
+│   ├── 03_metagenome_reanalysis				# information related to the used metagenomes (metadata, SRA IDs, location information) and analysis on the metagenome-level (i.e. rDNA screenening) 
+│   ├── 05_MAGs 						# analysis on the level of MAGs: phylogenomic trees, tables related to MAG occurrences and coverage, and exploratory figures
 │   ├── 07_annotate_MAGs					# snakemake pipelines for annotating selected bacterial MAGs and summarized outputs of annotations: KO annotations summarized by bacterial genus, CAZy annotations
-│   ├── 09_rhizobiales_phylogeny			# analysis of Rhizobiales MAGs and reference genomes: phylogenmoci trees, and blast-based screening for several genes associated with C1 metabolism and nitrogen fixation
+│   ├── 09_rhizobiales_phylogeny				# analysis of Rhizobiales MAGs and reference genomes: phylogenmoci trees, and blast-based screening for several genes associated with C1 metabolism and nitrogen fixation
 │   ├── 11_algal_MAGs						# screening of algal MAGs for methionin synthases MetE and MetH
-│   └── Notebook 							# temp log files for various parts of the analysis; the cleaned-up version of the same logs is in this file
+│   └── Notebook 						# temp log files for various parts of the analysis; the cleaned-up version of the same logs is in this file
 └── results 							# results included in the manuscript
-    ├── figures 							# figures
-    └── tables 								# tables, included as Supplementary tables and key data tables used to produce figures
+    ├── figures 						# figures
+    └── tables 							# tables, included as Supplementary tables and key data tables used to produce figures
 
 ```
 
@@ -160,6 +160,11 @@ Software used:
 
 
 ### 3.1. Prokaryotic MAGs
+* Screened the bins using CheckM to detect bacterial MAGs and assess their completeness and contamination
+```
+checkm lineage_wf MAGs
+```
+* Taxonomic assignment
 ```
 gtdbtk classify_wf \
   --cpus 8 \
@@ -173,6 +178,10 @@ iqtree -nt 16 \
 ```
 
 ### 3.2. Eukaryotic MAGs
+* Screened the bins using EukCC to detect bacterial MAGs and assess their completeness and contamination
+```
+eukcc folder MAGs
+```
 * Preliminary taxonomic assignments based on the database search
 ```
 CAT bins \
