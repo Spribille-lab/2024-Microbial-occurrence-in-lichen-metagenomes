@@ -95,7 +95,7 @@ ggplot(class_genus %>% left_join(annotated_mags %>% select(-Genome) %>% distinct
 
 ggplot(class,aes(x=class,y=n,col=bac_family)) + geom_jitter(width=0.1,size=0.5)+
   scale_color_manual(values=cols)+
-  facet_wrap(~bac_family,nrow=3)+
+  facet_wrap(~bac_family,nrow=1)+
   xlab("")+ylab("Number of identified CAZymes")+guides(color="none")+
   theme_minimal()+
   theme(axis.text.x = element_text(size=7),
@@ -104,6 +104,7 @@ ggplot(class,aes(x=class,y=n,col=bac_family)) + geom_jitter(width=0.1,size=0.5)+
         strip.text.x = element_text(size =7),
   )
 
+ggsave("results/figures/cazy_bac_genus.svg",device="svg",height = 50,width=180,unit="mm")
 
 ## 7. visualize: hm
 

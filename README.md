@@ -75,7 +75,7 @@ for ID_SAMPLE in `cut -d ',' -f1 analysis/03_metagenome_reanalysis/similar_datas
 * To the samples that didn't have coordinates, I assigned coordinates based on the description of the sampling location in the original paper
 * Cleaned-up version of the output is saves as `analysis/03_metagenome_reanalysis/locations_compiled_manually.txt`
 * Used `code/map.R` to draw map of all sampling locations
-* The map is saved as `results/figures/map.pdf`, in the text it's reffered to as **Fig. SXXX**
+* The map is saved as `results/figures/map.pdf`, in the text it's reffered to as **Extended Data Fig. 1**
 
 ### 1.6. Produced **Extended Data Fig. 1**: dot hitogram of metagenomes arranged by sequencing depth
 * Used `code/metagenome_by_source_fig.R`
@@ -356,6 +356,10 @@ metaxa2_dc *.level_5.txt -o metaxa_level_5_combined.txt
 	* This table is referenced in the text as **Supplementary Table 5**
 * Calculated the prevalence of the eukaryotic symbionts
 	* Included all metagenomes that yeilded at least one MAG
+* Mapped geographic distribution of the key lineages (4 bacterial families, genus Licheinhabitans, and 3 eukaryotic groups)
+	* Used `code/map_symbionts.R`
+	* Displayed the same three levels of detection: as MAGs, as rRNA genes in the assemblies, and as rRNA genes in the reads
+	* Saved the figure as `results/figures/map_symbionts.*`. In the text it's referenced as **Supplementary Fig. XXX**
 
 ## 5. Estimating relative abundance of symbiont groups (n=375)
 Software used:
