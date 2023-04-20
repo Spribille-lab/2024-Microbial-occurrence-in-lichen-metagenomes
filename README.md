@@ -1,4 +1,4 @@
-# A global survey of lichen symbionts from metagenomes 
+# Evidence for a core set of microbial lichen symbionts from a global survey of metagenomes
 This repository contains scripts and intermediate results for the manuscript (Tagirdzhanova et al. 2023, biorXiv)
 
 ## Abstract
@@ -9,23 +9,23 @@ Lichens are the archetypal symbiosis and the one for which the term was coined. 
 ```
 project
 ├── README.md							# this doc; description of the repo and the project log
-├── code 								# all scripts generated for the analysis, with the exception of snakemake pipelines (those can be found in analysis/)
+├── code 							# all scripts generated for the analysis, with the exception of snakemake pipelines (those can be found in analysis/)
 ├── analysis 							# exploratory analysis, trees and tables generated for the analysis. Only folders relevant for this publications are included. Some files are designated as Supplementary data (see below)
-│   ├── 03_metagenome_reanalysis			# information related to the used metagenomes (metadata, SRA IDs, location information) and analysis on the metagenome-level (i.e. rDNA screenening) 
-│   ├── 05_MAGs 							# analysis on the level of MAGs: phylogenomic trees, tables related to MAG occurrences and coverage, and exploratory figures
+│   ├── 03_metagenome_reanalysis				# information related to the used metagenomes (metadata, SRA IDs, location information) and analysis on the metagenome-level (i.e. rDNA screenening) 
+│   ├── 05_MAGs 						# analysis on the level of MAGs: phylogenomic trees, tables related to MAG occurrences and coverage, and exploratory figures
 │   ├── 07_annotate_MAGs					# snakemake pipelines for annotating selected bacterial MAGs and summarized outputs of annotations: KO annotations summarized by bacterial genus, CAZy annotations
-│   ├── 09_rhizobiales_phylogeny			# analysis of Rhizobiales MAGs and reference genomes: phylogenmoci trees, and blast-based screening for several genes associated with C1 metabolism and nitrogen fixation
+│   ├── 09_rhizobiales_phylogeny				# analysis of Rhizobiales MAGs and reference genomes: phylogenmoci trees, and blast-based screening for several genes associated with C1 metabolism and nitrogen fixation
 │   ├── 11_algal_MAGs						# screening of algal MAGs for methionin synthases MetE and MetH
-│   └── Notebook 							# temp log files for various parts of the analysis; the cleaned-up version of the same logs is in this file
+│   └── Notebook 						# temp log files for various parts of the analysis; the cleaned-up version of the same logs is in this file
 └── results 							# results included in the manuscript
-    ├── figures 							# figures
-    └── tables 								# tables, included as Supplementary tables and key data tables used to produce figures
+    ├── figures 						# figures
+    └── tables 							# tables, included as Supplementary tables and key data tables used to produce figures
 
 ```
 
 ## 1. Dataset construction
 Software used:
-* [sratoolkit](https://github.com/ncbi/sra-tools/wiki)
+* [SRAtoolkit v2.9.1](https://github.com/ncbi/sra-tools/wiki)
 * sourmash v4.2.2 (Pierce et al., 2019)
 * R libraries: tidyverse, stringr, ggmap, rnaturalearth, sf, patchwork, scales
 
@@ -34,7 +34,6 @@ Software used:
     * Downloaded SRA run info for PRJNA700635 and PRJNA731936 > `analysis/03_metagenome_reanalysis/SraRunInfo_PRJNA731936.csv analysis/03_metagenome_reanalysis/SraRunInfo_PRJNA700635.csv`
     * Downloaded [Appendix S2](https://bsapubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Fajb2.1339&file=ajb21339-sup-0002-AppendixS2.xlsx) from Lendemer et al. 2019 with the voucher metadata for their metagenomes
     * Made finel list of SRA IDs using `code/getting_SRA_id.R`. Only kept IDs that matched between the metadata from the NCBI and from the Appendix > `analysis/03_metagenome_reanalysis/sra_ids.txt`
-* Removed duplicate data: 
 * Got SRA ids from other sources
     * See `analysis/03_metagenome_reanalysis/all_metagenome_reanalysis.csv`. Copied all SRA ids into `analysis/03_metagenome_reanalysis/sra_ids_other.txt`
     * Combined the two files into the final list of SRA IDs to use:
@@ -75,7 +74,7 @@ for ID_SAMPLE in `cut -d ',' -f1 analysis/03_metagenome_reanalysis/similar_datas
 * To the samples that didn't have coordinates, I assigned coordinates based on the description of the sampling location in the original paper
 * Cleaned-up version of the output is saves as `analysis/03_metagenome_reanalysis/locations_compiled_manually.txt`
 * Used `code/map.R` to draw map of all sampling locations
-* The map is saved as `results/figures/map.pdf`, in the text it's reffered to as **Extended Data Fig. 1**
+* The map is saved as `results/figures/map.pdf`, in the text it's reffered to as **Extended Data Fig. 2**
 
 ### 1.6. Produced **Extended Data Fig. 1**: dot hitogram of metagenomes arranged by sequencing depth
 * Used `code/metagenome_by_source_fig.R`
@@ -84,12 +83,11 @@ for ID_SAMPLE in `cut -d ',' -f1 analysis/03_metagenome_reanalysis/similar_datas
 
 ## 2. Metagenomic assembly and binning
 Software used:
-* fastp (Chen et al., 2018)
+* fastp v0.20 (Chen et al., 2018)
 * metaWRAP pipeline v.1.2 (Uritskiy et al. 2018)
-* metaSPAdes (Nurk et al. 2017
-* CONCOCT (Alneberg et al. 2014)
-* metaBAT2 (Kang et al. 2015)
-* CheckM v1.1.3 (Parks et al. 2015)
+* metaSPAdes v3.13 (Nurk et al. 2017)
+* CONCOCT v1.1 (Alneberg et al. 2014)
+* metaBAT2 v2 (Kang et al. 2015)
 * dRep v3 (Olm et al. 2017)
 
 ### 2.1. Adapter trimming
@@ -147,14 +145,26 @@ dRep dereplicate -p 2 \
 ## 3. Taxonomic assignments of MAGs
 Software used:
 * GTDB-Tk v1.5.0 (Chaumeil et al. 2020)
-* IQ-TREE (Nguyen et al. 2015)
+* IQ-TREE v2.0.7 (Nguyen et al. 2015)
 * BAT (CAT v5.2.3, database version: 20210107; von Meijenfeldt et al. 2019)
 * [Phylociraptor v0.9.9](https://github.com/reslp/phylociraptor)
+	* ASTRAL v5.7.1 (Zhang et al. 2018)
+	* Phylogenetic signal parser v1.1 (Shen et al. 2017)
+	* BUSCO5 (Seppey et  al. 2019)
+	* MAFFT v7.464 (Katoh & Standley 2013)
+	* trimAl v1.4.1 (Capella-Gutiérrez et al. 2009)
+* CheckM v1.1.3 (Parks et al. 2015)
+* EukCC v2 (Saary et al. 2020)
 * iTOL (Letunic & Bork 2019)
 * R libraries: tidyverse, reshape2, AMR
 
 
 ### 3.1. Prokaryotic MAGs
+* Screened the bins using CheckM to detect bacterial MAGs and assess their completeness and contamination
+```
+checkm lineage_wf MAGs
+```
+* Taxonomic assignment
 ```
 gtdbtk classify_wf \
   --cpus 8 \
@@ -168,6 +178,10 @@ iqtree -nt 16 \
 ```
 
 ### 3.2. Eukaryotic MAGs
+* Screened the bins using EukCC to detect bacterial MAGs and assess their completeness and contamination
+```
+eukcc folder MAGs
+```
 * Preliminary taxonomic assignments based on the database search
 ```
 CAT bins \
@@ -217,11 +231,12 @@ cd analysis/05_MAGs/trees/eukaryotes/Fungi
 ## 4. Occurrence analysis
 Software used:
 * BWA (Li & Durbin 2009)
-* Metaxa2 (Bengtsson‐Palme et al. 2015)
-* [BBTools](https://sourceforge.net/projects/bbmap/)
+* SAMtools v1.9 (Li et al. 2009)
+* BBTools v37.62
+* Metaxa v2.2 (Bengtsson‐Palme et al. 2015)
+* [BBTools v37.62](https://sourceforge.net/projects/bbmap/)
 * IDTAXA (Murali et al. 2018)
 * iTOL (Letunic & Bork 2019)
-* Snakemake (Mölder et al. 2021)
 * R libraries: tidyverse, ape, phytools, stringr, taxize, myTAI, igraph, qgraph, plotly, DECIPHER, R.utils, treeio, seriation, ComplexHeatmap, DECIPHER, circlize, conflicted
 
 ### 4.1. Aligned all metagenomic datasets to all MAGs
@@ -410,14 +425,13 @@ Software used:
 ## 7. Functional analysis
 Software used:
 * PROKKA v1.13 (Seemann 2014)
-* Snakemake (Mölder et al. 2021)
 * mmseqs2 v13.45111 (Steinegger and Söding 2017)
 * KEGG Orthology Database (Kanehisa et al. 2002)
 * KofamScan (Aramaki et al. 2020)
-* BLAST (Altschul et al. 1990)
+* BLAST v2.9.0+ (Altschul et al. 1990)
 * [dbcan2 v3.0.2](https://github.com/linnabrown/run_dbcan)
 * FeGenie (Garber et al. 2020)
-* [emeraldBGC v0.2.3](https://github.com/Finn-Lab/emeraldBGC)
+* [SanntiS v0.2.3](https://github.com/Finn-Lab/SanntiS)
 * [getLCA](https://github.com/frederikseersholm/getLCA)
 * antiSMASH v6.1.0 (Blin et al. 2021)
 * R libraries: tidyverse, stringr, seriation, ComplexHeatmap, DECIPHER, circlize, RColorBrewer, patchwork, scales, waffle, extrafont, hrbrthemes, simplifyEnrichment, 
@@ -501,12 +515,12 @@ Analyzed the 63 selected MAGs
 	* Extracted the hits as fasta files
 	* Obtained taxonomic assignments for the hits by searching them against the NCBI_nt database and using getLCA
 
-* Annotated biosynthetic gene clusters using emeraldBGC
+* Annotated biosynthetic gene clusters using SanntiS
 	```
-	emeraldbgc prokka/{MAG_ID}/{MAG_ID}.gbk --outdir /emeraldbgc/{MAG_ID}
+	SanntiSprokka/{MAG_ID}/{MAG_ID}.gbk --outdir /emeraldbgc/{MAG_ID}
 
 	```
-* Summarized the emeraldBGC results
+* Summarized the SanntiS results
 	* Used `code/emerald_summarize.R`
 	* Analyzed the "nearest MiBGIG" assignments. Only retained hits that had Jaccard distance <0.7
 	* Saved the table with retained annotations as `results/tables/bgc_all_good_hits.txt`. In the text it's referenced as **Supplementary Table 12**
@@ -556,7 +570,7 @@ FeGenie.py -bin_dir . -bin_ext faa -t 16 --orfs --meta  --heme  --makeplots -out
 Software used:
 * GTDB-Tk v1.5.0 (Chaumeil et al. 2020)
 * IQ-TREE v2.1.2 (Nguyen et al. 2015)
-* BLAST (Altschul et al. 1990)
+* BLAST v2.9.0+ (Altschul et al. 1990)
 * iTOL (Letunic & Bork 2019)
 * R libraries: tidyverse, ape, phytools, stringr, RColorBrewer
 
@@ -655,6 +669,10 @@ cat  blast_nifh/tmp_*_report* > blast_nifh/blast_nifh.txt
 * Sequences used as blast queries are listed in **Supplementary Table 18**
 
 ## 9. Searching for cobalamin-dependent genes in algal MAGs
+Software used:
+* BLAST v2.9.0+ (Altschul et al. 1990)
+* R libraries: tidyverse
+
 * Made a list of all algal MAGs with >90% completeness
 	* Used `get_algal_mag_list.R`
 	* Saved the list as `analysis/11_algal_MAGs/good_algal_mags_list.txt`
@@ -671,3 +689,21 @@ snakemake --cores 10 -n -s Snakefile_tblastn
 cd ../../
 ```
 * The results are summarized in **Supplementary Table 8**
+
+## 10. Programming languages and packages used throughout the analysis
+* Snakemake v6.15.1 (Mölder et al. 2021)
+* R v4.1.072
+* R libraries:
+	* dplyr v1.0.873
+	* tidyr v1.2.074
+	* scales v1.1.175
+	* ggplot2 v3.3.576
+	* ComplexHeatmap v2.11.177
+	* ape v5.078
+	* phangorn v2.8.179
+	* phytools v1.0-380
+	* circlize v0.4.1481
+	* igraph v1.3.082
+	* qgraph v1.9.283
+	* treeio v1.16.284
+	* DECIPHER v2.14.0
