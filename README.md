@@ -674,7 +674,12 @@ cd ../../
 * For functional annotations, used InterProScan v5.42-78.0 and KofamScan
 * Used `select_euks_annot.R` to visualize presence of vitamin pathways in the MAGs
 
-## 11. Programming languages and packages used throughout the analysis
+## 11. Screening additional lichen metagenomes for the presence of bacteria
+* After the start of our project, additional lichen metagenomes have been made public. We decided to use them to test the results that we obtained in the initial analysis
+* We screened the new metagenomes for their bacterial diversity, using rRNA screen
+* See the details on this analysis in `additional_survey/`
+
+## 12. Programming languages and packages used throughout the analysis
 * Snakemake v6.15.1 (Mölder et al. 2021)
 * R v4.1.072
 * R libraries:
