@@ -1,0 +1,307 @@
+	cluster	Rank_1	Rank_2	Rank_3	Description
+M00001_1	1	Pathway Modules	Carbohydrate metabolism	Central carbohydrate metabolism	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate
+M00002_1	1	Pathway Modules	Carbohydrate metabolism	Central carbohydrate metabolism	Glycolysis, core module involving three-carbon compounds
+M00003_1	1	Pathway Modules	Carbohydrate metabolism	Central carbohydrate metabolism	Gluconeogenesis, oxaloacetate => fructose-6P
+M00307_1	1	Pathway Modules	Carbohydrate metabolism	Central carbohydrate metabolism	Pyruvate oxidation, pyruvate => acetyl-CoA
+M00009_1	1	Pathway Modules	Carbohydrate metabolism	Central carbohydrate metabolism	Citrate cycle (TCA cycle, Krebs cycle)
+M00010_1	1	Pathway Modules	Carbohydrate metabolism	Central carbohydrate metabolism	Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate
+M00011_1	1	Pathway Modules	Carbohydrate metabolism	Central carbohydrate metabolism	Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate
+M00004_1	1	Pathway Modules	Carbohydrate metabolism	Central carbohydrate metabolism	Pentose phosphate pathway (Pentose phosphate cycle)
+M00006_1	1	Pathway Modules	Carbohydrate metabolism	Central carbohydrate metabolism	Pentose phosphate pathway, oxidative phase, glucose 6P => ribulose 5P
+M00007_1	1	Pathway Modules	Carbohydrate metabolism	Central carbohydrate metabolism	Pentose phosphate pathway, non-oxidative phase, fructose 6P => ribose 5P
+M00580_1	1	Pathway Modules	Carbohydrate metabolism	Central carbohydrate metabolism	Pentose phosphate pathway, archaea, fructose 6P => ribose 5P
+M00005_1	1	Pathway Modules	Carbohydrate metabolism	Central carbohydrate metabolism	PRPP biosynthesis, ribose 5P => PRPP
+M00008_1	1	Pathway Modules	Carbohydrate metabolism	Central carbohydrate metabolism	Entner-Doudoroff pathway, glucose-6P => glyceraldehyde-3P + pyruvate
+M00308_1	1	Pathway Modules	Carbohydrate metabolism	Central carbohydrate metabolism	Semi-phosphorylative Entner-Doudoroff pathway, gluconate => glycerate-3P
+M00014_1	2	Pathway Modules	Carbohydrate metabolism	Other carbohydrate metabolism	Glucuronate pathway (uronate pathway)
+M00631_1	2	Pathway Modules	Carbohydrate metabolism	Other carbohydrate metabolism	D-Galacturonate degradation (bacteria), D-galacturonate => pyruvate + D-glyceraldehyde 3P
+M00061_1	2	Pathway Modules	Carbohydrate metabolism	Other carbohydrate metabolism	D-Glucuronate degradation, D-glucuronate => pyruvate + D-glyceraldehyde 3P
+M00081_1	2	Pathway Modules	Carbohydrate metabolism	Other carbohydrate metabolism	Pectin degradation
+M00632_1	2	Pathway Modules	Carbohydrate metabolism	Other carbohydrate metabolism	Galactose degradation, Leloir pathway, galactose => alpha-D-glucose-1P
+M00552_1	2	Pathway Modules	Carbohydrate metabolism	Other carbohydrate metabolism	D-galactonate degradation, De Ley-Doudoroff pathway, D-galactonate => glycerate-3P
+M00129_1	2	Pathway Modules	Carbohydrate metabolism	Other carbohydrate metabolism	Ascorbate biosynthesis, animals, glucose-1P => ascorbate
+M00114_1	2	Pathway Modules	Carbohydrate metabolism	Other carbohydrate metabolism	Ascorbate biosynthesis, plants, fructose-6P => ascorbate
+M00550_1	2	Pathway Modules	Carbohydrate metabolism	Other carbohydrate metabolism	Ascorbate degradation, ascorbate => D-xylulose-5P
+M00854_1	2	Pathway Modules	Carbohydrate metabolism	Other carbohydrate metabolism	Glycogen biosynthesis, glucose-1P => glycogen/starch
+M00855_1	2	Pathway Modules	Carbohydrate metabolism	Other carbohydrate metabolism	Glycogen degradation, glycogen => glucose-6P
+M00565_1	2	Pathway Modules	Carbohydrate metabolism	Other carbohydrate metabolism	Trehalose biosynthesis, D-glucose 1P => trehalose
+M00549_1	2	Pathway Modules	Carbohydrate metabolism	Other carbohydrate metabolism	Nucleotide sugar biosynthesis, glucose => UDP-glucose
+M00554_1	2	Pathway Modules	Carbohydrate metabolism	Other carbohydrate metabolism	Nucleotide sugar biosynthesis, galactose => UDP-galactose
+M00892_1	2	Pathway Modules	Carbohydrate metabolism	Other carbohydrate metabolism	UDP-N-acetyl-D-glucosamine biosynthesis, eukaryotes, glucose => UDP-GlcNAc
+M00909_1	2	Pathway Modules	Carbohydrate metabolism	Other carbohydrate metabolism	UDP-N-acetyl-D-glucosamine biosynthesis, prokaryotes, glucose => UDP-GlcNAc
+M00012_1	2	Pathway Modules	Carbohydrate metabolism	Other carbohydrate metabolism	Glyoxylate cycle
+M00373_1	2	Pathway Modules	Carbohydrate metabolism	Other carbohydrate metabolism	Ethylmalonyl pathway
+M00373_2	2	Pathway Modules	Carbohydrate metabolism	Other carbohydrate metabolism	Ethylmalonyl pathway
+M00740_1	2	Pathway Modules	Carbohydrate metabolism	Other carbohydrate metabolism	Methylaspartate cycle
+M00532_1	2	Pathway Modules	Carbohydrate metabolism	Other carbohydrate metabolism	Photorespiration
+M00532_2	2	Pathway Modules	Carbohydrate metabolism	Other carbohydrate metabolism	Photorespiration
+M00013_1	2	Pathway Modules	Carbohydrate metabolism	Other carbohydrate metabolism	Malonate semialdehyde pathway, propanoyl-CoA => acetyl-CoA
+M00741_1	2	Pathway Modules	Carbohydrate metabolism	Other carbohydrate metabolism	Propanoyl-CoA metabolism, propanoyl-CoA => succinyl-CoA
+M00968_1	2	Pathway Modules	Carbohydrate metabolism	Other carbohydrate metabolism	Pentose bisphosphate pathway (nucleoside degradation), archaea, nucleoside/NMP => 3-PGA/glycerone phosphate
+M00131_1	2	Pathway Modules	Carbohydrate metabolism	Other carbohydrate metabolism	Inositol phosphate metabolism, Ins(1,3,4,5)P4 => Ins(1,3,4)P3 => myo-inositol
+M00165_1	3	Pathway Modules	Energy metabolism	Carbon fixation	Reductive pentose phosphate cycle (Calvin cycle)
+M00168_1	3	Pathway Modules	Energy metabolism	Carbon fixation	CAM (Crassulacean acid metabolism), dark
+M00169_1	3	Pathway Modules	Energy metabolism	Carbon fixation	CAM (Crassulacean acid metabolism), light
+M00172_1	3	Pathway Modules	Energy metabolism	Carbon fixation	C4-dicarboxylic acid cycle, NADP - malic enzyme type
+M00171_1	3	Pathway Modules	Energy metabolism	Carbon fixation	C4-dicarboxylic acid cycle, NAD - malic enzyme type
+M00170_1	3	Pathway Modules	Energy metabolism	Carbon fixation	C4-dicarboxylic acid cycle, phosphoenolpyruvate carboxykinase type
+M00173_1	3	Pathway Modules	Energy metabolism	Carbon fixation	Reductive citrate cycle (Arnon-Buchanan cycle)
+M00376_1	3	Pathway Modules	Energy metabolism	Carbon fixation	3-Hydroxypropionate bi-cycle
+M00376_2	3	Pathway Modules	Energy metabolism	Carbon fixation	3-Hydroxypropionate bi-cycle
+M00375_1	3	Pathway Modules	Energy metabolism	Carbon fixation	Hydroxypropionate-hydroxybutylate cycle
+M00374_1	3	Pathway Modules	Energy metabolism	Carbon fixation	Dicarboxylate-hydroxybutyrate cycle
+M00377_1	3	Pathway Modules	Energy metabolism	Carbon fixation	Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)
+M00579_1	3	Pathway Modules	Energy metabolism	Carbon fixation	Phosphate acetyltransferase-acetate kinase pathway, acetyl-CoA => acetate
+M00620_1	3	Pathway Modules	Energy metabolism	Carbon fixation	Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate
+M00567_1	4	Pathway Modules	Energy metabolism	Methane metabolism	Methanogenesis, CO2 => methane
+M00357_1	4	Pathway Modules	Energy metabolism	Methane metabolism	Methanogenesis, acetate => methane
+M00358_1	4	Pathway Modules	Energy metabolism	Methane metabolism	Coenzyme M biosynthesis
+M00174_1	4	Pathway Modules	Energy metabolism	Methane metabolism	Methane oxidation, methanotroph, methane => formaldehyde
+M00346_1	4	Pathway Modules	Energy metabolism	Methane metabolism	Formaldehyde assimilation, serine pathway
+M00345_1	4	Pathway Modules	Energy metabolism	Methane metabolism	Formaldehyde assimilation, ribulose monophosphate pathway
+M00344_1	4	Pathway Modules	Energy metabolism	Methane metabolism	Formaldehyde assimilation, xylulose monophosphate pathway
+M00378_1	4	Pathway Modules	Energy metabolism	Methane metabolism	F420 biosynthesis, archaea
+M00935_1	4	Pathway Modules	Energy metabolism	Methane metabolism	Methanofuran biosynthesis
+M00935_3	4	Pathway Modules	Energy metabolism	Methane metabolism	Methanofuran biosynthesis
+M00175_1	5	Pathway Modules	Energy metabolism	Nitrogen metabolism	Nitrogen fixation, nitrogen => ammonia
+M00531_1	5	Pathway Modules	Energy metabolism	Nitrogen metabolism	Assimilatory nitrate reduction, nitrate => ammonia
+M00529_1	5	Pathway Modules	Energy metabolism	Nitrogen metabolism	Denitrification, nitrate => nitrogen
+M00973_1	5	Pathway Modules	Energy metabolism	Nitrogen metabolism	Anammox, nitrite + ammonia => nitrogen
+M00176_1	6	Pathway Modules	Energy metabolism	Sulfur metabolism	Assimilatory sulfate reduction, sulfate => H2S
+M00596_1	6	Pathway Modules	Energy metabolism	Sulfur metabolism	Dissimilatory sulfate reduction, sulfate => H2S
+M00595_1	6	Pathway Modules	Energy metabolism	Sulfur metabolism	Thiosulfate oxidation by SOX complex, thiosulfate => sulfate
+M00161_1	7	Pathway Modules	Energy metabolism	Photosynthesis	Photosystem II
+M00163_1	7	Pathway Modules	Energy metabolism	Photosynthesis	Photosystem I
+M00597_1	7	Pathway Modules	Energy metabolism	Photosynthesis	Anoxygenic photosystem II
+M00144_1	8	Pathway Modules	Energy metabolism	ATP synthesis	NADH:quinone oxidoreductase, prokaryotes
+M00145_1	8	Pathway Modules	Energy metabolism	ATP synthesis	NAD(P)H:quinone oxidoreductase, chloroplasts and cyanobacteria
+M00149_1	8	Pathway Modules	Energy metabolism	ATP synthesis	Succinate dehydrogenase, prokaryotes
+M00151_1	8	Pathway Modules	Energy metabolism	ATP synthesis	Cytochrome bc1 complex respiratory unit
+M00155_1	8	Pathway Modules	Energy metabolism	ATP synthesis	Cytochrome c oxidase, prokaryotes
+M00153_1	8	Pathway Modules	Energy metabolism	ATP synthesis	Cytochrome bd ubiquinol oxidase
+M00417_1	8	Pathway Modules	Energy metabolism	ATP synthesis	Cytochrome o ubiquinol oxidase
+M00157_1	8	Pathway Modules	Energy metabolism	ATP synthesis	F-type ATPase, prokaryotes and chloroplasts
+M00082_1	9	Pathway Modules	Lipid metabolism	Fatty acid metabolism	Fatty acid biosynthesis, initiation
+M00083_1	9	Pathway Modules	Lipid metabolism	Fatty acid metabolism	Fatty acid biosynthesis, elongation
+M00873_1	9	Pathway Modules	Lipid metabolism	Fatty acid metabolism	Fatty acid biosynthesis in mitochondria, animals
+M00874_1	9	Pathway Modules	Lipid metabolism	Fatty acid metabolism	Fatty acid biosynthesis in mitochondria, fungi
+M00086_1	9	Pathway Modules	Lipid metabolism	Fatty acid metabolism	beta-Oxidation, acyl-CoA synthesis
+M00087_1	9	Pathway Modules	Lipid metabolism	Fatty acid metabolism	beta-Oxidation
+M00861_1	9	Pathway Modules	Lipid metabolism	Fatty acid metabolism	beta-Oxidation, peroxisome, VLCFA
+M00101_1	10	Pathway Modules	Lipid metabolism	Sterol biosynthesis	Cholesterol biosynthesis, FPP => cholesterol
+M00102_1	10	Pathway Modules	Lipid metabolism	Sterol biosynthesis	Ergocalciferol biosynthesis, FPP => ergosterol/ergocalciferol
+M00917_1	10	Pathway Modules	Lipid metabolism	Sterol biosynthesis	Phytosterol biosynthesis, squalene 2,3-epoxide => campesterol/sitosterol
+M00917_2	10	Pathway Modules	Lipid metabolism	Sterol biosynthesis	Phytosterol biosynthesis, squalene 2,3-epoxide => campesterol/sitosterol
+M00104_1	10	Pathway Modules	Lipid metabolism	Sterol biosynthesis	Bile acid biosynthesis, cholesterol => cholate/chenodeoxycholate
+M00088_1	11	Pathway Modules	Lipid metabolism	Lipid metabolism	Ketone body biosynthesis, acetyl-CoA => acetoacetate/3-hydroxybutyrate/acetone
+M00088_2	11	Pathway Modules	Lipid metabolism	Lipid metabolism	Ketone body biosynthesis, acetyl-CoA => acetoacetate/3-hydroxybutyrate/acetone
+M00089_1	11	Pathway Modules	Lipid metabolism	Lipid metabolism	Triacylglycerol biosynthesis
+M00098_1	11	Pathway Modules	Lipid metabolism	Lipid metabolism	Acylglycerol degradation
+M00091_1	11	Pathway Modules	Lipid metabolism	Lipid metabolism	Phosphatidylcholine (PC) biosynthesis, PE => PC
+M00093_1	11	Pathway Modules	Lipid metabolism	Lipid metabolism	Phosphatidylethanolamine (PE) biosynthesis, PA => PS => PE
+M00094_1	11	Pathway Modules	Lipid metabolism	Lipid metabolism	Ceramide biosynthesis
+M00066_1	11	Pathway Modules	Lipid metabolism	Lipid metabolism	Lactosylceramide biosynthesis
+M00099_1	11	Pathway Modules	Lipid metabolism	Lipid metabolism	Sphingosine biosynthesis
+M00100_1	11	Pathway Modules	Lipid metabolism	Lipid metabolism	Sphingosine degradation
+M00113_1	11	Pathway Modules	Lipid metabolism	Lipid metabolism	Jasmonic acid biosynthesis
+M00048_1	12	Pathway Modules	Nucleotide metabolism	Purine metabolism	De novo purine biosynthesis, PRPP + glutamine => IMP
+M00049_1	12	Pathway Modules	Nucleotide metabolism	Purine metabolism	Adenine ribonucleotide biosynthesis, IMP => ADP,ATP
+M00050_1	12	Pathway Modules	Nucleotide metabolism	Purine metabolism	Guanine ribonucleotide biosynthesis, IMP => GDP,GTP
+M00053_1	12	Pathway Modules	Nucleotide metabolism	Purine metabolism	Deoxyribonucleotide biosynthesis, ADP/GDP/CDP/UDP => dATP/dGTP/dCTP/dUTP
+M00958_1	12	Pathway Modules	Nucleotide metabolism	Purine metabolism	Adenine ribonucleotide degradation, AMP => Urate
+M00959_1	12	Pathway Modules	Nucleotide metabolism	Purine metabolism	Guanine ribonucleotide degradation, GMP => Urate
+M00546_1	12	Pathway Modules	Nucleotide metabolism	Purine metabolism	Purine degradation, xanthine => urea
+M00051_1	13	Pathway Modules	Nucleotide metabolism	Pyrimidine metabolism	De novo pyrimidine biosynthesis, glutamine (+ PRPP) => UMP
+M00052_1	13	Pathway Modules	Nucleotide metabolism	Pyrimidine metabolism	Pyrimidine ribonucleotide biosynthesis, UMP => UDP/UTP,CDP/CTP
+M00938_1	13	Pathway Modules	Nucleotide metabolism	Pyrimidine metabolism	Pyrimidine deoxyribonucleotide biosynthesis, UDP => dTTP
+M00046_1	13	Pathway Modules	Nucleotide metabolism	Pyrimidine metabolism	Pyrimidine degradation, uracil => beta-alanine, thymine => 3-aminoisobutanoate
+M00939_1	13	Pathway Modules	Nucleotide metabolism	Pyrimidine metabolism	Pyrimidine degradation, uracil => 3-hydroxypropanoate
+M00020_1	14	Pathway Modules	Amino acid metabolism	Serine and threonine metabolism	Serine biosynthesis, glycerate-3P => serine
+M00018_1	14	Pathway Modules	Amino acid metabolism	Serine and threonine metabolism	Threonine biosynthesis, aspartate => homoserine => threonine
+M00621_1	14	Pathway Modules	Amino acid metabolism	Serine and threonine metabolism	Glycine cleavage system
+M00974_1	14	Pathway Modules	Amino acid metabolism	Serine and threonine metabolism	Betaine metabolism, animals, betaine => glycine
+M00975_1	14	Pathway Modules	Amino acid metabolism	Serine and threonine metabolism	Betaine degradation, bacteria, betaine => pyruvate
+M00033_1	14	Pathway Modules	Amino acid metabolism	Serine and threonine metabolism	Ectoine biosynthesis, aspartate => ectoine
+M00919_1	14	Pathway Modules	Amino acid metabolism	Serine and threonine metabolism	Ectoine degradation, ectoine => aspartate
+M00021_1	15	Pathway Modules	Amino acid metabolism	Cysteine and methionine metabolism	Cysteine biosynthesis, serine => cysteine
+M00338_1	15	Pathway Modules	Amino acid metabolism	Cysteine and methionine metabolism	Cysteine biosynthesis, homocysteine + serine => cysteine
+M00609_1	15	Pathway Modules	Amino acid metabolism	Cysteine and methionine metabolism	Cysteine biosynthesis, methionine => cysteine
+M00017_1	15	Pathway Modules	Amino acid metabolism	Cysteine and methionine metabolism	Methionine biosynthesis, aspartate => homoserine => methionine
+M00034_1	15	Pathway Modules	Amino acid metabolism	Cysteine and methionine metabolism	Methionine salvage pathway
+M00035_1	15	Pathway Modules	Amino acid metabolism	Cysteine and methionine metabolism	Methionine degradation
+M00368_1	15	Pathway Modules	Amino acid metabolism	Cysteine and methionine metabolism	Ethylene biosynthesis, methionine => ethylene
+M00019_1	16	Pathway Modules	Amino acid metabolism	Branched-chain amino acid metabolism	Valine/isoleucine biosynthesis, pyruvate => valine / 2-oxobutanoate => isoleucine
+M00535_1	16	Pathway Modules	Amino acid metabolism	Branched-chain amino acid metabolism	Isoleucine biosynthesis, pyruvate => 2-oxobutanoate
+M00570_1	16	Pathway Modules	Amino acid metabolism	Branched-chain amino acid metabolism	Isoleucine biosynthesis, threonine => 2-oxobutanoate => isoleucine
+M00432_1	16	Pathway Modules	Amino acid metabolism	Branched-chain amino acid metabolism	Leucine biosynthesis, 2-oxoisovalerate => 2-oxoisocaproate
+M00036_1	16	Pathway Modules	Amino acid metabolism	Branched-chain amino acid metabolism	Leucine degradation, leucine => acetoacetate + acetyl-CoA
+M00016_1	17	Pathway Modules	Amino acid metabolism	Lysine metabolism	Lysine biosynthesis, succinyl-DAP pathway, aspartate => lysine
+M00525_1	17	Pathway Modules	Amino acid metabolism	Lysine metabolism	Lysine biosynthesis, acetyl-DAP pathway, aspartate => lysine
+M00526_1	17	Pathway Modules	Amino acid metabolism	Lysine metabolism	Lysine biosynthesis, DAP dehydrogenase pathway, aspartate => lysine
+M00527_1	17	Pathway Modules	Amino acid metabolism	Lysine metabolism	Lysine biosynthesis, DAP aminotransferase pathway, aspartate => lysine
+M00030_1	17	Pathway Modules	Amino acid metabolism	Lysine metabolism	Lysine biosynthesis, AAA pathway, 2-oxoglutarate => 2-aminoadipate => lysine
+M00433_1	17	Pathway Modules	Amino acid metabolism	Lysine metabolism	Lysine biosynthesis, 2-oxoglutarate => 2-oxoadipate
+M00031_1	17	Pathway Modules	Amino acid metabolism	Lysine metabolism	Lysine biosynthesis, mediated by LysW, 2-aminoadipate => lysine
+M00032_1	17	Pathway Modules	Amino acid metabolism	Lysine metabolism	Lysine degradation, lysine => saccharopine => acetoacetyl-CoA
+M00956_1	17	Pathway Modules	Amino acid metabolism	Lysine metabolism	Lysine degradation, bacteria, L-lysine => succinate
+M00957_1	17	Pathway Modules	Amino acid metabolism	Lysine metabolism	Lysine degradation, bacteria, L-lysine => glutarate => succinate/acetyl-CoA
+M00960_1	17	Pathway Modules	Amino acid metabolism	Lysine metabolism	Lysine degradation, bacteria, L-lysine => D-lysine => succinate
+M00028_1	18	Pathway Modules	Amino acid metabolism	Arginine and proline metabolism	Ornithine biosynthesis, glutamate => ornithine
+M00763_1	18	Pathway Modules	Amino acid metabolism	Arginine and proline metabolism	Ornithine biosynthesis, mediated by LysW, glutamate => ornithine
+M00844_1	18	Pathway Modules	Amino acid metabolism	Arginine and proline metabolism	Arginine biosynthesis, ornithine => arginine
+M00845_1	18	Pathway Modules	Amino acid metabolism	Arginine and proline metabolism	Arginine biosynthesis, glutamate => acetylcitrulline => arginine
+M00029_1	18	Pathway Modules	Amino acid metabolism	Arginine and proline metabolism	Urea cycle
+M00015_1	18	Pathway Modules	Amino acid metabolism	Arginine and proline metabolism	Proline biosynthesis, glutamate => proline
+M00970_1	18	Pathway Modules	Amino acid metabolism	Arginine and proline metabolism	Proline degradation, proline => glutamate
+M00972_1	18	Pathway Modules	Amino acid metabolism	Arginine and proline metabolism	Proline metabolism
+M00047_1	18	Pathway Modules	Amino acid metabolism	Arginine and proline metabolism	Creatine pathway
+M00879_1	18	Pathway Modules	Amino acid metabolism	Arginine and proline metabolism	Arginine succinyltransferase pathway, arginine => glutamate
+M00133_1	19	Pathway Modules	Amino acid metabolism	Polyamine biosynthesis	Polyamine biosynthesis, arginine => agmatine => putrescine => spermidine
+M00133_2	19	Pathway Modules	Amino acid metabolism	Polyamine biosynthesis	Polyamine biosynthesis, arginine => agmatine => putrescine => spermidine
+M00133_3	19	Pathway Modules	Amino acid metabolism	Polyamine biosynthesis	Polyamine biosynthesis, arginine => agmatine => putrescine => spermidine
+M00134_1	19	Pathway Modules	Amino acid metabolism	Polyamine biosynthesis	Polyamine biosynthesis, arginine => ornithine => putrescine
+M00135_1	19	Pathway Modules	Amino acid metabolism	Polyamine biosynthesis	GABA biosynthesis, eukaryotes, putrescine => GABA
+M00136_1	19	Pathway Modules	Amino acid metabolism	Polyamine biosynthesis	GABA biosynthesis, prokaryotes, putrescine => GABA
+M00026_1	20	Pathway Modules	Amino acid metabolism	Histidine metabolism	Histidine biosynthesis, PRPP => histidine
+M00045_1	20	Pathway Modules	Amino acid metabolism	Histidine metabolism	Histidine degradation, histidine => N-formiminoglutamate => glutamate
+M00022_1	21	Pathway Modules	Amino acid metabolism	Aromatic amino acid metabolism	Shikimate pathway, phosphoenolpyruvate + erythrose-4P => chorismate
+M00023_1	21	Pathway Modules	Amino acid metabolism	Aromatic amino acid metabolism	Tryptophan biosynthesis, chorismate => tryptophan
+M00024_1	21	Pathway Modules	Amino acid metabolism	Aromatic amino acid metabolism	Phenylalanine biosynthesis, chorismate => phenylpyruvate => phenylalanine
+M00025_1	21	Pathway Modules	Amino acid metabolism	Aromatic amino acid metabolism	Tyrosine biosynthesis, chorismate => HPP => tyrosine
+M00040_1	21	Pathway Modules	Amino acid metabolism	Aromatic amino acid metabolism	Tyrosine biosynthesis, chorismate => arogenate => tyrosine
+M00042_1	21	Pathway Modules	Amino acid metabolism	Aromatic amino acid metabolism	Catecholamine biosynthesis, tyrosine => dopamine => noradrenaline => adrenaline
+M00044_1	21	Pathway Modules	Amino acid metabolism	Aromatic amino acid metabolism	Tyrosine degradation, tyrosine => homogentisate
+M00533_1	21	Pathway Modules	Amino acid metabolism	Aromatic amino acid metabolism	Homoprotocatechuate degradation, homoprotocatechuate => 2-oxohept-3-enedioate
+M00037_1	21	Pathway Modules	Amino acid metabolism	Aromatic amino acid metabolism	Melatonin biosynthesis, animals, tryptophan => serotonin => melatonin
+M00936_1	21	Pathway Modules	Amino acid metabolism	Aromatic amino acid metabolism	Melatonin biosynthesis, plants, tryptophan => serotonin => melatonin
+M00038_1	21	Pathway Modules	Amino acid metabolism	Aromatic amino acid metabolism	Tryptophan metabolism, tryptophan => kynurenine => 2-aminomuconate
+M00027_1	22	Pathway Modules	Amino acid metabolism	Other amino acid metabolism	GABA (gamma-Aminobutyrate) shunt
+M00118_1	22	Pathway Modules	Amino acid metabolism	Other amino acid metabolism	Glutathione biosynthesis, glutamate => glutathione
+M00947_1	22	Pathway Modules	Amino acid metabolism	Other amino acid metabolism	D-Arginine racemization, D-arginine => L-arginine
+M00948_1	22	Pathway Modules	Amino acid metabolism	Other amino acid metabolism	Hydroxyproline degradation, trans-4-hydroxy-L-proline => 2-oxoglutarate
+M00055_1	23	Pathway Modules	Glycan metabolism	Glycan biosynthesis	N-glycan precursor biosynthesis
+M00872_1	23	Pathway Modules	Glycan metabolism	Glycan biosynthesis	O-glycan biosynthesis, mannose type (core M3)
+M00076_1	24	Pathway Modules	Glycan metabolism	Glycosaminoglycan metabolism	Dermatan sulfate degradation
+M00077_1	24	Pathway Modules	Glycan metabolism	Glycosaminoglycan metabolism	Chondroitin sulfate degradation
+M00078_1	24	Pathway Modules	Glycan metabolism	Glycosaminoglycan metabolism	Heparan sulfate degradation
+M00079_1	24	Pathway Modules	Glycan metabolism	Glycosaminoglycan metabolism	Keratan sulfate degradation
+M00060_1	25	Pathway Modules	Glycan metabolism	Lipopolysaccharide metabolism	KDO2-lipid A biosynthesis, Raetz pathway, LpxL-LpxM type
+M00866_1	25	Pathway Modules	Glycan metabolism	Lipopolysaccharide metabolism	KDO2-lipid A biosynthesis, Raetz pathway, non-LpxL-LpxM type
+M00867_1	25	Pathway Modules	Glycan metabolism	Lipopolysaccharide metabolism	KDO2-lipid A modification pathway
+M00063_1	25	Pathway Modules	Glycan metabolism	Lipopolysaccharide metabolism	CMP-KDO biosynthesis
+M00064_1	25	Pathway Modules	Glycan metabolism	Lipopolysaccharide metabolism	ADP-L-glycero-D-manno-heptose biosynthesis
+M00922_1	25	Pathway Modules	Glycan metabolism	Lipopolysaccharide metabolism	CMP-Neu5Ac biosynthesis
+M00923_1	25	Pathway Modules	Glycan metabolism	Lipopolysaccharide metabolism	UDP-L-FucNAm biosynthesis
+M00127_2	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Thiamine biosynthesis, prokaryotes, AIR (+ DXP/tyrosine) => TMP/TPP
+M00127_3	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Thiamine biosynthesis, prokaryotes, AIR (+ DXP/tyrosine) => TMP/TPP
+M00895_2	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Thiamine biosynthesis, prokaryotes, AIR (+ DXP/glycine) => TMP/TPP
+M00895_3	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Thiamine biosynthesis, prokaryotes, AIR (+ DXP/glycine) => TMP/TPP
+M00896_2	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Thiamine biosynthesis, archaea, AIR (+ NAD+) => TMP/TPP
+M00897_2	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Thiamine biosynthesis, plants, AIR (+ NAD+) => TMP/thiamine/TPP
+M00899_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Thiamine salvage pathway, HMP/HET => TMP
+M00899_2	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Thiamine salvage pathway, HMP/HET => TMP
+M00125_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Riboflavin biosynthesis, plants and bacteria, GTP => riboflavin/FMN/FAD
+M00125_2	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Riboflavin biosynthesis, plants and bacteria, GTP => riboflavin/FMN/FAD
+M00125_3	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Riboflavin biosynthesis, plants and bacteria, GTP => riboflavin/FMN/FAD
+M00911_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Riboflavin biosynthesis, fungi, GTP => riboflavin/FMN/FAD
+M00911_2	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Riboflavin biosynthesis, fungi, GTP => riboflavin/FMN/FAD
+M00911_3	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Riboflavin biosynthesis, fungi, GTP => riboflavin/FMN/FAD
+M00124_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Pyridoxal-P biosynthesis, erythrose-4P => pyridoxal-P
+M00916_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Pyridoxal-P biosynthesis, R5P + glyceraldehyde-3P + glutamine => pyridoxal-P
+M00115_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	NAD biosynthesis, aspartate => quinolinate => NAD
+M00912_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	NAD biosynthesis, tryptophan => quinolinate => NAD
+M00622_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Nicotinate degradation, nicotinate => fumarate
+M00119_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Pantothenate biosynthesis, valine/L-aspartate => pantothenate
+M00119_2	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Pantothenate biosynthesis, valine/L-aspartate => pantothenate
+M00119_3	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Pantothenate biosynthesis, valine/L-aspartate => pantothenate
+M00913_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Pantothenate biosynthesis, 2-oxoisovalerate/spermine => pantothenate
+M00913_2	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Pantothenate biosynthesis, 2-oxoisovalerate/spermine => pantothenate
+M00913_3	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Pantothenate biosynthesis, 2-oxoisovalerate/spermine => pantothenate
+M00120_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Coenzyme A biosynthesis, pantothenate => CoA
+M00914_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Coenzyme A biosynthesis, archaea, 2-oxoisovalerate => 4-phosphopantoate => CoA
+M00572_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Pimeloyl-ACP biosynthesis, BioC-BioH pathway, malonyl-ACP => pimeloyl-ACP
+M00123_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Biotin biosynthesis, pimeloyl-ACP/CoA => biotin
+M00950_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Biotin biosynthesis, BioU pathway, pimeloyl-ACP/CoA => biotin
+M00573_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Biotin biosynthesis, BioI pathway, long-chain-acyl-ACP => pimeloyl-ACP => biotin
+M00577_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Biotin biosynthesis, BioW pathway, pimelate => pimeloyl-CoA => biotin
+M00881_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Lipoic acid biosynthesis, plants and bacteria, octanoyl-ACP => dihydrolipoyl-E2/H
+M00882_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Lipoic acid biosynthesis, eukaryotes, octanoyl-ACP => dihydrolipoyl-H
+M00883_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Lipoic acid biosynthesis, animals and bacteria, octanoyl-ACP => dihydrolipoyl-H => dihydrolipoyl-E2
+M00884_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Lipoic acid biosynthesis, octanoyl-CoA => dihydrolipoyl-E2
+M00126_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Tetrahydrofolate biosynthesis, GTP => THF
+M00840_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Tetrahydrofolate biosynthesis, mediated by ribA and trpF, GTP => THF
+M00841_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Tetrahydrofolate biosynthesis, mediated by PTPS, GTP => THF
+M00842_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Tetrahydrobiopterin biosynthesis, GTP => BH4
+M00843_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	L-threo-Tetrahydrobiopterin biosynthesis, GTP => L-threo-BH4
+M00880_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Molybdenum cofactor biosynthesis, GTP => molybdenum cofactor
+M00140_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	C1-unit interconversion, prokaryotes
+M00141_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	C1-unit interconversion, eukaryotes
+M00846_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Siroheme biosynthesis, glutamyl-tRNA => siroheme
+M00868_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Heme biosynthesis, animals and fungi, glycine => heme
+M00121_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Heme biosynthesis, plants and bacteria, glutamate => heme
+M00926_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Heme biosynthesis, bacteria, glutamyl-tRNA => coproporphyrin III => heme
+M00924_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Cobalamin biosynthesis, anaerobic, uroporphyrinogen III => sirohydrochlorin => cobyrinate a,c-diamide
+M00925_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Cobalamin biosynthesis, aerobic, uroporphyrinogen III => precorrin 2 => cobyrinate a,c-diamide
+M00122_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin
+M00122_2	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin
+M00122_3	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin
+M00117_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Ubiquinone biosynthesis, prokaryotes, chorismate (+ polyprenyl-PP) => ubiquinol
+M00128_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Ubiquinone biosynthesis, eukaryotes, 4-hydroxybenzoate + polyprenyl-PP => ubiquinol
+M00116_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Menaquinone biosynthesis, chorismate (+ polyprenyl-PP) => menaquinol
+M00930_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Menaquinone biosynthesis, futalosine pathway
+M00931_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Menaquinone biosynthesis, modified futalosine pathway
+M00932_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Phylloquinone biosynthesis, chorismate (+ phytyl-PP) => phylloquinol
+M00112_1	26	Pathway Modules	Metabolism of cofactors and vitamins	Cofactor and vitamin metabolism	Tocopherol/tocotorienol biosynthesis, homogentisate + phytyl/geranylgeranyl-PP => tocopherol/tocotorienol
+M00095_1	27	Pathway Modules	Biosynthesis of terpenoids and polyketides	Terpenoid backbone biosynthesis	C5 isoprenoid biosynthesis, mevalonate pathway
+M00849_1	27	Pathway Modules	Biosynthesis of terpenoids and polyketides	Terpenoid backbone biosynthesis	C5 isoprenoid biosynthesis, mevalonate pathway, archaea
+M00096_1	27	Pathway Modules	Biosynthesis of terpenoids and polyketides	Terpenoid backbone biosynthesis	C5 isoprenoid biosynthesis, non-mevalonate pathway
+M00364_1	27	Pathway Modules	Biosynthesis of terpenoids and polyketides	Terpenoid backbone biosynthesis	C10-C20 isoprenoid biosynthesis, bacteria
+M00365_1	27	Pathway Modules	Biosynthesis of terpenoids and polyketides	Terpenoid backbone biosynthesis	C10-C20 isoprenoid biosynthesis, archaea
+M00366_1	27	Pathway Modules	Biosynthesis of terpenoids and polyketides	Terpenoid backbone biosynthesis	C10-C20 isoprenoid biosynthesis, plants
+M00367_1	27	Pathway Modules	Biosynthesis of terpenoids and polyketides	Terpenoid backbone biosynthesis	C10-C20 isoprenoid biosynthesis, non-plant eukaryotes
+M00097_1	28	Pathway Modules	Biosynthesis of terpenoids and polyketides	Plant terpenoid biosynthesis	beta-Carotene biosynthesis, GGAP => beta-carotene
+M00372_1	28	Pathway Modules	Biosynthesis of terpenoids and polyketides	Plant terpenoid biosynthesis	Abscisic acid biosynthesis, beta-carotene => abscisic acid
+M00824_1	30	Pathway Modules	Biosynthesis of terpenoids and polyketides	Enediyne biosynthesis	9-membered enediyne core biosynthesis, malonyl-CoA => 3-hydroxyhexadeca-4,6,8,10,12,14-hexaenoyl-ACP => 9-membered enediyne core
+M00825_1	30	Pathway Modules	Biosynthesis of terpenoids and polyketides	Enediyne biosynthesis	10-membered enediyne core biosynthesis, malonyl-CoA => 3-hydroxyhexadeca-4,6,8,10,12,14-hexaenoyl-ACP => 10-membered enediyne core
+M00834_1	30	Pathway Modules	Biosynthesis of terpenoids and polyketides	Enediyne biosynthesis	Calicheamicin orsellinate moiety biosynthesis, malonyl-CoA => orsellinate-ACP => 5-iodo-2,3-dimethoxyorsellinate-ACP
+M00833_1	30	Pathway Modules	Biosynthesis of terpenoids and polyketides	Enediyne biosynthesis	Calicheamicin biosynthesis, calicheamicinone => calicheamicin
+M00793_1	32	Pathway Modules	Biosynthesis of terpenoids and polyketides	Polyketide sugar unit biosynthesis	dTDP-L-rhamnose biosynthesis
+M00797_1	32	Pathway Modules	Biosynthesis of terpenoids and polyketides	Polyketide sugar unit biosynthesis	dTDP-D-desosamine biosynthesis
+M00798_1	32	Pathway Modules	Biosynthesis of terpenoids and polyketides	Polyketide sugar unit biosynthesis	dTDP-L-mycarose biosynthesis
+M00799_1	32	Pathway Modules	Biosynthesis of terpenoids and polyketides	Polyketide sugar unit biosynthesis	dTDP-L-oleandrose biosynthesis
+M00039_1	33	Pathway Modules	Biosynthesis of other secondary metabolites	Biosynthesis of phytochemical compounds	Monolignol biosynthesis, phenylalanine/tyrosine => monolignol
+M00137_1	33	Pathway Modules	Biosynthesis of other secondary metabolites	Biosynthesis of phytochemical compounds	Flavanone biosynthesis, phenylalanine => naringenin
+M00961_1	33	Pathway Modules	Biosynthesis of other secondary metabolites	Biosynthesis of phytochemical compounds	Betacyanin biosynthesis, L-tyrosine => amaranthin
+M00953_1	33	Pathway Modules	Biosynthesis of other secondary metabolites	Biosynthesis of phytochemical compounds	Mugineic acid biosynthesis, methionine => 3-epihydroxymugineic acid
+M00673_1	34	Pathway Modules	Biosynthesis of other secondary metabolites	Biosynthesis of beta-lactams	Cephamycin C biosynthesis, aminoadipate + cycteine + valine => cephamycin C
+M00815_1	35	Pathway Modules	Biosynthesis of other secondary metabolites	Biosynthesis of other antibiotics	Validamycin A biosynthesis, sedoheptulopyranose-7P => validamycin A
+M00903_1	35	Pathway Modules	Biosynthesis of other secondary metabolites	Biosynthesis of other antibiotics	Fosfomycin biosynthesis, phosphoenolpyruvate => fosfomycin
+M00789_1	37	Pathway Modules	Biosynthesis of other secondary metabolites	Biosynthesis of other bacterial compounds	Rebeccamycin biosynthesis, tryptophan => rebeccamycin
+M00790_1	37	Pathway Modules	Biosynthesis of other secondary metabolites	Biosynthesis of other bacterial compounds	Pyrrolnitrin biosynthesis, tryptophan => pyrrolnitrin
+M00835_1	37	Pathway Modules	Biosynthesis of other secondary metabolites	Biosynthesis of other bacterial compounds	Pyocyanine biosynthesis, chorismate => pyocyanine
+M00875_1	37	Pathway Modules	Biosynthesis of other secondary metabolites	Biosynthesis of other bacterial compounds	Staphyloferrin B biosynthesis, L-serine => staphyloferrin B
+M00538_1	38	Pathway Modules	Xenobiotics biodegradation	Aromatics degradation	Toluene degradation, toluene => benzoate
+M00537_1	38	Pathway Modules	Xenobiotics biodegradation	Aromatics degradation	Xylene degradation, xylene => methylbenzoate
+M00551_1	38	Pathway Modules	Xenobiotics biodegradation	Aromatics degradation	Benzoate degradation, benzoate => catechol / methylbenzoate => methylcatechol
+M00568_1	38	Pathway Modules	Xenobiotics biodegradation	Aromatics degradation	Catechol ortho-cleavage, catechol => 3-oxoadipate
+M00569_1	38	Pathway Modules	Xenobiotics biodegradation	Aromatics degradation	Catechol meta-cleavage, catechol => acetyl-CoA / 4-methylcatechol => propanoyl-CoA
+M00623_1	38	Pathway Modules	Xenobiotics biodegradation	Aromatics degradation	Phthalate degradation, phthalate => protocatechuate
+M00878_1	38	Pathway Modules	Xenobiotics biodegradation	Aromatics degradation	Phenylacetate degradation, phenylaxetate => acetyl-CoA/succinyl-CoA
+M00545_1	38	Pathway Modules	Xenobiotics biodegradation	Aromatics degradation	Trans-cinnamate degradation, trans-cinnamate => acetyl-CoA
+M00575_1	39	Signature Modules	Gene set	Pathogenicity	Pertussis pathogenicity signature, T1SS
+M00564_1	39	Signature Modules	Gene set	Pathogenicity	Helicobacter pylori pathogenicity signature, cagA pathogenicity island
+M00627_1	40	Signature Modules	Gene set	Drug resistance	beta-Lactam resistance, Bla system
+M00745_1	40	Signature Modules	Gene set	Drug resistance	Imipenem resistance, repression of porin OprD
+M00652_1	40	Signature Modules	Gene set	Drug resistance	Vancomycin resistance, D-Ala-D-Ser type
+M00725_1	40	Signature Modules	Gene set	Drug resistance	Cationic antimicrobial peptide (CAMP) resistance, dltABCD operon
+M00726_1	40	Signature Modules	Gene set	Drug resistance	Cationic antimicrobial peptide (CAMP) resistance, lysyl-phosphatidylglycerol (L-PG) synthase MprF
+M00744_1	40	Signature Modules	Gene set	Drug resistance	Cationic antimicrobial peptide (CAMP) resistance, protease PgtE
+M00718_1	40	Signature Modules	Gene set	Drug resistance	Multidrug resistance, efflux pump MexAB-OprM
+M00641_1	40	Signature Modules	Gene set	Drug resistance	Multidrug resistance, efflux pump MexEF-OprN
+M00642_1	40	Signature Modules	Gene set	Drug resistance	Multidrug resistance, efflux pump MexJK-OprM
+M00769_1	40	Signature Modules	Gene set	Drug resistance	Multidrug resistance, efflux pump MexPQ-OpmE
+M00649_1	40	Signature Modules	Gene set	Drug resistance	Multidrug resistance, efflux pump AdeABC
+M00698_1	40	Signature Modules	Gene set	Drug resistance	Multidrug resistance, efflux pump BpeEF-OprC
+M00664_1	42	Signature Modules	Gene set	Symbiosis	Nodulation
+M00615_1	43	Signature Modules	Module set	Metabolic capacity	Nitrate assimilation
+M00616_1	43	Signature Modules	Module set	Metabolic capacity	Sulfate-sulfur assimilation

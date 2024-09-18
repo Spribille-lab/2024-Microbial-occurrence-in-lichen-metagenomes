@@ -1,0 +1,61 @@
+import glob
+import os
+import pandas as pd
+import re
+
+#load table with metadata
+input_table = pd.read_csv(", sep="\t").set_index("fasta", drop=False)
+GENOMES = selected_table.index.tolist()
+
+#define functions, by which I will get params for each run
+def group_from_genome(wildcards):
+  return input_table.loc[wildcards.genome, "group"]
+
+def locustag_from_genome(wildcards):
+  return input_table.loc[wildcards.genome, "locustag"]  
+
+
+
+rule all:
+    input:
+        #expand("analysis_and_temp_files/06_annotate_mags/euk/{genome}_pred/predict_results/{genome}.proteins.fa", genome = GENOME),
+        expand("analysis_and_temp_files/06_annotate_mags/euk/{genome}_cleaned_sorted.fa.masked", genome = GENOME)
+    output: touch("touch")
+         
+
+#prepare assemblies
+rule clean:
+    input: "analysis_and_temp_files/04_phylogenomics/MAGs/euk/{genome}.fa"
+    output: "analysis_and_temp_files/06_annotate_mags/euk/{genome}_cleaned_sorted.fa"
+    params:
+        prefix= lambda wildcards: locustag_from_genome(wildcards.genome),
+        mem = "1G",
+        queue="tsl-short"
+    shell: "bash code/clean_genome.sh {input} {output} {params.locustag}"
+    
+
+#annotate
+rule repmask:
+    input: "analysis_and_temp_files/06_annotate_mags/euk/{genome}_cleaned_sorted.fa"   
+    output: "analysis_and_temp_files/06_annotate_mags/euk/{genome}_cleaned_sorted.fa.masked" ,      
+    params:
+        lineage=lambda wildcards: group_from_genome(wildcards.genome),
+        mem = "10G",
+        queue="tsl-short",
+    threads: 10	        
+    shell:
+        "bash code/repmask.sh {input} {params.lineage}"
+
+rule funannotate:
+    input: "analysis_and_temp_files/06_annotate_mags/euk/{genome}_cleaned_sorted.fa.masked"   
+    output: "analysis_and_temp_files/06_annotate_mags/euk/{genome}_pred/predict_results/{genome}.proteins.fa",      
+    params:
+        prefix= lambda wildcards: locustag_from_genome(wildcards.genome),
+        lineage=lambda wildcards: group_from_genome(wildcards.genome),
+        mem = "70G",
+        queue="tsl-short",
+    threads: 20	        
+    shell:
+        "bash code/annotate_funannotate.sh {input} {output} {params.locustag} 20 {params.group} {wildcards.genome}"
+
+

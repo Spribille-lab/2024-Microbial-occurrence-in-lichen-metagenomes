@@ -1,0 +1,23 @@
+Run	Source	Lichen.metagenomes	family	order	class	contains_annot_bacterial_mags
+T1894	Resl et al. 2021	Bachmanniomyces_S44760		Ostropomycetidae ins. ced.	Lecanoromycetes	TRUE
+T1914	Resl et al. 2021	Mycoblastus_sanguinarius	Tephromelataceae	Lecanorales	Lecanoromycetes	TRUE
+T1868	Resl et al. 2021	Ptychographa_xylographoides		Baeomycetales	Lecanoromycetes	TRUE
+T1888	Resl et al. 2021	Puttea_exsequens		Lecanorales	Lecanoromycetes	TRUE
+T1916	Resl et al. 2021	Thelotrema_lepadinum		Gyalectales	Lecanoromycetes	TRUE
+T1904	Resl et al. 2021	Toensbergia_leucococca		Rhizocarpales	Lecanoromycetes	TRUE
+T1889	Resl et al. 2021	Xylographa_carneopallida		Baeomycetales	Lecanoromycetes	TRUE
+T1867	Resl et al. 2021	Xylographa_vitiligo		Baeomycetales	Lecanoromycetes	TRUE
+SRR11456913	Cornet et al. 2021	Peltigera malacea	Peltigeraceae	Peltigerales	Lecanoromycetes	TRUE
+SRR11456914	Cornet et al. 2021	Peltigera extenuata	Peltigeraceae	Peltigerales	Lecanoromycetes	FALSE
+SRR11456919	Cornet et al. 2021	Solorina crocea	Peltigeraceae	Peltigerales	Lecanoromycetes	TRUE
+SRR11456921	Cornet et al. 2021	Peltigera evansiana	Peltigeraceae	Peltigerales	Lecanoromycetes	FALSE
+SRR5808930	Meiser et al. 2017	Evernia prunastri	Parmeliaceae	Lecanorales	Lecanoromycetes	TRUE
+SRR14722086	Lendemer et al. 2019	fungal sp. Tripp_6058_COLO-L-0051364		NA	Lichinomycetes	FALSE
+SRR11456918	Cornet et al. 2021	Peltigera dolichorhiza	Peltigeraceae	Peltigerales	Lecanoromycetes	FALSE
+X3	This paper	Platismatia glauca	Parmeliaceae	Lecanorales	Lecanoromycetes	TRUE
+X8	This paper	Ramalina thrausta	Ramalinaceae	Lecanorales	Lecanoromycetes	TRUE
+X14	This paper	Hypogymnia physodes	Parmeliaceae	Lecanorales	Lecanoromycetes	TRUE
+VT1	This paper	Platismatia glauca	Parmeliaceae	Lecanorales	Lecanoromycetes	TRUE
+VT12	This paper	Kaernefeltia merillii	Parmeliaceae	Lecanorales	Lecanoromycetes	TRUE
+VT15	This paper	Flavocetraria cucullata	Parmeliaceae	Lecanorales	Lecanoromycetes	FALSE
+ERR4179390	Wicaksono et al 2020	Lobaria pulmonaria	Lobariaceae	Peltigerales	Lecanoromycetes	TRUE

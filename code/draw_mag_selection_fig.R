@@ -91,6 +91,7 @@ bar+waffle + plot_layout(widths = c(1, 1))
 ggsave("results/figures/mag_selection.svg",device="svg",width=180,height=120,unit="mm")
 
 
+write.table(df,"results/tables/mag_selection.tsv",sep="\t",quote = F, row.names = F)
 
 
 

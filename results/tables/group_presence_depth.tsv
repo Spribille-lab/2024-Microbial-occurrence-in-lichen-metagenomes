@@ -1,0 +1,2626 @@
+metagenome	group	depth	presence
+SRR13685142	Acetobacteraceae	433080986	MAG detected
+SRR13685159	Trebouxiophyceae	567138182	MAG detected
+SRR13685162	Acidobacteriaceae	579616520	MAG detected
+SRR13685162	Beijerinckiaceae	579616520	MAG detected
+SRR13685153	Acetobacteraceae	700670804	MAG detected
+SRR14722072	Beijerinckiaceae	702881444	MAG detected
+SRR13685165	Beijerinckiaceae	728229512	MAG detected
+SRR14722075	Beijerinckiaceae	751529718	MAG detected
+SRR13126796	Acetobacteraceae	787429291	MAG detected
+SRR13126796	Acidobacteriaceae	787429291	MAG detected
+SRR13126796	Beijerinckiaceae	787429291	MAG detected
+SRR14721936	Acetobacteraceae	794350298	MAG detected
+SRR13685164	Acidobacteriaceae	798545984	MAG detected
+SRR13685164	Beijerinckiaceae	798545984	MAG detected
+SRR14722010	Acidobacteriaceae	834885342	MAG detected
+SRR14721993	Beijerinckiaceae	857871166	MAG detected
+SRR14722000	Beijerinckiaceae	863435818	MAG detected
+SRR14722314	Acetobacteraceae	897036338	MAG detected
+SRR14722118	Acidobacteriaceae	904833072	MAG detected
+SRR14722118	Beijerinckiaceae	904833072	MAG detected
+SRR14722051	Acetobacteraceae	975559660	MAG detected
+SRR14722051	Acidobacteriaceae	975559660	MAG detected
+SRR14721939	Acidobacteriaceae	991726022	MAG detected
+SRR14722008	Beijerinckiaceae	1001142684	MAG detected
+SRR14721995	Acidobacteriaceae	1015010524	MAG detected
+SRR14722002	Acidobacteriaceae	1027194714	MAG detected
+SRR14721987	Acetobacteraceae	1078541660	MAG detected
+SRR14722276	Acetobacteraceae	1080803036	MAG detected
+SRR12240175	Sphingomonadaceae	1101309616	MAG detected
+SRR14722021	Acidobacteriaceae	1107319844	MAG detected
+SRR14722003	Acidobacteriaceae	1111555394	MAG detected
+SRR14722003	Beijerinckiaceae	1111555394	MAG detected
+SRR14722031	Acidobacteriaceae	1112283516	MAG detected
+SRR14722022	Beijerinckiaceae	1123401344	MAG detected
+SRR14721999	Acidobacteriaceae	1230744828	MAG detected
+SRR14721986	Acidobacteriaceae	1259731694	MAG detected
+SRR14721985	Acetobacteraceae	1273065296	MAG detected
+SRR14721985	Acidobacteriaceae	1273065296	MAG detected
+SRR14721985	Beijerinckiaceae	1273065296	MAG detected
+SRR14721941	Acetobacteraceae	1286751030	MAG detected
+SRR14721941	Acidobacteriaceae	1286751030	MAG detected
+SRR14721980	Acetobacteraceae	1289181526	MAG detected
+SRR14721980	Acidobacteriaceae	1289181526	MAG detected
+SRR14722225	Acetobacteraceae	1290245472	MAG detected
+SRR14722174	Acidobacteriaceae	1324337648	MAG detected
+SRR14722174	Beijerinckiaceae	1324337648	MAG detected
+SRR12240174	Acetobacteraceae	1329976068	MAG detected
+SRR12240174	Sphingomonadaceae	1329976068	MAG detected
+SRR14722129	Acetobacteraceae	1332706672	MAG detected
+SRR14722129	Acidobacteriaceae	1332706672	MAG detected
+SRR14722129	Beijerinckiaceae	1332706672	MAG detected
+SRR14722066	Acidobacteriaceae	1350674766	MAG detected
+SRR14722066	Beijerinckiaceae	1350674766	MAG detected
+SRR14722066	Sphingomonadaceae	1350674766	MAG detected
+SRR14721948	Acidobacteriaceae	1358620084	MAG detected
+SRR14722162	Acetobacteraceae	1359847714	MAG detected
+SRR14722162	Beijerinckiaceae	1359847714	MAG detected
+SRR14722288	Acidobacteriaceae	1372978674	MAG detected
+SRR14722026	Acetobacteraceae	1376535630	MAG detected
+SRR14722026	Acidobacteriaceae	1376535630	MAG detected
+SRR14722026	Beijerinckiaceae	1376535630	MAG detected
+SRR14722151	Beijerinckiaceae	1407435666	MAG detected
+SRR14722045	Beijerinckiaceae	1411963250	MAG detected
+SRR14721962	Acetobacteraceae	1438330870	MAG detected
+SRR14721962	Acidobacteriaceae	1438330870	MAG detected
+SRR14721962	Trebouxiophyceae	1438330870	MAG detected
+SRR14722330	Acidobacteriaceae	1445485854	MAG detected
+SRR14722330	Trebouxiophyceae	1445485854	MAG detected
+SRR14721955	Acetobacteraceae	1448166708	MAG detected
+SRR14722290	Acetobacteraceae	1473725270	MAG detected
+SRR14722290	Acidobacteriaceae	1473725270	MAG detected
+SRR14722108	Beijerinckiaceae	1490065584	MAG detected
+SRR14721944	Acetobacteraceae	1492914048	MAG detected
+SRR14721944	Acidobacteriaceae	1492914048	MAG detected
+SRR14721944	Beijerinckiaceae	1492914048	MAG detected
+SRR12240184	Beijerinckiaceae	1500967204	MAG detected
+SRR12240184	Sphingomonadaceae	1500967204	MAG detected
+SRR14722294	Acetobacteraceae	1512306978	MAG detected
+SRR14722275	Acetobacteraceae	1516342604	MAG detected
+SRR14721996	Acetobacteraceae	1522805404	MAG detected
+SRR14721996	Acidobacteriaceae	1522805404	MAG detected
+SRR14721996	Beijerinckiaceae	1522805404	MAG detected
+SRR14722013	Beijerinckiaceae	1537520354	MAG detected
+SRR14722067	Acidobacteriaceae	1539836090	MAG detected
+SRR14722067	Trebouxiophyceae	1539836090	MAG detected
+SRR14722082	Acetobacteraceae	1555905208	MAG detected
+SRR14722082	Acidobacteriaceae	1555905208	MAG detected
+SRR14722059	Acetobacteraceae	1561101118	MAG detected
+SRR14722059	Acidobacteriaceae	1561101118	MAG detected
+SRR14722059	Beijerinckiaceae	1561101118	MAG detected
+SRR14722007	Acetobacteraceae	1593583936	MAG detected
+SRR14722007	Beijerinckiaceae	1593583936	MAG detected
+SRR14721938	Beijerinckiaceae	1606387226	MAG detected
+SRR14722101	Acetobacteraceae	1608475254	MAG detected
+SRR14722101	Acidobacteriaceae	1608475254	MAG detected
+SRR14722046	Acetobacteraceae	1608581256	MAG detected
+SRR14722046	Acidobacteriaceae	1608581256	MAG detected
+SRR14721964	Beijerinckiaceae	1611903860	MAG detected
+SRR14722309	Acetobacteraceae	1625514094	MAG detected
+SRR14722309	Acidobacteriaceae	1625514094	MAG detected
+SRR14722309	Beijerinckiaceae	1625514094	MAG detected
+SRR14721925	Beijerinckiaceae	1626183024	MAG detected
+SRR14721925	Sphingomonadaceae	1626183024	MAG detected
+SRR14721949	Acidobacteriaceae	1630314384	MAG detected
+SRR14722064	Acetobacteraceae	1632232688	MAG detected
+SRR14721952	Acidobacteriaceae	1650217694	MAG detected
+SRR14721945	Acidobacteriaceae	1650596100	MAG detected
+SRR14722279	Acetobacteraceae	1650799950	MAG detected
+SRR14722279	Beijerinckiaceae	1650799950	MAG detected
+SRR14721950	Acetobacteraceae	1680403802	MAG detected
+SRR14722175	Acetobacteraceae	1680805160	MAG detected
+SRR14722175	Beijerinckiaceae	1680805160	MAG detected
+SRR14722104	Acidobacteriaceae	1689883280	MAG detected
+SRR14722296	Acetobacteraceae	1697605722	MAG detected
+SRR14722296	Acidobacteriaceae	1697605722	MAG detected
+SRR14722296	Beijerinckiaceae	1697605722	MAG detected
+SRR12240187	Acetobacteraceae	1713022087	MAG detected
+SRR14722068	Acetobacteraceae	1718570864	MAG detected
+SRR14722068	Acidobacteriaceae	1718570864	MAG detected
+SRR14722068	Beijerinckiaceae	1718570864	MAG detected
+SRR14722140	Acetobacteraceae	1728674878	MAG detected
+SRR14722140	Beijerinckiaceae	1728674878	MAG detected
+SRR14722320	Acetobacteraceae	1735397700	MAG detected
+SRR14722320	Acidobacteriaceae	1735397700	MAG detected
+SRR14721974	Beijerinckiaceae	1756628904	MAG detected
+SRR14722081	Acidobacteriaceae	1759614476	MAG detected
+SRR14722081	Beijerinckiaceae	1759614476	MAG detected
+SRR14722081	Sphingomonadaceae	1759614476	MAG detected
+SRR12240179	Acetobacteraceae	1772170559	MAG detected
+SRR12240179	Sphingomonadaceae	1772170559	MAG detected
+SRR14722291	Acetobacteraceae	1772277034	MAG detected
+SRR14722291	Acidobacteriaceae	1772277034	MAG detected
+SRR14722291	Beijerinckiaceae	1772277034	MAG detected
+SRR14722303	Acidobacteriaceae	1778492798	MAG detected
+SRR14722303	Beijerinckiaceae	1778492798	MAG detected
+SRR14722050	Acetobacteraceae	1782468326	MAG detected
+SRR14722050	Acidobacteriaceae	1782468326	MAG detected
+SRR14721937	Beijerinckiaceae	1786893834	MAG detected
+SRR14722329	Beijerinckiaceae	1792631532	MAG detected
+SRR14722298	Acidobacteriaceae	1804158872	MAG detected
+SRR14722298	Beijerinckiaceae	1804158872	MAG detected
+SRR14722043	Acetobacteraceae	1807451880	MAG detected
+SRR14722043	Acidobacteriaceae	1807451880	MAG detected
+SRR14722043	Beijerinckiaceae	1807451880	MAG detected
+SRR14722106	Acetobacteraceae	1825538056	MAG detected
+SRR14722106	Acidobacteriaceae	1825538056	MAG detected
+SRR14722106	Beijerinckiaceae	1825538056	MAG detected
+SRR14722105	Acetobacteraceae	1827127180	MAG detected
+SRR14722105	Acidobacteriaceae	1827127180	MAG detected
+SRR14722103	Acetobacteraceae	1828089050	MAG detected
+SRR14722103	Acidobacteriaceae	1828089050	MAG detected
+SRR14722301	Acidobacteriaceae	1832608178	MAG detected
+SRR14722301	Beijerinckiaceae	1832608178	MAG detected
+SRR14722292	Acetobacteraceae	1835472346	MAG detected
+SRR14722292	Acidobacteriaceae	1835472346	MAG detected
+SRR14722292	Beijerinckiaceae	1835472346	MAG detected
+SRR14722071	Acetobacteraceae	1841760892	MAG detected
+SRR14722071	Acidobacteriaceae	1841760892	MAG detected
+SRR14722071	Trebouxiophyceae	1841760892	MAG detected
+SRR14722058	Acetobacteraceae	1850829952	MAG detected
+SRR14722058	Acidobacteriaceae	1850829952	MAG detected
+SRR14722136	Beijerinckiaceae	1878951588	MAG detected
+SRR12240177	Beijerinckiaceae	1887998081	MAG detected
+SRR12240177	Sphingomonadaceae	1887998081	MAG detected
+SRR14722305	Acidobacteriaceae	1941179594	MAG detected
+SRR14722281	Acetobacteraceae	1967710294	MAG detected
+SRR14722281	Trebouxiophyceae	1967710294	MAG detected
+SRR14722185	Beijerinckiaceae	1975321902	MAG detected
+SRR14722293	Acetobacteraceae	1996136648	MAG detected
+SRR14722293	Acidobacteriaceae	1996136648	MAG detected
+SRR14721947	Acetobacteraceae	1998564728	MAG detected
+SRR14721947	Acidobacteriaceae	1998564728	MAG detected
+SRR14721954	Sphingomonadaceae	2031774158	MAG detected
+SRR14722042	Acetobacteraceae	2039049338	MAG detected
+SRR14722042	Acidobacteriaceae	2039049338	MAG detected
+SRR14722042	Trebouxiophyceae	2039049338	MAG detected
+SRR14722038	Beijerinckiaceae	2082604986	MAG detected
+SRR14722041	Acetobacteraceae	2088996816	MAG detected
+SRR14722041	Acidobacteriaceae	2088996816	MAG detected
+SRR14722041	Beijerinckiaceae	2088996816	MAG detected
+SRR14722084	Acidobacteriaceae	2103064882	MAG detected
+SRR14722084	Beijerinckiaceae	2103064882	MAG detected
+SRR14722152	Acetobacteraceae	2109363394	MAG detected
+SRR14722152	Acidobacteriaceae	2109363394	MAG detected
+SRR14722152	Trebouxiophyceae	2109363394	MAG detected
+SRR14722277	Acidobacteriaceae	2116714376	MAG detected
+SRR14721966	Acetobacteraceae	2128997320	MAG detected
+SRR14721966	Acidobacteriaceae	2128997320	MAG detected
+SRR14722184	Acetobacteraceae	2134534188	MAG detected
+SRR14722184	Acidobacteriaceae	2134534188	MAG detected
+SRR14722127	Beijerinckiaceae	2196437846	MAG detected
+SRR14722057	Acetobacteraceae	2199167926	MAG detected
+SRR14722057	Acidobacteriaceae	2199167926	MAG detected
+SRR14722057	Beijerinckiaceae	2199167926	MAG detected
+SRR14722272	Acidobacteriaceae	2220173838	MAG detected
+SRR14722065	Acetobacteraceae	2222570510	MAG detected
+SRR14722065	Acidobacteriaceae	2222570510	MAG detected
+SRR14722094	Acetobacteraceae	2229400844	MAG detected
+SRR14722094	Acidobacteriaceae	2229400844	MAG detected
+SRR14722300	Acetobacteraceae	2235551678	MAG detected
+SRR14722300	Acidobacteriaceae	2235551678	MAG detected
+SRR14722078	Acetobacteraceae	2237419850	MAG detected
+SRR14722078	Acidobacteriaceae	2237419850	MAG detected
+SRR14722173	Acetobacteraceae	2278285886	MAG detected
+SRR14722173	Acidobacteriaceae	2278285886	MAG detected
+SRR14722173	Beijerinckiaceae	2278285886	MAG detected
+SRR14722173	Sphingomonadaceae	2278285886	MAG detected
+SRR14722080	Acidobacteriaceae	2282694482	MAG detected
+SRR14722095	Acetobacteraceae	2377912666	MAG detected
+SRR14722095	Acidobacteriaceae	2377912666	MAG detected
+SRR14722039	Acetobacteraceae	2390043402	MAG detected
+SRR14722039	Beijerinckiaceae	2390043402	MAG detected
+SRR14722098	Acetobacteraceae	2400755946	MAG detected
+SRR14722098	Acidobacteriaceae	2400755946	MAG detected
+SRR14722098	Beijerinckiaceae	2400755946	MAG detected
+SRR14722274	Acetobacteraceae	2402037634	MAG detected
+SRR14722274	Sphingomonadaceae	2402037634	MAG detected
+SRR14722083	Acetobacteraceae	2415466366	MAG detected
+SRR14722083	Acidobacteriaceae	2415466366	MAG detected
+SRR14721960	Beijerinckiaceae	2429449570	MAG detected
+SRR14721960	Sphingomonadaceae	2429449570	MAG detected
+SRR14722222	Sphingomonadaceae	2453653662	MAG detected
+SRR14722213	Beijerinckiaceae	2461390902	MAG detected
+SRR14722168	Acetobacteraceae	2464742196	MAG detected
+SRR14722168	Acidobacteriaceae	2464742196	MAG detected
+SRR14722168	Beijerinckiaceae	2464742196	MAG detected
+SRR14722049	Acetobacteraceae	2508462434	MAG detected
+SRR14722049	Acidobacteriaceae	2508462434	MAG detected
+SRR14722049	Sphingomonadaceae	2508462434	MAG detected
+SRR14722120	Trebouxiophyceae	2522191958	MAG detected
+SRR14722135	Acetobacteraceae	2549242702	MAG detected
+SRR14722135	Trebouxiophyceae	2549242702	MAG detected
+SRR14722157	Acidobacteriaceae	2552295016	MAG detected
+SRR14722157	Beijerinckiaceae	2552295016	MAG detected
+SRR14722157	Trebouxiophyceae	2552295016	MAG detected
+SRR14722172	Acetobacteraceae	2578131720	MAG detected
+SRR14722172	Acidobacteriaceae	2578131720	MAG detected
+SRR14722172	Trebouxiophyceae	2578131720	MAG detected
+SRR12240183	Acetobacteraceae	2592537340	MAG detected
+SRR12240183	Beijerinckiaceae	2592537340	MAG detected
+SRR12240183	Sphingomonadaceae	2592537340	MAG detected
+SRR14722251	Acidobacteriaceae	2592571548	MAG detected
+SRR14722154	Acetobacteraceae	2645645632	MAG detected
+SRR14722154	Acidobacteriaceae	2645645632	MAG detected
+SRR14722154	Trebouxiophyceae	2645645632	MAG detected
+SRR14722144	Acidobacteriaceae	2665979896	MAG detected
+SRR14722144	Beijerinckiaceae	2665979896	MAG detected
+SRR14722085	Acetobacteraceae	2676506106	MAG detected
+SRR14722085	Acidobacteriaceae	2676506106	MAG detected
+SRR14722085	Beijerinckiaceae	2676506106	MAG detected
+SRR14722171	Acidobacteriaceae	2681839426	MAG detected
+SRR14722171	Beijerinckiaceae	2681839426	MAG detected
+SRR14722090	Acetobacteraceae	2705046012	MAG detected
+SRR14722090	Acidobacteriaceae	2705046012	MAG detected
+SRR14722090	Beijerinckiaceae	2705046012	MAG detected
+SRR14722138	Beijerinckiaceae	2719689388	MAG detected
+SRR14722156	Acetobacteraceae	2739296436	MAG detected
+SRR14722156	Acidobacteriaceae	2739296436	MAG detected
+SRR14722156	Beijerinckiaceae	2739296436	MAG detected
+SRR14722124	Acetobacteraceae	2740461250	MAG detected
+SRR14722124	Acidobacteriaceae	2740461250	MAG detected
+SRR14722124	Beijerinckiaceae	2740461250	MAG detected
+SRR14722299	Acetobacteraceae	2773612998	MAG detected
+SRR14722299	Acidobacteriaceae	2773612998	MAG detected
+SRR14722299	Beijerinckiaceae	2773612998	MAG detected
+SRR14722177	Acetobacteraceae	2779935066	MAG detected
+SRR14722177	Beijerinckiaceae	2779935066	MAG detected
+SRR14722177	Trebouxiophyceae	2779935066	MAG detected
+SRR12240182	Acetobacteraceae	2790137756	MAG detected
+SRR12240182	Beijerinckiaceae	2790137756	MAG detected
+SRR12240182	Sphingomonadaceae	2790137756	MAG detected
+SRR14722164	Acetobacteraceae	2822949228	MAG detected
+SRR14722164	Acidobacteriaceae	2822949228	MAG detected
+SRR14722088	Acetobacteraceae	2831025614	MAG detected
+SRR14722088	Acidobacteriaceae	2831025614	MAG detected
+SRR14722088	Beijerinckiaceae	2831025614	MAG detected
+SRR14722132	Acidobacteriaceae	2833612546	MAG detected
+SRR14722132	Beijerinckiaceae	2833612546	MAG detected
+SRR14722132	Sphingomonadaceae	2833612546	MAG detected
+SRR14722170	Acetobacteraceae	2876458192	MAG detected
+SRR14722170	Acidobacteriaceae	2876458192	MAG detected
+SRR14722170	Beijerinckiaceae	2876458192	MAG detected
+SRR13126859	Acidobacteriaceae	2876909202	MAG detected
+SRR14722167	Acetobacteraceae	2926657538	MAG detected
+SRR14722167	Acidobacteriaceae	2926657538	MAG detected
+SRR14722167	Trebouxiophyceae	2926657538	MAG detected
+SRR14722163	Acidobacteriaceae	2968349846	MAG detected
+SRR14722163	Beijerinckiaceae	2968349846	MAG detected
+SRR14722160	Acetobacteraceae	2987733112	MAG detected
+SRR14722160	Acidobacteriaceae	2987733112	MAG detected
+SRR14722160	Beijerinckiaceae	2987733112	MAG detected
+SRR14722143	Acetobacteraceae	3066559944	MAG detected
+SRR14722143	Sphingomonadaceae	3066559944	MAG detected
+SRR14722119	Acetobacteraceae	3094033790	MAG detected
+SRR14722119	Acidobacteriaceae	3094033790	MAG detected
+SRR14722166	Acetobacteraceae	3127245938	MAG detected
+SRR14722166	Acidobacteriaceae	3127245938	MAG detected
+SRR14722166	Beijerinckiaceae	3127245938	MAG detected
+SRR14722166	Trebouxiophyceae	3127245938	MAG detected
+SRR14722219	Acidobacteriaceae	3196541952	MAG detected
+SRR14722161	Acetobacteraceae	3248286632	MAG detected
+SRR14722161	Beijerinckiaceae	3248286632	MAG detected
+SRR14722161	Sphingomonadaceae	3248286632	MAG detected
+SRR14722229	Acetobacteraceae	3274847230	MAG detected
+SRR14722229	Acidobacteriaceae	3274847230	MAG detected
+SRR14722229	Beijerinckiaceae	3274847230	MAG detected
+SRR14722158	Acetobacteraceae	3276275992	MAG detected
+SRR14722158	Beijerinckiaceae	3276275992	MAG detected
+T1868	Acetobacteraceae	3312900600	MAG detected
+T1868	Acidobacteriaceae	3312900600	MAG detected
+T1868	Beijerinckiaceae	3312900600	MAG detected
+T1868	Trebouxiophyceae	3312900600	MAG detected
+SRR14722145	Beijerinckiaceae	3367211212	MAG detected
+SRR14722145	Sphingomonadaceae	3367211212	MAG detected
+SRR14722159	Acetobacteraceae	3374233920	MAG detected
+SRR14722159	Beijerinckiaceae	3374233920	MAG detected
+SRR14722159	Sphingomonadaceae	3374233920	MAG detected
+SRR14722169	Acidobacteriaceae	3391945314	MAG detected
+SRR14722169	Beijerinckiaceae	3391945314	MAG detected
+SRR14722230	Acetobacteraceae	3408952142	MAG detected
+SRR14722230	Beijerinckiaceae	3408952142	MAG detected
+SRR14722230	Sphingomonadaceae	3408952142	MAG detected
+SRR14722086	Acetobacteraceae	3412670668	MAG detected
+SRR14722232	Acetobacteraceae	3456403590	MAG detected
+SRR14722232	Acidobacteriaceae	3456403590	MAG detected
+SRR14722232	Beijerinckiaceae	3456403590	MAG detected
+SRR14722115	Acetobacteraceae	3464996698	MAG detected
+SRR14722115	Beijerinckiaceae	3464996698	MAG detected
+SRR14722115	Trebouxiophyceae	3464996698	MAG detected
+SRR14722233	Acetobacteraceae	3503086146	MAG detected
+SRR14722233	Acidobacteriaceae	3503086146	MAG detected
+SRR14722210	Beijerinckiaceae	3531005442	MAG detected
+SRR14722221	Acetobacteraceae	3561442512	MAG detected
+SRR14722221	Acidobacteriaceae	3561442512	MAG detected
+SRR14722221	Beijerinckiaceae	3561442512	MAG detected
+SRR14722165	Acetobacteraceae	3570968498	MAG detected
+SRR14722165	Acidobacteriaceae	3570968498	MAG detected
+SRR14722165	Beijerinckiaceae	3570968498	MAG detected
+SRR12240180	Acetobacteraceae	3598375506	MAG detected
+SRR14722150	Acetobacteraceae	3628523054	MAG detected
+SRR14722150	Acidobacteriaceae	3628523054	MAG detected
+SRR14722150	Beijerinckiaceae	3628523054	MAG detected
+SRR14722117	Acidobacteriaceae	3718520866	MAG detected
+SRR14722133	Beijerinckiaceae	3761583348	MAG detected
+SRR14722133	Sphingomonadaceae	3761583348	MAG detected
+SRR14722112	Acidobacteriaceae	4131638444	MAG detected
+SRR14722123	Acetobacteraceae	4166324654	MAG detected
+SRR14722123	Acidobacteriaceae	4166324654	MAG detected
+SRR14722231	Acetobacteraceae	4201317394	MAG detected
+SRR14722231	Acidobacteriaceae	4201317394	MAG detected
+SRR14722231	Beijerinckiaceae	4201317394	MAG detected
+SRR14722149	Acidobacteriaceae	4395393164	MAG detected
+SRR14722149	Sphingomonadaceae	4395393164	MAG detected
+SRR14721929	Acidobacteriaceae	4463683518	MAG detected
+VT22	Acetobacteraceae	4681562626	MAG detected
+VT22	Acidobacteriaceae	4681562626	MAG detected
+SRR14722176	Sphingomonadaceae	4742255264	MAG detected
+T1867	Acetobacteraceae	4840140300	MAG detected
+T1867	Acidobacteriaceae	4840140300	MAG detected
+T1867	Beijerinckiaceae	4840140300	MAG detected
+T1867	Sphingomonadaceae	4840140300	MAG detected
+T1867	Trebouxiophyceae	4840140300	MAG detected
+SRR14722121	Acidobacteriaceae	5024869582	MAG detected
+VT34	Acetobacteraceae	5154969068	MAG detected
+VT34	Beijerinckiaceae	5154969068	MAG detected
+VT34	Sphingomonadaceae	5154969068	MAG detected
+SRR14722116	Acetobacteraceae	5176420732	MAG detected
+SRR14722116	Acidobacteriaceae	5176420732	MAG detected
+SRR14722116	Beijerinckiaceae	5176420732	MAG detected
+SRR14722116	Trebouxiophyceae	5176420732	MAG detected
+VT16	Acetobacteraceae	5215367256	MAG detected
+VT16	Acidobacteriaceae	5215367256	MAG detected
+VT16	Beijerinckiaceae	5215367256	MAG detected
+SRR14722128	Acetobacteraceae	5671217532	MAG detected
+SRR14722128	Acidobacteriaceae	5671217532	MAG detected
+SRR14722128	Beijerinckiaceae	5671217532	MAG detected
+SRR14722128	Sphingomonadaceae	5671217532	MAG detected
+SRR14722125	Acetobacteraceae	5674845760	MAG detected
+SRR14722125	Acidobacteriaceae	5674845760	MAG detected
+SRR14722125	Trebouxiophyceae	5674845760	MAG detected
+VT1	Acetobacteraceae	5900310202	MAG detected
+VT1	Acidobacteriaceae	5900310202	MAG detected
+VT1	Beijerinckiaceae	5900310202	MAG detected
+VT1	Trebouxiophyceae	5900310202	MAG detected
+VT15	Acetobacteraceae	6033792692	MAG detected
+VT15	Acidobacteriaceae	6033792692	MAG detected
+VT15	Beijerinckiaceae	6033792692	MAG detected
+VT15	Trebouxiophyceae	6033792692	MAG detected
+VT12	Acetobacteraceae	6037720806	MAG detected
+VT12	Acidobacteriaceae	6037720806	MAG detected
+VT12	Trebouxiophyceae	6037720806	MAG detected
+SRR14722113	Acidobacteriaceae	6700040026	MAG detected
+SRR14722113	Beijerinckiaceae	6700040026	MAG detected
+VT31	Trebouxiophyceae	6757064572	MAG detected
+SRR2387885	Acetobacteraceae	7034650998	MAG detected
+SRR2387885	Acidobacteriaceae	7034650998	MAG detected
+SRR2387885	Trebouxiophyceae	7034650998	MAG detected
+SRR14722130	Acetobacteraceae	7112828122	MAG detected
+SRR14722130	Acidobacteriaceae	7112828122	MAG detected
+SRR14722130	Beijerinckiaceae	7112828122	MAG detected
+SRR14722188	Acetobacteraceae	7175223436	MAG detected
+SRR14722188	Acidobacteriaceae	7175223436	MAG detected
+SRR14722188	Beijerinckiaceae	7175223436	MAG detected
+SRR14722188	Trebouxiophyceae	7175223436	MAG detected
+VT26	Acetobacteraceae	7411632358	MAG detected
+VT26	Acidobacteriaceae	7411632358	MAG detected
+VT26	Beijerinckiaceae	7411632358	MAG detected
+VT38	Acetobacteraceae	7584511956	MAG detected
+VT38	Sphingomonadaceae	7584511956	MAG detected
+VT38	Trebouxiophyceae	7584511956	MAG detected
+VT2	Acetobacteraceae	8660831802	MAG detected
+VT2	Acidobacteriaceae	8660831802	MAG detected
+VT2	Beijerinckiaceae	8660831802	MAG detected
+VT2	Trebouxiophyceae	8660831802	MAG detected
+SRR13125762	Trebouxiophyceae	9146430147	MAG detected
+VT19	Acetobacteraceae	9363519664	MAG detected
+VT19	Trebouxiophyceae	9363519664	MAG detected
+SRR5808932	Acetobacteraceae	9873816669	MAG detected
+SRR5808932	Acidobacteriaceae	9873816669	MAG detected
+SRR5808932	Trebouxiophyceae	9873816669	MAG detected
+X14	Acetobacteraceae	10204075500	MAG detected
+X14	Trebouxiophyceae	10204075500	MAG detected
+X16	Acetobacteraceae	10450703250	MAG detected
+X16	Acidobacteriaceae	10450703250	MAG detected
+X16	Beijerinckiaceae	10450703250	MAG detected
+X16	Sphingomonadaceae	10450703250	MAG detected
+SRR5808930	Acetobacteraceae	10528646549	MAG detected
+SRR5808930	Acidobacteriaceae	10528646549	MAG detected
+SRR5808930	Trebouxiophyceae	10528646549	MAG detected
+ERR4179389	Acetobacteraceae	10693128900	MAG detected
+ERR4179389	Acidobacteriaceae	10693128900	MAG detected
+ERR4179389	Beijerinckiaceae	10693128900	MAG detected
+ERR4179389	Sphingomonadaceae	10693128900	MAG detected
+X8	Acetobacteraceae	10779976500	MAG detected
+X8	Beijerinckiaceae	10779976500	MAG detected
+X8	Trebouxiophyceae	10779976500	MAG detected
+X8	Tremellomycetes	10779976500	MAG detected
+ERR4179391	Acetobacteraceae	10854216148	MAG detected
+ERR4179391	Beijerinckiaceae	10854216148	MAG detected
+ERR4179391	Sphingomonadaceae	10854216148	MAG detected
+X11	Acetobacteraceae	11221466500	MAG detected
+X11	Acidobacteriaceae	11221466500	MAG detected
+X11	Beijerinckiaceae	11221466500	MAG detected
+X11	Sphingomonadaceae	11221466500	MAG detected
+X11	Trebouxiophyceae	11221466500	MAG detected
+X15	Acetobacteraceae	11546747000	MAG detected
+X15	Acidobacteriaceae	11546747000	MAG detected
+X15	Beijerinckiaceae	11546747000	MAG detected
+TS1974	Acetobacteraceae	11716287600	MAG detected
+TS1974	Acidobacteriaceae	11716287600	MAG detected
+TS1974	Beijerinckiaceae	11716287600	MAG detected
+TS1974	Trebouxiophyceae	11716287600	MAG detected
+SRR7232211	Acetobacteraceae	11915952768	MAG detected
+SRR7232211	Trebouxiophyceae	11915952768	MAG detected
+SRR7232211	Cystobasidiomycetes	11915952768	MAG detected
+SRR7232211	Tremellomycetes	11915952768	MAG detected
+SRR7232212	Acetobacteraceae	11983139856	MAG detected
+SRR7232212	Trebouxiophyceae	11983139856	MAG detected
+SRR7232212	Cystobasidiomycetes	11983139856	MAG detected
+SRR7232212	Tremellomycetes	11983139856	MAG detected
+SRR7232214	Trebouxiophyceae	12080153888	MAG detected
+SRR7232214	Cystobasidiomycetes	12080153888	MAG detected
+SRR7232214	Tremellomycetes	12080153888	MAG detected
+X10	Trebouxiophyceae	12114619750	MAG detected
+X3	Acetobacteraceae	12381879250	MAG detected
+X3	Acidobacteriaceae	12381879250	MAG detected
+X3	Beijerinckiaceae	12381879250	MAG detected
+X3	Sphingomonadaceae	12381879250	MAG detected
+X3	Trebouxiophyceae	12381879250	MAG detected
+SRR7232213	Acetobacteraceae	12478175288	MAG detected
+SRR7232213	Trebouxiophyceae	12478175288	MAG detected
+SRR7232213	Cystobasidiomycetes	12478175288	MAG detected
+X9	Acetobacteraceae	12497401000	MAG detected
+X9	Trebouxiophyceae	12497401000	MAG detected
+X9	Tremellomycetes	12497401000	MAG detected
+X7	Trebouxiophyceae	12531347000	MAG detected
+X7	Tremellomycetes	12531347000	MAG detected
+SRR11456918	Acetobacteraceae	12580023514	MAG detected
+SRR11456918	Beijerinckiaceae	12580023514	MAG detected
+SRR11456918	Sphingomonadaceae	12580023514	MAG detected
+SRR11456923	Sphingomonadaceae	12708455960	MAG detected
+SRR11456917	Sphingomonadaceae	12749704932	MAG detected
+X12	Acetobacteraceae	13243158000	MAG detected
+X12	Trebouxiophyceae	13243158000	MAG detected
+X4	Acetobacteraceae	13287338000	MAG detected
+X4	Sphingomonadaceae	13287338000	MAG detected
+X1	Acetobacteraceae	14391347750	MAG detected
+X1	Trebouxiophyceae	14391347750	MAG detected
+X1	Tremellomycetes	14391347750	MAG detected
+X2	Trebouxiophyceae	14488756500	MAG detected
+X5	Acidobacteriaceae	14934984750	MAG detected
+SRR11456919	Acetobacteraceae	15005117036	MAG detected
+SRR11456919	Acidobacteriaceae	15005117036	MAG detected
+SRR11456919	Beijerinckiaceae	15005117036	MAG detected
+SRR11456919	Sphingomonadaceae	15005117036	MAG detected
+SRR11456919	Trebouxiophyceae	15005117036	MAG detected
+SRR1532736	Trebouxiophyceae	15148872300	MAG detected
+SRR11456915	Beijerinckiaceae	15218326096	MAG detected
+SRR11456915	Sphingomonadaceae	15218326096	MAG detected
+SRR11456915	Trebouxiophyceae	15218326096	MAG detected
+SRR1531545	Sphingomonadaceae	15367008150	MAG detected
+T1882	Trebouxiophyceae	16086931500	MAG detected
+SRR13125477	Acetobacteraceae	16137791400	MAG detected
+SRR13125477	Acidobacteriaceae	16137791400	MAG detected
+SRR13125477	Trebouxiophyceae	16137791400	MAG detected
+SRR11456922	Beijerinckiaceae	17025986880	MAG detected
+SRR11456922	Sphingomonadaceae	17025986880	MAG detected
+T1912	Trebouxiophyceae	18875462100	MAG detected
+T1914	Acetobacteraceae	18930750600	MAG detected
+T1914	Acidobacteriaceae	18930750600	MAG detected
+T1914	Beijerinckiaceae	18930750600	MAG detected
+T1914	Trebouxiophyceae	18930750600	MAG detected
+GTX0163	Acetobacteraceae	19017090000	MAG detected
+GTX0163	Beijerinckiaceae	19017090000	MAG detected
+GTX0163	Sphingomonadaceae	19017090000	MAG detected
+GTX0163	Trebouxiophyceae	19017090000	MAG detected
+SRR11456913	Acetobacteraceae	20745690476	MAG detected
+SRR11456913	Acidobacteriaceae	20745690476	MAG detected
+SRR11456913	Beijerinckiaceae	20745690476	MAG detected
+SRR11456913	Sphingomonadaceae	20745690476	MAG detected
+T1881	Trebouxiophyceae	21838551300	MAG detected
+T1916	Acetobacteraceae	22997863800	MAG detected
+T1916	Acidobacteriaceae	22997863800	MAG detected
+T1916	Beijerinckiaceae	22997863800	MAG detected
+T1916	Sphingomonadaceae	22997863800	MAG detected
+T1916	Trebouxiophyceae	22997863800	MAG detected
+SRR11456921	Acetobacteraceae	23249913362	MAG detected
+SRR11456921	Beijerinckiaceae	23249913362	MAG detected
+SRR11456921	Sphingomonadaceae	23249913362	MAG detected
+T1889	Acetobacteraceae	24626097300	MAG detected
+T1889	Acidobacteriaceae	24626097300	MAG detected
+T1889	Beijerinckiaceae	24626097300	MAG detected
+T1889	Sphingomonadaceae	24626097300	MAG detected
+T1889	Trebouxiophyceae	24626097300	MAG detected
+GTX0158	Beijerinckiaceae	24881678400	MAG detected
+T1894	Acetobacteraceae	25018821000	MAG detected
+T1894	Acidobacteriaceae	25018821000	MAG detected
+T1894	Beijerinckiaceae	25018821000	MAG detected
+T1894	Trebouxiophyceae	25018821000	MAG detected
+T1887	Acetobacteraceae	26592286200	MAG detected
+T1887	Beijerinckiaceae	26592286200	MAG detected
+T1887	Sphingomonadaceae	26592286200	MAG detected
+T1888	Acetobacteraceae	27582553500	MAG detected
+T1888	Acidobacteriaceae	27582553500	MAG detected
+T1888	Beijerinckiaceae	27582553500	MAG detected
+T1888	Sphingomonadaceae	27582553500	MAG detected
+T1888	Trebouxiophyceae	27582553500	MAG detected
+T1904	Acetobacteraceae	28165630200	MAG detected
+T1904	Acidobacteriaceae	28165630200	MAG detected
+T1904	Beijerinckiaceae	28165630200	MAG detected
+T1904	Sphingomonadaceae	28165630200	MAG detected
+T1904	Trebouxiophyceae	28165630200	MAG detected
+GTX0161	Acidobacteriaceae	32118972600	MAG detected
+GTX0161	Trebouxiophyceae	32118972600	MAG detected
+ERR4179390	Acetobacteraceae	34830147881	MAG detected
+ERR4179390	Acidobacteriaceae	34830147881	MAG detected
+ERR4179390	Beijerinckiaceae	34830147881	MAG detected
+ERR4179390	Sphingomonadaceae	34830147881	MAG detected
+ERR4179390	Trebouxiophyceae	34830147881	MAG detected
+SRR11456914	Acetobacteraceae	35095207098	MAG detected
+SRR11456914	Beijerinckiaceae	35095207098	MAG detected
+SRR11456914	Sphingomonadaceae	35095207098	MAG detected
+SRR14722030	Acetobacteraceae	248125314	rRNA detected
+SRR14722030	Acidobacteriaceae	248125314	rRNA detected
+SRR14722030	Beijerinckiaceae	248125314	rRNA detected
+SRR14722030	Sphingomonadaceae	248125314	rRNA detected
+SRR14722030	Trebouxiophyceae	248125314	rRNA detected
+SRR14722030	Tremellomycetes	248125314	rRNA detected
+SRR13126647	Acetobacteraceae	447209227	rRNA detected
+SRR13126647	Acidobacteriaceae	447209227	rRNA detected
+SRR13126647	Beijerinckiaceae	447209227	rRNA detected
+SRR13126647	Sphingomonadaceae	447209227	rRNA detected
+SRR13126647	Trebouxiophyceae	447209227	rRNA detected
+SRR13126647	Tremellomycetes	447209227	rRNA detected
+SRR14722186	Acetobacteraceae	548060842	rRNA detected
+SRR14722186	Acidobacteriaceae	548060842	rRNA detected
+SRR14722186	Beijerinckiaceae	548060842	rRNA detected
+SRR14722186	Sphingomonadaceae	548060842	rRNA detected
+SRR14722186	Trebouxiophyceae	548060842	rRNA detected
+SRR14722186	Tremellomycetes	548060842	rRNA detected
+SRR14722035	Acetobacteraceae	553745992	rRNA detected
+SRR14722035	Acidobacteriaceae	553745992	rRNA detected
+SRR14722035	Beijerinckiaceae	553745992	rRNA detected
+SRR14722035	Sphingomonadaceae	553745992	rRNA detected
+SRR14722035	Trebouxiophyceae	553745992	rRNA detected
+SRR13125985	Acetobacteraceae	576727858	rRNA detected
+SRR13125985	Acidobacteriaceae	576727858	rRNA detected
+SRR13125985	Beijerinckiaceae	576727858	rRNA detected
+SRR13125985	Sphingomonadaceae	576727858	rRNA detected
+SRR13125985	Trebouxiophyceae	576727858	rRNA detected
+SRR13126828	Acetobacteraceae	576977571	rRNA detected
+SRR13126828	Acidobacteriaceae	576977571	rRNA detected
+SRR13126828	Beijerinckiaceae	576977571	rRNA detected
+SRR13126828	Trebouxiophyceae	576977571	rRNA detected
+SRR13685162	Acetobacteraceae	579616520	rRNA detected
+SRR13685162	Sphingomonadaceae	579616520	rRNA detected
+SRR13685162	Trebouxiophyceae	579616520	rRNA detected
+SRR13685162	Tremellomycetes	579616520	rRNA detected
+SRR13685154	Acetobacteraceae	585379284	rRNA detected
+SRR13685154	Acidobacteriaceae	585379284	rRNA detected
+SRR13685154	Beijerinckiaceae	585379284	rRNA detected
+SRR13685154	Sphingomonadaceae	585379284	rRNA detected
+SRR13685154	Trebouxiophyceae	585379284	rRNA detected
+SRR13685154	Tremellomycetes	585379284	rRNA detected
+SRR14721973	Acetobacteraceae	586278942	rRNA detected
+SRR14721973	Acidobacteriaceae	586278942	rRNA detected
+SRR14721973	Beijerinckiaceae	586278942	rRNA detected
+SRR14721973	Sphingomonadaceae	586278942	rRNA detected
+SRR14721973	Tremellomycetes	586278942	rRNA detected
+SRR13685157	Acetobacteraceae	595991866	rRNA detected
+SRR13685157	Beijerinckiaceae	595991866	rRNA detected
+SRR13685157	Sphingomonadaceae	595991866	rRNA detected
+SRR13685157	Trebouxiophyceae	595991866	rRNA detected
+SRR13685157	Tremellomycetes	595991866	rRNA detected
+SRR14721977	Acetobacteraceae	610283110	rRNA detected
+SRR14721977	Acidobacteriaceae	610283110	rRNA detected
+SRR14721977	Beijerinckiaceae	610283110	rRNA detected
+SRR14721977	Sphingomonadaceae	610283110	rRNA detected
+SRR14721977	Trebouxiophyceae	610283110	rRNA detected
+SRR13685161	Acetobacteraceae	628949730	rRNA detected
+SRR13685161	Acidobacteriaceae	628949730	rRNA detected
+SRR13685161	Beijerinckiaceae	628949730	rRNA detected
+SRR13685161	Sphingomonadaceae	628949730	rRNA detected
+SRR13685161	Trebouxiophyceae	628949730	rRNA detected
+SRR14721992	Acetobacteraceae	632782110	rRNA detected
+SRR14721992	Acidobacteriaceae	632782110	rRNA detected
+SRR14721992	Beijerinckiaceae	632782110	rRNA detected
+SRR14721992	Sphingomonadaceae	632782110	rRNA detected
+SRR14721992	Trebouxiophyceae	632782110	rRNA detected
+SRR14721971	Acetobacteraceae	658905110	rRNA detected
+SRR14721971	Acidobacteriaceae	658905110	rRNA detected
+SRR14721971	Beijerinckiaceae	658905110	rRNA detected
+SRR14721971	Sphingomonadaceae	658905110	rRNA detected
+SRR14721971	Trebouxiophyceae	658905110	rRNA detected
+SRR14721971	Tremellomycetes	658905110	rRNA detected
+SRR14722072	Acetobacteraceae	702881444	rRNA detected
+SRR14722072	Acidobacteriaceae	702881444	rRNA detected
+SRR14722072	Sphingomonadaceae	702881444	rRNA detected
+SRR14722072	Trebouxiophyceae	702881444	rRNA detected
+SRR14722311	Acetobacteraceae	710159342	rRNA detected
+SRR14722311	Acidobacteriaceae	710159342	rRNA detected
+SRR14722311	Beijerinckiaceae	710159342	rRNA detected
+SRR14722311	Sphingomonadaceae	710159342	rRNA detected
+SRR14722311	Trebouxiophyceae	710159342	rRNA detected
+SRR14722311	Tremellomycetes	710159342	rRNA detected
+SRR13685158	Acetobacteraceae	722120656	rRNA detected
+SRR13685158	Acidobacteriaceae	722120656	rRNA detected
+SRR13685158	Beijerinckiaceae	722120656	rRNA detected
+SRR13685158	Sphingomonadaceae	722120656	rRNA detected
+SRR13685158	Trebouxiophyceae	722120656	rRNA detected
+SRR13685165	Acetobacteraceae	728229512	rRNA detected
+SRR13685165	Acidobacteriaceae	728229512	rRNA detected
+SRR13685165	Trebouxiophyceae	728229512	rRNA detected
+SRR13685165	Cystobasidiomycetes	728229512	rRNA detected
+SRR13685165	Tremellomycetes	728229512	rRNA detected
+SRR14722075	Acetobacteraceae	751529718	rRNA detected
+SRR14722075	Acidobacteriaceae	751529718	rRNA detected
+SRR14722075	Sphingomonadaceae	751529718	rRNA detected
+SRR14722075	Trebouxiophyceae	751529718	rRNA detected
+SRR14722075	Tremellomycetes	751529718	rRNA detected
+SRR14722099	Acetobacteraceae	752849760	rRNA detected
+SRR14722099	Acidobacteriaceae	752849760	rRNA detected
+SRR14722099	Beijerinckiaceae	752849760	rRNA detected
+SRR14722099	Sphingomonadaceae	752849760	rRNA detected
+SRR14722099	Trebouxiophyceae	752849760	rRNA detected
+SRR14722028	Acetobacteraceae	754572972	rRNA detected
+SRR14722028	Acidobacteriaceae	754572972	rRNA detected
+SRR14722028	Beijerinckiaceae	754572972	rRNA detected
+SRR14722028	Sphingomonadaceae	754572972	rRNA detected
+SRR14722028	Trebouxiophyceae	754572972	rRNA detected
+SRR14722028	Tremellomycetes	754572972	rRNA detected
+SRR13167197	Acetobacteraceae	761732733	rRNA detected
+SRR13167197	Beijerinckiaceae	761732733	rRNA detected
+SRR13167197	Sphingomonadaceae	761732733	rRNA detected
+SRR13167197	Trebouxiophyceae	761732733	rRNA detected
+SRR14722016	Acetobacteraceae	784227560	rRNA detected
+SRR14722016	Acidobacteriaceae	784227560	rRNA detected
+SRR14722016	Beijerinckiaceae	784227560	rRNA detected
+SRR14722016	Sphingomonadaceae	784227560	rRNA detected
+SRR14722016	Trebouxiophyceae	784227560	rRNA detected
+SRR14722016	Tremellomycetes	784227560	rRNA detected
+SRR13126796	Sphingomonadaceae	787429291	rRNA detected
+SRR13126796	Trebouxiophyceae	787429291	rRNA detected
+SRR14721936	Acidobacteriaceae	794350298	rRNA detected
+SRR14721936	Beijerinckiaceae	794350298	rRNA detected
+SRR14721936	Sphingomonadaceae	794350298	rRNA detected
+SRR14721936	Trebouxiophyceae	794350298	rRNA detected
+SRR14721936	Cystobasidiomycetes	794350298	rRNA detected
+SRR14721936	Tremellomycetes	794350298	rRNA detected
+SRR13685164	Acetobacteraceae	798545984	rRNA detected
+SRR13685164	Trebouxiophyceae	798545984	rRNA detected
+SRR13685164	Cystobasidiomycetes	798545984	rRNA detected
+SRR14722004	Acetobacteraceae	815926084	rRNA detected
+SRR14722004	Acidobacteriaceae	815926084	rRNA detected
+SRR14722004	Beijerinckiaceae	815926084	rRNA detected
+SRR14722004	Sphingomonadaceae	815926084	rRNA detected
+SRR14722004	Trebouxiophyceae	815926084	rRNA detected
+SRR14722004	Tremellomycetes	815926084	rRNA detected
+SRR14722010	Acetobacteraceae	834885342	rRNA detected
+SRR14722010	Beijerinckiaceae	834885342	rRNA detected
+SRR14722010	Sphingomonadaceae	834885342	rRNA detected
+SRR14722010	Trebouxiophyceae	834885342	rRNA detected
+SRR14721993	Acetobacteraceae	857871166	rRNA detected
+SRR14721993	Acidobacteriaceae	857871166	rRNA detected
+SRR14721993	Sphingomonadaceae	857871166	rRNA detected
+SRR14721993	Trebouxiophyceae	857871166	rRNA detected
+SRR14721993	Tremellomycetes	857871166	rRNA detected
+SRR14722000	Acetobacteraceae	863435818	rRNA detected
+SRR14722000	Acidobacteriaceae	863435818	rRNA detected
+SRR14722000	Sphingomonadaceae	863435818	rRNA detected
+SRR14722000	Trebouxiophyceae	863435818	rRNA detected
+SRR14722000	Tremellomycetes	863435818	rRNA detected
+SRR14721997	Acetobacteraceae	870103374	rRNA detected
+SRR14721997	Acidobacteriaceae	870103374	rRNA detected
+SRR14721997	Beijerinckiaceae	870103374	rRNA detected
+SRR14721997	Sphingomonadaceae	870103374	rRNA detected
+SRR14721997	Trebouxiophyceae	870103374	rRNA detected
+SRR14722118	Acetobacteraceae	904833072	rRNA detected
+SRR14722118	Sphingomonadaceae	904833072	rRNA detected
+SRR14722118	Trebouxiophyceae	904833072	rRNA detected
+SRR14721984	Acetobacteraceae	923492444	rRNA detected
+SRR14721984	Acidobacteriaceae	923492444	rRNA detected
+SRR14721984	Beijerinckiaceae	923492444	rRNA detected
+SRR14721984	Sphingomonadaceae	923492444	rRNA detected
+SRR14721984	Trebouxiophyceae	923492444	rRNA detected
+SRR14721984	Tremellomycetes	923492444	rRNA detected
+SRR14722202	Acetobacteraceae	958576992	rRNA detected
+SRR14722202	Acidobacteriaceae	958576992	rRNA detected
+SRR14722202	Trebouxiophyceae	958576992	rRNA detected
+SRR14722202	Cystobasidiomycetes	958576992	rRNA detected
+SRR14722202	Tremellomycetes	958576992	rRNA detected
+SRR14722051	Beijerinckiaceae	975559660	rRNA detected
+SRR14722051	Sphingomonadaceae	975559660	rRNA detected
+SRR14722051	Trebouxiophyceae	975559660	rRNA detected
+SRR14722018	Acetobacteraceae	975842634	rRNA detected
+SRR14722018	Acidobacteriaceae	975842634	rRNA detected
+SRR14722018	Beijerinckiaceae	975842634	rRNA detected
+SRR14722018	Sphingomonadaceae	975842634	rRNA detected
+SRR14722018	Trebouxiophyceae	975842634	rRNA detected
+SRR14721939	Acetobacteraceae	991726022	rRNA detected
+SRR14721939	Beijerinckiaceae	991726022	rRNA detected
+SRR14721939	Sphingomonadaceae	991726022	rRNA detected
+SRR14721939	Trebouxiophyceae	991726022	rRNA detected
+SRR14721939	Cystobasidiomycetes	991726022	rRNA detected
+SRR14721939	Tremellomycetes	991726022	rRNA detected
+SRR14722020	Acetobacteraceae	1006688612	rRNA detected
+SRR14722020	Acidobacteriaceae	1006688612	rRNA detected
+SRR14722020	Beijerinckiaceae	1006688612	rRNA detected
+SRR14722020	Sphingomonadaceae	1006688612	rRNA detected
+SRR14722020	Trebouxiophyceae	1006688612	rRNA detected
+SRR14722020	Tremellomycetes	1006688612	rRNA detected
+SRR14722312	Acetobacteraceae	1014178514	rRNA detected
+SRR14722312	Acidobacteriaceae	1014178514	rRNA detected
+SRR14722312	Beijerinckiaceae	1014178514	rRNA detected
+SRR14722312	Sphingomonadaceae	1014178514	rRNA detected
+SRR14722312	Trebouxiophyceae	1014178514	rRNA detected
+SRR14721995	Acetobacteraceae	1015010524	rRNA detected
+SRR14721995	Beijerinckiaceae	1015010524	rRNA detected
+SRR14721995	Sphingomonadaceae	1015010524	rRNA detected
+SRR14721995	Trebouxiophyceae	1015010524	rRNA detected
+SRR14721995	Tremellomycetes	1015010524	rRNA detected
+SRR14722012	Acetobacteraceae	1025757496	rRNA detected
+SRR14722012	Acidobacteriaceae	1025757496	rRNA detected
+SRR14722012	Beijerinckiaceae	1025757496	rRNA detected
+SRR14722012	Sphingomonadaceae	1025757496	rRNA detected
+SRR14722012	Trebouxiophyceae	1025757496	rRNA detected
+SRR14722012	Tremellomycetes	1025757496	rRNA detected
+SRR14722002	Acetobacteraceae	1027194714	rRNA detected
+SRR14722002	Beijerinckiaceae	1027194714	rRNA detected
+SRR14722002	Sphingomonadaceae	1027194714	rRNA detected
+SRR14722002	Trebouxiophyceae	1027194714	rRNA detected
+SRR14722002	Tremellomycetes	1027194714	rRNA detected
+SRR14722047	Acetobacteraceae	1030012374	rRNA detected
+SRR14722047	Acidobacteriaceae	1030012374	rRNA detected
+SRR14722047	Beijerinckiaceae	1030012374	rRNA detected
+SRR14722047	Sphingomonadaceae	1030012374	rRNA detected
+SRR14722047	Trebouxiophyceae	1030012374	rRNA detected
+SRR14722047	Cystobasidiomycetes	1030012374	rRNA detected
+SRR14722047	Tremellomycetes	1030012374	rRNA detected
+SRR14721998	Acetobacteraceae	1033038414	rRNA detected
+SRR14721998	Acidobacteriaceae	1033038414	rRNA detected
+SRR14721998	Beijerinckiaceae	1033038414	rRNA detected
+SRR14721998	Sphingomonadaceae	1033038414	rRNA detected
+SRR14721998	Trebouxiophyceae	1033038414	rRNA detected
+SRR14722006	Acetobacteraceae	1036372796	rRNA detected
+SRR14722006	Acidobacteriaceae	1036372796	rRNA detected
+SRR14722006	Beijerinckiaceae	1036372796	rRNA detected
+SRR14722006	Sphingomonadaceae	1036372796	rRNA detected
+SRR14722006	Trebouxiophyceae	1036372796	rRNA detected
+SRR14722006	Tremellomycetes	1036372796	rRNA detected
+SRR14721987	Acidobacteriaceae	1078541660	rRNA detected
+SRR14721987	Beijerinckiaceae	1078541660	rRNA detected
+SRR14721987	Sphingomonadaceae	1078541660	rRNA detected
+SRR14721987	Trebouxiophyceae	1078541660	rRNA detected
+SRR14721991	Acetobacteraceae	1081278384	rRNA detected
+SRR14721991	Acidobacteriaceae	1081278384	rRNA detected
+SRR14721991	Beijerinckiaceae	1081278384	rRNA detected
+SRR14721991	Sphingomonadaceae	1081278384	rRNA detected
+SRR14721991	Trebouxiophyceae	1081278384	rRNA detected
+SRR12240175	Acetobacteraceae	1101309616	rRNA detected
+SRR12240175	Acidobacteriaceae	1101309616	rRNA detected
+SRR12240175	Beijerinckiaceae	1101309616	rRNA detected
+SRR12240175	Trebouxiophyceae	1101309616	rRNA detected
+SRR14722021	Acetobacteraceae	1107319844	rRNA detected
+SRR14722021	Beijerinckiaceae	1107319844	rRNA detected
+SRR14722021	Sphingomonadaceae	1107319844	rRNA detected
+SRR14722021	Trebouxiophyceae	1107319844	rRNA detected
+SRR14722021	Tremellomycetes	1107319844	rRNA detected
+SRR14722003	Acetobacteraceae	1111555394	rRNA detected
+SRR14722003	Sphingomonadaceae	1111555394	rRNA detected
+SRR14722003	Trebouxiophyceae	1111555394	rRNA detected
+SRR14722003	Cystobasidiomycetes	1111555394	rRNA detected
+SRR14722003	Tremellomycetes	1111555394	rRNA detected
+SRR14722031	Acetobacteraceae	1112283516	rRNA detected
+SRR14722031	Beijerinckiaceae	1112283516	rRNA detected
+SRR14722031	Sphingomonadaceae	1112283516	rRNA detected
+SRR14722031	Trebouxiophyceae	1112283516	rRNA detected
+SRR14722031	Tremellomycetes	1112283516	rRNA detected
+SRR14722022	Acetobacteraceae	1123401344	rRNA detected
+SRR14722022	Acidobacteriaceae	1123401344	rRNA detected
+SRR14722022	Trebouxiophyceae	1123401344	rRNA detected
+SRR14722022	Cystobasidiomycetes	1123401344	rRNA detected
+SRR14722005	Acetobacteraceae	1141070760	rRNA detected
+SRR14722005	Acidobacteriaceae	1141070760	rRNA detected
+SRR14722005	Beijerinckiaceae	1141070760	rRNA detected
+SRR14722005	Sphingomonadaceae	1141070760	rRNA detected
+SRR14722005	Trebouxiophyceae	1141070760	rRNA detected
+SRR14722005	Tremellomycetes	1141070760	rRNA detected
+SRR12240178	Acetobacteraceae	1141955117	rRNA detected
+SRR12240178	Acidobacteriaceae	1141955117	rRNA detected
+SRR12240178	Beijerinckiaceae	1141955117	rRNA detected
+SRR12240178	Sphingomonadaceae	1141955117	rRNA detected
+SRR12240178	Trebouxiophyceae	1141955117	rRNA detected
+SRR12240178	Cystobasidiomycetes	1141955117	rRNA detected
+SRR14722015	Acetobacteraceae	1157540028	rRNA detected
+SRR14722015	Acidobacteriaceae	1157540028	rRNA detected
+SRR14722015	Beijerinckiaceae	1157540028	rRNA detected
+SRR14722015	Sphingomonadaceae	1157540028	rRNA detected
+SRR14722015	Trebouxiophyceae	1157540028	rRNA detected
+SRR14722015	Tremellomycetes	1157540028	rRNA detected
+SRR14722036	Acetobacteraceae	1159539872	rRNA detected
+SRR14722036	Acidobacteriaceae	1159539872	rRNA detected
+SRR14722036	Beijerinckiaceae	1159539872	rRNA detected
+SRR14722036	Sphingomonadaceae	1159539872	rRNA detected
+SRR14722036	Trebouxiophyceae	1159539872	rRNA detected
+SRR14721983	Acetobacteraceae	1179233292	rRNA detected
+SRR14721983	Acidobacteriaceae	1179233292	rRNA detected
+SRR14721983	Beijerinckiaceae	1179233292	rRNA detected
+SRR14721983	Sphingomonadaceae	1179233292	rRNA detected
+SRR14721983	Trebouxiophyceae	1179233292	rRNA detected
+SRR14721982	Acetobacteraceae	1195195804	rRNA detected
+SRR14721982	Acidobacteriaceae	1195195804	rRNA detected
+SRR14721982	Beijerinckiaceae	1195195804	rRNA detected
+SRR14721982	Sphingomonadaceae	1195195804	rRNA detected
+SRR14721982	Trebouxiophyceae	1195195804	rRNA detected
+SRR14721982	Tremellomycetes	1195195804	rRNA detected
+SRR14721978	Acetobacteraceae	1229069030	rRNA detected
+SRR14721978	Acidobacteriaceae	1229069030	rRNA detected
+SRR14721978	Beijerinckiaceae	1229069030	rRNA detected
+SRR14721978	Sphingomonadaceae	1229069030	rRNA detected
+SRR14721978	Trebouxiophyceae	1229069030	rRNA detected
+SRR14721978	Tremellomycetes	1229069030	rRNA detected
+SRR14721999	Acetobacteraceae	1230744828	rRNA detected
+SRR14721999	Beijerinckiaceae	1230744828	rRNA detected
+SRR14721999	Sphingomonadaceae	1230744828	rRNA detected
+SRR14721999	Trebouxiophyceae	1230744828	rRNA detected
+SRR14721970	Acetobacteraceae	1231440938	rRNA detected
+SRR14721970	Acidobacteriaceae	1231440938	rRNA detected
+SRR14721970	Beijerinckiaceae	1231440938	rRNA detected
+SRR14721970	Sphingomonadaceae	1231440938	rRNA detected
+SRR14721970	Trebouxiophyceae	1231440938	rRNA detected
+SRR14721970	Tremellomycetes	1231440938	rRNA detected
+SRR14721935	Acetobacteraceae	1234573282	rRNA detected
+SRR14721935	Acidobacteriaceae	1234573282	rRNA detected
+SRR14721935	Beijerinckiaceae	1234573282	rRNA detected
+SRR14721935	Sphingomonadaceae	1234573282	rRNA detected
+SRR14721935	Trebouxiophyceae	1234573282	rRNA detected
+SRR14721935	Tremellomycetes	1234573282	rRNA detected
+SRR14721986	Acetobacteraceae	1259731694	rRNA detected
+SRR14721986	Beijerinckiaceae	1259731694	rRNA detected
+SRR14721986	Sphingomonadaceae	1259731694	rRNA detected
+SRR14721986	Trebouxiophyceae	1259731694	rRNA detected
+SRR14721986	Cystobasidiomycetes	1259731694	rRNA detected
+SRR14721986	Tremellomycetes	1259731694	rRNA detected
+SRR14721985	Sphingomonadaceae	1273065296	rRNA detected
+SRR14721985	Trebouxiophyceae	1273065296	rRNA detected
+SRR14721985	Cystobasidiomycetes	1273065296	rRNA detected
+SRR14721985	Tremellomycetes	1273065296	rRNA detected
+SRR14721941	Beijerinckiaceae	1286751030	rRNA detected
+SRR14721941	Sphingomonadaceae	1286751030	rRNA detected
+SRR14721941	Trebouxiophyceae	1286751030	rRNA detected
+SRR14721941	Cystobasidiomycetes	1286751030	rRNA detected
+SRR14721980	Beijerinckiaceae	1289181526	rRNA detected
+SRR14721980	Sphingomonadaceae	1289181526	rRNA detected
+SRR14721980	Trebouxiophyceae	1289181526	rRNA detected
+SRR14721979	Acetobacteraceae	1295686606	rRNA detected
+SRR14721979	Acidobacteriaceae	1295686606	rRNA detected
+SRR14721979	Beijerinckiaceae	1295686606	rRNA detected
+SRR14721979	Sphingomonadaceae	1295686606	rRNA detected
+SRR14721979	Trebouxiophyceae	1295686606	rRNA detected
+SRR14721979	Tremellomycetes	1295686606	rRNA detected
+SRR14722302	Acetobacteraceae	1307381556	rRNA detected
+SRR14722302	Acidobacteriaceae	1307381556	rRNA detected
+SRR14722302	Beijerinckiaceae	1307381556	rRNA detected
+SRR14722302	Sphingomonadaceae	1307381556	rRNA detected
+SRR14722302	Trebouxiophyceae	1307381556	rRNA detected
+SRR14721959	Acetobacteraceae	1316976096	rRNA detected
+SRR14721959	Acidobacteriaceae	1316976096	rRNA detected
+SRR14721959	Beijerinckiaceae	1316976096	rRNA detected
+SRR14721959	Sphingomonadaceae	1316976096	rRNA detected
+SRR14721959	Trebouxiophyceae	1316976096	rRNA detected
+SRR14721959	Tremellomycetes	1316976096	rRNA detected
+SRR14722174	Acetobacteraceae	1324337648	rRNA detected
+SRR14722174	Sphingomonadaceae	1324337648	rRNA detected
+SRR14722174	Trebouxiophyceae	1324337648	rRNA detected
+SRR14722174	Tremellomycetes	1324337648	rRNA detected
+SRR12240174	Acidobacteriaceae	1329976068	rRNA detected
+SRR12240174	Beijerinckiaceae	1329976068	rRNA detected
+SRR12240174	Trebouxiophyceae	1329976068	rRNA detected
+SRR14722019	Acetobacteraceae	1331060772	rRNA detected
+SRR14722019	Acidobacteriaceae	1331060772	rRNA detected
+SRR14722019	Beijerinckiaceae	1331060772	rRNA detected
+SRR14722019	Sphingomonadaceae	1331060772	rRNA detected
+SRR14722019	Trebouxiophyceae	1331060772	rRNA detected
+SRR14722129	Sphingomonadaceae	1332706672	rRNA detected
+SRR14722129	Trebouxiophyceae	1332706672	rRNA detected
+SRR14722129	Cystobasidiomycetes	1332706672	rRNA detected
+SRR14722129	Tremellomycetes	1332706672	rRNA detected
+SRR14721932	Acetobacteraceae	1337832518	rRNA detected
+SRR14721932	Acidobacteriaceae	1337832518	rRNA detected
+SRR14721932	Beijerinckiaceae	1337832518	rRNA detected
+SRR14721932	Sphingomonadaceae	1337832518	rRNA detected
+SRR14721932	Trebouxiophyceae	1337832518	rRNA detected
+SRR14721932	Tremellomycetes	1337832518	rRNA detected
+SRR14722066	Acetobacteraceae	1350674766	rRNA detected
+SRR14722066	Trebouxiophyceae	1350674766	rRNA detected
+SRR14722066	Tremellomycetes	1350674766	rRNA detected
+SRR14721923	Acetobacteraceae	1351992392	rRNA detected
+SRR14721923	Acidobacteriaceae	1351992392	rRNA detected
+SRR14721923	Beijerinckiaceae	1351992392	rRNA detected
+SRR14721923	Sphingomonadaceae	1351992392	rRNA detected
+SRR14721923	Trebouxiophyceae	1351992392	rRNA detected
+SRR14721948	Acetobacteraceae	1358620084	rRNA detected
+SRR14721948	Beijerinckiaceae	1358620084	rRNA detected
+SRR14721948	Sphingomonadaceae	1358620084	rRNA detected
+SRR14721948	Trebouxiophyceae	1358620084	rRNA detected
+SRR14722288	Acetobacteraceae	1372978674	rRNA detected
+SRR14722288	Beijerinckiaceae	1372978674	rRNA detected
+SRR14722288	Sphingomonadaceae	1372978674	rRNA detected
+SRR14722288	Trebouxiophyceae	1372978674	rRNA detected
+SRR14722026	Trebouxiophyceae	1376535630	rRNA detected
+SRR14722026	Cystobasidiomycetes	1376535630	rRNA detected
+SRR14722026	Tremellomycetes	1376535630	rRNA detected
+SRR14722023	Acetobacteraceae	1390022346	rRNA detected
+SRR14722023	Acidobacteriaceae	1390022346	rRNA detected
+SRR14722023	Beijerinckiaceae	1390022346	rRNA detected
+SRR14722023	Trebouxiophyceae	1390022346	rRNA detected
+SRR14722023	Cystobasidiomycetes	1390022346	rRNA detected
+SRR14722023	Tremellomycetes	1390022346	rRNA detected
+SRR14721946	Acetobacteraceae	1392508410	rRNA detected
+SRR14721946	Acidobacteriaceae	1392508410	rRNA detected
+SRR14721946	Beijerinckiaceae	1392508410	rRNA detected
+SRR14721946	Sphingomonadaceae	1392508410	rRNA detected
+SRR14721946	Trebouxiophyceae	1392508410	rRNA detected
+SRR14721946	Tremellomycetes	1392508410	rRNA detected
+SRR14722061	Acetobacteraceae	1392783230	rRNA detected
+SRR14722061	Acidobacteriaceae	1392783230	rRNA detected
+SRR14722061	Beijerinckiaceae	1392783230	rRNA detected
+SRR14722061	Sphingomonadaceae	1392783230	rRNA detected
+SRR14722061	Trebouxiophyceae	1392783230	rRNA detected
+SRR14722061	Cystobasidiomycetes	1392783230	rRNA detected
+SRR14722061	Tremellomycetes	1392783230	rRNA detected
+SRR14721943	Acetobacteraceae	1393932642	rRNA detected
+SRR14721943	Acidobacteriaceae	1393932642	rRNA detected
+SRR14721943	Beijerinckiaceae	1393932642	rRNA detected
+SRR14721943	Sphingomonadaceae	1393932642	rRNA detected
+SRR14721943	Trebouxiophyceae	1393932642	rRNA detected
+SRR14722289	Acetobacteraceae	1404831218	rRNA detected
+SRR14722289	Acidobacteriaceae	1404831218	rRNA detected
+SRR14722289	Beijerinckiaceae	1404831218	rRNA detected
+SRR14722289	Sphingomonadaceae	1404831218	rRNA detected
+SRR14722289	Trebouxiophyceae	1404831218	rRNA detected
+SRR14722289	Cystobasidiomycetes	1404831218	rRNA detected
+SRR14722289	Tremellomycetes	1404831218	rRNA detected
+SRR14722151	Acetobacteraceae	1407435666	rRNA detected
+SRR14722151	Acidobacteriaceae	1407435666	rRNA detected
+SRR14722151	Sphingomonadaceae	1407435666	rRNA detected
+SRR14722151	Trebouxiophyceae	1407435666	rRNA detected
+SRR14722151	Tremellomycetes	1407435666	rRNA detected
+SRR13685140	Acetobacteraceae	1409896362	rRNA detected
+SRR13685140	Acidobacteriaceae	1409896362	rRNA detected
+SRR13685140	Beijerinckiaceae	1409896362	rRNA detected
+SRR13685140	Sphingomonadaceae	1409896362	rRNA detected
+SRR13685140	Trebouxiophyceae	1409896362	rRNA detected
+SRR13685140	Tremellomycetes	1409896362	rRNA detected
+SRR14722009	Acetobacteraceae	1419216082	rRNA detected
+SRR14722009	Acidobacteriaceae	1419216082	rRNA detected
+SRR14722009	Beijerinckiaceae	1419216082	rRNA detected
+SRR14722009	Sphingomonadaceae	1419216082	rRNA detected
+SRR14722009	Trebouxiophyceae	1419216082	rRNA detected
+SRR14721962	Beijerinckiaceae	1438330870	rRNA detected
+SRR14721962	Sphingomonadaceae	1438330870	rRNA detected
+SRR14721962	Tremellomycetes	1438330870	rRNA detected
+SRR14722330	Acetobacteraceae	1445485854	rRNA detected
+SRR14722330	Beijerinckiaceae	1445485854	rRNA detected
+SRR14722330	Sphingomonadaceae	1445485854	rRNA detected
+SRR14721955	Acidobacteriaceae	1448166708	rRNA detected
+SRR14721955	Beijerinckiaceae	1448166708	rRNA detected
+SRR14721955	Sphingomonadaceae	1448166708	rRNA detected
+SRR14721955	Trebouxiophyceae	1448166708	rRNA detected
+SRR14721955	Tremellomycetes	1448166708	rRNA detected
+SRR14722290	Beijerinckiaceae	1473725270	rRNA detected
+SRR14722290	Sphingomonadaceae	1473725270	rRNA detected
+SRR14722290	Trebouxiophyceae	1473725270	rRNA detected
+SRR14722017	Acetobacteraceae	1480952130	rRNA detected
+SRR14722017	Acidobacteriaceae	1480952130	rRNA detected
+SRR14722017	Beijerinckiaceae	1480952130	rRNA detected
+SRR14722017	Sphingomonadaceae	1480952130	rRNA detected
+SRR14722017	Trebouxiophyceae	1480952130	rRNA detected
+SRR14722108	Acetobacteraceae	1490065584	rRNA detected
+SRR14722108	Acidobacteriaceae	1490065584	rRNA detected
+SRR14722108	Sphingomonadaceae	1490065584	rRNA detected
+SRR14722108	Trebouxiophyceae	1490065584	rRNA detected
+SRR14722108	Cystobasidiomycetes	1490065584	rRNA detected
+SRR14722108	Tremellomycetes	1490065584	rRNA detected
+SRR14721944	Sphingomonadaceae	1492914048	rRNA detected
+SRR14721944	Trebouxiophyceae	1492914048	rRNA detected
+SRR14721944	Tremellomycetes	1492914048	rRNA detected
+SRR12240184	Acetobacteraceae	1500967204	rRNA detected
+SRR12240184	Trebouxiophyceae	1500967204	rRNA detected
+SRR14722294	Acidobacteriaceae	1512306978	rRNA detected
+SRR14722294	Beijerinckiaceae	1512306978	rRNA detected
+SRR14722294	Sphingomonadaceae	1512306978	rRNA detected
+SRR14722294	Trebouxiophyceae	1512306978	rRNA detected
+SRR14722294	Cystobasidiomycetes	1512306978	rRNA detected
+SRR14722294	Tremellomycetes	1512306978	rRNA detected
+SRR14722275	Acidobacteriaceae	1516342604	rRNA detected
+SRR14722275	Beijerinckiaceae	1516342604	rRNA detected
+SRR14722275	Sphingomonadaceae	1516342604	rRNA detected
+SRR14722275	Trebouxiophyceae	1516342604	rRNA detected
+SRR14722275	Tremellomycetes	1516342604	rRNA detected
+SRR14721996	Sphingomonadaceae	1522805404	rRNA detected
+SRR14721996	Trebouxiophyceae	1522805404	rRNA detected
+SRR14721996	Tremellomycetes	1522805404	rRNA detected
+SRR14722014	Acetobacteraceae	1532844488	rRNA detected
+SRR14722014	Acidobacteriaceae	1532844488	rRNA detected
+SRR14722014	Beijerinckiaceae	1532844488	rRNA detected
+SRR14722014	Sphingomonadaceae	1532844488	rRNA detected
+SRR14722014	Trebouxiophyceae	1532844488	rRNA detected
+SRR14722013	Acetobacteraceae	1537520354	rRNA detected
+SRR14722013	Acidobacteriaceae	1537520354	rRNA detected
+SRR14722013	Sphingomonadaceae	1537520354	rRNA detected
+SRR14722013	Trebouxiophyceae	1537520354	rRNA detected
+SRR14722056	Acetobacteraceae	1539342924	rRNA detected
+SRR14722056	Acidobacteriaceae	1539342924	rRNA detected
+SRR14722056	Trebouxiophyceae	1539342924	rRNA detected
+SRR14722067	Acetobacteraceae	1539836090	rRNA detected
+SRR14722067	Beijerinckiaceae	1539836090	rRNA detected
+SRR14722067	Tremellomycetes	1539836090	rRNA detected
+SRR14722082	Beijerinckiaceae	1555905208	rRNA detected
+SRR14722082	Sphingomonadaceae	1555905208	rRNA detected
+SRR14722082	Trebouxiophyceae	1555905208	rRNA detected
+SRR14721931	Acetobacteraceae	1559618298	rRNA detected
+SRR14721931	Acidobacteriaceae	1559618298	rRNA detected
+SRR14721931	Beijerinckiaceae	1559618298	rRNA detected
+SRR14721931	Sphingomonadaceae	1559618298	rRNA detected
+SRR14721931	Trebouxiophyceae	1559618298	rRNA detected
+SRR14722059	Sphingomonadaceae	1561101118	rRNA detected
+SRR14722059	Trebouxiophyceae	1561101118	rRNA detected
+SRR14722059	Cystobasidiomycetes	1561101118	rRNA detected
+SRR14722059	Tremellomycetes	1561101118	rRNA detected
+SRR14722323	Acetobacteraceae	1568205064	rRNA detected
+SRR14722323	Acidobacteriaceae	1568205064	rRNA detected
+SRR14722323	Beijerinckiaceae	1568205064	rRNA detected
+SRR14722323	Sphingomonadaceae	1568205064	rRNA detected
+SRR14722323	Trebouxiophyceae	1568205064	rRNA detected
+SRR14722323	Tremellomycetes	1568205064	rRNA detected
+SRR14721942	Acetobacteraceae	1576656232	rRNA detected
+SRR14721942	Acidobacteriaceae	1576656232	rRNA detected
+SRR14721942	Beijerinckiaceae	1576656232	rRNA detected
+SRR14721942	Sphingomonadaceae	1576656232	rRNA detected
+SRR14721942	Trebouxiophyceae	1576656232	rRNA detected
+SRR14721942	Tremellomycetes	1576656232	rRNA detected
+SRR14722109	Acetobacteraceae	1579021496	rRNA detected
+SRR14722109	Acidobacteriaceae	1579021496	rRNA detected
+SRR14722109	Beijerinckiaceae	1579021496	rRNA detected
+SRR14722109	Sphingomonadaceae	1579021496	rRNA detected
+SRR14722109	Trebouxiophyceae	1579021496	rRNA detected
+SRR14722109	Tremellomycetes	1579021496	rRNA detected
+SRR14721926	Acetobacteraceae	1588561676	rRNA detected
+SRR14721926	Acidobacteriaceae	1588561676	rRNA detected
+SRR14721926	Beijerinckiaceae	1588561676	rRNA detected
+SRR14721926	Sphingomonadaceae	1588561676	rRNA detected
+SRR14721926	Trebouxiophyceae	1588561676	rRNA detected
+SRR14722007	Acidobacteriaceae	1593583936	rRNA detected
+SRR14722007	Sphingomonadaceae	1593583936	rRNA detected
+SRR14722007	Trebouxiophyceae	1593583936	rRNA detected
+SRR14722007	Tremellomycetes	1593583936	rRNA detected
+SRR14722024	Acetobacteraceae	1603596142	rRNA detected
+SRR14722024	Acidobacteriaceae	1603596142	rRNA detected
+SRR14722024	Beijerinckiaceae	1603596142	rRNA detected
+SRR14722024	Sphingomonadaceae	1603596142	rRNA detected
+SRR14722024	Trebouxiophyceae	1603596142	rRNA detected
+SRR14722024	Tremellomycetes	1603596142	rRNA detected
+SRR14722280	Acetobacteraceae	1604343592	rRNA detected
+SRR14722280	Acidobacteriaceae	1604343592	rRNA detected
+SRR14722280	Beijerinckiaceae	1604343592	rRNA detected
+SRR14722280	Sphingomonadaceae	1604343592	rRNA detected
+SRR14722280	Trebouxiophyceae	1604343592	rRNA detected
+SRR14721927	Acetobacteraceae	1605062352	rRNA detected
+SRR14721927	Acidobacteriaceae	1605062352	rRNA detected
+SRR14721927	Beijerinckiaceae	1605062352	rRNA detected
+SRR14721927	Sphingomonadaceae	1605062352	rRNA detected
+SRR14721927	Trebouxiophyceae	1605062352	rRNA detected
+SRR14722101	Beijerinckiaceae	1608475254	rRNA detected
+SRR14722101	Sphingomonadaceae	1608475254	rRNA detected
+SRR14722101	Trebouxiophyceae	1608475254	rRNA detected
+SRR14722101	Tremellomycetes	1608475254	rRNA detected
+SRR14722087	Acetobacteraceae	1608577934	rRNA detected
+SRR14722087	Acidobacteriaceae	1608577934	rRNA detected
+SRR14722087	Beijerinckiaceae	1608577934	rRNA detected
+SRR14722087	Sphingomonadaceae	1608577934	rRNA detected
+SRR14722087	Trebouxiophyceae	1608577934	rRNA detected
+SRR14722087	Tremellomycetes	1608577934	rRNA detected
+SRR14722046	Beijerinckiaceae	1608581256	rRNA detected
+SRR14722046	Sphingomonadaceae	1608581256	rRNA detected
+SRR14722046	Trebouxiophyceae	1608581256	rRNA detected
+SRR14722304	Acetobacteraceae	1610200580	rRNA detected
+SRR14722304	Acidobacteriaceae	1610200580	rRNA detected
+SRR14722304	Beijerinckiaceae	1610200580	rRNA detected
+SRR14722304	Sphingomonadaceae	1610200580	rRNA detected
+SRR14722304	Trebouxiophyceae	1610200580	rRNA detected
+SRR14721964	Acetobacteraceae	1611903860	rRNA detected
+SRR14721964	Acidobacteriaceae	1611903860	rRNA detected
+SRR14721964	Sphingomonadaceae	1611903860	rRNA detected
+SRR14721964	Trebouxiophyceae	1611903860	rRNA detected
+SRR14721965	Acetobacteraceae	1614020880	rRNA detected
+SRR14721965	Acidobacteriaceae	1614020880	rRNA detected
+SRR14721965	Beijerinckiaceae	1614020880	rRNA detected
+SRR14721965	Sphingomonadaceae	1614020880	rRNA detected
+SRR14721965	Trebouxiophyceae	1614020880	rRNA detected
+SRR14721933	Acetobacteraceae	1623848866	rRNA detected
+SRR14721933	Acidobacteriaceae	1623848866	rRNA detected
+SRR14721933	Beijerinckiaceae	1623848866	rRNA detected
+SRR14721933	Sphingomonadaceae	1623848866	rRNA detected
+SRR14721933	Trebouxiophyceae	1623848866	rRNA detected
+SRR14721933	Tremellomycetes	1623848866	rRNA detected
+SRR14722309	Sphingomonadaceae	1625514094	rRNA detected
+SRR14722309	Trebouxiophyceae	1625514094	rRNA detected
+SRR14721925	Acetobacteraceae	1626183024	rRNA detected
+SRR14721925	Acidobacteriaceae	1626183024	rRNA detected
+SRR14721925	Trebouxiophyceae	1626183024	rRNA detected
+SRR14721949	Acetobacteraceae	1630314384	rRNA detected
+SRR14721949	Beijerinckiaceae	1630314384	rRNA detected
+SRR14721949	Sphingomonadaceae	1630314384	rRNA detected
+SRR14721949	Trebouxiophyceae	1630314384	rRNA detected
+SRR14721949	Cystobasidiomycetes	1630314384	rRNA detected
+SRR14722064	Acidobacteriaceae	1632232688	rRNA detected
+SRR14722064	Beijerinckiaceae	1632232688	rRNA detected
+SRR14722064	Sphingomonadaceae	1632232688	rRNA detected
+SRR14722064	Trebouxiophyceae	1632232688	rRNA detected
+SRR14721952	Acetobacteraceae	1650217694	rRNA detected
+SRR14721952	Beijerinckiaceae	1650217694	rRNA detected
+SRR14721952	Sphingomonadaceae	1650217694	rRNA detected
+SRR14721952	Trebouxiophyceae	1650217694	rRNA detected
+SRR14721945	Beijerinckiaceae	1650596100	rRNA detected
+SRR14721945	Trebouxiophyceae	1650596100	rRNA detected
+SRR14722279	Acidobacteriaceae	1650799950	rRNA detected
+SRR14722279	Sphingomonadaceae	1650799950	rRNA detected
+SRR14722279	Trebouxiophyceae	1650799950	rRNA detected
+SRR14722279	Tremellomycetes	1650799950	rRNA detected
+SRR14722278	Acetobacteraceae	1658886000	rRNA detected
+SRR14722278	Acidobacteriaceae	1658886000	rRNA detected
+SRR14722278	Beijerinckiaceae	1658886000	rRNA detected
+SRR14722278	Sphingomonadaceae	1658886000	rRNA detected
+SRR14722278	Trebouxiophyceae	1658886000	rRNA detected
+SRR14722278	Tremellomycetes	1658886000	rRNA detected
+SRR14721968	Acetobacteraceae	1667041510	rRNA detected
+SRR14721968	Acidobacteriaceae	1667041510	rRNA detected
+SRR14721968	Beijerinckiaceae	1667041510	rRNA detected
+SRR14721968	Sphingomonadaceae	1667041510	rRNA detected
+SRR14721968	Trebouxiophyceae	1667041510	rRNA detected
+SRR12240181	Acetobacteraceae	1669402964	rRNA detected
+SRR12240181	Acidobacteriaceae	1669402964	rRNA detected
+SRR12240181	Sphingomonadaceae	1669402964	rRNA detected
+SRR12240181	Trebouxiophyceae	1669402964	rRNA detected
+SRR12240181	Tremellomycetes	1669402964	rRNA detected
+SRR14722310	Acetobacteraceae	1672216582	rRNA detected
+SRR14722310	Acidobacteriaceae	1672216582	rRNA detected
+SRR14722310	Beijerinckiaceae	1672216582	rRNA detected
+SRR14722310	Sphingomonadaceae	1672216582	rRNA detected
+SRR14722310	Trebouxiophyceae	1672216582	rRNA detected
+SRR14722310	Cystobasidiomycetes	1672216582	rRNA detected
+SRR14722310	Tremellomycetes	1672216582	rRNA detected
+SRR14721990	Acetobacteraceae	1674040360	rRNA detected
+SRR14721990	Acidobacteriaceae	1674040360	rRNA detected
+SRR14721990	Beijerinckiaceae	1674040360	rRNA detected
+SRR14721990	Sphingomonadaceae	1674040360	rRNA detected
+SRR14721990	Trebouxiophyceae	1674040360	rRNA detected
+SRR14721950	Acidobacteriaceae	1680403802	rRNA detected
+SRR14721950	Beijerinckiaceae	1680403802	rRNA detected
+SRR14721950	Sphingomonadaceae	1680403802	rRNA detected
+SRR14721950	Trebouxiophyceae	1680403802	rRNA detected
+SRR14722175	Acidobacteriaceae	1680805160	rRNA detected
+SRR14722175	Sphingomonadaceae	1680805160	rRNA detected
+SRR14722175	Trebouxiophyceae	1680805160	rRNA detected
+SRR14722175	Tremellomycetes	1680805160	rRNA detected
+SRR14722104	Acetobacteraceae	1689883280	rRNA detected
+SRR14722104	Beijerinckiaceae	1689883280	rRNA detected
+SRR14722104	Sphingomonadaceae	1689883280	rRNA detected
+SRR14722104	Trebouxiophyceae	1689883280	rRNA detected
+SRR14722104	Cystobasidiomycetes	1689883280	rRNA detected
+SRR14722104	Tremellomycetes	1689883280	rRNA detected
+SRR14722296	Sphingomonadaceae	1697605722	rRNA detected
+SRR14722296	Trebouxiophyceae	1697605722	rRNA detected
+SRR12240187	Acidobacteriaceae	1713022087	rRNA detected
+SRR12240187	Beijerinckiaceae	1713022087	rRNA detected
+SRR12240187	Sphingomonadaceae	1713022087	rRNA detected
+SRR12240187	Trebouxiophyceae	1713022087	rRNA detected
+SRR12240187	Cystobasidiomycetes	1713022087	rRNA detected
+SRR14721953	Acetobacteraceae	1713412100	rRNA detected
+SRR14721953	Acidobacteriaceae	1713412100	rRNA detected
+SRR14721953	Beijerinckiaceae	1713412100	rRNA detected
+SRR14721953	Sphingomonadaceae	1713412100	rRNA detected
+SRR14721953	Trebouxiophyceae	1713412100	rRNA detected
+SRR14722068	Sphingomonadaceae	1718570864	rRNA detected
+SRR14722068	Trebouxiophyceae	1718570864	rRNA detected
+SRR14722068	Tremellomycetes	1718570864	rRNA detected
+SRR14721922	Acetobacteraceae	1722459416	rRNA detected
+SRR14721922	Acidobacteriaceae	1722459416	rRNA detected
+SRR14721922	Beijerinckiaceae	1722459416	rRNA detected
+SRR14721922	Sphingomonadaceae	1722459416	rRNA detected
+SRR14721922	Trebouxiophyceae	1722459416	rRNA detected
+SRR14721922	Tremellomycetes	1722459416	rRNA detected
+SRR14722140	Acidobacteriaceae	1728674878	rRNA detected
+SRR14722140	Sphingomonadaceae	1728674878	rRNA detected
+SRR14722140	Trebouxiophyceae	1728674878	rRNA detected
+SRR14722140	Tremellomycetes	1728674878	rRNA detected
+SRR14721974	Acetobacteraceae	1756628904	rRNA detected
+SRR14721974	Acidobacteriaceae	1756628904	rRNA detected
+SRR14721974	Sphingomonadaceae	1756628904	rRNA detected
+SRR14721974	Trebouxiophyceae	1756628904	rRNA detected
+SRR14721974	Tremellomycetes	1756628904	rRNA detected
+SRR14722081	Acetobacteraceae	1759614476	rRNA detected
+SRR14722081	Trebouxiophyceae	1759614476	rRNA detected
+SRR14722081	Tremellomycetes	1759614476	rRNA detected
+SRR14722037	Acetobacteraceae	1763670034	rRNA detected
+SRR14722037	Acidobacteriaceae	1763670034	rRNA detected
+SRR14722037	Beijerinckiaceae	1763670034	rRNA detected
+SRR14722037	Sphingomonadaceae	1763670034	rRNA detected
+SRR14722037	Trebouxiophyceae	1763670034	rRNA detected
+SRR14722037	Tremellomycetes	1763670034	rRNA detected
+SRR12240179	Beijerinckiaceae	1772170559	rRNA detected
+SRR12240179	Trebouxiophyceae	1772170559	rRNA detected
+SRR12240179	Tremellomycetes	1772170559	rRNA detected
+SRR14722291	Sphingomonadaceae	1772277034	rRNA detected
+SRR14722291	Trebouxiophyceae	1772277034	rRNA detected
+SRR14722291	Cystobasidiomycetes	1772277034	rRNA detected
+SRR14722291	Tremellomycetes	1772277034	rRNA detected
+SRR14722050	Beijerinckiaceae	1782468326	rRNA detected
+SRR14722050	Sphingomonadaceae	1782468326	rRNA detected
+SRR14722050	Trebouxiophyceae	1782468326	rRNA detected
+SRR14722050	Cystobasidiomycetes	1782468326	rRNA detected
+SRR14722050	Tremellomycetes	1782468326	rRNA detected
+SRR14721937	Acetobacteraceae	1786893834	rRNA detected
+SRR14721937	Acidobacteriaceae	1786893834	rRNA detected
+SRR14721937	Sphingomonadaceae	1786893834	rRNA detected
+SRR14721937	Trebouxiophyceae	1786893834	rRNA detected
+SRR14721937	Tremellomycetes	1786893834	rRNA detected
+SRR14722329	Acetobacteraceae	1792631532	rRNA detected
+SRR14722329	Acidobacteriaceae	1792631532	rRNA detected
+SRR14722329	Sphingomonadaceae	1792631532	rRNA detected
+SRR14722329	Trebouxiophyceae	1792631532	rRNA detected
+SRR14722329	Tremellomycetes	1792631532	rRNA detected
+SRR12240188	Acetobacteraceae	1795584881	rRNA detected
+SRR12240188	Acidobacteriaceae	1795584881	rRNA detected
+SRR12240188	Beijerinckiaceae	1795584881	rRNA detected
+SRR12240188	Sphingomonadaceae	1795584881	rRNA detected
+SRR12240188	Trebouxiophyceae	1795584881	rRNA detected
+SRR14722298	Acetobacteraceae	1804158872	rRNA detected
+SRR14722298	Sphingomonadaceae	1804158872	rRNA detected
+SRR14722298	Trebouxiophyceae	1804158872	rRNA detected
+SRR14722298	Tremellomycetes	1804158872	rRNA detected
+SRR14722043	Sphingomonadaceae	1807451880	rRNA detected
+SRR14722043	Trebouxiophyceae	1807451880	rRNA detected
+SRR14722313	Acetobacteraceae	1821332102	rRNA detected
+SRR14722313	Acidobacteriaceae	1821332102	rRNA detected
+SRR14722313	Beijerinckiaceae	1821332102	rRNA detected
+SRR14722313	Sphingomonadaceae	1821332102	rRNA detected
+SRR14722313	Trebouxiophyceae	1821332102	rRNA detected
+SRR14722106	Sphingomonadaceae	1825538056	rRNA detected
+SRR14722106	Trebouxiophyceae	1825538056	rRNA detected
+SRR14722106	Tremellomycetes	1825538056	rRNA detected
+SRR14722105	Beijerinckiaceae	1827127180	rRNA detected
+SRR14722105	Sphingomonadaceae	1827127180	rRNA detected
+SRR14722105	Trebouxiophyceae	1827127180	rRNA detected
+SRR14722105	Tremellomycetes	1827127180	rRNA detected
+SRR14722103	Beijerinckiaceae	1828089050	rRNA detected
+SRR14722103	Sphingomonadaceae	1828089050	rRNA detected
+SRR14722103	Trebouxiophyceae	1828089050	rRNA detected
+SRR14722103	Cystobasidiomycetes	1828089050	rRNA detected
+SRR14722103	Tremellomycetes	1828089050	rRNA detected
+SRR14722301	Acetobacteraceae	1832608178	rRNA detected
+SRR14722301	Sphingomonadaceae	1832608178	rRNA detected
+SRR14722301	Trebouxiophyceae	1832608178	rRNA detected
+SRR14722292	Sphingomonadaceae	1835472346	rRNA detected
+SRR14722292	Trebouxiophyceae	1835472346	rRNA detected
+SRR14722292	Tremellomycetes	1835472346	rRNA detected
+SRR14722058	Beijerinckiaceae	1850829952	rRNA detected
+SRR14722058	Sphingomonadaceae	1850829952	rRNA detected
+SRR14722058	Trebouxiophyceae	1850829952	rRNA detected
+SRR14722136	Acetobacteraceae	1878951588	rRNA detected
+SRR14722136	Acidobacteriaceae	1878951588	rRNA detected
+SRR14722136	Sphingomonadaceae	1878951588	rRNA detected
+SRR14722136	Trebouxiophyceae	1878951588	rRNA detected
+SRR12240177	Acetobacteraceae	1887998081	rRNA detected
+SRR12240177	Acidobacteriaceae	1887998081	rRNA detected
+SRR12240177	Trebouxiophyceae	1887998081	rRNA detected
+SRR14722325	Acetobacteraceae	1889563868	rRNA detected
+SRR14722325	Acidobacteriaceae	1889563868	rRNA detected
+SRR14722325	Beijerinckiaceae	1889563868	rRNA detected
+SRR14722325	Sphingomonadaceae	1889563868	rRNA detected
+SRR14722325	Trebouxiophyceae	1889563868	rRNA detected
+SRR14722326	Acetobacteraceae	1898066678	rRNA detected
+SRR14722326	Acidobacteriaceae	1898066678	rRNA detected
+SRR14722326	Beijerinckiaceae	1898066678	rRNA detected
+SRR14722326	Sphingomonadaceae	1898066678	rRNA detected
+SRR14722326	Trebouxiophyceae	1898066678	rRNA detected
+SRR14722326	Tremellomycetes	1898066678	rRNA detected
+SRR14722077	Acetobacteraceae	1920498332	rRNA detected
+SRR14722077	Acidobacteriaceae	1920498332	rRNA detected
+SRR14722077	Beijerinckiaceae	1920498332	rRNA detected
+SRR14722077	Sphingomonadaceae	1920498332	rRNA detected
+SRR14722077	Trebouxiophyceae	1920498332	rRNA detected
+SRR14722077	Tremellomycetes	1920498332	rRNA detected
+SRR14722063	Acetobacteraceae	1932117782	rRNA detected
+SRR14722063	Acidobacteriaceae	1932117782	rRNA detected
+SRR14722063	Beijerinckiaceae	1932117782	rRNA detected
+SRR14722063	Sphingomonadaceae	1932117782	rRNA detected
+SRR14722063	Trebouxiophyceae	1932117782	rRNA detected
+SRR14722063	Tremellomycetes	1932117782	rRNA detected
+SRR14722305	Acetobacteraceae	1941179594	rRNA detected
+SRR14722305	Beijerinckiaceae	1941179594	rRNA detected
+SRR14722305	Sphingomonadaceae	1941179594	rRNA detected
+SRR14722305	Trebouxiophyceae	1941179594	rRNA detected
+SRR14722305	Tremellomycetes	1941179594	rRNA detected
+SRR14721957	Acetobacteraceae	1959059806	rRNA detected
+SRR14721957	Acidobacteriaceae	1959059806	rRNA detected
+SRR14721957	Beijerinckiaceae	1959059806	rRNA detected
+SRR14721957	Sphingomonadaceae	1959059806	rRNA detected
+SRR14721957	Trebouxiophyceae	1959059806	rRNA detected
+SRR14722307	Acetobacteraceae	1961472484	rRNA detected
+SRR14722307	Beijerinckiaceae	1961472484	rRNA detected
+SRR14722307	Sphingomonadaceae	1961472484	rRNA detected
+SRR14722307	Trebouxiophyceae	1961472484	rRNA detected
+SRR14722281	Acidobacteriaceae	1967710294	rRNA detected
+SRR14722281	Beijerinckiaceae	1967710294	rRNA detected
+SRR14722281	Sphingomonadaceae	1967710294	rRNA detected
+SRR14722197	Acetobacteraceae	1968745248	rRNA detected
+SRR14722197	Acidobacteriaceae	1968745248	rRNA detected
+SRR14722197	Beijerinckiaceae	1968745248	rRNA detected
+SRR14722197	Sphingomonadaceae	1968745248	rRNA detected
+SRR14722197	Trebouxiophyceae	1968745248	rRNA detected
+SRR14722054	Acetobacteraceae	1985291526	rRNA detected
+SRR14722054	Acidobacteriaceae	1985291526	rRNA detected
+SRR14722054	Beijerinckiaceae	1985291526	rRNA detected
+SRR14722054	Sphingomonadaceae	1985291526	rRNA detected
+SRR14722054	Trebouxiophyceae	1985291526	rRNA detected
+SRR14722293	Beijerinckiaceae	1996136648	rRNA detected
+SRR14722293	Sphingomonadaceae	1996136648	rRNA detected
+SRR14722293	Trebouxiophyceae	1996136648	rRNA detected
+SRR14722293	Tremellomycetes	1996136648	rRNA detected
+SRR14721947	Beijerinckiaceae	1998564728	rRNA detected
+SRR14721947	Sphingomonadaceae	1998564728	rRNA detected
+SRR14721947	Trebouxiophyceae	1998564728	rRNA detected
+SRR14721947	Cystobasidiomycetes	1998564728	rRNA detected
+SRR14721947	Tremellomycetes	1998564728	rRNA detected
+SRR14721954	Acetobacteraceae	2031774158	rRNA detected
+SRR14721954	Acidobacteriaceae	2031774158	rRNA detected
+SRR14721954	Beijerinckiaceae	2031774158	rRNA detected
+SRR14721954	Trebouxiophyceae	2031774158	rRNA detected
+SRR14722038	Acetobacteraceae	2082604986	rRNA detected
+SRR14722038	Acidobacteriaceae	2082604986	rRNA detected
+SRR14722038	Sphingomonadaceae	2082604986	rRNA detected
+SRR14722038	Trebouxiophyceae	2082604986	rRNA detected
+SRR14722038	Cystobasidiomycetes	2082604986	rRNA detected
+SRR14722038	Tremellomycetes	2082604986	rRNA detected
+SRR14722041	Sphingomonadaceae	2088996816	rRNA detected
+SRR14722041	Trebouxiophyceae	2088996816	rRNA detected
+SRR14722041	Tremellomycetes	2088996816	rRNA detected
+SRR14722084	Acetobacteraceae	2103064882	rRNA detected
+SRR14722084	Trebouxiophyceae	2103064882	rRNA detected
+SRR14722277	Acetobacteraceae	2116714376	rRNA detected
+SRR14722277	Beijerinckiaceae	2116714376	rRNA detected
+SRR14722277	Sphingomonadaceae	2116714376	rRNA detected
+SRR14722277	Trebouxiophyceae	2116714376	rRNA detected
+SRR14722277	Tremellomycetes	2116714376	rRNA detected
+SRR14721966	Beijerinckiaceae	2128997320	rRNA detected
+SRR14721966	Sphingomonadaceae	2128997320	rRNA detected
+SRR14721966	Trebouxiophyceae	2128997320	rRNA detected
+SRR14721966	Tremellomycetes	2128997320	rRNA detected
+SRR14722184	Beijerinckiaceae	2134534188	rRNA detected
+SRR14722184	Sphingomonadaceae	2134534188	rRNA detected
+SRR14722184	Trebouxiophyceae	2134534188	rRNA detected
+SRR14722184	Tremellomycetes	2134534188	rRNA detected
+SRR14722127	Acetobacteraceae	2196437846	rRNA detected
+SRR14722127	Acidobacteriaceae	2196437846	rRNA detected
+SRR14722127	Sphingomonadaceae	2196437846	rRNA detected
+SRR14722127	Trebouxiophyceae	2196437846	rRNA detected
+SRR14722127	Tremellomycetes	2196437846	rRNA detected
+SRR14722057	Sphingomonadaceae	2199167926	rRNA detected
+SRR14722057	Trebouxiophyceae	2199167926	rRNA detected
+SRR14722057	Tremellomycetes	2199167926	rRNA detected
+SRR14722319	Acetobacteraceae	2200427266	rRNA detected
+SRR14722319	Acidobacteriaceae	2200427266	rRNA detected
+SRR14722319	Beijerinckiaceae	2200427266	rRNA detected
+SRR14722319	Sphingomonadaceae	2200427266	rRNA detected
+SRR14722319	Trebouxiophyceae	2200427266	rRNA detected
+SRR14722319	Cystobasidiomycetes	2200427266	rRNA detected
+SRR14722272	Acetobacteraceae	2220173838	rRNA detected
+SRR14722272	Beijerinckiaceae	2220173838	rRNA detected
+SRR14722272	Sphingomonadaceae	2220173838	rRNA detected
+SRR14722272	Trebouxiophyceae	2220173838	rRNA detected
+SRR14722272	Cystobasidiomycetes	2220173838	rRNA detected
+SRR14722272	Tremellomycetes	2220173838	rRNA detected
+SRR14722094	Beijerinckiaceae	2229400844	rRNA detected
+SRR14722094	Sphingomonadaceae	2229400844	rRNA detected
+SRR14722094	Trebouxiophyceae	2229400844	rRNA detected
+SRR14722094	Cystobasidiomycetes	2229400844	rRNA detected
+SRR14722094	Tremellomycetes	2229400844	rRNA detected
+SRR14722300	Beijerinckiaceae	2235551678	rRNA detected
+SRR14722300	Sphingomonadaceae	2235551678	rRNA detected
+SRR14722300	Trebouxiophyceae	2235551678	rRNA detected
+SRR14722300	Tremellomycetes	2235551678	rRNA detected
+SRR14722078	Beijerinckiaceae	2237419850	rRNA detected
+SRR14722078	Sphingomonadaceae	2237419850	rRNA detected
+SRR14722078	Trebouxiophyceae	2237419850	rRNA detected
+SRR14722173	Trebouxiophyceae	2278285886	rRNA detected
+SRR14722173	Tremellomycetes	2278285886	rRNA detected
+SRR14722080	Acetobacteraceae	2282694482	rRNA detected
+SRR14722080	Beijerinckiaceae	2282694482	rRNA detected
+SRR14722080	Trebouxiophyceae	2282694482	rRNA detected
+SRR14722080	Tremellomycetes	2282694482	rRNA detected
+SRR14722316	Acetobacteraceae	2324797208	rRNA detected
+SRR14722316	Acidobacteriaceae	2324797208	rRNA detected
+SRR14722316	Beijerinckiaceae	2324797208	rRNA detected
+SRR14722316	Sphingomonadaceae	2324797208	rRNA detected
+SRR14722316	Trebouxiophyceae	2324797208	rRNA detected
+SRR14722316	Tremellomycetes	2324797208	rRNA detected
+SRR14722095	Beijerinckiaceae	2377912666	rRNA detected
+SRR14722095	Sphingomonadaceae	2377912666	rRNA detected
+SRR14722095	Trebouxiophyceae	2377912666	rRNA detected
+SRR14722095	Cystobasidiomycetes	2377912666	rRNA detected
+SRR14722039	Acidobacteriaceae	2390043402	rRNA detected
+SRR14722039	Sphingomonadaceae	2390043402	rRNA detected
+SRR14722039	Trebouxiophyceae	2390043402	rRNA detected
+SRR14722098	Sphingomonadaceae	2400755946	rRNA detected
+SRR14722098	Trebouxiophyceae	2400755946	rRNA detected
+SRR14722098	Tremellomycetes	2400755946	rRNA detected
+SRR14722274	Acidobacteriaceae	2402037634	rRNA detected
+SRR14722274	Beijerinckiaceae	2402037634	rRNA detected
+SRR14722274	Trebouxiophyceae	2402037634	rRNA detected
+SRR14722274	Tremellomycetes	2402037634	rRNA detected
+SRR14722083	Beijerinckiaceae	2415466366	rRNA detected
+SRR14722083	Sphingomonadaceae	2415466366	rRNA detected
+SRR14722083	Trebouxiophyceae	2415466366	rRNA detected
+SRR14721956	Acetobacteraceae	2428900534	rRNA detected
+SRR14721956	Acidobacteriaceae	2428900534	rRNA detected
+SRR14721956	Beijerinckiaceae	2428900534	rRNA detected
+SRR14721956	Sphingomonadaceae	2428900534	rRNA detected
+SRR14721956	Trebouxiophyceae	2428900534	rRNA detected
+SRR14721956	Tremellomycetes	2428900534	rRNA detected
+SRR14721960	Acetobacteraceae	2429449570	rRNA detected
+SRR14721960	Acidobacteriaceae	2429449570	rRNA detected
+SRR14721960	Trebouxiophyceae	2429449570	rRNA detected
+SRR14722213	Acetobacteraceae	2461390902	rRNA detected
+SRR14722213	Acidobacteriaceae	2461390902	rRNA detected
+SRR14722213	Sphingomonadaceae	2461390902	rRNA detected
+SRR14722213	Trebouxiophyceae	2461390902	rRNA detected
+SRR14722168	Sphingomonadaceae	2464742196	rRNA detected
+SRR14722168	Trebouxiophyceae	2464742196	rRNA detected
+SRR14722168	Cystobasidiomycetes	2464742196	rRNA detected
+SRR14722168	Tremellomycetes	2464742196	rRNA detected
+SRR14721961	Acetobacteraceae	2500335916	rRNA detected
+SRR14721961	Acidobacteriaceae	2500335916	rRNA detected
+SRR14721961	Beijerinckiaceae	2500335916	rRNA detected
+SRR14721961	Sphingomonadaceae	2500335916	rRNA detected
+SRR14721961	Trebouxiophyceae	2500335916	rRNA detected
+SRR14722181	Acetobacteraceae	2501883062	rRNA detected
+SRR14722181	Acidobacteriaceae	2501883062	rRNA detected
+SRR14722181	Beijerinckiaceae	2501883062	rRNA detected
+SRR14722181	Sphingomonadaceae	2501883062	rRNA detected
+SRR14722181	Trebouxiophyceae	2501883062	rRNA detected
+SRR14722049	Beijerinckiaceae	2508462434	rRNA detected
+SRR14722049	Trebouxiophyceae	2508462434	rRNA detected
+SRR14722049	Cystobasidiomycetes	2508462434	rRNA detected
+SRR14722049	Tremellomycetes	2508462434	rRNA detected
+SRR14722120	Acetobacteraceae	2522191958	rRNA detected
+SRR14722120	Acidobacteriaceae	2522191958	rRNA detected
+SRR14722120	Beijerinckiaceae	2522191958	rRNA detected
+SRR14722135	Acidobacteriaceae	2549242702	rRNA detected
+SRR14722135	Beijerinckiaceae	2549242702	rRNA detected
+SRR14722135	Sphingomonadaceae	2549242702	rRNA detected
+SRR14722135	Cystobasidiomycetes	2549242702	rRNA detected
+SRR14722135	Tremellomycetes	2549242702	rRNA detected
+SRR14722157	Acetobacteraceae	2552295016	rRNA detected
+SRR14722157	Sphingomonadaceae	2552295016	rRNA detected
+SRR14722157	Cystobasidiomycetes	2552295016	rRNA detected
+SRR14722157	Tremellomycetes	2552295016	rRNA detected
+SRR12240183	Acidobacteriaceae	2592537340	rRNA detected
+SRR12240183	Trebouxiophyceae	2592537340	rRNA detected
+SRR12240183	Tremellomycetes	2592537340	rRNA detected
+SRR14722251	Acetobacteraceae	2592571548	rRNA detected
+SRR14722251	Beijerinckiaceae	2592571548	rRNA detected
+SRR14722251	Sphingomonadaceae	2592571548	rRNA detected
+SRR14722251	Trebouxiophyceae	2592571548	rRNA detected
+SRR14722154	Beijerinckiaceae	2645645632	rRNA detected
+SRR14722154	Sphingomonadaceae	2645645632	rRNA detected
+SRR14722154	Cystobasidiomycetes	2645645632	rRNA detected
+SRR14722154	Tremellomycetes	2645645632	rRNA detected
+SRR14722144	Acetobacteraceae	2665979896	rRNA detected
+SRR14722144	Sphingomonadaceae	2665979896	rRNA detected
+SRR14722144	Trebouxiophyceae	2665979896	rRNA detected
+SRR14722144	Tremellomycetes	2665979896	rRNA detected
+SRR14722171	Acetobacteraceae	2681839426	rRNA detected
+SRR14722171	Sphingomonadaceae	2681839426	rRNA detected
+SRR14722171	Trebouxiophyceae	2681839426	rRNA detected
+SRR14722171	Cystobasidiomycetes	2681839426	rRNA detected
+SRR14722171	Tremellomycetes	2681839426	rRNA detected
+SRR14722090	Sphingomonadaceae	2705046012	rRNA detected
+SRR14722090	Trebouxiophyceae	2705046012	rRNA detected
+SRR14722138	Acetobacteraceae	2719689388	rRNA detected
+SRR14722138	Acidobacteriaceae	2719689388	rRNA detected
+SRR14722138	Sphingomonadaceae	2719689388	rRNA detected
+SRR14722138	Trebouxiophyceae	2719689388	rRNA detected
+SRR14722156	Sphingomonadaceae	2739296436	rRNA detected
+SRR14722156	Trebouxiophyceae	2739296436	rRNA detected
+SRR14722124	Sphingomonadaceae	2740461250	rRNA detected
+SRR14722124	Trebouxiophyceae	2740461250	rRNA detected
+SRR14722124	Tremellomycetes	2740461250	rRNA detected
+SRR14722299	Sphingomonadaceae	2773612998	rRNA detected
+SRR14722299	Trebouxiophyceae	2773612998	rRNA detected
+SRR14722299	Tremellomycetes	2773612998	rRNA detected
+SRR14722177	Acidobacteriaceae	2779935066	rRNA detected
+SRR14722177	Sphingomonadaceae	2779935066	rRNA detected
+SRR14722177	Cystobasidiomycetes	2779935066	rRNA detected
+SRR14722177	Tremellomycetes	2779935066	rRNA detected
+SRR12240182	Acidobacteriaceae	2790137756	rRNA detected
+SRR12240182	Trebouxiophyceae	2790137756	rRNA detected
+SRR12240182	Cystobasidiomycetes	2790137756	rRNA detected
+SRR12240182	Tremellomycetes	2790137756	rRNA detected
+SRR14722062	Acetobacteraceae	2820670940	rRNA detected
+SRR14722062	Acidobacteriaceae	2820670940	rRNA detected
+SRR14722062	Beijerinckiaceae	2820670940	rRNA detected
+SRR14722062	Sphingomonadaceae	2820670940	rRNA detected
+SRR14722062	Trebouxiophyceae	2820670940	rRNA detected
+SRR14722164	Beijerinckiaceae	2822949228	rRNA detected
+SRR14722164	Sphingomonadaceae	2822949228	rRNA detected
+SRR14722164	Trebouxiophyceae	2822949228	rRNA detected
+SRR14722164	Tremellomycetes	2822949228	rRNA detected
+SRR14722088	Sphingomonadaceae	2831025614	rRNA detected
+SRR14722088	Trebouxiophyceae	2831025614	rRNA detected
+SRR14722088	Tremellomycetes	2831025614	rRNA detected
+SRR14722132	Acetobacteraceae	2833612546	rRNA detected
+SRR14722132	Trebouxiophyceae	2833612546	rRNA detected
+SRR14722132	Tremellomycetes	2833612546	rRNA detected
+SRR14722170	Sphingomonadaceae	2876458192	rRNA detected
+SRR14722170	Trebouxiophyceae	2876458192	rRNA detected
+SRR14722170	Cystobasidiomycetes	2876458192	rRNA detected
+SRR14722170	Tremellomycetes	2876458192	rRNA detected
+SRR13126859	Acetobacteraceae	2876909202	rRNA detected
+SRR13126859	Beijerinckiaceae	2876909202	rRNA detected
+SRR13126859	Sphingomonadaceae	2876909202	rRNA detected
+SRR13126859	Trebouxiophyceae	2876909202	rRNA detected
+SRR14722167	Beijerinckiaceae	2926657538	rRNA detected
+SRR14722167	Sphingomonadaceae	2926657538	rRNA detected
+SRR14722163	Acetobacteraceae	2968349846	rRNA detected
+SRR14722163	Sphingomonadaceae	2968349846	rRNA detected
+SRR14722163	Trebouxiophyceae	2968349846	rRNA detected
+SRR14722163	Tremellomycetes	2968349846	rRNA detected
+SRR14722143	Acidobacteriaceae	3066559944	rRNA detected
+SRR14722143	Beijerinckiaceae	3066559944	rRNA detected
+SRR14722143	Trebouxiophyceae	3066559944	rRNA detected
+SRR14722143	Tremellomycetes	3066559944	rRNA detected
+SRR14722119	Beijerinckiaceae	3094033790	rRNA detected
+SRR14722119	Sphingomonadaceae	3094033790	rRNA detected
+SRR14722119	Trebouxiophyceae	3094033790	rRNA detected
+SRR14722119	Cystobasidiomycetes	3094033790	rRNA detected
+SRR14722119	Tremellomycetes	3094033790	rRNA detected
+SRR14722166	Sphingomonadaceae	3127245938	rRNA detected
+SRR14722166	Tremellomycetes	3127245938	rRNA detected
+SRR12240185	Trebouxiophyceae	3154402494	rRNA detected
+SRR14722219	Acetobacteraceae	3196541952	rRNA detected
+SRR14722219	Beijerinckiaceae	3196541952	rRNA detected
+SRR14722219	Sphingomonadaceae	3196541952	rRNA detected
+SRR14722219	Trebouxiophyceae	3196541952	rRNA detected
+SRR14722139	Acetobacteraceae	3225231348	rRNA detected
+SRR14722139	Acidobacteriaceae	3225231348	rRNA detected
+SRR14722139	Beijerinckiaceae	3225231348	rRNA detected
+SRR14722139	Sphingomonadaceae	3225231348	rRNA detected
+SRR14722139	Trebouxiophyceae	3225231348	rRNA detected
+SRR14722139	Tremellomycetes	3225231348	rRNA detected
+SRR14722161	Acidobacteriaceae	3248286632	rRNA detected
+SRR14722161	Trebouxiophyceae	3248286632	rRNA detected
+SRR14722158	Acidobacteriaceae	3276275992	rRNA detected
+SRR14722158	Sphingomonadaceae	3276275992	rRNA detected
+SRR14722158	Trebouxiophyceae	3276275992	rRNA detected
+SRR14722158	Cystobasidiomycetes	3276275992	rRNA detected
+SRR14722158	Tremellomycetes	3276275992	rRNA detected
+SRR14722141	Acetobacteraceae	3306673198	rRNA detected
+SRR14722141	Acidobacteriaceae	3306673198	rRNA detected
+SRR14722141	Beijerinckiaceae	3306673198	rRNA detected
+SRR14722141	Sphingomonadaceae	3306673198	rRNA detected
+SRR14722141	Trebouxiophyceae	3306673198	rRNA detected
+T1868	Sphingomonadaceae	3312900600	rRNA detected
+T1868	Cystobasidiomycetes	3312900600	rRNA detected
+SRR14722145	Acetobacteraceae	3367211212	rRNA detected
+SRR14722145	Acidobacteriaceae	3367211212	rRNA detected
+SRR14722145	Trebouxiophyceae	3367211212	rRNA detected
+SRR14722159	Acidobacteriaceae	3374233920	rRNA detected
+SRR14722159	Trebouxiophyceae	3374233920	rRNA detected
+SRR14722159	Cystobasidiomycetes	3374233920	rRNA detected
+SRR14722159	Tremellomycetes	3374233920	rRNA detected
+SRR14722169	Acetobacteraceae	3391945314	rRNA detected
+SRR14722169	Sphingomonadaceae	3391945314	rRNA detected
+SRR14722169	Trebouxiophyceae	3391945314	rRNA detected
+SRR14722169	Tremellomycetes	3391945314	rRNA detected
+SRR14722230	Acidobacteriaceae	3408952142	rRNA detected
+SRR14722230	Trebouxiophyceae	3408952142	rRNA detected
+SRR14722086	Acidobacteriaceae	3412670668	rRNA detected
+SRR14722086	Beijerinckiaceae	3412670668	rRNA detected
+SRR14722086	Sphingomonadaceae	3412670668	rRNA detected
+SRR14722086	Trebouxiophyceae	3412670668	rRNA detected
+SRR14722086	Tremellomycetes	3412670668	rRNA detected
+SRR14722232	Sphingomonadaceae	3456403590	rRNA detected
+SRR14722232	Trebouxiophyceae	3456403590	rRNA detected
+SRR14722232	Tremellomycetes	3456403590	rRNA detected
+SRR14722115	Acidobacteriaceae	3464996698	rRNA detected
+SRR14722115	Sphingomonadaceae	3464996698	rRNA detected
+SRR14722115	Cystobasidiomycetes	3464996698	rRNA detected
+SRR14722115	Tremellomycetes	3464996698	rRNA detected
+SRR14722233	Beijerinckiaceae	3503086146	rRNA detected
+SRR14722233	Sphingomonadaceae	3503086146	rRNA detected
+SRR14722233	Trebouxiophyceae	3503086146	rRNA detected
+SRR14722233	Tremellomycetes	3503086146	rRNA detected
+SRR14722210	Acetobacteraceae	3531005442	rRNA detected
+SRR14722210	Acidobacteriaceae	3531005442	rRNA detected
+SRR14722210	Sphingomonadaceae	3531005442	rRNA detected
+SRR14722210	Trebouxiophyceae	3531005442	rRNA detected
+SRR14722210	Cystobasidiomycetes	3531005442	rRNA detected
+SRR14722210	Tremellomycetes	3531005442	rRNA detected
+SRR14722221	Sphingomonadaceae	3561442512	rRNA detected
+SRR14722221	Trebouxiophyceae	3561442512	rRNA detected
+SRR14722221	Tremellomycetes	3561442512	rRNA detected
+SRR14722165	Sphingomonadaceae	3570968498	rRNA detected
+SRR14722165	Trebouxiophyceae	3570968498	rRNA detected
+SRR14722165	Tremellomycetes	3570968498	rRNA detected
+SRR12240180	Acidobacteriaceae	3598375506	rRNA detected
+SRR12240180	Beijerinckiaceae	3598375506	rRNA detected
+SRR12240180	Sphingomonadaceae	3598375506	rRNA detected
+SRR12240180	Trebouxiophyceae	3598375506	rRNA detected
+SRR12240180	Tremellomycetes	3598375506	rRNA detected
+SRR14722150	Sphingomonadaceae	3628523054	rRNA detected
+SRR14722150	Trebouxiophyceae	3628523054	rRNA detected
+SRR14722150	Cystobasidiomycetes	3628523054	rRNA detected
+SRR14722150	Tremellomycetes	3628523054	rRNA detected
+SRR14722117	Acetobacteraceae	3718520866	rRNA detected
+SRR14722117	Beijerinckiaceae	3718520866	rRNA detected
+SRR14722117	Sphingomonadaceae	3718520866	rRNA detected
+SRR14722117	Trebouxiophyceae	3718520866	rRNA detected
+SRR14722117	Tremellomycetes	3718520866	rRNA detected
+SRR14722133	Acetobacteraceae	3761583348	rRNA detected
+SRR14722133	Acidobacteriaceae	3761583348	rRNA detected
+SRR14722133	Trebouxiophyceae	3761583348	rRNA detected
+SRR14722147	Acetobacteraceae	4099305418	rRNA detected
+SRR14722147	Acidobacteriaceae	4099305418	rRNA detected
+SRR14722147	Beijerinckiaceae	4099305418	rRNA detected
+SRR14722147	Sphingomonadaceae	4099305418	rRNA detected
+SRR14722147	Trebouxiophyceae	4099305418	rRNA detected
+SRR14722147	Cystobasidiomycetes	4099305418	rRNA detected
+SRR14722147	Tremellomycetes	4099305418	rRNA detected
+SRR14722112	Acetobacteraceae	4131638444	rRNA detected
+SRR14722112	Beijerinckiaceae	4131638444	rRNA detected
+SRR14722112	Sphingomonadaceae	4131638444	rRNA detected
+SRR14722112	Trebouxiophyceae	4131638444	rRNA detected
+SRR14722112	Tremellomycetes	4131638444	rRNA detected
+SRR14722123	Beijerinckiaceae	4166324654	rRNA detected
+SRR14722123	Sphingomonadaceae	4166324654	rRNA detected
+SRR14722123	Trebouxiophyceae	4166324654	rRNA detected
+SRR14722231	Sphingomonadaceae	4201317394	rRNA detected
+SRR14722231	Trebouxiophyceae	4201317394	rRNA detected
+SRR14722231	Cystobasidiomycetes	4201317394	rRNA detected
+SRR14722231	Tremellomycetes	4201317394	rRNA detected
+SRR14721929	Acetobacteraceae	4463683518	rRNA detected
+SRR14721929	Beijerinckiaceae	4463683518	rRNA detected
+SRR14721929	Sphingomonadaceae	4463683518	rRNA detected
+SRR14721929	Trebouxiophyceae	4463683518	rRNA detected
+SRR14721929	Cystobasidiomycetes	4463683518	rRNA detected
+SRR14721929	Tremellomycetes	4463683518	rRNA detected
+VT22	Beijerinckiaceae	4681562626	rRNA detected
+VT22	Sphingomonadaceae	4681562626	rRNA detected
+VT22	Trebouxiophyceae	4681562626	rRNA detected
+VT22	Tremellomycetes	4681562626	rRNA detected
+SRR14722176	Acetobacteraceae	4742255264	rRNA detected
+SRR14722176	Acidobacteriaceae	4742255264	rRNA detected
+SRR14722176	Beijerinckiaceae	4742255264	rRNA detected
+SRR14722176	Trebouxiophyceae	4742255264	rRNA detected
+SRR14722176	Tremellomycetes	4742255264	rRNA detected
+SRR14722308	Acetobacteraceae	4793372086	rRNA detected
+SRR14722308	Beijerinckiaceae	4793372086	rRNA detected
+SRR14722308	Sphingomonadaceae	4793372086	rRNA detected
+SRR14722308	Trebouxiophyceae	4793372086	rRNA detected
+T1867	Tremellomycetes	4840140300	rRNA detected
+SRR14722121	Acetobacteraceae	5024869582	rRNA detected
+SRR14722121	Beijerinckiaceae	5024869582	rRNA detected
+SRR14722121	Sphingomonadaceae	5024869582	rRNA detected
+SRR14722121	Trebouxiophyceae	5024869582	rRNA detected
+SRR14722121	Tremellomycetes	5024869582	rRNA detected
+VT34	Trebouxiophyceae	5154969068	rRNA detected
+SRR14722116	Cystobasidiomycetes	5176420732	rRNA detected
+VT16	Sphingomonadaceae	5215367256	rRNA detected
+VT16	Trebouxiophyceae	5215367256	rRNA detected
+VT16	Cystobasidiomycetes	5215367256	rRNA detected
+VT16	Tremellomycetes	5215367256	rRNA detected
+SRR14722128	Trebouxiophyceae	5671217532	rRNA detected
+SRR14722128	Tremellomycetes	5671217532	rRNA detected
+SRR14722125	Beijerinckiaceae	5674845760	rRNA detected
+SRR14722125	Sphingomonadaceae	5674845760	rRNA detected
+SRR14722125	Cystobasidiomycetes	5674845760	rRNA detected
+SRR14722125	Tremellomycetes	5674845760	rRNA detected
+VT1	Sphingomonadaceae	5900310202	rRNA detected
+VT1	Cystobasidiomycetes	5900310202	rRNA detected
+VT1	Tremellomycetes	5900310202	rRNA detected
+VT15	Sphingomonadaceae	6033792692	rRNA detected
+VT15	Tremellomycetes	6033792692	rRNA detected
+VT12	Beijerinckiaceae	6037720806	rRNA detected
+VT12	Sphingomonadaceae	6037720806	rRNA detected
+VT12	Cystobasidiomycetes	6037720806	rRNA detected
+SRR14722113	Acetobacteraceae	6700040026	rRNA detected
+SRR14722113	Sphingomonadaceae	6700040026	rRNA detected
+SRR14722113	Trebouxiophyceae	6700040026	rRNA detected
+SRR14722113	Tremellomycetes	6700040026	rRNA detected
+VT31	Acetobacteraceae	6757064572	rRNA detected
+VT31	Sphingomonadaceae	6757064572	rRNA detected
+VT31	Tremellomycetes	6757064572	rRNA detected
+VT33	Acetobacteraceae	7017044292	rRNA detected
+VT33	Acidobacteriaceae	7017044292	rRNA detected
+VT33	Beijerinckiaceae	7017044292	rRNA detected
+VT33	Sphingomonadaceae	7017044292	rRNA detected
+VT33	Trebouxiophyceae	7017044292	rRNA detected
+VT33	Cystobasidiomycetes	7017044292	rRNA detected
+VT33	Tremellomycetes	7017044292	rRNA detected
+SRR2387885	Beijerinckiaceae	7034650998	rRNA detected
+SRR2387885	Sphingomonadaceae	7034650998	rRNA detected
+SRR14722130	Sphingomonadaceae	7112828122	rRNA detected
+SRR14722130	Trebouxiophyceae	7112828122	rRNA detected
+SRR14722130	Cystobasidiomycetes	7112828122	rRNA detected
+SRR14722130	Tremellomycetes	7112828122	rRNA detected
+SRR14722188	Sphingomonadaceae	7175223436	rRNA detected
+SRR14722188	Cystobasidiomycetes	7175223436	rRNA detected
+SRR14722188	Tremellomycetes	7175223436	rRNA detected
+VT26	Sphingomonadaceae	7411632358	rRNA detected
+VT26	Trebouxiophyceae	7411632358	rRNA detected
+VT26	Cystobasidiomycetes	7411632358	rRNA detected
+VT26	Tremellomycetes	7411632358	rRNA detected
+VT38	Acidobacteriaceae	7584511956	rRNA detected
+VT38	Beijerinckiaceae	7584511956	rRNA detected
+VT2	Sphingomonadaceae	8660831802	rRNA detected
+VT2	Cystobasidiomycetes	8660831802	rRNA detected
+VT2	Tremellomycetes	8660831802	rRNA detected
+SRR13125762	Acetobacteraceae	9146430147	rRNA detected
+SRR13125762	Cystobasidiomycetes	9146430147	rRNA detected
+VT19	Acidobacteriaceae	9363519664	rRNA detected
+VT19	Beijerinckiaceae	9363519664	rRNA detected
+VT19	Sphingomonadaceae	9363519664	rRNA detected
+VT19	Cystobasidiomycetes	9363519664	rRNA detected
+VT19	Tremellomycetes	9363519664	rRNA detected
+SRR5808932	Beijerinckiaceae	9873816669	rRNA detected
+SRR5808932	Sphingomonadaceae	9873816669	rRNA detected
+SRR5808932	Cystobasidiomycetes	9873816669	rRNA detected
+SRR5808932	Tremellomycetes	9873816669	rRNA detected
+X14	Acidobacteriaceae	10204075500	rRNA detected
+X14	Cystobasidiomycetes	10204075500	rRNA detected
+X14	Tremellomycetes	10204075500	rRNA detected
+X16	Trebouxiophyceae	10450703250	rRNA detected
+X16	Cystobasidiomycetes	10450703250	rRNA detected
+X16	Tremellomycetes	10450703250	rRNA detected
+SRR5808930	Beijerinckiaceae	10528646549	rRNA detected
+SRR5808930	Sphingomonadaceae	10528646549	rRNA detected
+SRR5808930	Cystobasidiomycetes	10528646549	rRNA detected
+SRR5808930	Tremellomycetes	10528646549	rRNA detected
+ERR4179389	Trebouxiophyceae	10693128900	rRNA detected
+ERR4179389	Cystobasidiomycetes	10693128900	rRNA detected
+ERR4179389	Tremellomycetes	10693128900	rRNA detected
+X8	Acidobacteriaceae	10779976500	rRNA detected
+X8	Sphingomonadaceae	10779976500	rRNA detected
+X8	Cystobasidiomycetes	10779976500	rRNA detected
+X11	Cystobasidiomycetes	11221466500	rRNA detected
+X11	Tremellomycetes	11221466500	rRNA detected
+SRR1531569	Acetobacteraceae	11418853650	rRNA detected
+SRR1531569	Acidobacteriaceae	11418853650	rRNA detected
+SRR1531569	Beijerinckiaceae	11418853650	rRNA detected
+SRR1531569	Sphingomonadaceae	11418853650	rRNA detected
+SRR1531569	Trebouxiophyceae	11418853650	rRNA detected
+SRR1531569	Tremellomycetes	11418853650	rRNA detected
+X15	Sphingomonadaceae	11546747000	rRNA detected
+X15	Trebouxiophyceae	11546747000	rRNA detected
+X15	Cystobasidiomycetes	11546747000	rRNA detected
+X15	Tremellomycetes	11546747000	rRNA detected
+TS1974	Sphingomonadaceae	11716287600	rRNA detected
+TS1974	Cystobasidiomycetes	11716287600	rRNA detected
+TS1974	Tremellomycetes	11716287600	rRNA detected
+SRR7232211	Acidobacteriaceae	11915952768	rRNA detected
+SRR7232211	Beijerinckiaceae	11915952768	rRNA detected
+X10	Acetobacteraceae	12114619750	rRNA detected
+X10	Acidobacteriaceae	12114619750	rRNA detected
+X10	Beijerinckiaceae	12114619750	rRNA detected
+X10	Sphingomonadaceae	12114619750	rRNA detected
+X10	Cystobasidiomycetes	12114619750	rRNA detected
+X10	Tremellomycetes	12114619750	rRNA detected
+X3	Cystobasidiomycetes	12381879250	rRNA detected
+X3	Tremellomycetes	12381879250	rRNA detected
+SRR7232213	Acidobacteriaceae	12478175288	rRNA detected
+SRR7232213	Tremellomycetes	12478175288	rRNA detected
+X9	Acidobacteriaceae	12497401000	rRNA detected
+X9	Beijerinckiaceae	12497401000	rRNA detected
+X9	Cystobasidiomycetes	12497401000	rRNA detected
+X7	Acetobacteraceae	12531347000	rRNA detected
+X7	Cystobasidiomycetes	12531347000	rRNA detected
+SRR11456918	Acidobacteriaceae	12580023514	rRNA detected
+SRR11456918	Trebouxiophyceae	12580023514	rRNA detected
+SRR11456918	Tremellomycetes	12580023514	rRNA detected
+SRR11456923	Acetobacteraceae	12708455960	rRNA detected
+SRR11456923	Acidobacteriaceae	12708455960	rRNA detected
+SRR11456923	Beijerinckiaceae	12708455960	rRNA detected
+SRR11456923	Trebouxiophyceae	12708455960	rRNA detected
+SRR11456923	Tremellomycetes	12708455960	rRNA detected
+SRR11456917	Acetobacteraceae	12749704932	rRNA detected
+SRR11456917	Acidobacteriaceae	12749704932	rRNA detected
+SRR11456917	Beijerinckiaceae	12749704932	rRNA detected
+SRR11456917	Trebouxiophyceae	12749704932	rRNA detected
+SRR11456917	Tremellomycetes	12749704932	rRNA detected
+X12	Beijerinckiaceae	13243158000	rRNA detected
+X12	Cystobasidiomycetes	13243158000	rRNA detected
+X12	Tremellomycetes	13243158000	rRNA detected
+X4	Acidobacteriaceae	13287338000	rRNA detected
+X4	Beijerinckiaceae	13287338000	rRNA detected
+X4	Trebouxiophyceae	13287338000	rRNA detected
+X4	Tremellomycetes	13287338000	rRNA detected
+X13	Acetobacteraceae	13332657500	rRNA detected
+X13	Beijerinckiaceae	13332657500	rRNA detected
+X13	Trebouxiophyceae	13332657500	rRNA detected
+X13	Tremellomycetes	13332657500	rRNA detected
+X1	Acidobacteriaceae	14391347750	rRNA detected
+X1	Beijerinckiaceae	14391347750	rRNA detected
+X1	Sphingomonadaceae	14391347750	rRNA detected
+X1	Cystobasidiomycetes	14391347750	rRNA detected
+X2	Acetobacteraceae	14488756500	rRNA detected
+X2	Beijerinckiaceae	14488756500	rRNA detected
+X2	Cystobasidiomycetes	14488756500	rRNA detected
+X2	Tremellomycetes	14488756500	rRNA detected
+X5	Acetobacteraceae	14934984750	rRNA detected
+X5	Beijerinckiaceae	14934984750	rRNA detected
+X5	Sphingomonadaceae	14934984750	rRNA detected
+X5	Trebouxiophyceae	14934984750	rRNA detected
+X5	Cystobasidiomycetes	14934984750	rRNA detected
+X5	Tremellomycetes	14934984750	rRNA detected
+SRR11456919	Cystobasidiomycetes	15005117036	rRNA detected
+SRR11456919	Tremellomycetes	15005117036	rRNA detected
+SRR1532736	Acetobacteraceae	15148872300	rRNA detected
+SRR1532736	Acidobacteriaceae	15148872300	rRNA detected
+SRR1532736	Beijerinckiaceae	15148872300	rRNA detected
+SRR1532736	Sphingomonadaceae	15148872300	rRNA detected
+SRR1532736	Cystobasidiomycetes	15148872300	rRNA detected
+SRR1532736	Tremellomycetes	15148872300	rRNA detected
+SRR11456915	Acetobacteraceae	15218326096	rRNA detected
+SRR11456915	Acidobacteriaceae	15218326096	rRNA detected
+SRR11456915	Cystobasidiomycetes	15218326096	rRNA detected
+SRR11456915	Tremellomycetes	15218326096	rRNA detected
+SRR1531545	Acetobacteraceae	15367008150	rRNA detected
+SRR1531545	Acidobacteriaceae	15367008150	rRNA detected
+SRR1531545	Beijerinckiaceae	15367008150	rRNA detected
+SRR1531545	Trebouxiophyceae	15367008150	rRNA detected
+SRR1531545	Tremellomycetes	15367008150	rRNA detected
+T1882	Acetobacteraceae	16086931500	rRNA detected
+T1882	Beijerinckiaceae	16086931500	rRNA detected
+T1882	Sphingomonadaceae	16086931500	rRNA detected
+T1882	Tremellomycetes	16086931500	rRNA detected
+SRR13125477	Beijerinckiaceae	16137791400	rRNA detected
+SRR13125477	Sphingomonadaceae	16137791400	rRNA detected
+SRR13125477	Cystobasidiomycetes	16137791400	rRNA detected
+SRR13125477	Tremellomycetes	16137791400	rRNA detected
+SRR11456922	Acetobacteraceae	17025986880	rRNA detected
+SRR11456922	Acidobacteriaceae	17025986880	rRNA detected
+SRR11456922	Trebouxiophyceae	17025986880	rRNA detected
+SRR11456922	Cystobasidiomycetes	17025986880	rRNA detected
+SRR11456922	Tremellomycetes	17025986880	rRNA detected
+SRR1531517	Acetobacteraceae	18235852650	rRNA detected
+SRR1531517	Acidobacteriaceae	18235852650	rRNA detected
+SRR1531517	Beijerinckiaceae	18235852650	rRNA detected
+SRR1531517	Sphingomonadaceae	18235852650	rRNA detected
+SRR1531517	Trebouxiophyceae	18235852650	rRNA detected
+T1912	Acetobacteraceae	18875462100	rRNA detected
+T1912	Beijerinckiaceae	18875462100	rRNA detected
+T1912	Sphingomonadaceae	18875462100	rRNA detected
+T1914	Sphingomonadaceae	18930750600	rRNA detected
+T1914	Cystobasidiomycetes	18930750600	rRNA detected
+T1914	Tremellomycetes	18930750600	rRNA detected
+GTX0163	Acidobacteriaceae	19017090000	rRNA detected
+GTX0163	Cystobasidiomycetes	19017090000	rRNA detected
+GTX0163	Tremellomycetes	19017090000	rRNA detected
+SRR11456913	Trebouxiophyceae	20745690476	rRNA detected
+SRR11456913	Cystobasidiomycetes	20745690476	rRNA detected
+SRR11456913	Tremellomycetes	20745690476	rRNA detected
+T1881	Acetobacteraceae	21838551300	rRNA detected
+T1881	Beijerinckiaceae	21838551300	rRNA detected
+T1881	Cystobasidiomycetes	21838551300	rRNA detected
+T1881	Tremellomycetes	21838551300	rRNA detected
+T1916	Cystobasidiomycetes	22997863800	rRNA detected
+T1916	Tremellomycetes	22997863800	rRNA detected
+SRR11456921	Acidobacteriaceae	23249913362	rRNA detected
+SRR11456921	Trebouxiophyceae	23249913362	rRNA detected
+SRR11456921	Cystobasidiomycetes	23249913362	rRNA detected
+SRR11456921	Tremellomycetes	23249913362	rRNA detected
+T1889	Cystobasidiomycetes	24626097300	rRNA detected
+T1889	Tremellomycetes	24626097300	rRNA detected
+GTX0158	Acetobacteraceae	24881678400	rRNA detected
+GTX0158	Acidobacteriaceae	24881678400	rRNA detected
+GTX0158	Sphingomonadaceae	24881678400	rRNA detected
+GTX0158	Trebouxiophyceae	24881678400	rRNA detected
+GTX0158	Cystobasidiomycetes	24881678400	rRNA detected
+GTX0158	Tremellomycetes	24881678400	rRNA detected
+T1894	Sphingomonadaceae	25018821000	rRNA detected
+T1894	Cystobasidiomycetes	25018821000	rRNA detected
+T1894	Tremellomycetes	25018821000	rRNA detected
+T1887	Acidobacteriaceae	26592286200	rRNA detected
+T1887	Trebouxiophyceae	26592286200	rRNA detected
+T1888	Cystobasidiomycetes	27582553500	rRNA detected
+T1888	Tremellomycetes	27582553500	rRNA detected
+T1904	Tremellomycetes	28165630200	rRNA detected
+GTX0161	Acetobacteraceae	32118972600	rRNA detected
+GTX0161	Beijerinckiaceae	32118972600	rRNA detected
+GTX0161	Sphingomonadaceae	32118972600	rRNA detected
+GTX0161	Cystobasidiomycetes	32118972600	rRNA detected
+ERR4179390	Cystobasidiomycetes	34830147881	rRNA detected
+ERR4179390	Tremellomycetes	34830147881	rRNA detected
+SRR11456914	Acidobacteriaceae	35095207098	rRNA detected
+SRR11456914	Trebouxiophyceae	35095207098	rRNA detected
+SRR11456914	Cystobasidiomycetes	35095207098	rRNA detected
+SRR11456914	Tremellomycetes	35095207098	rRNA detected
+SRR14722030	Cystobasidiomycetes	248125314	not detected
+SRR13126647	Cystobasidiomycetes	447209227	not detected
+SRR14722186	Cystobasidiomycetes	548060842	not detected
+SRR14722035	Cystobasidiomycetes	553745992	not detected
+SRR14722035	Tremellomycetes	553745992	not detected
+SRR13125985	Cystobasidiomycetes	576727858	not detected
+SRR13125985	Tremellomycetes	576727858	not detected
+SRR13126828	Sphingomonadaceae	576977571	not detected
+SRR13126828	Cystobasidiomycetes	576977571	not detected
+SRR13126828	Tremellomycetes	576977571	not detected
+SRR13685162	Cystobasidiomycetes	579616520	not detected
+SRR13685154	Cystobasidiomycetes	585379284	not detected
+SRR14721973	Trebouxiophyceae	586278942	not detected
+SRR14721973	Cystobasidiomycetes	586278942	not detected
+SRR13685157	Acidobacteriaceae	595991866	not detected
+SRR13685157	Cystobasidiomycetes	595991866	not detected
+SRR14721977	Cystobasidiomycetes	610283110	not detected
+SRR14721977	Tremellomycetes	610283110	not detected
+SRR13685161	Cystobasidiomycetes	628949730	not detected
+SRR13685161	Tremellomycetes	628949730	not detected
+SRR14721992	Cystobasidiomycetes	632782110	not detected
+SRR14721992	Tremellomycetes	632782110	not detected
+SRR14721971	Cystobasidiomycetes	658905110	not detected
+SRR14722072	Cystobasidiomycetes	702881444	not detected
+SRR14722072	Tremellomycetes	702881444	not detected
+SRR14722311	Cystobasidiomycetes	710159342	not detected
+SRR13685158	Cystobasidiomycetes	722120656	not detected
+SRR13685158	Tremellomycetes	722120656	not detected
+SRR13685165	Sphingomonadaceae	728229512	not detected
+SRR14722075	Cystobasidiomycetes	751529718	not detected
+SRR14722099	Cystobasidiomycetes	752849760	not detected
+SRR14722099	Tremellomycetes	752849760	not detected
+SRR14722028	Cystobasidiomycetes	754572972	not detected
+SRR13167197	Acidobacteriaceae	761732733	not detected
+SRR13167197	Cystobasidiomycetes	761732733	not detected
+SRR13167197	Tremellomycetes	761732733	not detected
+SRR14722016	Cystobasidiomycetes	784227560	not detected
+SRR13126796	Cystobasidiomycetes	787429291	not detected
+SRR13126796	Tremellomycetes	787429291	not detected
+SRR13685164	Sphingomonadaceae	798545984	not detected
+SRR13685164	Tremellomycetes	798545984	not detected
+SRR14722004	Cystobasidiomycetes	815926084	not detected
+SRR14722010	Cystobasidiomycetes	834885342	not detected
+SRR14722010	Tremellomycetes	834885342	not detected
+SRR14721993	Cystobasidiomycetes	857871166	not detected
+SRR14722000	Cystobasidiomycetes	863435818	not detected
+SRR14721997	Cystobasidiomycetes	870103374	not detected
+SRR14721997	Tremellomycetes	870103374	not detected
+SRR14722118	Cystobasidiomycetes	904833072	not detected
+SRR14722118	Tremellomycetes	904833072	not detected
+SRR14721984	Cystobasidiomycetes	923492444	not detected
+SRR14722202	Beijerinckiaceae	958576992	not detected
+SRR14722202	Sphingomonadaceae	958576992	not detected
+SRR14722051	Cystobasidiomycetes	975559660	not detected
+SRR14722051	Tremellomycetes	975559660	not detected
+SRR14722018	Cystobasidiomycetes	975842634	not detected
+SRR14722018	Tremellomycetes	975842634	not detected
+SRR14722020	Cystobasidiomycetes	1006688612	not detected
+SRR14722312	Cystobasidiomycetes	1014178514	not detected
+SRR14722312	Tremellomycetes	1014178514	not detected
+SRR14721995	Cystobasidiomycetes	1015010524	not detected
+SRR14722012	Cystobasidiomycetes	1025757496	not detected
+SRR14722002	Cystobasidiomycetes	1027194714	not detected
+SRR14721998	Cystobasidiomycetes	1033038414	not detected
+SRR14721998	Tremellomycetes	1033038414	not detected
+SRR14722006	Cystobasidiomycetes	1036372796	not detected
+SRR14721987	Cystobasidiomycetes	1078541660	not detected
+SRR14721987	Tremellomycetes	1078541660	not detected
+SRR14721991	Cystobasidiomycetes	1081278384	not detected
+SRR14721991	Tremellomycetes	1081278384	not detected
+SRR12240175	Cystobasidiomycetes	1101309616	not detected
+SRR12240175	Tremellomycetes	1101309616	not detected
+SRR14722021	Cystobasidiomycetes	1107319844	not detected
+SRR14722031	Cystobasidiomycetes	1112283516	not detected
+SRR14722022	Sphingomonadaceae	1123401344	not detected
+SRR14722022	Tremellomycetes	1123401344	not detected
+SRR14722005	Cystobasidiomycetes	1141070760	not detected
+SRR12240178	Tremellomycetes	1141955117	not detected
+SRR14722015	Cystobasidiomycetes	1157540028	not detected
+SRR14722036	Cystobasidiomycetes	1159539872	not detected
+SRR14722036	Tremellomycetes	1159539872	not detected
+SRR14721983	Cystobasidiomycetes	1179233292	not detected
+SRR14721983	Tremellomycetes	1179233292	not detected
+SRR14721982	Cystobasidiomycetes	1195195804	not detected
+SRR14721978	Cystobasidiomycetes	1229069030	not detected
+SRR14721999	Cystobasidiomycetes	1230744828	not detected
+SRR14721999	Tremellomycetes	1230744828	not detected
+SRR14721970	Cystobasidiomycetes	1231440938	not detected
+SRR14721935	Cystobasidiomycetes	1234573282	not detected
+SRR14721941	Tremellomycetes	1286751030	not detected
+SRR14721980	Cystobasidiomycetes	1289181526	not detected
+SRR14721980	Tremellomycetes	1289181526	not detected
+SRR14721979	Cystobasidiomycetes	1295686606	not detected
+SRR14722302	Cystobasidiomycetes	1307381556	not detected
+SRR14722302	Tremellomycetes	1307381556	not detected
+SRR14721959	Cystobasidiomycetes	1316976096	not detected
+SRR14722174	Cystobasidiomycetes	1324337648	not detected
+SRR12240174	Cystobasidiomycetes	1329976068	not detected
+SRR12240174	Tremellomycetes	1329976068	not detected
+SRR14722019	Cystobasidiomycetes	1331060772	not detected
+SRR14722019	Tremellomycetes	1331060772	not detected
+SRR14721932	Cystobasidiomycetes	1337832518	not detected
+SRR14722066	Cystobasidiomycetes	1350674766	not detected
+SRR14721923	Cystobasidiomycetes	1351992392	not detected
+SRR14721923	Tremellomycetes	1351992392	not detected
+SRR14721948	Cystobasidiomycetes	1358620084	not detected
+SRR14721948	Tremellomycetes	1358620084	not detected
+SRR14722288	Cystobasidiomycetes	1372978674	not detected
+SRR14722288	Tremellomycetes	1372978674	not detected
+SRR14722026	Sphingomonadaceae	1376535630	not detected
+SRR14722023	Sphingomonadaceae	1390022346	not detected
+SRR14721946	Cystobasidiomycetes	1392508410	not detected
+SRR14721943	Cystobasidiomycetes	1393932642	not detected
+SRR14721943	Tremellomycetes	1393932642	not detected
+SRR14722151	Cystobasidiomycetes	1407435666	not detected
+SRR13685140	Cystobasidiomycetes	1409896362	not detected
+SRR14722009	Cystobasidiomycetes	1419216082	not detected
+SRR14722009	Tremellomycetes	1419216082	not detected
+SRR14721962	Cystobasidiomycetes	1438330870	not detected
+SRR14722330	Cystobasidiomycetes	1445485854	not detected
+SRR14722330	Tremellomycetes	1445485854	not detected
+SRR14721955	Cystobasidiomycetes	1448166708	not detected
+SRR14722290	Cystobasidiomycetes	1473725270	not detected
+SRR14722290	Tremellomycetes	1473725270	not detected
+SRR14722017	Cystobasidiomycetes	1480952130	not detected
+SRR14722017	Tremellomycetes	1480952130	not detected
+SRR14721944	Cystobasidiomycetes	1492914048	not detected
+SRR12240184	Acidobacteriaceae	1500967204	not detected
+SRR12240184	Cystobasidiomycetes	1500967204	not detected
+SRR12240184	Tremellomycetes	1500967204	not detected
+SRR14722275	Cystobasidiomycetes	1516342604	not detected
+SRR14721996	Cystobasidiomycetes	1522805404	not detected
+SRR14722014	Cystobasidiomycetes	1532844488	not detected
+SRR14722014	Tremellomycetes	1532844488	not detected
+SRR14722013	Cystobasidiomycetes	1537520354	not detected
+SRR14722013	Tremellomycetes	1537520354	not detected
+SRR14722056	Beijerinckiaceae	1539342924	not detected
+SRR14722056	Sphingomonadaceae	1539342924	not detected
+SRR14722056	Cystobasidiomycetes	1539342924	not detected
+SRR14722056	Tremellomycetes	1539342924	not detected
+SRR14722067	Sphingomonadaceae	1539836090	not detected
+SRR14722067	Cystobasidiomycetes	1539836090	not detected
+SRR14722082	Cystobasidiomycetes	1555905208	not detected
+SRR14722082	Tremellomycetes	1555905208	not detected
+SRR14721931	Cystobasidiomycetes	1559618298	not detected
+SRR14721931	Tremellomycetes	1559618298	not detected
+SRR14722323	Cystobasidiomycetes	1568205064	not detected
+SRR14721942	Cystobasidiomycetes	1576656232	not detected
+SRR14722109	Cystobasidiomycetes	1579021496	not detected
+SRR14721926	Cystobasidiomycetes	1588561676	not detected
+SRR14721926	Tremellomycetes	1588561676	not detected
+SRR14722007	Cystobasidiomycetes	1593583936	not detected
+SRR14722024	Cystobasidiomycetes	1603596142	not detected
+SRR14722280	Cystobasidiomycetes	1604343592	not detected
+SRR14722280	Tremellomycetes	1604343592	not detected
+SRR14721927	Cystobasidiomycetes	1605062352	not detected
+SRR14721927	Tremellomycetes	1605062352	not detected
+SRR14722101	Cystobasidiomycetes	1608475254	not detected
+SRR14722087	Cystobasidiomycetes	1608577934	not detected
+SRR14722046	Cystobasidiomycetes	1608581256	not detected
+SRR14722046	Tremellomycetes	1608581256	not detected
+SRR14722304	Cystobasidiomycetes	1610200580	not detected
+SRR14722304	Tremellomycetes	1610200580	not detected
+SRR14721964	Cystobasidiomycetes	1611903860	not detected
+SRR14721964	Tremellomycetes	1611903860	not detected
+SRR14721965	Cystobasidiomycetes	1614020880	not detected
+SRR14721965	Tremellomycetes	1614020880	not detected
+SRR14721933	Cystobasidiomycetes	1623848866	not detected
+SRR14722309	Cystobasidiomycetes	1625514094	not detected
+SRR14722309	Tremellomycetes	1625514094	not detected
+SRR14721925	Cystobasidiomycetes	1626183024	not detected
+SRR14721925	Tremellomycetes	1626183024	not detected
+SRR14721949	Tremellomycetes	1630314384	not detected
+SRR14722064	Cystobasidiomycetes	1632232688	not detected
+SRR14722064	Tremellomycetes	1632232688	not detected
+SRR14721952	Cystobasidiomycetes	1650217694	not detected
+SRR14721952	Tremellomycetes	1650217694	not detected
+SRR14721945	Acetobacteraceae	1650596100	not detected
+SRR14721945	Sphingomonadaceae	1650596100	not detected
+SRR14721945	Cystobasidiomycetes	1650596100	not detected
+SRR14721945	Tremellomycetes	1650596100	not detected
+SRR14722279	Cystobasidiomycetes	1650799950	not detected
+SRR14722278	Cystobasidiomycetes	1658886000	not detected
+SRR14721968	Cystobasidiomycetes	1667041510	not detected
+SRR14721968	Tremellomycetes	1667041510	not detected
+SRR12240181	Beijerinckiaceae	1669402964	not detected
+SRR12240181	Cystobasidiomycetes	1669402964	not detected
+SRR14721990	Cystobasidiomycetes	1674040360	not detected
+SRR14721990	Tremellomycetes	1674040360	not detected
+SRR14721950	Cystobasidiomycetes	1680403802	not detected
+SRR14721950	Tremellomycetes	1680403802	not detected
+SRR14722175	Cystobasidiomycetes	1680805160	not detected
+SRR14722296	Cystobasidiomycetes	1697605722	not detected
+SRR14722296	Tremellomycetes	1697605722	not detected
+SRR12240187	Tremellomycetes	1713022087	not detected
+SRR14721953	Cystobasidiomycetes	1713412100	not detected
+SRR14721953	Tremellomycetes	1713412100	not detected
+SRR14722068	Cystobasidiomycetes	1718570864	not detected
+SRR14721922	Cystobasidiomycetes	1722459416	not detected
+SRR14722140	Cystobasidiomycetes	1728674878	not detected
+SRR14721974	Cystobasidiomycetes	1756628904	not detected
+SRR14722081	Cystobasidiomycetes	1759614476	not detected
+SRR14722037	Cystobasidiomycetes	1763670034	not detected
+SRR12240179	Acidobacteriaceae	1772170559	not detected
+SRR12240179	Cystobasidiomycetes	1772170559	not detected
+SRR14721937	Cystobasidiomycetes	1786893834	not detected
+SRR14722329	Cystobasidiomycetes	1792631532	not detected
+SRR12240188	Cystobasidiomycetes	1795584881	not detected
+SRR12240188	Tremellomycetes	1795584881	not detected
+SRR14722298	Cystobasidiomycetes	1804158872	not detected
+SRR14722043	Cystobasidiomycetes	1807451880	not detected
+SRR14722043	Tremellomycetes	1807451880	not detected
+SRR14722313	Cystobasidiomycetes	1821332102	not detected
+SRR14722313	Tremellomycetes	1821332102	not detected
+SRR14722106	Cystobasidiomycetes	1825538056	not detected
+SRR14722105	Cystobasidiomycetes	1827127180	not detected
+SRR14722301	Cystobasidiomycetes	1832608178	not detected
+SRR14722301	Tremellomycetes	1832608178	not detected
+SRR14722292	Cystobasidiomycetes	1835472346	not detected
+SRR14722058	Cystobasidiomycetes	1850829952	not detected
+SRR14722058	Tremellomycetes	1850829952	not detected
+SRR14722136	Cystobasidiomycetes	1878951588	not detected
+SRR14722136	Tremellomycetes	1878951588	not detected
+SRR12240177	Cystobasidiomycetes	1887998081	not detected
+SRR12240177	Tremellomycetes	1887998081	not detected
+SRR14722325	Cystobasidiomycetes	1889563868	not detected
+SRR14722325	Tremellomycetes	1889563868	not detected
+SRR14722326	Cystobasidiomycetes	1898066678	not detected
+SRR14722077	Cystobasidiomycetes	1920498332	not detected
+SRR14722063	Cystobasidiomycetes	1932117782	not detected
+SRR14722305	Cystobasidiomycetes	1941179594	not detected
+SRR14721957	Cystobasidiomycetes	1959059806	not detected
+SRR14721957	Tremellomycetes	1959059806	not detected
+SRR14722307	Acidobacteriaceae	1961472484	not detected
+SRR14722307	Cystobasidiomycetes	1961472484	not detected
+SRR14722307	Tremellomycetes	1961472484	not detected
+SRR14722281	Cystobasidiomycetes	1967710294	not detected
+SRR14722281	Tremellomycetes	1967710294	not detected
+SRR14722197	Cystobasidiomycetes	1968745248	not detected
+SRR14722197	Tremellomycetes	1968745248	not detected
+SRR14722054	Cystobasidiomycetes	1985291526	not detected
+SRR14722054	Tremellomycetes	1985291526	not detected
+SRR14722293	Cystobasidiomycetes	1996136648	not detected
+SRR14721954	Cystobasidiomycetes	2031774158	not detected
+SRR14721954	Tremellomycetes	2031774158	not detected
+SRR14722041	Cystobasidiomycetes	2088996816	not detected
+SRR14722084	Sphingomonadaceae	2103064882	not detected
+SRR14722084	Cystobasidiomycetes	2103064882	not detected
+SRR14722084	Tremellomycetes	2103064882	not detected
+SRR14722277	Cystobasidiomycetes	2116714376	not detected
+SRR14721966	Cystobasidiomycetes	2128997320	not detected
+SRR14722184	Cystobasidiomycetes	2134534188	not detected
+SRR14722127	Cystobasidiomycetes	2196437846	not detected
+SRR14722057	Cystobasidiomycetes	2199167926	not detected
+SRR14722319	Tremellomycetes	2200427266	not detected
+SRR14722300	Cystobasidiomycetes	2235551678	not detected
+SRR14722078	Cystobasidiomycetes	2237419850	not detected
+SRR14722078	Tremellomycetes	2237419850	not detected
+SRR14722173	Cystobasidiomycetes	2278285886	not detected
+SRR14722080	Sphingomonadaceae	2282694482	not detected
+SRR14722080	Cystobasidiomycetes	2282694482	not detected
+SRR14722316	Cystobasidiomycetes	2324797208	not detected
+SRR14722095	Tremellomycetes	2377912666	not detected
+SRR14722039	Cystobasidiomycetes	2390043402	not detected
+SRR14722039	Tremellomycetes	2390043402	not detected
+SRR14722098	Cystobasidiomycetes	2400755946	not detected
+SRR14722274	Cystobasidiomycetes	2402037634	not detected
+SRR14722083	Cystobasidiomycetes	2415466366	not detected
+SRR14722083	Tremellomycetes	2415466366	not detected
+SRR14721956	Cystobasidiomycetes	2428900534	not detected
+SRR14721960	Cystobasidiomycetes	2429449570	not detected
+SRR14721960	Tremellomycetes	2429449570	not detected
+SRR14722213	Cystobasidiomycetes	2461390902	not detected
+SRR14722213	Tremellomycetes	2461390902	not detected
+SRR14721961	Cystobasidiomycetes	2500335916	not detected
+SRR14721961	Tremellomycetes	2500335916	not detected
+SRR14722181	Cystobasidiomycetes	2501883062	not detected
+SRR14722181	Tremellomycetes	2501883062	not detected
+SRR14722120	Sphingomonadaceae	2522191958	not detected
+SRR14722120	Cystobasidiomycetes	2522191958	not detected
+SRR14722120	Tremellomycetes	2522191958	not detected
+SRR12240183	Cystobasidiomycetes	2592537340	not detected
+SRR14722251	Cystobasidiomycetes	2592571548	not detected
+SRR14722251	Tremellomycetes	2592571548	not detected
+SRR14722144	Cystobasidiomycetes	2665979896	not detected
+SRR14722090	Cystobasidiomycetes	2705046012	not detected
+SRR14722090	Tremellomycetes	2705046012	not detected
+SRR14722138	Cystobasidiomycetes	2719689388	not detected
+SRR14722138	Tremellomycetes	2719689388	not detected
+SRR14722156	Cystobasidiomycetes	2739296436	not detected
+SRR14722156	Tremellomycetes	2739296436	not detected
+SRR14722124	Cystobasidiomycetes	2740461250	not detected
+SRR14722299	Cystobasidiomycetes	2773612998	not detected
+SRR14722062	Cystobasidiomycetes	2820670940	not detected
+SRR14722062	Tremellomycetes	2820670940	not detected
+SRR14722164	Cystobasidiomycetes	2822949228	not detected
+SRR14722088	Cystobasidiomycetes	2831025614	not detected
+SRR14722132	Cystobasidiomycetes	2833612546	not detected
+SRR13126859	Cystobasidiomycetes	2876909202	not detected
+SRR13126859	Tremellomycetes	2876909202	not detected
+SRR14722167	Cystobasidiomycetes	2926657538	not detected
+SRR14722167	Tremellomycetes	2926657538	not detected
+SRR14722163	Cystobasidiomycetes	2968349846	not detected
+SRR14722143	Cystobasidiomycetes	3066559944	not detected
+SRR14722166	Cystobasidiomycetes	3127245938	not detected
+SRR12240185	Acetobacteraceae	3154402494	not detected
+SRR12240185	Acidobacteriaceae	3154402494	not detected
+SRR12240185	Beijerinckiaceae	3154402494	not detected
+SRR12240185	Sphingomonadaceae	3154402494	not detected
+SRR12240185	Cystobasidiomycetes	3154402494	not detected
+SRR12240185	Tremellomycetes	3154402494	not detected
+SRR14722219	Cystobasidiomycetes	3196541952	not detected
+SRR14722219	Tremellomycetes	3196541952	not detected
+SRR14722139	Cystobasidiomycetes	3225231348	not detected
+SRR14722161	Cystobasidiomycetes	3248286632	not detected
+SRR14722161	Tremellomycetes	3248286632	not detected
+SRR14722141	Cystobasidiomycetes	3306673198	not detected
+SRR14722141	Tremellomycetes	3306673198	not detected
+T1868	Tremellomycetes	3312900600	not detected
+SRR14722145	Cystobasidiomycetes	3367211212	not detected
+SRR14722145	Tremellomycetes	3367211212	not detected
+SRR14722169	Cystobasidiomycetes	3391945314	not detected
+SRR14722230	Cystobasidiomycetes	3408952142	not detected
+SRR14722230	Tremellomycetes	3408952142	not detected
+SRR14722086	Cystobasidiomycetes	3412670668	not detected
+SRR14722232	Cystobasidiomycetes	3456403590	not detected
+SRR14722233	Cystobasidiomycetes	3503086146	not detected
+SRR14722221	Cystobasidiomycetes	3561442512	not detected
+SRR14722165	Cystobasidiomycetes	3570968498	not detected
+SRR12240180	Cystobasidiomycetes	3598375506	not detected
+SRR14722117	Cystobasidiomycetes	3718520866	not detected
+SRR14722133	Cystobasidiomycetes	3761583348	not detected
+SRR14722133	Tremellomycetes	3761583348	not detected
+SRR14722112	Cystobasidiomycetes	4131638444	not detected
+SRR14722123	Cystobasidiomycetes	4166324654	not detected
+SRR14722123	Tremellomycetes	4166324654	not detected
+VT22	Cystobasidiomycetes	4681562626	not detected
+SRR14722176	Cystobasidiomycetes	4742255264	not detected
+SRR14722308	Acidobacteriaceae	4793372086	not detected
+SRR14722308	Cystobasidiomycetes	4793372086	not detected
+SRR14722308	Tremellomycetes	4793372086	not detected
+T1867	Cystobasidiomycetes	4840140300	not detected
+SRR14722121	Cystobasidiomycetes	5024869582	not detected
+VT34	Acidobacteriaceae	5154969068	not detected
+VT34	Cystobasidiomycetes	5154969068	not detected
+VT34	Tremellomycetes	5154969068	not detected
+SRR14722116	Sphingomonadaceae	5176420732	not detected
+SRR14722116	Tremellomycetes	5176420732	not detected
+SRR14722128	Cystobasidiomycetes	5671217532	not detected
+VT15	Cystobasidiomycetes	6033792692	not detected
+VT12	Tremellomycetes	6037720806	not detected
+SRR14722113	Cystobasidiomycetes	6700040026	not detected
+VT31	Acidobacteriaceae	6757064572	not detected
+VT31	Beijerinckiaceae	6757064572	not detected
+VT31	Cystobasidiomycetes	6757064572	not detected
+SRR2387885	Cystobasidiomycetes	7034650998	not detected
+SRR2387885	Tremellomycetes	7034650998	not detected
+VT38	Cystobasidiomycetes	7584511956	not detected
+VT38	Tremellomycetes	7584511956	not detected
+SRR13125762	Acidobacteriaceae	9146430147	not detected
+SRR13125762	Beijerinckiaceae	9146430147	not detected
+SRR13125762	Sphingomonadaceae	9146430147	not detected
+SRR13125762	Tremellomycetes	9146430147	not detected
+X14	Beijerinckiaceae	10204075500	not detected
+X14	Sphingomonadaceae	10204075500	not detected
+SRR1531569	Cystobasidiomycetes	11418853650	not detected
+SRR7232211	Sphingomonadaceae	11915952768	not detected
+SRR7232212	Acidobacteriaceae	11983139856	not detected
+SRR7232212	Beijerinckiaceae	11983139856	not detected
+SRR7232212	Sphingomonadaceae	11983139856	not detected
+SRR7232214	Acetobacteraceae	12080153888	not detected
+SRR7232214	Acidobacteriaceae	12080153888	not detected
+SRR7232214	Beijerinckiaceae	12080153888	not detected
+SRR7232214	Sphingomonadaceae	12080153888	not detected
+SRR7232213	Beijerinckiaceae	12478175288	not detected
+SRR7232213	Sphingomonadaceae	12478175288	not detected
+X9	Sphingomonadaceae	12497401000	not detected
+X7	Acidobacteriaceae	12531347000	not detected
+X7	Beijerinckiaceae	12531347000	not detected
+X7	Sphingomonadaceae	12531347000	not detected
+SRR11456918	Cystobasidiomycetes	12580023514	not detected
+SRR11456923	Cystobasidiomycetes	12708455960	not detected
+SRR11456917	Cystobasidiomycetes	12749704932	not detected
+X12	Acidobacteriaceae	13243158000	not detected
+X12	Sphingomonadaceae	13243158000	not detected
+X4	Cystobasidiomycetes	13287338000	not detected
+X13	Acidobacteriaceae	13332657500	not detected
+X13	Sphingomonadaceae	13332657500	not detected
+X13	Cystobasidiomycetes	13332657500	not detected
+X2	Acidobacteriaceae	14488756500	not detected
+X2	Sphingomonadaceae	14488756500	not detected
+SRR1531545	Cystobasidiomycetes	15367008150	not detected
+T1882	Acidobacteriaceae	16086931500	not detected
+T1882	Cystobasidiomycetes	16086931500	not detected
+SRR1531517	Cystobasidiomycetes	18235852650	not detected
+SRR1531517	Tremellomycetes	18235852650	not detected
+T1912	Acidobacteriaceae	18875462100	not detected
+T1912	Cystobasidiomycetes	18875462100	not detected
+T1912	Tremellomycetes	18875462100	not detected
+T1881	Acidobacteriaceae	21838551300	not detected
+T1881	Sphingomonadaceae	21838551300	not detected
+T1887	Cystobasidiomycetes	26592286200	not detected
+T1887	Tremellomycetes	26592286200	not detected
+T1904	Cystobasidiomycetes	28165630200	not detected
+GTX0161	Tremellomycetes	32118972600	not detected
+SRR14721975	Acetobacteraceae	168207054	NA
+SRR14721975	Acidobacteriaceae	168207054	NA
+SRR14721975	Beijerinckiaceae	168207054	NA
+SRR14721975	Sphingomonadaceae	168207054	NA
+SRR14721975	Trebouxiophyceae	168207054	NA
+SRR14721975	Cystobasidiomycetes	168207054	NA
+SRR14721975	Tremellomycetes	168207054	NA
+SRR13685142	Acidobacteriaceae	433080986	NA
+SRR13685142	Beijerinckiaceae	433080986	NA
+SRR13685142	Sphingomonadaceae	433080986	NA
+SRR13685142	Trebouxiophyceae	433080986	NA
+SRR13685142	Cystobasidiomycetes	433080986	NA
+SRR13685142	Tremellomycetes	433080986	NA
+SRR14722060	Acetobacteraceae	509313034	NA
+SRR14722060	Acidobacteriaceae	509313034	NA
+SRR14722060	Beijerinckiaceae	509313034	NA
+SRR14722060	Sphingomonadaceae	509313034	NA
+SRR14722060	Trebouxiophyceae	509313034	NA
+SRR14722060	Cystobasidiomycetes	509313034	NA
+SRR14722060	Tremellomycetes	509313034	NA
+SRR13685159	Acetobacteraceae	567138182	NA
+SRR13685159	Acidobacteriaceae	567138182	NA
+SRR13685159	Beijerinckiaceae	567138182	NA
+SRR13685159	Sphingomonadaceae	567138182	NA
+SRR13685159	Cystobasidiomycetes	567138182	NA
+SRR13685159	Tremellomycetes	567138182	NA
+SRR13685153	Acidobacteriaceae	700670804	NA
+SRR13685153	Beijerinckiaceae	700670804	NA
+SRR13685153	Sphingomonadaceae	700670804	NA
+SRR13685153	Trebouxiophyceae	700670804	NA
+SRR13685153	Cystobasidiomycetes	700670804	NA
+SRR13685153	Tremellomycetes	700670804	NA
+SRR14721972	Acetobacteraceae	721821072	NA
+SRR14721972	Acidobacteriaceae	721821072	NA
+SRR14721972	Beijerinckiaceae	721821072	NA
+SRR14721972	Sphingomonadaceae	721821072	NA
+SRR14721972	Trebouxiophyceae	721821072	NA
+SRR14721972	Cystobasidiomycetes	721821072	NA
+SRR14721972	Tremellomycetes	721821072	NA
+SRR14722314	Acidobacteriaceae	897036338	NA
+SRR14722314	Beijerinckiaceae	897036338	NA
+SRR14722314	Sphingomonadaceae	897036338	NA
+SRR14722314	Trebouxiophyceae	897036338	NA
+SRR14722314	Cystobasidiomycetes	897036338	NA
+SRR14722314	Tremellomycetes	897036338	NA
+SRR14722076	Acetobacteraceae	935642810	NA
+SRR14722076	Acidobacteriaceae	935642810	NA
+SRR14722076	Beijerinckiaceae	935642810	NA
+SRR14722076	Sphingomonadaceae	935642810	NA
+SRR14722076	Trebouxiophyceae	935642810	NA
+SRR14722076	Cystobasidiomycetes	935642810	NA
+SRR14722076	Tremellomycetes	935642810	NA
+SRR14722008	Acetobacteraceae	1001142684	NA
+SRR14722008	Acidobacteriaceae	1001142684	NA
+SRR14722008	Sphingomonadaceae	1001142684	NA
+SRR14722008	Trebouxiophyceae	1001142684	NA
+SRR14722008	Cystobasidiomycetes	1001142684	NA
+SRR14722008	Tremellomycetes	1001142684	NA
+SRR14722324	Acetobacteraceae	1072225632	NA
+SRR14722324	Acidobacteriaceae	1072225632	NA
+SRR14722324	Beijerinckiaceae	1072225632	NA
+SRR14722324	Sphingomonadaceae	1072225632	NA
+SRR14722324	Trebouxiophyceae	1072225632	NA
+SRR14722324	Cystobasidiomycetes	1072225632	NA
+SRR14722324	Tremellomycetes	1072225632	NA
+SRR14722276	Acidobacteriaceae	1080803036	NA
+SRR14722276	Beijerinckiaceae	1080803036	NA
+SRR14722276	Sphingomonadaceae	1080803036	NA
+SRR14722276	Trebouxiophyceae	1080803036	NA
+SRR14722276	Cystobasidiomycetes	1080803036	NA
+SRR14722276	Tremellomycetes	1080803036	NA
+SRR14722318	Acetobacteraceae	1177079730	NA
+SRR14722318	Acidobacteriaceae	1177079730	NA
+SRR14722318	Beijerinckiaceae	1177079730	NA
+SRR14722318	Sphingomonadaceae	1177079730	NA
+SRR14722318	Trebouxiophyceae	1177079730	NA
+SRR14722318	Cystobasidiomycetes	1177079730	NA
+SRR14722318	Tremellomycetes	1177079730	NA
+SRR14722034	Acetobacteraceae	1210850276	NA
+SRR14722034	Acidobacteriaceae	1210850276	NA
+SRR14722034	Beijerinckiaceae	1210850276	NA
+SRR14722034	Sphingomonadaceae	1210850276	NA
+SRR14722034	Trebouxiophyceae	1210850276	NA
+SRR14722034	Cystobasidiomycetes	1210850276	NA
+SRR14722034	Tremellomycetes	1210850276	NA
+SRR14722092	Acetobacteraceae	1273068920	NA
+SRR14722092	Acidobacteriaceae	1273068920	NA
+SRR14722092	Beijerinckiaceae	1273068920	NA
+SRR14722092	Sphingomonadaceae	1273068920	NA
+SRR14722092	Trebouxiophyceae	1273068920	NA
+SRR14722092	Cystobasidiomycetes	1273068920	NA
+SRR14722092	Tremellomycetes	1273068920	NA
+SRR14722225	Acidobacteriaceae	1290245472	NA
+SRR14722225	Beijerinckiaceae	1290245472	NA
+SRR14722225	Sphingomonadaceae	1290245472	NA
+SRR14722225	Trebouxiophyceae	1290245472	NA
+SRR14722225	Cystobasidiomycetes	1290245472	NA
+SRR14722225	Tremellomycetes	1290245472	NA
+SRR14722044	Acetobacteraceae	1347790062	NA
+SRR14722044	Acidobacteriaceae	1347790062	NA
+SRR14722044	Beijerinckiaceae	1347790062	NA
+SRR14722044	Sphingomonadaceae	1347790062	NA
+SRR14722044	Trebouxiophyceae	1347790062	NA
+SRR14722044	Cystobasidiomycetes	1347790062	NA
+SRR14722044	Tremellomycetes	1347790062	NA
+SRR14722162	Acidobacteriaceae	1359847714	NA
+SRR14722162	Sphingomonadaceae	1359847714	NA
+SRR14722162	Trebouxiophyceae	1359847714	NA
+SRR14722162	Cystobasidiomycetes	1359847714	NA
+SRR14722162	Tremellomycetes	1359847714	NA
+SRR14721928	Acetobacteraceae	1373385468	NA
+SRR14721928	Acidobacteriaceae	1373385468	NA
+SRR14721928	Beijerinckiaceae	1373385468	NA
+SRR14721928	Sphingomonadaceae	1373385468	NA
+SRR14721928	Trebouxiophyceae	1373385468	NA
+SRR14721928	Cystobasidiomycetes	1373385468	NA
+SRR14721928	Tremellomycetes	1373385468	NA
+SRR14722131	Acetobacteraceae	1390226196	NA
+SRR14722131	Acidobacteriaceae	1390226196	NA
+SRR14722131	Beijerinckiaceae	1390226196	NA
+SRR14722131	Sphingomonadaceae	1390226196	NA
+SRR14722131	Trebouxiophyceae	1390226196	NA
+SRR14722131	Cystobasidiomycetes	1390226196	NA
+SRR14722131	Tremellomycetes	1390226196	NA
+SRR14722045	Acetobacteraceae	1411963250	NA
+SRR14722045	Acidobacteriaceae	1411963250	NA
+SRR14722045	Sphingomonadaceae	1411963250	NA
+SRR14722045	Trebouxiophyceae	1411963250	NA
+SRR14722045	Cystobasidiomycetes	1411963250	NA
+SRR14722045	Tremellomycetes	1411963250	NA
+SRR14722327	Acetobacteraceae	1485406932	NA
+SRR14722327	Acidobacteriaceae	1485406932	NA
+SRR14722327	Beijerinckiaceae	1485406932	NA
+SRR14722327	Sphingomonadaceae	1485406932	NA
+SRR14722327	Trebouxiophyceae	1485406932	NA
+SRR14722327	Cystobasidiomycetes	1485406932	NA
+SRR14722327	Tremellomycetes	1485406932	NA
+SRR14722287	Acetobacteraceae	1486629428	NA
+SRR14722287	Acidobacteriaceae	1486629428	NA
+SRR14722287	Beijerinckiaceae	1486629428	NA
+SRR14722287	Sphingomonadaceae	1486629428	NA
+SRR14722287	Trebouxiophyceae	1486629428	NA
+SRR14722287	Cystobasidiomycetes	1486629428	NA
+SRR14722287	Tremellomycetes	1486629428	NA
+SRR14721930	Acetobacteraceae	1525000944	NA
+SRR14721930	Acidobacteriaceae	1525000944	NA
+SRR14721930	Beijerinckiaceae	1525000944	NA
+SRR14721930	Sphingomonadaceae	1525000944	NA
+SRR14721930	Trebouxiophyceae	1525000944	NA
+SRR14721930	Cystobasidiomycetes	1525000944	NA
+SRR14721930	Tremellomycetes	1525000944	NA
+SRR14722032	Acetobacteraceae	1560774958	NA
+SRR14722032	Acidobacteriaceae	1560774958	NA
+SRR14722032	Beijerinckiaceae	1560774958	NA
+SRR14722032	Sphingomonadaceae	1560774958	NA
+SRR14722032	Trebouxiophyceae	1560774958	NA
+SRR14722032	Cystobasidiomycetes	1560774958	NA
+SRR14722032	Tremellomycetes	1560774958	NA
+SRR14721938	Acetobacteraceae	1606387226	NA
+SRR14721938	Acidobacteriaceae	1606387226	NA
+SRR14721938	Sphingomonadaceae	1606387226	NA
+SRR14721938	Trebouxiophyceae	1606387226	NA
+SRR14721938	Cystobasidiomycetes	1606387226	NA
+SRR14721938	Tremellomycetes	1606387226	NA
+SRR14722208	Acetobacteraceae	1648319322	NA
+SRR14722208	Acidobacteriaceae	1648319322	NA
+SRR14722208	Beijerinckiaceae	1648319322	NA
+SRR14722208	Sphingomonadaceae	1648319322	NA
+SRR14722208	Trebouxiophyceae	1648319322	NA
+SRR14722208	Cystobasidiomycetes	1648319322	NA
+SRR14722208	Tremellomycetes	1648319322	NA
+SRR14722320	Beijerinckiaceae	1735397700	NA
+SRR14722320	Sphingomonadaceae	1735397700	NA
+SRR14722320	Trebouxiophyceae	1735397700	NA
+SRR14722320	Cystobasidiomycetes	1735397700	NA
+SRR14722320	Tremellomycetes	1735397700	NA
+SRR14722033	Acetobacteraceae	1757553628	NA
+SRR14722033	Acidobacteriaceae	1757553628	NA
+SRR14722033	Beijerinckiaceae	1757553628	NA
+SRR14722033	Sphingomonadaceae	1757553628	NA
+SRR14722033	Trebouxiophyceae	1757553628	NA
+SRR14722033	Cystobasidiomycetes	1757553628	NA
+SRR14722033	Tremellomycetes	1757553628	NA
+SRR14722303	Acetobacteraceae	1778492798	NA
+SRR14722303	Sphingomonadaceae	1778492798	NA
+SRR14722303	Trebouxiophyceae	1778492798	NA
+SRR14722303	Cystobasidiomycetes	1778492798	NA
+SRR14722303	Tremellomycetes	1778492798	NA
+SRR14722071	Beijerinckiaceae	1841760892	NA
+SRR14722071	Sphingomonadaceae	1841760892	NA
+SRR14722071	Cystobasidiomycetes	1841760892	NA
+SRR14722071	Tremellomycetes	1841760892	NA
+SRR14722185	Acetobacteraceae	1975321902	NA
+SRR14722185	Acidobacteriaceae	1975321902	NA
+SRR14722185	Sphingomonadaceae	1975321902	NA
+SRR14722185	Trebouxiophyceae	1975321902	NA
+SRR14722185	Cystobasidiomycetes	1975321902	NA
+SRR14722185	Tremellomycetes	1975321902	NA
+SRR14722042	Beijerinckiaceae	2039049338	NA
+SRR14722042	Sphingomonadaceae	2039049338	NA
+SRR14722042	Cystobasidiomycetes	2039049338	NA
+SRR14722042	Tremellomycetes	2039049338	NA
+SRR14722048	Acetobacteraceae	2054355906	NA
+SRR14722048	Acidobacteriaceae	2054355906	NA
+SRR14722048	Beijerinckiaceae	2054355906	NA
+SRR14722048	Sphingomonadaceae	2054355906	NA
+SRR14722048	Trebouxiophyceae	2054355906	NA
+SRR14722048	Cystobasidiomycetes	2054355906	NA
+SRR14722048	Tremellomycetes	2054355906	NA
+SRR14722285	Acetobacteraceae	2085198864	NA
+SRR14722285	Acidobacteriaceae	2085198864	NA
+SRR14722285	Beijerinckiaceae	2085198864	NA
+SRR14722285	Sphingomonadaceae	2085198864	NA
+SRR14722285	Trebouxiophyceae	2085198864	NA
+SRR14722285	Cystobasidiomycetes	2085198864	NA
+SRR14722285	Tremellomycetes	2085198864	NA
+SRR14722152	Beijerinckiaceae	2109363394	NA
+SRR14722152	Sphingomonadaceae	2109363394	NA
+SRR14722152	Cystobasidiomycetes	2109363394	NA
+SRR14722152	Tremellomycetes	2109363394	NA
+SRR14722065	Beijerinckiaceae	2222570510	NA
+SRR14722065	Sphingomonadaceae	2222570510	NA
+SRR14722065	Trebouxiophyceae	2222570510	NA
+SRR14722065	Cystobasidiomycetes	2222570510	NA
+SRR14722065	Tremellomycetes	2222570510	NA
+SRR14722282	Acetobacteraceae	2249326804	NA
+SRR14722282	Acidobacteriaceae	2249326804	NA
+SRR14722282	Beijerinckiaceae	2249326804	NA
+SRR14722282	Sphingomonadaceae	2249326804	NA
+SRR14722282	Trebouxiophyceae	2249326804	NA
+SRR14722282	Cystobasidiomycetes	2249326804	NA
+SRR14722282	Tremellomycetes	2249326804	NA
+SRR14722222	Acetobacteraceae	2453653662	NA
+SRR14722222	Acidobacteriaceae	2453653662	NA
+SRR14722222	Beijerinckiaceae	2453653662	NA
+SRR14722222	Trebouxiophyceae	2453653662	NA
+SRR14722222	Cystobasidiomycetes	2453653662	NA
+SRR14722222	Tremellomycetes	2453653662	NA
+SRR14722172	Beijerinckiaceae	2578131720	NA
+SRR14722172	Sphingomonadaceae	2578131720	NA
+SRR14722172	Cystobasidiomycetes	2578131720	NA
+SRR14722172	Tremellomycetes	2578131720	NA
+SRR14722137	Acetobacteraceae	2618053100	NA
+SRR14722137	Acidobacteriaceae	2618053100	NA
+SRR14722137	Beijerinckiaceae	2618053100	NA
+SRR14722137	Sphingomonadaceae	2618053100	NA
+SRR14722137	Trebouxiophyceae	2618053100	NA
+SRR14722137	Cystobasidiomycetes	2618053100	NA
+SRR14722137	Tremellomycetes	2618053100	NA
+SRR14722085	Sphingomonadaceae	2676506106	NA
+SRR14722085	Trebouxiophyceae	2676506106	NA
+SRR14722085	Cystobasidiomycetes	2676506106	NA
+SRR14722085	Tremellomycetes	2676506106	NA
+SRR14722160	Sphingomonadaceae	2987733112	NA
+SRR14722160	Trebouxiophyceae	2987733112	NA
+SRR14722160	Cystobasidiomycetes	2987733112	NA
+SRR14722160	Tremellomycetes	2987733112	NA
+SRR14722229	Sphingomonadaceae	3274847230	NA
+SRR14722229	Trebouxiophyceae	3274847230	NA
+SRR14722229	Cystobasidiomycetes	3274847230	NA
+SRR14722229	Tremellomycetes	3274847230	NA
+SRR14722149	Acetobacteraceae	4395393164	NA
+SRR14722149	Beijerinckiaceae	4395393164	NA
+SRR14722149	Trebouxiophyceae	4395393164	NA
+SRR14722149	Cystobasidiomycetes	4395393164	NA
+SRR14722149	Tremellomycetes	4395393164	NA
+ERR4179391	Acidobacteriaceae	10854216148	NA
+ERR4179391	Trebouxiophyceae	10854216148	NA
+ERR4179391	Cystobasidiomycetes	10854216148	NA
+ERR4179391	Tremellomycetes	10854216148	NA
